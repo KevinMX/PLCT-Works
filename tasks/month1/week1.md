@@ -8,37 +8,37 @@ All Projects: 目录/链接可能需要更新（目录结构有变化）
 
 缺陷：详见 [openeuler-riscv-2303-test](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test) (on Gitee)
 
-|名称|说明|状态|
-|-|-|:-:|
-|UKUI|安装方法&使用手册待补完，23.03 下目前可能无法使用，需要回归测试|WIP|
-|gcc/jdk|缺包，官方测试用例暂时无法使用|×?|
-|secPaver|缺少 SELinux 无法运行|×|
-|secGear|缺失 penglai SDK 无法运行|×|
-|eggo||TBD|
-|OpenResty||TBD|
-|IO 智能多流 astream|可安装，未测试|WIP|
-|GNOME|lightDM 有问题（降级内核可救），GDM 也有问题，有部分包缺依赖（可能已修复，需要回归测试）|WIP|
-|iSula(d)|官方提供的黑盒测试工具暂未使用，其他部分测试已基本完成|WIP|
-|HA 软件/高可用|可安装，需要至少两台机器，QEMU 下可能需要较复杂的网络配置|WIP|
-|A-Ops||TBD|
-|ROS|ROS2 oErv 暂无支持|×|
-|kconfigDetector|oErv 源不提供，Python 程序，可直接运行，有报错|WIP|
-|iSulad native network||WIP|
-|Unmatched hwtest||TBD|
-|mugen||TBD|
-|Kiran 桌面|可正常使用，文档待合并|WIP|
-|新增备份还原功能||TBD|
-|OpenStack Train & Wallaby||TBD|
-|定制裁剪工具 imageTailor, oemaker|镜像源软件包缺失|×|
-|k3s|安装过程中有报错，23.03 下需要回归测试|WIP|
-|pkgship|可安装，服务启动失败|WIP|
-|mindspore|软件源不提供|x|
-|kubernetes (k8s)|可安装，自动测试失败，文档需要补完|WIP|
-|DDE|可能需要降级内核|WIP|
-|Cinnamon|23.03 需要回归测试|WIP|
-|virt|可安装，功能未测试，先前版本基本成功|WIP|
-|A-Tune|可安装，不可用|×|
-|etmem|modprobe 报错|×|
-|rubik|软件源不提供，缺少文档|×|
-|libstorage||TBD|
-|pod 带宽管理 oncn-bwm||TBD|
+### WIP/TBD List
+
+*: 可参考上游官方文档补全。
+
+|名称|说明|安装文档|使用文档|已测试|测试用例|
+|-|-|-|-|-|-|
+|UKUI|使用手册待补完|Y|*|Y|Y|
+|DDE|使用手册待补完|Y|Y|Y|Y|
+|Kiran|使用手册待补完|Y|*|Y|Y|
+|Cinnamon|使用手册待补完|Y|*|Y|Y|
+|虚拟化 Virt||Y|*|N|N|
+|编译器 (gcc/jdk)|gcc 完成，jdk 缺少 jtreg|P|*|P|P|
+|HA/高可用|安装成功|Y|Y|N|Y|
+|A-Tune|无法启动|Y|Y|N|Y|
+|secPaver|oErv 不支持 SELinux，暂无法使用|Y|*|Y|Y|
+|secGear|缺依赖 penlaisdk|*|*|N|N|
+|eggo||*|*|N|N|
+|kubeOS||*|*|N|N|
+|OpenResty||Y|Y|N|Y|
+|etmem|启动失败|*|*|N|N|
+|openGauss|不支持|*|*|N|N|
+|libcareplus||*|*|N|N|
+|用户态协议栈 gazelle|缺包，不支持|*|*|N|N|
+|容器场景在离线混合部署 rubik|缺包，不支持|*|*|N|N|
+|A-ops||Y|*|N|N|
+|libstorage 针对 NVME 的 IO 栈||*|*|N|N|
+|k3s|23.03 需要回归测试|Y|*|N|N|
+|IO 智能多流 astream||Y|*|N|N|
+|pkgship|无法启动|Y|*|Y|Y|
+|mindspore|缺包，不支持|*|*|N|N|
+|pod 带宽管理 oncn-bwm||*|*|N|N|
+|kubernetes||Y|*|Y|Y|
+|ROS/ROS2|ROS 2 暂不支持|N|N|N|N|
+|kconfigDetector||Y|Y|Y|Y|
