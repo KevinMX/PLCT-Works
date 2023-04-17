@@ -46,3 +46,9 @@ All Projects: 目录/链接可能需要更新（目录结构有变化）
 |kubernetes||Y|*|Y|Y|Y|
 |ROS/ROS2|ROS 2 暂不支持|N|N|N|N|
 |kconfigDetector|OBS 已有且构建成功，暂未进源|Y|Y|Y|Y|Y|
+
+### 下周计划
+
+- 补全 UKUI、Kiran、libcareplus 文档 & 测试用例；
+- 补全已测试软件包的详细结果，如有缺陷未提交，则提交 issue；
+- 测试 libcareplus 和 kconfigDetector。
