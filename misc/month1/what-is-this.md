@@ -37,21 +37,29 @@
 |【openEuler 23.03】新增高性能服务网格数据面Kmesh|[官方文档-23.03](https://docs.openeuler.org/zh/docs/23.03/docs/Kmesh/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.html)
 |【openEuler 23.03】 虚拟机热迁移|[QEMU 文档](https://www.qemu.org/docs/master/devel/migration.html);[openEuler 文档](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/%E7%83%AD%E8%BF%81%E7%A7%BB%E8%99%9A%E6%8B%9F%E6%9C%BA.html)|
 
-## What is This?
+## What is this?
 
 |名称|说明|安装文档|使用文档|已测试|测试用例|当前有包/可安装|可用性**|issues|SIG 组|
 |-|-|-|-|-|-|-|-|-|-|
-|虚拟化 Virt|优先级低，目前市面上尚无支持虚拟化的 RISC-V 硬件|Y|*|N|N|Y|
-|虚拟化热补丁libcareplus|23.02 可用（仅测试针对单个程序打 hot patch），23.03 TBD，需要请教其他老师|*|*|N|N|Y|
-|DPU虚机热迁移：内核态vDPA支持，异构网卡直通|不支持，前序依赖包括但不限于虚拟化|
-|定制裁剪工具(imageTailor和oemaker)|目前不支持，后续可能会做|
-|安装部署，覆盖裸机/虚机场景下，通过光盘/USB/PXE三种安装方式，覆盖最小化/虚拟化/服务器三种模式的安装部署|目前不支持，后续会做|
-|直连聚合虚机管理无感卸载|不支持，前序依赖包括但不限于虚拟化|
-|libstorage 针对 NVME 的 IO 栈|需要请教其他老师|*|*|N|N|
-|国密算法|SM2/4 大概支持？SM3 需要刷新一下 kernel|
-|支持基于分布式软总线扩展生态互联互通|¹dsoftbus 的包还没人修|
-|支持混合关键部署技术扩展|²OpenAMP 的包能打出来，不过虚拟化相关内容可能还得再考虑一下|
-|支持硬实时系统|³目前没有人看 rt 相关的事情|
-|新增备份还原功能支持|需要请教其他老师|
-|新增ROS基础版和ROS2基础版|需要请教其他老师|
-|sig-Migration？|验证dde桌面支持能力,基础组件、预装应用核心功能、新增特性基础功能以及基本UI功能正常||
+|虚拟化 Virt|优先级低，目前市面上尚无支持虚拟化的 RISC-V 硬件|Y|*|N|N|Y|||sig-Virt|
+|虚拟化热补丁libcareplus|23.02 可用（仅测试针对单个程序打 hot patch），23.03 TBD，需要请教其他老师|*|*|N|N|Y|||sig-Virt|
+|DPU虚机热迁移：内核态vDPA支持，异构网卡直通|不支持，前序依赖包括但不限于虚拟化||||||||sig-Virt|
+|定制裁剪工具(imageTailor和oemaker)|目前不支持，后续可能会做||||||||sig-OS-Builder|
+|安装部署，覆盖裸机/虚机场景下，通过光盘/USB/PXE三种安装方式，覆盖最小化/虚拟化/服务器三种模式的安装部署|目前不支持，后续会做||||||||?|
+|直连聚合虚机管理无感卸载|不支持，前序依赖包括但不限于虚拟化||||||||sig-Virt|
+|libstorage 针对 NVME 的 IO 栈|需要请教其他老师|*|*|N|N||||?|
+|国密算法|SM2/4 大概支持？SM3 需要刷新一下 kernel||||||||sig-security-facility?|
+|支持基于分布式软总线扩展生态互联互通|dsoftbus 的包还没人修||||||||sig-Embedded|
+|支持混合关键部署技术扩展|OpenAMP 的包能打出来，不过虚拟化相关内容可能还得再考虑一下||||||||sig-Embedded|
+|支持硬实时系统|目前没有人看 rt 相关的事情||||||||sig-ROS?|
+|新增备份还原功能支持|需要请教其他老师||||||||sig-Migration?|
+|新增ROS基础版和ROS2基础版|需要请教其他老师||||||||sig-ROS|
+||验证dde桌面支持能力,基础组件、预装应用核心功能、新增特性基础功能以及基本UI功能正常||||||||sig-Migration???|
+
+Note:
+
+*: 可参考上游官方文档补全。
+
+\**: 可用性从低到高 0~10，0 = 完全不可用（e.g. 无法启动/无法安装），10 = **流畅**使用无 Bug，其余 = 有 Bug / 需要 workaround，视 Bug 严重程度 & workaround 操作复杂度打分；以此类推。
+
+> TODO: 后续可能细化评分标准。
