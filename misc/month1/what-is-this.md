@@ -35,14 +35,14 @@
 |kconfigDetector|OBS 已有且构建成功，暂未进源|Y|Y|Y|Y|Y||[I6V7CP](https://gitee.com/openeuler/RISC-V/issues/I6V7CP)|Kernel|
 |使用开源测试套LTP/mmtest|||||||||sig-kernel/sig-QA|
 |【openEuler 23.03】新增高性能服务网格数据面Kmesh|[官方文档-23.03](https://docs.openeuler.org/zh/docs/23.03/docs/Kmesh/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.html)|*|*|N|N|N|0||sig-ebpf|
-|【openEuler 23.03】 虚拟机热迁移|[QEMU 文档](https://www.qemu.org/docs/master/devel/migration.html);[openEuler 文档](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/%E7%83%AD%E8%BF%81%E7%A7%BB%E8%99%9A%E6%8B%9F%E6%9C%BA.html)||||||||Virt|
+|【openEuler 23.03】 虚拟机热迁移|[QEMU 文档](https://www.qemu.org/docs/master/devel/migration.html)；[openEuler 文档](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/%E7%83%AD%E8%BF%81%E7%A7%BB%E8%99%9A%E6%8B%9F%E6%9C%BA.html)||||||||Virt|
 
 ## What is this?
 
 |名称|说明|安装文档|使用文档|已测试|测试用例|当前有包/可安装|可用性**|issues|SIG 组|
 |-|-|-|-|-|-|-|-|-|-|
 |**虚拟化 Virt**|优先级低，目前市面上尚无支持虚拟化的 RISC-V 硬件；openEuler 目前暂未实现，有虚拟化测试框架 avicado-vt，当前状态：[avocado-vt test on openEuler-riscv](https://gitee.com/lvxiaoqian/memo/blob/master/avocado-vt%20test%20on%20openEuler-riscv.md)|Y|*|N|N|Y|||sig-Virt|
-|**虚拟化热补丁libcareplus**|需要测试：23.02 可用（仅测试针对单个程序打 hot patch），23.03 TBD，有官方测试工具；**可能需要针对 RISC-V 平台本身的一些特性进行测试**（e.g. ELF 重定位类型）|*|*|N|N|Y|||sig-Virt|
+|**虚拟化热补丁libcareplus**|需要测试：23.02 可用（仅测试针对单个程序打 hot patch），23.03 TBD，有官方测试工具；**可能需要针对 RISC-V 平台本身的一些特性进行测试**（e.g. ELF 重定位类型）|Y|Y|Y|Y|Y|10||sig-Virt|
 |**定制裁剪工具(imageTailor和oemaker)**|需要测试：目前不支持，后续可能会做（发版镜像生成需要）||||||||sig-OS-Builder|
 |**国密算法**|需要测试，SM2/4 大概支持？SM3 需要刷新一下 kernel||||||||sig-security-facility?|
 |libstorage 针对 NVME 的 IO 栈|目前应该只有 Unmatched 和 VisionFive 2 支持 NVMe；需要请教其他老师|*|*|N|N||||?|
