@@ -2,8 +2,6 @@
 
 记录本月产出。
 
-***
-
 ## 测试用例 / testcases
 
 1. 容器相关（见 [此处](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers)）
@@ -22,16 +20,12 @@
 
 - StarFive VisionFive 2 [testcase](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/Hardware_Test/Visionfive2)
 
-***
-
 ## 文档内容
 
 - StarFive VisionFive 2 安装文档更新，补充安装系统至 NVMe 硬盘方法 [docs](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/Installation_Book/Visionfive2)
 - UKUI 使用文档 [docs](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/User_Book/UKUI%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C)
 - Kiran 使用文档 [docs](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/User_Book/Kiran%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C)
 - JDK 安装文档 [docs](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK)
-
-***
 
 ## 缺陷报告 / issues
 
@@ -43,8 +37,6 @@
 |[I6R9OQ](https://gitee.com/openeuler/RISC-V/issues/I6R9OQ)|kata-containers 软件包缺失|Confirmed - WIP|
 |[I6WHYU](https://gitee.com/openeuler/RISC-V/issues/I6WHYU)|23.03 Kiran 桌面安装并重启后默认不会开启网络连接|Confirmed - WIP|
 |[I6WRSY](https://gitee.com/openeuler/RISC-V/issues/I6WRSY)|23.03 6.1 内核下无法启动 Firefox|TBD|
-
-***
 
 ## 合并请求 / Pull Requests
 
@@ -59,8 +51,6 @@ openEuler RISC-V 23.03 测试：
 [!62 更新 UKUI 文档，认领任务](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/pulls/62)
 
 [!64 更新部分使用文档和测试用例](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/pulls/64)
-
-***
 
 ## 其他内容
 
