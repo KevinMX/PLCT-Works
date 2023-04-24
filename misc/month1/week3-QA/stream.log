@@ -1,0 +1,144 @@
+[openeuler@openeuler-riscv64 ~]$ git clone https://gitee.com/thesamename/STREAM.git
+Cloning into 'STREAM'...
+remote: Enumerating objects: 57, done.
+remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+Receiving objects: 100% (57/57), 22.81 KiB | 556.00 KiB/s, done.
+Resolving deltas: 100% (29/29), done.
+[openeuler@openeuler-riscv64 ~]$ sudo dnf install -y gcc gfortran
+[sudo] password for openeuler: 
+Sorry, try again.
+[sudo] password for openeuler: 
+Last metadata expiration check: 1:38:25 ago on Mon 24 Apr 2023 11:36:41 AM CST.
+Package gcc-10.3.1-25.oe2303.riscv64 is already installed.
+Dependencies resolved.
+====================================================================================================================================================================================================================== Package                                                Architecture                                   Version                                                  Repository                                       Size
+======================================================================================================================================================================================================================Installing:
+ gcc-gfortran                                           riscv64                                        10.3.1-27.oe2303                                         mainline                                        8.1 M
+Upgrading:
+ cpp                                                    riscv64                                        10.3.1-27.oe2303                                         mainline                                        7.0 M
+ gcc                                                    riscv64                                        10.3.1-27.oe2303                                         mainline                                         24 M
+ gcc-c++                                                riscv64                                        10.3.1-27.oe2303                                         mainline                                        8.7 M
+ gcc-gdb-plugin                                         riscv64                                        10.3.1-27.oe2303                                         mainline                                        100 k
+ libgcc                                                 riscv64                                        10.3.1-27.oe2303                                         mainline                                         75 k
+ libgomp                                                riscv64                                        10.3.1-27.oe2303                                         mainline                                        222 k
+ libstdc++                                              riscv64                                        10.3.1-27.oe2303                                         mainline                                        536 k
+ libstdc++-devel                                        riscv64                                        10.3.1-27.oe2303                                         mainline                                        2.6 M
+Installing dependencies:
+ libgfortran                                            riscv64                                        10.3.1-27.oe2303                                         mainline                                        368 k
+
+Transaction Summary
+======================================================================================================================================================================================================================Install  2 Packages
+Upgrade  8 Packages
+
+Total download size: 51 M
+Downloading Packages:
+(1/10): libgfortran-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                      192 kB/s | 368 kB     00:01    
+(2/10): cpp-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                              991 kB/s | 7.0 MB     00:07    
+(3/10): gcc-gfortran-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                     1.0 MB/s | 8.1 MB     00:08    
+(4/10): gcc-gdb-plugin-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                   523 kB/s | 100 kB     00:00    
+(5/10): libgcc-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                           551 kB/s |  75 kB     00:00    
+(6/10): libgomp-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                          894 kB/s | 222 kB     00:00    
+(7/10): libstdc++-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                        1.0 MB/s | 536 kB     00:00    
+(8/10): libstdc++-devel-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                  1.2 MB/s | 2.6 MB     00:02    
+(9/10): gcc-c++-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                          1.3 MB/s | 8.7 MB     00:06    
+(10/10): gcc-10.3.1-27.oe2303.riscv64.rpm                                                                                                                                             1.6 MB/s |  24 MB     00:15    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Total                                                                                                                                                                                 3.0 MB/s |  51 MB     00:17     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                              1/1 
+  Upgrading        : libgcc-10.3.1-27.oe2303.riscv64                                                                                                                                                             1/18 
+  Running scriptlet: libgcc-10.3.1-27.oe2303.riscv64                                                                                                                                                             1/18 
+  Upgrading        : libstdc++-10.3.1-27.oe2303.riscv64                                                                                                                                                          2/18 
+  Upgrading        : cpp-10.3.1-27.oe2303.riscv64                                                                                                                                                                3/18 
+  Upgrading        : libstdc++-devel-10.3.1-27.oe2303.riscv64                                                                                                                                                    4/18 
+  Installing       : libgfortran-10.3.1-27.oe2303.riscv64                                                                                                                                                        5/18 
+  Upgrading        : libgomp-10.3.1-27.oe2303.riscv64                                                                                                                                                            6/18 
+  Upgrading        : gcc-10.3.1-27.oe2303.riscv64                                                                                                                                                                7/18 
+  Installing       : gcc-gfortran-10.3.1-27.oe2303.riscv64                                                                                                                                                       8/18 
+  Upgrading        : gcc-c++-10.3.1-27.oe2303.riscv64                                                                                                                                                            9/18 
+  Upgrading        : gcc-gdb-plugin-10.3.1-27.oe2303.riscv64                                                                                                                                                    10/18 
+  Cleanup          : gcc-c++-10.3.1-25.oe2303.riscv64                                                                                                                                                           11/18 
+  Cleanup          : gcc-gdb-plugin-10.3.1-25.oe2303.riscv64                                                                                                                                                    12/18 
+  Cleanup          : libstdc++-devel-10.3.1-25.oe2303.riscv64                                                                                                                                                   13/18 
+  Cleanup          : gcc-10.3.1-25.oe2303.riscv64                                                                                                                                                               14/18 
+  Cleanup          : cpp-10.3.1-25.oe2303.riscv64                                                                                                                                                               15/18 
+  Cleanup          : libstdc++-10.3.1-25.oe2303.riscv64                                                                                                                                                         16/18 
+  Cleanup          : libgcc-10.3.1-25.oe2303.riscv64                                                                                                                                                            17/18 
+  Running scriptlet: libgcc-10.3.1-25.oe2303.riscv64                                                                                                                                                            17/18 
+  Cleanup          : libgomp-10.3.1-25.oe2303.riscv64                                                                                                                                                           18/18 
+  Running scriptlet: libgomp-10.3.1-25.oe2303.riscv64                                                                                                                                                           18/18 
+  Verifying        : gcc-gfortran-10.3.1-27.oe2303.riscv64                                                                                                                                                       1/18 
+  Verifying        : libgfortran-10.3.1-27.oe2303.riscv64                                                                                                                                                        2/18 
+  Verifying        : cpp-10.3.1-27.oe2303.riscv64                                                                                                                                                                3/18 
+  Verifying        : cpp-10.3.1-25.oe2303.riscv64                                                                                                                                                                4/18 
+  Verifying        : gcc-10.3.1-27.oe2303.riscv64                                                                                                                                                                5/18 
+  Verifying        : gcc-10.3.1-25.oe2303.riscv64                                                                                                                                                                6/18 
+  Verifying        : gcc-c++-10.3.1-27.oe2303.riscv64                                                                                                                                                            7/18 
+  Verifying        : gcc-c++-10.3.1-25.oe2303.riscv64                                                                                                                                                            8/18 
+  Verifying        : gcc-gdb-plugin-10.3.1-27.oe2303.riscv64                                                                                                                                                     9/18 
+  Verifying        : gcc-gdb-plugin-10.3.1-25.oe2303.riscv64                                                                                                                                                    10/18 
+  Verifying        : libgcc-10.3.1-27.oe2303.riscv64                                                                                                                                                            11/18 
+  Verifying        : libgcc-10.3.1-25.oe2303.riscv64                                                                                                                                                            12/18 
+  Verifying        : libgomp-10.3.1-27.oe2303.riscv64                                                                                                                                                           13/18 
+  Verifying        : libgomp-10.3.1-25.oe2303.riscv64                                                                                                                                                           14/18 
+  Verifying        : libstdc++-10.3.1-27.oe2303.riscv64                                                                                                                                                         15/18 
+  Verifying        : libstdc++-10.3.1-25.oe2303.riscv64                                                                                                                                                         16/18 
+  Verifying        : libstdc++-devel-10.3.1-27.oe2303.riscv64                                                                                                                                                   17/18 
+  Verifying        : libstdc++-devel-10.3.1-25.oe2303.riscv64                                                                                                                                                   18/18 
+
+Upgraded:
+  cpp-10.3.1-27.oe2303.riscv64           gcc-10.3.1-27.oe2303.riscv64             gcc-c++-10.3.1-27.oe2303.riscv64               gcc-gdb-plugin-10.3.1-27.oe2303.riscv64       libgcc-10.3.1-27.oe2303.riscv64      
+  libgomp-10.3.1-27.oe2303.riscv64       libstdc++-10.3.1-27.oe2303.riscv64       libstdc++-devel-10.3.1-27.oe2303.riscv64      
+Installed:
+  gcc-gfortran-10.3.1-27.oe2303.riscv64                                                                      libgfortran-10.3.1-27.oe2303.riscv64                                                                     
+
+Complete!
+[openeuler@openeuler-riscv64 ~]$ cd STREAM/
+[openeuler@openeuler-riscv64 STREAM]$ sed -i "s/CC =.*/CC = gcc/" Makefile
+sed -i "s/FC =.*/FC = gfortran/" Makefile
+[openeuler@openeuler-riscv64 STREAM]$ make
+gcc -O2 -fopenmp   -c -o mysecond.o mysecond.c
+gcc -O2 -fopenmp stream.c -o stream_c.exe
+gcc -O2 -fopenmp -c mysecond.c
+gfortran -O2 -fopenmp -c stream.f
+gfortran -O2 -fopenmp stream.o mysecond.o -o stream_f.exe
+[openeuler@openeuler-riscv64 STREAM]$ ls
+HISTORY.txt  LICENSE.txt  Makefile  mysecond.c  mysecond.o  README  stream.c  stream_c.exe  stream.f  stream_f.exe  stream.o
+[openeuler@openeuler-riscv64 STREAM]$ ./stream_c.exe 
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 10000000 (elements), Offset = 0 (elements)
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Number of Threads requested = 8
+Number of Threads counted = 8
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 18339 microseconds.
+   (= 18339 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           22795.1     0.007701     0.007019     0.008250
+Scale:           9635.2     0.018441     0.016606     0.019731
+Add:            11913.5     0.021807     0.020145     0.023779
+Triad:           9968.3     0.026275     0.024076     0.029037
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+[openeuler@openeuler-riscv64 STREAM]$ 
