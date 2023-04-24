@@ -1,0 +1,787 @@
+[openeuler@openeuler-riscv64 ~]$ sudo dnf install -y lmbench libtirpc libtirpc-devel
+Last metadata expiration check: 2:07:50 ago on Mon 24 Apr 2023 11:36:41 AM CST.
+Package libtirpc-1.3.3-2.oe2303.riscv64 is already installed.
+Dependencies resolved.
+====================================================================================================================================================================================================================== Package                                                Architecture                                    Version                                                Repository                                        Size
+======================================================================================================================================================================================================================Installing:
+ libtirpc-devel                                         riscv64                                         1.3.3-2.oe2303                                         mainline                                          46 k
+ lmbench                                                riscv64                                         3-4.oe2303                                             mainline                                         578 k
+
+Transaction Summary
+======================================================================================================================================================================================================================Install  2 Packages
+
+Total download size: 624 k
+Installed size: 3.7 M
+Downloading Packages:
+(1/2): libtirpc-devel-1.3.3-2.oe2303.riscv64.rpm                                                                                                                                       44 kB/s |  46 kB     00:01    
+(2/2): lmbench-3-4.oe2303.riscv64.rpm                                                                                                                                                 465 kB/s | 578 kB     00:01    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Total                                                                                                                                                                                 473 kB/s | 624 kB     00:01     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                              1/1 
+  Running scriptlet: lmbench-3-4.oe2303.riscv64                                                                                                                                                                   1/2 
+  Installing       : lmbench-3-4.oe2303.riscv64                                                                                                                                                                   1/2 
+  Running scriptlet: lmbench-3-4.oe2303.riscv64                                                                                                                                                                   1/2 
+  Installing       : libtirpc-devel-1.3.3-2.oe2303.riscv64                                                                                                                                                        2/2 
+  Running scriptlet: libtirpc-devel-1.3.3-2.oe2303.riscv64                                                                                                                                                        2/2 
+  Verifying        : libtirpc-devel-1.3.3-2.oe2303.riscv64                                                                                                                                                        1/2 
+  Verifying        : lmbench-3-4.oe2303.riscv64                                                                                                                                                                   2/2 
+
+Installed:
+  libtirpc-devel-1.3.3-2.oe2303.riscv64                                                                           lmbench-3-4.oe2303.riscv64                                                                          
+
+Complete!
+[openeuler@openeuler-riscv64 ~]$ cp -R /opt/lmbench .
+[openeuler@openeuler-riscv64 ~]$ sudo chown -R openeuler:openeuler ./lmbench
+[openeuler@openeuler-riscv64 ~]$ cd lmbench
+[openeuler@openeuler-riscv64 lmbench]$ make -j$(nproc)
+cd src && make
+make[1]: Entering directory '/home/openeuler/lmbench/src'
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_tcp.c -o ../bin//lib_tcp.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_udp.c -o ../bin//lib_udp.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_unix.c -o ../bin//lib_unix.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_timing.c -o ../bin//lib_timing.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_mem.c -o ../bin//lib_mem.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_stats.c -o ../bin//lib_stats.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_debug.c -o ../bin//lib_debug.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c getopt.c -o ../bin//getopt.o
+lib_debug.c: In function ‘percent_point’:
+lib_debug.c:24:11: warning: implicit declaration of function ‘floor’ [-Wimplicit-function-declaration]
+   24 |  if (t == floor(t)) {
+      |           ^~~~~
+lib_debug.c:24:11: warning: incompatible implicit declaration of built-in function ‘floor’
+lib_debug.c:2:1: note: include ‘<math.h>’ or provide a declaration of ‘floor’
+    1 | #include "bench.h"
+  +++ |+#include <math.h>
+    2 | #include "lib_debug.h"
+lib_timing.c: In function ‘touch’:
+lib_timing.c:1626:9: warning: type defaults to ‘int’ in declaration of ‘psize’ [-Wimplicit-int]
+ 1626 |  static psize;
+      |         ^~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_sched.c -o ../bin//lib_sched.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//msleep msleep.c
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -DMAIN -o ../bin//flushdisk flushdisk.c
+rm -f ../bin//lmbench
+sed -e "s/<version>/`cat bk.ver`/g" < ../scripts/lmbench > ../bin//lmbench
+cat: bk.ver: No such file or directory
+chmod +x ../bin//lmbench
+lib_sched.c: In function ‘handle_scheduler’:
+lib_sched.c:94:3: warning: ‘return’ with no value, in function returning non-void
+   94 |   return;
+      |   ^~~~~~
+lib_sched.c:46:1: note: declared here
+   46 | handle_scheduler(int childno, int benchproc, int nbenchprocs)
+      | ^~~~~~~~~~~~~~~~
+lib_sched.c: In function ‘sched_pin’:
+lib_sched.c:207:12: warning: implicit declaration of function ‘sched_getaffinity’ [-Wimplicit-function-declaration]
+  207 |   retval = sched_getaffinity(0, sz * sizeof(unsigned long), cpumask);
+      |            ^~~~~~~~~~~~~~~~~
+lib_sched.c:231:11: warning: implicit declaration of function ‘sched_setaffinity’ [-Wimplicit-function-declaration]
+  231 |  retval = sched_setaffinity(0, sz * sizeof(unsigned long), mask);
+      |           ^~~~~~~~~~~~~~~~~
+/bin/rm -f ../bin//lmbench.a
+ar cr ../bin//lmbench.a ../bin//lib_tcp.o ../bin//lib_udp.o ../bin//lib_unix.o ../bin//lib_timing.o ../bin//lib_mem.o ../bin//lib_stats.o ../bin//lib_debug.o ../bin//getopt.o ../bin//lib_sched.o
+ranlib ../bin//lmbench.a
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_file_rd bw_file_rd.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_mem bw_mem.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_mmap_rd bw_mmap_rd.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_pipe bw_pipe.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_tcp bw_tcp.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//bw_unix bw_unix.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//hello hello.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_select lat_select.c ../bin//lmbench.a -lm
+bw_mmap_rd.c: In function ‘main’:
+bw_mmap_rd.c:64:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+bw_file_rd.c: In function ‘main’:
+bw_file_rd.c:149:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  149 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+bw_pipe.c: In function ‘main’:
+bw_pipe.c:157:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  157 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+bw_tcp.c: In function ‘main’:
+bw_tcp.c:74:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   74 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+bw_mem.c: In function ‘main’:
+bw_mem.c:76:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   76 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+bw_unix.c: In function ‘main’:
+bw_unix.c:153:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  153 |    if (parallel <= 0) lmbench_usage(argc, argv, usage);
+      |                       ^~~~~~~~~~~~~
+lat_select.c: In function ‘main’:
+lat_select.c:53:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   53 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_select.c: In function ‘doit’:
+lat_select.c:167:9: warning: type defaults to ‘int’ in declaration of ‘count’ [-Wimplicit-int]
+  167 |  static count = 0;
+      |         ^~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_pipe lat_pipe.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_rpc lat_rpc.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_syscall lat_syscall.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_tcp lat_tcp.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_udp lat_udp.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_mmap lat_mmap.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//mhz mhz.c ../bin//lmbench.a -lm -lm
+lat_pipe.c: In function ‘main’:
+lat_pipe.c:41:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   41 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_syscall.c: In function ‘main’:
+lat_syscall.c:116:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  116 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_rpc.c: In function ‘main’:
+lat_rpc.c:136:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  136 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+lat_udp.c: In function ‘main’:
+lat_udp.c:78:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   78 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+lat_tcp.c: In function ‘main’:
+lat_tcp.c:64:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+lat_mmap.c: In function ‘main’:
+lat_mmap.c:58:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   58 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+mhz.c: In function ‘main’:
+mhz.c:492:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  492 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_proc lat_proc.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_pagefault lat_pagefault.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_connect lat_connect.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_fs lat_fs.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_sig lat_sig.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_mem_rd lat_mem_rd.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_ctx lat_ctx.c ../bin//lmbench.a -lm
+lat_proc.c: In function ‘main’:
+lat_proc.c:60:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   60 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_pagefault.c: In function ‘main’:
+lat_pagefault.c:54:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   54 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_fs.c: In function ‘main’:
+lat_fs.c:55:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   55 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_connect.c: In function ‘main’:
+lat_connect.c:63:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   63 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+lat_mem_rd.c: In function ‘main’:
+lat_mem_rd.c:47:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   47 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_sig.c: In function ‘main’:
+lat_sig.c:182:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  182 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_ctx.c: In function ‘main’:
+lat_ctx.c:74:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   74 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_sem lat_sem.c ../bin//lmbench.a -lm
+/usr/bin/ld: /tmp/ccvn2O6W.o: in function `setup_names':
+/home/openeuler/lmbench/src/lat_fs.c:185: warning: the use of `tempnam' is dangerous, better use `mkstemp'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//memsize memsize.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_unix lat_unix.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lmdd lmdd.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//timing_o timing_o.c ../bin//lmbench.a -lm
+lat_sem.c: In function ‘main’:
+lat_sem.c:42:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   42 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//enough enough.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//loop_o loop_o.c ../bin//lmbench.a -lm
+lat_unix.c: In function ‘main’:
+lat_unix.c:46:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   46 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_fifo lat_fifo.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lmhttp lmhttp.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_http lat_http.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_fcntl lat_fcntl.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//disk disk.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_unix_connect lat_unix_connect.c ../bin//lmbench.a -lmgcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_ops lat_ops.c ../bin//lmbench.a -lm
+lat_fifo.c: In function ‘main’:
+lat_fifo.c:45:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   45 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_http.c: In function ‘main’:
+lat_http.c:84:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   84 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+lat_fcntl.c: In function ‘main’:
+lat_fcntl.c:203:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  203 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_unix_connect.c: In function ‘main’:
+lat_unix_connect.c:63:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   63 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_ops.c: In function ‘main’:
+lat_ops.c:393:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  393 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//line line.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//tlb tlb.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//par_mem par_mem.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//par_ops par_ops.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//stream stream.c ../bin//lmbench.a -lm
+line.c: In function ‘main’:
+line.c:54:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   54 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+tlb.c: In function ‘main’:
+tlb.c:69:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   69 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+par_mem.c: In function ‘main’:
+par_mem.c:64:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+stream.c: In function ‘main’:
+stream.c:70:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   70 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+par_ops.c: In function ‘main’:
+par_ops.c:413:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  413 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//cache cache.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_dram_page lat_dram_page.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_pmake lat_pmake.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_rand lat_rand.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_usleep lat_usleep.c ../bin//lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin//lat_cmd lat_cmd.c ../bin//lmbench.a -lm
+lat_dram_page.c: In function ‘main’:
+cache.c: In function ‘main’:
+lat_dram_page.c:66:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   66 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+cache.c:123:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  123 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+lat_rand.c: In function ‘main’:
+lat_rand.c:39:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   39 |    if (parallel <= 0) lmbench_usage(ac, av, usage)
+      |                       ^~~~~~~~~~~~~
+lat_pmake.c: In function ‘main’:
+lat_pmake.c:47:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   47 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_usleep.c: In function ‘main’:
+lat_cmd.c: In function ‘main’:
+lat_cmd.c:40:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   40 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_usleep.c:204:3: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  204 |   lmbench_usage(ac, av, usage);
+      |   ^~~~~~~~~~~~~
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+make[1]: Leaving directory '/home/openeuler/lmbench/src'
+[openeuler@openeuler-riscv64 lmbench]$ make results
+cd src && make results
+make[1]: Entering directory '/home/openeuler/lmbench/src'
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gmake[2]: Nothing to be done for 'all'.
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gmake[2]: Nothing to be done for 'opt'.
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+=====================================================================
+
+                L M B E N C H   C ON F I G U R A T I O N
+                ----------------------------------------
+
+You need to configure some parameters to lmbench.  Once you have configured
+these parameters, you may do multiple runs by saying
+
+        "make rerun"
+
+in the src subdirectory.
+
+NOTICE: please do not have any other activity on the system if you can
+help it.  Things like the second hand on your xclock or X perfmeters
+are not so good when benchmarking.  In fact, X is not so good when
+benchmarking.
+
+=====================================================================
+
+Hang on, we are calculating your timing granularity.
+OK, it looks like you can time stuff down to 50000 usec resolution.
+
+Hang on, we are calculating your timing overhead.
+OK, it looks like your gettimeofday() costs 0 usecs.
+
+Hang on, we are calculating your loop overhead.
+OK, it looks like your benchmark loop costs 0.00002769 usecs.
+
+=====================================================================
+
+If you are running on an MP machine and you want to try running
+multiple copies of lmbench in parallel, you can specify how many here.
+
+Using this option will make the benchmark run 100x slower (sorry).
+
+NOTE:  WARNING! This feature is experimental and many results are 
+        known to be incorrect or random!
+
+MULTIPLE COPIES [default 1]  
+Options to control job placement
+1) Allow scheduler to place jobs
+2) Assign each benchmark process with any attendent child processes
+   to its own processor
+3) Assign each benchmark process with any attendent child processes
+   to its own processor, except that it will be as far as possible
+   from other processes
+4) Assign each benchmark and attendent processes to their own
+   processors
+5) Assign each benchmark and attendent processes to their own
+   processors, except that they will be as far as possible from
+   each other and other processes
+6) Custom placement: you assign each benchmark process with attendent
+   child processes to processors
+7) Custom placement: you assign each benchmark and attendent
+   processes to processors
+
+Note: some benchmarks, such as bw_pipe, create attendent child
+processes for each benchmark process.  For example, bw_pipe
+needs a second process to send data down the pipe to be read
+by the benchmark process.  If you have three copies of the
+benchmark process running, then you actually have six processes;
+three attendent child processes sending data down the pipes and 
+three benchmark processes reading data and doing the measurements.
+
+Job placement selection: 1
+=====================================================================
+
+Several benchmarks operate on a range of memory.  This memory should be
+sized such that it is at least 4 times as big as the external cache[s]
+on your system.   It should be no more than 80% of your physical memory.
+
+The bigger the range, the more accurate the results, but larger sizes
+take somewhat longer to run the benchmark.
+
+MB [default 2756] 4096
+Checking to see if you have 4096 MB; please wait for a moment...
+1024MB OK
+1024MB OK
+Hang on, we are calculating your cache line size.
+OK, it looks like your cache line is 64 bytes.
+
+=====================================================================
+
+lmbench measures a wide variety of system performance, and the full suite
+of benchmarks can take a long time on some platforms.  Consequently, we
+offer the capability to run only predefined subsets of benchmarks, one
+for operating system specific benchmarks and one for hardware specific
+benchmarks.  We also offer the option of running only selected benchmarks
+which is useful during operating system development.
+
+Please remember that if you intend to publish the results you either need
+to do a full run or one of the predefined OS or hardware subsets.
+
+SUBSET (ALL|HARWARE|OS|DEVELOPMENT) [default all] 
+=====================================================================
+
+This benchmark measures, by default, memory latency for a number of
+different strides.  That can take a long time and is most useful if you
+are trying to figure out your cache line size or if your cache line size
+is greater than 128 bytes.
+
+If you are planning on sending in these results, please don't do a fast
+run.
+
+Answering yes means that we measure memory latency with a 128 byte stride.  
+
+FASTMEM [default no] 
+=====================================================================
+
+This benchmark measures, by default, file system latency.  That can
+take a long time on systems with old style file systems (i.e., UFS,
+FFS, etc.).  Linux' ext2fs and Sun's tmpfs are fast enough that this
+test is not painful.
+
+If you are planning on sending in these results, please don't do a fast
+run.
+
+If you want to skip the file system latency tests, answer "yes" below.
+
+SLOWFS [default no] 
+=====================================================================
+
+This benchmark can measure disk zone bandwidths and seek times.  These can
+be turned into whizzy graphs that pretty much tell you everything you might
+need to know about the performance of your disk.  
+
+This takes a while and requires read access to a disk drive.  
+Write is not measured, see disk.c to see how if you want to do so.
+
+If you want to skip the disk tests, hit return below.
+
+If you want to include disk tests, then specify the path to the disk
+device, such as /dev/sda.  For each disk that is readable, you'll be
+prompted for a one line description of the drive, i.e., 
+
+        Iomega IDE ZIP
+or
+        HP C3725S 2GB on 10MB/sec NCR SCSI bus
+
+DISKS [default none] 
+=====================================================================
+
+If you are running on an idle network and there are other, identically
+configured systems, on the same wire (no gateway between you and them),
+and you have rsh access to them, then you should run the network part
+of the benchmarks to them.  Please specify any such systems as a space
+separated list such as: ether-host fddi-host hippi-host.
+
+REMOTE [default none] 
+=====================================================================
+
+Calculating mhz, please wait for a moment...
+mhz: should take approximately 15 seconds
+I think your CPU mhz is 
+
+        8803 MHz, 0.1136 nanosec clock
+
+but I am frequently wrong.  If that is the wrong Mhz, type in your
+best guess as to your processor speed.  It doesn't have to be exact,
+but if you know it is around 800, say 800.  
+
+Please note that some processors, such as the P4, have a core which
+is double-clocked, so on those processors the reported clock speed
+will be roughly double the advertised clock rate.  For example, a
+1.8GHz P4 may be reported as a 3592MHz processor.
+
+Processor mhz [default 8803 MHz, 0.1136 nanosec clock] 
+=====================================================================
+
+We need a place to store a 1024 Mbyte file as well as create and delete a
+large number of small files.  We default to /usr/tmp.  If /usr/tmp is a
+memory resident file system (i.e., tmpfs), pick a different place.
+Please specify a directory that has enough space and is a local file
+system.
+
+FSDIR [default /usr/tmp] 
+=====================================================================
+
+lmbench outputs status information as it runs various benchmarks.
+By default this output is sent to /dev/tty, but you may redirect
+it to any file you wish (such as /dev/null...).
+
+Status output file [default /dev/tty] 
+=====================================================================
+
+There is a database of benchmark results that is shipped with new
+releases of lmbench.  Your results can be included in the database
+if you wish.  The more results the better, especially if they include
+remote networking.  If your results are interesting, i.e., for a new
+fast box, they may be made available on the lmbench web page, which is
+
+        http://www.bitmover.com/lmbench
+
+Mail results [default yes] no
+OK, no results mailed.
+=====================================================================
+
+Confguration done, thanks.
+
+There is a mailing list for discussing lmbench hosted at BitMover. 
+Send mail to majordomo@bitmover.com to join the list.
+
+egrep: warning: egrep is obsolescent; using grep -E
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+../scripts/gnu-os: unable to guess system type
+
+This script, last modified 2004-08-18, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+    ftp://ftp.gnu.org/pub/gnu/config/
+
+If the version you run (../scripts/gnu-os) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2004-08-18
+
+uname -m = riscv64
+uname -r = 6.1.19-2.oe2303.riscv64
+uname -s = Linux
+uname -v = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+
+/usr/bin/uname -p = riscv64
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = riscv64
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = riscv64
+UNAME_RELEASE = 6.1.19-2.oe2303.riscv64
+UNAME_SYSTEM  = Linux
+UNAME_VERSION = #1 SMP Tue Apr  4 14:17:41 UTC 2023
+../scripts/results: line 30: ../../results//openeuler-riscv64.0: No such file or directory
+make[1]: Leaving directory '/home/openeuler/lmbench/src'
+[openeuler@openeuler-riscv64 lmbench]$
