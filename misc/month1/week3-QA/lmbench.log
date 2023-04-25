@@ -1,0 +1,772 @@
+[openeuler@openeuler-riscv64 ~]$ cp -vR /opt/lmbench .
+'/opt/lmbench' -> './lmbench'
+'/opt/lmbench/Makefile' -> './lmbench/Makefile'
+'/opt/lmbench/bin' -> './lmbench/bin'
+'/opt/lmbench/bin/bw_file_rd' -> './lmbench/bin/bw_file_rd'
+'/opt/lmbench/bin/bw_mem' -> './lmbench/bin/bw_mem'
+'/opt/lmbench/bin/bw_mmap_rd' -> './lmbench/bin/bw_mmap_rd'
+'/opt/lmbench/bin/bw_pipe' -> './lmbench/bin/bw_pipe'
+'/opt/lmbench/bin/bw_tcp' -> './lmbench/bin/bw_tcp'
+'/opt/lmbench/bin/bw_unix' -> './lmbench/bin/bw_unix'
+'/opt/lmbench/bin/cache' -> './lmbench/bin/cache'
+'/opt/lmbench/bin/disk' -> './lmbench/bin/disk'
+'/opt/lmbench/bin/enough' -> './lmbench/bin/enough'
+'/opt/lmbench/bin/flushdisk' -> './lmbench/bin/flushdisk'
+'/opt/lmbench/bin/hello' -> './lmbench/bin/hello'
+'/opt/lmbench/bin/lat_cmd' -> './lmbench/bin/lat_cmd'
+'/opt/lmbench/bin/lat_connect' -> './lmbench/bin/lat_connect'
+'/opt/lmbench/bin/lat_ctx' -> './lmbench/bin/lat_ctx'
+'/opt/lmbench/bin/lat_dram_page' -> './lmbench/bin/lat_dram_page'
+'/opt/lmbench/bin/lat_fcntl' -> './lmbench/bin/lat_fcntl'
+'/opt/lmbench/bin/lat_fifo' -> './lmbench/bin/lat_fifo'
+'/opt/lmbench/bin/lat_fs' -> './lmbench/bin/lat_fs'
+'/opt/lmbench/bin/lat_http' -> './lmbench/bin/lat_http'
+'/opt/lmbench/bin/lat_mem_rd' -> './lmbench/bin/lat_mem_rd'
+'/opt/lmbench/bin/lat_mmap' -> './lmbench/bin/lat_mmap'
+'/opt/lmbench/bin/lat_ops' -> './lmbench/bin/lat_ops'
+'/opt/lmbench/bin/lat_pagefault' -> './lmbench/bin/lat_pagefault'
+'/opt/lmbench/bin/lat_pipe' -> './lmbench/bin/lat_pipe'
+'/opt/lmbench/bin/lat_pmake' -> './lmbench/bin/lat_pmake'
+'/opt/lmbench/bin/lat_proc' -> './lmbench/bin/lat_proc'
+'/opt/lmbench/bin/lat_rand' -> './lmbench/bin/lat_rand'
+'/opt/lmbench/bin/lat_rpc' -> './lmbench/bin/lat_rpc'
+'/opt/lmbench/bin/lat_select' -> './lmbench/bin/lat_select'
+'/opt/lmbench/bin/lat_sem' -> './lmbench/bin/lat_sem'
+'/opt/lmbench/bin/lat_sig' -> './lmbench/bin/lat_sig'
+'/opt/lmbench/bin/lat_syscall' -> './lmbench/bin/lat_syscall'
+'/opt/lmbench/bin/lat_tcp' -> './lmbench/bin/lat_tcp'
+'/opt/lmbench/bin/lat_udp' -> './lmbench/bin/lat_udp'
+'/opt/lmbench/bin/lat_unix' -> './lmbench/bin/lat_unix'
+'/opt/lmbench/bin/lat_unix_connect' -> './lmbench/bin/lat_unix_connect'
+'/opt/lmbench/bin/lat_usleep' -> './lmbench/bin/lat_usleep'
+'/opt/lmbench/bin/line' -> './lmbench/bin/line'
+'/opt/lmbench/bin/lmbench' -> './lmbench/bin/lmbench'
+'/opt/lmbench/bin/lmdd' -> './lmbench/bin/lmdd'
+'/opt/lmbench/bin/lmhttp' -> './lmbench/bin/lmhttp'
+'/opt/lmbench/bin/loop_o' -> './lmbench/bin/loop_o'
+'/opt/lmbench/bin/memsize' -> './lmbench/bin/memsize'
+'/opt/lmbench/bin/mhz' -> './lmbench/bin/mhz'
+'/opt/lmbench/bin/msleep' -> './lmbench/bin/msleep'
+'/opt/lmbench/bin/par_mem' -> './lmbench/bin/par_mem'
+'/opt/lmbench/bin/par_ops' -> './lmbench/bin/par_ops'
+'/opt/lmbench/bin/stream' -> './lmbench/bin/stream'
+'/opt/lmbench/bin/timing_o' -> './lmbench/bin/timing_o'
+'/opt/lmbench/bin/tlb' -> './lmbench/bin/tlb'
+'/opt/lmbench/doc' -> './lmbench/doc'
+'/opt/lmbench/doc/Makefile' -> './lmbench/doc/Makefile'
+'/opt/lmbench/doc/bargraph.1' -> './lmbench/doc/bargraph.1'
+'/opt/lmbench/doc/benchmarks' -> './lmbench/doc/benchmarks'
+'/opt/lmbench/doc/bw_allmem.tbl' -> './lmbench/doc/bw_allmem.tbl'
+'/opt/lmbench/doc/bw_file_rd.8' -> './lmbench/doc/bw_file_rd.8'
+'/opt/lmbench/doc/bw_ipc.tbl' -> './lmbench/doc/bw_ipc.tbl'
+'/opt/lmbench/doc/bw_mem.8' -> './lmbench/doc/bw_mem.8'
+'/opt/lmbench/doc/bw_mem_rd.8' -> './lmbench/doc/bw_mem_rd.8'
+'/opt/lmbench/doc/bw_mmap_rd.8' -> './lmbench/doc/bw_mmap_rd.8'
+'/opt/lmbench/doc/bw_pipe.8' -> './lmbench/doc/bw_pipe.8'
+'/opt/lmbench/doc/bw_reread2.tbl' -> './lmbench/doc/bw_reread2.tbl'
+'/opt/lmbench/doc/bw_tcp.8' -> './lmbench/doc/bw_tcp.8'
+'/opt/lmbench/doc/bw_tcp.tbl' -> './lmbench/doc/bw_tcp.tbl'
+'/opt/lmbench/doc/bw_unix.8' -> './lmbench/doc/bw_unix.8'
+'/opt/lmbench/doc/cache.8' -> './lmbench/doc/cache.8'
+'/opt/lmbench/doc/ctx.pic' -> './lmbench/doc/ctx.pic'
+'/opt/lmbench/doc/ctx.tbl' -> './lmbench/doc/ctx.tbl'
+'/opt/lmbench/doc/description.ms' -> './lmbench/doc/description.ms'
+'/opt/lmbench/doc/graph.1' -> './lmbench/doc/graph.1'
+'/opt/lmbench/doc/lat_allmem.tbl' -> './lmbench/doc/lat_allmem.tbl'
+'/opt/lmbench/doc/lat_allproc.tbl' -> './lmbench/doc/lat_allproc.tbl'
+'/opt/lmbench/doc/lat_connect.8' -> './lmbench/doc/lat_connect.8'
+'/opt/lmbench/doc/lat_connect.tbl' -> './lmbench/doc/lat_connect.tbl'
+'/opt/lmbench/doc/lat_ctx.8' -> './lmbench/doc/lat_ctx.8'
+'/opt/lmbench/doc/lat_disk.tbl' -> './lmbench/doc/lat_disk.tbl'
+'/opt/lmbench/doc/lat_fcntl.8' -> './lmbench/doc/lat_fcntl.8'
+'/opt/lmbench/doc/lat_fifo.8' -> './lmbench/doc/lat_fifo.8'
+'/opt/lmbench/doc/lat_fs.8' -> './lmbench/doc/lat_fs.8'
+'/opt/lmbench/doc/lat_fs.tbl' -> './lmbench/doc/lat_fs.tbl'
+'/opt/lmbench/doc/lat_http.8' -> './lmbench/doc/lat_http.8'
+'/opt/lmbench/doc/lat_ipc.tbl' -> './lmbench/doc/lat_ipc.tbl'
+'/opt/lmbench/doc/lat_mem_rd.8' -> './lmbench/doc/lat_mem_rd.8'
+'/opt/lmbench/doc/lat_mmap.8' -> './lmbench/doc/lat_mmap.8'
+'/opt/lmbench/doc/lat_nullsys.tbl' -> './lmbench/doc/lat_nullsys.tbl'
+'/opt/lmbench/doc/lat_ops.8' -> './lmbench/doc/lat_ops.8'
+'/opt/lmbench/doc/lat_pagefault.8' -> './lmbench/doc/lat_pagefault.8'
+'/opt/lmbench/doc/lat_pipe.8' -> './lmbench/doc/lat_pipe.8'
+'/opt/lmbench/doc/lat_pipe.tbl' -> './lmbench/doc/lat_pipe.tbl'
+'/opt/lmbench/doc/lat_proc.8' -> './lmbench/doc/lat_proc.8'
+'/opt/lmbench/doc/lat_rpc.8' -> './lmbench/doc/lat_rpc.8'
+'/opt/lmbench/doc/lat_select.8' -> './lmbench/doc/lat_select.8'
+'/opt/lmbench/doc/lat_sig.8' -> './lmbench/doc/lat_sig.8'
+'/opt/lmbench/doc/lat_signal.tbl' -> './lmbench/doc/lat_signal.tbl'
+'/opt/lmbench/doc/lat_syscall.8' -> './lmbench/doc/lat_syscall.8'
+'/opt/lmbench/doc/lat_tcp.8' -> './lmbench/doc/lat_tcp.8'
+'/opt/lmbench/doc/lat_tcp.tbl' -> './lmbench/doc/lat_tcp.tbl'
+'/opt/lmbench/doc/lat_udp.8' -> './lmbench/doc/lat_udp.8'
+'/opt/lmbench/doc/lat_udp.tbl' -> './lmbench/doc/lat_udp.tbl'
+'/opt/lmbench/doc/lat_unix.8' -> './lmbench/doc/lat_unix.8'
+'/opt/lmbench/doc/lat_unix_connect.8' -> './lmbench/doc/lat_unix_connect.8'
+'/opt/lmbench/doc/line.8' -> './lmbench/doc/line.8'
+'/opt/lmbench/doc/lmbench.3' -> './lmbench/doc/lmbench.3'
+'/opt/lmbench/doc/lmbench.8' -> './lmbench/doc/lmbench.8'
+'/opt/lmbench/doc/lmbench3.ms' -> './lmbench/doc/lmbench3.ms'
+'/opt/lmbench/doc/lmbench3_arch.fig' -> './lmbench/doc/lmbench3_arch.fig'
+'/opt/lmbench/doc/lmbench3_signals.fig' -> './lmbench/doc/lmbench3_signals.fig'
+'/opt/lmbench/doc/lmdd.8' -> './lmbench/doc/lmdd.8'
+'/opt/lmbench/doc/mem.pic' -> './lmbench/doc/mem.pic'
+'/opt/lmbench/doc/memhier-color.d' -> './lmbench/doc/memhier-color.d'
+'/opt/lmbench/doc/memhier-line.d' -> './lmbench/doc/memhier-line.d'
+'/opt/lmbench/doc/memhier-tlb.d' -> './lmbench/doc/memhier-tlb.d'
+'/opt/lmbench/doc/memhier.ms' -> './lmbench/doc/memhier.ms'
+'/opt/lmbench/doc/mhz.8' -> './lmbench/doc/mhz.8'
+'/opt/lmbench/doc/par_mem.8' -> './lmbench/doc/par_mem.8'
+'/opt/lmbench/doc/par_ops.8' -> './lmbench/doc/par_ops.8'
+'/opt/lmbench/doc/parallel.ms' -> './lmbench/doc/parallel.ms'
+'/opt/lmbench/doc/pgraph.1' -> './lmbench/doc/pgraph.1'
+'/opt/lmbench/doc/rccs.1' -> './lmbench/doc/rccs.1'
+'/opt/lmbench/doc/refdbms.keys' -> './lmbench/doc/refdbms.keys'
+'/opt/lmbench/doc/references' -> './lmbench/doc/references'
+'/opt/lmbench/doc/references-' -> './lmbench/doc/references-'
+'/opt/lmbench/doc/references-lmbench3' -> './lmbench/doc/references-lmbench3'
+'/opt/lmbench/doc/references-memhier' -> './lmbench/doc/references-memhier'
+'/opt/lmbench/doc/references-parallel' -> './lmbench/doc/references-parallel'
+'/opt/lmbench/doc/references-userguide' -> './lmbench/doc/references-userguide'
+'/opt/lmbench/doc/references.private' -> './lmbench/doc/references.private'
+'/opt/lmbench/doc/reporting.3' -> './lmbench/doc/reporting.3'
+'/opt/lmbench/doc/results.3' -> './lmbench/doc/results.3'
+'/opt/lmbench/doc/stream.8' -> './lmbench/doc/stream.8'
+'/opt/lmbench/doc/timing.3' -> './lmbench/doc/timing.3'
+'/opt/lmbench/doc/tlb.8' -> './lmbench/doc/tlb.8'
+'/opt/lmbench/doc/tmac.usenix' -> './lmbench/doc/tmac.usenix'
+'/opt/lmbench/doc/usenix.ol' -> './lmbench/doc/usenix.ol'
+'/opt/lmbench/doc/usenix96.ms' -> './lmbench/doc/usenix96.ms'
+'/opt/lmbench/doc/userguide.ms' -> './lmbench/doc/userguide.ms'
+'/opt/lmbench/results' -> './lmbench/results'
+'/opt/lmbench/results/Makefile' -> './lmbench/results/Makefile'
+'/opt/lmbench/scripts' -> './lmbench/scripts'
+'/opt/lmbench/scripts/Makefile' -> './lmbench/scripts/Makefile'
+'/opt/lmbench/scripts/README' -> './lmbench/scripts/README'
+'/opt/lmbench/scripts/SHIT' -> './lmbench/scripts/SHIT'
+'/opt/lmbench/scripts/TODO' -> './lmbench/scripts/TODO'
+'/opt/lmbench/scripts/allctx' -> './lmbench/scripts/allctx'
+'/opt/lmbench/scripts/allmem' -> './lmbench/scripts/allmem'
+'/opt/lmbench/scripts/bargraph' -> './lmbench/scripts/bargraph'
+'/opt/lmbench/scripts/bghtml' -> './lmbench/scripts/bghtml'
+'/opt/lmbench/scripts/build' -> './lmbench/scripts/build'
+'/opt/lmbench/scripts/compiler' -> './lmbench/scripts/compiler'
+'/opt/lmbench/scripts/config' -> './lmbench/scripts/config'
+'/opt/lmbench/scripts/config-run' -> './lmbench/scripts/config-run'
+'/opt/lmbench/scripts/config-scaling' -> './lmbench/scripts/config-scaling'
+'/opt/lmbench/scripts/depend' -> './lmbench/scripts/depend'
+'/opt/lmbench/scripts/do_ctx' -> './lmbench/scripts/do_ctx'
+'/opt/lmbench/scripts/getbg' -> './lmbench/scripts/getbg'
+'/opt/lmbench/scripts/getbw' -> './lmbench/scripts/getbw'
+'/opt/lmbench/scripts/getctx' -> './lmbench/scripts/getctx'
+'/opt/lmbench/scripts/getdisk' -> './lmbench/scripts/getdisk'
+'/opt/lmbench/scripts/getlist' -> './lmbench/scripts/getlist'
+'/opt/lmbench/scripts/getmax' -> './lmbench/scripts/getmax'
+'/opt/lmbench/scripts/getmem' -> './lmbench/scripts/getmem'
+'/opt/lmbench/scripts/getpercent' -> './lmbench/scripts/getpercent'
+'/opt/lmbench/scripts/getresults' -> './lmbench/scripts/getresults'
+'/opt/lmbench/scripts/getsummary' -> './lmbench/scripts/getsummary'
+'/opt/lmbench/scripts/gifs' -> './lmbench/scripts/gifs'
+'/opt/lmbench/scripts/gnu-os' -> './lmbench/scripts/gnu-os'
+'/opt/lmbench/scripts/graph' -> './lmbench/scripts/graph'
+'/opt/lmbench/scripts/html-list' -> './lmbench/scripts/html-list'
+'/opt/lmbench/scripts/html-man' -> './lmbench/scripts/html-man'
+'/opt/lmbench/scripts/info' -> './lmbench/scripts/info'
+'/opt/lmbench/scripts/info-template' -> './lmbench/scripts/info-template'
+'/opt/lmbench/scripts/lmbench' -> './lmbench/scripts/lmbench'
+'/opt/lmbench/scripts/make' -> './lmbench/scripts/make'
+'/opt/lmbench/scripts/man2html' -> './lmbench/scripts/man2html'
+'/opt/lmbench/scripts/mkrelease' -> './lmbench/scripts/mkrelease'
+'/opt/lmbench/scripts/new2oldctx' -> './lmbench/scripts/new2oldctx'
+'/opt/lmbench/scripts/opercent' -> './lmbench/scripts/opercent'
+'/opt/lmbench/scripts/os' -> './lmbench/scripts/os'
+'/opt/lmbench/scripts/output' -> './lmbench/scripts/output'
+'/opt/lmbench/scripts/percent' -> './lmbench/scripts/percent'
+'/opt/lmbench/scripts/rccs' -> './lmbench/scripts/rccs'
+'/opt/lmbench/scripts/results' -> './lmbench/scripts/results'
+'/opt/lmbench/scripts/save' -> './lmbench/scripts/save'
+'/opt/lmbench/scripts/stats' -> './lmbench/scripts/stats'
+'/opt/lmbench/scripts/statsummary' -> './lmbench/scripts/statsummary'
+'/opt/lmbench/scripts/synchronize' -> './lmbench/scripts/synchronize'
+'/opt/lmbench/scripts/target' -> './lmbench/scripts/target'
+'/opt/lmbench/scripts/version' -> './lmbench/scripts/version'
+'/opt/lmbench/scripts/xroff' -> './lmbench/scripts/xroff'
+'/opt/lmbench/src' -> './lmbench/src'
+'/opt/lmbench/src/Makefile' -> './lmbench/src/Makefile'
+'/opt/lmbench/src/TODO' -> './lmbench/src/TODO'
+'/opt/lmbench/src/bench.h' -> './lmbench/src/bench.h'
+'/opt/lmbench/src/busy.c' -> './lmbench/src/busy.c'
+'/opt/lmbench/src/bw_file_rd.c' -> './lmbench/src/bw_file_rd.c'
+'/opt/lmbench/src/bw_mem.c' -> './lmbench/src/bw_mem.c'
+'/opt/lmbench/src/bw_mmap_rd.c' -> './lmbench/src/bw_mmap_rd.c'
+'/opt/lmbench/src/bw_pipe.c' -> './lmbench/src/bw_pipe.c'
+'/opt/lmbench/src/bw_tcp.c' -> './lmbench/src/bw_tcp.c'
+'/opt/lmbench/src/bw_udp.c' -> './lmbench/src/bw_udp.c'
+'/opt/lmbench/src/bw_unix.c' -> './lmbench/src/bw_unix.c'
+'/opt/lmbench/src/cache.c' -> './lmbench/src/cache.c'
+'/opt/lmbench/src/clock.c' -> './lmbench/src/clock.c'
+'/opt/lmbench/src/disk.c' -> './lmbench/src/disk.c'
+'/opt/lmbench/src/enough.c' -> './lmbench/src/enough.c'
+'/opt/lmbench/src/flushdisk.c' -> './lmbench/src/flushdisk.c'
+'/opt/lmbench/src/getopt.c' -> './lmbench/src/getopt.c'
+'/opt/lmbench/src/hello.c' -> './lmbench/src/hello.c'
+'/opt/lmbench/src/lat_cmd.c' -> './lmbench/src/lat_cmd.c'
+'/opt/lmbench/src/lat_connect.c' -> './lmbench/src/lat_connect.c'
+'/opt/lmbench/src/lat_ctx.c' -> './lmbench/src/lat_ctx.c'
+'/opt/lmbench/src/lat_dram_page.c' -> './lmbench/src/lat_dram_page.c'
+'/opt/lmbench/src/lat_fcntl.c' -> './lmbench/src/lat_fcntl.c'
+'/opt/lmbench/src/lat_fifo.c' -> './lmbench/src/lat_fifo.c'
+'/opt/lmbench/src/lat_fs.c' -> './lmbench/src/lat_fs.c'
+'/opt/lmbench/src/lat_http.c' -> './lmbench/src/lat_http.c'
+'/opt/lmbench/src/lat_mem_rd.c' -> './lmbench/src/lat_mem_rd.c'
+'/opt/lmbench/src/lat_mmap.c' -> './lmbench/src/lat_mmap.c'
+'/opt/lmbench/src/lat_ops.c' -> './lmbench/src/lat_ops.c'
+'/opt/lmbench/src/lat_pagefault.c' -> './lmbench/src/lat_pagefault.c'
+'/opt/lmbench/src/lat_pipe.c' -> './lmbench/src/lat_pipe.c'
+'/opt/lmbench/src/lat_pmake.c' -> './lmbench/src/lat_pmake.c'
+'/opt/lmbench/src/lat_proc.c' -> './lmbench/src/lat_proc.c'
+'/opt/lmbench/src/lat_rand.c' -> './lmbench/src/lat_rand.c'
+'/opt/lmbench/src/lat_rpc.c' -> './lmbench/src/lat_rpc.c'
+'/opt/lmbench/src/lat_select.c' -> './lmbench/src/lat_select.c'
+'/opt/lmbench/src/lat_sem.c' -> './lmbench/src/lat_sem.c'
+'/opt/lmbench/src/lat_sig.c' -> './lmbench/src/lat_sig.c'
+'/opt/lmbench/src/lat_syscall.c' -> './lmbench/src/lat_syscall.c'
+'/opt/lmbench/src/lat_tcp.c' -> './lmbench/src/lat_tcp.c'
+'/opt/lmbench/src/lat_udp.c' -> './lmbench/src/lat_udp.c'
+'/opt/lmbench/src/lat_unix.c' -> './lmbench/src/lat_unix.c'
+'/opt/lmbench/src/lat_unix_connect.c' -> './lmbench/src/lat_unix_connect.c'
+'/opt/lmbench/src/lat_usleep.c' -> './lmbench/src/lat_usleep.c'
+'/opt/lmbench/src/lib_debug.c' -> './lmbench/src/lib_debug.c'
+'/opt/lmbench/src/lib_debug.h' -> './lmbench/src/lib_debug.h'
+'/opt/lmbench/src/lib_mem.c' -> './lmbench/src/lib_mem.c'
+'/opt/lmbench/src/lib_mem.h' -> './lmbench/src/lib_mem.h'
+'/opt/lmbench/src/lib_sched.c' -> './lmbench/src/lib_sched.c'
+'/opt/lmbench/src/lib_stats.c' -> './lmbench/src/lib_stats.c'
+'/opt/lmbench/src/lib_tcp.c' -> './lmbench/src/lib_tcp.c'
+'/opt/lmbench/src/lib_tcp.h' -> './lmbench/src/lib_tcp.h'
+'/opt/lmbench/src/lib_timing.c' -> './lmbench/src/lib_timing.c'
+'/opt/lmbench/src/lib_udp.c' -> './lmbench/src/lib_udp.c'
+'/opt/lmbench/src/lib_udp.h' -> './lmbench/src/lib_udp.h'
+'/opt/lmbench/src/lib_unix.c' -> './lmbench/src/lib_unix.c'
+'/opt/lmbench/src/lib_unix.h' -> './lmbench/src/lib_unix.h'
+'/opt/lmbench/src/line.c' -> './lmbench/src/line.c'
+'/opt/lmbench/src/lmdd.1' -> './lmbench/src/lmdd.1'
+'/opt/lmbench/src/lmdd.c' -> './lmbench/src/lmdd.c'
+'/opt/lmbench/src/lmhttp.c' -> './lmbench/src/lmhttp.c'
+'/opt/lmbench/src/loop_o.c' -> './lmbench/src/loop_o.c'
+'/opt/lmbench/src/memsize.c' -> './lmbench/src/memsize.c'
+'/opt/lmbench/src/mhz.c' -> './lmbench/src/mhz.c'
+'/opt/lmbench/src/msleep.c' -> './lmbench/src/msleep.c'
+'/opt/lmbench/src/names.h' -> './lmbench/src/names.h'
+'/opt/lmbench/src/par_mem.c' -> './lmbench/src/par_mem.c'
+'/opt/lmbench/src/par_ops.c' -> './lmbench/src/par_ops.c'
+'/opt/lmbench/src/rhttp.c' -> './lmbench/src/rhttp.c'
+'/opt/lmbench/src/seek.c' -> './lmbench/src/seek.c'
+'/opt/lmbench/src/stats.h' -> './lmbench/src/stats.h'
+'/opt/lmbench/src/stream.c' -> './lmbench/src/stream.c'
+'/opt/lmbench/src/timing.h' -> './lmbench/src/timing.h'
+'/opt/lmbench/src/timing_o.c' -> './lmbench/src/timing_o.c'
+'/opt/lmbench/src/tlb.c' -> './lmbench/src/tlb.c'
+'/opt/lmbench/src/version.h' -> './lmbench/src/version.h'
+'/opt/lmbench/src/webpage-lm.tar' -> './lmbench/src/webpage-lm.tar'
+[openeuler@openeuler-riscv64 ~]$ wget https://git.savannah.gnu.org/cgit/config.git/plain/config.guess
+--2023-04-24 22:05:29--  https://git.savannah.gnu.org/cgit/config.git/plain/config.guess
+Resolving git.savannah.gnu.org (git.savannah.gnu.org)... 209.51.188.168
+Connecting to git.savannah.gnu.org (git.savannah.gnu.org)|209.51.188.168|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 49938 (49K) [text/plain]
+Saving to: ‘config.guess’
+
+config.guess                                 100%[==============================================================================================>]  48.77K   170KB/s    in 0.3s    
+
+2023-04-24 22:05:31 (170 KB/s) - ‘config.guess’ saved [49938/49938]
+[openeuler@openeuler-riscv64 ~]$ sudo chown -R openeuler:openeuler lmbench
+[openeuler@openeuler-riscv64 ~]$ cp config.guess lmbench/scripts/gnu-os 
+[openeuler@openeuler-riscv64 ~]$ cd lmbench
+[openeuler@openeuler-riscv64 lmbench]$ make results
+cd src && make results
+make[1]: Entering directory '/home/openeuler/lmbench/src'
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_tcp.c -o ../bin/riscv64-linux-gnu/lib_tcp.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_udp.c -o ../bin/riscv64-linux-gnu/lib_udp.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_unix.c -o ../bin/riscv64-linux-gnu/lib_unix.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_timing.c -o ../bin/riscv64-linux-gnu/lib_timing.o
+lib_timing.c: In function ‘touch’:
+lib_timing.c:1626:9: warning: type defaults to ‘int’ in declaration of ‘psize’ [-Wimplicit-int]
+ 1626 |  static psize;
+      |         ^~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_mem.c -o ../bin/riscv64-linux-gnu/lib_mem.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_stats.c -o ../bin/riscv64-linux-gnu/lib_stats.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_debug.c -o ../bin/riscv64-linux-gnu/lib_debug.o
+lib_debug.c: In function ‘percent_point’:
+lib_debug.c:24:11: warning: implicit declaration of function ‘floor’ [-Wimplicit-function-declaration]
+   24 |  if (t == floor(t)) {
+      |           ^~~~~
+lib_debug.c:24:11: warning: incompatible implicit declaration of built-in function ‘floor’
+lib_debug.c:2:1: note: include ‘<math.h>’ or provide a declaration of ‘floor’
+    1 | #include "bench.h"
+  +++ |+#include <math.h>
+    2 | #include "lib_debug.h"
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c getopt.c -o ../bin/riscv64-linux-gnu/getopt.o
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -c lib_sched.c -o ../bin/riscv64-linux-gnu/lib_sched.o
+lib_sched.c: In function ‘handle_scheduler’:
+lib_sched.c:94:3: warning: ‘return’ with no value, in function returning non-void
+   94 |   return;
+      |   ^~~~~~
+lib_sched.c:46:1: note: declared here
+   46 | handle_scheduler(int childno, int benchproc, int nbenchprocs)
+      | ^~~~~~~~~~~~~~~~
+lib_sched.c: In function ‘sched_pin’:
+lib_sched.c:207:12: warning: implicit declaration of function ‘sched_getaffinity’ [-Wimplicit-function-declaration]
+  207 |   retval = sched_getaffinity(0, sz * sizeof(unsigned long), cpumask);
+      |            ^~~~~~~~~~~~~~~~~
+lib_sched.c:231:11: warning: implicit declaration of function ‘sched_setaffinity’ [-Wimplicit-function-declaration]
+  231 |  retval = sched_setaffinity(0, sz * sizeof(unsigned long), mask);
+      |           ^~~~~~~~~~~~~~~~~
+/bin/rm -f ../bin/riscv64-linux-gnu/lmbench.a
+ar cr ../bin/riscv64-linux-gnu/lmbench.a ../bin/riscv64-linux-gnu/lib_tcp.o ../bin/riscv64-linux-gnu/lib_udp.o ../bin/riscv64-linux-gnu/lib_unix.o ../bin/riscv64-linux-gnu/lib_timing.o ../bin/riscv64-linux-gnu/lib_mem.o ../bin/riscv64-linux-gnu/lib_stats.o ../bin/riscv64-linux-gnu/lib_debug.o ../bin/riscv64-linux-gnu/getopt.o ../bin/riscv64-linux-gnu/lib_sched.o
+ranlib ../bin/riscv64-linux-gnu/lmbench.a
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_file_rd bw_file_rd.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_file_rd.c: In function ‘main’:
+bw_file_rd.c:149:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  149 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_mem bw_mem.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_mem.c: In function ‘main’:
+bw_mem.c:76:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   76 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_mmap_rd bw_mmap_rd.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_mmap_rd.c: In function ‘main’:
+bw_mmap_rd.c:64:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_pipe bw_pipe.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_pipe.c: In function ‘main’:
+bw_pipe.c:157:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  157 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_tcp bw_tcp.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_tcp.c: In function ‘main’:
+bw_tcp.c:74:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   74 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/bw_unix bw_unix.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+bw_unix.c: In function ‘main’:
+bw_unix.c:153:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  153 |    if (parallel <= 0) lmbench_usage(argc, argv, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/hello hello.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_select lat_select.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_select.c: In function ‘main’:
+lat_select.c:53:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   53 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+lat_select.c: In function ‘doit’:
+lat_select.c:167:9: warning: type defaults to ‘int’ in declaration of ‘count’ [-Wimplicit-int]
+  167 |  static count = 0;
+      |         ^~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_pipe lat_pipe.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_pipe.c: In function ‘main’:
+lat_pipe.c:41:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   41 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_rpc lat_rpc.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_rpc.c: In function ‘main’:
+lat_rpc.c:136:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  136 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_syscall lat_syscall.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_syscall.c: In function ‘main’:
+lat_syscall.c:116:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  116 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_tcp lat_tcp.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_tcp.c: In function ‘main’:
+lat_tcp.c:64:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_udp lat_udp.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_udp.c: In function ‘main’:
+lat_udp.c:78:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   78 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_mmap lat_mmap.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_mmap.c: In function ‘main’:
+lat_mmap.c:58:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   58 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/mhz mhz.c ../bin/riscv64-linux-gnu/lmbench.a -lm -lm
+mhz.c: In function ‘main’:
+mhz.c:492:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  492 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_proc lat_proc.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_proc.c: In function ‘main’:
+lat_proc.c:60:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   60 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_pagefault lat_pagefault.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_pagefault.c: In function ‘main’:
+lat_pagefault.c:54:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   54 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_connect lat_connect.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_connect.c: In function ‘main’:
+lat_connect.c:63:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   63 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_fs lat_fs.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_fs.c: In function ‘main’:
+lat_fs.c:55:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   55 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+/usr/bin/ld: /tmp/ccjiTrsS.o: in function `setup_names':
+/home/openeuler/lmbench/src/lat_fs.c:185: warning: the use of `tempnam' is dangerous, better use `mkstemp'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_sig lat_sig.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_sig.c: In function ‘main’:
+lat_sig.c:182:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  182 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_mem_rd lat_mem_rd.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_mem_rd.c: In function ‘main’:
+lat_mem_rd.c:47:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   47 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_ctx lat_ctx.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_ctx.c: In function ‘main’:
+lat_ctx.c:74:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   74 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_sem lat_sem.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_sem.c: In function ‘main’:
+lat_sem.c:42:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   42 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/memsize memsize.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_unix lat_unix.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_unix.c: In function ‘main’:
+lat_unix.c:46:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   46 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lmdd lmdd.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/timing_o timing_o.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/enough enough.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/msleep msleep.c
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/loop_o loop_o.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_fifo lat_fifo.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_fifo.c: In function ‘main’:
+lat_fifo.c:45:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   45 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lmhttp lmhttp.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_http lat_http.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_http.c: In function ‘main’:
+lat_http.c:84:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   84 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_fcntl lat_fcntl.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_fcntl.c: In function ‘main’:
+lat_fcntl.c:203:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  203 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/disk disk.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_unix_connect lat_unix_connect.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_unix_connect.c: In function ‘main’:
+lat_unix_connect.c:63:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   63 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -DMAIN -o ../bin/riscv64-linux-gnu/flushdisk flushdisk.c
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_ops lat_ops.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_ops.c: In function ‘main’:
+lat_ops.c:393:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  393 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/line line.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+line.c: In function ‘main’:
+line.c:54:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   54 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/tlb tlb.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+tlb.c: In function ‘main’:
+tlb.c:69:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   69 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/par_mem par_mem.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+par_mem.c: In function ‘main’:
+par_mem.c:64:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   64 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/par_ops par_ops.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+par_ops.c: In function ‘main’:
+par_ops.c:413:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  413 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/stream stream.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+stream.c: In function ‘main’:
+stream.c:70:5: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   70 |     lmbench_usage(ac, av, usage);
+      |     ^~~~~~~~~~~~~
+rm -f ../bin/riscv64-linux-gnu/lmbench
+sed -e "s/<version>/`cat bk.ver`/g" < ../scripts/lmbench > ../bin/riscv64-linux-gnu/lmbench
+cat: bk.ver: No such file or directory
+chmod +x ../bin/riscv64-linux-gnu/lmbench
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+gmake[2]: Entering directory '/home/openeuler/lmbench/src'
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/cache cache.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+cache.c: In function ‘main’:
+cache.c:123:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  123 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_dram_page lat_dram_page.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_dram_page.c: In function ‘main’:
+lat_dram_page.c:66:4: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   66 |    lmbench_usage(ac, av, usage);
+      |    ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_pmake lat_pmake.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_pmake.c: In function ‘main’:
+lat_pmake.c:47:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   47 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_rand lat_rand.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_rand.c: In function ‘main’:
+lat_rand.c:39:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   39 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_usleep lat_usleep.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_usleep.c: In function ‘main’:
+lat_usleep.c:204:3: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+  204 |   lmbench_usage(ac, av, usage);
+      |   ^~~~~~~~~~~~~
+gcc -O -DRUSAGE -DHAVE_uint=1 -DHAVE_int64_t=1 -DHAVE_DRAND48 -DHAVE_SCHED_SETAFFINITY=1 -fstack-protector-strong -g -I/usr/include/tirpc -ltirpc -o ../bin/riscv64-linux-gnu/lat_cmd lat_cmd.c ../bin/riscv64-linux-gnu/lmbench.a -lm
+lat_cmd.c: In function ‘main’:
+lat_cmd.c:40:23: warning: implicit declaration of function ‘lmbench_usage’ [-Wimplicit-function-declaration]
+   40 |    if (parallel <= 0) lmbench_usage(ac, av, usage);
+      |                       ^~~~~~~~~~~~~
+gmake[2]: Leaving directory '/home/openeuler/lmbench/src'
+=====================================================================
+
+                L M B E N C H   C ON F I G U R A T I O N
+                ----------------------------------------
+
+You need to configure some parameters to lmbench.  Once you have configured
+these parameters, you may do multiple runs by saying
+
+        "make rerun"
+
+in the src subdirectory.
+
+NOTICE: please do not have any other activity on the system if you can
+help it.  Things like the second hand on your xclock or X perfmeters
+are not so good when benchmarking.  In fact, X is not so good when
+benchmarking.
+
+=====================================================================
+
+Hang on, we are calculating your timing granularity.
+OK, it looks like you can time stuff down to 100000 usec resolution.
+
+Hang on, we are calculating your timing overhead.
+OK, it looks like your gettimeofday() costs 0 usecs.
+
+Hang on, we are calculating your loop overhead.
+OK, it looks like your benchmark loop costs 0.00004406 usecs.
+
+=====================================================================
+
+If you are running on an MP machine and you want to try running
+multiple copies of lmbench in parallel, you can specify how many here.
+
+Using this option will make the benchmark run 100x slower (sorry).
+
+NOTE:  WARNING! This feature is experimental and many results are 
+        known to be incorrect or random!
+
+MULTIPLE COPIES [default 1] 
+Options to control job placement
+1) Allow scheduler to place jobs
+2) Assign each benchmark process with any attendent child processes
+   to its own processor
+3) Assign each benchmark process with any attendent child processes
+   to its own processor, except that it will be as far as possible
+   from other processes
+4) Assign each benchmark and attendent processes to their own
+   processors
+5) Assign each benchmark and attendent processes to their own
+   processors, except that they will be as far as possible from
+   each other and other processes
+6) Custom placement: you assign each benchmark process with attendent
+   child processes to processors
+7) Custom placement: you assign each benchmark and attendent
+   processes to processors
+
+Note: some benchmarks, such as bw_pipe, create attendent child
+processes for each benchmark process.  For example, bw_pipe
+needs a second process to send data down the pipe to be read
+by the benchmark process.  If you have three copies of the
+benchmark process running, then you actually have six processes;
+three attendent child processes sending data down the pipes and 
+three benchmark processes reading data and doing the measurements.
+
+Job placement selection: 1
+=====================================================================
+
+Several benchmarks operate on a range of memory.  This memory should be
+sized such that it is at least 4 times as big as the external cache[s]
+on your system.   It should be no more than 80% of your physical memory.
+
+The bigger the range, the more accurate the results, but larger sizes
+take somewhat longer to run the benchmark.
+
+MB [default 5573] 4096
+Checking to see if you have 4096 MB; please wait for a moment...
+4096MB OK
+4096MB OK
+4096MB OK
+Hang on, we are calculating your cache line size.
+OK, it looks like your cache line is  bytes.
+
+=====================================================================
+
+lmbench measures a wide variety of system performance, and the full suite
+of benchmarks can take a long time on some platforms.  Consequently, we
+offer the capability to run only predefined subsets of benchmarks, one
+for operating system specific benchmarks and one for hardware specific
+benchmarks.  We also offer the option of running only selected benchmarks
+which is useful during operating system development.
+
+Please remember that if you intend to publish the results you either need
+to do a full run or one of the predefined OS or hardware subsets.
+
+SUBSET (ALL|HARWARE|OS|DEVELOPMENT) [default all] 
+=====================================================================
+
+This benchmark measures, by default, memory latency for a number of
+different strides.  That can take a long time and is most useful if you
+are trying to figure out your cache line size or if your cache line size
+is greater than 128 bytes.
+
+If you are planning on sending in these results, please don't do a fast
+run.
+
+Answering yes means that we measure memory latency with a 128 byte stride.  
+
+FASTMEM [default no] 
+=====================================================================
+
+This benchmark measures, by default, file system latency.  That can
+take a long time on systems with old style file systems (i.e., UFS,
+FFS, etc.).  Linux' ext2fs and Sun's tmpfs are fast enough that this
+test is not painful.
+
+If you are planning on sending in these results, please don't do a fast
+run.
+
+If you want to skip the file system latency tests, answer "yes" below.
+
+SLOWFS [default no] 
+=====================================================================
+
+This benchmark can measure disk zone bandwidths and seek times.  These can
+be turned into whizzy graphs that pretty much tell you everything you might
+need to know about the performance of your disk.  
+
+This takes a while and requires read access to a disk drive.  
+Write is not measured, see disk.c to see how if you want to do so.
+
+If you want to skip the disk tests, hit return below.
+
+If you want to include disk tests, then specify the path to the disk
+device, such as /dev/sda.  For each disk that is readable, you'll be
+prompted for a one line description of the drive, i.e., 
+
+        Iomega IDE ZIP
+or
+        HP C3725S 2GB on 10MB/sec NCR SCSI bus
+
+DISKS [default none] 
+=====================================================================
+
+If you are running on an idle network and there are other, identically
+configured systems, on the same wire (no gateway between you and them),
+and you have rsh access to them, then you should run the network part
+of the benchmarks to them.  Please specify any such systems as a space
+separated list such as: ether-host fddi-host hippi-host.
+
+REMOTE [default none] 
+=====================================================================
+
+Calculating mhz, please wait for a moment...
+mhz: should take approximately 30 seconds
+I think your CPU mhz is 
+
+        8988 MHz, 0.1113 nanosec clock
+
+but I am frequently wrong.  If that is the wrong Mhz, type in your
+best guess as to your processor speed.  It doesn't have to be exact,
+but if you know it is around 800, say 800.  
+
+Please note that some processors, such as the P4, have a core which
+is double-clocked, so on those processors the reported clock speed
+will be roughly double the advertised clock rate.  For example, a
+1.8GHz P4 may be reported as a 3592MHz processor.
+
+Processor mhz [default 8988 MHz, 0.1113 nanosec clock] 
+=====================================================================
+
+We need a place to store a 4096 Mbyte file as well as create and delete a
+large number of small files.  We default to /usr/tmp.  If /usr/tmp is a
+memory resident file system (i.e., tmpfs), pick a different place.
+Please specify a directory that has enough space and is a local file
+system.
+
+FSDIR [default /usr/tmp] 
+=====================================================================
+
+lmbench outputs status information as it runs various benchmarks.
+By default this output is sent to /dev/tty, but you may redirect
+it to any file you wish (such as /dev/null...).
+
+Status output file [default /dev/tty] 
+=====================================================================
+
+There is a database of benchmark results that is shipped with new
+releases of lmbench.  Your results can be included in the database
+if you wish.  The more results the better, especially if they include
+remote networking.  If your results are interesting, i.e., for a new
+fast box, they may be made available on the lmbench web page, which is
+
+        http://www.bitmover.com/lmbench
+
+Mail results [default yes] no
+OK, no results mailed.
+=====================================================================
+
+Confguration done, thanks.
+
+There is a mailing list for discussing lmbench hosted at BitMover. 
+Send mail to majordomo@bitmover.com to join the list.
+
+egrep: warning: egrep is obsolescent; using grep -E
+Using config in CONFIG.openeuler-riscv64
+Mon Apr 24 11:37:10 PM CST 2023
+Latency measurements
+Mon Apr 24 11:46:06 PM CST 2023
+Calculating file system latency
+Mon Apr 24 11:46:29 PM CST 2023
+Local networking
+Mon Apr 24 11:50:31 PM CST 2023
+Bandwidth measurements
+Tue Apr 25 12:17:18 AM CST 2023
+Calculating context switch overhead
+Tue Apr 25 12:18:32 AM CST 2023
+Calculating effective TLB size
+Tue Apr 25 12:18:33 AM CST 2023
+Calculating memory load parallelism
+Tue Apr 25 12:18:33 AM CST 2023
+McCalpin's STREAM benchmark
+Tue Apr 25 12:18:43 AM CST 2023
+Calculating memory load latency
+Tue Apr 25 03:14:48 AM CST 2023
+make[1]: Leaving directory '/home/openeuler/lmbench/src'
+[openeuler@openeuler-riscv64 lmbench]$
