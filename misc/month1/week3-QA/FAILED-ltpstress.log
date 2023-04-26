@@ -1,0 +1,1799 @@
+[18305.379358] /dev/zero: Can't open blockdev
+[18306.465822] blk_print_req_error: 27 callbacks suppressed
+[18306.466426] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.469010] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.473294] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.477849] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.482509] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.486554] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.490117] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.493158] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.496707] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.502210] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18306.641276] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18306.645332] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18307.675257] EXT4-fs (loop0): unmounting filesystem.
+[18309.258013] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18309.271202] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18310.318121] EXT4-fs (loop0): unmounting filesystem.
+[18310.589221] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18311.617595] EXT4-fs (loop0): unmounting filesystem.
+[18314.371881] LTP: starting mlockall02
+[18314.413763] LTP: starting waitpid10
+[18316.493098] LTP: starting ptrace01
+[18316.566302] LTP: starting sched_setparam04
+[18316.625304] LTP: starting stat06
+[18316.652873] LTP: starting setreuid04
+[18316.717242] LTP: starting sigrelse01
+[18316.771212] LTP: starting chown03
+[18316.832997] LTP: starting pwrite02_64
+[18316.891909] LTP: starting rmdir03A (symlink01 -T rmdir03)
+[18316.928301] LTP: starting pause02
+[18316.968467] LTP: starting sysinfo02
+[18316.999291] LTP: starting signal01
+[18317.089205] LTP: starting msync03
+[18317.128575] LTP: starting select01
+[18317.215458] LTP: starting setresgid01
+[18317.259456] LTP: starting mknod06
+[18317.303397] LTP: starting hangup01
+[18318.344545] LTP: starting execle01
+[18318.418314] LTP: starting fcntl14
+[18323.499465] LTP: starting ftest05
+[18324.474783] LTP: starting data_space
+[18324.553714] LTP: starting pipe06
+[18324.637154] LTP: starting dio18 (diotest2 -b 65536 -i 1000 -o 1024000)
+[18324.641329] LTP: starting recv01
+[18324.672644] LTP: starting mtest06 (mmap1 -x 0.05)
+[18324.681736] LTP: starting sigprocmask01
+[18324.705308] LTP: starting mm02 (mmap001)
+[18324.715901] LTP: starting chroot04
+[18324.778826] LTP: starting write01
+[18324.812505] LTP: starting nfs01 (export VERSION=3 SOCKET_TYPE=udp; nfs01)
+[18324.887667] LTP: starting gf06 (growfiles -W gf06 -b -e 1 -u -r 1-5000 -R 0--1 -i 0 -L 30 -C 1 g_rand10 g_rand10.2)
+[18325.631615] LTP: starting sched_get_priority_min01
+[18325.681249] LTP: starting setregid01
+[18325.732339] LTP: starting truncate01
+[18325.757553] LTP: starting nice04
+[18325.816897] LTP: starting chown01
+[18325.875154] LTP: starting symlink05
+[18325.910437] LTP: starting swapon02
+[18326.027939] LTP: starting open07
+[18326.067474] LTP: starting symlink04
+[18326.103470] LTP: starting nice03
+[18326.161114] LTP: starting utime05
+[18326.799072] loop0: detected capacity change from 0 to 614400
+[18326.853395] /dev/zero: Can't open blockdev
+[18326.956946] /dev/zero: Can't open blockdev
+[18327.063959] /dev/zero: Can't open blockdev
+[18327.985272] blk_print_req_error: 108 callbacks suppressed
+[18327.985733] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18327.988558] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18327.993007] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18327.997578] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.001884] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.006153] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.009995] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.014158] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.018649] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.021803] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18328.165802] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18328.170074] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18328.196212] EXT4-fs (loop0): unmounting filesystem.
+[18329.803898] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18329.816833] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18329.856987] EXT4-fs (loop0): unmounting filesystem.
+[18330.132273] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18330.149559] EXT4-fs (loop0): unmounting filesystem.
+[18330.428788] LTP: starting wait402
+[18330.464453] LTP: starting qmm01 (mmap001 -m 1)
+[18330.504264] LTP: starting rename06
+[18331.148352] loop0: detected capacity change from 0 to 614400
+[18331.226863] /dev/zero: Can't open blockdev
+[18331.334337] /dev/zero: Can't open blockdev
+[18331.436221] /dev/zero: Can't open blockdev
+[18332.725133] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18332.729295] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18332.747687] EXT4-fs (loop0): unmounting filesystem.
+[18332.990139] blk_print_req_error: 185 callbacks suppressed
+[18332.990779] operation not supported error, dev loop0, sector 589830 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18332.995201] operation not supported error, dev loop0, sector 606214 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.007030] operation not supported error, dev loop0, sector 1562 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.043040] operation not supported error, dev loop0, sector 1564 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.085302] operation not supported error, dev loop0, sector 1590 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.127873] operation not supported error, dev loop0, sector 2106 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.171172] operation not supported error, dev loop0, sector 2620 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.216075] operation not supported error, dev loop0, sector 3134 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.259111] operation not supported error, dev loop0, sector 3648 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18333.301804] operation not supported error, dev loop0, sector 4162 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18334.413461] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18334.429820] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18334.446372] EXT4-fs (loop0): unmounting filesystem.
+[18334.702085] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18334.720288] EXT4-fs (loop0): unmounting filesystem.
+[18334.979079] LTP: starting sysconf01
+[18335.010339] LTP: starting fchmod01
+[18335.067124] LTP: starting times01
+[18335.118341] LTP: starting flock06
+[18335.175304] LTP: starting getdomainname01
+[18335.229162] LTP: starting open13
+[18335.266896] LTP: starting fstatfs02
+[18335.332014] LTP: starting statfs02
+[18335.424541] LTP: starting writev01
+[18335.481627] LTP: starting shmctl03
+[18335.534697] LTP: starting waitpid07
+[18335.606295] LTP: starting capset01
+[18335.659785] LTP: starting fchmod07
+[18335.687560] LTP: starting swapoff02
+[18335.807884] LTP: starting mprotect02
+[18335.860952] LTP: starting fsync02
+[18336.291032] LTP: starting sched_rr_get_interval01
+[18336.350252] LTP: starting setreuid02
+[18336.415189] LTP: starting getpagesize01
+[18336.467448] LTP: starting waitpid09
+[18336.533006] LTP: starting capget02
+[18336.587061] LTP: starting nftw6401
+[18336.812885] LTP: starting kill10
+[18337.882498] LTP: starting reboot02
+[18337.943160] LTP: starting mremap01
+[18338.143039] LTP: starting ioperm02
+[18338.172368] LTP: starting lchown03
+[18338.836123] loop0: detected capacity change from 0 to 614400
+[18339.388486] blk_print_req_error: 32 callbacks suppressed
+[18339.389174] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.391593] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.396050] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.400860] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.405341] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.410103] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.415810] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.419971] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.424679] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.429172] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18339.572409] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18339.576392] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18339.580772] EXT4-fs (loop0): unmounting filesystem.
+[18339.725932] LTP: starting shmat01
+[18339.792650] shmat01[234472]: unhandled signal 11 code 0x2 at 0x00ffffffb2d14000 in shmat01[10000+2b000]
+[18339.793189] CPU: 1 PID: 234472 Comm: shmat01 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18339.793645] Hardware name: riscv-virtio,qemu (DT)
+[18339.794055] epc : 0000000000014ea0 ra : 0000000000014eb4 sp : 00ffffffc8c671c0
+[18339.795529]  gp : 000000000003d3b0 tp : 00ffffffb2d0c3c0 t0 : 000000000000000a
+[18339.796480]  t1 : 000000000001496c t2 : 0000000000000020 s0 : 0000000000000048
+[18339.797558]  s1 : 00ffffffb2d14000 a0 : 0000000000035128 a1 : 00ffffffc8c66ce0
+[18339.798933]  a2 : 0000000000000049 a3 : 5868948a6f1e8200 a4 : 000000000001e930
+[18339.800136]  a5 : 000000000000000a a6 : 0000000000000000 a7 : 0000000000000040
+[18339.801213]  s2 : 00000000000315e0 s3 : 0000000000031000 s4 : 00000ffffffb2d14
+[18339.802481]  s5 : 000000000003cc70 s6 : 0000000000000000 s7 : 0000000000000000
+[18339.803492]  s8 : 0000000000000000 s9 : 0000000000000000 s10: 0000000000000001
+[18339.804701]  s11: 000000000000003f t3 : 00ffffffb2c4d9b4 t4 : 0000000000000000
+[18339.806215]  t5 : 00000000000393e8 t6 : 0000000000000000
+[18339.807257] status: 8000000200006020 badaddr: 00ffffffb2d14000 cause: 000000000000000f
+[18339.808720] Process 234472(shmat01) has RLIMIT_CORE set to 1
+[18339.809516] Aborting core
+[18339.817123] LTP: starting exit01
+[18339.855655] LTP: starting fsync01
+[18340.505423] loop0: detected capacity change from 0 to 614400
+[18340.586416] /dev/zero: Can't open blockdev
+[18340.696549] /dev/zero: Can't open blockdev
+[18340.803425] /dev/zero: Can't open blockdev
+[18342.088558] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18342.103272] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18342.131494] EXT4-fs (loop0): unmounting filesystem.
+[18343.732669] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18343.760085] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18343.812743] EXT4-fs (loop0): unmounting filesystem.
+[18344.083469] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18344.109537] EXT4-fs (loop0): unmounting filesystem.
+[18344.429557] LTP: starting readdir01
+[18344.489665] LTP: starting mlock01
+[18344.573792] LTP: starting dup03
+[18344.630038] LTP: starting mc_cmds
+[18344.656022] LTP: starting signal03
+[18344.714938] LTP: starting open04
+[18345.109712] LTP: starting semget01
+[18345.162845] LTP: starting pipe08
+[18345.195618] LTP: starting setgid01
+[18345.246009] LTP: starting alarm05
+[18347.304659] LTP: starting sendmsg01
+[18347.439435] LTP: starting sched_setscheduler02
+[18347.519477] LTP: starting pread01
+[18347.573097] LTP: starting fcntl08
+[18347.608071] LTP: starting stat04 (symlink01 -T stat04)
+[18347.644182] LTP: starting open01
+[18347.700494] LTP: starting readv03
+[18347.727128] LTP: starting fcntl32
+[18347.762501] LTP: starting mknod05
+[18347.811629] LTP: starting sockioctl01
+[18347.854297] LTP: starting setreuid06
+[18347.916033] LTP: starting fork10
+[18347.962791] LTP: starting chown05
+[18348.017591] LTP: starting setitimer03
+[18348.044325] LTP: starting signal06
+[18348.077521] LTP: starting msgsnd02
+[18348.146986] LTP: starting waitpid13
+[18348.226338] LTP: starting chmod01A (symlink01 -T chmod01)
+[18348.265222] LTP: starting mlockall01
+[18348.306342] LTP: starting fork04
+[18348.347706] LTP: starting open10
+[18348.456906] LTP: starting mmap05
+[18348.495432] LTP: starting semget05
+[18348.883540] LTP: starting setpgid02
+[18348.936777] LTP: starting mmap09
+[18348.975720] LTP: starting utime04
+[18349.620678] loop0: detected capacity change from 0 to 614400
+[18349.649965] /dev/zero: Can't open blockdev
+[18349.895963] /dev/zero: Can't open blockdev
+[18350.004907] /dev/zero: Can't open blockdev
+[18350.962466] blk_print_req_error: 149 callbacks suppressed
+[18350.963528] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.969497] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.973022] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.978214] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.983154] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.989966] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18350.994714] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18351.001149] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18351.004615] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18351.008968] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18351.153635] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18351.164077] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18351.189348] EXT4-fs (loop0): unmounting filesystem.
+[18352.776069] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18352.792998] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18352.810406] EXT4-fs (loop0): unmounting filesystem.
+[18353.074826] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18353.090475] EXT4-fs (loop0): unmounting filesystem.
+[18353.379095] LTP: starting shmget03
+[18353.590787] LTP: starting clone08
+[18353.658342] LTP: starting getrlimit01
+[18353.717132] LTP: starting pwrite04
+[18353.771316] LTP: starting memset01
+[18353.822038] LTP: starting profil01
+[18355.214396] LTP: starting nfs03 (export VERSION=2 SOCKET_TYPE=tcp; nfs03)
+[18355.287579] LTP: starting nfs04 (export VERSION=3 SOCKET_TYPE=tcp; nfs04)
+[18355.359031] LTP: starting ftest04
+[18358.290390] LTP: starting nfs05 (export VERSION=2 SOCKET_TYPE=udp; nfs05)
+[18358.362523] LTP: starting dio02 (diotest2)
+[18358.397453] LTP: starting nfs01 (export VERSION=2 SOCKET_TYPE=udp; nfs01)
+[18358.468832] LTP: starting gf02 (growfiles -W gf02 -b -e 1 -L 10 -i 100 -I p -S 2 -u -f gf03_)
+[18358.803267] LTP: starting dio04 (diotest4)
+[18358.839495] LTP: starting ftest06
+[18358.856859] LTP: starting fcntl21
+[18358.936549] LTP: starting dup06
+[18358.994653] LTP: starting rename05
+[18359.076888] LTP: starting mem02
+[18359.649096] loop0: detected capacity change from 0 to 614400
+[18359.773602] /dev/zero: Can't open blockdev
+[18359.882938] /dev/zero: Can't open blockdev
+[18359.989621] /dev/zero: Can't open blockdev
+[18360.183894] LTP: starting gf10 (growfiles -W gf10 -b -e 1 -u -r 1-5000 -i 0 -L 30 -C 1 -I l g_lio14 g_lio14.2)
+[18361.121224] blk_print_req_error: 108 callbacks suppressed
+[18361.121264] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.128100] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.132813] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.136294] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.140514] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.144898] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.148391] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.152421] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.156559] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.161204] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18361.305798] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18361.309274] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18361.347688] EXT4-fs (loop0): unmounting filesystem.
+[18362.993146] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18363.004843] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18363.031880] EXT4-fs (loop0): unmounting filesystem.
+[18363.286306] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18363.302764] EXT4-fs (loop0): unmounting filesystem.
+[18363.565457] LTP: starting truncate02
+[18363.618815] LTP: starting kill11
+[18391.324524] LTP: starting stream01
+[18391.362458] LTP: starting gf30 (growfiles -W gf30 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -o O_RDWR,O_CREAT,O_SYNC -g 20480 -T 10 -t 20480 gf-sync-$$)
+[18391.480250] LTP: starting dio09 (diotest3 -b 65536)
+[18391.513994] LTP: starting ftest07
+[18393.680777] LTP: starting setfsgid01
+[18393.748003] LTP: starting execve03
+[18393.865308] LTP: starting chmod04
+[18393.895964] LTP: starting getcwd04
+[18394.506259] LTP: starting shmt03
+[18394.538480] LTP: starting rwtest01 (export LTPROOT; rwtest -N rwtest01 -c -q -i 60s  -f sync 10%25000:rw-sync-$$)
+[18398.957645] LTP: starting sbrk02
+[18398.987338] __vm_enough_memory: pid: 234735, comm: sbrk02, no enough memory for the allocation
+[18398.992780] __vm_enough_memory: pid: 234735, comm: sbrk02, no enough memory for the allocation
+[18398.998311] LTP: starting mmap02
+[18399.037495] LTP: starting semget02
+[18399.108734] LTP: starting shmget02
+[18399.328472] LTP: starting link05
+[18399.586419] LTP: starting sysfs04
+[18399.637649] LTP: starting setdomainname01
+[18399.697139] LTP: starting fchown04
+[18399.763150] LTP: starting fcntl24
+[18399.801836] LTP: starting semop02
+[18399.886639] LTP: starting fcntl25
+[18399.922433] LTP: starting getcwd02
+[18399.974810] LTP: starting fcntl10
+[18400.011098] LTP: starting getresuid03
+[18400.054092] LTP: starting pwritev03
+[18400.693684] loop0: detected capacity change from 0 to 614400
+[18400.719850] /dev/zero: Can't open blockdev
+[18400.822294] /dev/zero: Can't open blockdev
+[18400.925864] /dev/zero: Can't open blockdev
+[18402.034753] blk_print_req_error: 109 callbacks suppressed
+[18402.035671] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.038968] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.049011] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.054242] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.058146] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.062165] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.066095] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.070607] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.074464] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.077261] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18402.222160] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18402.226856] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18402.266882] EXT4-fs (loop0): unmounting filesystem.
+[18403.934463] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18403.946342] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18403.970730] EXT4-fs (loop0): unmounting filesystem.
+[18404.249393] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18404.270408] EXT4-fs (loop0): unmounting filesystem.
+[18404.666725] LTP: starting mmap07
+[18404.702044] LTP: starting waitpid02
+[18404.729928] Process 234800(waitpid02) has RLIMIT_CORE set to 1
+[18404.731041] Aborting core
+[18404.738537] LTP: starting statvfs01
+[18405.364927] loop0: detected capacity change from 0 to 614400
+[18405.480216] /dev/zero: Can't open blockdev
+[18405.583573] /dev/zero: Can't open blockdev
+[18405.715392] /dev/zero: Can't open blockdev
+[18406.983701] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18406.988429] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18407.006263] EXT4-fs (loop0): unmounting filesystem.
+[18407.193037] blk_print_req_error: 149 callbacks suppressed
+[18407.193080] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.199409] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.205363] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.208147] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.214698] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.219932] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.224211] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.230976] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.235226] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18407.243173] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18408.705371] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18408.720243] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18408.736065] EXT4-fs (loop0): unmounting filesystem.
+[18409.004612] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18409.024740] EXT4-fs (loop0): unmounting filesystem.
+[18409.441917] LTP: starting dup205
+[18409.498198] LTP: starting creat04
+[18409.573349] LTP: starting setpriority01
+[18410.482939] LTP: starting kill09
+[18410.516821] LTP: starting msgrcv03
+[18410.706636] LTP: starting mmap08
+[18410.743674] LTP: starting setpgrp02
+[18410.780832] LTP: starting flock04
+[18410.855585] LTP: starting fchown05
+[18410.915586] LTP: starting pause03
+[18410.953583] LTP: starting fcntl22
+[18410.998408] LTP: starting gethostid01
+[18411.054554] LTP: starting chdir01
+[18411.696899] loop0: detected capacity change from 0 to 614400
+[18411.780721] /dev/zero: Can't open blockdev
+[18411.906492] /dev/zero: Can't open blockdev
+[18412.009660] /dev/zero: Can't open blockdev
+[18413.105545] blk_print_req_error: 68 callbacks suppressed
+[18413.105581] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.108296] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.111412] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.115765] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.119157] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.123108] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.128340] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.133149] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.137297] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.142684] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18413.297834] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18413.303963] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18413.333866] EXT4-fs (loop0): unmounting filesystem.
+[18414.922338] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18414.943694] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18414.961453] EXT4-fs (loop0): unmounting filesystem.
+[18415.247810] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18415.264017] EXT4-fs (loop0): unmounting filesystem.
+[18415.638099] LTP: starting execve04
+[18415.804916] LTP: starting signal05
+[18415.870597] LTP: starting getpriority02
+[18415.922017] LTP: starting getitimer03
+[18415.948948] LTP: starting fpathconf01
+[18415.984344] LTP: starting creat01
+[18416.039869] LTP: starting mlock02
+[18416.099926] LTP: starting getdtablesize01
+[18416.184268] LTP: starting epoll_wait02
+[18428.410854] LTP: starting fcntl06
+[18428.436090] LTP: starting nanosleep01
+[18440.661504] LTP: starting sysctl03
+[18440.711754] LTP: starting mprotect04
+[18440.751659] LTP: starting mknod02
+[18440.799486] LTP: starting pwritev01
+[18440.854001] LTP: starting clone03
+[18440.908429] LTP: starting mknod09
+[18440.944021] LTP: starting msgsnd06
+[18441.006955] LTP: starting getresuid02
+[18441.049421] LTP: starting alarm02
+[18441.102466] LTP: starting getdents02
+[18441.183662] LTP: starting unlink01 (symlink01 -T unlink01)
+[18441.221868] LTP: starting mremap02
+[18441.253901] LTP: starting statfs03
+[18441.316339] LTP: starting flock01
+[18441.369414] LTP: starting nftw01
+[18441.590745] LTP: starting munlock02
+[18441.625780] LTP: starting setgid02
+[18441.685975] LTP: starting sched_setparam05
+[18441.765271] LTP: starting execve02
+[18441.938624] LTP: starting chdir02
+[18441.964501] LTP: starting getsockname01
+[18441.999042] LTP: starting open11
+[18442.069269] LTP: starting setgroups04
+[18442.100626] LTP: starting setgroups03
+[18442.146826] LTP: starting flock02
+[18442.200761] LTP: starting wait401
+[18442.259805] LTP: starting geteuid01
+[18442.292891] LTP: starting setgroups02
+[18442.335902] LTP: starting waitpid11
+[18442.413554] LTP: starting readlink01
+[18442.478831] LTP: starting fchmod04
+[18442.542812] LTP: starting chmod07
+[18442.609967] LTP: starting setfsuid01
+[18442.668059] LTP: starting iopl02
+[18442.697982] LTP: starting getdents01
+[18442.784266] LTP: starting msync01
+[18442.821701] LTP: starting flock03
+[18442.887021] LTP: starting open12
+[18443.954946] LTP: starting sethostname01
+[18444.016380] LTP: starting alarm06
+[18447.075131] LTP: starting semctl07
+[18447.130468] LTP: starting pipe10
+[18447.169367] LTP: starting setuid04
+[18447.237617] LTP: starting stat03
+[18447.314855] LTP: starting munlock01
+[18447.379378] LTP: starting vhangup02
+[18447.435451] LTP: starting execvp01
+[18447.514548] LTP: starting rename13
+[18448.142062] loop0: detected capacity change from 0 to 614400
+[18448.199251] /dev/zero: Can't open blockdev
+[18448.311551] /dev/zero: Can't open blockdev
+[18448.416283] /dev/zero: Can't open blockdev
+[18449.325258] blk_print_req_error: 108 callbacks suppressed
+[18449.325302] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.327013] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.329985] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.333985] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.336876] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.340630] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.345409] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.349621] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.353571] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.357380] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18449.497210] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18449.501989] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18449.521916] EXT4-fs (loop0): unmounting filesystem.
+[18451.149112] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18451.164971] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18451.178937] EXT4-fs (loop0): unmounting filesystem.
+[18451.455332] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18451.471312] EXT4-fs (loop0): unmounting filesystem.
+[18451.805718] LTP: starting signal02
+[18451.855261] LTP: starting semop04
+[18452.684059] LTP: starting close02
+[18452.733331] LTP: starting rename02
+[18452.758966] LTP: starting lchown01
+[18452.796387] LTP: starting semget03
+[18452.823093] LTP: starting lstat03
+[18452.847939] LTP: starting getpid02
+[18452.951205] LTP: starting uname03
+[18452.985354] LTP: starting utime02
+[18453.646532] loop0: detected capacity change from 0 to 614400
+[18453.716665] /dev/zero: Can't open blockdev
+[18453.826516] /dev/zero: Can't open blockdev
+[18453.931222] /dev/zero: Can't open blockdev
+[18454.857491] blk_print_req_error: 108 callbacks suppressed
+[18454.858600] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.861791] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.866462] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.871167] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.875920] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.879407] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.884066] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.888347] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.891572] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18454.896038] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18455.053659] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18455.068491] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18455.116211] EXT4-fs (loop0): unmounting filesystem.
+[18455.434847] LTP: starting inode02
+[18456.899760] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18456.919514] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18456.961532] EXT4-fs (loop0): unmounting filesystem.
+[18457.257470] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18457.280508] EXT4-fs (loop0): unmounting filesystem.
+[18457.439616] LTP: starting waitpid01
+[18457.499482] LTP: starting geteuid02
+[18457.548109] LTP: starting setpgid01
+[18457.590539] LTP: starting readdir21
+[18457.652683] LTP: starting semget06
+[18457.680921] LTP: starting sched_getparam01
+[18457.772225] LTP: starting pwritev02
+[18457.831370] LTP: starting pipe05
+[18457.875070] LTP: starting sysinfo01
+[18457.916061] LTP: starting setregid04
+[18457.943825] LTP: starting stack_space
+[18457.970592] LTP: starting getcontext01
+[18458.019592] LTP: starting nfs05 (export VERSION=3 SOCKET_TYPE=tcp; nfs05)
+[18458.030501] LTP: starting vfork01
+[18458.065422] LTP: starting ftruncate03
+[18458.098841] LTP: starting mtest01 (mtest01 -p80)
+[18458.119220] LTP: starting shmctl04
+[18458.181486] LTP: starting adjtimex02
+[18458.254445] LTP: starting dup07
+[18458.291120] LTP: starting getcwd01
+[18458.343119] LTP: starting sendfile03
+[18458.393553] LTP: starting gf15 (growfiles -W gf15 -b -e 1 -u -r 1-49600 -I r -u -i 0 -L 120 Lgfile1)
+[18458.401791] LTP: starting setreuid03
+[18458.461189] LTP: starting fchmod05
+[18458.557890] LTP: starting uname02
+[18458.609555] LTP: starting nanosleep04
+[18458.659801] LTP: starting mknod07
+[18459.302910] loop0: detected capacity change from 0 to 614400
+[18459.863140] blk_print_req_error: 110 callbacks suppressed
+[18459.863454] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.867409] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.871419] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.875617] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.879026] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.882077] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.886217] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.891214] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.895274] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18459.898863] operation not supported error, dev loop0, sector 147980 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18460.036996] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18460.040167] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18460.059101] EXT4-fs (loop0): unmounting filesystem.
+[18460.241424] LTP: starting semctl06
+[18460.459034] LTP: starting waitpid04
+[18460.493715] LTP: starting rename01A (symlink01 -T rename01)
+[18460.532079] LTP: starting llseek02
+[18460.586655] LTP: starting fchown01
+[18460.639917] LTP: starting pwrite01
+[18460.694343] LTP: starting chdir03
+[18460.720374] LTP: starting msgget01
+[18460.776531] LTP: starting getuid03
+[18460.827584] LTP: starting fsync03
+[18460.881286] LTP: starting memcpy01
+[18460.932393] LTP: starting waitpid05
+[18470.026838] LTP: starting munmap03
+[18470.061057] LTP: starting pread03
+[18470.086908] LTP: starting shmdt02
+[18470.145737] LTP: starting kill02
+[18480.192116] LTP: starting socketcall02
+[18480.241808] LTP: starting getppid01
+[18480.292966] LTP: starting chmod05
+[18480.389322] LTP: starting ftruncate04
+[18480.558191] LTP: starting sighold02
+[18480.625859] LTP: starting link02
+[18480.680505] LTP: starting unlink07
+[18480.741881] LTP: starting pty01
+[18490.807462] LTP: starting rmdir03
+[18490.873409] LTP: starting utime01
+[18491.515185] loop0: detected capacity change from 0 to 614400
+[18491.569798] /dev/zero: Can't open blockdev
+[18491.670856] /dev/zero: Can't open blockdev
+[18491.774495] /dev/zero: Can't open blockdev
+[18492.837017] blk_print_req_error: 30 callbacks suppressed
+[18492.839831] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.841857] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.846395] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.851018] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.853602] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.858656] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.863942] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.868527] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.873924] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18492.879204] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18493.013204] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18493.025119] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18493.055852] EXT4-fs (loop0): unmounting filesystem.
+[18494.606095] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18494.620324] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18494.638208] EXT4-fs (loop0): unmounting filesystem.
+[18494.890273] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18494.906052] EXT4-fs (loop0): unmounting filesystem.
+[18495.141217] LTP: starting lseek11
+[18495.202736] LTP: starting ptrace03
+[18495.266469] LTP: starting fchmod02
+[18495.328570] LTP: starting rename12
+[18495.979590] loop0: detected capacity change from 0 to 614400
+[18496.015036] /dev/zero: Can't open blockdev
+[18496.122236] /dev/zero: Can't open blockdev
+[18496.224218] /dev/zero: Can't open blockdev
+[18497.166572] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18497.170610] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18497.209343] EXT4-fs (loop0): unmounting filesystem.
+[18497.858450] blk_print_req_error: 197 callbacks suppressed
+[18497.858491] operation not supported error, dev loop0, sector 5704 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18497.897992] operation not supported error, dev loop0, sector 6218 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18497.938286] operation not supported error, dev loop0, sector 6732 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18497.980619] operation not supported error, dev loop0, sector 7246 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.021608] operation not supported error, dev loop0, sector 7760 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.062047] operation not supported error, dev loop0, sector 8274 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.104670] operation not supported error, dev loop0, sector 8788 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.144155] operation not supported error, dev loop0, sector 9302 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.185464] operation not supported error, dev loop0, sector 9816 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.226654] operation not supported error, dev loop0, sector 10330 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18498.810463] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18498.824594] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18498.846147] EXT4-fs (loop0): unmounting filesystem.
+[18499.112333] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18499.134337] EXT4-fs (loop0): unmounting filesystem.
+[18499.320520] LTP: starting setresuid03
+[18499.372513] LTP: starting swapoff01
+[18499.489632] LTP: starting getegid01
+[18499.522754] LTP: starting close01
+[18499.579194] LTP: starting mmap04
+[18499.615866] LTP: starting fcntl05
+[18499.670558] LTP: starting setresuid01
+[18499.726387] LTP: starting pipe11
+[18499.868001] LTP: starting semctl04
+[18499.937275] LTP: starting lstat01
+[18499.991973] LTP: starting sethostname02
+[18500.050211] LTP: starting unlink08
+[18500.132578] LTP: starting utime06
+[18500.210789] LTP: starting fstat02
+[18500.263690] LTP: starting open09
+[18500.298764] LTP: starting read04
+[18500.349973] LTP: starting pwrite02
+[18500.403035] LTP: starting capset02
+[18500.457529] LTP: starting msync02
+[18500.493968] LTP: starting read02
+[18500.549775] LTP: starting modify_ldt01
+[18500.578749] LTP: starting wait01
+[18500.627306] LTP: starting pwrite04_64
+[18500.681585] LTP: starting msgctl08
+[18500.710817] LTP: starting sysfs01
+[18500.760764] LTP: starting pipe09
+[18500.803656] LTP: starting semctl03
+[18500.863373] LTP: starting chmod02
+[18500.887859] LTP: starting sysfs02
+[18500.936026] LTP: starting shmdt01
+[18500.990659] LTP: starting open03
+[18501.045012] LTP: starting gethostname01
+[18501.089687] LTP: starting reboot01
+[18501.145894] LTP: starting execl01
+[18501.225639] LTP: starting rename07
+[18501.874594] loop0: detected capacity change from 0 to 614400
+[18501.920105] /dev/zero: Can't open blockdev
+[18502.026412] /dev/zero: Can't open blockdev
+[18502.129856] /dev/zero: Can't open blockdev
+[18503.205791] blk_print_req_error: 19 callbacks suppressed
+[18503.207058] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.210631] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.213830] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.216787] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.220848] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.224237] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.227604] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.230808] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.234216] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.237980] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18503.373070] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18503.377361] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18503.396319] EXT4-fs (loop0): unmounting filesystem.
+[18504.950948] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18504.963487] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18504.979801] EXT4-fs (loop0): unmounting filesystem.
+[18505.227800] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18505.244438] EXT4-fs (loop0): unmounting filesystem.
+[18505.494663] LTP: starting write05
+[18505.551138] LTP: starting getpeername01
+[18505.583986] LTP: starting mlockall03
+[18505.627541] LTP: starting exit02
+[18505.686520] LTP: starting getsid01
+[18505.740889] LTP: starting statvfs02
+[18505.803509] LTP: starting stat02
+[18505.864143] LTP: starting clone05
+[18506.314861] LTP: starting fork03
+[18506.349381] LTP: starting mremap04
+[18506.385418] LTP: starting fstat01
+[18506.411294] LTP: starting writev07
+[18506.467151] LTP: starting socket01
+[18506.848103] LTP: starting getrusage01
+[18506.898920] LTP: starting execve05 (execve05 20 $LTPROOT/testcases/bin/execve05 $LTPROOT/testcases/bin/execve05 4)
+[18506.990016] LTP: starting kill07
+[18508.031210] LTP: starting setuid03
+[18508.086826] LTP: starting sched_get_priority_max02
+[18508.136249] LTP: starting setreuid05
+[18508.201250] LTP: starting fork11
+[18508.563484] LTP: starting sethostname03
+[18508.639044] LTP: starting stat01
+[18508.700698] LTP: starting waitpid12
+[18508.775566] LTP: starting msgrcv02
+[18508.887961] LTP: starting sigaltstack02
+[18508.919835] LTP: starting prctl02
+[18508.973923] LTP: starting setdomainname02
+[18509.033109] LTP: starting setitimer01
+[18509.543274] LTP: starting confstr01
+[18509.595613] LTP: starting setdomainname03
+[18509.661540] LTP: starting setrlimit03
+[18509.712685] LTP: starting nice02
+[18509.762442] LTP: starting pipe04
+[18509.801759] LTP: starting bind02
+[18509.860967] LTP: starting read01
+[18509.914566] LTP: starting sched_rr_get_interval03
+[18509.978172] LTP: starting open05
+[18510.005353] LTP: starting setreuid01
+[18510.054830] LTP: starting sbrk01
+[18510.089653] LTP: starting msgctl07
+[18510.118868] LTP: starting statfs01
+[18510.788003] loop0: detected capacity change from 0 to 614400
+[18510.818860] /dev/zero: Can't open blockdev
+[18510.925799] /dev/zero: Can't open blockdev
+[18511.028544] /dev/zero: Can't open blockdev
+[18512.115937] blk_print_req_error: 109 callbacks suppressed
+[18512.116779] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.120533] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.125241] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.128725] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.133215] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.137742] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.141018] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.145431] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.148356] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.152136] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18512.285558] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18512.290175] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18512.309661] EXT4-fs (loop0): unmounting filesystem.
+[18513.849381] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18513.861195] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18513.876172] EXT4-fs (loop0): unmounting filesystem.
+[18514.130053] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18514.144971] EXT4-fs (loop0): unmounting filesystem.
+[18514.420050] LTP: starting sched_yield01
+[18514.452513] LTP: starting sched_getparam03
+[18514.511069] LTP: starting open06
+[18514.563706] LTP: starting fcntl01
+[18514.599799] LTP: starting listen01
+[18514.635348] LTP: starting getppid02
+[18514.690015] LTP: starting prctl01
+[18514.743583] LTP: starting fdatasync02
+[18514.777919] LTP: starting pipe07
+[18514.855507] LTP: starting fcntl11
+[18514.913504] LTP: starting mmap06
+[18514.949909] LTP: starting llseek03
+[18515.006053] LTP: starting setrlimit02
+[18515.065789] LTP: starting munmap02
+[18515.103127] LTP: starting fcntl23
+[18515.139707] LTP: starting execlp01
+[18515.214272] LTP: starting mmap01
+[18515.359169] LTP: starting mknod03
+[18515.403911] LTP: starting getpid01
+[18515.963133] LTP: starting sched_getscheduler01
+[18516.024493] LTP: starting recvmsg01
+[18516.091356] LTP: starting lseek01
+[18516.145865] LTP: starting msgctl06
+[18516.207214] LTP: starting sigsuspend01
+[18517.260330] LTP: starting fork05
+[18517.290786] LTP: starting open02
+[18517.351109] LTP: starting getrlimit02
+[18517.401540] LTP: starting chmod06
+[18517.476584] LTP: starting fork09
+[18517.767496] LTP: starting fcntl31
+[18517.838212] LTP: starting readv02
+[18517.895835] LTP: starting stat05
+[18517.920971] LTP: starting rename08
+[18518.602194] loop0: detected capacity change from 0 to 614400
+[18518.636550] /dev/zero: Can't open blockdev
+[18518.740203] /dev/zero: Can't open blockdev
+[18518.843329] /dev/zero: Can't open blockdev
+[18519.930542] blk_print_req_error: 109 callbacks suppressed
+[18519.931609] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.935529] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.940022] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.943522] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.948074] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.951783] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.955289] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.959733] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.963580] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18519.967524] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18520.114248] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18520.130957] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18520.151132] EXT4-fs (loop0): unmounting filesystem.
+[18521.710734] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18521.736465] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18521.751971] EXT4-fs (loop0): unmounting filesystem.
+[18521.997665] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18522.011118] EXT4-fs (loop0): unmounting filesystem.
+[18522.323659] LTP: starting syscall01
+[18522.373667] LTP: starting creat08
+[18522.479040] LTP: starting clone06
+[18522.533787] LTP: starting socketcall04
+[18522.560969] LTP: starting open01A (symlink01 -T open01)
+[18522.602414] LTP: starting getrusage02
+[18522.659000] LTP: starting fork06
+[18525.556440] LTP: starting dup203
+[18525.611955] LTP: starting msgrcv05
+[18525.676112] LTP: starting vfork02
+[18525.708576] LTP: starting mkdir04
+[18525.759785] LTP: starting dup202
+[18525.814777] LTP: starting rename11
+[18526.554634] loop0: detected capacity change from 0 to 614400
+[18527.069334] blk_print_req_error: 109 callbacks suppressed
+[18527.069786] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.072886] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.076436] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.079438] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.083595] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.088582] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.092660] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.096207] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.101261] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.104756] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18527.244463] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18527.248002] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18527.254378] EXT4-fs (loop0): re-mounted. Quota mode: disabled.
+[18527.256996] EXT4-fs (loop0): re-mounted. Quota mode: disabled.
+[18527.260652] EXT4-fs (loop0): unmounting filesystem.
+[18527.404716] LTP: starting setpgid03
+[18527.489017] LTP: starting accept01
+[18527.543355] LTP: starting settimeofday01
+[18527.602567] LTP: starting fchdir02
+[18527.653168] LTP: starting chmod03
+[18527.721932] LTP: starting chdir04
+[18527.776937] LTP: starting truncate03
+[18527.849216] LTP: starting fcntl09
+[18527.884418] LTP: starting setresgid04
+[18527.928351] LTP: starting waitpid08
+[18528.001346] LTP: starting link01 (symlink01 -T link01)
+[18528.037387] LTP: starting string01
+[18528.073568] LTP: starting poll01
+[18528.125868] LTP: starting rename03
+[18528.780399] loop0: detected capacity change from 0 to 614400
+[18528.910882] /dev/zero: Can't open blockdev
+[18529.014865] /dev/zero: Can't open blockdev
+[18529.119847] /dev/zero: Can't open blockdev
+[18529.744698] LTP: starting ftest03
+[18530.431731] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18530.437303] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18530.460185] EXT4-fs (loop0): unmounting filesystem.
+[18532.073551] blk_print_req_error: 142 callbacks suppressed
+[18532.073590] operation not supported error, dev loop0, sector 18032 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.112949] operation not supported error, dev loop0, sector 18546 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.148958] operation not supported error, dev loop0, sector 19060 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.202555] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18532.213275] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18532.255278] EXT4-fs (loop0): unmounting filesystem.
+[18532.466351] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.469703] operation not supported error, dev loop0, sector 586 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.480577] operation not supported error, dev loop0, sector 15792 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.518985] operation not supported error, dev loop0, sector 278530 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18532.561880] LTP: starting dio17 (diotest6 -b 65536 -i 1000)
+[18532.581885] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18532.597496] LTP: starting gf09 (growfiles -W gf09 -b -e 1 -u -r 1-5000 -R 0--1 -i 0 -L 30 -C 1 -I p g_rand12 g_rand12.2)
+[18532.608021] EXT4-fs (loop0): unmounting filesystem.
+[18532.800778] I/O error, dev loop0, sector 614272 op 0x0:(READ) flags 0x80700 phys_seg 1 prio class 2
+[18532.868812] LTP: starting getresgid02
+[18532.910614] LTP: starting dup01
+[18532.963563] LTP: starting mkdir05
+[18533.025918] LTP: starting getitimer01
+[18533.079439] LTP: starting fdatasync01
+[18533.114869] LTP: starting epoll_wait03
+[18533.167069] LTP: starting sendfile02
+[18533.235613] LTP: starting connect01
+[18533.277062] LTP: starting getuid01
+[18533.325325] LTP: starting ftruncate02
+[18533.351484] LTP: starting kill05
+[18533.417234] LTP: starting alarm07
+[18536.466051] LTP: starting symlink03
+[18536.517586] LTP: starting mc_opts (export TCsrc=$LTPROOT/testcases/network/multicast/mc_opts; mc_opts)
+[18536.589070] LTP: starting socketcall01
+[18536.637794] LTP: starting getsid02
+[18536.688274] LTP: starting fchdir03
+[18536.748882] LTP: starting uname01
+[18536.797938] LTP: starting sched_setparam02
+[18536.856802] LTP: starting kill04
+[18536.882210] LTP: starting link06
+[18536.907443] LTP: starting semop03
+[18537.028829] LTP: starting dup04
+[18537.082333] LTP: starting setsockopt01
+[18537.137523] LTP: starting shmctl02
+[18537.251287] LTP: starting dup02
+[18537.313819] LTP: starting fcntl07
+[18537.455129] LTP: starting signal04
+[18537.514563] LTP: starting kill01
+[18537.540077] LTP: starting chown04
+[18537.614759] LTP: starting msgctl09
+[18537.642037] LTP: starting alarm03
+[18537.697606] LTP: starting dup201
+[18537.751102] LTP: starting fchmod06
+[18537.815059] LTP: starting bind01
+[18537.866252] LTP: starting clone02
+[18537.908139] LTP: starting msgrcv06
+[18537.969040] LTP: starting mremap03
+[18538.002584] LTP: starting shmget05
+[18538.188899] LTP: starting execv01
+[18538.264386] LTP: starting readv01
+[18538.327076] LTP: starting pipe01
+[18538.376419] LTP: starting ioperm01
+[18538.404609] LTP: starting msgsnd05
+[18538.468237] LTP: starting rename04
+[18539.099141] loop0: detected capacity change from 0 to 614400
+[18539.185155] /dev/zero: Can't open blockdev
+[18539.292092] /dev/zero: Can't open blockdev
+[18539.396364] /dev/zero: Can't open blockdev
+[18540.484164] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.486273] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.490217] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.493708] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.498787] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.502044] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.506601] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.510884] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.515180] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.520189] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18540.669245] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18540.672342] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18540.709221] EXT4-fs (loop0): unmounting filesystem.
+[18542.321643] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18542.328331] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18542.345921] EXT4-fs (loop0): unmounting filesystem.
+[18542.606460] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18542.622411] EXT4-fs (loop0): unmounting filesystem.
+[18542.868908] LTP: starting fcntl19
+[18542.920389] LTP: starting shmget04
+[18542.986670] LTP: starting swapon03
+[18543.396452] LTP: starting munmap01
+[18543.433493] LTP: starting setpgrp01
+[18543.470667] LTP: starting semop05
+[18563.180796] LTP: starting shmt05
+[18563.213284] LTP: starting dio14 (diotest2 -b 65536 -i 1000)
+[18563.250249] LTP: starting gf22 (growfiles -W gf22 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -T 10 -t 20480 gf-bldf-$$)
+[18563.367931] LTP: starting nfs04 (export VERSION=2 SOCKET_TYPE=tcp; nfs04)
+[18563.438745] LTP: starting dio03 (diotest3)
+[18563.471734] LTP: starting nfs04 (export VERSION=3 SOCKET_TYPE=udp; nfs04)
+[18563.495796] LTP: starting msgget02
+[18563.542055] LTP: starting nfsx-linux (export VERSION=3 SOCKET_TYPE=tcp; export TCbin=$LTPROOT/testcases/bin; fsx.sh)
+[18563.578082] LTP: starting setregid03
+[18563.644481] LTP: starting epoll_ctl02
+[18563.699152] LTP: starting lchown02
+[18563.753319] LTP: starting pwrite01_64
+[18563.809045] LTP: starting fmtmsg01
+[18563.865209] LTP: starting mkdir03
+[18563.931426] LTP: starting waitpid06
+[18564.004185] LTP: starting fcntl30
+[18564.038501] LTP: starting fcntl18
+[18564.093606] LTP: starting ptrace02
+[18564.160260] LTP: starting lstat02
+[18564.231057] LTP: starting brk01
+[18564.293546] LTP: starting chmod01
+[18564.361831] LTP: starting getpriority01
+[18564.414993] LTP: starting getitimer02
+[18564.465983] LTP: starting fcntl26
+[18564.502366] LTP: starting setrlimit01
+[18564.576623] LTP: starting fchdir01
+[18564.633985] LTP: starting epoll_ctl01
+[18564.687735] LTP: starting msgrcv07
+[18564.745166] LTP: starting sched_get_priority_max01
+[18564.795947] LTP: starting msgrcv01
+[18564.852904] LTP: starting setresgid02
+[18564.908647] LTP: starting fork01
+[18565.099613] LTP: starting setgid03
+[18565.152425] IPv6: ADDRCONF(NETDEV_CHANGE): ltp_ns_veth2: link becomes ready
+[18565.176150] LTP: starting shmat02
+[18565.256697] LTP: starting getgid01
+[18565.324555] LTP: starting sched_setscheduler01
+[18565.387523] LTP: starting ftruncate01
+[18565.457013] LTP: starting modify_ldt02
+[18565.487166] LTP: starting setgroups01
+[18565.521215] LTP: starting msgctl02
+[18565.576121] LTP: starting preadv01
+[18565.630212] LTP: starting setegid01
+[18565.697542] LTP: starting msgctl01
+[18565.753123] LTP: starting fcntl20
+[18565.804259] LTP: starting vhangup01
+[18565.870489] LTP: starting kill03
+[18565.923949] LTP: starting sigaction02
+[18565.957027] LTP: starting swapon01
+[18566.078858] LTP: starting link03
+[18566.117607] LTP: starting access01
+[18566.844684] LTP: starting fcntl03
+[18566.911504] LTP: starting msgget03
+[18566.968568] LTP: starting msgctl03
+[18567.022744] LTP: starting getresgid01
+[18567.057241] LTP: starting setsid01
+[18567.641452] IPv6: ADDRCONF(NETDEV_CHANGE): ltp_ns_veth1: link becomes ready
+[18568.105907] LTP: starting creat07
+[18568.288902] LTP: starting getcwd03
+[18568.345306] LTP: starting memcmp01
+[18568.394573] LTP: starting sched_rr_get_interval02
+[18568.453697] LTP: starting mkdir05A (symlink01 -T mkdir05)
+[18568.490553] LTP: starting lseek07
+[18568.541858] LTP: starting fstat03
+[18568.609890] LTP: starting msgctl04
+[18568.683982] LTP: starting sigpending02
+[18568.752916] LTP: starting mknod08
+[18568.799036] LTP: starting utime03
+[18569.444130] loop0: detected capacity change from 0 to 614400
+[18569.473015] /dev/zero: Can't open blockdev
+[18569.577282] /dev/zero: Can't open blockdev
+[18569.687227] /dev/zero: Can't open blockdev
+[18570.544683] LTP: starting dio13 (diotest1 -b 65536 -n 2000)
+[18570.582768] LTP: starting rwtest05 (export LTPROOT; rwtest -N rwtest05 -c -q -i 50 -T 64b 500b:/tmp/rwtest01%s)
+[18570.615042] blk_print_req_error: 109 callbacks suppressed
+[18570.615176] operation not supported error, dev loop0, sector 614272 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.618158] operation not supported error, dev loop0, sector 524 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.621683] operation not supported error, dev loop0, sector 16908 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.625423] operation not supported error, dev loop0, sector 32774 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.629880] operation not supported error, dev loop0, sector 49676 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.633540] operation not supported error, dev loop0, sector 65542 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.637409] operation not supported error, dev loop0, sector 82444 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.641060] operation not supported error, dev loop0, sector 98310 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.644180] operation not supported error, dev loop0, sector 115212 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.648675] operation not supported error, dev loop0, sector 131078 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18570.796664] EXT4-fs (loop0): mounting ext2 file system using the ext4 subsystem
+[18570.806855] EXT4-fs (loop0): mounted filesystem without journal. Quota mode: disabled.
+[18570.846674] EXT4-fs (loop0): unmounting filesystem.
+[18570.981829] LTP: starting dio11 (diotest5 -b 65536)
+[18571.020308] LTP: starting gf29 (growfiles -W gf29 -b -D 0 -r 1-4096 -R 0-33554432 -i 0 -L 60 -C 1 -u gfsparse-3-$$)
+[18572.477194] EXT4-fs (loop0): mounting ext3 file system using the ext4 subsystem
+[18572.505608] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18572.528345] EXT4-fs (loop0): unmounting filesystem.
+[18572.801497] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18572.818316] EXT4-fs (loop0): unmounting filesystem.
+[18573.120307] LTP: starting llseek01
+[18573.173668] LTP: starting setreuid07
+[18573.236493] LTP: starting readlink03
+[18573.308620] LTP: starting readlink01A (symlink01 -T readlink01)
+[18573.353100] LTP: starting sched_setparam01
+[18573.411883] LTP: starting setresuid05
+[18573.473251] LTP: starting mallopt01
+[18573.525011] LTP: starting fcntl33
+[18573.576324] LTP: starting rename09
+[18573.631996] LTP: starting rename14
+[18578.672717] LTP: starting link04
+[18578.751457] LTP: starting writev05
+[18578.787536] LTP: starting msgrcv04
+[18578.816238] LTP: starting mkdir02
+[18578.916930] LTP: starting capget01
+[18578.970311] LTP: starting fchown02
+[18579.024405] LTP: starting mmap16 (mmap16 -i 5)
+[18579.648434] loop0: detected capacity change from 0 to 614400
+[18579.819028] blk_print_req_error: 108 callbacks suppressed
+[18579.819066] operation not supported error, dev loop0, sector 20352 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18579.822632] operation not supported error, dev loop0, sector 172 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18579.836368] operation not supported error, dev loop0, sector 1478 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18579.850012] operation not supported error, dev loop0, sector 1480 op 0x9:(WRITE_ZEROES) flags 0x8000800 phys_seg 0 prio class 2
+[18579.871863] EXT4-fs (loop0): mounted filesystem with ordered data mode. Quota mode: disabled.
+[18580.744769] mmap16[237860]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18580.746174] CPU: 4 PID: 237860 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18580.747301] Hardware name: riscv-virtio,qemu (DT)
+[18580.747981] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18580.748497]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18580.749091]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18580.749946]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18580.751365]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18580.752651]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18580.754007]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18580.755646]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18580.756625]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18580.757873]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18580.758546]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18580.759681] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18583.086331] mmap16[237868]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18583.087150] CPU: 4 PID: 237868 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18583.087766] Hardware name: riscv-virtio,qemu (DT)
+[18583.088479] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18583.088884]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18583.089418]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18583.090602]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18583.091209]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18583.092613]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18583.093692]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18583.094819]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18583.095818]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18583.096986]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18583.097924]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18583.098847] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18585.393482] mmap16[237879]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18585.395894] CPU: 4 PID: 237879 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18585.396855] Hardware name: riscv-virtio,qemu (DT)
+[18585.397190] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18585.398403]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18585.399315]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18585.400227]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18585.401423]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18585.402550]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18585.403807]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18585.405009]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18585.406474]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18585.407455]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18585.407986]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18585.408284] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18587.606799] mmap16[237889]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18587.607367] CPU: 4 PID: 237889 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18587.607700] Hardware name: riscv-virtio,qemu (DT)
+[18587.607941] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18587.608397]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18587.609733]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18587.610985]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18587.611892]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18587.613083]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18587.614406]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18587.614753]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18587.615137]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18587.615759]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18587.616241]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18587.616666] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18589.818039] mmap16[237898]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18589.819083] CPU: 1 PID: 237898 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18589.819430] Hardware name: riscv-virtio,qemu (DT)
+[18589.819663] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18589.820025]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18589.821311]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18589.822555]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18589.823581]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18589.825457]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18589.826135]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18589.827265]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18589.828445]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18589.829293]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18589.830850]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18589.831914] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18592.056333] mmap16[237907]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18592.056860] CPU: 6 PID: 237907 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18592.057096] Hardware name: riscv-virtio,qemu (DT)
+[18592.057390] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18592.057788]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18592.058383]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18592.059519]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18592.061097]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18592.062462]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18592.063532]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18592.064619]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18592.065897]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18592.066985]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18592.068418]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18592.069523] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18594.249922] mmap16[237916]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18594.250225] CPU: 6 PID: 237916 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18594.250637] Hardware name: riscv-virtio,qemu (DT)
+[18594.250818] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18594.251274]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18594.252131]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18594.253061]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18594.254451]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18594.255707]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18594.256868]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18594.257647]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18594.258726]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18594.259824]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18594.260811]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18594.261886] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18596.456221] mmap16[237925]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18596.458503] CPU: 4 PID: 237925 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18596.460276] Hardware name: riscv-virtio,qemu (DT)
+[18596.460735] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18596.461852]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18596.462902]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18596.463286]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18596.464007]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18596.464395]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18596.465102]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18596.465820]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18596.467094]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18596.468187]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18596.469198]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18596.470039] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18598.673874] mmap16[237934]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18598.674714] CPU: 4 PID: 237934 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18598.675038] Hardware name: riscv-virtio,qemu (DT)
+[18598.675631] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18598.676334]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18598.677032]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18598.677350]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18598.678476]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18598.679592]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18598.680388]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18598.681504]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18598.682597]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18598.683183]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18598.683703]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18598.684037] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18600.954833] mmap16[237943]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18600.956652] CPU: 6 PID: 237943 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18600.957099] Hardware name: riscv-virtio,qemu (DT)
+[18600.957958] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18600.958198]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18600.958422]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18600.958885]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18600.959274]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18600.959933]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18600.961064]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18600.961922]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18600.963342]  s8 : 0000000000000000 s9 : 0000000000000068 s10: 0000000000000001
+[18600.963954]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18600.964316]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18600.964539] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18603.184656] mmap16[237952]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18603.185178] CPU: 4 PID: 237952 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18603.185526] Hardware name: riscv-virtio,qemu (DT)
+[18603.185770] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18603.186096]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18603.187042]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18603.187796]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18603.188363]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18603.189765]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18603.190841]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18603.192057]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18603.193429]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18603.194651]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18603.195918]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18603.197007] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18605.404239] mmap16[237961]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18605.404705] CPU: 4 PID: 237961 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18605.405355] Hardware name: riscv-virtio,qemu (DT)
+[18605.405608] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18605.406262]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18605.407147]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18605.408278]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18605.409309]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18605.410448]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18605.411909]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18605.412954]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18605.413986]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18605.415084]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18605.416345]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18605.417092] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18607.743264] mmap16[237970]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18607.743940] CPU: 4 PID: 237970 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18607.744371] Hardware name: riscv-virtio,qemu (DT)
+[18607.745129] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18607.745601]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18607.746446]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18607.747855]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18607.749391]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18607.749848]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18607.750517]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18607.751789]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18607.753021]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18607.754066]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18607.755058]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18607.755992] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18609.934155] mmap16[237979]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18609.935560] CPU: 6 PID: 237979 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18609.937015] Hardware name: riscv-virtio,qemu (DT)
+[18609.937706] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18609.938876]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18609.939194]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18609.939818]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18609.940559]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18609.940960]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18609.941601]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18609.942678]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18609.943896]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18609.944641]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18609.945667]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18609.946738] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18612.124152] mmap16[237988]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18612.125091] CPU: 4 PID: 237988 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18612.126297] Hardware name: riscv-virtio,qemu (DT)
+[18612.126833] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18612.127477]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18612.128010]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18612.128759]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18612.130044]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18612.130290]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18612.131118]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18612.132062]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18612.133080]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18612.134235]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18612.135428]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18612.136038] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18614.368159] mmap16[237997]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18614.369703] CPU: 4 PID: 237997 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18614.370201] Hardware name: riscv-virtio,qemu (DT)
+[18614.370510] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18614.371052]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18614.371598]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18614.372265]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18614.373375]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18614.374566]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18614.375678]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18614.376999]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18614.377853]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18614.378534]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18614.379809]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18614.381159] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18616.619083] mmap16[238006]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18616.621393] CPU: 4 PID: 238006 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18616.622168] Hardware name: riscv-virtio,qemu (DT)
+[18616.622808] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18616.624059]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18616.625100]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18616.626061]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18616.627257]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18616.628792]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18616.629918]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18616.631077]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18616.632671]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18616.633742]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18616.634877]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18616.635659] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18618.849387] mmap16[238015]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18618.849953] CPU: 4 PID: 238015 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18618.851808] Hardware name: riscv-virtio,qemu (DT)
+[18618.852399] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18618.852916]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18618.853692]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18618.855103]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18618.855918]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18618.856846]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18618.857963]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18618.858927]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18618.859802]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18618.861068]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18618.862156]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18618.863115] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18621.051855] mmap16[238024]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18621.053856] CPU: 6 PID: 238024 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18621.054968] Hardware name: riscv-virtio,qemu (DT)
+[18621.055697] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18621.056708]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18621.057874]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18621.059286]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18621.060781]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18621.061920]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18621.063317]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18621.064580]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18621.065421]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18621.066126]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18621.067014]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18621.067665] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18623.295273] mmap16[238033]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18623.296655] CPU: 6 PID: 238033 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18623.298041] Hardware name: riscv-virtio,qemu (DT)
+[18623.298671] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18623.299663]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18623.300546]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18623.301457]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18623.303175]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18623.304098]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18623.305127]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18623.306143]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18623.307168]  s8 : 000000000000000a s9 : 0000000000000068 s10: 0000000000000002
+[18623.308307]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18623.309431]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18623.310401] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18625.596432] mmap16[238043]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18625.598630] CPU: 6 PID: 238043 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18625.599457] Hardware name: riscv-virtio,qemu (DT)
+[18625.599719] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18625.600932]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18625.601963]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18625.603007]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18625.603872]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18625.604562]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18625.605460]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18625.606521]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18625.608097]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18625.609157]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18625.610287]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18625.611145] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18627.828777] mmap16[238052]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18627.831057] CPU: 0 PID: 238052 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18627.832170] Hardware name: riscv-virtio,qemu (DT)
+[18627.832858] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18627.834112]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18627.835552]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18627.836918]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18627.837831]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18627.839118]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18627.840539]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18627.841703]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18627.843152]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18627.844247]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18627.845228]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18627.845888] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18630.158981] mmap16[238061]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18630.161262] CPU: 2 PID: 238061 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18630.162340] Hardware name: riscv-virtio,qemu (DT)
+[18630.162744] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18630.163864]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18630.165357]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18630.165981]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18630.166935]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18630.167944]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18630.169064]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18630.170080]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18630.171190]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18630.172688]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18630.173730]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18630.174589] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18631.217359] LTP: starting linker01 (linktest.sh 1000 1000)
+[18631.549178] LTP: starting ftest02
+[18631.858267] LTP: starting nfs01 (export VERSION=2 SOCKET_TYPE=tcp; nfs01)
+[18631.930862] LTP: starting dio27 (diotest6 -b 8192 -o 1024000 -i 1000 -v 100)
+[18631.967232] LTP: starting gf27 (growfiles -W gf27 -b -D 0 -w -g 8b -C 1 -b -i 1000 -u gfsparse-1-$$)
+[18632.463809] mmap16[238077]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18632.466080] CPU: 6 PID: 238077 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18632.467251] Hardware name: riscv-virtio,qemu (DT)
+[18632.467621] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18632.468747]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18632.469898]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18632.471090]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18632.472004]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18632.473271]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18632.474699]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18632.476053]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18632.477391]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18632.478547]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18632.479849]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18632.480905] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18632.567135] LTP: starting dio25 (diotest6 -b 65536 -i 1000 -o 104857600)
+[18632.601877] LTP: starting page02
+[18633.673874] LTP: starting nfs02 (export VERSION=2 SOCKET_TYPE=tcp; nfs02)
+[18633.749770] LTP: starting ftest01
+[18635.263061] mmap16[238108]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18635.264526] CPU: 1 PID: 238108 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18635.265061] Hardware name: riscv-virtio,qemu (DT)
+[18635.265395] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18635.266614]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18635.268003]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18635.269132]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18635.270650]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18635.271796]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18635.272828]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18635.274437]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18635.275488]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18635.276037]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18635.276988]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18635.278058] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18635.484820] LTP: starting gf08 (growfiles -W gf08 -b -e 1 -u -r 1-5000 -R 0--2 -i 0 -L 30 -C 1 g_rand11 g_rand11.2)
+[18637.487351] mmap16[238124]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18637.488497] CPU: 6 PID: 238124 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18637.489456] Hardware name: riscv-virtio,qemu (DT)
+[18637.489895] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18637.490969]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18637.492255]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18637.493148]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18637.494077]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18637.495434]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18637.496686]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18637.497898]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18637.499253]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18637.500581]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18637.501699]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18637.502794] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18639.820800] mmap16[238133]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18639.822605] CPU: 1 PID: 238133 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18639.824179] Hardware name: riscv-virtio,qemu (DT)
+[18639.824991] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18639.826168]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18639.826694]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18639.827975]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18639.829338]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18639.830579]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18639.832187]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18639.834179]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18639.836368]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18639.837566]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18639.838778]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18639.839996] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18642.153416] mmap16[238142]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18642.155092] CPU: 6 PID: 238142 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18642.156529] Hardware name: riscv-virtio,qemu (DT)
+[18642.157364] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18642.158478]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18642.159343]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18642.160431]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18642.161404]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18642.162614]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18642.163529]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18642.164751]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18642.165853]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18642.167005]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18642.168308]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18642.169086] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18644.554546] mmap16[238151]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18644.555363] CPU: 6 PID: 238151 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18644.555674] Hardware name: riscv-virtio,qemu (DT)
+[18644.556640] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18644.558033]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18644.559119]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18644.560556]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18644.561897]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18644.562540]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18644.563716]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18644.565195]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18644.566188]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18644.567437]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18644.568385]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18644.569205] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18646.860090] mmap16[238160]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18646.862366] CPU: 6 PID: 238160 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18646.863345] Hardware name: riscv-virtio,qemu (DT)
+[18646.864519] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18646.865276]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18646.866180]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18646.866944]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18646.867930]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18646.869111]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18646.870379]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18646.871511]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18646.873071]  s8 : 0000000000000014 s9 : 0000000000000068 s10: 0000000000000003
+[18646.874299]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18646.875415]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18646.876172] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18649.242536] mmap16[238169]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18649.243563] CPU: 6 PID: 238169 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18649.243982] Hardware name: riscv-virtio,qemu (DT)
+[18649.244339] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18649.245792]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18649.246811]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18649.247777]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18649.248768]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18649.250169]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18649.250858]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18649.251333]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18649.252153]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18649.253164]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18649.254393]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18649.255341] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18651.516239] mmap16[238178]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18651.517649] CPU: 5 PID: 238178 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18651.519194] Hardware name: riscv-virtio,qemu (DT)
+[18651.519914] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18651.520934]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18651.522339]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18651.523226]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18651.524004]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18651.524788]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18651.526279]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18651.527282]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18651.528302]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18651.529516]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18651.530795]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18651.531743] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18653.811920] mmap16[238187]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18653.813099] CPU: 1 PID: 238187 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18653.814304] Hardware name: riscv-virtio,qemu (DT)
+[18653.815219] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18653.815884]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18653.817336]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18653.818932]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18653.820643]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18653.822350]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18653.823454]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18653.824407]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18653.825353]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18653.827251]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18653.828996]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18653.830207] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18656.215850] mmap16[238196]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18656.216335] CPU: 2 PID: 238196 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18656.216645] Hardware name: riscv-virtio,qemu (DT)
+[18656.216757] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18656.217418]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18656.218278]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18656.219393]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18656.220313]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18656.221568]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18656.222761]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18656.223581]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18656.224142]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18656.225528]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18656.226513]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18656.227404] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18658.488619] mmap16[238205]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18658.490750] CPU: 2 PID: 238205 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18658.491322] Hardware name: riscv-virtio,qemu (DT)
+[18658.491848] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18658.493113]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18658.494638]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18658.495497]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18658.496809]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18658.498206]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18658.499555]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18658.500649]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18658.501456]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18658.502838]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18658.504486]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18658.505659] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18660.749364] mmap16[238215]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18660.750017] CPU: 2 PID: 238215 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18660.750532] Hardware name: riscv-virtio,qemu (DT)
+[18660.750845] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18660.751626]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18660.752120]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18660.752545]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18660.753433]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18660.754787]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18660.755664]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18660.757141]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18660.758341]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18660.759777]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18660.761110]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18660.762042] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18663.025066] mmap16[238224]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18663.026823] CPU: 5 PID: 238224 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18663.027661] Hardware name: riscv-virtio,qemu (DT)
+[18663.027841] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18663.028938]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18663.030405]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18663.031548]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18663.032471]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18663.033915]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18663.035216]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18663.036459]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18663.037823]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18663.038999]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18663.039998]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18663.041029] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18665.340467] mmap16[238234]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18665.342644] CPU: 6 PID: 238234 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18665.343620] Hardware name: riscv-virtio,qemu (DT)
+[18665.344366] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18665.345436]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18665.346246]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18665.347446]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18665.348649]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18665.350016]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18665.351211]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18665.352427]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18665.353980]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18665.355228]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18665.356466]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18665.357579] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18666.174937] LTP: starting mm01 (mmap001 -m 10000)
+[18666.879606] LTP: starting dio06 (diotest6)
+[18666.917064] LTP: starting dio01 (diotest1)
+[18666.952039] LTP: starting mtest01w (mtest01 -p80 -w)
+[18667.603190] mmap16[238244]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18667.604754] CPU: 6 PID: 238244 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18667.606209] Hardware name: riscv-virtio,qemu (DT)
+[18667.606576] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18667.607383]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18667.608496]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18667.609717]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18667.610092]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18667.610777]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18667.611983]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18667.613007]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18667.614200]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18667.615491]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18667.616715]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18667.617538] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18669.894981] mmap16[238258]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18669.895664] CPU: 4 PID: 238258 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18669.896265] Hardware name: riscv-virtio,qemu (DT)
+[18669.896419] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18669.897737]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18669.898790]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18669.899276]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18669.900291]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18669.901754]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18669.902822]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18669.904127]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18669.905639]  s8 : 000000000000001e s9 : 0000000000000068 s10: 0000000000000004
+[18669.906681]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18669.907659]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18669.908107] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18672.252552] mmap16[238267]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18672.254252] CPU: 2 PID: 238267 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18672.254991] Hardware name: riscv-virtio,qemu (DT)
+[18672.255737] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18672.256815]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18672.257504]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18672.258009]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18672.258530]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18672.259359]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18672.260579]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18672.261884]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18672.263165]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18672.264620]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18672.265640]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18672.266331] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18674.702158] mmap16[238276]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18674.702884] CPU: 4 PID: 238276 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18674.703420] Hardware name: riscv-virtio,qemu (DT)
+[18674.703770] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18674.705213]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18674.706605]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18674.707666]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18674.709055]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18674.710167]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18674.711528]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18674.713046]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18674.714117]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18674.715357]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18674.716868]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18674.717632] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18677.104566] mmap16[238285]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18677.105157] CPU: 2 PID: 238285 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18677.106463] Hardware name: riscv-virtio,qemu (DT)
+[18677.106820] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18677.107128]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18677.108209]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18677.109337]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18677.110385]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18677.111433]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18677.113360]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18677.114568]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18677.115979]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18677.117132]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18677.118347]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18677.119047] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18679.424832] mmap16[238294]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18679.425626] CPU: 2 PID: 238294 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18679.426040] Hardware name: riscv-virtio,qemu (DT)
+[18679.426628] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18679.427754]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18679.429044]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18679.430229]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18679.431542]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18679.432878]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18679.433992]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18679.435137]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18679.436647]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18679.437730]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18679.438769]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18679.439812] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18681.796721] mmap16[238303]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18681.797355] CPU: 2 PID: 238303 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18681.797769] Hardware name: riscv-virtio,qemu (DT)
+[18681.797940] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18681.798309]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18681.799873]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18681.800956]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18681.802147]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18681.803409]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18681.804821]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18681.806006]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18681.807377]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18681.808348]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18681.809487]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18681.810296] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18684.197982] mmap16[238312]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18684.200132] CPU: 2 PID: 238312 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18684.200724] Hardware name: riscv-virtio,qemu (DT)
+[18684.200924] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18684.201433]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18684.202574]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18684.203938]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18684.204382]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18684.205354]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18684.206432]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18684.207573]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18684.208982]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18684.209906]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18684.211150]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18684.212082] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+[18686.607365] mmap16[238321]: unhandled signal 7 code 0x2 at 0x00ffffffb4550400 in mmap16[10000+2a000]
+[18686.608862] CPU: 2 PID: 238321 Comm: mmap16 Not tainted 6.1.19-2.oe2303.riscv64 #1
+[18686.609597] Hardware name: riscv-virtio,qemu (DT)
+[18686.609879] epc : 0000000000014bf0 ra : 0000000000014bc4 sp : 00ffffffd3342e00
+[18686.610458]  gp : 000000000003c340 tp : 00ffffffb45483c0 t0 : 00000000000047c8
+[18686.611858]  t1 : 0000000000000062 t2 : 000000000003ba40 s0 : 0000000000001000
+[18686.612433]  s1 : 0000000000030000 a0 : 0000000000000000 a1 : 0000000000000000
+[18686.613071]  a2 : 0000000000000000 a3 : 0000000000000061 a4 : 00ffffffb4550400
+[18686.614452]  a5 : 00ffffffb4551000 a6 : 0000000000000062 a7 : 0000000000000062
+[18686.615654]  s2 : 0000000000002000 s3 : 00ffffffb4550000 s4 : 0000000000000003
+[18686.616742]  s5 : 00ffffffb4550000 s6 : 0000000000000003 s7 : 0000000000000000
+[18686.617803]  s8 : 0000000000000028 s9 : 0000000000000068 s10: 0000000000000005
+[18686.618691]  s11: 000000000000003f t3 : 00ffffffb4493554 t4 : 00ffffffb4547530
+[18686.619891]  t5 : 00ffffffb43b4adc t6 : 0000000000000003
+[18686.620768] status: 0000000200004020 badaddr: 00ffffffb4550400 cause: 000000000000000f
+base.sh：行 49:   669 已杀死               qemu-system-riscv64 -nographic -machine virt -smp 8 -m 8G -bios fw_payload_oe_uboot_2304.bin -drive file=qcow2-base,format=qcow2,id=hd0 -object rng-random,filename=/dev/urandom,id=rng0 -device virtio-vga -device virtio-rng-device,rng=rng0 -device virtio-blk-device,drive=hd0 -device virtio-net-device,netdev=usernet -netdev user,id=usernet,hostfwd=tcp::12055-:22 -device qemu-xhci -usb -device usb-kbd -device usb-tablet
+ ~/oErv                                                                                                 00:32:02  mx
+ 137 ❯
+
