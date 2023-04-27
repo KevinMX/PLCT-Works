@@ -52,6 +52,10 @@ openEuler RISC-V 23.03 测试：
 
 [!64 更新部分使用文档和测试用例](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/pulls/64)
 
+src-openEuler/lmbench:
+
+[!18 Update gnu-os and spec](https://gitee.com/src-openeuler/lmbench/pulls/18) （等待合并）
+
 ## 其他内容
 
 - 重新整理 openEuler RISC-V 23.03 的测试内容，对于不清楚的部分需求进行调研，对先前未完成的部分软件包在 23.03 进行回归测试，整理所有软件包对应 SIG 组，并对已测试软件包可用性进行统计。

@@ -20,5 +20,5 @@
 |libmicro|Done|[日志](/misc/month1/week3-QA/libMicro.log)|
 |fio|Done|[日志](/misc/month1/week3-QA/fio.log) / [脚本](/misc/month1/week3-QA/fio.sh)|
 |stream|Done|[日志](/misc/month1/week3-QA/stream.log)|
-|lmbench|Done|[日志](/misc/month1/week3-QA/lmbench.log)，可运行，有内核报错，需要替换 gnu-os 脚本至新版本（[source](https://git.savannah.gnu.org/cgit/config.git/plain/config.guess)）|
+|lmbench|Done|[日志](/misc/month1/week3-QA/lmbench.log)，可运行，有内核报错，需要替换 gnu-os 脚本至新版本 ([source](https://git.savannah.gnu.org/cgit/config.git/plain/config.guess))，PR 已提交上游 [!18 Update gnu-os and spec](https://gitee.com/src-openeuler/lmbench/pulls/18) （等待合并）|
 |长稳测试 LTP Stress|WIP|先前多次中断，最后一次中断确认和内存不足有关，尝试增大内存分配并更新 QEMU 8.0 后重新运行中，先前的部分日志位于 [此处](/misc/month1/week3-QA/)；测试时间较长（需要运行至少 24h）|
