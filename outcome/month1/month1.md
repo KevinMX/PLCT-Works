@@ -62,6 +62,6 @@ src-openEuler/lmbench:
 
   - 整理结果见 [此处](../../misc/month1/what-is-this.md)
 
-- 针对 QA 组测试需求进行基础测试，目前已完成 unixbench、libmicro、fio、stream、lmbench；LTP Stress / 压稳测试需要时间较长，目前仍在运行中。
+- 针对 QA 组测试需求进行基础测试，目前已完成 unixbench、libmicro、fio、stream、lmbench。
 
   - 结果见 [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/BasicTest/res.md)。
