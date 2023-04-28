@@ -8,7 +8,7 @@ Arranged by month/week. Might be different in [/misc](./misc).
 
 WIP/on schedule.
 
-### [/outcomes](./outcomes)
+### [/outcome](./outcome)
 
 Outcomes for those intrested.
 
