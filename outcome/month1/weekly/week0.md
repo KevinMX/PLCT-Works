@@ -2,25 +2,15 @@
 
 ### 本周工作
 
-1. 入组考核&面试，熟悉 openEuler RISC-V。
-
-基本完成了容器相关的测试用例（目前能跑得起来的），包括：
-
-- Docker
-- iSula(d)
-- 系统容器
-- 安全容器
-- ...
-
-详见：[openeuler-riscv-2303-test / System_and_Feature_Test / Containers](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers)
-
-2. 更新 StarFive VisionFive 2 的安装说明，更新硬件测试内容。
+1. 在硬件开发板上完成基础性能测试（`fio`, `libMicro`, `lmbench`, `stream`, `unixbench` - [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95)
+2. 在 QEMU 下配置 VDE 网络，完成 `nmap` 安全测试 - [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95/nmap)
+3. 协助组内算力不足的小伙伴进行 `LTP` 内核测试 - [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/LTP)
+4. 完成 `LTP Stress` 压稳测试 - [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E9%95%BF%E7%A8%B3%E6%B5%8B%E8%AF%95/LTPstress)
+5. 使用 @laokz 老凯老师提供的新内核，重新执行 `trinity` 和 `LTP` 内核测试 - [Gitee](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/LTP)
+6. 文档补全。
 
 ### 缺陷报告
 
 |ID|缺陷内容|状态|
 |-|-|-|
-|[I6R1UT](https://gitee.com/openeuler/RISC-V/issues/I6R1UT)|iSulad 无法启动|Fixed|
-|[I6R1UT](https://gitee.com/openeuler/RISC-V/issues/I6RDWA)|isula-build 服务无法启动|Fixed|
-|[I6RSAC](https://gitee.com/openeuler/RISC-V/issues/I6RSAC)|lxcfs 服务无法启动|Fixed|
-|[I6R9OQ](https://gitee.com/openeuler/RISC-V/issues/I6R9OQ)|kata-containers 软件包缺失|Confirmed - WIP|
+|[I70JPM](https://gitee.com/openeuler/RISC-V/issues/I70JPM)|23.03 使用 D1 SoC 的开发板上 fio 无法正常运行|TBD|
