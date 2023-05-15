@@ -3,7 +3,7 @@
 |名称|说明|安装文档|使用文档|已测试|测试用例|当前有包/可安装|可用性**|issues|SIG 组|
 |-|-|-|-|-|-|-|-|-|-|
 |UKUI|较为卡顿，需要 GPU 的部分窗口特效可能无法启动(TODO)|Y|Y|Y|Y|Y|6|[I6TGR9](https://gitee.com/openeuler/RISC-V/issues/I6TGR9) [I6O31D](https://gitee.com/openeuler/RISC-V/issues/I6O31D) [I6Q24G](https://gitee.com/openeuler/RISC-V/issues/I6Q24G) [I6Q27C](https://gitee.com/openeuler/RISC-V/issues/I6Q27C)|sig-UKUI|
-|DDE|使用手册待补完|Y|Y|Y|Y|Y|0|[I6VGN4](https://gitee.com/openeuler/RISC-V/issues/I6VGN4)|sig-DDE|
+|DDE|文档需要更新（session 选择部分）|Y|Y|Y|Y|Y|5?|[I6VGN4](https://gitee.com/openeuler/RISC-V/issues/I6VGN4)|sig-DDE|
 |xfce|镜像自带|Y|Y|P|P|Y|5?||xfce|
 |GNOME||Y|*|P|P|Y|5?|[I6QETO](https://gitee.com/openeuler/RISC-V/issues/I6QETO) [I6QETK](https://gitee.com/openeuler/RISC-V/issues/I6QETK) [I6QETA](https://gitee.com/openeuler/RISC-V/issues/I6QETA) [I6QET6](https://gitee.com/openeuler/RISC-V/issues/I6QET6) [I6O3AY](https://gitee.com/openeuler/RISC-V/issues/I6O3AY?from=project-issue#note_17078724_link)|GNOME|
 |Kiran||Y|Y|Y|Y|Y|8|[I6OZ5N](https://gitee.com/openeuler/RISC-V/issues/I6OZ5N) [I6OYL4](https://gitee.com/openeuler/RISC-V/issues/I6OYL4) [I6WHYU](https://gitee.com/openeuler/RISC-V/issues/I6WHYU)|sig-KIRAN-DESKTOP|
