@@ -1,11 +1,6 @@
 # week 2
 
-### WIP/TBD List
-
-暂时移至 [misc/month1/what-is-this.md](../../../misc/month1/what-is-this.md)
-
 ## 本周计划
 
-- 补全 UKUI、Kiran、libcareplus 文档 & 测试用例；
-- 补全已测试软件包的详细结果，如有缺陷未提交，则提交 issue；
-- 测试 libcareplus 和 kconfigDetector。
+- 继续完成上游/sig-QA 测试能力要求的基础测试。尤其是未完成/新确定需要完成的部分，以及上游文档缺失的测试项目。
+- 对已有测试结果进行分析。
