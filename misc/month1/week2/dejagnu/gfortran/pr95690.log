@@ -1,0 +1,199 @@
+[root@openeuler-riscv64 testsuite]# runtest -v --tool gfortran dg.exp=pr95690.f90
+Expect binary is expect
+Using /home/install_runtest/share/dejagnu/runtest.exp as main test driver
+Verbose level is 1
+Login name is root
+Using test sources in .
+Using test binaries in /home/gcc/gcc/testsuite
+Tool root directory is /home/gcc
+Using /home/install_runtest/share/dejagnu to find libraries
+Found /home/install_runtest/share/dejagnu/libexec/config.guess
+Assuming build host is riscv64-unknown-linux-gnu
+WARNING: Couldn't find the global config file.
+Loading /home/install_runtest/share/dejagnu/utils.exp
+Loading /home/install_runtest/share/dejagnu/framework.exp
+Loading /home/install_runtest/share/dejagnu/debugger.exp
+Loading /home/install_runtest/share/dejagnu/remote.exp
+Loading /home/install_runtest/share/dejagnu/telnet.exp
+Loading /home/install_runtest/share/dejagnu/rlogin.exp
+Loading /home/install_runtest/share/dejagnu/kermit.exp
+Loading /home/install_runtest/share/dejagnu/tip.exp
+Loading /home/install_runtest/share/dejagnu/rsh.exp
+Loading /home/install_runtest/share/dejagnu/ssh.exp
+Loading /home/install_runtest/share/dejagnu/ftp.exp
+Loading /home/install_runtest/share/dejagnu/target.exp
+Loading /home/install_runtest/share/dejagnu/targetdb.exp
+Loading /home/install_runtest/share/dejagnu/libgloss.exp
+Loading library file ./lib/gfortran.exp
+Loading ./lib/prune.exp
+Loading ./lib/multiline.exp
+Loading ./lib/gcc-defs.exp
+Loading ./lib/target-libpath.exp
+Loading ./lib/wrapper.exp
+Loading ./lib/target-utils.exp
+Loading ./lib/target-supports.exp
+Loading ./lib/timeout.exp
+Testing gfortran
+Running only tests dg.exp=pr95690.f90
+Opening log files in .
+Test run by root on Wed May 17 23:02:12 2023
+Native configuration is riscv64-unknown-linux-gnu
+
+                === gfortran tests ===
+
+setting trap for SIGINT to interrupted by user
+setting trap for SIGQUIT to interrupted by user
+setting trap for SIGTERM to terminated
+dirlist is /home/install_runtest/share/dejagnu/baseboards
+pushing config for build, name is openeuler-riscv64
+dirlist is /home/install_runtest/share/dejagnu/baseboards
+pushing config for host, name is openeuler-riscv64
+Schedule of variations:
+    unix
+
+target is unix
+Running target unix
+dirlist is /home/install_runtest/share/dejagnu/baseboards/openeuler-riscv64 /home/install_runtest/share/dejagnu/baseboards
+Using /home/install_runtest/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /home/install_runtest/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./config/default.exp as tool-and-target-specific interface file.
+Loading /home/install_runtest/share/dejagnu/standard.exp
+pushing config for target, name is unix
+Running ./gfortran.dg/dg.exp ...
+compiler is gcc
+GCC path is .
+shared lib extension: so
+pid is 4121 -4121
+pid is -1
+output is /usr/lib/gcc/riscv64-linux-gnu/10.3.1/libgcc_s.so
+ status 0
+pid is 4125 -4125
+pid is -1
+output is .
+ status 0
+pid is 4128 -4128
+pid is -1
+output is .;
+ status 0
+LD_LIBRARY_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_RUN_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+SHLIB_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_LIBRARY_PATH_32=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_LIBRARY_PATH_64=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+DYLD_LIBRARY_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+ALWAYS_GFORTRANFLAGS set to {additional_flags=-fno-diagnostics-show-caret -fno-diagnostics-show-line-numbers -fdiagnostics-color=never  -fdiagnostics-urls=never } ldflags=
+Loading ./lib/gfortran-dg.exp
+Loading ./lib/gcc-dg.exp
+Loading /home/install_runtest/share/dejagnu/dg.exp
+Loading ./lib/file-format.exp
+Loading ./lib/target-supports-dg.exp
+Loading ./lib/scanasm.exp
+Loading ./lib/scanrtl.exp
+Loading ./lib/scandump.exp
+Loading ./lib/scantree.exp
+Loading ./lib/scanltranstree.exp
+Loading ./lib/scanipa.exp
+Loading ./lib/scanwpaipa.exp
+Loading ./lib/scanlang.exp
+Loading ./lib/timeout-dg.exp
+Loading ./lib/torture-options.exp
+Loading ./lib/fortran-modules.exp
+check_compile tool: gfortran for lto
+doing compile
+pid is 4131 -4131
+pid is -1
+output is  status 0
+check_compile tool: gfortran for linker_plugin
+doing compile
+pid is 4136 -4136
+pid is -1
+output is  status 0
+check_compile tool: gfortran for offload_gcn
+doing compile
+pid is 4149 -4149
+pid is -1
+close result is 4149 exp6 0 1
+output is gfortran: fatal error: GCC is not configured to support amdgcn-amdhsa as offload target
+compilation terminated.
+ status 1
+compiler exited with status 1
+torture_without_loops = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
+torture_with_loops = "{ -O0 } { -O1 } { -O2 } { -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions } { -O3 -g } { -Os }"
+Testing gfortran.dg/pr95690.f90,   -O 
+doing compile
+pid is 4152 -4152
+pid is -1
+close result is 4152 exp6 0 1
+output is ./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+ status 1
+compiler exited with status 1
+comput_output0:
+./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+
+comput_output1:
+./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+
+comput_output2:
+./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+
+comput_output3:
+./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+
+comput_output4:
+./gfortran.dg/pr95690.f90:6:6: Error: initializer for floating value is not a floating constant
+
+FAIL: gfortran.dg/pr95690.f90   -O   (test for errors, line 5)
+check_compile tool: gfortran for exceptions_enabled
+doing compile
+pid is 4156 -4156
+pid is -1
+close result is 4156 exp6 0 1
+output is exceptions_enabled4069.c: In function 'foo':
+exceptions_enabled4069.c:4:7: error: 'throw' undeclared (first use in this function)
+exceptions_enabled4069.c:4:7: note: each undeclared identifier is reported only once for each function it appears in
+exceptions_enabled4069.c:4:12: error: expected ';' before numeric constant
+ status 1
+compiler exited with status 1
+FAIL: gfortran.dg/pr95690.f90   -O  (test for excess errors)
+torture_without_loops = "{ -O0 } { -O1 } { -O2 } { -O3 -g } { -Os }"
+torture_with_loops = "{ -O0 } { -O1 } { -O2 } { -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions } { -O3 -g } { -Os }"
+
+                === gfortran Summary ===
+
+# of unexpected failures        2
+compiler is gcc
+GCC path is .
+shared lib extension: so
+pid is 4164 -4164
+pid is -1
+output is /usr/lib/gcc/riscv64-linux-gnu/10.3.1/libgcc_s.so
+ status 0
+pid is 4167 -4167
+pid is -1
+output is .
+ status 0
+pid is 4170 -4170
+pid is -1
+output is .;
+ status 0
+LD_LIBRARY_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_RUN_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+SHLIB_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_LIBRARY_PATH_32=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+LD_LIBRARY_PATH_64=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+DYLD_LIBRARY_PATH=.:/usr/lib/gcc/riscv64-linux-gnu/10.3.1
+ALWAYS_GFORTRANFLAGS set to {additional_flags=-fno-diagnostics-show-caret -fno-diagnostics-show-line-numbers -fdiagnostics-color=never  -fdiagnostics-urls=never } ldflags=
+pid is 4173 -4173
+pid is -1
+output is Using built-in specs.
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/10.3.1/lto-wrapper
+Target: riscv64-linux-gnu
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,fortran,objc,obj-c++,lto --enable-plugin --enable-initfini-array --disable-libgcj --without-isl --without-cloog --enable-gnu-indirect-function --build=riscv64-linux-gnu --with-stage1-ldflags=' -Wl,-z,relro,-z,now' --with-boot-ldflags=' -Wl,-z,relro,-z,now' --disable-bootstrap --with-arch=rv64g --with-abi=lp64d --disable-libquadmath --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 (GCC) 
+ status 0
+/usr/bin/gfortran  version 10.3.1 (GCC) 
+
+runtest completed at Wed May 17 23:02:19 2023

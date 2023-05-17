@@ -1,0 +1,87 @@
+[root@openeuler-riscv64 gcc.dg]# runtest -v --tool gcc dg.exp=get-edge-prob-non-init.c
+Expect binary is expect
+Using /home/install_runtest/share/dejagnu/runtest.exp as main test driver
+Verbose level is 1
+Login name is root
+Using test sources in .
+Using test binaries in /home/gcc/gcc/testsuite/gcc.dg
+Tool root directory is /home/gcc/gcc/testsuite
+Using /home/install_runtest/share/dejagnu to find libraries
+Found /home/install_runtest/share/dejagnu/libexec/config.guess
+Assuming build host is riscv64-unknown-linux-gnu
+WARNING: Couldn't find the global config file.
+Loading /home/install_runtest/share/dejagnu/utils.exp
+Loading /home/install_runtest/share/dejagnu/framework.exp
+Loading /home/install_runtest/share/dejagnu/debugger.exp
+Loading /home/install_runtest/share/dejagnu/remote.exp
+Loading /home/install_runtest/share/dejagnu/telnet.exp
+Loading /home/install_runtest/share/dejagnu/rlogin.exp
+Loading /home/install_runtest/share/dejagnu/kermit.exp
+Loading /home/install_runtest/share/dejagnu/tip.exp
+Loading /home/install_runtest/share/dejagnu/rsh.exp
+Loading /home/install_runtest/share/dejagnu/ssh.exp
+Loading /home/install_runtest/share/dejagnu/ftp.exp
+Loading /home/install_runtest/share/dejagnu/target.exp
+Loading /home/install_runtest/share/dejagnu/targetdb.exp
+Loading /home/install_runtest/share/dejagnu/libgloss.exp
+WARNING: Couldn't find tool init file
+Testing gcc
+Running only tests dg.exp=get-edge-prob-non-init.c
+Opening log files in .
+Test run by root on Wed May 17 22:00:00 2023
+Native configuration is riscv64-unknown-linux-gnu
+
+                === gcc tests ===
+
+setting trap for SIGINT to interrupted by user
+setting trap for SIGQUIT to interrupted by user
+setting trap for SIGTERM to terminated
+dirlist is /home/install_runtest/share/dejagnu/baseboards
+pushing config for build, name is openeuler-riscv64
+dirlist is /home/install_runtest/share/dejagnu/baseboards
+pushing config for host, name is openeuler-riscv64
+Schedule of variations:
+    unix
+
+target is unix
+Running target unix
+dirlist is /home/install_runtest/share/dejagnu/baseboards/openeuler-riscv64 /home/install_runtest/share/dejagnu/baseboards
+Using /home/install_runtest/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /home/install_runtest/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./../config/default.exp as tool-and-target-specific interface file.
+Loading /home/install_runtest/share/dejagnu/standard.exp
+pushing config for target, name is unix
+Running ./dg.exp ...
+Loading ../lib/gcc-dg.exp
+Loading /home/install_runtest/share/dejagnu/dg.exp
+Loading ../lib/file-format.exp
+Loading ../lib/target-supports.exp
+Loading ../lib/target-supports-dg.exp
+Loading ../lib/scanasm.exp
+Loading ../lib/scanrtl.exp
+Loading ../lib/scandump.exp
+Loading ../lib/scantree.exp
+Loading ../lib/scanltranstree.exp
+Loading ../lib/scanipa.exp
+Loading ../lib/scanwpaipa.exp
+Loading ../lib/scanlang.exp
+Loading ../lib/timeout.exp
+Loading ../lib/timeout-dg.exp
+Loading ../lib/prune.exp
+Loading ../lib/multiline.exp
+Loading ../lib/target-libpath.exp
+Loading ../lib/torture-options.exp
+Loading ../lib/fortran-modules.exp
+ERROR: (DejaGnu) proc "gcc-set-multilib-library-path gcc" does not exist.
+The error code is TCL LOOKUP COMMAND gcc-set-multilib-library-path
+The info on the error is:
+invalid command name "gcc-set-multilib-library-path"
+    while executing
+"::tcl_unknown gcc-set-multilib-library-path gcc"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 ::tcl_unknown $args"
+
+                === gcc Summary ===
+
+runtest completed at Wed May 17 22:00:01 2023
