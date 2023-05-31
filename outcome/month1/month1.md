@@ -46,7 +46,7 @@
 
 src-openEuler/lmbench:
 
-[!19 修复 RISC-V 支持](https://gitee.com/src-openeuler/lmbench/pulls/18) （等待合并）
+[!19 修复 RISC-V 支持](https://gitee.com/src-openeuler/lmbench/pulls/19) （等待合并）
 
 ## 其他内容
 
