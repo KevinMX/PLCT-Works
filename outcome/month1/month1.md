@@ -8,33 +8,33 @@
 
 1. 基础性能测试 on D1 Nezha/LicheeRV, HiFive Unmatched, VisionFive 1/2
 
-- [unixbench](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/unixbench)
-- [libmicro](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/libMicro)
-- [fio](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/fio)
-- [stream](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/stream)
-- [lmbench](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/lmbench)
+- [unixbench](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/unixbench)
+- [libmicro](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/libMicro)
+- [fio](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/fio)
+- [stream](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/stream)
+- [lmbench](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/lmbench)
 
 2. 安全测试 on QEMU
 
-- [nmap](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95/nmap)
+- [nmap](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95/nmap)
 
 3. 长稳测试 on QEMU
 
-- [LTP Stress](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E9%95%BF%E7%A8%B3%E6%B5%8B%E8%AF%95/LTPstress)
+- [LTP Stress](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E9%95%BF%E7%A8%B3%E6%B5%8B%E8%AF%95/LTPstress)
 
 4. 内核测试 on QEMU（新内核）
 
-- [trinity/rerun](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%86%85%E6%A0%B8%E6%B5%8B%E8%AF%95/trinity/rerun)
+- [trinity/rerun](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%86%85%E6%A0%B8%E6%B5%8B%E8%AF%95/trinity/rerun)
 
 5. 功能测试 on QEMU（新内核）
 
-- [LTP/rerun](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/LTP/rerun)
+- [LTP/rerun](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/LTP/rerun)
 
 6. 编译器测试 on QEMU
 
-- [dejagnu](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/dejagnu)
+- [dejagnu](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/dejagnu)
 
-- [csmith](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/csmith), 因样本量过大耗时过久，仅测试运行 100 个
+- [csmith](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/csmith), 因样本量过大耗时过久，仅测试运行 100 个
 
 ## 缺陷报告 / issues
 
@@ -54,5 +54,5 @@ src-openEuler/lmbench:
 
 2. 针对部分项目，在 openEuler 23.03 x86_64 平台执行测试并与 oErv 进行对比，筛选 oErv 独有/架构强相关问题。目前已对比项包括：
 
-- [lmbench](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/lmbench)
-- [dejagnu](https://gitee.com/KevinMX/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/dejagnu)
+- [lmbench](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E5%9F%BA%E7%A1%80%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/lmbench)
+- [dejagnu](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/BasicTest/%E7%BC%96%E8%AF%91%E5%99%A8%E6%B5%8B%E8%AF%95/dejagnu)
