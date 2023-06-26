@@ -4,6 +4,7 @@
 | ---------- | -------- | ------------------ | ----------------- |
 | 2023-06-21 | 0.0.1    | Demo               | KevinMX; 桜風の狐 |
 | 2023-06-24 | 0.0.2    | 格式更改和文档汇总 | 桜風の狐          |
+| 2023-06-25 | 0.0.3    | 完善文档内容 | 桜風の狐          |
 
 **表格图例**
 
@@ -416,8 +417,8 @@ sudo systemctl start --now graphical.target
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|60|60|0|
+|:------------:|:------:|:------:|
+|      60      |   60   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/UKUI)
 
@@ -502,6 +503,7 @@ GNOME 既包含文件管理器，应用商店，文本编辑器等基础软件�
 #### 测试对象版本
 
 |软件包名称|软件包版本|
+|-|-|
 |gnome-control-center|43.2|
 
 #### 测试环境信息
@@ -630,8 +632,8 @@ chmod +x start_vm_xfce.sh
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|38|38|0|
+|:------------:|:------:|:------:|
+|      38      |   38   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Gnome)
 
@@ -669,8 +671,8 @@ reboot
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|58|58|0|
+|:------------:|:------:|:------:|
+|      58      |   58   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Kiran)
 
@@ -763,8 +765,8 @@ https://docs.openeuler.org/zh/docs/22.09/docs/desktop/Install_Cinnamon.html
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|35|||
+|:------------:|:------:|:------:|
+|      35      |   31   |   4    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Cinnamon)
 
@@ -813,8 +815,8 @@ Firefox 是一个免费和开源的浏览器，全世界10%的人使用Firefox�
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|75|71|4|
+|:------------:|:------:|:------:|
+|      75      |   71   |   4    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Firefox)
 
@@ -843,8 +845,8 @@ Firefox 是一个免费和开源的浏览器，全世界10%的人使用Firefox�
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|166|142|24|
+|:------------:|:------:|:------:|
+|     166      |  142   |   24   |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Chromium/)
 
@@ -905,15 +907,15 @@ LibreOffice（发音：/ˌliː.brəˈɒ.fɪs/）是由文档基金会开发的�
 
 ### 测试结果
 
-| 项目 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|-|
-| LiberOffice | 5 | 5 | 0 |
-| Base | 34 | 34 | 0 |
-| Calc | 59 | 54 | 5 |
-| Draw | 56 | 55 | 1 |
-| Impress | 38 | 32 | 6 |
-| Math | 13 | 12 | 1 |
-| Writer | 55 | 48 | 7 |
+|    项目     | 测试用例总数 | 通过数 | 失败数 |
+|:-----------:|:------------:|:------:|:------:|
+| LiberOffice |      5       |   5    |   0    |
+|    Base     |      34      |   34   |   0    |
+|    Calc     |      59      |   54   |   5    |
+|    Draw     |      56      |   55   |   1    |
+|   Impress   |      38      |   32   |   6    |
+|    Math     |      13      |   12   |   1    |
+|   Writer    |      55      |   48   |   7    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/LibreOffice)
 
@@ -971,8 +973,8 @@ VLC Media Player 是一款可播放大多数格式，而无需安装编解码器
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-| 32 | 28 | 5 |
+|:------------:|:------:|:------:|
+|      32      |   28   |   5    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/GIMP)
 
@@ -1019,8 +1021,8 @@ Docker 是一个开源的 Linux 容器引擎项目， 用以实现应用的快�
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-| 31 | 31 | 0 |
+|:------------:|:------:|:------:|
+|      31      |   31   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/Docker)
 
@@ -1059,8 +1061,8 @@ iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-| 25 | 25 | 0 |
+|:------------:|:------:|:------:|
+|      25      |   25   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/iSulad)
 
@@ -1119,8 +1121,8 @@ iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-| 13 | 13 | 0 |
+|:------------:|:------:|:------:|
+|      13      |   13   |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA)
 
@@ -1990,8 +1992,8 @@ sudo dnf install -y kconfigDetector-v1.0.0-1.oe2303.noarch.rpm
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-|2|2|0|
+|:------------:|:------:|:------:|
+|      2       |   2    |   0    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kconfigDetector)
 
@@ -2091,8 +2093,8 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 ### 测试结果
 
 | 测试用例总数 | 通过数 | 失败数 |
-|-|-|-|
-| 49 | 48 | 1 |
+|:------------:|:------:|:------:|
+|      49      |   48   |   1    |
 
 [测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/MYSQL)
 
@@ -2111,10 +2113,6 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 
 JDK（Java Development Kit）是 Java 开发者进行 Java 开发所必须的软件包，包含 JRE（Java Runtime Environment）和编译、调测工具。此外，OpenJDK 也提供了 jtreg 作为回归测试框架，方便开发者进行测试代码的编写与执行。
 
-### 测试内容
-
-使用 OpenJDK 官方回归测试框架 jtreg 对 OpenJDK 19 进行测试。
-
 ### 环境配置
 
 #### 测试对象版本
@@ -2126,7 +2124,7 @@ JDK（Java Development Kit）是 Java 开发者进行 Java 开发所必须的软
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
 
-### 运行步骤
+### 测试方法
 
 1. 安装 OpenJDK 19。
 
@@ -2170,13 +2168,13 @@ export PATH=$JT_HOME/bin:$PATH
 jtreg -va -ignore:quiet -jit -conc:auto -timeout:5 -tl:3590 $HOME/jdk19u/test/jdk
 ```
 
-### 预期结果
+### 测试内容
 
-测试成功结束。
+使用 OpenJDK 官方回归测试框架 jtreg 对 OpenJDK 19 进行测试。
 
 ### 测试结果
 
-测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见 [JTreport](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html)。
+测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见 [JTreport](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html) 。
 
 > Note: 笔者执行测试时使用的测试套路径不同，详细结果中的路径与上述步骤可能有所偏差。这不会影响测试结果。
 
@@ -2192,7 +2190,7 @@ Error: Some tests failed or other problems occurred.
 - 测试用例执行超时。修改 timeout 时限后重试。
 - 未设置 X11 DISPLAY 变量。headless 环境下无法执行部分 GUI 测试。jtreg 执行这部分测试时依赖 vncserver 和 x11vnc。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK)
 
 ## 毕昇 JDK
 
@@ -2259,8 +2257,6 @@ dnf install atune-engine
 - 修改`/etc/atuned/atuned.cnf`中的rest_tls(L59)和engine_tls(L66)为false
 - 修改`/etc/atuned/engine.cnf`中的engine_tls(L22)为false
 
-
-
 #### 二、快速使用指南
 
 ##### 1、配置 A-Tune 服务
@@ -2304,6 +2300,12 @@ systemctl status atune-engine
 
 [openEuler Docs 22.03 LTS SP1 - A-Tune 用户指南](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/A-Tune/A-Tune.html)
 
+### 测试结果
+
+暂无测试结果
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/A-Tune)
+
 ## secPaver
 
 ### 软件说明
@@ -2343,9 +2345,10 @@ https://gitee.com/openeuler/secpaver/blob/master/doc/cmd.md
 ### 测试结果
 
 当前 openEuler risc-v 不支持 selinux
+
 且 pavd 无法使用 [相关问题](https://gitee.com/openeuler/RISC-V/issues/I6R07N) 。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secPaver)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secPaver)
 
 ## secGear
 
@@ -2359,25 +2362,31 @@ secGear 是面向计算产业的机密计算安全应用开发套件，旨在方
 sudo dnf install secGear-devel
 ```
 
-## 参考资料
+### 参考资料
 
-[openEuler Docs 23.03 - 安装 secGear]https://docs.openeuler.org/zh/docs/23.03/docs/secGear/%E5%AE%89%E8%A3%85secGear.html
+[openEuler Docs 23.03 - 安装 secGear](https://docs.openeuler.org/zh/docs/23.03/docs/secGear/%E5%AE%89%E8%A3%85secGear.html)
 
 ### 测试结果
 
 目前 openEuler RISC-V 缺少相关软件包，无法安装。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secGear)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secGear)
 
 ## openGauss
+
+### 测试结果
 
 不支持
 
 ## 用户态协议栈 gazelle
 
+### 测试结果
+
 缺包，不支持
 
 ## 容器场景在离线混合部署 rubik
+
+### 测试结果
 
 缺包，不支持
 
@@ -2387,21 +2396,25 @@ sudo dnf install secGear-devel
 
 A-Ops 是 openEuler 的一套智能运维框架。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
+
+#### 测试环境信息
 
 > 注意：A-Ops 需要两台机器用于部署。
 
 机器 A：
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
 
 机器 B：
 - 硬件信息：HiFive Unmatched
 - 操作系统版本：openEuler 23.03 riscv64, Linux 6.1.0-10.oe2303.riscv64
-- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
 
-### 运行步骤
+### 安装方法
 
 #### 机器 A
 
@@ -2825,45 +2838,48 @@ systemctl start aops-check
 
 [openEuler Docs 22.09 - A-Ops 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/A-Ops/overview.html)
 
+### 测试内容
+
+使用人工测试的方法，按安装方法所示步骤部署 A-Ops ，验证是否成功。
+
 ### 测试结果
-
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/A-Ops)
-
-#### 预期结果
-
-成功按上述步骤部署 A-Ops。
-
-#### 实际结果
 
 缺少部分组件，未能成功部署。仅成功使用 A-ops 安装 MySQL，未安装其他组件。
 
-|  软件包名称  |  失败原因   |
-|-------------|------------|
-|elasticsearch|不支持 RISC-V|
-|aops-manager |  软件包缺失 |
-|  aops-web   |  软件包缺失 |
-|  zookeeper  |  软件包缺失 |
-|    kafka    |  软件包缺失 |
-| aops-check  |  软件包缺失 |
+|  软件包名称   |   失败原因    |
+|:-------------:|:-------------:|
+| elasticsearch | 不支持 RISC-V |
+| aops-manager  |  软件包缺失   |
+|   aops-web    |  软件包缺失   |
+|   zookeeper   |  软件包缺失   |
+|     kafka     |  软件包缺失   |
+|  aops-check   |  软件包缺失   |
 
-## IO 智能多流 
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/A-Ops)
+
+## IO 智能多流
 
 ### 软件说明
 
 astream是一款支持用户自定义配置目标文件的流信息，以使能NVMe SSD磁盘的多流（multi-stream）特性，从而延长磁盘寿命的便捷工具。
 
 ### 安装方法
+
 ```
 dnf install astream
 ```
+
 ### 参考资料
+
 https://gitee.com/openeuler/astream
 
 [openEuler Docs 23.03 - atream 用户指南](https://docs.openeuler.org/zh/docs/23.03/docs/astream/overview.html)
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/astream)
+暂无测试结果
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/astream)
 
 ## pkgship
 
@@ -2874,7 +2890,9 @@ pkgship是一款管理OS软件包依赖关系，提供依赖和被依赖关系�
 1. 软件包依赖查询：方便社区人员在软件包引入、更新和删除的时候了解软件的影响范围。
 2. 补丁查询：方便社区人员了解openEuler软件包的补丁情况以及提取补丁内容，详细内容请参见[patch-tracking](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/userguide/patch-tracking.html)。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
 
 ```
 Name         : pkgship
@@ -2897,13 +2915,23 @@ Description  : Pkgship implements rpm package dependence ,maintainer, patch quer
 sudo dnf install pkgship
 ```
 
-### 测试方法
+### 参考资料
 
-可以安装成功,但是无法运行其一个脚本使其服务启动
+[openEuler Docs 23.03 - pkgship](https://docs.openeuler.org/zh/docs/23.03/docs/userguide/pkgship.html)
 
-mugen 有相关测试套
+### 测试内容
 
-### 相关 issue
+使用人工测试的方式，验证是否能够正常安装和启动。
+
+mugen 有相关测试套进行功能测试。
+
+### 测试结果
+
+可以安装成功,但是无法运行其一个脚本使其服务启动。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/pkgship)
+
+#### 相关 issue
 
 - [#I6RR6R 23.02pkgship服务启动失败](https://gitee.com/openeuler/RISC-V/issues/I6RR6R)
 - [#I6RR83 23.02pkgship安装elasticsearch失败](https://gitee.com/openeuler/RISC-V/issues/I6RR83)
@@ -2912,11 +2940,9 @@ mugen 有相关测试套
 
 - [#I6QLEL 请问openEuler这边对pkgship使用什么样的方法进行功能测试](https://gitee.com/openeuler/pkgship/issues/I6QLEL)
 
-### 参考资料
-
-[openEuler Docs 23.03 - pkgship](https://docs.openeuler.org/zh/docs/23.03/docs/userguide/pkgship.html)
-
 ## mindspore
+
+### 测试结果
 
 仓库暂未支持这款软件
 
@@ -2933,17 +2959,15 @@ oncn-bwm 工具支持如下功能：
 - 设置离线业务带宽范围和在线业务水线
 - 内部统计信息查询
 
-### 摘要
-
-oncn-bwm 工具提供了 `bwmcli` 命令行工具来使能 Pod 带宽管理或进行相关配置。
-
 ### 安装方法
 
 ```bash
 sudo dnf install -y oncn-bwm
 ```
 
-### 运行步骤
+### 使用方法
+
+oncn-bwm 工具提供了 `bwmcli` 命令行工具来使能 Pod 带宽管理或进行相关配置。
 
 Shell 运行：
 
@@ -2953,25 +2977,28 @@ sudo bwmcli -e eth0 #开启 eth0 的 Pod 带宽管理
 ```
 
 ### 参考资料
+
 [openEuler Docs 22.09 - oncn-bwm 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/oncn-bwm/overview.html)
+
+### 测试内容
+
+使用人工测试的方式，验证是否能正常安装卸载，并验证是否能成功开启带宽管理：`enable eth0 success`
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/oncn-bwm)
-
-#### 预期结果
-
-成功开启带宽管理：`enable eth0 success`
-
-#### 实际结果
-
 未能成功开启带宽管理。
 
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/oncn-bwm)
+
 ## ROS/ROS2
+
+### 测试结果
 
 ROS 2 暂不支持
 
 ## 高性能服务网格数据面 Kmesh
+
+### 测试结果
 
 oErv 暂不支持，软件包缺失
 
@@ -2985,15 +3012,32 @@ oErv 暂不支持，软件包缺失
 
 LibcarePlus 是一个用户态进程热补丁框架，可以在不重启进程的情况下对 Linux 系统上运行的目标进程进行热补丁操作。热补丁可以应用于 CVE 漏洞修复，也可以应用于不中断应用服务的紧急 bug 修复。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
+
+#### 测试环境信息
 
 - 硬件信息：QEMU 7.2.1 on Arch Linux (WSL 2)，8*vCPU + 8GB RAM
 - 操作系统版本：openEuler 23.03 preview riscv64, Linux 6.1.19-2.oe2303.riscv64
-- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
 
 ### 参考资料
 
 [openEuler Docs 23.03 - LibcarePlus](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/LibcarePlus.html#%E5%AE%89%E8%A3%85-libcareplus)
+
+### 测试内容
+
+使用人工测试的方式，验证 libcareplus 的安装以及热补丁基本功能，共计 5 个测试用例。
+
+### 测试结果
+
+| 测试用例总数 | 通过数 | 失败数 |
+|:------------:|:------:|:------:|
+|      5       |   5    |   0    |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/libcareplus)
 
 ## 定制裁剪工具 (imageTailor和oemaker)
 
@@ -3001,7 +3045,13 @@ LibcarePlus 是一个用户态进程热补丁框架，可以在不重启进程�
 
 ## 国密算法
 
-需要测试，SM2/3/4 目前已加入内核 Kconfig
+### 测试结果
+
+内核支持需要进一步测试，SM2/3/4 目前已加入内核 Kconfig
+
+国密系列算法的 OpenSSL 实现经过测试，在 openEuler 23.03 v0.1 可用。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/%E5%9B%BD%E5%AF%86%E7%AE%97%E6%B3%95)
 
 ## libstorage 针对 NVME 的 IO 栈
 
