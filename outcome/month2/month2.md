@@ -51,7 +51,6 @@
 |------------------------------------------------------------|------------------------------------------------------------|---------------|
 | [I6VGN4](https://gitee.com/openeuler/RISC-V/issues/I6VGN4) | DDE 桌面环境登陆后崩溃                                         | TBD, updated  |
 | [I70NSN](https://gitee.com/openeuler/RISC-V/issues/I70NSN) | 23.03 xfce4-terminal 在用户输入时崩溃                          | TBD, updated  |
-| [I6TGR9](https://gitee.com/openeuler/RISC-V/issues/I6TGR9) | 23.03 qemu ukui 桌面极为卡顿，无法启动任意gui 程序              | TBD, updated  |
 | [I6QHWC](https://gitee.com/openeuler/RISC-V/issues/I6QHWC) | 23.02Kiran桌面安装报错                                         | TBD, 可 Close |
 | [I6RRJT](https://gitee.com/openeuler/RISC-V/issues/I6RRJT) | 23.02k3s安装过程中出现的一些关于AST的报错                      | TBD, 可 Close |
 | [I6RFYU](https://gitee.com/openeuler/RISC-V/issues/I6RFYU) | 23.02安装kiarn-desktop包后在终端切换用户提示“不能加载某些模块” | TBD, 可 Close |
