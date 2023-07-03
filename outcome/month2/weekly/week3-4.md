@@ -32,7 +32,7 @@
 | [I6RRJT](https://gitee.com/openeuler/RISC-V/issues/I6RRJT) | 23.02k3s安装过程中出现的一些关于AST的报错                      | TBD, 可 Close |
 | [I6RFYU](https://gitee.com/openeuler/RISC-V/issues/I6RFYU) | 23.02安装kiarn-desktop包后在终端切换用户提示“不能加载某些模块” | TBD, 可 Close |
 | [I6QHS3](https://gitee.com/openeuler/RISC-V/issues/I6QHS3) | 23.02 ukui 无法使用回收站                                      | Closed        |
-| [I6QK77](https://gitee.com/openeuler/RISC-V/issues/I6QK77) | 23.02 kiran桌面在qemu无法正常启动                              | TND, 可 Close |
+| [I6QK77](https://gitee.com/openeuler/RISC-V/issues/I6QK77) | 23.02 kiran桌面在qemu无法正常启动                              | TBD, 可 Close |
 | [I6QVEN](https://gitee.com/openeuler/RISC-V/issues/I6QVEN) | 23.02 cinnamon 从终端中启动 settings 报错                      | TBD, 可 Close |
 | [I6O31D](https://gitee.com/openeuler/RISC-V/issues/I6O31D) | ukui-control-center 无法添加/修改 用户/用户组及相关选项        | TBD, 可 Close |
 
