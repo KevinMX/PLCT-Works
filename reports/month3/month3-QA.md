@@ -14,7 +14,11 @@ size: 16:9
 
 ## 背景情况
 
-- RISC-V 计划 23.09 合入 openEuler 主线支持
+按照 [openEuler社区测试能力执行指南](https://gitee.com/openeuler/QA/blob/master/openEuler%E7%A4%BE%E5%8C%BA%E6%B5%8B%E8%AF%95%E8%83%BD%E5%8A%9B%E6%89%A7%E8%A1%8C%E6%8C%87%E5%8D%97/openEuler%E7%A4%BE%E5%8C%BA%E6%B5%8B%E8%AF%95%E8%83%BD%E5%8A%9B%E6%89%A7%E8%A1%8C%E6%8C%87%E5%8D%97.md)，对 openEuler RISC-V 23.03 版本进行功能测试、基础性能测试、内核测试、长稳测试、编译器测试。
+
+> RPM包管理 需要测试。
+
+- openEuler RISC-V 计划合入 openEuler 23.09 创新版支持
 - 23.03 的基础测试和特性测试已基本完成
 - 当前的测试策略将作为 23.09 测试策略的参考
 - 目前测试以 QEMU 8.0.2 为主
@@ -23,13 +27,14 @@ size: 16:9
 
 ### 测试环境
 
-QEMU 版本：8.0.2
-系统：openEuler RISC-V 23.03 preview, [base](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/QEMU/openEuler-23.03-V1-base-qemu-preview.qcow2.zst) / [xfce](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/QEMU/openEuler-23.03-V1-xfce-qemu-preview.qcow2.zst) 镜像 + 默认启动脚本；QEMU 版本大于等于 8.0 时添加 `-cpu rv64,sv39=on`
-软件源：镜像默认
-CPU 核心数：启动脚本默认（8）
-内存大小：镜像默认（4G）
+- QEMU 版本：8.0.2
+- 系统：openEuler RISC-V 23.03 preview, [base](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/QEMU/openEuler-23.03-V1-base-qemu-preview.qcow2.zst) / [xfce](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/QEMU/openEuler-23.03-V1-xfce-qemu-preview.qcow2.zst) 镜像 + 默认启动脚本；QEMU 版本大于等于 8.0 时添加 `-cpu rv64,sv39=on`
+- 软件源：镜像默认
+- CPU 核心数：启动脚本默认（8）
+- 内存大小：镜像默认（4G）
 
 ---
+
 ## 基础测试
 
 性能 + 编译器 + 内核 + 长稳 + 功能/DFX（mugen BaseOS）
@@ -59,9 +64,7 @@ table {
 - LTP：有部分 Fail 项。
 - Trinity：会导致内核软死锁，未通过。
 
-> 目前 QEMU 和不同开发板均使用不同的内核。(据悉原因为不同厂商适配内核版本不同，暂时无法由 openEuler sig-RISC-V 解决)
-
-> x86_64 平台有部分 QEMU 不可通过的测试在实机可通过。
+> 目前 QEMU 和不同开发板均使用不同的内核。(不同厂商适配内核版本不同)
 
 ---
 
@@ -420,7 +423,7 @@ table {
 ### 测试执行 —— 测试阶段 1
 
 - 继承特性/新特性的基本功能 
-    -> 特性测试
+    -> 特性测试：https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/
 - 交付重要组件（内核、虚拟化、容器、编译器等）的功能完整性
     -> 基础测试 & 特性测试
 - 系统集成方面保证多组件多模块集成的正确性和整体系统的完整性
