@@ -423,7 +423,7 @@ table {
 ### 测试执行 —— 测试阶段 1
 
 - 继承特性/新特性的基本功能 
-    -> 特性测试：https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/
+    -> 特性测试 [测试策略](https://github.com/KevinMX/PLCT-Tarsier-Works/blob/main/misc/month2/Feature_Test.md) / [23.03 测试详细结果](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/)
 - 交付重要组件（内核、虚拟化、容器、编译器等）的功能完整性
     -> 基础测试 & 特性测试
 - 系统集成方面保证多组件多模块集成的正确性和整体系统的完整性
