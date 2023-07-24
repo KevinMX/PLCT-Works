@@ -1,14 +1,14 @@
-clock_gettime03 clock_gettime03
+clock_gettime03 clock_gettime03	时钟周期问题，复测不通过
 leapsec01 leapsec01
 clock_settime03 clock_settime03
-fallocate05 fallocate05
-fallocate06 fallocate06
+fallocate05 fallocate05	超时，复测通过
+fallocate06 fallocate06 超时，复测通过
 perf_event_open01 perf_event_open01
-thp01 thp01 -I 120
+thp01 thp01 -I 120 超时，复测通过
 vma05 vma05.sh
 irqbalance01 irqbalance01
-clock_gettime03 clock_gettime03
-memcg_stat_rss memcg_stat_rss.sh
+clock_gettime03 clock_gettime03	时钟周期问题，复测不通过
+memcg_stat_rss memcg_stat_rss.sh	超时，复测通过
 hugemmap24 hugemmap24
 df01_sh df01.sh
 mkfs01_sh mkfs01.sh
@@ -22,7 +22,7 @@ mkfs01_msdos_sh mkfs01.sh -f msdos
 mkfs01_vfat_sh mkfs01.sh -f vfat
 mkfs01_ntfs_sh mkfs01.sh -f ntfs
 mkswap01_sh mkswap01.sh
-cve-2011-0999 thp01 -I 120
-cve-2020-25705 icmp_rate_limit01
-kmsg01 kmsg01
-zram01 zram01.sh
+cve-2011-0999 thp01 -I 120	超时，复测通过
+cve-2020-25705 icmp_rate_limit01	ICMP rate limit not randomized, system is vulnerable
+kmsg01 kmsg01	超时，复测通过
+zram01 zram01.sh	超时，复测通过（单项耗时两天）
