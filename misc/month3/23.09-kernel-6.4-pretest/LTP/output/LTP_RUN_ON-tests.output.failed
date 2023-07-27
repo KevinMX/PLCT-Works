@@ -1,16 +1,16 @@
-clock_gettime03 clock_gettime03	时钟周期问题，复测不通过
-leapsec01 leapsec01
-clock_settime03 clock_settime03
+clock_gettime03 clock_gettime03	系统默认开启了时钟同步服务，需要停止 systemd-timesyncd.service
+leapsec01 leapsec01 同上
+clock_settime03 clock_settime03 同上
 fallocate05 fallocate05	超时，复测通过
 fallocate06 fallocate06 超时，复测通过
-perf_event_open01 perf_event_open01
+perf_event_open01 perf_event_open01 QEMU 环境下不支持
 thp01 thp01 -I 120 超时，复测通过
-vma05 vma05.sh
-irqbalance01 irqbalance01
-clock_gettime03 clock_gettime03	时钟周期问题，复测不通过
-memcg_stat_rss memcg_stat_rss.sh	超时，复测通过
-hugemmap24 hugemmap24
-df01_sh df01.sh
+vma05 vma05.sh 见 https://github.com/linux-test-project/ltp/issues/477 ，测试用例本身问题
+irqbalance01 irqbalance01 默认未安装&未开启 irqbalance，需要手动安装并启动 irqbalance 服务
+clock_gettime03 clock_gettime03	时钟问题同上
+memcg_stat_rss memcg_stat_rss.sh 超时，复测通过
+hugemmap24 hugemmap24 TINFO: can't use slice_boundary: 0x100000000000: ENOMEM (12)
+df01_sh df01.sh 测试脚本未能释放分区，卸载参数不合适，测试用例本身问题；mkfs 和 mkswap 均为此问题，下同
 mkfs01_sh mkfs01.sh
 mkfs01_ext2_sh mkfs01.sh -f ext2
 mkfs01_ext3_sh mkfs01.sh -f ext3
