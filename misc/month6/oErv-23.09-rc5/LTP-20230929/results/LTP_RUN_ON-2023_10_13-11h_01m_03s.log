@@ -1,0 +1,14 @@
+Test Start Time: Fri Oct 13 11:01:06 2023
+-----------------------------------------
+Testcase                                           Result     Exit Value
+--------                                           ------     ----------
+starvation                                         FAIL       2    
+
+-----------------------------------------------
+Total Tests: 1
+Total Skipped Tests: 0
+Total Failures: 1
+Kernel Version: 6.4.0-10.1.0.20.oe2309.riscv64
+Machine Architecture: riscv64
+Hostname: openeuler
+

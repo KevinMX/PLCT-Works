@@ -1,0 +1,14 @@
+Test Start Time: Fri Oct 13 11:29:56 2023
+-----------------------------------------
+Testcase                                           Result     Exit Value
+--------                                           ------     ----------
+fanotify14                                         FAIL       1    
+
+-----------------------------------------------
+Total Tests: 1
+Total Skipped Tests: 0
+Total Failures: 1
+Kernel Version: 6.4.0-10.1.0.20.oe2309.riscv64
+Machine Architecture: riscv64
+Hostname: openeuler
+

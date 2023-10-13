@@ -1,0 +1,50 @@
+fanotify14 fanotify14
+perf_event_open01 perf_event_open01
+starvation starvation
+pty04 pty04
+hugemmap24 hugemmap24
+df01_sh df01.sh
+mkfs01_sh mkfs01.sh
+mkfs01_ext2_sh mkfs01.sh -f ext2
+mkfs01_ext3_sh mkfs01.sh -f ext3
+mkfs01_ext4_sh mkfs01.sh -f ext4
+mkfs01_xfs_sh mkfs01.sh -f xfs
+mkfs01_btrfs_sh mkfs01.sh -f btrfs
+mkfs01_minix_sh mkfs01.sh -f minix
+mkfs01_msdos_sh mkfs01.sh -f msdos
+mkfs01_vfat_sh mkfs01.sh -f vfat
+mkfs01_ntfs_sh mkfs01.sh -f ntfs
+mkswap01_sh mkswap01.sh
+cve-2016-7042 cve-2016-7042
+cve-2020-11494 pty04
+fanotify14 fanotify14
+
+---
+
+TBROK on both architectures:
+fanotify14 fanotify14
+pty04 pty04
+cve-2020-11494 pty04
+
+Testcase issue: 
+hugemmap24 hugemmap24
+
+Platform support issue:
+perf_event_open01 perf_event_open01
+
+Performance issue caused TMOUT:
+starvation starvation (default 2000000 loops, passed when reduced to 1000 loops)
+
+Testcase issue, retest passed:
+df01_sh df01.sh
+mkfs01_sh mkfs01.sh
+mkfs01_ext2_sh mkfs01.sh -f ext2
+mkfs01_ext3_sh mkfs01.sh -f ext3
+mkfs01_ext4_sh mkfs01.sh -f ext4
+mkfs01_xfs_sh mkfs01.sh -f xfs
+mkfs01_btrfs_sh mkfs01.sh -f btrfs
+mkfs01_minix_sh mkfs01.sh -f minix
+mkfs01_msdos_sh mkfs01.sh -f msdos
+mkfs01_vfat_sh mkfs01.sh -f vfat
+mkfs01_ntfs_sh mkfs01.sh -f ntfs
+mkswap01_sh mkswap01.sh
