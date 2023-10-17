@@ -16,7 +16,9 @@ EOF
 }
 
 install_dependencies(){
-    dnf install -y gcc git make pkgconf autoconf automake bison flex m4 kernel-tools kernel-headers kernel-devel glibc-headers openssl-devel libacl-devel libaio-devel libcap-devel ethtool expect-devel xfsprogs-devel btrfs-progs quota nfs-utils libmnl-devel libtirpc-devel irqbalance
+    curl -LO https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_baseos/riscv64/libtirpc-devel-1.3.3-3.oe2309.riscv64.rpm
+    curl -LO https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_baseos/riscv64/expect-devel-5.45.4-7.oe2309.riscv64.rpm
+    dnf install -y libtirpc-devel-1.3.3-3.oe2309.riscv64.rpm expect-devel-5.45.4-7.oe2309.riscv64.rpm gcc git make pkgconf autoconf automake bison flex m4 kernel-tools kernel-headers kernel-devel glibc-headers openssl-devel libacl-devel libaio-devel libcap-devel ethtool xfsprogs-devel btrfs-progs quota nfs-utils libmnl-devel irqbalance
 }
 
 init_partitions(){
