@@ -1,0 +1,275 @@
+INFO: no command files were provided. Executing following runtest scenario files:
+syscalls fs fs_perms_simple fsx dio io mm ipc irq sched math nptl pty containers fs_bind controllers filecaps cap_bounds fcntl-locktests connectors power_management_tests hugetlb commands hyperthreading can cpuhotplug net.ipv6_lib input cve crypto kernel_misc uevent watchqueue 
+
+Checking for required user/group ids
+
+'root' user id and group found.
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/openEuler-release
+/etc/os-release
+/etc/system-release
+openEuler release 23.09
+NAME="openEuler"
+VERSION="23.09"
+ID="openEuler"
+VERSION_ID="23.09"
+PRETTY_NAME="openEuler 23.09"
+ANSI_COLOR="0;31"
+
+openEuler release 23.09
+
+uname:
+Linux localhost.localdomain 6.4.0-10.1.0.20.oe2309.x86_64 #1 SMP PREEMPT_DYNAMIC Mon Sep 25 19:01:14 CST 2023 x86_64 x86_64 x86_64 GNU/Linux
+
+/proc/cmdline
+BOOT_IMAGE=/vmlinuz-6.4.0-10.1.0.20.oe2309.x86_64 root=UUID=7f720054-e39b-448f-a65c-17d6290c4079 ro console=tty1 console=ttyS0 rootfstype=ext4 quiet oops=panic softlockup_panic=1 nmi_watchdog=1 rd.shell=0 selinux=0 crashkernel=256M panic=3
+
+Gnu C                  gcc (GCC) 12.3.1 (openEuler 12.3.1-16.oe2309)
+Clang                 
+Gnu make               4.4.1
+util-linux             2.39.1
+mount                  mount, assert, debug)
+modutils               30
+e2fsprogs              1.47.0
+Linux C Library        x 1 root root 2288880 Sep 21 15:15 /lib64/libc.so.6
+Dynamic linker (ldd)   2.38
+Procps                 4.0.2
+Net-tools              2.10
+iproute2               0.8.1
+iputils                20221126
+ethtool                6.4
+Sh-utils               9.3
+Modules Loaded         ntfs exfat btrfs xor raid6_pq xfs libcrc32c loop sunrpc rfkill intel_rapl_msr intel_rapl_common ppdev intel_uncore_frequency_common intel_pmc_core kvm_intel vfat fat kvm bochs drm_vram_helper drm_ttm_helper ttm virtio_net irqbypass net_failover drm_kms_helper rapl parport_pc failover syscopyarea pcspkr sysfillrect parport sysimgblt i2c_piix4 sg joydev drm fuse ext4 mbcache jbd2 sd_mod t10_pi crc64_rocksoft_generic crc64_rocksoft crc64 ata_generic crct10dif_pclmul crc32_pclmul crc32c_intel ata_piix polyval_clmulni polyval_generic libata ghash_clmulni_intel sha512_ssse3 floppy serio_raw
+
+cpuinfo:
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Address sizes:                   46 bits physical, 48 bits virtual
+Byte Order:                      Little Endian
+CPU(s):                          8
+On-line CPU(s) list:             0-7
+Vendor ID:                       GenuineIntel
+BIOS Vendor ID:                  QEMU
+Model name:                      13th Gen Intel(R) Core(TM) i9-13900K
+BIOS Model name:                 pc-i440fx-8.1  CPU @ 2.0GHz
+BIOS CPU family:                 1
+CPU family:                      6
+Model:                           183
+Thread(s) per core:              1
+Core(s) per socket:              8
+Socket(s):                       1
+Stepping:                        1
+BogoMIPS:                        5990.40
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+Virtualization:                  VT-x
+Hypervisor vendor:               KVM
+Virtualization type:             full
+L1d cache:                       256 KiB (8 instances)
+L1i cache:                       256 KiB (8 instances)
+L2 cache:                        32 MiB (8 instances)
+L3 cache:                        16 MiB (1 instance)
+NUMA node(s):                    1
+NUMA node0 CPU(s):               0-7
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Mmio stale data:   Not affected
+Vulnerability Retbleed:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Vulnerable: eIBRS with unprivileged eBPF
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+
+free reports:
+               total        used        free      shared  buff/cache   available
+Mem:         7854240      356664     7554548       16996      173460     7497576
+Swap:              0           0           0
+
+memory (/proc/meminfo):
+MemTotal:        7854240 kB
+MemFree:         7554296 kB
+MemAvailable:    7497324 kB
+Buffers:           11356 kB
+Cached:           136656 kB
+SwapCached:            0 kB
+Active:            80396 kB
+Inactive:          96748 kB
+Active(anon):        764 kB
+Inactive(anon):    45364 kB
+Active(file):      79632 kB
+Inactive(file):    51384 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                 4 kB
+Writeback:             0 kB
+AnonPages:         29136 kB
+Mapped:            31808 kB
+Shmem:             16996 kB
+KReclaimable:      25448 kB
+Slab:              58024 kB
+SReclaimable:      25448 kB
+SUnreclaim:        32576 kB
+KernelStack:        2592 kB
+PageTables:         1720 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3927120 kB
+Committed_AS:     176596 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       21148 kB
+VmallocChunk:          0 kB
+Percpu:             3200 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      8192 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      109652 kB
+DirectMap2M:     4079616 kB
+DirectMap1G:     6291456 kB
+
+available filesystems:
+autofs bdev bpf btrfs cgroup cgroup2 configfs cpuset debugfs devpts devtmpfs efivarfs exfat ext2 ext3 ext4 fuse fuseblk fusectl hugetlbfs mqueue ntfs pipefs proc pstore ramfs rpc_pipefs securityfs sockfs sysfs tmpfs tracefs vfat xfs
+
+mounted filesystems (/proc/mounts):
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,size=4096k,nr_inodes=976177,mode=755 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=1570848k,nr_inodes=819200,mode=755 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=4096k,nr_inodes=1024,mode=755 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+efivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0
+bpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+cgroup /sys/fs/cgroup/files cgroup rw,nosuid,nodev,noexec,relatime,files 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+/dev/sda2 / ext4 rw,relatime 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=26,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15507 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,nr_inodes=1048576 0 0
+ramfs /run/credentials/systemd-sysctl.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup-dev.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+/dev/sda1 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+
+mounted filesystems (df):
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  4.0M   28K  4.0M   1% /dev
+tmpfs          tmpfs     3.8G     0  3.8G   0% /dev/shm
+tmpfs          tmpfs     1.5G   17M  1.5G   2% /run
+tmpfs          tmpfs     4.0M     0  4.0M   0% /sys/fs/cgroup
+/dev/sda2      ext4       38G  4.5G   31G  13% /
+tmpfs          tmpfs     3.8G  136K  3.8G   1% /tmp
+/dev/sda1      vfat      2.0G  110M  1.9G   6% /boot
+
+AppArmor enabled
+
+SELinux mode: Disabled
+COMMAND:    /opt/ltp/bin/ltp-pan   -e -S   -a 2106     -n 2106 -p -f /tmp/ltp-kAeW2ZDA4T/alltests -l /opt/ltp/results/LTP_RUN_ON-2023_10_13-08h_56m_26s.log  -C /opt/ltp/output/LTP_RUN_ON-2023_10_13-08h_56m_26s.failed -T /opt/ltp/output/LTP_RUN_ON-2023_10_13-08h_56m_26s.tconf
+INFO: Restricted to fanotify14
+LOG File: /opt/ltp/results/LTP_RUN_ON-2023_10_13-08h_56m_26s.log
+FAILED COMMAND File: /opt/ltp/output/LTP_RUN_ON-2023_10_13-08h_56m_26s.failed
+TCONF COMMAND File: /opt/ltp/output/LTP_RUN_ON-2023_10_13-08h_56m_26s.tconf
+Running tests.......
+<<<test_start>>>
+tag=fanotify14 stime=1697187386
+cmdline="fanotify14"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_device.c:317: TINFO: Using test device LTP_DEV='/dev/vdc1'
+tst_device.c:213: TWARN: /dev/vdc1 is not a block device
+tst_device.c:213: TWARN: /dev/vdc1 is not a block device
+tst_test.c:1690: TINFO: LTP version: 20230929
+tst_test.c:1574: TINFO: Timeout per run is 0h 00m 30s
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext2
+tst_supported_fs_types.c:55: TINFO: mkfs.ext2 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext3
+tst_supported_fs_types.c:55: TINFO: mkfs.ext3 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext4
+tst_supported_fs_types.c:55: TINFO: mkfs.ext4 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports xfs
+tst_supported_fs_types.c:55: TINFO: mkfs.xfs does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports btrfs
+tst_supported_fs_types.c:55: TINFO: mkfs.btrfs does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports vfat
+tst_supported_fs_types.c:51: TINFO: mkfs.vfat does not exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports exfat
+tst_supported_fs_types.c:51: TINFO: mkfs.exfat does not exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ntfs
+tst_supported_fs_types.c:51: TINFO: mkfs.ntfs does not exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports tmpfs
+tst_supported_fs_types.c:42: TINFO: mkfs is not needed for tmpfs
+tst_test.c:1650: TINFO: === Testing on ext2 ===
+tst_test.c:1105: TINFO: Formatting /dev/vdc1 with ext2 opts='' extra opts=''
+mke2fs 1.47.0 (5-Feb-2023)
+tst_test.c:1119: TINFO: Mounting /dev/vdc1 to /tmp/ltp-kAeW2ZDA4T/LTP_fanSCYZkz/mntpoint fstyp=ext2 flags=0
+tst_test.c:1119: TBROK: mount(/dev/vdc1, mntpoint, ext2, 0, (nil)) failed: ENOTBLK (15)
+
+HINT: You _MAY_ be missing kernel fixes:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ceaf69f8eadc
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8698e3bab4dd
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=69562eb0bd3e
+
+Summary:
+passed   0
+failed   0
+broken   1
+skipped  0
+warnings 2
+incrementing stop
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=6 corefile=no
+cutime=1 cstime=3
+<<<test_end>>>
+INFO: ltp-pan reported some tests FAIL
+LTP Version: 20230929
+
+       ###############################################################
+
+            Done executing testcases.
+            LTP Version:  20230929
+       ###############################################################
