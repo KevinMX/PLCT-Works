@@ -8,7 +8,7 @@ set_yum_repo(){
     cat << "EOF" > /etc/yum.repos.d/openEuler.repo
 [OS]
 name=OS
-baseurl=http://121.36.84.172/dailybuild/openEuler-23.09-RISC-V/openeuler-2023-10-17-16-56-53/OS/$basearch/
+baseurl=https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/
 enabled=1
 gpgcheck=1
 gpgkey=http://121.36.84.172/dailybuild/openEuler-23.09-RISC-V/openeuler-2023-10-17-16-56-53/OS/$basearch/RPM-GPG-KEY-openEuler
@@ -16,9 +16,7 @@ EOF
 }
 
 install_dependencies(){
-    curl -LO https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_baseos/riscv64/libtirpc-devel-1.3.3-3.oe2309.riscv64.rpm
-    curl -LO https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_baseos/riscv64/expect-devel-5.45.4-7.oe2309.riscv64.rpm
-    dnf install -y libtirpc-devel-1.3.3-3.oe2309.riscv64.rpm expect-devel-5.45.4-7.oe2309.riscv64.rpm gcc git make pkgconf autoconf automake bison flex m4 kernel-tools kernel-headers kernel-devel glibc-headers openssl-devel libacl-devel libaio-devel libcap-devel ethtool xfsprogs-devel btrfs-progs quota nfs-utils libmnl-devel irqbalance
+    dnf install -y gcc git make pkgconf autoconf automake bison flex m4 kernel-tools kernel-headers kernel-devel glibc-headers openssl-devel libacl-devel libaio-devel libcap-devel ethtool expect-devel xfsprogs-devel btrfs-progs quota nfs-utils libmnl-devel libtirpc-devel irqbalance
 }
 
 init_partitions(){
@@ -42,13 +40,13 @@ install_ltp(){
 run_ltp(){
     cd /opt/ltp
     mkdir -p /ltp/tmp
-    dmesg -Hw > ~/dmesg.log
+    dmesg -Hw > ~/dmesg.log &
     ./runltp -p -o tests.output -d /ltp/tmp -b /dev/vdc1 -B ext4 -z /dev/vdb1 -Z ext4
     echo "LTP test finished. Please check log output."
 }
 
 set_yum_repo
-install_dependencies || echo "Failed to install dependencies." && exit 1
-init_partitions || echo "Failed to initialize partitions." && exit 1
-install_ltp || echo "LTP installation failed." && exit 1
+install_dependencies || (echo "Failed to install dependencies." && exit 1)
+init_partitions || (echo "Failed to initialize partitions." && exit 1)
+install_ltp || (echo "LTP installation failed." && exit 1)
 run_ltp
