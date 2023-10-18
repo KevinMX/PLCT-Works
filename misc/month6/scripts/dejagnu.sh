@@ -28,7 +28,7 @@ get_testsuite(){
 }
 
 run_testsuite(){
-    cd ~/rpmbuild/BUILD/gcc-12.3.0
+    cd ~/rpmbuild/BUILD/gcc-12.3.0/gcc/testsuite/
     runtest --tool gcc &
     runtest --tool g++ &
     runtest --tool gfortran &
