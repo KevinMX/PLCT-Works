@@ -2,23 +2,23 @@
 
 RELEASE="openEuler-23.09"
 
-set_yum_repo(){
+set_yum_repo() {
     rm /etc/yum.repos.d/openEuler.repo
-    cat << "EOF" > /etc/yum.repos.d/openEuler.repo
+    cat <<"EOF" >/etc/yum.repos.d/openEuler.repo
 [OS]
 name=OS
 baseurl=https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/
 enabled=1
 gpgcheck=1
-gpgkey=http://121.36.84.172/dailybuild/openEuler-23.09-RISC-V/openeuler-2023-10-17-16-56-53/OS/$basearch/RPM-GPG-KEY-openEuler
+gpgkey=http://121.36.84.172/dailybuild/openEuler-23.09-RISC-V/openeuler-2023-10-19-16-53-22/OS/$basearch/RPM-GPG-KEY-openEuler
 EOF
 }
 
-install_dependencies(){
+install_dependencies() {
     dnf install -y gcc gcc-* git expect rpmdevtools dejagnu
 }
 
-get_testsuite(){
+get_testsuite() {
     git clone -b openEuler-23.09 --depth=1 https://gitee.com/src-openeuler/gcc.git
     cd gcc
     dnf builddep -y gcc.spec
@@ -27,7 +27,7 @@ get_testsuite(){
     rpmbuild -bp gcc.spec
 }
 
-run_testsuite(){
+run_testsuite() {
     cd ~/rpmbuild/BUILD/gcc-12.3.0/gcc/testsuite/
     runtest --tool gcc &
     runtest --tool g++ &
