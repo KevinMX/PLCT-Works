@@ -1,7 +1,8 @@
 #!/bin/bash
 
-LTP_VERSION=20230516
+LTP_VERSION=20230929
 LTP_TIMEOUT_MUL=100
+PROXY=
 
 set_yum_repo() {
     rm /etc/yum.repos.d/openEuler.repo
@@ -9,9 +10,20 @@ set_yum_repo() {
 [OS]
 name=OS
 baseurl=https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/
+metalink=https://mirrors.openeuler.org/metalink?repo=$releasever/OS&arch=$basearch
+metadata_expire=1h
 enabled=1
 gpgcheck=1
-gpgkey=http://121.36.84.172/dailybuild/openEuler-23.09-RISC-V/openeuler-2023-10-19-16-53-22/OS/$basearch/RPM-GPG-KEY-openEuler
+gpgkey=http://repo.openeuler.org/openEuler-23.09/OS/$basearch/RPM-GPG-KEY-openEuler
+
+[source]
+name=source
+baseurl=https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/
+metalink=https://mirrors.openeuler.org/metalink?repo=$releasever&arch=source
+metadata_expire=1h
+enabled=1
+gpgcheck=1
+gpgkey=http://repo.openeuler.org/openEuler-23.09/source/RPM-GPG-KEY-openEuler
 EOF
 }
 
@@ -40,7 +52,7 @@ install_ltp() {
         echo "LTP is already installed, skipping installation"
         exit 1
     else
-        curl -LO https://github.com/linux-test-project/ltp/releases/download/$LTP_VERSION/ltp-full-$LTP_VERSION.tar.xz
+        curl -LO $PROXY/https://github.com/linux-test-project/ltp/releases/download/$LTP_VERSION/ltp-full-$LTP_VERSION.tar.xz
         tar -xvf ltp-full-$LTP_VERSION.tar.xz
         cd ltp-full-$LTP_VERSION
         make autotools
@@ -58,8 +70,8 @@ run_ltp() {
     echo "LTP test finished. Please check log output."
 }
 
-set_yum_repo
-install_dependencies || (echo "Failed to install dependencies." && exit 1)
-init_partitions || (echo "Failed to initialize partitions." && exit 1)
-install_ltp || (echo "LTP installation failed." && exit 1)
+set_yum_repo || { echo "Failed to overwrite yum repo config."; exit 1; }
+install_dependencies || { echo "Failed to install dependencies." ; exit 1; }
+init_partitions || { echo "Failed to initialize partitions." ; exit 1; }
+install_ltp || { echo "LTP installation failed." ; exit 1; }
 run_ltp
