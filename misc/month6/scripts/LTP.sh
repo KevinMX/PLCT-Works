@@ -50,9 +50,8 @@ init_partitions() {
 install_ltp() {
     if [ -f /opt/ltp/runltp ]; then
         echo "LTP is already installed, skipping installation"
-        exit 1
     else
-        curl -LO $PROXY/https://github.com/linux-test-project/ltp/releases/download/$LTP_VERSION/ltp-full-$LTP_VERSION.tar.xz
+        curl -LO $(PROXY)https://github.com/linux-test-project/ltp/releases/download/$LTP_VERSION/ltp-full-$LTP_VERSION.tar.xz
         tar -xvf ltp-full-$LTP_VERSION.tar.xz
         cd ltp-full-$LTP_VERSION
         make autotools
