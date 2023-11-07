@@ -1,0 +1,2827 @@
+3fb9dbcd00 434 Builtin:DeoptimizationEntry_Eager
+3fb9dbd140 434 Builtin:DeoptimizationEntry_Lazy
+3fb9dbd580 434 Builtin:DeoptimizationEntry_Unused
+3fb9dbd9c0 5b8 Builtin:RecordWriteEmitRememberedSetSaveFP
+3fb9dbdf80 224 Builtin:RecordWriteOmitRememberedSetSaveFP
+3fb9dbe1c0 3c0 Builtin:RecordWriteEmitRememberedSetIgnoreFP
+3fb9dbe5a0 17c Builtin:RecordWriteOmitRememberedSetIgnoreFP
+3fb9dbe720 1c8 Builtin:EphemeronKeyBarrierSaveFP
+3fb9dbe900 120 Builtin:EphemeronKeyBarrierIgnoreFP
+3fb9dbea40 60 Builtin:AdaptorWithBuiltinExitFrame
+3fb9dbeac0 204 Builtin:CallFunction_ReceiverIsNullOrUndefined
+3fb9dbece0 280 Builtin:CallFunction_ReceiverIsNotNullOrUndefined
+3fb9dbef80 2a0 Builtin:CallFunction_ReceiverIsAny
+3fb9dbf240 a0 Builtin:CallBoundFunction
+3fb9dbf300 4d8 Builtin:CallWrappedFunction
+3fb9dbf7e0 124 Builtin:Call_ReceiverIsNullOrUndefined
+3fb9dbf920 124 Builtin:Call_ReceiverIsNotNullOrUndefined
+3fb9dbfa60 124 Builtin:Call_ReceiverIsAny
+3fb9dbfba0 594 Builtin:Call_ReceiverIsNullOrUndefined_Baseline_Compact
+3fb9dc0140 584 Builtin:Call_ReceiverIsNullOrUndefined_Baseline
+3fb9dc06e0 654 Builtin:Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+3fb9dc0d40 644 Builtin:Call_ReceiverIsNotNullOrUndefined_Baseline
+3fb9dc13a0 654 Builtin:Call_ReceiverIsAny_Baseline_Compact
+3fb9dc1a00 644 Builtin:Call_ReceiverIsAny_Baseline
+3fb9dc2060 56c Builtin:Call_ReceiverIsNullOrUndefined_WithFeedback
+3fb9dc25e0 56c Builtin:Call_ReceiverIsNotNullOrUndefined_WithFeedback
+3fb9dc2b60 56c Builtin:Call_ReceiverIsAny_WithFeedback
+3fb9dc30e0 3b0 Builtin:CallProxy
+3fb9dc34a0 98 Builtin:CallVarargs
+3fb9dc3540 630 Builtin:CallWithSpread
+3fb9dc3b80 b28 Builtin:CallWithSpread_Baseline
+3fb9dc46c0 ba8 Builtin:CallWithSpread_WithFeedback
+3fb9dc5280 618 Builtin:CallWithArrayLike
+3fb9dc58a0 b68 Builtin:CallWithArrayLike_WithFeedback
+3fb9dc6420 a8 Builtin:CallForwardVarargs
+3fb9dc64e0 a8 Builtin:CallFunctionForwardVarargs
+3fb9dc65a0 c0 Builtin:CallFunctionTemplate_CheckAccess
+3fb9dc6680 138 Builtin:CallFunctionTemplate_CheckCompatibleReceiver
+3fb9dc67c0 1a4 Builtin:CallFunctionTemplate_CheckAccessAndCompatibleReceiver
+3fb9dc6980 28 Builtin:ConstructFunction
+3fb9dc69c0 a4 Builtin:ConstructBoundFunction
+3fb9dc6a80 48 Builtin:ConstructedNonConstructable
+3fb9dc6ae0 78 Builtin:Construct
+3fb9dc6b60 98 Builtin:ConstructVarargs
+3fb9dc6c00 650 Builtin:ConstructWithSpread
+3fb9dc7260 b38 Builtin:ConstructWithSpread_Baseline
+3fb9dc7da0 b20 Builtin:ConstructWithSpread_WithFeedback
+3fb9dc88e0 6c0 Builtin:ConstructWithArrayLike
+3fb9dc8fc0 b88 Builtin:ConstructWithArrayLike_WithFeedback
+3fb9dc9b60 fc Builtin:ConstructForwardVarargs
+3fb9dc9c60 fc Builtin:ConstructFunctionForwardVarargs
+3fb9dc9d60 4d8 Builtin:Construct_Baseline
+3fb9dca240 4d8 Builtin:Construct_WithFeedback
+3fb9dca720 2b8 Builtin:JSConstructStubGeneric
+3fb9dca9e0 1d4 Builtin:JSBuiltinsConstructStub
+3fb9dcabc0 354 Builtin:FastNewObject
+3fb9dcaf20 17c Builtin:FastNewClosure
+3fb9dcb0a0 3c0 Builtin:ConstructProxy
+3fb9dcb480 1ec Builtin:JSEntry
+3fb9dcb680 1ec Builtin:JSConstructEntry
+3fb9dcb880 1ec Builtin:JSRunMicrotasksEntry
+3fb9dcba80 d4 Builtin:JSEntryTrampoline
+3fb9dcbb60 d4 Builtin:JSConstructEntryTrampoline
+3fb9dcbc40 214 Builtin:ResumeGeneratorTrampoline
+3fb9dcbe60 844 Builtin:StringFromCodePointAt
+3fb9dcc6c0 274 Builtin:StringEqual
+3fb9dcc940 158 Builtin:StringGreaterThan
+3fb9dccaa0 158 Builtin:StringGreaterThanOrEqual
+3fb9dccc00 158 Builtin:StringLessThan
+3fb9dccd60 158 Builtin:StringLessThanOrEqual
+3fb9dccec0 d9c Builtin:StringSubstring
+3fb9dcdc60 70 Builtin:OrderedHashTableHealIndex
+3fb9dcdce0 5d0 Builtin:InterpreterEntryTrampoline
+3fb9dce2c0 6c Builtin:InterpreterPushArgsThenCall
+3fb9dce340 78 Builtin:InterpreterPushUndefinedAndArgsThenCall
+3fb9dce3c0 74 Builtin:InterpreterPushArgsThenCallWithFinalSpread
+3fb9dce440 74 Builtin:InterpreterPushArgsThenConstruct
+3fb9dce4c0 74 Builtin:InterpreterPushArgsThenConstructArrayFunction
+3fb9dce540 7c Builtin:InterpreterPushArgsThenConstructWithFinalSpread
+3fb9dce5c0 68 Builtin:InterpreterEnterAtBytecode
+3fb9dce640 114 Builtin:InterpreterEnterAtNextBytecode
+3fb9dce760 6c Builtin:InterpreterOnStackReplacement
+3fb9dce7e0 2ec Builtin:BaselineOutOfLinePrologue
+3fb9dceae0 64 Builtin:BaselineOnStackReplacement
+3fb9dceb60 84 Builtin:BaselineLeaveFrame
+3fb9dcec00 13c Builtin:BaselineOrInterpreterEnterAtBytecode
+3fb9dced40 148 Builtin:BaselineOrInterpreterEnterAtNextBytecode
+3fb9dceea0 11c Builtin:InterpreterOnStackReplacement_ToBaseline
+3fb9dcefc0 6e4 Builtin:CompileLazy
+3fb9dcf6c0 dc Builtin:CompileLazyDeoptimizedCode
+3fb9dcf7a0 184 Builtin:InstantiateAsmJs
+3fb9dcf940 4c Builtin:NotifyDeoptimized
+3fb9dcf9a0 bc Builtin:ContinueToCodeStubBuiltin
+3fb9dcfa60 c0 Builtin:ContinueToCodeStubBuiltinWithResult
+3fb9dcfb40 c0 Builtin:ContinueToJavaScriptBuiltin
+3fb9dcfc20 d8 Builtin:ContinueToJavaScriptBuiltinWithResult
+3fb9dcfd00 1dc Builtin:CallApiCallback
+3fb9dcfee0 1dc Builtin:CallApiGetter
+3fb9dd00c0 14 Builtin:HandleApiCall
+3fb9dd00e0 14 Builtin:HandleApiCallAsFunction
+3fb9dd0100 14 Builtin:HandleApiCallAsConstructor
+3fb9dd0120 4c Builtin:AllocateInYoungGeneration
+3fb9dd0180 44 Builtin:AllocateRegularInYoungGeneration
+3fb9dd01e0 4c Builtin:AllocateInOldGeneration
+3fb9dd0240 44 Builtin:AllocateRegularInOldGeneration
+3fb9dd02a0 264 Builtin:CopyFastSmiOrObjectElements
+3fb9dd0520 30c Builtin:GrowFastDoubleElements
+3fb9dd0840 268 Builtin:GrowFastSmiOrObjectElements
+3fb9dd0ac0 250 Builtin:DebugBreakTrampoline
+3fb9dd0d20 140 Builtin:ToNumber
+3fb9dd0e80 1c0 Builtin:ToNumber_Baseline
+3fb9dd1060 230 Builtin:ToNumeric_Baseline
+3fb9dd12a0 d8 Builtin:PlainPrimitiveToNumber
+3fb9dd1380 170 Builtin:ToNumberConvertBigInt
+3fb9dd1500 e4 Builtin:Typeof
+3fb9dd1600 e0 Builtin:BigIntToI64
+3fb9dd1700 c Builtin:BigIntToI32Pair
+3fb9dd1720 150 Builtin:I64ToBigInt
+3fb9dd1880 c Builtin:I32PairToBigInt
+3fb9dd18a0 a0 Builtin:ToBooleanLazyDeoptContinuation
+3fb9dd1960 14a4 Builtin:KeyedLoadIC_PolymorphicName
+3fb9dd2e20 6390 Builtin:KeyedStoreIC_Megamorphic
+3fb9dd91c0 4e70 Builtin:DefineKeyedOwnIC_Megamorphic
+3fb9dde040 244 Builtin:LoadGlobalIC_NoFeedback
+3fb9dde2a0 58 Builtin:LoadIC_FunctionPrototype
+3fb9dde300 14 Builtin:LoadIC_StringLength
+3fb9dde320 18 Builtin:LoadIC_StringWrapperLength
+3fb9dde340 ef0 Builtin:LoadIC_NoFeedback
+3fb9ddf240 34 Builtin:StoreGlobalIC_Slow
+3fb9ddf280 274c Builtin:StoreIC_NoFeedback
+3fb9de19e0 1210 Builtin:DefineNamedOwnIC_NoFeedback
+3fb9de2c00 104 Builtin:KeyedLoadIC_SloppyArguments
+3fb9de2d20 78 Builtin:LoadIndexedInterceptorIC
+3fb9de2da0 1c0 Builtin:KeyedStoreIC_SloppyArguments_Standard
+3fb9de2f80 1c0 Builtin:KeyedStoreIC_SloppyArguments_GrowNoTransitionHandleCOW
+3fb9de3160 1c0 Builtin:KeyedStoreIC_SloppyArguments_NoTransitionIgnoreOOB
+3fb9de3340 1c0 Builtin:KeyedStoreIC_SloppyArguments_NoTransitionHandleCOW
+3fb9de3520 5198 Builtin:StoreFastElementIC_Standard
+3fb9de86c0 428c Builtin:StoreFastElementIC_GrowNoTransitionHandleCOW
+3fb9dec960 4ea8 Builtin:StoreFastElementIC_NoTransitionIgnoreOOB
+3fb9df1820 23f4 Builtin:StoreFastElementIC_NoTransitionHandleCOW
+3fb9df3c20 38c0 Builtin:ElementsTransitionAndStore_Standard
+3fb9df7500 8950 Builtin:ElementsTransitionAndStore_GrowNoTransitionHandleCOW
+3fb9dffe60 38c0 Builtin:ElementsTransitionAndStore_NoTransitionIgnoreOOB
+3fb9e03740 4ce8 Builtin:ElementsTransitionAndStore_NoTransitionHandleCOW
+3fb9e08440 36c Builtin:KeyedHasIC_PolymorphicName
+3fb9e087c0 ec Builtin:KeyedHasIC_SloppyArguments
+3fb9e088c0 78 Builtin:HasIndexedInterceptorIC
+3fb9e08940 d0 Builtin:EnqueueMicrotask
+3fb9e08a20 c Builtin:RunMicrotasksTrampoline
+3fb9e08a40 1404 Builtin:RunMicrotasks
+3fb9e09e60 c40 Builtin:HasProperty
+3fb9e0aac0 5cc Builtin:DeleteProperty
+3fb9e0b0a0 9c4 Builtin:CopyDataProperties
+3fb9e0ba80 3458 Builtin:SetDataProperties
+3fb9e0eee0 d58 Builtin:CopyDataPropertiesWithExcludedPropertiesOnStack
+3fb9e0fc40 64 Builtin:CopyDataPropertiesWithExcludedProperties
+3fb9e0fcc0 28 Builtin:Abort
+3fb9e0fd00 28 Builtin:AbortCSADcheck
+3fb9e0fd40 14 Builtin:EmptyFunction
+3fb9e0fd60 14 Builtin:Illegal
+3fb9e0fd80 14 Builtin:StrictPoisonPillThrower
+3fb9e0fda0 14 Builtin:UnsupportedThrower
+3fb9e0fdc0 68 Builtin:ReturnReceiver
+3fb9e0fe40 24 Builtin:ArrayConstructor
+3fb9e0fe80 270 Builtin:ArrayConstructorImpl
+3fb9e10100 11c Builtin:ArrayNoArgumentConstructor_PackedSmi_DontOverride
+3fb9e10220 11c Builtin:ArrayNoArgumentConstructor_HoleySmi_DontOverride
+3fb9e10340 f0 Builtin:ArrayNoArgumentConstructor_PackedSmi_DisableAllocationSites
+3fb9e10440 f0 Builtin:ArrayNoArgumentConstructor_HoleySmi_DisableAllocationSites
+3fb9e10540 f0 Builtin:ArrayNoArgumentConstructor_Packed_DisableAllocationSites
+3fb9e10640 f0 Builtin:ArrayNoArgumentConstructor_Holey_DisableAllocationSites
+3fb9e10740 f4 Builtin:ArrayNoArgumentConstructor_PackedDouble_DisableAllocationSites
+3fb9e10840 f4 Builtin:ArrayNoArgumentConstructor_HoleyDouble_DisableAllocationSites
+3fb9e10940 26c Builtin:ArraySingleArgumentConstructor_PackedSmi_DontOverride
+3fb9e10bc0 250 Builtin:ArraySingleArgumentConstructor_HoleySmi_DontOverride
+3fb9e10e20 214 Builtin:ArraySingleArgumentConstructor_PackedSmi_DisableAllocationSites
+3fb9e11040 1f8 Builtin:ArraySingleArgumentConstructor_HoleySmi_DisableAllocationSites
+3fb9e11240 214 Builtin:ArraySingleArgumentConstructor_Packed_DisableAllocationSites
+3fb9e11460 1f8 Builtin:ArraySingleArgumentConstructor_Holey_DisableAllocationSites
+3fb9e11660 218 Builtin:ArraySingleArgumentConstructor_PackedDouble_DisableAllocationSites
+3fb9e11880 1fc Builtin:ArraySingleArgumentConstructor_HoleyDouble_DisableAllocationSites
+3fb9e11a80 54 Builtin:ArrayNArgumentsConstructor
+3fb9e11ae0 14 Builtin:ArrayConcat
+3fb9e11b00 14 Builtin:ArrayPrototypeFill
+3fb9e11b20 488 Builtin:ArrayIncludesSmiOrObject
+3fb9e11fc0 b4 Builtin:ArrayIncludesPackedDoubles
+3fb9e12080 114 Builtin:ArrayIncludesHoleyDoubles
+3fb9e121a0 2c4 Builtin:ArrayIncludes
+3fb9e12480 434 Builtin:ArrayIndexOfSmiOrObject
+3fb9e128c0 8c Builtin:ArrayIndexOfPackedDoubles
+3fb9e12960 8c Builtin:ArrayIndexOfHoleyDoubles
+3fb9e12a00 2c8 Builtin:ArrayIndexOf
+3fb9e12ce0 14 Builtin:ArrayPop
+3fb9e12d00 300 Builtin:ArrayPrototypePop
+3fb9e13020 14 Builtin:ArrayPrototypeGroupBy
+3fb9e13040 14 Builtin:ArrayPrototypeGroupByToMap
+3fb9e13060 14 Builtin:ArrayPush
+3fb9e13080 c70 Builtin:ArrayPrototypePush
+3fb9e13d00 14 Builtin:ArrayShift
+3fb9e13d20 14 Builtin:ArrayUnshift
+3fb9e13d40 4c8 Builtin:CloneFastJSArray
+3fb9e14220 b00 Builtin:CloneFastJSArrayFillingHoles
+3fb9e14d40 4e0 Builtin:ExtractFastJSArray
+3fb9e15240 14c Builtin:ArrayPrototypeEntries
+3fb9e153a0 144 Builtin:ArrayPrototypeKeys
+3fb9e15500 14c Builtin:ArrayPrototypeValues
+3fb9e15660 1698 Builtin:ArrayIteratorPrototypeNext
+3fb9e16d00 14a0 Builtin:FlattenIntoArray
+3fb9e181c0 1490 Builtin:FlatMapIntoArray
+3fb9e19660 1f8 Builtin:ArrayPrototypeFlat
+3fb9e19860 24c Builtin:ArrayPrototypeFlatMap
+3fb9e19ac0 14 Builtin:ArrayBufferConstructor
+3fb9e19ae0 14 Builtin:ArrayBufferConstructor_DoNotInitialize
+3fb9e19b00 14 Builtin:ArrayBufferPrototypeSlice
+3fb9e19b20 14 Builtin:ArrayBufferPrototypeResize
+3fb9e19b40 4b4 Builtin:AsyncFunctionEnter
+3fb9e1a000 88 Builtin:AsyncFunctionReject
+3fb9e1a0a0 84 Builtin:AsyncFunctionResolve
+3fb9e1a140 10 Builtin:AsyncFunctionLazyDeoptContinuation
+3fb9e1a160 8b4 Builtin:AsyncFunctionAwaitCaught
+3fb9e1aa20 8b4 Builtin:AsyncFunctionAwaitUncaught
+3fb9e1b2e0 104 Builtin:AsyncFunctionAwaitRejectClosure
+3fb9e1b400 100 Builtin:AsyncFunctionAwaitResolveClosure
+3fb9e1b520 14 Builtin:BigIntConstructor
+3fb9e1b540 14 Builtin:BigIntAsUintN
+3fb9e1b560 14 Builtin:BigIntAsIntN
+3fb9e1b580 14 Builtin:BigIntPrototypeToLocaleString
+3fb9e1b5a0 14 Builtin:BigIntPrototypeToString
+3fb9e1b5c0 14 Builtin:BigIntPrototypeValueOf
+3fb9e1b5e0 14 Builtin:CallSitePrototypeGetColumnNumber
+3fb9e1b600 14 Builtin:CallSitePrototypeGetEnclosingColumnNumber
+3fb9e1b620 14 Builtin:CallSitePrototypeGetEnclosingLineNumber
+3fb9e1b640 14 Builtin:CallSitePrototypeGetEvalOrigin
+3fb9e1b660 14 Builtin:CallSitePrototypeGetFileName
+3fb9e1b680 14 Builtin:CallSitePrototypeGetFunction
+3fb9e1b6a0 14 Builtin:CallSitePrototypeGetFunctionName
+3fb9e1b6c0 14 Builtin:CallSitePrototypeGetLineNumber
+3fb9e1b6e0 14 Builtin:CallSitePrototypeGetMethodName
+3fb9e1b700 14 Builtin:CallSitePrototypeGetPosition
+3fb9e1b720 14 Builtin:CallSitePrototypeGetPromiseIndex
+3fb9e1b740 14 Builtin:CallSitePrototypeGetScriptNameOrSourceURL
+3fb9e1b760 14 Builtin:CallSitePrototypeGetThis
+3fb9e1b780 14 Builtin:CallSitePrototypeGetTypeName
+3fb9e1b7a0 14 Builtin:CallSitePrototypeIsAsync
+3fb9e1b7c0 14 Builtin:CallSitePrototypeIsConstructor
+3fb9e1b7e0 14 Builtin:CallSitePrototypeIsEval
+3fb9e1b800 14 Builtin:CallSitePrototypeIsNative
+3fb9e1b820 14 Builtin:CallSitePrototypeIsPromiseAll
+3fb9e1b840 14 Builtin:CallSitePrototypeIsToplevel
+3fb9e1b860 14 Builtin:CallSitePrototypeToString
+3fb9e1b880 14 Builtin:ConsoleDebug
+3fb9e1b8a0 14 Builtin:ConsoleError
+3fb9e1b8c0 14 Builtin:ConsoleInfo
+3fb9e1b8e0 14 Builtin:ConsoleLog
+3fb9e1b900 14 Builtin:ConsoleWarn
+3fb9e1b920 14 Builtin:ConsoleDir
+3fb9e1b940 14 Builtin:ConsoleDirXml
+3fb9e1b960 14 Builtin:ConsoleTable
+3fb9e1b980 14 Builtin:ConsoleTrace
+3fb9e1b9a0 14 Builtin:ConsoleGroup
+3fb9e1b9c0 14 Builtin:ConsoleGroupCollapsed
+3fb9e1b9e0 14 Builtin:ConsoleGroupEnd
+3fb9e1ba00 14 Builtin:ConsoleClear
+3fb9e1ba20 14 Builtin:ConsoleCount
+3fb9e1ba40 14 Builtin:ConsoleCountReset
+3fb9e1ba60 14 Builtin:ConsoleAssert
+3fb9e1ba80 14 Builtin:ConsoleProfile
+3fb9e1baa0 14 Builtin:ConsoleProfileEnd
+3fb9e1bac0 14 Builtin:ConsoleTime
+3fb9e1bae0 14 Builtin:ConsoleTimeLog
+3fb9e1bb00 14 Builtin:ConsoleTimeEnd
+3fb9e1bb20 14 Builtin:ConsoleTimeStamp
+3fb9e1bb40 14 Builtin:ConsoleContext
+3fb9e1bb60 14 Builtin:DataViewConstructor
+3fb9e1bb80 14 Builtin:DateConstructor
+3fb9e1bba0 130 Builtin:DatePrototypeGetDate
+3fb9e1bce0 130 Builtin:DatePrototypeGetDay
+3fb9e1be20 130 Builtin:DatePrototypeGetFullYear
+3fb9e1bf60 130 Builtin:DatePrototypeGetHours
+3fb9e1c0a0 110 Builtin:DatePrototypeGetMilliseconds
+3fb9e1c1c0 130 Builtin:DatePrototypeGetMinutes
+3fb9e1c300 130 Builtin:DatePrototypeGetMonth
+3fb9e1c440 130 Builtin:DatePrototypeGetSeconds
+3fb9e1c580 d0 Builtin:DatePrototypeGetTime
+3fb9e1c660 110 Builtin:DatePrototypeGetTimezoneOffset
+3fb9e1c780 110 Builtin:DatePrototypeGetUTCDate
+3fb9e1c8a0 110 Builtin:DatePrototypeGetUTCDay
+3fb9e1c9c0 110 Builtin:DatePrototypeGetUTCFullYear
+3fb9e1cae0 110 Builtin:DatePrototypeGetUTCHours
+3fb9e1cc00 110 Builtin:DatePrototypeGetUTCMilliseconds
+3fb9e1cd20 110 Builtin:DatePrototypeGetUTCMinutes
+3fb9e1ce40 110 Builtin:DatePrototypeGetUTCMonth
+3fb9e1cf60 110 Builtin:DatePrototypeGetUTCSeconds
+3fb9e1d080 d0 Builtin:DatePrototypeValueOf
+3fb9e1d160 204 Builtin:DatePrototypeToPrimitive
+3fb9e1d380 14 Builtin:DatePrototypeGetYear
+3fb9e1d3a0 14 Builtin:DatePrototypeSetYear
+3fb9e1d3c0 14 Builtin:DateNow
+3fb9e1d3e0 14 Builtin:DateParse
+3fb9e1d400 14 Builtin:DatePrototypeSetDate
+3fb9e1d420 14 Builtin:DatePrototypeSetFullYear
+3fb9e1d440 14 Builtin:DatePrototypeSetHours
+3fb9e1d460 14 Builtin:DatePrototypeSetMilliseconds
+3fb9e1d480 14 Builtin:DatePrototypeSetMinutes
+3fb9e1d4a0 14 Builtin:DatePrototypeSetMonth
+3fb9e1d4c0 14 Builtin:DatePrototypeSetSeconds
+3fb9e1d4e0 14 Builtin:DatePrototypeSetTime
+3fb9e1d500 14 Builtin:DatePrototypeSetUTCDate
+3fb9e1d520 14 Builtin:DatePrototypeSetUTCFullYear
+3fb9e1d540 14 Builtin:DatePrototypeSetUTCHours
+3fb9e1d560 14 Builtin:DatePrototypeSetUTCMilliseconds
+3fb9e1d580 14 Builtin:DatePrototypeSetUTCMinutes
+3fb9e1d5a0 14 Builtin:DatePrototypeSetUTCMonth
+3fb9e1d5c0 14 Builtin:DatePrototypeSetUTCSeconds
+3fb9e1d5e0 14 Builtin:DatePrototypeToDateString
+3fb9e1d600 14 Builtin:DatePrototypeToISOString
+3fb9e1d620 14 Builtin:DatePrototypeToUTCString
+3fb9e1d640 14 Builtin:DatePrototypeToString
+3fb9e1d660 14 Builtin:DatePrototypeToTimeString
+3fb9e1d680 14 Builtin:DatePrototypeToJson
+3fb9e1d6a0 14 Builtin:DateUTC
+3fb9e1d6c0 14 Builtin:ErrorConstructor
+3fb9e1d6e0 14 Builtin:ErrorCaptureStackTrace
+3fb9e1d700 14 Builtin:ErrorPrototypeToString
+3fb9e1d720 14 Builtin:FunctionConstructor
+3fb9e1d740 5c Builtin:FunctionPrototypeApply
+3fb9e1d7a0 14 Builtin:FunctionPrototypeBind
+3fb9e1d7c0 2c Builtin:FunctionPrototypeCall
+3fb9e1d800 14 Builtin:FunctionPrototypeToString
+3fb9e1d820 104 Builtin:CreateIterResultObject
+3fb9e1d940 480 Builtin:CreateGeneratorObject
+3fb9e1dde0 14 Builtin:GeneratorFunctionConstructor
+3fb9e1de00 230 Builtin:GeneratorPrototypeNext
+3fb9e1e040 238 Builtin:GeneratorPrototypeReturn
+3fb9e1e280 248 Builtin:GeneratorPrototypeThrow
+3fb9e1e4e0 14 Builtin:AsyncFunctionConstructor
+3fb9e1e500 30c Builtin:SuspendGeneratorBaseline
+3fb9e1e820 94 Builtin:ResumeGeneratorBaseline
+3fb9e1e8c0 4c Builtin:GetIteratorWithFeedbackLazyDeoptContinuation
+3fb9e1e920 14 Builtin:GlobalDecodeURI
+3fb9e1e940 14 Builtin:GlobalDecodeURIComponent
+3fb9e1e960 14 Builtin:GlobalEncodeURI
+3fb9e1e980 14 Builtin:GlobalEncodeURIComponent
+3fb9e1e9a0 14 Builtin:GlobalEscape
+3fb9e1e9c0 14 Builtin:GlobalUnescape
+3fb9e1e9e0 14 Builtin:GlobalEval
+3fb9e1ea00 c4 Builtin:GlobalIsFinite
+3fb9e1eae0 c0 Builtin:GlobalIsNaN
+3fb9e1ebc0 14 Builtin:JsonParse
+3fb9e1ebe0 14 Builtin:JsonStringify
+3fb9e1ec00 16e4 Builtin:LoadIC
+3fb9e20300 16a8 Builtin:LoadIC_Megamorphic
+3fb9e219c0 1868 Builtin:LoadIC_Noninlined
+3fb9e23240 30 Builtin:LoadICTrampoline
+3fb9e23280 20 Builtin:LoadICBaseline
+3fb9e232c0 30 Builtin:LoadICTrampoline_Megamorphic
+3fb9e23300 25a8 Builtin:LoadSuperIC
+3fb9e258c0 20 Builtin:LoadSuperICBaseline
+3fb9e25900 2c40 Builtin:KeyedLoadIC
+3fb9e28560 4ab8 Builtin:KeyedLoadIC_Megamorphic
+3fb9e2d020 30 Builtin:KeyedLoadICTrampoline
+3fb9e2d060 20 Builtin:KeyedLoadICBaseline
+3fb9e2d0a0 30 Builtin:KeyedLoadICTrampoline_Megamorphic
+3fb9e2d0e0 1f74 Builtin:StoreGlobalIC
+3fb9e2f060 30 Builtin:StoreGlobalICTrampoline
+3fb9e2f0a0 20 Builtin:StoreGlobalICBaseline
+3fb9e2f0e0 2060 Builtin:StoreIC
+3fb9e31160 30 Builtin:StoreICTrampoline
+3fb9e311a0 20 Builtin:StoreICBaseline
+3fb9e311e0 1eb4 Builtin:DefineNamedOwnIC
+3fb9e330a0 30 Builtin:DefineNamedOwnICTrampoline
+3fb9e330e0 20 Builtin:DefineNamedOwnICBaseline
+3fb9e33120 23b0 Builtin:KeyedStoreIC
+3fb9e354e0 30 Builtin:KeyedStoreICTrampoline
+3fb9e35520 20 Builtin:KeyedStoreICBaseline
+3fb9e35560 2254 Builtin:DefineKeyedOwnIC
+3fb9e377c0 30 Builtin:DefineKeyedOwnICTrampoline
+3fb9e37800 20 Builtin:DefineKeyedOwnICBaseline
+3fb9e37840 218 Builtin:StoreInArrayLiteralIC
+3fb9e37a60 20 Builtin:StoreInArrayLiteralICBaseline
+3fb9e37aa0 d0 Builtin:LookupContextBaseline
+3fb9e37b80 d0 Builtin:LookupContextInsideTypeofBaseline
+3fb9e37c60 fdc Builtin:LoadGlobalIC
+3fb9e38c40 fb0 Builtin:LoadGlobalICInsideTypeof
+3fb9e39c00 30 Builtin:LoadGlobalICTrampoline
+3fb9e39c40 20 Builtin:LoadGlobalICBaseline
+3fb9e39c80 30 Builtin:LoadGlobalICInsideTypeofTrampoline
+3fb9e39cc0 20 Builtin:LoadGlobalICInsideTypeofBaseline
+3fb9e39d00 c8 Builtin:LookupGlobalICBaseline
+3fb9e39de0 c8 Builtin:LookupGlobalICInsideTypeofBaseline
+3fb9e39ec0 a40 Builtin:CloneObjectIC
+3fb9e3a920 20 Builtin:CloneObjectICBaseline
+3fb9e3a960 ad0 Builtin:CloneObjectIC_Slow
+3fb9e3b440 bd8 Builtin:KeyedHasIC
+3fb9e3c020 20 Builtin:KeyedHasICBaseline
+3fb9e3c060 c40 Builtin:KeyedHasIC_Megamorphic
+3fb9e3ccc0 6f0 Builtin:IterableToList
+3fb9e3d3c0 628 Builtin:IterableToFixedArray
+3fb9e3da00 404 Builtin:IterableToListWithSymbolLookup
+3fb9e3de20 5c Builtin:IterableToFixedArrayWithSymbolLookupSlow
+3fb9e3de80 bc Builtin:IterableToListMayPreserveHoles
+3fb9e3df40 54c Builtin:IterableToFixedArrayForWasm
+3fb9e3e4a0 7b8 Builtin:StringListFromIterable
+3fb9e3ec60 624 Builtin:FindOrderedHashMapEntry
+3fb9e3f2a0 1520 Builtin:MapConstructor
+3fb9e407e0 ad4 Builtin:MapPrototypeSet
+3fb9e412c0 7b0 Builtin:MapPrototypeDelete
+3fb9e41a80 140 Builtin:MapPrototypeGet
+3fb9e41be0 114 Builtin:MapPrototypeHas
+3fb9e41d00 14 Builtin:MapPrototypeClear
+3fb9e41d20 184 Builtin:MapPrototypeEntries
+3fb9e41ec0 ec Builtin:MapPrototypeGetSize
+3fb9e41fc0 2a0 Builtin:MapPrototypeForEach
+3fb9e42280 184 Builtin:MapPrototypeKeys
+3fb9e42420 184 Builtin:MapPrototypeValues
+3fb9e425c0 560 Builtin:MapIteratorPrototypeNext
+3fb9e42b40 65c Builtin:MapIteratorToList
+3fb9e431a0 14 Builtin:NumberPrototypeToExponential
+3fb9e431c0 14 Builtin:NumberPrototypeToFixed
+3fb9e431e0 14 Builtin:NumberPrototypeToLocaleString
+3fb9e43200 14 Builtin:NumberPrototypeToPrecision
+3fb9e43220 17c Builtin:SameValue
+3fb9e433a0 bc Builtin:SameValueNumbersOnly
+3fb9e43460 3fc Builtin:Add_Baseline
+3fb9e43860 338 Builtin:AddSmi_Baseline
+3fb9e43ba0 458 Builtin:Subtract_Baseline
+3fb9e44000 384 Builtin:SubtractSmi_Baseline
+3fb9e443a0 448 Builtin:Multiply_Baseline
+3fb9e44800 3ec Builtin:MultiplySmi_Baseline
+3fb9e44c00 42c Builtin:Divide_Baseline
+3fb9e45040 43c Builtin:DivideSmi_Baseline
+3fb9e45480 374 Builtin:Modulus_Baseline
+3fb9e45800 368 Builtin:ModulusSmi_Baseline
+3fb9e45b80 3b8 Builtin:Exponentiate_Baseline
+3fb9e45f40 350 Builtin:ExponentiateSmi_Baseline
+3fb9e462a0 42c Builtin:BitwiseAnd_Baseline
+3fb9e466e0 21c Builtin:BitwiseAndSmi_Baseline
+3fb9e46900 42c Builtin:BitwiseOr_Baseline
+3fb9e46d40 21c Builtin:BitwiseOrSmi_Baseline
+3fb9e46f60 42c Builtin:BitwiseXor_Baseline
+3fb9e473a0 21c Builtin:BitwiseXorSmi_Baseline
+3fb9e475c0 428 Builtin:ShiftLeft_Baseline
+3fb9e47a00 244 Builtin:ShiftLeftSmi_Baseline
+3fb9e47c60 428 Builtin:ShiftRight_Baseline
+3fb9e480a0 224 Builtin:ShiftRightSmi_Baseline
+3fb9e482e0 4b4 Builtin:ShiftRightLogical_Baseline
+3fb9e487a0 374 Builtin:ShiftRightLogicalSmi_Baseline
+3fb9e48b20 3a4 Builtin:Add_WithFeedback
+3fb9e48ee0 418 Builtin:Subtract_WithFeedback
+3fb9e49300 418 Builtin:Multiply_WithFeedback
+3fb9e49720 3fc Builtin:Divide_WithFeedback
+3fb9e49b20 344 Builtin:Modulus_WithFeedback
+3fb9e49e80 398 Builtin:Exponentiate_WithFeedback
+3fb9e4a220 410 Builtin:BitwiseAnd_WithFeedback
+3fb9e4a640 410 Builtin:BitwiseOr_WithFeedback
+3fb9e4aa60 410 Builtin:BitwiseXor_WithFeedback
+3fb9e4ae80 40c Builtin:ShiftLeft_WithFeedback
+3fb9e4b2a0 40c Builtin:ShiftRight_WithFeedback
+3fb9e4b6c0 494 Builtin:ShiftRightLogical_WithFeedback
+3fb9e4bb60 7a4 Builtin:Equal_Baseline
+3fb9e4c320 438 Builtin:StrictEqual_Baseline
+3fb9e4c760 678 Builtin:LessThan_Baseline
+3fb9e4cde0 678 Builtin:GreaterThan_Baseline
+3fb9e4d460 678 Builtin:LessThanOrEqual_Baseline
+3fb9e4dae0 678 Builtin:GreaterThanOrEqual_Baseline
+3fb9e4e160 778 Builtin:Equal_WithFeedback
+3fb9e4e8e0 44c Builtin:StrictEqual_WithFeedback
+3fb9e4ed40 660 Builtin:LessThan_WithFeedback
+3fb9e4f3c0 660 Builtin:GreaterThan_WithFeedback
+3fb9e4fa40 660 Builtin:LessThanOrEqual_WithFeedback
+3fb9e500c0 660 Builtin:GreaterThanOrEqual_WithFeedback
+3fb9e50740 208 Builtin:BitwiseNot_Baseline
+3fb9e50960 278 Builtin:Decrement_Baseline
+3fb9e50be0 274 Builtin:Increment_Baseline
+3fb9e50e60 27c Builtin:Negate_Baseline
+3fb9e510e0 1f4 Builtin:BitwiseNot_WithFeedback
+3fb9e512e0 264 Builtin:Decrement_WithFeedback
+3fb9e51560 25c Builtin:Increment_WithFeedback
+3fb9e517c0 268 Builtin:Negate_WithFeedback
+3fb9e51a40 154 Builtin:ObjectAssign
+3fb9e51ba0 3ec Builtin:ObjectCreate
+3fb9e51fa0 14 Builtin:ObjectDefineGetter
+3fb9e51fc0 14 Builtin:ObjectDefineProperties
+3fb9e51fe0 14 Builtin:ObjectDefineProperty
+3fb9e52000 14 Builtin:ObjectDefineSetter
+3fb9e52020 75c Builtin:ObjectEntries
+3fb9e52780 14 Builtin:ObjectFreeze
+3fb9e527a0 1f58 Builtin:ObjectGetOwnPropertyDescriptor
+3fb9e54700 14 Builtin:ObjectGetOwnPropertyDescriptors
+3fb9e54720 2d4 Builtin:ObjectGetOwnPropertyNames
+3fb9e54a00 14 Builtin:ObjectGetOwnPropertySymbols
+3fb9e54a20 104 Builtin:ObjectHasOwn
+3fb9e54b40 1c4 Builtin:ObjectIs
+3fb9e54d20 14 Builtin:ObjectIsFrozen
+3fb9e54d40 14 Builtin:ObjectIsSealed
+3fb9e54d60 288 Builtin:ObjectKeys
+3fb9e55000 14 Builtin:ObjectLookupGetter
+3fb9e55020 14 Builtin:ObjectLookupSetter
+3fb9e55040 a94 Builtin:ObjectPrototypeHasOwnProperty
+3fb9e55ae0 14c Builtin:ObjectPrototypeIsPrototypeOf
+3fb9e55c40 14 Builtin:ObjectPrototypePropertyIsEnumerable
+3fb9e55c60 14 Builtin:ObjectPrototypeGetProto
+3fb9e55c80 14 Builtin:ObjectPrototypeSetProto
+3fb9e55ca0 14 Builtin:ObjectSeal
+3fb9e55cc0 590 Builtin:ObjectToString
+3fb9e56260 644 Builtin:ObjectValues
+3fb9e568c0 224 Builtin:OrdinaryHasInstance
+3fb9e56b00 220 Builtin:InstanceOf
+3fb9e56d40 3a8 Builtin:InstanceOf_WithFeedback
+3fb9e57100 3b8 Builtin:InstanceOf_Baseline
+3fb9e574c0 158 Builtin:ForInEnumerate
+3fb9e57620 a8 Builtin:ForInPrepare
+3fb9e576e0 c4c Builtin:ForInFilter
+3fb9e58340 58 Builtin:ReflectApply
+3fb9e583a0 58 Builtin:ReflectConstruct
+3fb9e58400 14 Builtin:ReflectDefineProperty
+3fb9e58420 14 Builtin:ReflectGetOwnPropertyDescriptor
+3fb9e58440 14 Builtin:ReflectOwnKeys
+3fb9e58460 14 Builtin:ReflectSet
+3fb9e58480 14 Builtin:RegExpCapture1Getter
+3fb9e584a0 14 Builtin:RegExpCapture2Getter
+3fb9e584c0 14 Builtin:RegExpCapture3Getter
+3fb9e584e0 14 Builtin:RegExpCapture4Getter
+3fb9e58500 14 Builtin:RegExpCapture5Getter
+3fb9e58520 14 Builtin:RegExpCapture6Getter
+3fb9e58540 14 Builtin:RegExpCapture7Getter
+3fb9e58560 14 Builtin:RegExpCapture8Getter
+3fb9e58580 14 Builtin:RegExpCapture9Getter
+3fb9e585a0 a40 Builtin:RegExpConstructor
+3fb9e59000 14 Builtin:RegExpInputGetter
+3fb9e59020 14 Builtin:RegExpInputSetter
+3fb9e59040 14 Builtin:RegExpLastMatchGetter
+3fb9e59060 14 Builtin:RegExpLastParenGetter
+3fb9e59080 14 Builtin:RegExpLeftContextGetter
+3fb9e590a0 44c Builtin:RegExpPrototypeCompile
+3fb9e59500 14 Builtin:RegExpPrototypeToString
+3fb9e59520 14 Builtin:RegExpRightContextGetter
+3fb9e59540 204 Builtin:RegExpExecAtom
+3fb9e59760 574 Builtin:RegExpExecInternal
+3fb9e59ce0 10 Builtin:RegExpInterpreterTrampoline
+3fb9e59d00 10 Builtin:RegExpExperimentalTrampoline
+3fb9e59d20 dc0 Builtin:SetConstructor
+3fb9e5ab00 6a0 Builtin:SetPrototypeHas
+3fb9e5b1c0 910 Builtin:SetPrototypeAdd
+3fb9e5bae0 77c Builtin:SetPrototypeDelete
+3fb9e5c260 14 Builtin:SetPrototypeClear
+3fb9e5c280 184 Builtin:SetPrototypeEntries
+3fb9e5c420 ec Builtin:SetPrototypeGetSize
+3fb9e5c520 274 Builtin:SetPrototypeForEach
+3fb9e5c7a0 184 Builtin:SetPrototypeValues
+3fb9e5c940 4fc Builtin:SetIteratorPrototypeNext
+3fb9e5ce40 5d8 Builtin:SetOrSetIteratorToList
+3fb9e5d420 14 Builtin:ShadowRealmConstructor
+3fb9e5d440 364 Builtin:ShadowRealmGetWrappedValue
+3fb9e5d7c0 14 Builtin:ShadowRealmPrototypeEvaluate
+3fb9e5d7e0 14 Builtin:ShadowRealmPrototypeImportValue
+3fb9e5d800 14 Builtin:SharedArrayBufferPrototypeGetByteLength
+3fb9e5d820 14 Builtin:SharedArrayBufferPrototypeSlice
+3fb9e5d840 14 Builtin:SharedArrayBufferPrototypeGrow
+3fb9e5d860 690 Builtin:AtomicsLoad
+3fb9e5df00 5c0 Builtin:AtomicsStore
+3fb9e5e4e0 368 Builtin:AtomicsExchange
+3fb9e5e860 308 Builtin:AtomicsCompareExchange
+3fb9e5eb80 300 Builtin:AtomicsAdd
+3fb9e5eea0 300 Builtin:AtomicsSub
+3fb9e5f1c0 300 Builtin:AtomicsAnd
+3fb9e5f4e0 300 Builtin:AtomicsOr
+3fb9e5f800 300 Builtin:AtomicsXor
+3fb9e5fb20 14 Builtin:AtomicsNotify
+3fb9e5fb40 14 Builtin:AtomicsIsLockFree
+3fb9e5fb60 14 Builtin:AtomicsWait
+3fb9e5fb80 14 Builtin:AtomicsWaitAsync
+3fb9e5fba0 14 Builtin:StringFromCodePoint
+3fb9e5fbc0 81c Builtin:StringFromCharCode
+3fb9e603e0 14 Builtin:StringPrototypeLastIndexOf
+3fb9e60400 156c Builtin:StringPrototypeMatchAll
+3fb9e61980 14 Builtin:StringPrototypeLocaleCompare
+3fb9e619a0 6a0 Builtin:StringPrototypeReplace
+3fb9e62060 d68 Builtin:StringPrototypeSplit
+3fb9e62de0 14 Builtin:StringRaw
+3fb9e62e00 14 Builtin:SymbolConstructor
+3fb9e62e20 14 Builtin:SymbolFor
+3fb9e62e40 14 Builtin:SymbolKeyFor
+3fb9e62e60 94 Builtin:TypedArrayBaseConstructor
+3fb9e62f00 17c Builtin:TypedArrayConstructor
+3fb9e63080 14 Builtin:TypedArrayPrototypeBuffer
+3fb9e630a0 42c Builtin:TypedArrayPrototypeByteLength
+3fb9e634e0 1b4 Builtin:TypedArrayPrototypeByteOffset
+3fb9e636a0 2f0 Builtin:TypedArrayPrototypeLength
+3fb9e639a0 14 Builtin:TypedArrayPrototypeCopyWithin
+3fb9e639c0 14 Builtin:TypedArrayPrototypeFill
+3fb9e639e0 14 Builtin:TypedArrayPrototypeIncludes
+3fb9e63a00 14 Builtin:TypedArrayPrototypeIndexOf
+3fb9e63a20 14 Builtin:TypedArrayPrototypeLastIndexOf
+3fb9e63a40 14 Builtin:TypedArrayPrototypeReverse
+3fb9e63a60 1a4 Builtin:TypedArrayPrototypeToStringTag
+3fb9e63c20 87a0 Builtin:TypedArrayPrototypeMap
+3fb9e6c3e0 8 Builtin:GenericJSToWasmWrapper
+3fb9e6c400 8 Builtin:WasmReturnPromiseOnSuspend
+3fb9e6c420 8 Builtin:WasmSuspend
+3fb9e6c440 8 Builtin:WasmResume
+3fb9e6c460 e4 Builtin:WasmCompileLazy
+3fb9e6c560 150 Builtin:WasmDebugBreak
+3fb9e6c6c0 8 Builtin:WasmOnStackReplace
+3fb9e6c6e0 cc Builtin:WasmFloat32ToNumber
+3fb9e6c7c0 dc Builtin:WasmFloat64ToNumber
+3fb9e6c8a0 c Builtin:WasmI32AtomicWait32
+3fb9e6c8c0 c Builtin:WasmI64AtomicWait32
+3fb9e6c8e0 20 Builtin:JSToWasmLazyDeoptContinuation
+3fb9e6c920 1610 Builtin:WeakMapConstructor
+3fb9e6df40 11c Builtin:WeakMapLookupHashIndex
+3fb9e6e060 140 Builtin:WeakMapGet
+3fb9e6e1c0 118 Builtin:WeakMapPrototypeHas
+3fb9e6e2e0 16c Builtin:WeakMapPrototypeSet
+3fb9e6e460 fc Builtin:WeakMapPrototypeDelete
+3fb9e6e560 e98 Builtin:WeakSetConstructor
+3fb9e6f400 118 Builtin:WeakSetPrototypeHas
+3fb9e6f520 16c Builtin:WeakSetPrototypeAdd
+3fb9e6f6a0 fc Builtin:WeakSetPrototypeDelete
+3fb9e6f7a0 21c Builtin:WeakCollectionDelete
+3fb9e6f9c0 4a4 Builtin:WeakCollectionSet
+3fb9e6fe80 14 Builtin:SharedStructTypeConstructor
+3fb9e6fea0 14 Builtin:SharedStructConstructor
+3fb9e6fec0 1ec Builtin:AsyncGeneratorResolve
+3fb9e700c0 fc Builtin:AsyncGeneratorReject
+3fb9e701c0 900 Builtin:AsyncGeneratorYield
+3fb9e70ae0 97c Builtin:AsyncGeneratorReturn
+3fb9e71460 15c Builtin:AsyncGeneratorResumeNext
+3fb9e715c0 14 Builtin:AsyncGeneratorFunctionConstructor
+3fb9e715e0 5bc Builtin:AsyncGeneratorPrototypeNext
+3fb9e71ba0 5b8 Builtin:AsyncGeneratorPrototypeReturn
+3fb9e72160 5b8 Builtin:AsyncGeneratorPrototypeThrow
+3fb9e72720 8d4 Builtin:AsyncGeneratorAwaitCaught
+3fb9e73000 8d4 Builtin:AsyncGeneratorAwaitUncaught
+3fb9e738e0 f0 Builtin:AsyncGeneratorAwaitResolveClosure
+3fb9e739e0 f8 Builtin:AsyncGeneratorAwaitRejectClosure
+3fb9e73ae0 a4 Builtin:AsyncGeneratorYieldResolveClosure
+3fb9e73ba0 a4 Builtin:AsyncGeneratorReturnClosedResolveClosure
+3fb9e73c60 a0 Builtin:AsyncGeneratorReturnClosedRejectClosure
+3fb9e73d20 f8 Builtin:AsyncGeneratorReturnResolveClosure
+3fb9e73e20 834 Builtin:AsyncFromSyncIteratorPrototypeNext
+3fb9e74660 8b8 Builtin:AsyncFromSyncIteratorPrototypeThrow
+3fb9e74f20 8d8 Builtin:AsyncFromSyncIteratorPrototypeReturn
+3fb9e75800 a4 Builtin:AsyncIteratorValueUnwrap
+3fb9e758c0 150 Builtin:CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+3fb9e75a20 150 Builtin:CEntry_Return1_DontSaveFPRegs_ArgvOnStack_BuiltinExit
+3fb9e75b80 140 Builtin:CEntry_Return1_DontSaveFPRegs_ArgvInRegister_NoBuiltinExit
+3fb9e75ce0 1d8 Builtin:CEntry_Return1_SaveFPRegs_ArgvOnStack_NoBuiltinExit
+3fb9e75ec0 1d8 Builtin:CEntry_Return1_SaveFPRegs_ArgvOnStack_BuiltinExit
+3fb9e760a0 150 Builtin:CEntry_Return2_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+3fb9e76200 150 Builtin:CEntry_Return2_DontSaveFPRegs_ArgvOnStack_BuiltinExit
+3fb9e76360 140 Builtin:CEntry_Return2_DontSaveFPRegs_ArgvInRegister_NoBuiltinExit
+3fb9e764c0 1d8 Builtin:CEntry_Return2_SaveFPRegs_ArgvOnStack_NoBuiltinExit
+3fb9e766a0 1d8 Builtin:CEntry_Return2_SaveFPRegs_ArgvOnStack_BuiltinExit
+3fb9e76880 14 Builtin:DirectCEntry
+3fb9e768a0 5a0 Builtin:StringAdd_CheckNone
+3fb9e76e60 d80 Builtin:SubString
+3fb9e77c00 18 Builtin:StackCheck
+3fb9e77c20 f8 Builtin:DoubleToI
+3fb9e77d20 aa4 Builtin:GetProperty
+3fb9e787e0 b08 Builtin:GetPropertyWithReceiver
+3fb9e79300 63e0 Builtin:SetProperty
+3fb9e7f700 56d8 Builtin:CreateDataProperty
+3fb9e84de0 8 Builtin:MemCopyUint8Uint8
+3fb9e84e00 8 Builtin:MemMove
+3fb9e84e20 14 Builtin:IsTraceCategoryEnabled
+3fb9e84e40 14 Builtin:Trace
+3fb9e84e60 14 Builtin:FinalizationRegistryUnregister
+3fb9e84e80 230 Builtin:AsyncModuleEvaluate
+3fb9e850c0 14 Builtin:CallAsyncModuleFulfilled
+3fb9e850e0 14 Builtin:CallAsyncModuleRejected
+3fb9e85100 14 Builtin:TemporalNowTimeZone
+3fb9e85120 14 Builtin:TemporalNowInstant
+3fb9e85140 14 Builtin:TemporalNowPlainDateTime
+3fb9e85160 14 Builtin:TemporalNowPlainDateTimeISO
+3fb9e85180 14 Builtin:TemporalNowZonedDateTime
+3fb9e851a0 14 Builtin:TemporalNowZonedDateTimeISO
+3fb9e851c0 14 Builtin:TemporalNowPlainDate
+3fb9e851e0 14 Builtin:TemporalNowPlainDateISO
+3fb9e85200 14 Builtin:TemporalNowPlainTimeISO
+3fb9e85220 14 Builtin:TemporalPlainDateConstructor
+3fb9e85240 14 Builtin:TemporalPlainDateFrom
+3fb9e85260 14 Builtin:TemporalPlainDateCompare
+3fb9e85280 14 Builtin:TemporalPlainDatePrototypeCalendar
+3fb9e852a0 14 Builtin:TemporalPlainDatePrototypeYear
+3fb9e852c0 14 Builtin:TemporalPlainDatePrototypeMonth
+3fb9e852e0 14 Builtin:TemporalPlainDatePrototypeMonthCode
+3fb9e85300 14 Builtin:TemporalPlainDatePrototypeDay
+3fb9e85320 14 Builtin:TemporalPlainDatePrototypeDayOfWeek
+3fb9e85340 14 Builtin:TemporalPlainDatePrototypeDayOfYear
+3fb9e85360 14 Builtin:TemporalPlainDatePrototypeWeekOfYear
+3fb9e85380 14 Builtin:TemporalPlainDatePrototypeDaysInWeek
+3fb9e853a0 14 Builtin:TemporalPlainDatePrototypeDaysInMonth
+3fb9e853c0 14 Builtin:TemporalPlainDatePrototypeDaysInYear
+3fb9e853e0 14 Builtin:TemporalPlainDatePrototypeMonthsInYear
+3fb9e85400 14 Builtin:TemporalPlainDatePrototypeInLeapYear
+3fb9e85420 14 Builtin:TemporalPlainDatePrototypeToPlainYearMonth
+3fb9e85440 14 Builtin:TemporalPlainDatePrototypeToPlainMonthDay
+3fb9e85460 14 Builtin:TemporalPlainDatePrototypeGetISOFields
+3fb9e85480 14 Builtin:TemporalPlainDatePrototypeAdd
+3fb9e854a0 14 Builtin:TemporalPlainDatePrototypeSubtract
+3fb9e854c0 14 Builtin:TemporalPlainDatePrototypeWith
+3fb9e854e0 14 Builtin:TemporalPlainDatePrototypeWithCalendar
+3fb9e85500 14 Builtin:TemporalPlainDatePrototypeUntil
+3fb9e85520 14 Builtin:TemporalPlainDatePrototypeSince
+3fb9e85540 14 Builtin:TemporalPlainDatePrototypeEquals
+3fb9e85560 14 Builtin:TemporalPlainDatePrototypeToPlainDateTime
+3fb9e85580 14 Builtin:TemporalPlainDatePrototypeToZonedDateTime
+3fb9e855a0 14 Builtin:TemporalPlainDatePrototypeToString
+3fb9e855c0 14 Builtin:TemporalPlainDatePrototypeToJSON
+3fb9e855e0 14 Builtin:TemporalPlainDatePrototypeValueOf
+3fb9e85600 14 Builtin:TemporalPlainTimeConstructor
+3fb9e85620 14 Builtin:TemporalPlainTimeFrom
+3fb9e85640 14 Builtin:TemporalPlainTimeCompare
+3fb9e85660 14 Builtin:TemporalPlainTimePrototypeCalendar
+3fb9e85680 14 Builtin:TemporalPlainTimePrototypeHour
+3fb9e856a0 14 Builtin:TemporalPlainTimePrototypeMinute
+3fb9e856c0 14 Builtin:TemporalPlainTimePrototypeSecond
+3fb9e856e0 14 Builtin:TemporalPlainTimePrototypeMillisecond
+3fb9e85700 14 Builtin:TemporalPlainTimePrototypeMicrosecond
+3fb9e85720 14 Builtin:TemporalPlainTimePrototypeNanosecond
+3fb9e85740 14 Builtin:TemporalPlainTimePrototypeAdd
+3fb9e85760 14 Builtin:TemporalPlainTimePrototypeSubtract
+3fb9e85780 14 Builtin:TemporalPlainTimePrototypeWith
+3fb9e857a0 14 Builtin:TemporalPlainTimePrototypeUntil
+3fb9e857c0 14 Builtin:TemporalPlainTimePrototypeSince
+3fb9e857e0 14 Builtin:TemporalPlainTimePrototypeRound
+3fb9e85800 14 Builtin:TemporalPlainTimePrototypeEquals
+3fb9e85820 14 Builtin:TemporalPlainTimePrototypeToPlainDateTime
+3fb9e85840 14 Builtin:TemporalPlainTimePrototypeToZonedDateTime
+3fb9e85860 14 Builtin:TemporalPlainTimePrototypeGetISOFields
+3fb9e85880 14 Builtin:TemporalPlainTimePrototypeToString
+3fb9e858a0 14 Builtin:TemporalPlainTimePrototypeToJSON
+3fb9e858c0 14 Builtin:TemporalPlainTimePrototypeValueOf
+3fb9e858e0 14 Builtin:TemporalPlainDateTimeConstructor
+3fb9e85900 14 Builtin:TemporalPlainDateTimeFrom
+3fb9e85920 14 Builtin:TemporalPlainDateTimeCompare
+3fb9e85940 14 Builtin:TemporalPlainDateTimePrototypeCalendar
+3fb9e85960 14 Builtin:TemporalPlainDateTimePrototypeYear
+3fb9e85980 14 Builtin:TemporalPlainDateTimePrototypeMonth
+3fb9e859a0 14 Builtin:TemporalPlainDateTimePrototypeMonthCode
+3fb9e859c0 14 Builtin:TemporalPlainDateTimePrototypeDay
+3fb9e859e0 14 Builtin:TemporalPlainDateTimePrototypeHour
+3fb9e85a00 14 Builtin:TemporalPlainDateTimePrototypeMinute
+3fb9e85a20 14 Builtin:TemporalPlainDateTimePrototypeSecond
+3fb9e85a40 14 Builtin:TemporalPlainDateTimePrototypeMillisecond
+3fb9e85a60 14 Builtin:TemporalPlainDateTimePrototypeMicrosecond
+3fb9e85a80 14 Builtin:TemporalPlainDateTimePrototypeNanosecond
+3fb9e85aa0 14 Builtin:TemporalPlainDateTimePrototypeDayOfWeek
+3fb9e85ac0 14 Builtin:TemporalPlainDateTimePrototypeDayOfYear
+3fb9e85ae0 14 Builtin:TemporalPlainDateTimePrototypeWeekOfYear
+3fb9e85b00 14 Builtin:TemporalPlainDateTimePrototypeDaysInWeek
+3fb9e85b20 14 Builtin:TemporalPlainDateTimePrototypeDaysInMonth
+3fb9e85b40 14 Builtin:TemporalPlainDateTimePrototypeDaysInYear
+3fb9e85b60 14 Builtin:TemporalPlainDateTimePrototypeMonthsInYear
+3fb9e85b80 14 Builtin:TemporalPlainDateTimePrototypeInLeapYear
+3fb9e85ba0 14 Builtin:TemporalPlainDateTimePrototypeWith
+3fb9e85bc0 14 Builtin:TemporalPlainDateTimePrototypeWithPlainTime
+3fb9e85be0 14 Builtin:TemporalPlainDateTimePrototypeWithPlainDate
+3fb9e85c00 14 Builtin:TemporalPlainDateTimePrototypeWithCalendar
+3fb9e85c20 14 Builtin:TemporalPlainDateTimePrototypeAdd
+3fb9e85c40 14 Builtin:TemporalPlainDateTimePrototypeSubtract
+3fb9e85c60 14 Builtin:TemporalPlainDateTimePrototypeUntil
+3fb9e85c80 14 Builtin:TemporalPlainDateTimePrototypeSince
+3fb9e85ca0 14 Builtin:TemporalPlainDateTimePrototypeRound
+3fb9e85cc0 14 Builtin:TemporalPlainDateTimePrototypeEquals
+3fb9e85ce0 14 Builtin:TemporalPlainDateTimePrototypeToString
+3fb9e85d00 14 Builtin:TemporalPlainDateTimePrototypeToJSON
+3fb9e85d20 14 Builtin:TemporalPlainDateTimePrototypeValueOf
+3fb9e85d40 14 Builtin:TemporalPlainDateTimePrototypeToZonedDateTime
+3fb9e85d60 14 Builtin:TemporalPlainDateTimePrototypeToPlainDate
+3fb9e85d80 14 Builtin:TemporalPlainDateTimePrototypeToPlainYearMonth
+3fb9e85da0 14 Builtin:TemporalPlainDateTimePrototypeToPlainMonthDay
+3fb9e85dc0 14 Builtin:TemporalPlainDateTimePrototypeToPlainTime
+3fb9e85de0 14 Builtin:TemporalPlainDateTimePrototypeGetISOFields
+3fb9e85e00 14 Builtin:TemporalZonedDateTimeConstructor
+3fb9e85e20 14 Builtin:TemporalZonedDateTimeFrom
+3fb9e85e40 14 Builtin:TemporalZonedDateTimeCompare
+3fb9e85e60 14 Builtin:TemporalZonedDateTimePrototypeCalendar
+3fb9e85e80 14 Builtin:TemporalZonedDateTimePrototypeTimeZone
+3fb9e85ea0 14 Builtin:TemporalZonedDateTimePrototypeYear
+3fb9e85ec0 14 Builtin:TemporalZonedDateTimePrototypeMonth
+3fb9e85ee0 14 Builtin:TemporalZonedDateTimePrototypeMonthCode
+3fb9e85f00 14 Builtin:TemporalZonedDateTimePrototypeDay
+3fb9e85f20 14 Builtin:TemporalZonedDateTimePrototypeHour
+3fb9e85f40 14 Builtin:TemporalZonedDateTimePrototypeMinute
+3fb9e85f60 14 Builtin:TemporalZonedDateTimePrototypeSecond
+3fb9e85f80 14 Builtin:TemporalZonedDateTimePrototypeMillisecond
+3fb9e85fa0 14 Builtin:TemporalZonedDateTimePrototypeMicrosecond
+3fb9e85fc0 14 Builtin:TemporalZonedDateTimePrototypeNanosecond
+3fb9e85fe0 14 Builtin:TemporalZonedDateTimePrototypeEpochSeconds
+3fb9e86000 14 Builtin:TemporalZonedDateTimePrototypeEpochMilliseconds
+3fb9e86020 14 Builtin:TemporalZonedDateTimePrototypeEpochMicroseconds
+3fb9e86040 14 Builtin:TemporalZonedDateTimePrototypeEpochNanoseconds
+3fb9e86060 14 Builtin:TemporalZonedDateTimePrototypeDayOfWeek
+3fb9e86080 14 Builtin:TemporalZonedDateTimePrototypeDayOfYear
+3fb9e860a0 14 Builtin:TemporalZonedDateTimePrototypeWeekOfYear
+3fb9e860c0 14 Builtin:TemporalZonedDateTimePrototypeHoursInDay
+3fb9e860e0 14 Builtin:TemporalZonedDateTimePrototypeDaysInWeek
+3fb9e86100 14 Builtin:TemporalZonedDateTimePrototypeDaysInMonth
+3fb9e86120 14 Builtin:TemporalZonedDateTimePrototypeDaysInYear
+3fb9e86140 14 Builtin:TemporalZonedDateTimePrototypeMonthsInYear
+3fb9e86160 14 Builtin:TemporalZonedDateTimePrototypeInLeapYear
+3fb9e86180 14 Builtin:TemporalZonedDateTimePrototypeOffsetNanoseconds
+3fb9e861a0 14 Builtin:TemporalZonedDateTimePrototypeOffset
+3fb9e861c0 14 Builtin:TemporalZonedDateTimePrototypeWith
+3fb9e861e0 14 Builtin:TemporalZonedDateTimePrototypeWithPlainTime
+3fb9e86200 14 Builtin:TemporalZonedDateTimePrototypeWithPlainDate
+3fb9e86220 14 Builtin:TemporalZonedDateTimePrototypeWithTimeZone
+3fb9e86240 14 Builtin:TemporalZonedDateTimePrototypeWithCalendar
+3fb9e86260 14 Builtin:TemporalZonedDateTimePrototypeAdd
+3fb9e86280 14 Builtin:TemporalZonedDateTimePrototypeSubtract
+3fb9e862a0 14 Builtin:TemporalZonedDateTimePrototypeUntil
+3fb9e862c0 14 Builtin:TemporalZonedDateTimePrototypeSince
+3fb9e862e0 14 Builtin:TemporalZonedDateTimePrototypeRound
+3fb9e86300 14 Builtin:TemporalZonedDateTimePrototypeEquals
+3fb9e86320 14 Builtin:TemporalZonedDateTimePrototypeToString
+3fb9e86340 14 Builtin:TemporalZonedDateTimePrototypeToJSON
+3fb9e86360 14 Builtin:TemporalZonedDateTimePrototypeValueOf
+3fb9e86380 14 Builtin:TemporalZonedDateTimePrototypeStartOfDay
+3fb9e863a0 14 Builtin:TemporalZonedDateTimePrototypeToInstant
+3fb9e863c0 14 Builtin:TemporalZonedDateTimePrototypeToPlainDate
+3fb9e863e0 14 Builtin:TemporalZonedDateTimePrototypeToPlainTime
+3fb9e86400 14 Builtin:TemporalZonedDateTimePrototypeToPlainDateTime
+3fb9e86420 14 Builtin:TemporalZonedDateTimePrototypeToPlainYearMonth
+3fb9e86440 14 Builtin:TemporalZonedDateTimePrototypeToPlainMonthDay
+3fb9e86460 14 Builtin:TemporalZonedDateTimePrototypeGetISOFields
+3fb9e86480 14 Builtin:TemporalDurationConstructor
+3fb9e864a0 14 Builtin:TemporalDurationFrom
+3fb9e864c0 14 Builtin:TemporalDurationCompare
+3fb9e864e0 14 Builtin:TemporalDurationPrototypeYears
+3fb9e86500 14 Builtin:TemporalDurationPrototypeMonths
+3fb9e86520 14 Builtin:TemporalDurationPrototypeWeeks
+3fb9e86540 14 Builtin:TemporalDurationPrototypeDays
+3fb9e86560 14 Builtin:TemporalDurationPrototypeHours
+3fb9e86580 14 Builtin:TemporalDurationPrototypeMinutes
+3fb9e865a0 14 Builtin:TemporalDurationPrototypeSeconds
+3fb9e865c0 14 Builtin:TemporalDurationPrototypeMilliseconds
+3fb9e865e0 14 Builtin:TemporalDurationPrototypeMicroseconds
+3fb9e86600 14 Builtin:TemporalDurationPrototypeNanoseconds
+3fb9e86620 14 Builtin:TemporalDurationPrototypeSign
+3fb9e86640 14 Builtin:TemporalDurationPrototypeBlank
+3fb9e86660 14 Builtin:TemporalDurationPrototypeWith
+3fb9e86680 14 Builtin:TemporalDurationPrototypeNegated
+3fb9e866a0 14 Builtin:TemporalDurationPrototypeAbs
+3fb9e866c0 14 Builtin:TemporalDurationPrototypeAdd
+3fb9e866e0 14 Builtin:TemporalDurationPrototypeSubtract
+3fb9e86700 14 Builtin:TemporalDurationPrototypeRound
+3fb9e86720 14 Builtin:TemporalDurationPrototypeTotal
+3fb9e86740 14 Builtin:TemporalDurationPrototypeToString
+3fb9e86760 14 Builtin:TemporalDurationPrototypeToJSON
+3fb9e86780 14 Builtin:TemporalDurationPrototypeValueOf
+3fb9e867a0 14 Builtin:TemporalInstantConstructor
+3fb9e867c0 14 Builtin:TemporalInstantFrom
+3fb9e867e0 14 Builtin:TemporalInstantFromEpochSeconds
+3fb9e86800 14 Builtin:TemporalInstantFromEpochMilliseconds
+3fb9e86820 14 Builtin:TemporalInstantFromEpochMicroseconds
+3fb9e86840 14 Builtin:TemporalInstantFromEpochNanoseconds
+3fb9e86860 14 Builtin:TemporalInstantCompare
+3fb9e86880 14 Builtin:TemporalInstantPrototypeEpochSeconds
+3fb9e868a0 14 Builtin:TemporalInstantPrototypeEpochMilliseconds
+3fb9e868c0 14 Builtin:TemporalInstantPrototypeEpochMicroseconds
+3fb9e868e0 14 Builtin:TemporalInstantPrototypeEpochNanoseconds
+3fb9e86900 14 Builtin:TemporalInstantPrototypeAdd
+3fb9e86920 14 Builtin:TemporalInstantPrototypeSubtract
+3fb9e86940 14 Builtin:TemporalInstantPrototypeUntil
+3fb9e86960 14 Builtin:TemporalInstantPrototypeSince
+3fb9e86980 14 Builtin:TemporalInstantPrototypeRound
+3fb9e869a0 14 Builtin:TemporalInstantPrototypeEquals
+3fb9e869c0 14 Builtin:TemporalInstantPrototypeToString
+3fb9e869e0 14 Builtin:TemporalInstantPrototypeToJSON
+3fb9e86a00 14 Builtin:TemporalInstantPrototypeValueOf
+3fb9e86a20 14 Builtin:TemporalInstantPrototypeToZonedDateTime
+3fb9e86a40 14 Builtin:TemporalInstantPrototypeToZonedDateTimeISO
+3fb9e86a60 14 Builtin:TemporalPlainYearMonthConstructor
+3fb9e86a80 14 Builtin:TemporalPlainYearMonthFrom
+3fb9e86aa0 14 Builtin:TemporalPlainYearMonthCompare
+3fb9e86ac0 14 Builtin:TemporalPlainYearMonthPrototypeCalendar
+3fb9e86ae0 14 Builtin:TemporalPlainYearMonthPrototypeYear
+3fb9e86b00 14 Builtin:TemporalPlainYearMonthPrototypeMonth
+3fb9e86b20 14 Builtin:TemporalPlainYearMonthPrototypeMonthCode
+3fb9e86b40 14 Builtin:TemporalPlainYearMonthPrototypeDaysInYear
+3fb9e86b60 14 Builtin:TemporalPlainYearMonthPrototypeDaysInMonth
+3fb9e86b80 14 Builtin:TemporalPlainYearMonthPrototypeMonthsInYear
+3fb9e86ba0 14 Builtin:TemporalPlainYearMonthPrototypeInLeapYear
+3fb9e86bc0 14 Builtin:TemporalPlainYearMonthPrototypeWith
+3fb9e86be0 14 Builtin:TemporalPlainYearMonthPrototypeAdd
+3fb9e86c00 14 Builtin:TemporalPlainYearMonthPrototypeSubtract
+3fb9e86c20 14 Builtin:TemporalPlainYearMonthPrototypeUntil
+3fb9e86c40 14 Builtin:TemporalPlainYearMonthPrototypeSince
+3fb9e86c60 14 Builtin:TemporalPlainYearMonthPrototypeEquals
+3fb9e86c80 14 Builtin:TemporalPlainYearMonthPrototypeToString
+3fb9e86ca0 14 Builtin:TemporalPlainYearMonthPrototypeToJSON
+3fb9e86cc0 14 Builtin:TemporalPlainYearMonthPrototypeValueOf
+3fb9e86ce0 14 Builtin:TemporalPlainYearMonthPrototypeToPlainDate
+3fb9e86d00 14 Builtin:TemporalPlainYearMonthPrototypeGetISOFields
+3fb9e86d20 14 Builtin:TemporalPlainMonthDayConstructor
+3fb9e86d40 14 Builtin:TemporalPlainMonthDayFrom
+3fb9e86d60 14 Builtin:TemporalPlainMonthDayPrototypeCalendar
+3fb9e86d80 14 Builtin:TemporalPlainMonthDayPrototypeMonthCode
+3fb9e86da0 14 Builtin:TemporalPlainMonthDayPrototypeDay
+3fb9e86dc0 14 Builtin:TemporalPlainMonthDayPrototypeWith
+3fb9e86de0 14 Builtin:TemporalPlainMonthDayPrototypeEquals
+3fb9e86e00 14 Builtin:TemporalPlainMonthDayPrototypeToString
+3fb9e86e20 14 Builtin:TemporalPlainMonthDayPrototypeToJSON
+3fb9e86e40 14 Builtin:TemporalPlainMonthDayPrototypeValueOf
+3fb9e86e60 14 Builtin:TemporalPlainMonthDayPrototypeToPlainDate
+3fb9e86e80 14 Builtin:TemporalPlainMonthDayPrototypeGetISOFields
+3fb9e86ea0 14 Builtin:TemporalTimeZoneConstructor
+3fb9e86ec0 14 Builtin:TemporalTimeZoneFrom
+3fb9e86ee0 14 Builtin:TemporalTimeZonePrototypeId
+3fb9e86f00 14 Builtin:TemporalTimeZonePrototypeGetOffsetNanosecondsFor
+3fb9e86f20 14 Builtin:TemporalTimeZonePrototypeGetOffsetStringFor
+3fb9e86f40 14 Builtin:TemporalTimeZonePrototypeGetPlainDateTimeFor
+3fb9e86f60 14 Builtin:TemporalTimeZonePrototypeGetInstantFor
+3fb9e86f80 14 Builtin:TemporalTimeZonePrototypeGetPossibleInstantsFor
+3fb9e86fa0 14 Builtin:TemporalTimeZonePrototypeGetNextTransition
+3fb9e86fc0 14 Builtin:TemporalTimeZonePrototypeGetPreviousTransition
+3fb9e86fe0 14 Builtin:TemporalTimeZonePrototypeToString
+3fb9e87000 14 Builtin:TemporalTimeZonePrototypeToJSON
+3fb9e87020 14 Builtin:TemporalCalendarConstructor
+3fb9e87040 14 Builtin:TemporalCalendarFrom
+3fb9e87060 14 Builtin:TemporalCalendarPrototypeId
+3fb9e87080 14 Builtin:TemporalCalendarPrototypeDateFromFields
+3fb9e870a0 14 Builtin:TemporalCalendarPrototypeYearMonthFromFields
+3fb9e870c0 14 Builtin:TemporalCalendarPrototypeMonthDayFromFields
+3fb9e870e0 14 Builtin:TemporalCalendarPrototypeDateAdd
+3fb9e87100 14 Builtin:TemporalCalendarPrototypeDateUntil
+3fb9e87120 14 Builtin:TemporalCalendarPrototypeYear
+3fb9e87140 14 Builtin:TemporalCalendarPrototypeMonth
+3fb9e87160 14 Builtin:TemporalCalendarPrototypeMonthCode
+3fb9e87180 14 Builtin:TemporalCalendarPrototypeDay
+3fb9e871a0 14 Builtin:TemporalCalendarPrototypeDayOfWeek
+3fb9e871c0 14 Builtin:TemporalCalendarPrototypeDayOfYear
+3fb9e871e0 14 Builtin:TemporalCalendarPrototypeWeekOfYear
+3fb9e87200 14 Builtin:TemporalCalendarPrototypeDaysInWeek
+3fb9e87220 14 Builtin:TemporalCalendarPrototypeDaysInMonth
+3fb9e87240 14 Builtin:TemporalCalendarPrototypeDaysInYear
+3fb9e87260 14 Builtin:TemporalCalendarPrototypeMonthsInYear
+3fb9e87280 14 Builtin:TemporalCalendarPrototypeInLeapYear
+3fb9e872a0 14 Builtin:TemporalCalendarPrototypeFields
+3fb9e872c0 14 Builtin:TemporalCalendarPrototypeMergeFields
+3fb9e872e0 14 Builtin:TemporalCalendarPrototypeToString
+3fb9e87300 14 Builtin:TemporalCalendarPrototypeToJSON
+3fb9e87320 7f0 Builtin:StringFixedArrayFromIterable
+3fb9e87b20 7c8 Builtin:TemporalInstantFixedArrayFromIterable
+3fb9e88300 188 Builtin:AggregateErrorConstructor
+3fb9e884a0 3f8 Builtin:ArrayPrototypeAt
+3fb9e888a0 318 Builtin:ArrayPrototypeConcat
+3fb9e88bc0 1c60 Builtin:ArrayPrototypeCopyWithin
+3fb9e8a840 13c Builtin:ArrayEveryLoopEagerDeoptContinuation
+3fb9e8a980 2d4 Builtin:ArrayEveryLoopLazyDeoptContinuation
+3fb9e8ac60 f54 Builtin:ArrayEveryLoopContinuation
+3fb9e8bbc0 6e8 Builtin:ArrayEvery
+3fb9e8c2c0 184 Builtin:ArrayFilterLoopEagerDeoptContinuation
+3fb9e8c460 44c Builtin:ArrayFilterLoopLazyDeoptContinuation
+3fb9e8c8c0 10f8 Builtin:ArrayFilterLoopContinuation
+3fb9e8d9c0 16dc Builtin:ArrayFilter
+3fb9e8f0a0 130 Builtin:ArrayFindLoopEagerDeoptContinuation
+3fb9e8f1e0 4c Builtin:ArrayFindLoopLazyDeoptContinuation
+3fb9e8f240 1c0 Builtin:ArrayFindLoopAfterCallbackLazyDeoptContinuation
+3fb9e8f420 2a8 Builtin:ArrayFindLoopContinuation
+3fb9e8f6e0 6d0 Builtin:ArrayPrototypeFind
+3fb9e8fdc0 130 Builtin:ArrayFindIndexLoopEagerDeoptContinuation
+3fb9e8ff00 4c Builtin:ArrayFindIndexLoopLazyDeoptContinuation
+3fb9e8ff60 1c0 Builtin:ArrayFindIndexLoopAfterCallbackLazyDeoptContinuation
+3fb9e90140 2a4 Builtin:ArrayFindIndexLoopContinuation
+3fb9e90400 6d0 Builtin:ArrayPrototypeFindIndex
+3fb9e90ae0 25c Builtin:ArrayFindLastLoopContinuation
+3fb9e90d40 790 Builtin:ArrayPrototypeFindLast
+3fb9e914e0 258 Builtin:ArrayFindLastIndexLoopContinuation
+3fb9e91740 790 Builtin:ArrayPrototypeFindLastIndex
+3fb9e91ee0 13c Builtin:ArrayForEachLoopEagerDeoptContinuation
+3fb9e92020 13c Builtin:ArrayForEachLoopLazyDeoptContinuation
+3fb9e92160 eec Builtin:ArrayForEachLoopContinuation
+3fb9e93060 628 Builtin:ArrayForEach
+3fb9e936a0 11bc Builtin:ArrayFrom
+3fb9e94860 100 Builtin:ArrayIsArray
+3fb9e94980 1e8 Builtin:LoadJoinElement_DictionaryElements_0
+3fb9e94b80 40 Builtin:LoadJoinElement_FastSmiOrObjectElements_0
+3fb9e94be0 ec Builtin:LoadJoinElement_FastDoubleElements_0
+3fb9e94ce0 1dc Builtin:ConvertToLocaleString
+3fb9e94ec0 520 Builtin:JoinStackPush
+3fb9e95400 1e0 Builtin:JoinStackPop
+3fb9e95600 24c4 Builtin:ArrayPrototypeJoin
+3fb9e97ae0 1cd4 Builtin:ArrayPrototypeToLocaleString
+3fb9e997c0 160 Builtin:ArrayPrototypeToString
+3fb9e99940 23fc Builtin:TypedArrayPrototypeJoin
+3fb9e9bd40 1c0c Builtin:TypedArrayPrototypeToLocaleString
+3fb9e9d960 10ac Builtin:ArrayPrototypeLastIndexOf
+3fb9e9ea20 168 Builtin:ArrayMapPreLoopLazyDeoptContinuation
+3fb9e9eba0 15c Builtin:ArrayMapLoopEagerDeoptContinuation
+3fb9e9ed00 278 Builtin:ArrayMapLoopLazyDeoptContinuation
+3fb9e9ef80 ed0 Builtin:ArrayMapLoopContinuation
+3fb9e9fe60 1324 Builtin:ArrayMap
+3fb9ea11a0 3d8 Builtin:ArrayOf
+3fb9ea1580 214 Builtin:ArrayReduceRightPreLoopEagerDeoptContinuation
+3fb9ea17a0 130 Builtin:ArrayReduceRightLoopEagerDeoptContinuation
+3fb9ea18e0 130 Builtin:ArrayReduceRightLoopLazyDeoptContinuation
+3fb9ea1a20 e94 Builtin:ArrayReduceRightLoopContinuation
+3fb9ea28c0 8b4 Builtin:ArrayReduceRight
+3fb9ea3180 110 Builtin:ArrayReducePreLoopEagerDeoptContinuation
+3fb9ea32a0 130 Builtin:ArrayReduceLoopEagerDeoptContinuation
+3fb9ea33e0 130 Builtin:ArrayReduceLoopLazyDeoptContinuation
+3fb9ea3520 ee8 Builtin:ArrayReduceLoopContinuation
+3fb9ea4420 714 Builtin:ArrayReduce
+3fb9ea4b40 ff8 Builtin:ArrayPrototypeReverse
+3fb9ea5b40 10fc Builtin:ArrayPrototypeShift
+3fb9ea6c40 1a10 Builtin:ArrayPrototypeSlice
+3fb9ea8660 13c Builtin:ArraySomeLoopEagerDeoptContinuation
+3fb9ea87a0 2cc Builtin:ArraySomeLoopLazyDeoptContinuation
+3fb9ea8a80 f54 Builtin:ArraySomeLoopContinuation
+3fb9ea99e0 6e0 Builtin:ArraySome
+3fb9eaa0e0 4ef4 Builtin:ArrayPrototypeSplice
+3fb9eaefe0 eac Builtin:ArrayPrototypeUnshift
+3fb9eafea0 1b0 Builtin:ArrayBufferPrototypeGetByteLength
+3fb9eb0060 244 Builtin:ArrayBufferPrototypeGetMaxByteLength
+3fb9eb02c0 14c Builtin:ArrayBufferPrototypeGetResizable
+3fb9eb0420 1b0 Builtin:SharedArrayBufferPrototypeGetMaxByteLength
+3fb9eb05e0 14c Builtin:SharedArrayBufferPrototypeGetGrowable
+3fb9eb0740 a8 Builtin:ArrayBufferIsView
+3fb9eb0800 148 Builtin:ToInteger
+3fb9eb0960 1148 Builtin:FastCreateDataProperty
+3fb9eb1ac0 2d0 Builtin:CheckSameObject
+3fb9eb1da0 444 Builtin:BooleanConstructor
+3fb9eb2200 fc Builtin:BooleanPrototypeToString
+3fb9eb2300 f8 Builtin:BooleanPrototypeValueOf
+3fb9eb2400 530 Builtin:BigIntAddNoThrow
+3fb9eb2940 5d0 Builtin:BigIntAdd
+3fb9eb2f20 530 Builtin:BigIntSubtractNoThrow
+3fb9eb3460 5d0 Builtin:BigIntSubtract
+3fb9eb3a40 1ac Builtin:BigIntUnaryMinus
+3fb9eb3c00 75c Builtin:ToString
+3fb9eb4360 104 Builtin:StringPrototypeToString
+3fb9eb4480 104 Builtin:StringPrototypeValueOf
+3fb9eb45a0 c38 Builtin:StringToList
+3fb9eb51e0 550 Builtin:StringPrototypeCharAt
+3fb9eb5740 368 Builtin:StringPrototypeCharCodeAt
+3fb9eb5ac0 5cc Builtin:StringPrototypeCodePointAt
+3fb9eb60a0 218 Builtin:StringPrototypeConcat
+3fb9eb62c0 498 Builtin:StringConstructor
+3fb9eb6760 7a0 Builtin:StringAddConvertLeft
+3fb9eb6f20 7cc Builtin:StringAddConvertRight
+3fb9eb7700 4a8 Builtin:StringCharAt
+3fb9eb7bc0 18 Builtin:FastNewClosureBaseline
+3fb9eb7be0 108 Builtin:FastNewFunctionContextEval
+3fb9eb7d00 108 Builtin:FastNewFunctionContextFunction
+3fb9eb7e20 188 Builtin:CreateRegExpLiteral
+3fb9eb7fc0 560 Builtin:CreateShallowArrayLiteral
+3fb9eb8540 360 Builtin:CreateEmptyArrayLiteral
+3fb9eb88c0 8bc Builtin:CreateShallowObjectLiteral
+3fb9eb9180 1e0 Builtin:ObjectConstructor
+3fb9eb9380 ec Builtin:CreateEmptyLiteralObject
+3fb9eb9480 340 Builtin:NumberConstructor
+3fb9eb97e0 74 Builtin:GenericLazyDeoptContinuation
+3fb9eb9860 88 Builtin:StringToNumber
+3fb9eb9900 170 Builtin:NonNumberToNumber
+3fb9eb9a80 1bc Builtin:NonNumberToNumeric
+3fb9eb9c40 54 Builtin:ToNumeric
+3fb9eb9ca0 7dc Builtin:NumberToString
+3fb9eba480 98 Builtin:ToBoolean
+3fb9eba520 9c Builtin:ToBooleanForBaselineJump
+3fb9eba5c0 340 Builtin:ToLength
+3fb9eba920 738 Builtin:ToName
+3fb9ebb060 3d4 Builtin:ToObject
+3fb9ebb440 158 Builtin:NonPrimitiveToPrimitive_Default
+3fb9ebb5a0 158 Builtin:NonPrimitiveToPrimitive_Number
+3fb9ebb700 15c Builtin:NonPrimitiveToPrimitive_String
+3fb9ebb860 1f4 Builtin:OrdinaryToPrimitive_Number
+3fb9ebba60 1f4 Builtin:OrdinaryToPrimitive_String
+3fb9ebbc60 14c Builtin:FastConsoleAssert
+3fb9ebbdc0 fc Builtin:DataViewPrototypeGetBuffer
+3fb9ebbec0 390 Builtin:DataViewPrototypeGetByteLength
+3fb9ebc260 220 Builtin:DataViewPrototypeGetByteOffset
+3fb9ebc4a0 3a8 Builtin:DataViewPrototypeGetUint8
+3fb9ebc860 3a8 Builtin:DataViewPrototypeGetInt8
+3fb9ebcc20 42c Builtin:DataViewPrototypeGetUint16
+3fb9ebd060 41c Builtin:DataViewPrototypeGetInt16
+3fb9ebd480 4e4 Builtin:DataViewPrototypeGetUint32
+3fb9ebd980 45c Builtin:DataViewPrototypeGetInt32
+3fb9ebdde0 4fc Builtin:DataViewPrototypeGetFloat32
+3fb9ebe2e0 5b0 Builtin:DataViewPrototypeGetFloat64
+3fb9ebe8a0 5e4 Builtin:DataViewPrototypeGetBigUint64
+3fb9ebeea0 620 Builtin:DataViewPrototypeGetBigInt64
+3fb9ebf4e0 5d0 Builtin:DataViewPrototypeSetUint8
+3fb9ebfac0 5d0 Builtin:DataViewPrototypeSetInt8
+3fb9ec00a0 624 Builtin:DataViewPrototypeSetUint16
+3fb9ec06e0 624 Builtin:DataViewPrototypeSetInt16
+3fb9ec0d20 654 Builtin:DataViewPrototypeSetUint32
+3fb9ec1380 654 Builtin:DataViewPrototypeSetInt32
+3fb9ec19e0 614 Builtin:DataViewPrototypeSetFloat32
+3fb9ec2000 680 Builtin:DataViewPrototypeSetFloat64
+3fb9ec26a0 604 Builtin:DataViewPrototypeSetBigUint64
+3fb9ec2cc0 604 Builtin:DataViewPrototypeSetBigInt64
+3fb9ec32e0 404 Builtin:FinalizationRegistryConstructor
+3fb9ec3700 7e4 Builtin:FinalizationRegistryRegister
+3fb9ec3f00 3c4 Builtin:FinalizationRegistryPrototypeCleanupSome
+3fb9ec42e0 1c0 Builtin:FunctionPrototypeHasInstance
+3fb9ec44c0 490 Builtin:FastFunctionPrototypeBind
+3fb9ec4960 78 Builtin:IncBlockCounter
+3fb9ec49e0 1f8 Builtin:GetTemplateObject
+3fb9ec4be0 a4 Builtin:ForInNext
+3fb9ec4ca0 d0 Builtin:GetImportMetaObjectBaseline
+3fb9ec4d80 a8 Builtin:GetIteratorWithFeedback
+3fb9ec4e40 9c Builtin:GetIteratorBaseline
+3fb9ec4ee0 168 Builtin:CreateAsyncFromSyncIteratorBaseline
+3fb9ec5060 6e0 Builtin:CallIteratorWithFeedback
+3fb9ec5760 180 Builtin:MathAbs
+3fb9ec5900 16c Builtin:MathCeil
+3fb9ec5a80 16c Builtin:MathFloor
+3fb9ec5c00 194 Builtin:MathRound
+3fb9ec5da0 16c Builtin:MathTrunc
+3fb9ec5f20 1c8 Builtin:MathPow
+3fb9ec6100 1e8 Builtin:MathMax
+3fb9ec6300 1e8 Builtin:MathMin
+3fb9ec6500 188 Builtin:MathAcos
+3fb9ec66a0 188 Builtin:MathAcosh
+3fb9ec6840 188 Builtin:MathAsin
+3fb9ec69e0 188 Builtin:MathAsinh
+3fb9ec6b80 188 Builtin:MathAtan
+3fb9ec6d20 1dc Builtin:MathAtan2
+3fb9ec6f00 188 Builtin:MathAtanh
+3fb9ec70a0 188 Builtin:MathCbrt
+3fb9ec7240 164 Builtin:MathClz32
+3fb9ec73c0 188 Builtin:MathCos
+3fb9ec7560 188 Builtin:MathCosh
+3fb9ec7700 188 Builtin:MathExp
+3fb9ec78a0 188 Builtin:MathExpm1
+3fb9ec7a40 150 Builtin:MathFround
+3fb9ec7ba0 1b8 Builtin:MathImul
+3fb9ec7d60 188 Builtin:MathLog
+3fb9ec7f00 188 Builtin:MathLog1p
+3fb9ec80a0 188 Builtin:MathLog10
+3fb9ec8240 188 Builtin:MathLog2
+3fb9ec83e0 188 Builtin:MathSin
+3fb9ec8580 f0 Builtin:MathSign
+3fb9ec8680 188 Builtin:MathSinh
+3fb9ec8820 14c Builtin:MathSqrt
+3fb9ec8980 188 Builtin:MathTan
+3fb9ec8b20 188 Builtin:MathTanh
+3fb9ec8cc0 4e8 Builtin:MathHypot
+3fb9ec91c0 198 Builtin:MathRandom
+3fb9ec9360 f7c Builtin:NumberPrototypeToString
+3fb9eca2e0 c8 Builtin:NumberIsFinite
+3fb9eca3c0 e8 Builtin:NumberIsInteger
+3fb9eca4c0 b4 Builtin:NumberIsNaN
+3fb9eca580 10c Builtin:NumberIsSafeInteger
+3fb9eca6a0 f8 Builtin:NumberPrototypeValueOf
+3fb9eca7a0 12c Builtin:NumberParseFloat
+3fb9eca8e0 13c Builtin:ParseInt
+3fb9ecaa20 8c Builtin:NumberParseInt
+3fb9ecaac0 3a4 Builtin:Add
+3fb9ecae80 200 Builtin:Subtract
+3fb9ecb0a0 2c8 Builtin:Multiply
+3fb9ecb380 258 Builtin:Divide
+3fb9ecb5e0 288 Builtin:Modulus
+3fb9ecb880 280 Builtin:Exponentiate
+3fb9ecbb20 1ac Builtin:Negate
+3fb9ecbce0 bc Builtin:BitwiseNot
+3fb9ecbda0 bc Builtin:Decrement
+3fb9ecbe60 bc Builtin:Increment
+3fb9ecbf20 29c Builtin:ShiftLeft
+3fb9ecc1c0 29c Builtin:ShiftRight
+3fb9ecc460 30c Builtin:ShiftRightLogical
+3fb9ecc780 2a0 Builtin:BitwiseAnd
+3fb9ecca40 2a0 Builtin:BitwiseOr
+3fb9eccd00 2a0 Builtin:BitwiseXor
+3fb9eccfc0 46c Builtin:LessThan
+3fb9ecd440 46c Builtin:LessThanOrEqual
+3fb9ecd8c0 46c Builtin:GreaterThan
+3fb9ecdd40 46c Builtin:GreaterThanOrEqual
+3fb9ece1c0 4ec Builtin:Equal
+3fb9ece6c0 1b4 Builtin:StrictEqual
+3fb9ece880 ffc Builtin:ObjectFromEntries
+3fb9ecf880 400 Builtin:CreateObjectWithoutProperties
+3fb9ecfca0 ec Builtin:ObjectIsExtensible
+3fb9ecfda0 f0 Builtin:ObjectPreventExtensions
+3fb9ecfea0 fc Builtin:ObjectGetPrototypeOf
+3fb9ecffa0 1b8 Builtin:ObjectSetPrototypeOf
+3fb9ed0160 7c Builtin:ObjectPrototypeToString
+3fb9ed01e0 a4 Builtin:ObjectPrototypeValueOf
+3fb9ed02a0 100 Builtin:ObjectPrototypeToLocaleString
+3fb9ed03c0 5c8 Builtin:FulfillPromise
+3fb9ed09a0 6cc Builtin:RejectPromise
+3fb9ed1080 d58 Builtin:NewPromiseCapability
+3fb9ed1de0 104 Builtin:PromiseCapabilityDefaultReject
+3fb9ed1f00 f0 Builtin:PromiseCapabilityDefaultResolve
+3fb9ed2000 740 Builtin:PerformPromiseThen
+3fb9ed2760 378 Builtin:PromiseReject
+3fb9ed2ae0 24c Builtin:PromiseGetCapabilitiesExecutor
+3fb9ed2d40 ac Builtin:PromiseConstructorLazyDeoptContinuation
+3fb9ed2e00 1ab4 Builtin:PromiseAll
+3fb9ed48c0 1d28 Builtin:PromiseAllSettled
+3fb9ed6600 6c0 Builtin:PromiseAllResolveElementClosure
+3fb9ed6ce0 814 Builtin:PromiseAllSettledResolveElementClosure
+3fb9ed7500 818 Builtin:PromiseAllSettledRejectElementClosure
+3fb9ed7d20 718 Builtin:PromiseAnyRejectElementClosure
+3fb9ed8440 d80 Builtin:PromiseAny
+3fb9ed91e0 ef4 Builtin:PromiseConstructor
+3fb9eda0e0 1d8 Builtin:PromisePrototypeCatch
+3fb9eda2c0 8c Builtin:PromiseValueThunkFinally
+3fb9eda360 94 Builtin:PromiseThrowerFinally
+3fb9eda400 508 Builtin:PromiseCatchFinally
+3fb9eda920 508 Builtin:PromiseThenFinally
+3fb9edae40 8e0 Builtin:PromisePrototypeFinally
+3fb9edb740 7fc Builtin:PromiseRace
+3fb9edbf40 1c8 Builtin:PromiseFulfillReactionJob
+3fb9edc120 23c Builtin:PromiseRejectReactionJob
+3fb9edc360 f0 Builtin:PromiseResolveTrampoline
+3fb9edc460 36c Builtin:PromiseResolve
+3fb9edc7e0 438 Builtin:ResolvePromise
+3fb9edcc20 c30 Builtin:PromisePrototypeThen
+3fb9edd860 674 Builtin:PromiseResolveThenableJob
+3fb9eddee0 224 Builtin:ProxyConstructor
+3fb9ede120 890 Builtin:ProxyDeleteProperty
+3fb9ede9c0 9dc Builtin:ProxyGetProperty
+3fb9edf3a0 534 Builtin:ProxyGetPrototypeOf
+3fb9edf8e0 844 Builtin:ProxyHasProperty
+3fb9ee0140 3fc Builtin:ProxyIsExtensible
+3fb9ee0540 428 Builtin:ProxyPreventExtensions
+3fb9ee0980 5a0 Builtin:ProxyRevocable
+3fb9ee0f40 ac Builtin:ProxyRevoke
+3fb9ee1000 a98 Builtin:ProxySetProperty
+3fb9ee1aa0 648 Builtin:ProxySetPrototypeOf
+3fb9ee2100 138 Builtin:ReflectIsExtensible
+3fb9ee2240 13c Builtin:ReflectPreventExtensions
+3fb9ee2380 128 Builtin:ReflectGetPrototypeOf
+3fb9ee24c0 19c Builtin:ReflectSetPrototypeOf
+3fb9ee2660 184 Builtin:ReflectGet
+3fb9ee2800 f4 Builtin:ReflectDeleteProperty
+3fb9ee2900 e8 Builtin:ReflectHas
+3fb9ee2a00 1cf8 Builtin:RegExpPrototypeExecSlow
+3fb9ee4700 1d10 Builtin:RegExpPrototypeExec
+3fb9ee6420 ac0 Builtin:RegExpPrototypeMatchAll
+3fb9ee6f00 3480 Builtin:RegExpStringIteratorPrototypeNext
+3fb9eea3a0 3378 Builtin:RegExpMatchFast
+3fb9eed720 1258 Builtin:RegExpPrototypeMatch
+3fb9eee980 2120 Builtin:RegExpReplace
+3fb9ef0ac0 2b4 Builtin:RegExpPrototypeReplace
+3fb9ef0d80 6e4 Builtin:RegExpSearchFast
+3fb9ef1480 7b8 Builtin:RegExpPrototypeSearch
+3fb9ef1c40 120 Builtin:RegExpPrototypeSourceGetter
+3fb9ef1d80 1e78 Builtin:RegExpSplit
+3fb9ef3c00 288 Builtin:RegExpPrototypeSplit
+3fb9ef3ea0 b2c Builtin:RegExpPrototypeTest
+3fb9ef49e0 690 Builtin:RegExpPrototypeTestFast
+3fb9ef5080 13c Builtin:RegExpPrototypeGlobalGetter
+3fb9ef51c0 14c Builtin:RegExpPrototypeIgnoreCaseGetter
+3fb9ef5320 14c Builtin:RegExpPrototypeMultilineGetter
+3fb9ef5480 14c Builtin:RegExpPrototypeHasIndicesGetter
+3fb9ef55e0 14c Builtin:RegExpPrototypeLinearGetter
+3fb9ef5740 14c Builtin:RegExpPrototypeDotAllGetter
+3fb9ef58a0 174 Builtin:RegExpPrototypeStickyGetter
+3fb9ef5a20 174 Builtin:RegExpPrototypeUnicodeGetter
+3fb9ef5ba0 ae8 Builtin:RegExpPrototypeFlagsGetter
+3fb9ef66a0 71c Builtin:StringPrototypeAt
+3fb9ef6dc0 f3c Builtin:StringPrototypeEndsWith
+3fb9ef7d00 278 Builtin:CreateHTML
+3fb9ef7f80 e0 Builtin:StringPrototypeAnchor
+3fb9ef8080 bc Builtin:StringPrototypeBig
+3fb9ef8140 bc Builtin:StringPrototypeBlink
+3fb9ef8200 bc Builtin:StringPrototypeBold
+3fb9ef82c0 e8 Builtin:StringPrototypeFontcolor
+3fb9ef83c0 e8 Builtin:StringPrototypeFontsize
+3fb9ef84c0 bc Builtin:StringPrototypeFixed
+3fb9ef8580 bc Builtin:StringPrototypeItalics
+3fb9ef8640 e8 Builtin:StringPrototypeLink
+3fb9ef8740 bc Builtin:StringPrototypeSmall
+3fb9ef8800 bc Builtin:StringPrototypeStrike
+3fb9ef88c0 bc Builtin:StringPrototypeSub
+3fb9ef8980 bc Builtin:StringPrototypeSup
+3fb9ef8a40 4f4 Builtin:StringPrototypeIncludes
+3fb9ef8f40 2cc Builtin:StringPrototypeIndexOf
+3fb9ef9220 1c4 Builtin:StringPrototypeIterator
+3fb9ef9400 994 Builtin:StringIteratorPrototypeNext
+3fb9ef9da0 67c Builtin:StringPrototypeMatch
+3fb9efa420 67c Builtin:StringPrototypeSearch
+3fb9efaaa0 414 Builtin:StringPrototypePadStart
+3fb9efaec0 418 Builtin:StringPrototypePadEnd
+3fb9efb2e0 a8 Builtin:StringRepeat
+3fb9efb3a0 22c Builtin:StringPrototypeRepeat
+3fb9efb5e0 3c54 Builtin:StringPrototypeReplaceAll
+3fb9eff240 f44 Builtin:StringPrototypeSlice
+3fb9f001a0 f30 Builtin:StringPrototypeStartsWith
+3fb9f010e0 f4c Builtin:StringPrototypeSubstr
+3fb9f02040 f2c Builtin:StringPrototypeSubstring
+3fb9f02f80 2790 Builtin:StringPrototypeTrim
+3fb9f05720 2300 Builtin:StringPrototypeTrimStart
+3fb9f07a40 211c Builtin:StringPrototypeTrimEnd
+3fb9f09b60 100 Builtin:SymbolPrototypeDescriptionGetter
+3fb9f09c80 108 Builtin:SymbolPrototypeToPrimitive
+3fb9f09da0 11c Builtin:SymbolPrototypeToString
+3fb9f09ec0 fc Builtin:SymbolPrototypeValueOf
+3fb9f09fc0 548 Builtin:TypedArrayPrototypeAt
+3fb9f0a520 31bc Builtin:CreateTypedArray
+3fb9f0d6e0 808 Builtin:TypedArrayPrototypeEvery
+3fb9f0df00 230 Builtin:TypedArrayPrototypeEntries
+3fb9f0e140 1484 Builtin:TypedArrayPrototypeFilter
+3fb9f0f5e0 800 Builtin:TypedArrayPrototypeFind
+3fb9f0fe00 800 Builtin:TypedArrayPrototypeFindIndex
+3fb9f10620 800 Builtin:TypedArrayPrototypeFindLast
+3fb9f10e40 800 Builtin:TypedArrayPrototypeFindLastIndex
+3fb9f11660 764 Builtin:TypedArrayPrototypeForEach
+3fb9f11de0 a24 Builtin:TypedArrayFrom
+3fb9f12820 228 Builtin:TypedArrayPrototypeKeys
+3fb9f12a60 4ac Builtin:TypedArrayOf
+3fb9f12f20 7dc Builtin:TypedArrayPrototypeReduce
+3fb9f13700 7e4 Builtin:TypedArrayPrototypeReduceRight
+3fb9f13f00 e90 Builtin:TypedArrayPrototypeSet
+3fb9f14da0 1088 Builtin:TypedArrayPrototypeSlice
+3fb9f15e40 800 Builtin:TypedArrayPrototypeSome
+3fb9f16660 5fc Builtin:TypedArrayMergeSort
+3fb9f16c60 b9c Builtin:TypedArrayPrototypeSort
+3fb9f17800 d58 Builtin:TypedArrayPrototypeSubArray
+3fb9f18560 238 Builtin:TypedArrayPrototypeValues
+3fb9f187a0 4e8 Builtin:WeakRefConstructor
+3fb9f18ca0 120 Builtin:WeakRefDeref
+3fb9f18de0 3cc Builtin:NewSloppyArgumentsElements
+3fb9f191c0 1d0 Builtin:NewStrictArgumentsElements
+3fb9f193a0 1ec Builtin:NewRestArgumentsElements
+3fb9f195a0 830 Builtin:FastNewSloppyArguments
+3fb9f19de0 2e0 Builtin:FastNewStrictArguments
+3fb9f1a0e0 31c Builtin:FastNewRestArguments
+3fb9f1a400 3b0 Builtin:StringSlowFlatten
+3fb9f1a7c0 a20 Builtin:StringIndexOf
+3fb9f1b200 710 Builtin:TestTurbofanType
+3fb9f1b920 10c Builtin:CheckTurbofanType
+3fb9f1ba40 8 Builtin:GenericBuiltinTest_JSAny_0
+3fb9f1ba60 14 Builtin:TestHelperPlus1
+3fb9f1ba80 14 Builtin:TestHelperPlus2
+3fb9f1baa0 a4 Builtin:NewSmiBox
+3fb9f1bb60 18 Builtin:ReturnTwoValues
+3fb9f1bb80 30 Builtin:Load_FastSmiElements_0
+3fb9f1bbc0 30 Builtin:Load_FastObjectElements_0
+3fb9f1bc00 ec Builtin:Load_FastDoubleElements_0
+3fb9f1bd00 34 Builtin:Store_FastSmiElements_0
+3fb9f1bd40 ec Builtin:Store_FastObjectElements_0
+3fb9f1be40 3c Builtin:Store_FastDoubleElements_0
+3fb9f1be80 38 Builtin:Delete_FastSmiElements_0
+3fb9f1bec0 38 Builtin:Delete_FastObjectElements_0
+3fb9f1bf00 4c Builtin:Delete_FastDoubleElements_0
+3fb9f1bf60 170 Builtin:SortCompareDefault
+3fb9f1c0e0 a8 Builtin:SortCompareUserFn
+3fb9f1c1a0 c Builtin:CanUseSameAccessor_GenericElementsAccessor_0
+3fb9f1c1c0 248 Builtin:Copy
+3fb9f1c420 20fc Builtin:MergeAt
+3fb9f1e520 3f8 Builtin:GallopLeft
+3fb9f1e920 418 Builtin:GallopRight
+3fb9f1ed40 14cc Builtin:ArrayTimSort
+3fb9f20220 984 Builtin:ArrayPrototypeSort
+3fb9f20bc0 1320 Builtin:StringFastLocaleCompare
+3fb9f21f00 98 Builtin:WasmInt32ToHeapNumber
+3fb9f21fa0 1c Builtin:WasmFuncRefToJS
+3fb9f21fc0 f4 Builtin:WasmTaggedNonSmiToInt32
+3fb9f220c0 80 Builtin:WasmTaggedToFloat64
+3fb9f22160 80 Builtin:WasmMemoryGrow
+3fb9f22200 84 Builtin:WasmTableInit
+3fb9f222a0 84 Builtin:WasmTableCopy
+3fb9f22340 70 Builtin:WasmTableFill
+3fb9f223c0 60 Builtin:WasmTableGrow
+3fb9f22440 d8 Builtin:WasmTableGet
+3fb9f22520 198 Builtin:WasmTableSet
+3fb9f226c0 78 Builtin:WasmRefFunc
+3fb9f22740 f4 Builtin:WasmAllocateFixedArray
+3fb9f22840 34 Builtin:WasmThrow
+3fb9f22880 40 Builtin:WasmRethrow
+3fb9f228e0 38 Builtin:WasmRethrowExplicitContext
+3fb9f22920 34 Builtin:WasmTriggerTierUp
+3fb9f22960 28 Builtin:WasmStackGuard
+3fb9f229a0 28 Builtin:WasmStackOverflow
+3fb9f229e0 30 Builtin:WasmTraceMemory
+3fb9f22a20 28 Builtin:WasmTraceEnter
+3fb9f22a60 30 Builtin:WasmTraceExit
+3fb9f22aa0 1b4 Builtin:WasmAllocateJSArray
+3fb9f22c60 c4 Builtin:WasmAllocateStructWithRtt
+3fb9f22d40 e8 Builtin:WasmAllocateArray_Uninitialized
+3fb9f22e40 110 Builtin:WasmAllocateArray_InitZero
+3fb9f22f60 110 Builtin:WasmAllocateArray_InitNull
+3fb9f23080 4c Builtin:WasmArrayInitFromData
+3fb9f230e0 ac Builtin:WasmArrayCopyWithChecks
+3fb9f231a0 58 Builtin:WasmArrayCopy
+3fb9f23200 148 Builtin:WasmAllocateObjectWrapper
+3fb9f23360 50 Builtin:WasmSubtypeCheck
+3fb9f233c0 c Builtin:WasmInt32ToNumber
+3fb9f233e0 a8 Builtin:WasmUint32ToNumber
+3fb9f234a0 ac Builtin:UintPtr53ToNumber
+3fb9f23560 9c Builtin:WasmAtomicNotify
+3fb9f23600 b8 Builtin:WasmI32AtomicWait64
+3fb9f236c0 b8 Builtin:WasmI64AtomicWait64
+3fb9f23780 7c4 Builtin:CallRefIC
+3fb9f23f60 2b4 Builtin:WasmGetOwnProperty
+3fb9f24220 30 Builtin:WasmTrap
+3fb9f24260 14 Builtin:ThrowWasmTrapUnreachable
+3fb9f24280 14 Builtin:ThrowWasmTrapMemOutOfBounds
+3fb9f242a0 14 Builtin:ThrowWasmTrapUnalignedAccess
+3fb9f242c0 14 Builtin:ThrowWasmTrapDivByZero
+3fb9f242e0 14 Builtin:ThrowWasmTrapDivUnrepresentable
+3fb9f24300 14 Builtin:ThrowWasmTrapRemByZero
+3fb9f24320 14 Builtin:ThrowWasmTrapFloatUnrepresentable
+3fb9f24340 14 Builtin:ThrowWasmTrapFuncSigMismatch
+3fb9f24360 14 Builtin:ThrowWasmTrapDataSegmentOutOfBounds
+3fb9f24380 14 Builtin:ThrowWasmTrapElemSegmentDropped
+3fb9f243a0 14 Builtin:ThrowWasmTrapTableOutOfBounds
+3fb9f243c0 14 Builtin:ThrowWasmTrapRethrowNull
+3fb9f243e0 14 Builtin:ThrowWasmTrapNullDereference
+3fb9f24400 14 Builtin:ThrowWasmTrapIllegalCast
+3fb9f24420 14 Builtin:ThrowWasmTrapArrayOutOfBounds
+3fb9f24440 14 Builtin:ThrowWasmTrapArrayTooLarge
+3fb9f24460 c8 Builtin:LoadJoinElement_GenericElementsAccessor_0
+3fb9f24540 28 Builtin:LoadJoinTypedElement_Int32Elements_0
+3fb9f24580 b0 Builtin:LoadJoinTypedElement_Float32Elements_0
+3fb9f24640 ac Builtin:LoadJoinTypedElement_Float64Elements_0
+3fb9f24700 24 Builtin:LoadJoinTypedElement_Uint8ClampedElements_0
+3fb9f24740 148 Builtin:LoadJoinTypedElement_BigUint64Elements_0
+3fb9f248a0 168 Builtin:LoadJoinTypedElement_BigInt64Elements_0
+3fb9f24a20 24 Builtin:LoadJoinTypedElement_Uint8Elements_0
+3fb9f24a60 24 Builtin:LoadJoinTypedElement_Int8Elements_0
+3fb9f24aa0 28 Builtin:LoadJoinTypedElement_Uint16Elements_0
+3fb9f24ae0 28 Builtin:LoadJoinTypedElement_Int16Elements_0
+3fb9f24b20 cc Builtin:LoadJoinTypedElement_Uint32Elements_0
+3fb9f24c00 c Builtin:GenericBuiltinTest_Smi_0
+3fb9f24c20 2c Builtin:CanUseSameAccessor_FastDoubleElements_0
+3fb9f24c60 2c Builtin:CanUseSameAccessor_FastSmiElements_0
+3fb9f24ca0 2c Builtin:CanUseSameAccessor_FastObjectElements_0
+3fb9f24ce0 ca0 Builtin:Load_GenericElementsAccessor_0
+3fb9f259a0 40 Builtin:Store_GenericElementsAccessor_0
+3fb9f25a00 48 Builtin:Delete_GenericElementsAccessor_0
+3fb9f25a60 28 Builtin:LoadTypedElement_Int32Elements_0
+3fb9f25aa0 12c Builtin:StoreTypedElementNumeric_Int32Elements_0
+3fb9f25be0 12c Builtin:StoreTypedElementJSAny_Int32Elements_0
+3fb9f25d20 b0 Builtin:LoadTypedElement_Float32Elements_0
+3fb9f25de0 2c Builtin:StoreTypedElementNumeric_Float32Elements_0
+3fb9f25e20 ec Builtin:StoreTypedElementJSAny_Float32Elements_0
+3fb9f25f20 ac Builtin:LoadTypedElement_Float64Elements_0
+3fb9f25fe0 28 Builtin:StoreTypedElementNumeric_Float64Elements_0
+3fb9f26020 e8 Builtin:StoreTypedElementJSAny_Float64Elements_0
+3fb9f26120 24 Builtin:LoadTypedElement_Uint8ClampedElements_0
+3fb9f26160 24 Builtin:StoreTypedElementNumeric_Uint8ClampedElements_0
+3fb9f261a0 1a8 Builtin:StoreTypedElementJSAny_Uint8ClampedElements_0
+3fb9f26360 148 Builtin:LoadTypedElement_BigUint64Elements_0
+3fb9f264c0 60 Builtin:StoreTypedElementNumeric_BigUint64Elements_0
+3fb9f26540 144 Builtin:StoreTypedElementJSAny_BigUint64Elements_0
+3fb9f266a0 168 Builtin:LoadTypedElement_BigInt64Elements_0
+3fb9f26820 60 Builtin:StoreTypedElementNumeric_BigInt64Elements_0
+3fb9f268a0 144 Builtin:StoreTypedElementJSAny_BigInt64Elements_0
+3fb9f26a00 24 Builtin:LoadTypedElement_Uint8Elements_0
+3fb9f26a40 24 Builtin:StoreTypedElementNumeric_Uint8Elements_0
+3fb9f26a80 128 Builtin:StoreTypedElementJSAny_Uint8Elements_0
+3fb9f26bc0 24 Builtin:LoadTypedElement_Int8Elements_0
+3fb9f26c00 24 Builtin:StoreTypedElementNumeric_Int8Elements_0
+3fb9f26c40 128 Builtin:StoreTypedElementJSAny_Int8Elements_0
+3fb9f26d80 28 Builtin:LoadTypedElement_Uint16Elements_0
+3fb9f26dc0 28 Builtin:StoreTypedElementNumeric_Uint16Elements_0
+3fb9f26e00 12c Builtin:StoreTypedElementJSAny_Uint16Elements_0
+3fb9f26f40 28 Builtin:LoadTypedElement_Int16Elements_0
+3fb9f26f80 28 Builtin:StoreTypedElementNumeric_Int16Elements_0
+3fb9f26fc0 12c Builtin:StoreTypedElementJSAny_Int16Elements_0
+3fb9f27100 cc Builtin:LoadTypedElement_Uint32Elements_0
+3fb9f271e0 12c Builtin:StoreTypedElementNumeric_Uint32Elements_0
+3fb9f27320 12c Builtin:StoreTypedElementJSAny_Uint32Elements_0
+3fb9f27460 14 Builtin:CollatorConstructor
+3fb9f27480 14 Builtin:CollatorInternalCompare
+3fb9f274a0 14 Builtin:CollatorPrototypeCompare
+3fb9f274c0 14 Builtin:CollatorSupportedLocalesOf
+3fb9f274e0 14 Builtin:CollatorPrototypeResolvedOptions
+3fb9f27500 14 Builtin:DatePrototypeToLocaleDateString
+3fb9f27520 14 Builtin:DatePrototypeToLocaleString
+3fb9f27540 14 Builtin:DatePrototypeToLocaleTimeString
+3fb9f27560 14 Builtin:DateTimeFormatConstructor
+3fb9f27580 14 Builtin:DateTimeFormatInternalFormat
+3fb9f275a0 14 Builtin:DateTimeFormatPrototypeFormat
+3fb9f275c0 14 Builtin:DateTimeFormatPrototypeFormatRange
+3fb9f275e0 14 Builtin:DateTimeFormatPrototypeFormatRangeToParts
+3fb9f27600 14 Builtin:DateTimeFormatPrototypeFormatToParts
+3fb9f27620 14 Builtin:DateTimeFormatPrototypeResolvedOptions
+3fb9f27640 14 Builtin:DateTimeFormatSupportedLocalesOf
+3fb9f27660 14 Builtin:DisplayNamesConstructor
+3fb9f27680 14 Builtin:DisplayNamesPrototypeOf
+3fb9f276a0 14 Builtin:DisplayNamesPrototypeResolvedOptions
+3fb9f276c0 14 Builtin:DisplayNamesSupportedLocalesOf
+3fb9f276e0 14 Builtin:IntlGetCanonicalLocales
+3fb9f27700 14 Builtin:IntlSupportedValuesOf
+3fb9f27720 14 Builtin:ListFormatConstructor
+3fb9f27740 158 Builtin:ListFormatPrototypeFormat
+3fb9f278a0 158 Builtin:ListFormatPrototypeFormatToParts
+3fb9f27a00 14 Builtin:ListFormatPrototypeResolvedOptions
+3fb9f27a20 14 Builtin:ListFormatSupportedLocalesOf
+3fb9f27a40 14 Builtin:LocaleConstructor
+3fb9f27a60 14 Builtin:LocalePrototypeBaseName
+3fb9f27a80 14 Builtin:LocalePrototypeCalendar
+3fb9f27aa0 14 Builtin:LocalePrototypeCalendars
+3fb9f27ac0 14 Builtin:LocalePrototypeCaseFirst
+3fb9f27ae0 14 Builtin:LocalePrototypeCollation
+3fb9f27b00 14 Builtin:LocalePrototypeCollations
+3fb9f27b20 14 Builtin:LocalePrototypeHourCycle
+3fb9f27b40 14 Builtin:LocalePrototypeHourCycles
+3fb9f27b60 14 Builtin:LocalePrototypeLanguage
+3fb9f27b80 14 Builtin:LocalePrototypeMaximize
+3fb9f27ba0 14 Builtin:LocalePrototypeMinimize
+3fb9f27bc0 14 Builtin:LocalePrototypeNumeric
+3fb9f27be0 14 Builtin:LocalePrototypeNumberingSystem
+3fb9f27c00 14 Builtin:LocalePrototypeNumberingSystems
+3fb9f27c20 14 Builtin:LocalePrototypeRegion
+3fb9f27c40 14 Builtin:LocalePrototypeScript
+3fb9f27c60 14 Builtin:LocalePrototypeTextInfo
+3fb9f27c80 14 Builtin:LocalePrototypeTimeZones
+3fb9f27ca0 14 Builtin:LocalePrototypeToString
+3fb9f27cc0 14 Builtin:LocalePrototypeWeekInfo
+3fb9f27ce0 14 Builtin:NumberFormatConstructor
+3fb9f27d00 14 Builtin:NumberFormatInternalFormatNumber
+3fb9f27d20 14 Builtin:NumberFormatPrototypeFormatNumber
+3fb9f27d40 14 Builtin:NumberFormatPrototypeFormatRange
+3fb9f27d60 14 Builtin:NumberFormatPrototypeFormatRangeToParts
+3fb9f27d80 14 Builtin:NumberFormatPrototypeFormatToParts
+3fb9f27da0 14 Builtin:NumberFormatPrototypeResolvedOptions
+3fb9f27dc0 14 Builtin:NumberFormatSupportedLocalesOf
+3fb9f27de0 14 Builtin:PluralRulesConstructor
+3fb9f27e00 14 Builtin:PluralRulesPrototypeResolvedOptions
+3fb9f27e20 14 Builtin:PluralRulesPrototypeSelect
+3fb9f27e40 14 Builtin:PluralRulesPrototypeSelectRange
+3fb9f27e60 14 Builtin:PluralRulesSupportedLocalesOf
+3fb9f27e80 14 Builtin:RelativeTimeFormatConstructor
+3fb9f27ea0 14 Builtin:RelativeTimeFormatPrototypeFormat
+3fb9f27ec0 14 Builtin:RelativeTimeFormatPrototypeFormatToParts
+3fb9f27ee0 14 Builtin:RelativeTimeFormatPrototypeResolvedOptions
+3fb9f27f00 14 Builtin:RelativeTimeFormatSupportedLocalesOf
+3fb9f27f20 14 Builtin:SegmenterConstructor
+3fb9f27f40 14 Builtin:SegmenterPrototypeResolvedOptions
+3fb9f27f60 14 Builtin:SegmenterPrototypeSegment
+3fb9f27f80 14 Builtin:SegmenterSupportedLocalesOf
+3fb9f27fa0 14 Builtin:SegmentIteratorPrototypeNext
+3fb9f27fc0 14 Builtin:SegmentsPrototypeContaining
+3fb9f27fe0 14 Builtin:SegmentsPrototypeIterator
+3fb9f28000 14 Builtin:StringPrototypeNormalizeIntl
+3fb9f28020 14 Builtin:StringPrototypeToLocaleLowerCase
+3fb9f28040 14 Builtin:StringPrototypeToLocaleUpperCase
+3fb9f28060 134 Builtin:StringPrototypeToLowerCaseIntl
+3fb9f281a0 14 Builtin:StringPrototypeToUpperCaseIntl
+3fb9f281c0 394 Builtin:StringToLowerCaseIntl
+3fb9f28560 14 Builtin:TemporalCalendarPrototypeEra
+3fb9f28580 14 Builtin:TemporalCalendarPrototypeEraYear
+3fb9f285a0 14 Builtin:TemporalDurationPrototypeToLocaleString
+3fb9f285c0 14 Builtin:TemporalInstantPrototypeToLocaleString
+3fb9f285e0 14 Builtin:TemporalPlainDatePrototypeEra
+3fb9f28600 14 Builtin:TemporalPlainDatePrototypeEraYear
+3fb9f28620 14 Builtin:TemporalPlainDatePrototypeToLocaleString
+3fb9f28640 14 Builtin:TemporalPlainDateTimePrototypeEra
+3fb9f28660 14 Builtin:TemporalPlainDateTimePrototypeEraYear
+3fb9f28680 14 Builtin:TemporalPlainDateTimePrototypeToLocaleString
+3fb9f286a0 14 Builtin:TemporalPlainMonthDayPrototypeToLocaleString
+3fb9f286c0 14 Builtin:TemporalPlainTimePrototypeToLocaleString
+3fb9f286e0 14 Builtin:TemporalPlainYearMonthPrototypeEra
+3fb9f28700 14 Builtin:TemporalPlainYearMonthPrototypeEraYear
+3fb9f28720 14 Builtin:TemporalPlainYearMonthPrototypeToLocaleString
+3fb9f28740 14 Builtin:TemporalZonedDateTimePrototypeEra
+3fb9f28760 14 Builtin:TemporalZonedDateTimePrototypeEraYear
+3fb9f28780 14 Builtin:TemporalZonedDateTimePrototypeToLocaleString
+3fb9f287a0 14 Builtin:V8BreakIteratorConstructor
+3fb9f287c0 14 Builtin:V8BreakIteratorInternalAdoptText
+3fb9f287e0 14 Builtin:V8BreakIteratorInternalBreakType
+3fb9f28800 14 Builtin:V8BreakIteratorInternalCurrent
+3fb9f28820 14 Builtin:V8BreakIteratorInternalFirst
+3fb9f28840 14 Builtin:V8BreakIteratorInternalNext
+3fb9f28860 14 Builtin:V8BreakIteratorPrototypeAdoptText
+3fb9f28880 14 Builtin:V8BreakIteratorPrototypeBreakType
+3fb9f288a0 14 Builtin:V8BreakIteratorPrototypeCurrent
+3fb9f288c0 14 Builtin:V8BreakIteratorPrototypeFirst
+3fb9f288e0 14 Builtin:V8BreakIteratorPrototypeNext
+3fb9f28900 14 Builtin:V8BreakIteratorPrototypeResolvedOptions
+3fb9f28920 14 Builtin:V8BreakIteratorSupportedLocalesOf
+3fb9f28940 24 BytecodeHandler:Wide
+3fb9f28980 24 BytecodeHandler:ExtraWide
+3fb9f289c0 94 BytecodeHandler:DebugBreakWide
+3fb9f28a60 94 BytecodeHandler:DebugBreakExtraWide
+3fb9f28b00 e8 BytecodeHandler:DebugBreak0
+3fb9f28c00 94 BytecodeHandler:DebugBreak1
+3fb9f28ca0 94 BytecodeHandler:DebugBreak2
+3fb9f28d40 94 BytecodeHandler:DebugBreak3
+3fb9f28de0 94 BytecodeHandler:DebugBreak4
+3fb9f28e80 94 BytecodeHandler:DebugBreak5
+3fb9f28f20 94 BytecodeHandler:DebugBreak6
+3fb9f28fc0 40 BytecodeHandler:Ldar
+3fb9f29020 60 BytecodeHandler:LdaZero
+3fb9f290a0 70 BytecodeHandler:LdaSmi
+3fb9f29120 60 BytecodeHandler:LdaUndefined
+3fb9f291a0 60 BytecodeHandler:LdaNull
+3fb9f29220 60 BytecodeHandler:LdaTheHole
+3fb9f292a0 24 BytecodeHandler:LdaTrue
+3fb9f292e0 24 BytecodeHandler:LdaFalse
+3fb9f29320 78 BytecodeHandler:LdaConstant
+3fb9f293a0 d8 BytecodeHandler:LdaContextSlot
+3fb9f29480 d8 BytecodeHandler:LdaImmutableContextSlot
+3fb9f29560 8c BytecodeHandler:LdaCurrentContextSlot
+3fb9f29600 8c BytecodeHandler:LdaImmutableCurrentContextSlot
+3fb9f296a0 40 BytecodeHandler:Star
+3fb9f29700 5c BytecodeHandler:Mov
+3fb9f29760 48 BytecodeHandler:PushContext
+3fb9f297c0 44 BytecodeHandler:PopContext
+3fb9f29820 50 BytecodeHandler:TestReferenceEqual
+3fb9f29880 54 BytecodeHandler:TestUndetectable
+3fb9f298e0 38 BytecodeHandler:TestNull
+3fb9f29920 38 BytecodeHandler:TestUndefined
+3fb9f29960 1cc BytecodeHandler:TestTypeOf
+3fb9f29b40 20d0 BytecodeHandler:LdaGlobal
+3fb9f2bc20 1804 BytecodeHandler:LdaGlobalInsideTypeof
+3fb9f2d440 dc BytecodeHandler:StaGlobal
+3fb9f2d520 15c BytecodeHandler:StaContextSlot
+3fb9f2d680 110 BytecodeHandler:StaCurrentContextSlot
+3fb9f2d7a0 c0 BytecodeHandler:LdaLookupSlot
+3fb9f2d880 184 BytecodeHandler:LdaLookupContextSlot
+3fb9f2da20 19d0 BytecodeHandler:LdaLookupGlobalSlot
+3fb9f2f400 c0 BytecodeHandler:LdaLookupSlotInsideTypeof
+3fb9f2f4e0 184 BytecodeHandler:LdaLookupContextSlotInsideTypeof
+3fb9f2f680 19c4 BytecodeHandler:LdaLookupGlobalSlotInsideTypeof
+3fb9f31060 154 BytecodeHandler:StaLookupSlot
+3fb9f311c0 1c8c BytecodeHandler:GetNamedProperty
+3fb9f32e60 100 BytecodeHandler:GetNamedPropertyFromSuper
+3fb9f32f80 120 BytecodeHandler:GetKeyedProperty
+3fb9f330c0 f8 BytecodeHandler:LdaModuleVariable
+3fb9f331c0 20c BytecodeHandler:StaModuleVariable
+3fb9f333e0 f8 BytecodeHandler:SetNamedProperty
+3fb9f334e0 f8 BytecodeHandler:DefineNamedOwnProperty
+3fb9f335e0 f4 BytecodeHandler:SetKeyedProperty
+3fb9f336e0 f4 BytecodeHandler:DefineKeyedOwnProperty
+3fb9f337e0 f4 BytecodeHandler:StaInArrayLiteral
+3fb9f338e0 130 BytecodeHandler:DefineKeyedOwnPropertyInLiteral
+3fb9f33a20 e0 BytecodeHandler:CollectTypeProfile
+3fb9f33b20 4c8 BytecodeHandler:Add
+3fb9f34000 500 BytecodeHandler:Sub
+3fb9f34520 4d4 BytecodeHandler:Mul
+3fb9f34a00 46c BytecodeHandler:Div
+3fb9f34e80 400 BytecodeHandler:Mod
+3fb9f352a0 460 BytecodeHandler:Exp
+3fb9f35720 4fc BytecodeHandler:BitwiseOr
+3fb9f35c20 4fc BytecodeHandler:BitwiseXor
+3fb9f36120 4fc BytecodeHandler:BitwiseAnd
+3fb9f36620 4f8 BytecodeHandler:ShiftLeft
+3fb9f36b20 4f8 BytecodeHandler:ShiftRight
+3fb9f37020 580 BytecodeHandler:ShiftRightLogical
+3fb9f375c0 4b8 BytecodeHandler:AddSmi
+3fb9f37a80 4e4 BytecodeHandler:SubSmi
+3fb9f37f80 478 BytecodeHandler:MulSmi
+3fb9f38400 4c8 BytecodeHandler:DivSmi
+3fb9f388e0 3cc BytecodeHandler:ModSmi
+3fb9f38cc0 3f0 BytecodeHandler:ExpSmi
+3fb9f390c0 2a8 BytecodeHandler:BitwiseOrSmi
+3fb9f39380 2a8 BytecodeHandler:BitwiseXorSmi
+3fb9f39640 2a8 BytecodeHandler:BitwiseAndSmi
+3fb9f39900 2c8 BytecodeHandler:ShiftLeftSmi
+3fb9f39be0 2b0 BytecodeHandler:ShiftRightSmi
+3fb9f39ea0 428 BytecodeHandler:ShiftRightLogicalSmi
+3fb9f3a2e0 358 BytecodeHandler:Inc
+3fb9f3a640 35c BytecodeHandler:Dec
+3fb9f3a9a0 324 BytecodeHandler:Negate
+3fb9f3ace0 2a0 BytecodeHandler:BitwiseNot
+3fb9f3afa0 b0 BytecodeHandler:ToBooleanLogicalNot
+3fb9f3b060 30 BytecodeHandler:LogicalNot
+3fb9f3b0a0 13c BytecodeHandler:TypeOf
+3fb9f3b1e0 b4 BytecodeHandler:DeletePropertyStrict
+3fb9f3b2a0 b0 BytecodeHandler:DeletePropertySloppy
+3fb9f3b360 48 BytecodeHandler:GetSuperConstructor
+3fb9f3b3c0 604 BytecodeHandler:CallAnyReceiver
+3fb9f3b9e0 604 BytecodeHandler:CallProperty
+3fb9f3c000 60c BytecodeHandler:CallProperty0
+3fb9f3c620 628 BytecodeHandler:CallProperty1
+3fb9f3cc60 644 BytecodeHandler:CallProperty2
+3fb9f3d2c0 5e8 BytecodeHandler:CallUndefinedReceiver
+3fb9f3d8c0 5d0 BytecodeHandler:CallUndefinedReceiver0
+3fb9f3dea0 5ec BytecodeHandler:CallUndefinedReceiver1
+3fb9f3e4a0 608 BytecodeHandler:CallUndefinedReceiver2
+3fb9f3eac0 604 BytecodeHandler:CallWithSpread
+3fb9f3f0e0 f0 BytecodeHandler:CallRuntime
+3fb9f3f1e0 12c BytecodeHandler:CallRuntimeForPair
+3fb9f3f320 84 BytecodeHandler:CallJSRuntime
+3fb9f3f3c0 6a4 BytecodeHandler:InvokeIntrinsic
+3fb9f3fa80 5e0 BytecodeHandler:Construct
+3fb9f40080 2f8 BytecodeHandler:ConstructWithSpread
+3fb9f40380 908 BytecodeHandler:TestEqual
+3fb9f40ca0 4dc BytecodeHandler:TestEqualStrict
+3fb9f41180 7f4 BytecodeHandler:TestLessThan
+3fb9f41980 7f4 BytecodeHandler:TestGreaterThan
+3fb9f42180 7f4 BytecodeHandler:TestLessThanOrEqual
+3fb9f42980 7f4 BytecodeHandler:TestGreaterThanOrEqual
+3fb9f43180 47c BytecodeHandler:TestInstanceOf
+3fb9f43600 d8 BytecodeHandler:TestIn
+3fb9f436e0 ac BytecodeHandler:ToName
+3fb9f437a0 118 BytecodeHandler:ToNumber
+3fb9f438c0 138 BytecodeHandler:ToNumeric
+3fb9f43a00 ac BytecodeHandler:ToObject
+3fb9f43ac0 d4 BytecodeHandler:ToString
+3fb9f43ba0 240 BytecodeHandler:CreateRegExpLiteral
+3fb9f43e00 748 BytecodeHandler:CreateArrayLiteral
+3fb9f44560 88 BytecodeHandler:CreateArrayFromIterable
+3fb9f44600 4c0 BytecodeHandler:CreateEmptyArrayLiteral
+3fb9f44ae0 ac4 BytecodeHandler:CreateObjectLiteral
+3fb9f455c0 124 BytecodeHandler:CreateEmptyObjectLiteral
+3fb9f45700 ec BytecodeHandler:CloneObject
+3fb9f45800 128 BytecodeHandler:GetTemplateObject
+3fb9f45940 1f0 BytecodeHandler:CreateClosure
+3fb9f45b40 c0 BytecodeHandler:CreateBlockContext
+3fb9f45c20 e0 BytecodeHandler:CreateCatchContext
+3fb9f45d20 164 BytecodeHandler:CreateFunctionContext
+3fb9f45ea0 164 BytecodeHandler:CreateEvalContext
+3fb9f46020 e0 BytecodeHandler:CreateWithContext
+3fb9f46120 98c BytecodeHandler:CreateMappedArguments
+3fb9f46ac0 33c BytecodeHandler:CreateUnmappedArguments
+3fb9f46e00 378 BytecodeHandler:CreateRestParameter
+3fb9f47180 2a8 BytecodeHandler:JumpLoop
+3fb9f47440 4c BytecodeHandler:Jump
+3fb9f474a0 64 BytecodeHandler:JumpConstant
+3fb9f47520 88 BytecodeHandler:JumpIfNullConstant
+3fb9f475c0 88 BytecodeHandler:JumpIfNotNullConstant
+3fb9f47660 88 BytecodeHandler:JumpIfUndefinedConstant
+3fb9f47700 88 BytecodeHandler:JumpIfNotUndefinedConstant
+3fb9f477a0 90 BytecodeHandler:JumpIfUndefinedOrNullConstant
+3fb9f47840 88 BytecodeHandler:JumpIfTrueConstant
+3fb9f478e0 88 BytecodeHandler:JumpIfFalseConstant
+3fb9f47980 a4 BytecodeHandler:JumpIfJSReceiverConstant
+3fb9f47a40 104 BytecodeHandler:JumpIfToBooleanTrueConstant
+3fb9f47b60 104 BytecodeHandler:JumpIfToBooleanFalseConstant
+3fb9f47c80 ec BytecodeHandler:JumpIfToBooleanTrue
+3fb9f47d80 ec BytecodeHandler:JumpIfToBooleanFalse
+3fb9f47e80 70 BytecodeHandler:JumpIfTrue
+3fb9f47f00 70 BytecodeHandler:JumpIfFalse
+3fb9f47f80 70 BytecodeHandler:JumpIfNull
+3fb9f48000 70 BytecodeHandler:JumpIfNotNull
+3fb9f48080 70 BytecodeHandler:JumpIfUndefined
+3fb9f48100 70 BytecodeHandler:JumpIfNotUndefined
+3fb9f48180 78 BytecodeHandler:JumpIfUndefinedOrNull
+3fb9f48200 8c BytecodeHandler:JumpIfJSReceiver
+3fb9f482a0 b0 BytecodeHandler:SwitchOnSmiNoFeedback
+3fb9f48360 2a4 BytecodeHandler:ForInEnumerate
+3fb9f48620 140 BytecodeHandler:ForInPrepare
+3fb9f48780 68 BytecodeHandler:ForInContinue
+3fb9f48800 188 BytecodeHandler:ForInNext
+3fb9f489a0 48 BytecodeHandler:ForInStep
+3fb9f48a00 40 BytecodeHandler:SetPendingMessage
+3fb9f48a60 a8 BytecodeHandler:Throw
+3fb9f48b20 a8 BytecodeHandler:ReThrow
+3fb9f48be0 a4 BytecodeHandler:Return
+3fb9f48ca0 124 BytecodeHandler:ThrowReferenceErrorIfHole
+3fb9f48de0 c4 BytecodeHandler:ThrowSuperNotCalledIfHole
+3fb9f48ec0 c4 BytecodeHandler:ThrowSuperAlreadyCalledIfNotHole
+3fb9f48fa0 f4 BytecodeHandler:ThrowIfNotSuperConstructor
+3fb9f490a0 c0 BytecodeHandler:SwitchOnGeneratorState
+3fb9f49180 3d8 BytecodeHandler:SuspendGenerator
+3fb9f49560 e4 BytecodeHandler:ResumeGenerator
+3fb9f49660 ec BytecodeHandler:GetIterator
+3fb9f49760 a4 BytecodeHandler:Debugger
+3fb9f49820 ac BytecodeHandler:IncBlockCounter
+3fb9f498e0 68 BytecodeHandler:Abort
+3fb9f49960 3c BytecodeHandler:Star0
+3fb9f499a0 64 BytecodeHandler:Illegal
+3fb9f49a20 98 BytecodeHandler:DebugBreak1.Wide
+3fb9f49ac0 98 BytecodeHandler:DebugBreak2.Wide
+3fb9f49b60 98 BytecodeHandler:DebugBreak3.Wide
+3fb9f49c00 98 BytecodeHandler:DebugBreak4.Wide
+3fb9f49ca0 98 BytecodeHandler:DebugBreak5.Wide
+3fb9f49d40 98 BytecodeHandler:DebugBreak6.Wide
+3fb9f49de0 58 BytecodeHandler:Ldar.Wide
+3fb9f49e40 50 BytecodeHandler:LdaSmi.Wide
+3fb9f49ea0 60 BytecodeHandler:LdaConstant.Wide
+3fb9f49f20 fc BytecodeHandler:LdaContextSlot.Wide
+3fb9f4a020 fc BytecodeHandler:LdaImmutableContextSlot.Wide
+3fb9f4a120 78 BytecodeHandler:LdaCurrentContextSlot.Wide
+3fb9f4a1a0 78 BytecodeHandler:LdaImmutableCurrentContextSlot.Wide
+3fb9f4a220 54 BytecodeHandler:Star.Wide
+3fb9f4a280 84 BytecodeHandler:Mov.Wide
+3fb9f4a320 5c BytecodeHandler:PushContext.Wide
+3fb9f4a380 58 BytecodeHandler:PopContext.Wide
+3fb9f4a3e0 68 BytecodeHandler:TestReferenceEqual.Wide
+3fb9f4a460 1a44 BytecodeHandler:LdaGlobal.Wide
+3fb9f4bec0 19b8 BytecodeHandler:LdaGlobalInsideTypeof.Wide
+3fb9f4d880 114 BytecodeHandler:StaGlobal.Wide
+3fb9f4d9a0 1b4 BytecodeHandler:StaContextSlot.Wide
+3fb9f4db60 130 BytecodeHandler:StaCurrentContextSlot.Wide
+3fb9f4dca0 e4 BytecodeHandler:LdaLookupSlot.Wide
+3fb9f4dda0 1e0 BytecodeHandler:LdaLookupContextSlot.Wide
+3fb9f4dfa0 1c40 BytecodeHandler:LdaLookupGlobalSlot.Wide
+3fb9f4fc00 e4 BytecodeHandler:LdaLookupSlotInsideTypeof.Wide
+3fb9f4fd00 1e0 BytecodeHandler:LdaLookupContextSlotInsideTypeof.Wide
+3fb9f4ff00 1c10 BytecodeHandler:LdaLookupGlobalSlotInsideTypeof.Wide
+3fb9f51b20 170 BytecodeHandler:StaLookupSlot.Wide
+3fb9f51ca0 1f74 BytecodeHandler:GetNamedProperty.Wide
+3fb9f53c20 150 BytecodeHandler:GetNamedPropertyFromSuper.Wide
+3fb9f53d80 108 BytecodeHandler:GetKeyedProperty.Wide
+3fb9f53ea0 12c BytecodeHandler:LdaModuleVariable.Wide
+3fb9f53fe0 244 BytecodeHandler:StaModuleVariable.Wide
+3fb9f54240 148 BytecodeHandler:SetNamedProperty.Wide
+3fb9f543a0 148 BytecodeHandler:DefineNamedOwnProperty.Wide
+3fb9f54500 13c BytecodeHandler:SetKeyedProperty.Wide
+3fb9f54640 13c BytecodeHandler:DefineKeyedOwnProperty.Wide
+3fb9f54780 13c BytecodeHandler:StaInArrayLiteral.Wide
+3fb9f548c0 178 BytecodeHandler:DefineKeyedOwnPropertyInLiteral.Wide
+3fb9f54a40 fc BytecodeHandler:CollectTypeProfile.Wide
+3fb9f54b40 52c BytecodeHandler:Add.Wide
+3fb9f55080 550 BytecodeHandler:Sub.Wide
+3fb9f555e0 50c BytecodeHandler:Mul.Wide
+3fb9f55b00 4ec BytecodeHandler:Div.Wide
+3fb9f56000 47c BytecodeHandler:Mod.Wide
+3fb9f56480 4f0 BytecodeHandler:Exp.Wide
+3fb9f56980 578 BytecodeHandler:BitwiseOr.Wide
+3fb9f56f00 578 BytecodeHandler:BitwiseXor.Wide
+3fb9f57480 578 BytecodeHandler:BitwiseAnd.Wide
+3fb9f57a00 574 BytecodeHandler:ShiftLeft.Wide
+3fb9f57f80 574 BytecodeHandler:ShiftRight.Wide
+3fb9f58500 5fc BytecodeHandler:ShiftRightLogical.Wide
+3fb9f58b00 528 BytecodeHandler:AddSmi.Wide
+3fb9f59040 540 BytecodeHandler:SubSmi.Wide
+3fb9f595a0 4f8 BytecodeHandler:MulSmi.Wide
+3fb9f59aa0 548 BytecodeHandler:DivSmi.Wide
+3fb9f5a000 444 BytecodeHandler:ModSmi.Wide
+3fb9f5a460 470 BytecodeHandler:ExpSmi.Wide
+3fb9f5a8e0 318 BytecodeHandler:BitwiseOrSmi.Wide
+3fb9f5ac00 318 BytecodeHandler:BitwiseXorSmi.Wide
+3fb9f5af20 318 BytecodeHandler:BitwiseAndSmi.Wide
+3fb9f5b240 338 BytecodeHandler:ShiftLeftSmi.Wide
+3fb9f5b580 320 BytecodeHandler:ShiftRightSmi.Wide
+3fb9f5b8c0 4a4 BytecodeHandler:ShiftRightLogicalSmi.Wide
+3fb9f5bd80 35c BytecodeHandler:Inc.Wide
+3fb9f5c0e0 360 BytecodeHandler:Dec.Wide
+3fb9f5c460 364 BytecodeHandler:Negate.Wide
+3fb9f5c7e0 2e0 BytecodeHandler:BitwiseNot.Wide
+3fb9f5cae0 cc BytecodeHandler:DeletePropertyStrict.Wide
+3fb9f5cbc0 c8 BytecodeHandler:DeletePropertySloppy.Wide
+3fb9f5cca0 5c BytecodeHandler:GetSuperConstructor.Wide
+3fb9f5cd00 6ac BytecodeHandler:CallAnyReceiver.Wide
+3fb9f5d3c0 6ac BytecodeHandler:CallProperty.Wide
+3fb9f5da80 690 BytecodeHandler:CallProperty0.Wide
+3fb9f5e120 6c4 BytecodeHandler:CallProperty1.Wide
+3fb9f5e800 6f8 BytecodeHandler:CallProperty2.Wide
+3fb9f5ef00 650 BytecodeHandler:CallUndefinedReceiver.Wide
+3fb9f5f560 60c BytecodeHandler:CallUndefinedReceiver0.Wide
+3fb9f5fb80 640 BytecodeHandler:CallUndefinedReceiver1.Wide
+3fb9f601e0 674 BytecodeHandler:CallUndefinedReceiver2.Wide
+3fb9f60860 6ac BytecodeHandler:CallWithSpread.Wide
+3fb9f60f20 120 BytecodeHandler:CallRuntime.Wide
+3fb9f61060 174 BytecodeHandler:CallRuntimeForPair.Wide
+3fb9f611e0 b4 BytecodeHandler:CallJSRuntime.Wide
+3fb9f612a0 750 BytecodeHandler:InvokeIntrinsic.Wide
+3fb9f61a00 620 BytecodeHandler:Construct.Wide
+3fb9f62040 310 BytecodeHandler:ConstructWithSpread.Wide
+3fb9f62360 968 BytecodeHandler:TestEqual.Wide
+3fb9f62ce0 520 BytecodeHandler:TestEqualStrict.Wide
+3fb9f63220 830 BytecodeHandler:TestLessThan.Wide
+3fb9f63a60 830 BytecodeHandler:TestGreaterThan.Wide
+3fb9f642a0 830 BytecodeHandler:TestLessThanOrEqual.Wide
+3fb9f64ae0 830 BytecodeHandler:TestGreaterThanOrEqual.Wide
+3fb9f65320 4b8 BytecodeHandler:TestInstanceOf.Wide
+3fb9f657e0 108 BytecodeHandler:TestIn.Wide
+3fb9f65900 c4 BytecodeHandler:ToName.Wide
+3fb9f659e0 13c BytecodeHandler:ToNumber.Wide
+3fb9f65b20 15c BytecodeHandler:ToNumeric.Wide
+3fb9f65c80 c4 BytecodeHandler:ToObject.Wide
+3fb9f65d60 27c BytecodeHandler:CreateRegExpLiteral.Wide
+3fb9f65fe0 704 BytecodeHandler:CreateArrayLiteral.Wide
+3fb9f66700 4d4 BytecodeHandler:CreateEmptyArrayLiteral.Wide
+3fb9f66be0 a80 BytecodeHandler:CreateObjectLiteral.Wide
+3fb9f67680 11c BytecodeHandler:CloneObject.Wide
+3fb9f677a0 120 BytecodeHandler:GetTemplateObject.Wide
+3fb9f678e0 230 BytecodeHandler:CreateClosure.Wide
+3fb9f67b20 e4 BytecodeHandler:CreateBlockContext.Wide
+3fb9f67c20 118 BytecodeHandler:CreateCatchContext.Wide
+3fb9f67d40 1a4 BytecodeHandler:CreateFunctionContext.Wide
+3fb9f67f00 1a4 BytecodeHandler:CreateEvalContext.Wide
+3fb9f680c0 118 BytecodeHandler:CreateWithContext.Wide
+3fb9f681e0 300 BytecodeHandler:JumpLoop.Wide
+3fb9f68500 6c BytecodeHandler:Jump.Wide
+3fb9f68580 84 BytecodeHandler:JumpConstant.Wide
+3fb9f68620 a8 BytecodeHandler:JumpIfNullConstant.Wide
+3fb9f686e0 a8 BytecodeHandler:JumpIfNotNullConstant.Wide
+3fb9f687a0 a8 BytecodeHandler:JumpIfUndefinedConstant.Wide
+3fb9f68860 a8 BytecodeHandler:JumpIfNotUndefinedConstant.Wide
+3fb9f68920 b0 BytecodeHandler:JumpIfUndefinedOrNullConstant.Wide
+3fb9f689e0 a8 BytecodeHandler:JumpIfTrueConstant.Wide
+3fb9f68aa0 a8 BytecodeHandler:JumpIfFalseConstant.Wide
+3fb9f68b60 c4 BytecodeHandler:JumpIfJSReceiverConstant.Wide
+3fb9f68c40 124 BytecodeHandler:JumpIfToBooleanTrueConstant.Wide
+3fb9f68d80 124 BytecodeHandler:JumpIfToBooleanFalseConstant.Wide
+3fb9f68ec0 10c BytecodeHandler:JumpIfToBooleanTrue.Wide
+3fb9f68fe0 10c BytecodeHandler:JumpIfToBooleanFalse.Wide
+3fb9f69100 90 BytecodeHandler:JumpIfTrue.Wide
+3fb9f691a0 90 BytecodeHandler:JumpIfFalse.Wide
+3fb9f69240 90 BytecodeHandler:JumpIfNull.Wide
+3fb9f692e0 90 BytecodeHandler:JumpIfNotNull.Wide
+3fb9f69380 90 BytecodeHandler:JumpIfUndefined.Wide
+3fb9f69420 90 BytecodeHandler:JumpIfNotUndefined.Wide
+3fb9f694c0 98 BytecodeHandler:JumpIfUndefinedOrNull.Wide
+3fb9f69560 ac BytecodeHandler:JumpIfJSReceiver.Wide
+3fb9f69620 108 BytecodeHandler:SwitchOnSmiNoFeedback.Wide
+3fb9f69740 2c0 BytecodeHandler:ForInEnumerate.Wide
+3fb9f69a20 188 BytecodeHandler:ForInPrepare.Wide
+3fb9f69bc0 98 BytecodeHandler:ForInContinue.Wide
+3fb9f69c60 1f4 BytecodeHandler:ForInNext.Wide
+3fb9f69e60 60 BytecodeHandler:ForInStep.Wide
+3fb9f69ee0 110 BytecodeHandler:ThrowReferenceErrorIfHole.Wide
+3fb9f6a000 110 BytecodeHandler:ThrowIfNotSuperConstructor.Wide
+3fb9f6a120 f8 BytecodeHandler:SwitchOnGeneratorState.Wide
+3fb9f6a220 400 BytecodeHandler:SuspendGenerator.Wide
+3fb9f6a640 11c BytecodeHandler:ResumeGenerator.Wide
+3fb9f6a760 130 BytecodeHandler:GetIterator.Wide
+3fb9f6a8a0 c8 BytecodeHandler:IncBlockCounter.Wide
+3fb9f6a980 84 BytecodeHandler:Abort.Wide
+3fb9f6aa20 98 BytecodeHandler:DebugBreak1.ExtraWide
+3fb9f6aac0 98 BytecodeHandler:DebugBreak2.ExtraWide
+3fb9f6ab60 98 BytecodeHandler:DebugBreak3.ExtraWide
+3fb9f6ac00 98 BytecodeHandler:DebugBreak4.ExtraWide
+3fb9f6aca0 98 BytecodeHandler:DebugBreak5.ExtraWide
+3fb9f6ad40 98 BytecodeHandler:DebugBreak6.ExtraWide
+3fb9f6ade0 88 BytecodeHandler:Ldar.ExtraWide
+3fb9f6ae80 80 BytecodeHandler:LdaSmi.ExtraWide
+3fb9f6af20 90 BytecodeHandler:LdaConstant.ExtraWide
+3fb9f6afc0 184 BytecodeHandler:LdaContextSlot.ExtraWide
+3fb9f6b160 184 BytecodeHandler:LdaImmutableContextSlot.ExtraWide
+3fb9f6b300 a8 BytecodeHandler:LdaCurrentContextSlot.ExtraWide
+3fb9f6b3c0 a8 BytecodeHandler:LdaImmutableCurrentContextSlot.ExtraWide
+3fb9f6b480 84 BytecodeHandler:Star.ExtraWide
+3fb9f6b520 e4 BytecodeHandler:Mov.ExtraWide
+3fb9f6b620 8c BytecodeHandler:PushContext.ExtraWide
+3fb9f6b6c0 88 BytecodeHandler:PopContext.ExtraWide
+3fb9f6b760 98 BytecodeHandler:TestReferenceEqual.ExtraWide
+3fb9f6b800 1d0c BytecodeHandler:LdaGlobal.ExtraWide
+3fb9f6d520 1c50 BytecodeHandler:LdaGlobalInsideTypeof.ExtraWide
+3fb9f6f180 174 BytecodeHandler:StaGlobal.ExtraWide
+3fb9f6f300 23c BytecodeHandler:StaContextSlot.ExtraWide
+3fb9f6f540 160 BytecodeHandler:StaCurrentContextSlot.ExtraWide
+3fb9f6f6c0 114 BytecodeHandler:LdaLookupSlot.ExtraWide
+3fb9f6f7e0 270 BytecodeHandler:LdaLookupContextSlot.ExtraWide
+3fb9f6fa60 1f7c BytecodeHandler:LdaLookupGlobalSlot.ExtraWide
+3fb9f719e0 114 BytecodeHandler:LdaLookupSlotInsideTypeof.ExtraWide
+3fb9f71b00 270 BytecodeHandler:LdaLookupContextSlotInsideTypeof.ExtraWide
+3fb9f71d80 1f08 BytecodeHandler:LdaLookupGlobalSlotInsideTypeof.ExtraWide
+3fb9f73ca0 1a8 BytecodeHandler:StaLookupSlot.ExtraWide
+3fb9f73e60 2300 BytecodeHandler:GetNamedProperty.ExtraWide
+3fb9f76180 1e0 BytecodeHandler:GetNamedPropertyFromSuper.ExtraWide
+3fb9f76380 168 BytecodeHandler:GetKeyedProperty.ExtraWide
+3fb9f76500 184 BytecodeHandler:LdaModuleVariable.ExtraWide
+3fb9f766a0 29c BytecodeHandler:StaModuleVariable.ExtraWide
+3fb9f76940 1d8 BytecodeHandler:SetNamedProperty.ExtraWide
+3fb9f76b20 1d8 BytecodeHandler:DefineNamedOwnProperty.ExtraWide
+3fb9f76d00 1cc BytecodeHandler:SetKeyedProperty.ExtraWide
+3fb9f76ee0 1cc BytecodeHandler:DefineKeyedOwnProperty.ExtraWide
+3fb9f770c0 1cc BytecodeHandler:StaInArrayLiteral.ExtraWide
+3fb9f772a0 208 BytecodeHandler:DefineKeyedOwnPropertyInLiteral.ExtraWide
+3fb9f774c0 12c BytecodeHandler:CollectTypeProfile.ExtraWide
+3fb9f77600 620 BytecodeHandler:Add.ExtraWide
+3fb9f77c40 634 BytecodeHandler:Sub.ExtraWide
+3fb9f78280 5cc BytecodeHandler:Mul.ExtraWide
+3fb9f78860 5ac BytecodeHandler:Div.ExtraWide
+3fb9f78e20 524 BytecodeHandler:Mod.ExtraWide
+3fb9f79360 5bc BytecodeHandler:Exp.ExtraWide
+3fb9f79920 624 BytecodeHandler:BitwiseOr.ExtraWide
+3fb9f79f60 624 BytecodeHandler:BitwiseXor.ExtraWide
+3fb9f7a5a0 624 BytecodeHandler:BitwiseAnd.ExtraWide
+3fb9f7abe0 620 BytecodeHandler:ShiftLeft.ExtraWide
+3fb9f7b220 620 BytecodeHandler:ShiftRight.ExtraWide
+3fb9f7b860 6ac BytecodeHandler:ShiftRightLogical.ExtraWide
+3fb9f7bf20 62c BytecodeHandler:AddSmi.ExtraWide
+3fb9f7c560 620 BytecodeHandler:SubSmi.ExtraWide
+3fb9f7cba0 5b4 BytecodeHandler:MulSmi.ExtraWide
+3fb9f7d160 604 BytecodeHandler:DivSmi.ExtraWide
+3fb9f7d780 4f0 BytecodeHandler:ModSmi.ExtraWide
+3fb9f7dc80 52c BytecodeHandler:ExpSmi.ExtraWide
+3fb9f7e1c0 3e0 BytecodeHandler:BitwiseOrSmi.ExtraWide
+3fb9f7e5c0 3e0 BytecodeHandler:BitwiseXorSmi.ExtraWide
+3fb9f7e9c0 3e0 BytecodeHandler:BitwiseAndSmi.ExtraWide
+3fb9f7edc0 400 BytecodeHandler:ShiftLeftSmi.ExtraWide
+3fb9f7f1e0 3e8 BytecodeHandler:ShiftRightSmi.ExtraWide
+3fb9f7f5e0 594 BytecodeHandler:ShiftRightLogicalSmi.ExtraWide
+3fb9f7fb80 3bc BytecodeHandler:Inc.ExtraWide
+3fb9f7ff40 3c0 BytecodeHandler:Dec.ExtraWide
+3fb9f80320 3c4 BytecodeHandler:Negate.ExtraWide
+3fb9f80700 338 BytecodeHandler:BitwiseNot.ExtraWide
+3fb9f80a40 fc BytecodeHandler:DeletePropertyStrict.ExtraWide
+3fb9f80b40 f8 BytecodeHandler:DeletePropertySloppy.ExtraWide
+3fb9f80c40 8c BytecodeHandler:GetSuperConstructor.ExtraWide
+3fb9f80ce0 800 BytecodeHandler:CallAnyReceiver.ExtraWide
+3fb9f81500 800 BytecodeHandler:CallProperty.ExtraWide
+3fb9f81d20 780 BytecodeHandler:CallProperty0.ExtraWide
+3fb9f824c0 7e4 BytecodeHandler:CallProperty1.ExtraWide
+3fb9f82cc0 848 BytecodeHandler:CallProperty2.ExtraWide
+3fb9f83520 73c BytecodeHandler:CallUndefinedReceiver.ExtraWide
+3fb9f83c60 66c BytecodeHandler:CallUndefinedReceiver0.ExtraWide
+3fb9f842e0 6d0 BytecodeHandler:CallUndefinedReceiver1.ExtraWide
+3fb9f849c0 734 BytecodeHandler:CallUndefinedReceiver2.ExtraWide
+3fb9f85100 800 BytecodeHandler:CallWithSpread.ExtraWide
+3fb9f85920 180 BytecodeHandler:CallRuntime.ExtraWide
+3fb9f85ac0 204 BytecodeHandler:CallRuntimeForPair.ExtraWide
+3fb9f85ce0 114 BytecodeHandler:CallJSRuntime.ExtraWide
+3fb9f85e00 938 BytecodeHandler:InvokeIntrinsic.ExtraWide
+3fb9f86740 748 BytecodeHandler:Construct.ExtraWide
+3fb9f86ea0 3fc BytecodeHandler:ConstructWithSpread.ExtraWide
+3fb9f872a0 9c8 BytecodeHandler:TestEqual.ExtraWide
+3fb9f87c80 580 BytecodeHandler:TestEqualStrict.ExtraWide
+3fb9f88220 878 BytecodeHandler:TestLessThan.ExtraWide
+3fb9f88aa0 878 BytecodeHandler:TestGreaterThan.ExtraWide
+3fb9f89320 878 BytecodeHandler:TestLessThanOrEqual.ExtraWide
+3fb9f89ba0 878 BytecodeHandler:TestGreaterThanOrEqual.ExtraWide
+3fb9f8a420 518 BytecodeHandler:TestInstanceOf.ExtraWide
+3fb9f8a940 168 BytecodeHandler:TestIn.ExtraWide
+3fb9f8aac0 f4 BytecodeHandler:ToName.ExtraWide
+3fb9f8abc0 16c BytecodeHandler:ToNumber.ExtraWide
+3fb9f8ad40 18c BytecodeHandler:ToNumeric.ExtraWide
+3fb9f8aee0 f4 BytecodeHandler:ToObject.ExtraWide
+3fb9f8afe0 2dc BytecodeHandler:CreateRegExpLiteral.ExtraWide
+3fb9f8b2c0 764 BytecodeHandler:CreateArrayLiteral.ExtraWide
+3fb9f8ba40 504 BytecodeHandler:CreateEmptyArrayLiteral.ExtraWide
+3fb9f8bf60 ae0 BytecodeHandler:CreateObjectLiteral.ExtraWide
+3fb9f8ca60 17c BytecodeHandler:CloneObject.ExtraWide
+3fb9f8cbe0 184 BytecodeHandler:GetTemplateObject.ExtraWide
+3fb9f8cd80 290 BytecodeHandler:CreateClosure.ExtraWide
+3fb9f8d020 114 BytecodeHandler:CreateBlockContext.ExtraWide
+3fb9f8d140 178 BytecodeHandler:CreateCatchContext.ExtraWide
+3fb9f8d2c0 204 BytecodeHandler:CreateFunctionContext.ExtraWide
+3fb9f8d4e0 204 BytecodeHandler:CreateEvalContext.ExtraWide
+3fb9f8d700 178 BytecodeHandler:CreateWithContext.ExtraWide
+3fb9f8d880 378 BytecodeHandler:JumpLoop.ExtraWide
+3fb9f8dc00 9c BytecodeHandler:Jump.ExtraWide
+3fb9f8dca0 b4 BytecodeHandler:JumpConstant.ExtraWide
+3fb9f8dd60 d8 BytecodeHandler:JumpIfNullConstant.ExtraWide
+3fb9f8de40 d8 BytecodeHandler:JumpIfNotNullConstant.ExtraWide
+3fb9f8df20 d8 BytecodeHandler:JumpIfUndefinedConstant.ExtraWide
+3fb9f8e000 d8 BytecodeHandler:JumpIfNotUndefinedConstant.ExtraWide
+3fb9f8e0e0 e0 BytecodeHandler:JumpIfUndefinedOrNullConstant.ExtraWide
+3fb9f8e1e0 d8 BytecodeHandler:JumpIfTrueConstant.ExtraWide
+3fb9f8e2c0 d8 BytecodeHandler:JumpIfFalseConstant.ExtraWide
+3fb9f8e3a0 f4 BytecodeHandler:JumpIfJSReceiverConstant.ExtraWide
+3fb9f8e4a0 154 BytecodeHandler:JumpIfToBooleanTrueConstant.ExtraWide
+3fb9f8e600 154 BytecodeHandler:JumpIfToBooleanFalseConstant.ExtraWide
+3fb9f8e760 13c BytecodeHandler:JumpIfToBooleanTrue.ExtraWide
+3fb9f8e8a0 13c BytecodeHandler:JumpIfToBooleanFalse.ExtraWide
+3fb9f8e9e0 c0 BytecodeHandler:JumpIfTrue.ExtraWide
+3fb9f8eac0 c0 BytecodeHandler:JumpIfFalse.ExtraWide
+3fb9f8eba0 c0 BytecodeHandler:JumpIfNull.ExtraWide
+3fb9f8ec80 c0 BytecodeHandler:JumpIfNotNull.ExtraWide
+3fb9f8ed60 c0 BytecodeHandler:JumpIfUndefined.ExtraWide
+3fb9f8ee40 c0 BytecodeHandler:JumpIfNotUndefined.ExtraWide
+3fb9f8ef20 c8 BytecodeHandler:JumpIfUndefinedOrNull.ExtraWide
+3fb9f8f000 dc BytecodeHandler:JumpIfJSReceiver.ExtraWide
+3fb9f8f0e0 198 BytecodeHandler:SwitchOnSmiNoFeedback.ExtraWide
+3fb9f8f280 2f0 BytecodeHandler:ForInEnumerate.ExtraWide
+3fb9f8f580 200 BytecodeHandler:ForInPrepare.ExtraWide
+3fb9f8f7a0 f8 BytecodeHandler:ForInContinue.ExtraWide
+3fb9f8f8a0 2bc BytecodeHandler:ForInNext.ExtraWide
+3fb9f8fb60 90 BytecodeHandler:ForInStep.ExtraWide
+3fb9f8fc00 140 BytecodeHandler:ThrowReferenceErrorIfHole.ExtraWide
+3fb9f8fd60 140 BytecodeHandler:ThrowIfNotSuperConstructor.ExtraWide
+3fb9f8fec0 158 BytecodeHandler:SwitchOnGeneratorState.ExtraWide
+3fb9f90020 4b0 BytecodeHandler:SuspendGenerator.ExtraWide
+3fb9f904e0 17c BytecodeHandler:ResumeGenerator.ExtraWide
+3fb9f90660 1c0 BytecodeHandler:GetIterator.ExtraWide
+3fb9f90840 f8 BytecodeHandler:IncBlockCounter.ExtraWide
+3fb9f90940 b4 BytecodeHandler:Abort.ExtraWide
+1349fa2408 5 Eval:~ node:internal/per_context/primordials:1
+1349fa4658 6b7 Function:~ node:internal/per_context/primordials:1
+1349fa5040 a Function:~<instance_members_initializer> node:internal/per_context/primordials:613
+1349fa6dc0 12 LazyCompile:~ node:internal/per_context/primordials:149
+1349fa85d0 10 LazyCompile:~ node:internal/per_context/primordials:160
+1349fa86b8 10 LazyCompile:~ node:internal/per_context/primordials:169
+1349fa87a0 1a LazyCompile:~ node:internal/per_context/primordials:179
+1349fa8970 126 LazyCompile:~copyPropsRenamed node:internal/per_context/primordials:75
+1349fa8be0 5c LazyCompile:~getNewKey node:internal/per_context/primordials:54
+1349fa99e0 40 LazyCompile:~ node:internal/per_context/primordials:223
+1349fa9c50 138 LazyCompile:~copyPrototype node:internal/per_context/primordials:121
+1349faa0e8 8a LazyCompile:~copyAccessor node:internal/per_context/primordials:60
+3fa7843060 f6c Function:^copyPrototype node:internal/per_context/primordials:121
+3fa7844040 3d0 Function:^getNewKey node:internal/per_context/primordials:54
+3fa7844480 e4c Function:^copyPropsRenamed node:internal/per_context/primordials:75
+1349fafb40 40 LazyCompile:~ node:internal/per_context/primordials:236
+1349fafd38 13a LazyCompile:~copyPropsRenamedBound node:internal/per_context/primordials:97
+1349fb01d8 40 LazyCompile:~ node:internal/per_context/primordials:255
+1349fb0ed0 66 LazyCompile:~createSafeIterator node:internal/per_context/primordials:325
+1349fb11d0 cc LazyCompile:~makeSafe node:internal/per_context/primordials:366
+1349fb1510 102 LazyCompile:~ node:internal/per_context/primordials:371
+1349fb1928 2f LazyCompile:~copyProps node:internal/per_context/primordials:352
+1349fb1a78 41 LazyCompile:~ node:internal/per_context/primordials:353
+3fa7845340 614 Function:^createSafeIterator node:internal/per_context/primordials:325
+3fa78459c0 248 Function:^ node:internal/per_context/primordials:223
+3fa7845c80 6a4 Function:^copyAccessor node:internal/per_context/primordials:60
+3fa78463a0 37c Function:^ node:internal/per_context/primordials:353
+3fa7846780 f24 Function:^ node:internal/per_context/primordials:371
+1349fb30a8 5 Eval:~ node:internal/per_context/domexception:1
+1349fb3e98 211 Function:~ node:internal/per_context/domexception:1
+1349fb47c8 1b LazyCompile:~SafeWeakMap node:internal/per_context/primordials:414
+1349fb48a8 1b LazyCompile:~SafeMap node:internal/per_context/primordials:408
+1349fb4988 1b LazyCompile:~SafeSet node:internal/per_context/primordials:421
+1349fb4e40 5 Eval:~ node:internal/per_context/messageport:1
+1349fb5110 46 Function:~ node:internal/per_context/messageport:1
+1349fb6fa8 5 Script:~ node:internal/per_context/primordials:1
+1349fb5458 6b7 Function:~ node:internal/per_context/primordials:1
+1349fb8040 a Function:~<instance_members_initializer> node:internal/per_context/primordials:613
+1349fbb530 12 LazyCompile:~ node:internal/per_context/primordials:149
+1349fbcd40 10 LazyCompile:~ node:internal/per_context/primordials:160
+1349fbce28 10 LazyCompile:~ node:internal/per_context/primordials:169
+1349fbcf10 1a LazyCompile:~ node:internal/per_context/primordials:179
+1349fbd0c8 126 LazyCompile:~copyPropsRenamed node:internal/per_context/primordials:75
+1349fbd338 5c LazyCompile:~getNewKey node:internal/per_context/primordials:54
+1349fbd918 40 LazyCompile:~ node:internal/per_context/primordials:223
+1349fbdb10 138 LazyCompile:~copyPrototype node:internal/per_context/primordials:121
+1349fbde38 8a LazyCompile:~copyAccessor node:internal/per_context/primordials:60
+3fa7847720 f6c Function:^copyPrototype node:internal/per_context/primordials:121
+3fa7848700 330 Function:^copyProps node:internal/per_context/primordials:352
+3fa7848aa0 3d0 Function:^getNewKey node:internal/per_context/primordials:54
+3fa7848ee0 e4c Function:^copyPropsRenamed node:internal/per_context/primordials:75
+1349fbe638 40 LazyCompile:~ node:internal/per_context/primordials:236
+1349fbe830 13a LazyCompile:~copyPropsRenamedBound node:internal/per_context/primordials:97
+1349fbeac8 40 LazyCompile:~ node:internal/per_context/primordials:255
+1349fbefd8 66 LazyCompile:~createSafeIterator node:internal/per_context/primordials:325
+1349fbf2a0 cc LazyCompile:~makeSafe node:internal/per_context/primordials:366
+1349fbf5e0 102 LazyCompile:~ node:internal/per_context/primordials:371
+1349fbf9f8 2f LazyCompile:~copyProps node:internal/per_context/primordials:352
+1349fbfb48 41 LazyCompile:~ node:internal/per_context/primordials:353
+3fa7849da0 614 Function:^createSafeIterator node:internal/per_context/primordials:325
+3fa784a420 248 Function:^ node:internal/per_context/primordials:223
+3fa784a6e0 6a4 Function:^copyAccessor node:internal/per_context/primordials:60
+3fa784ae00 37c Function:^ node:internal/per_context/primordials:353
+3fa784b1e0 f24 Function:^ node:internal/per_context/primordials:371
+3fb4549e50 5 Script:~ node:internal/per_context/domexception:1
+3fb45496e0 211 Function:~ node:internal/per_context/domexception:1
+3fb454b9b0 1b LazyCompile:~SafeWeakMap node:internal/per_context/primordials:414
+3fb454ba90 1b LazyCompile:~SafeMap node:internal/per_context/primordials:408
+3fb454bb70 1b LazyCompile:~SafeSet node:internal/per_context/primordials:421
+3fb454c1c0 5 Script:~ node:internal/per_context/messageport:1
+3fb454bce8 46 Function:~ node:internal/per_context/messageport:1
+3fb454db30 5 Eval:~ node:internal/bootstrap/loaders:1
+3fb454e738 200 Function:~ node:internal/bootstrap/loaders:1
+3fb454eaf0 2d Function:~<static_initializer> node:internal/bootstrap/loaders:204
+3fb454fb00 45 LazyCompile:~internalBinding node:internal/bootstrap/loaders:172
+3fb4550e78 23 LazyCompile:~ node:internal/bootstrap/loaders:205
+3fb4551050 42 LazyCompile:~BuiltinModule node:internal/bootstrap/loaders:208
+3fb4552558 5 Eval:~ node:internal/bootstrap/node:1
+3fb45533c0 6a9 Function:~ node:internal/bootstrap/node:1
+3fb4554ff8 3f LazyCompile:~setupPrepareStackTrace node:internal/bootstrap/node:373
+3fb4556848 4c LazyCompile:~requireBuiltin node:internal/bootstrap/loaders:356
+3fb4556a48 af LazyCompile:~compileForInternalLoader node:internal/bootstrap/loaders:319
+3fb4560000 5 Eval:~ node:internal/errors:1
+3fb4563438 1ee2 Function:~ node:internal/errors:1
+3fb4569d10 2b LazyCompile:~hideStackFrames node:internal/errors:411
+3fb456ec68 8c LazyCompile:~E node:internal/errors:421
+3fb456eea8 12 LazyCompile:~makeNodeErrorWithCode node:internal/errors:366
+3fb456f2c8 24 LazyCompile:~makeSystemErrorWithCode node:internal/errors:358
+3fb456f488 1f LazyCompile:~ node:internal/errors:432
+3fb4570670 5 Eval:~ node:internal/timers:1
+3fb4571d58 373 Function:~ node:internal/timers:1
+3fb45755c0 5 Eval:~ node:internal/async_hooks:1
+3fb4576c00 458 Function:~ node:internal/async_hooks:1
+3fb45791d8 5 Eval:~ node:internal/promise_hooks:1
+3fb45796a8 134 Function:~ node:internal/promise_hooks:1
+3fb457bc68 5 Eval:~ node:internal/util:1
+3fb457d088 4d3 Function:~ node:internal/util:1
+3fb44066d8 5 Eval:~ node:internal/validators:1
+3fb4407428 2ab Function:~ node:internal/validators:1
+3fb44091a8 5 Eval:~ node:internal/util/types:1
+3fb4409880 107 Function:~ node:internal/util/types:1
+3fb440a260 e LazyCompile:~makeRunHook node:internal/promise_hooks:44
+3fb440a810 1f LazyCompile:~makeUseHook node:internal/promise_hooks:90
+3fb440b050 2f LazyCompile:~emitHookFactory node:internal/async_hooks:253
+3fb440c7b8 5 Eval:~ node:internal/linkedlist:1
+3fb440ca90 4a Function:~ node:internal/linkedlist:1
+3fb440d260 5 Eval:~ node:internal/priority_queue:1
+3fb440d7d0 8a Function:~ node:internal/priority_queue:1
+3fb440d9c0 35 Function:~<instance_members_initializer> node:internal/priority_queue:13
+3fb4413550 5 Eval:~ node:internal/util/inspect:1
+3fb4416b60 e55 Function:~ node:internal/util/inspect:1
+3fb441d538 5 Eval:~ node:internal/assert:1
+3fb441d6d0 2d Function:~ node:internal/assert:1
+3fa784c180 8b8 Function:^compileForInternalLoader node:internal/bootstrap/loaders:319
+3fa784caa0 330 Function:^copyProps node:internal/per_context/primordials:352
+3fa784ce40 360 Function:^BuiltinModule node:internal/bootstrap/loaders:208
+3fa784d200 1b0 Function:^ node:internal/bootstrap/loaders:205
+3fa784d420 290 Function:^hideStackFrames node:internal/errors:411
+3fa784d720 1b0 Function:^makeNodeErrorWithCode node:internal/errors:366
+3fa784d940 7a0 Function:^E node:internal/errors:421
+3fa784e140 258 Function:^makeSystemErrorWithCode node:internal/errors:358
+3fa784e400 3c4 Function:^internalBinding node:internal/bootstrap/loaders:172
+3fb441dda0 12 LazyCompile:~ node:internal/util/inspect:171
+3fb4422be0 39 LazyCompile:~defineColorAlias node:internal/util/inspect:434
+3fb4423eb0 5 Eval:~ node:internal/util/debuglog:1
+3fb44241f0 af Function:~ node:internal/util/debuglog:1
+3fb4424ab8 52 LazyCompile:~debuglog node:internal/util/debuglog:71
+3fb4425098 2a LazyCompile:~PriorityQueue node:internal/priority_queue:19
+3fb4425590 c LazyCompile:~ImmediateList node:internal/timers:268
+3fb4426e48 98 LazyCompile:~setupProcessObject node:internal/bootstrap/node:392
+3fb44282e0 5 Eval:~ node:events:1
+3fb4429878 4ce Function:~ node:events:1
+3fb442cf08 15 LazyCompile:~EventEmitter node:events:212
+3fb442f428 95 LazyCompile:~EventEmitter.init node:events:337
+3fb442f6b0 28 LazyCompile:~setupGlobalProxy node:internal/bootstrap/node:422
+3fb442f9b0 6f LazyCompile:~setupBuffer node:internal/bootstrap/node:433
+3fb4432320 5 Eval:~ node:buffer:1
+3fb4436020 d75 Function:~ node:buffer:1
+3fb443f530 5 Eval:~ node:internal/buffer:1
+3fb43d5ad8 391 Function:~ node:internal/buffer:1
+3fb43d9698 5 Eval:~ node:internal/blob:1
+3fb43da550 339 Function:~ node:internal/blob:1
+3fb43de7a0 5 Eval:~ node:internal/encoding:1
+3fb43e29c8 39a Function:~ node:internal/encoding:1
+3fb43e4a60 58 LazyCompile:~makeTextDecoderICU node:internal/encoding:380
+3fb43e63d0 5 Eval:~ node:internal/worker/js_transferable:1
+3fb43e6648 cc Function:~ node:internal/worker/js_transferable:1
+3fb43e8048 e LazyCompile:~TextEncoder node:internal/encoding:330
+3fb43e88e0 5 Eval:~ node:internal/constants:1
+3fb43e8c68 29 Function:~ node:internal/constants:1
+3fb43e93e8 5 Eval:~ node:internal/file:1
+3fb43e9ab0 119 Function:~ node:internal/file:1
+3fb43e9ca8 12 Function:~<instance_members_initializer> node:internal/file:33
+3fb43ea948 24e LazyCompile:~addBufferPrototypeMethods node:internal/buffer:965
+3fb43ed060 46 LazyCompile:~createPool node:buffer:166
+3fb43efe50 47 LazyCompile:~createUnsafeBuffer node:internal/buffer:1061
+3fb43eff60 24 LazyCompile:~FastBuffer node:internal/buffer:960
+3fb43f0098 1e LazyCompile:~markAsUntransferable node:internal/buffer:1050
+3fb43f0998 13 LazyCompile:~ node:buffer:1300
+3fb43f0ad8 13 LazyCompile:~ node:buffer:1303
+3fb43f0c18 13 LazyCompile:~ node:buffer:1306
+3fb43f0ed0 16 LazyCompile:~set node:internal/bootstrap/node:95
+3fb43f1fc8 10 LazyCompile:~setup node:internal/worker/js_transferable:23
+3fb43f2de0 5 Eval:~ node:internal/process/per_thread:1
+3fb43f3438 23d Function:~ node:internal/process/per_thread:1
+3fb43f4870 5 Eval:~ node:internal/modules/esm/handle_process_exit:1
+3fb43f4988 21 Function:~ node:internal/modules/esm/handle_process_exit:1
+3fb43f6550 45 LazyCompile:~refreshHrtimeBuffer node:internal/process/per_thread:67
+3fb43f7808 c4 LazyCompile:~wrapProcessMethods node:internal/process/per_thread:109
+3fb43f90d8 5 Eval:~ node:internal/process/task_queues:1
+3fb43f9588 163 Function:~ node:internal/process/task_queues:1
+3fb43fa900 5 Eval:~ node:internal/process/promises:1
+3fb43fafc8 1cf Function:~ node:internal/process/promises:1
+3fb43fc130 98 LazyCompile:~deprecate node:internal/util:112
+3fb43fd870 1e LazyCompile:~validateString node:internal/validators:161
+3fb43fed20 5 Eval:~ node:internal/fixed_queue:1
+3fb43ff428 79 Function:~ node:internal/fixed_queue:1
+31ae991ae8 5 Eval:~ node:async_hooks:1
+31ae992b58 31f Function:~ node:async_hooks:1
+31ae993f38 d LazyCompile:~createHook node:async_hooks:150
+31ae994d18 d4 LazyCompile:~AsyncHook node:async_hooks:72
+31ae994f80 17 LazyCompile:~FixedQueue node:internal/fixed_queue:91
+31ae995490 26 LazyCompile:~FixedCircularBuffer node:internal/fixed_queue:60
+31ae9965c0 5 Eval:~ node:internal/worker/io:1
+31ae998550 6b0 Function:~ node:internal/worker/io:1
+31ae99bbd8 5 Eval:~ node:stream:1
+31ae99c2d0 403 Function:~ node:stream:1
+31ae99d660 5 Eval:~ node:internal/streams/operators:1
+31ae99e128 1f9 Function:~ node:internal/streams/operators:1
+31ae99fe08 5 Eval:~ node:internal/abort_controller:1
+31ae9a16a0 3cb Function:~ node:internal/abort_controller:1
+31ae9a4200 5 Eval:~ node:internal/event_target:1
+31ae9a7720 798 Function:~ node:internal/event_target:1
+31ae9a81e0 10 Function:~<static_initializer> node:internal/event_target:792
+31ae9a8260 a Function:~<static_initializer> node:internal/event_target:503
+31ae9a8308 19 Function:~<static_initializer> node:internal/event_target:300
+31ae9a83b0 3b Function:~<instance_members_initializer> node:internal/event_target:92
+31ae9aba20 5 Eval:~ node:util:1
+31ae9ac978 3d0 Function:~ node:util:1
+31ae9aea38 5 Eval:~ node:internal/util/parse_args/parse_args:1
+31ae9aeeb0 1b7 Function:~ node:internal/util/parse_args/parse_args:1
+31ae9b0210 5 Eval:~ node:internal/util/parse_args/utils:1
+31ae9b07c8 d5 Function:~ node:internal/util/parse_args/utils:1
+31ae9b1db0 5 Eval:~ node:internal/mime:1
+31ae9b2e00 242 Function:~ node:internal/mime:1
+31ae9b3168 1a Function:~<instance_members_initializer> node:internal/mime:299
+31ae9b3210 15 Function:~<instance_members_initializer> node:internal/mime:124
+31ae9b4800 5 Eval:~ node:internal/perf/utils:1
+31ae9b4a10 5c Function:~ node:internal/perf/utils:1
+31ae9b7618 1b LazyCompile:~SafeWeakSet node:internal/per_context/primordials:427
+31ae9b8360 5 Eval:~ node:timers:1
+31ae9b8be8 260 Function:~ node:timers:1
+31ae9ba050 1b LazyCompile:~SafeFinalizationRegistry node:internal/per_context/primordials:435
+31ae9ba3c0 39 LazyCompile:~defineEventHandler node:internal/event_target:1028
+31ae9bcfd0 5 Eval:~ node:internal/streams/end-of-stream:1
+31ae9bd308 142 Function:~ node:internal/streams/end-of-stream:1
+31ae9be660 5 Eval:~ node:internal/streams/utils:1
+31ae9bf310 1bf Function:~ node:internal/streams/utils:1
+3fb4382438 5 Eval:~ node:internal/streams/compose:1
+3fb4382630 b8 Function:~ node:internal/streams/compose:1
+3fb4383798 5 Eval:~ node:internal/streams/pipeline:1
+3fb4383d08 196 Function:~ node:internal/streams/pipeline:1
+3fb4385528 5 Eval:~ node:internal/streams/destroy:1
+3fb4385c50 fb Function:~ node:internal/streams/destroy:1
+3fb4386f58 5 Eval:~ node:internal/streams/duplex:1
+3fb43875d0 25b Function:~ node:internal/streams/duplex:1
+3fb4388f78 5 Eval:~ node:internal/streams/readable:1
+3fb438b788 59e Function:~ node:internal/streams/readable:1
+3fb438f7b0 5 Eval:~ node:internal/streams/legacy:1
+3fb438fa38 6a Function:~ node:internal/streams/legacy:1
+3fb43902d8 5 Eval:~ node:internal/streams/add-abort-signal:1
+3fb4390540 82 Function:~ node:internal/streams/add-abort-signal:1
+3fb4390c70 5 Eval:~ node:internal/streams/buffer_list:1
+3fb4391758 b0 Function:~ node:internal/streams/buffer_list:1
+3fb43922e8 5 Eval:~ node:internal/streams/state:1
+3fb43924f0 57 Function:~ node:internal/streams/state:1
+3fb4392cb8 5 Eval:~ node:string_decoder:1
+3fb4393248 183 Function:~ node:string_decoder:1
+3fb4394010 5 Eval:~ node:internal/streams/from:1
+3fb4394178 61 Function:~ node:internal/streams/from:1
+3fb4395800 5 Eval:~ node:internal/streams/writable:1
+3fb43972d0 424 Function:~ node:internal/streams/writable:1
+3fb439ab58 5 Eval:~ node:stream/promises:1
+3fb439acd8 7d Function:~ node:stream/promises:1
+3fb439b2e8 5 Eval:~ node:internal/streams/transform:1
+3fb439b6a0 c6 Function:~ node:internal/streams/transform:1
+3fb439c280 5 Eval:~ node:internal/streams/passthrough:1
+3fb439c418 54 Function:~ node:internal/streams/passthrough:1
+3fb439cdd0 1d LazyCompile:~exposeInterface node:internal/util:502
+3fb439cf60 1d LazyCompile:~defineOperation node:internal/util:491
+3fb439d290 5 Eval:~ node:internal/structured_clone:1
+3fb439d3d8 53 Function:~ node:internal/structured_clone:1
+3fb439e310 5 Eval:~ node:internal/process/execution:1
+3fb439e818 11f Function:~ node:internal/process/execution:1
+3fb439fc90 5 Eval:~ node:path:1
+3fb43a0938 222 Function:~ node:path:1
+3fb43a0da0 1d Function:~ node:path:1070
+3fb43a4518 5 LazyCompile:~createOnGlobalUncaughtException node:internal/process/execution:136
+3fb43a51b8 5 Eval:~ node:internal/process/warning:1
+3fb43a5690 100 Function:~ node:internal/process/warning:1
+3fb43a60a8 28 LazyCompile:~setupTaskQueue node:internal/process/task_queues:162
+3fb43a6730 e LazyCompile:~listenForRejections node:internal/process/promises:345
+3fb43a74c8 3e LazyCompile:~getTimerCallbacks node:internal/timers:425
+3fb43aaa98 5 Eval:~ node:fs:1
+3fb43ae918 ca0 Function:~ node:fs:1
+3fb43bd3c0 5 Eval:~ node:internal/url:1
+13d8481850 7cc Function:~ node:internal/url:1
+13d84823a8 18 Function:~<instance_members_initializer> node:internal/url:544
+13d8482498 3e Function:~<instance_members_initializer> node:internal/url:143
+13d84859c8 5 Eval:~ node:internal/querystring:1
+13d84863a0 c4 Function:~ node:internal/querystring:1
+13d84872e8 5 Eval:~ node:querystring:1
+13d8488558 149 Function:~ node:querystring:1
+13d848a290 163 LazyCompile:~defineIDLClass node:internal/url:969
+13d848f150 5 Eval:~ node:internal/fs/utils:1
+13d84915c0 a38 Function:~ node:internal/fs/utils:1
+13d8494da8 bc LazyCompile:~from node:buffer:312
+13d8494fc0 6e LazyCompile:~fromString node:buffer:490
+13d8495178 b1 LazyCompile:~fromStringFast node:buffer:471
+13d8495360 17 LazyCompile:~write node:buffer:651
+13d8495450 2a LazyCompile:~alignPool node:buffer:174
+13d8495df0 5 Eval:~ node:internal/fs/dir:1
+13d84967a8 1e6 Function:~ node:internal/fs/dir:1
+13d8498220 5 Eval:~ node:internal/fs/watchers:1
+13d8498e38 2ca Function:~ node:internal/fs/watchers:1
+13d849b8c8 5 Eval:~ node:internal/fs/read_file_context:1
+13d849bd20 c5 Function:~ node:internal/fs/read_file_context:1
+13d849d6e0 5 Eval:~ node:v8:1
+13d849e6b0 43e Function:~ node:v8:1
+13d849ed20 a Function:~<instance_members_initializer> node:v8:387
+13d84a1d00 5 Eval:~ node:internal/v8/startup_snapshot:1
+13d84a2198 df Function:~ node:internal/v8/startup_snapshot:1
+13d84a3678 5 Eval:~ node:internal/heap_utils:1
+13d84a3b98 8c Function:~ node:internal/heap_utils:1
+13d84a45d8 5 Eval:~ node:internal/stream_base_commons:1
+13d84a4bc0 202 Function:~ node:internal/stream_base_commons:1
+13d84a6338 5 Eval:~ node:internal/options:1
+13d84a6778 a5 Function:~ node:internal/options:1
+13d84a8ae0 5 Eval:~ node:vm:1
+13d84a94d8 24c Function:~ node:vm:1
+13d84ab788 5 Eval:~ node:internal/vm:1
+13d84ab988 c3 Function:~ node:internal/vm:1
+13d84ad218 5 Eval:~ node:url:1
+13d84ae3a0 344 Function:~ node:url:1
+13d84b0d40 5 Eval:~ node:internal/idna:1
+13d84b0e80 64 Function:~ node:internal/idna:1
+13d84b2320 5 Eval:~ node:crypto:1
+13d84b36c0 6c0 Function:~ node:crypto:1
+13d84b5040 13 LazyCompile:~assertCrypto node:internal/util:167
+343b1b8a18 5 Eval:~ node:internal/crypto/random:1
+343b1b9528 300 Function:~ node:internal/crypto/random:1
+343b1bb4c8 5 Eval:~ node:internal/crypto/pbkdf2:1
+343b1bb7d0 103 Function:~ node:internal/crypto/pbkdf2:1
+343b1bcda8 5 Eval:~ node:internal/crypto/util:1
+343b1bdd40 321 Function:~ node:internal/crypto/util:1
+343b1bf8c0 5 Eval:~ node:internal/crypto/hashnames:1
+343b1bfb90 212 Function:~ node:internal/crypto/hashnames:1
+19fb2d6128 14 LazyCompile:~cachedResult node:internal/util:255
+19fb2d6528 12e LazyCompile:~promisify node:internal/util:338
+19fb2d67f0 1e LazyCompile:~ node:internal/validators:419
+19fb2d6be0 5 Eval:~ node:internal/crypto/scrypt:1
+19fb2d6eb8 d9 Function:~ node:internal/crypto/scrypt:1
+19fb2d7cc0 5 Eval:~ node:internal/crypto/hkdf:1
+19fb2d8068 15c Function:~ node:internal/crypto/hkdf:1
+19fb2d97c8 5 Eval:~ node:internal/crypto/keys:1
+19fb2daf40 524 Function:~ node:internal/crypto/keys:1
+19fb2de438 123 LazyCompile:~ node:internal/crypto/keys:100
+19fb2e0a78 5 Eval:~ node:internal/crypto/keygen:1
+19fb2e1148 221 Function:~ node:internal/crypto/keygen:1
+19fb2e2a88 5 Eval:~ node:internal/crypto/diffiehellman:1
+19fb2e33d0 373 Function:~ node:internal/crypto/diffiehellman:1
+19fb2e5188 5 Eval:~ node:internal/crypto/cipher:1
+19fb2e5b58 354 Function:~ node:internal/crypto/cipher:1
+19fb2e70b8 5 Eval:~ node:internal/streams/lazy_transform:1
+19fb2e73f8 c1 Function:~ node:internal/streams/lazy_transform:1
+19fb2e7910 e LazyCompile:~makeGetter node:internal/streams/lazy_transform:26
+19fb2e7cb0 e LazyCompile:~makeSetter node:internal/streams/lazy_transform:39
+19fb2e7eb8 16 LazyCompile:~rsaFunctionFor node:internal/crypto/cipher:66
+19fb2e8c80 a9 LazyCompile:~addCipherPrototypeFunctions node:internal/crypto/cipher:252
+19fb2e9440 5 Eval:~ node:internal/crypto/sig:1
+19fb2e9a98 233 Function:~ node:internal/crypto/sig:1
+19fb2eb010 5 Eval:~ node:internal/crypto/hash:1
+19fb2eb560 25f Function:~ node:internal/crypto/hash:1
+19fb2ecc78 5 Eval:~ node:internal/crypto/x509:1
+19fb2ee680 2bf Function:~ node:internal/crypto/x509:1
+19fb2eeab8 15 Function:~<instance_members_initializer> node:internal/crypto/x509:106
+19fb2eeb58 15 Function:~<instance_members_initializer> node:internal/crypto/x509:97
+19fb2f0070 5 Eval:~ node:internal/crypto/certificate:1
+19fb2f02a8 9b Function:~ node:internal/crypto/certificate:1
+19fb2f0b28 21 LazyCompile:~getRandomBytesAlias node:crypto:287
+19fb2f2110 5 Eval:~ node:internal/bootstrap/browser:1
+19fb2f2528 4d4 Function:~ node:internal/bootstrap/browser:1
+19fb2f3438 47 LazyCompile:~createGlobalConsole node:internal/bootstrap/browser:82
+19fb2f3d18 5 Eval:~ node:internal/console/global:1
+19fb2f3e68 123 Function:~ node:internal/console/global:1
+19fb2f60e0 5 Eval:~ node:internal/console/constructor:1
+19fb2f7338 6cf Function:~ node:internal/console/constructor:1
+3fa784efc0 d24 Function:^ node:internal/console/global:1
+3fa784fd60 4c8 Function:^requireBuiltin node:internal/bootstrap/loaders:356
+3fa78502a0 17c Function:^ node:internal/util/inspect:171
+3fa7850480 330 Function:^defineColorAlias node:internal/util/inspect:434
+3fa7850820 148 Function:^ node:buffer:1300
+3fa78509e0 148 Function:^ node:buffer:1303
+3fa7850ba0 148 Function:^ node:buffer:1306
+3fa7850d60 1e0 Function:^SafeSet node:internal/per_context/primordials:421
+3fa7850fa0 a20 Function:^ node:internal/querystring:1
+3fa7851a20 8e0 Function:^deprecate node:internal/util:112
+19fb2faae8 5 Eval:~ node:internal/util/inspector:1
+19fb2fae90 f8 Function:~ node:internal/util/inspector:1
+19fb2fb6e8 f1 LazyCompile:~wrapConsole node:internal/util/inspector:79
+19fb2fd540 1d LazyCompile:~exposeNamespace node:internal/bootstrap/browser:98
+19fb2fd700 36 LazyCompile:~exposeGetterAndSetter node:internal/bootstrap/browser:108
+19fb2fdf90 5 Eval:~ node:perf_hooks:1
+19fb2fe1c0 d8 Function:~ node:perf_hooks:1
+19fb2fe870 5 Eval:~ node:internal/perf/performance_entry:1
+19fb2ff310 112 Function:~ node:internal/perf/performance_entry:1
+1355f012f0 5 Eval:~ node:internal/perf/resource_timing:1
+1355f02ab8 167 Function:~ node:internal/perf/resource_timing:1
+1355f047a0 5 Eval:~ node:internal/perf/observe:1
+1355f05cb8 427 Function:~ node:internal/perf/observe:1
+1355f062f8 2e Function:~<instance_members_initializer> node:internal/perf/observe:212
+1355f063a0 b Function:~<instance_members_initializer> node:internal/perf/observe:168
+1355f08600 5 Eval:~ node:internal/perf/usertiming:1
+1355f09008 186 Function:~ node:internal/perf/usertiming:1
+1355f09cd0 5 Eval:~ node:internal/perf/nodetiming:1
+1355f0a1a0 e4 Function:~ node:internal/perf/nodetiming:1
+1355f0b010 a9 LazyCompile:~PerformanceNodeTiming node:internal/perf/nodetiming:34
+1355f0b908 d LazyCompile:~SafeIterator node:internal/per_context/primordials:327
+1355f0ba20 3 LazyCompile:~ node:internal/per_context/primordials:333
+1355f0bae0 d LazyCompile:~next node:internal/per_context/primordials:330
+1355f0bfb8 5 Eval:~ node:internal/perf/performance:1
+1355f0cfe8 318 Function:~ node:internal/perf/performance:1
+1355f0e110 5 Eval:~ node:internal/perf/event_loop_utilization:1
+1355f0e208 2f Function:~ node:internal/perf/event_loop_utilization:1
+1355f0e798 5 Eval:~ node:internal/perf/timerify:1
+1355f0e9a0 ca Function:~ node:internal/perf/timerify:1
+1355f0f4c8 5 Eval:~ node:internal/histogram:1
+1355f10e20 26e Function:~ node:internal/histogram:1
+1355f12518 13 LazyCompile:~InternalPerformance node:internal/perf/performance:118
+1355f12dd8 b LazyCompile:~EventTarget node:internal/event_target:505
+1355f12ee8 31 LazyCompile:~initEventTarget node:internal/event_target:493
+1355f13090 5 LazyCompile:~get node:events:272
+1355f13150 a LazyCompile:~setDispatchBufferFull node:internal/perf/observe:439
+1355f14860 5 Eval:~ node:internal/perf/event_loop_delay:1
+1355f14c88 e5 Function:~ node:internal/perf/event_loop_delay:1
+1355f152e0 1d LazyCompile:~defineReplacableAttribute node:internal/bootstrap/browser:119
+1355f16578 5 Eval:~ node:internal/webstreams/transformstream:1
+1355f17dc8 373 Function:~ node:internal/webstreams/transformstream:1
+1355f18320 b Function:~<instance_members_initializer> node:internal/webstreams/transformstream:269
+1355f183b8 b Function:~<instance_members_initializer> node:internal/webstreams/transformstream:111
+1355f1a2e0 5 Eval:~ node:internal/webstreams/util:1
+1355f1afc8 2a3 Function:~ node:internal/webstreams/util:1
+1355f21238 5 Eval:~ node:internal/webstreams/readablestream:1
+1355f27520 f67 Function:~ node:internal/webstreams/readablestream:1
+1355f289c8 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:1081
+1355f28a60 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:1010
+1355f28af8 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:894
+1355f28b90 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:805
+1355f28c28 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:666
+1355f28cc0 b Function:~<instance_members_initializer> node:internal/webstreams/readablestream:239
+1355f328b8 5 Eval:~ node:internal/webstreams/writablestream:1
+1355f35628 6ab Function:~ node:internal/webstreams/writablestream:1
+1355f35ff0 b Function:~<instance_members_initializer> node:internal/webstreams/writablestream:524
+1355f36088 b Function:~<instance_members_initializer> node:internal/webstreams/writablestream:381
+1355f36120 b Function:~<instance_members_initializer> node:internal/webstreams/writablestream:150
+1355f396a0 e LazyCompile:~getNonWritablePropertyDescriptor node:internal/webstreams/writablestream:101
+1355f3c4a8 e LazyCompile:~isBrandCheck node:internal/webstreams/util:125
+1355f3cf48 e LazyCompile:~getNonWritablePropertyDescriptor node:internal/webstreams/readablestream:169
+3fb4307c40 e LazyCompile:~getNonWritablePropertyDescriptor node:internal/webstreams/transformstream:68
+3fb43095d8 5 Eval:~ node:internal/webstreams/queuingstrategies:1
+3fb430a2b8 1cf Function:~ node:internal/webstreams/queuingstrategies:1
+3fb430a5c8 b Function:~<instance_members_initializer> node:internal/webstreams/queuingstrategies:125
+3fb430a660 b Function:~<instance_members_initializer> node:internal/webstreams/queuingstrategies:70
+3fb430af70 e LazyCompile:~getNonWritablePropertyDescriptor node:internal/webstreams/queuingstrategies:59
+3fb430bab8 5 Eval:~ node:internal/webstreams/encoding:1
+3fb430c9e8 1a1 Function:~ node:internal/webstreams/encoding:1
+3fb430dd48 5 Eval:~ node:internal/webstreams/compression:1
+3fb430e940 14f Function:~ node:internal/webstreams/compression:1
+3fb430fca0 5 Eval:~ node:internal/webstreams/adapters:1
+3fb43105e0 25a Function:~ node:internal/webstreams/adapters:1
+3fb4313498 5 Eval:~ node:internal/bootstrap/switches/is_main_thread:1
+3fb4313b68 126 Function:~ node:internal/bootstrap/switches/is_main_thread:1
+3fb4314968 1d LazyCompile:~defineStream node:internal/bootstrap/switches/is_main_thread:19
+3fb4315620 5 Eval:~ node:internal/process/signal:1
+3fb4315838 80 Function:~ node:internal/process/signal:1
+3fb4315c30 14 LazyCompile:~addListener node:events:604
+3fb4315fd8 17a LazyCompile:~_addListener node:events:541
+3fb43162f0 f LazyCompile:~checkListener node:events:265
+3fb43164c0 17c LazyCompile:~emit node:events:460
+3fb4316868 ac LazyCompile:~startListeningIfSignal node:internal/process/signal:22
+3fb4316c10 13 LazyCompile:~isSignal node:internal/process/signal:17
+3fb4317158 5 Eval:~ node:internal/bootstrap/switches/does_own_process_state:1
+3fb4317430 b8 Function:~ node:internal/bootstrap/switches/does_own_process_state:1
+3fb4317dd8 be LazyCompile:~wrapPosixCredentialSetters node:internal/bootstrap/switches/does_own_process_state:31
+3fb43184d8 12 LazyCompile:~wrapIdSetter node:internal/bootstrap/switches/does_own_process_state:76
+3fb4318a70 5 Eval:~ node:internal/main/eval_string:1
+3fb4318b78 8f Function:~ node:internal/main/eval_string:1
+3fb4319ca0 5 Eval:~ node:internal/process/pre_execution:1
+3fb431a9f8 1df Function:~ node:internal/process/pre_execution:1
+3fb431cae8 5 Eval:~ node:internal/modules/cjs/helpers:1
+3fb431d090 242 Function:~ node:internal/modules/cjs/helpers:1
+3fb431ddd0 52 LazyCompile:~getOptionValue node:internal/options:44
+3fb431e1b8 21 LazyCompile:~getCLIOptionsFromBinding node:internal/options:18
+3fb431e810 2e LazyCompile:~prepareMainThreadExecution node:internal/process/pre_execution:36
+3fb431ff70 133 LazyCompile:~prepareExecution node:internal/process/pre_execution:52
+3fb4320260 a LazyCompile:~refreshRuntimeOptions node:internal/process/pre_execution:123
+3fb4320350 16 LazyCompile:~refreshOptions node:internal/options:39
+3fb4320430 13 LazyCompile:~reconnectZeroFillToggle node:internal/buffer:1074
+3fb4320a20 1cc LazyCompile:~patchProcessObject node:internal/process/pre_execution:127
+3fb4321018 181 LazyCompile:~initializeGlobalConsole node:internal/console/constructor:688
+3fb4322ce0 5e LazyCompile:~value node:internal/console/constructor:201
+3fb4323158 19e LazyCompile:~value node:internal/console/constructor:231
+3fb4323588 12 LazyCompile:~createWriteErrorHandler node:internal/console/constructor:355
+3fb43237b0 19 LazyCompile:~isBuildingSnapshot node:internal/v8/startup_snapshot:17
+3fb4323ca0 3f LazyCompile:~addReadOnlyProcessAlias node:internal/process/pre_execution:179
+3fb4323f28 2e LazyCompile:~setupTraceCategoryState node:internal/process/pre_execution:367
+3fb4324098 4d LazyCompile:~toggleTraceCategoryState node:internal/process/per_thread:409
+3fb43241f0 2a LazyCompile:~setupPerfHooks node:internal/process/pre_execution:373
+3fb4324378 2a LazyCompile:~refreshTimeOrigin node:internal/perf/performance:227
+3fb4324490 13 LazyCompile:~refreshTimeOrigin node:internal/perf/utils:25
+3fb4324700 3e LazyCompile:~setupInspectorHooks node:internal/process/pre_execution:378
+3fb4324a88 5 Eval:~ node:internal/inspector_async_hook:1
+3fb4324ca8 4f Function:~ node:internal/inspector_async_hook:1
+3fb4325508 7e LazyCompile:~setupWarningHandler node:internal/process/pre_execution:192
+3fb4325a00 ca LazyCompile:~setupFetch node:internal/process/pre_execution:213
+3fb4325c70 5 LazyCompile:~get node:internal/bootstrap/node:171
+3fb4325d40 34 LazyCompile:~get node:internal/bootstrap/node:144
+3fb4326028 21 LazyCompile:~lazyInterface node:internal/process/pre_execution:235
+3fb43264b0 5 Eval:~ node:internal/wasm_web_api:1
+3fb4326648 58 Function:~ node:internal/wasm_web_api:1
+3fb4326cf8 100 LazyCompile:~setupWebCrypto node:internal/process/pre_execution:262
+3fb4327028 4a LazyCompile:~setupCustomEvent node:internal/process/pre_execution:299
+3fb43271e0 40 LazyCompile:~setupCodeCoverage node:internal/process/pre_execution:284
+3fb4327398 4b LazyCompile:~setupDebugEnv node:internal/process/pre_execution:330
+3fb43276a0 9f LazyCompile:~initializeDebugEnv node:internal/util/debuglog:22
+3fb4327990 3e LazyCompile:~initializeReport node:internal/process/pre_execution:318
+3fb4327ed0 5 Eval:~ node:internal/process/report:1
+3fb43289e0 132 Function:~ node:internal/process/report:1
+3fb432a680 23 LazyCompile:~initializeSourceMapsHandlers node:internal/process/pre_execution:581
+3fb432b1d8 5 Eval:~ node:internal/source_map/source_map_cache:1
+3fb432b980 200 Function:~ node:internal/source_map/source_map_cache:1
+3fb432cd20 5 Eval:~ node:internal/util/iterable_weak_map:1
+3fb432d480 c4 Function:~ node:internal/util/iterable_weak_map:1
+3fb432d600 42 Function:~<instance_members_initializer> node:internal/util/iterable_weak_map:16
+3fb432dc90 10 LazyCompile:~IterableWeakMap node:internal/util/iterable_weak_map:16
+3fb432e060 1f LazyCompile:~getSourceMapsEnabled node:internal/source_map/source_map_cache:51
+3fb432ec60 64 LazyCompile:~setSourceMapsEnabled node:internal/source_map/source_map_cache:58
+3fb432edd8 1e LazyCompile:~validateBoolean node:internal/validators:217
+3fb432f308 166 LazyCompile:~initializeDeprecations node:internal/process/pre_execution:396
+3fb432f650 35 LazyCompile:~initializeWASI node:internal/process/pre_execution:535
+3fb43309d0 5 Eval:~ node:internal/dns/utils:1
+3fb4331a48 26b Function:~ node:internal/dns/utils:1
+3fb4333368 5 Eval:~ node:internal/net:1
+3fb4333778 274 Function:~ node:internal/net:1
+3fb43341f0 48 LazyCompile:~initializeDns node:internal/dns/utils:201
+3fb4334e58 15 LazyCompile:~assert node:internal/assert:11
+3fb4335260 1be LazyCompile:~readPolicyFromDisk node:internal/process/pre_execution:485
+3fb4335650 31 LazyCompile:~setupStacktracePrinterOnSigint node:internal/process/pre_execution:308
+3fb4335778 15 LazyCompile:~initializeReportSignalHandlers node:internal/process/pre_execution:338
+3fb4335880 39 LazyCompile:~addSignalHandler node:internal/process/report:98
+3fb4335ed8 88 LazyCompile:~initializeHeapSnapshotSignalHandlers node:internal/process/pre_execution:344
+3fb43361b8 8a LazyCompile:~setupChildProcessIpcChannel node:internal/process/pre_execution:457
+3fb43363c8 3f LazyCompile:~initializeClusterIPC node:internal/process/pre_execution:476
+3fb4336508 35 LazyCompile:~runDeserializeCallbacks node:internal/v8/startup_snapshot:30
+3fb43366a0 34 LazyCompile:~setupUserModules node:internal/process/pre_execution:113
+3fb43368c0 42 LazyCompile:~initializeCJSLoader node:internal/process/pre_execution:542
+3fb4339488 5 Eval:~ node:internal/modules/cjs/loader:1
+3fb433b6d0 b9c Function:~ node:internal/modules/cjs/loader:1
+3fb433feb0 5 Eval:~ node:internal/modules/package_json_reader:1
+3fb40ba200 71 Function:~ node:internal/modules/package_json_reader:1
+3fb40ba960 5 Eval:~ node:internal/process/esm_loader:1
+3fb40bac00 bc Function:~ node:internal/process/esm_loader:1
+3fb40bc138 5 Eval:~ node:internal/modules/esm/loader:1
+3fb40bca30 2a5 Function:~ node:internal/modules/esm/loader:1
+3fb40bd000 90 Function:~<instance_members_initializer> node:internal/modules/esm/loader:181
+3fb40bf260 5 Eval:~ node:internal/modules/esm/module_map:1
+3fb40bf698 af Function:~ node:internal/modules/esm/module_map:1
+aec3153a8 5 Eval:~ node:internal/modules/esm/module_job:1
+aec315890 145 Function:~ node:internal/modules/esm/module_job:1
+aec3174d8 5 Eval:~ node:internal/modules/esm/assert:1
+aec3177b8 dc Function:~ node:internal/modules/esm/assert:1
+aec317e48 9 LazyCompile:~ node:internal/modules/esm/assert:46
+aec31a7c0 5 Eval:~ node:internal/modules/esm/resolve:1
+aec31b860 4b5 Function:~ node:internal/modules/esm/resolve:1
+aec31ed30 5 Eval:~ node:internal/modules/esm/package_config:1
+aec31ef20 a2 Function:~ node:internal/modules/esm/package_config:1
+aec31fba8 5 Eval:~ node:internal/modules/esm/get_format:1
+aec320018 15c Function:~ node:internal/modules/esm/get_format:1
+aec320e80 5 Eval:~ node:internal/modules/esm/fetch_module:1
+aec321338 163 Function:~ node:internal/modules/esm/fetch_module:1
+aec3249c8 5 Eval:~ node:net:1
+aec327d98 ba7 Function:~ node:net:1
+aec331090 5 Eval:~ node:internal/dtrace:1
+aec331568 8c Function:~ node:internal/dtrace:1
+aec332460 22 LazyCompile:~protoGetter node:net:844
+aec337268 25 LazyCompile:~get BlockList node:net:2235
+aec3376d8 5 Eval:~ node:internal/blocklist:1
+aec3380e0 167 Function:~ node:internal/blocklist:1
+aec3399c8 5 Eval:~ node:internal/socketaddress:1
+aec33a4f8 177 Function:~ node:internal/socketaddress:1
+aec33af70 48 LazyCompile:~BlockList node:internal/blocklist:40
+aec33b6f8 73 LazyCompile:~addAddress node:internal/blocklist:60
+aec33b878 14 LazyCompile:~isSocketAddress node:internal/socketaddress:44
+aec33c048 146 LazyCompile:~SocketAddress node:internal/socketaddress:48
+aec33c318 80 LazyCompile:~ node:internal/validators:247
+aec33c490 1b LazyCompile:~getOwnPropertyValueOrDefault node:internal/validators:228
+aec33c5b8 81 LazyCompile:~validatePort node:internal/validators:384
+aec33c788 94 LazyCompile:~ node:internal/validators:138
+aec33ca70 e5 LazyCompile:~addRange node:internal/blocklist:72
+aec33cf48 5 Eval:~ node:internal/modules/esm/formats:1
+aec33d200 78 Function:~ node:internal/modules/esm/formats:1
+aec33d890 5 Eval:~ node:internal/modules/esm/initialize_import_meta:1
+aec33da58 5a Function:~ node:internal/modules/esm/initialize_import_meta:1
+aec33e0d0 5 Eval:~ node:internal/modules/esm/load:1
+aec33e310 107 Function:~ node:internal/modules/esm/load:1
+3fb410ab08 5 Eval:~ node:internal/fs/promises:1
+3fb410d438 775 Function:~ node:internal/fs/promises:1
+3fb410df20 13 Function:~<instance_members_initializer> node:internal/fs/promises:133
+3fb4110da0 5 Eval:~ node:internal/fs/rimraf:1
+3fb41113a0 199 Function:~ node:internal/fs/rimraf:1
+3fb4114d60 5 Eval:~ node:internal/readline/interface:1
+3fb4117908 72f Function:~ node:internal/readline/interface:1
+3fb411bbc8 5 Eval:~ node:internal/readline/utils:1
+3fb411c010 ed Function:~ node:internal/readline/utils:1
+3fb411d038 4b LazyCompile:~CSI node:internal/readline/utils:19
+3fb411e140 5 Eval:~ node:internal/readline/callbacks:1
+3fb411e410 b3 Function:~ node:internal/readline/callbacks:1
+3fb411f160 70 LazyCompile:~EventEmitterMixin node:internal/event_target:1063
+3fb411fdc8 5 Eval:~ node:internal/modules/esm/translators:1
+3fb4120568 2c2 Function:~ node:internal/modules/esm/translators:1
+3fb4121a60 5 Eval:~ node:internal/modules/esm/create_dynamic_module:1
+3fb4121c88 6f Function:~ node:internal/modules/esm/create_dynamic_module:1
+3fb4122b60 5 Eval:~ node:internal/vm/module:1
+3fb4123dc8 371 Function:~ node:internal/vm/module:1
+3fb4124318 17 Function:~<instance_members_initializer> node:internal/vm/module:258
+3fa7852360 1e0 Function:^SafeWeakMap node:internal/per_context/primordials:414
+3fa78525a0 bec Function:^wrapConsole node:internal/util/inspector:79
+3fa7853200 1b4 Function:^exposeInterface node:internal/util:502
+3fa7853420 1b4 Function:^defineOperation node:internal/util:491
+3fa7853640 140 Function:^isBrandCheck node:internal/webstreams/util:125
+3fa78537e0 1e0 Function:^SafeMap node:internal/per_context/primordials:408
+3fa7853a20 400 Function:^getOptionValue node:internal/options:44
+3fa7853e80 338 Function:^getCLIOptionsFromBinding node:internal/options:18
+3fa7854220 1ec Function:^protoGetter node:net:844
+3fa7854480 6f4 Function:^debuglog node:internal/util/debuglog:71
+3fb4125ac0 a1 LazyCompile:~ESMLoader node:internal/modules/esm/loader:237
+3fb41278d0 1b LazyCompile:~ModuleMap node:internal/modules/esm/module_map:17
+3fb4127b88 d LazyCompile:~desc.value node:internal/per_context/primordials:382
+3fb4127cc0 13 LazyCompile:~canBeRequiredWithoutScheme node:internal/bootstrap/loaders:255
+3fa7854be0 cb50 Function:^ node:internal/modules/cjs/loader:1
+3fa78617a0 d4 Function:^next node:internal/per_context/primordials:330
+3fa78618e0 16c Function:^canBeRequiredWithoutScheme node:internal/bootstrap/loaders:255
+3fb412bd60 20 LazyCompile:~ node:internal/modules/cjs/loader:253
+3fb412bf00 13 LazyCompile:~getSchemeOnlyModuleNames node:internal/bootstrap/loaders:259
+3fb412c068 1a LazyCompile:~ node:internal/modules/cjs/loader:255
+3fb412c850 1c LazyCompile:~getEmbedderOptions node:internal/options:32
+3fb412cfd0 13b LazyCompile:~Module._initPaths node:internal/modules/cjs/loader:1382
+3fb412d2b0 af LazyCompile:~resolve node:path:1091
+3fb4130538 1ba LazyCompile:~normalizeString node:path:66
+3fb41308c0 8 LazyCompile:~isPosixPathSeparator node:path:56
+3fb4130f80 5 Eval:~ node:internal/modules/run_main:1
+3fb4131268 b2 Function:~ node:internal/modules/run_main:1
+3fb4131880 a3 LazyCompile:~initializeESMLoader node:internal/process/pre_execution:552
+3fb4131a98 5 LazyCompile:~get hasLoadedAnyUserCJSModule node:internal/modules/cjs/loader:75
+3fb4131b80 35 LazyCompile:~loadPreloadModules node:internal/process/pre_execution:597
+3fb4131d68 32 LazyCompile:~initializeFrozenIntrinsics node:internal/process/pre_execution:589
+3fb4131f20 3f LazyCompile:~addBuiltinLibsToObject node:internal/modules/cjs/helpers:150
+3fb4132900 c2 LazyCompile:~Module node:internal/modules/cjs/loader:225
+3fb4132ba0 a2 LazyCompile:~dirname node:path:1275
+3fb4132dd8 1c LazyCompile:~setOwnProperty node:internal/util:548
+3fb4132ee8 2d LazyCompile:~updateChildren node:internal/modules/cjs/loader:206
+3fb41331a8 7b LazyCompile:~ node:internal/modules/cjs/helpers:160
+3fa7861ac0 744 Function:^ node:internal/modules/cjs/helpers:160
+3fa7862280 148 Function:^ node:internal/modules/cjs/loader:253
+3fa7862440 e8 Function:^isPosixPathSeparator node:path:56
+3fa78625a0 14f0 Function:^normalizeString node:path:66
+3fa7863b00 1fc Function:^validateString node:internal/validators:161
+3fb4133f80 16 LazyCompile:~markBootstrapComplete node:internal/process/pre_execution:610
+3fb41342c0 127 LazyCompile:~evalScript node:internal/process/execution:53
+3fb41345b0 2a LazyCompile:~tryGetCwd node:internal/process/execution:32
+3fb41346d8 28 LazyCompile:~wrappedCwd node:internal/bootstrap/switches/does_own_process_state:124
+3fb4134930 59 LazyCompile:~get node:internal/modules/cjs/helpers:183
+3fb4134b38 7f LazyCompile:~Module.require node:internal/modules/cjs/loader:1133
+3fb4134e30 2a8 LazyCompile:~Module._load node:internal/modules/cjs/loader:886
+3fb4135320 59 LazyCompile:~logger node:internal/util/debuglog:95
+3fb4135490 8c LazyCompile:~debug node:internal/util/debuglog:76
+3fb4135640 29 LazyCompile:~init node:internal/util/debuglog:72
+3fb4135738 2 LazyCompile:~testEnabled node:internal/util/debuglog:32
+3fb41358b8 74 LazyCompile:~debuglogImpl node:internal/util/debuglog:49
+3fb4135a70 a LazyCompile:~ node:internal/modules/cjs/loader:344
+3fb4135b28 2 LazyCompile:~noop node:internal/util/debuglog:47
+3fb4135c98 36 LazyCompile:~reportModuleToWatchMode node:internal/modules/cjs/loader:212
+3fb41360a0 397 LazyCompile:~Module._resolveFilename node:internal/modules/cjs/loader:984
+3fb41366f0 1c LazyCompile:~canBeRequiredByUsers node:internal/bootstrap/loaders:248
+3fb4136848 3e LazyCompile:~loadBuiltinModule node:internal/modules/cjs/helpers:51
+3fb4136978 a LazyCompile:~ node:internal/modules/cjs/helpers:36
+3fb4136af0 81 LazyCompile:~compileForPublicLoader node:internal/bootstrap/loaders:264
+3fb4136e30 5 Eval:~ node:module:1
+3fb4136ee0 3b Function:~ node:module:1
+3fb4137980 5 Eval:~ node:internal/source_map/source_map:1
+3fb4138250 148 Function:~ node:internal/source_map/source_map:1
+3fb4138508 4e Function:~<instance_members_initializer> node:internal/source_map/source_map:123
+3fb41394a0 aa LazyCompile:~getESMFacade node:internal/bootstrap/loaders:282
+3fb41398e8 28 LazyCompile:~ node:internal/bootstrap/loaders:293
+3fb4139a20 59 LazyCompile:~syncExports node:internal/bootstrap/loaders:307
+3fb4139b90 23 LazyCompile:~getOwn node:internal/bootstrap/loaders:188
+3fb4139e48 76 LazyCompile:~join node:path:1166
+3fb413a010 9f LazyCompile:~normalize node:path:1127
+3fb413a278 b7 LazyCompile:~Module._nodeModulePaths node:internal/modules/cjs/loader:747
+3fb413a690 128 LazyCompile:~pathToFileURL node:internal/url:1261
+3fb413a948 83 LazyCompile:~URL node:internal/url:545
+3fb413ab08 10 LazyCompile:~URLContext node:internal/url:143
+3fb413acc8 a9 LazyCompile:~#onParseComplete node:internal/url:596
+3fb413b040 389 LazyCompile:~URLSearchParams node:internal/url:165
+3fb413b640 23 LazyCompile:~initSearchParams node:internal/url:821
+3fb413b8e8 c7 LazyCompile:~encodePathChars node:internal/url:1246
+3fb413bb20 50 LazyCompile:~set pathname node:internal/url:722
+3fb413bc70 16 LazyCompile:~isURLThis node:internal/url:540
+3fb413bd98 2c LazyCompile:~get href node:internal/url:622
+3fb413c040 1ce LazyCompile:~Module._compile node:internal/modules/cjs/loader:1208
+3fb413c680 fc LazyCompile:~wrapSafe node:internal/modules/cjs/loader:1152
+3fb413cd88 1bc LazyCompile:~internalCompileFunction node:internal/vm:31
+3fb413d510 44 LazyCompile:~validateStringArray node:internal/validators:306
+3fb413d670 5f LazyCompile:~ node:internal/validators:288
+3fb413d918 5 Eval:~ [eval]-wrapper:1
+3fb413da10 2d Function:~ [eval]-wrapper:1
+3fb413dca0 13 LazyCompile:~importModuleDynamicallyWrap node:internal/vm/module:427
+3fb413ee40 ae LazyCompile:~makeRequireFunction node:internal/modules/cjs/helpers:65
+3fb413f280 19 LazyCompile:~setReal node:internal/modules/cjs/helpers:174
+3fb413f3f8 4 LazyCompile:~ [eval]-wrapper:6
+3fb413f590 42 LazyCompile:~ node:internal/process/execution:78
+3fb413f730 2a LazyCompile:~runInThisContext node:vm:303
+3fb4041ce8 13 LazyCompile:~createScript node:vm:258
+3fb4041fe0 179 LazyCompile:~Script node:vm:66
+3fb40422f0 9b LazyCompile:~ node:internal/validators:115
+3fb4042578 13 Script:~ [eval]:1
+3fb4042728 66 LazyCompile:~runInThisContext node:vm:124
+3fb40429f0 bc LazyCompile:~getRunInContextArgs node:vm:157
+3fb4042c28 26 LazyCompile:~log node:internal/console/constructor:376
+3fb4042d58 32 LazyCompile:~value node:internal/console/constructor:337
+3fb4042e78 1b LazyCompile:~get node:internal/console/constructor:209
+3fb4043018 7d LazyCompile:~getStdout node:internal/bootstrap/switches/is_main_thread:146
+3fb40434a8 118 LazyCompile:~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45
+3fb4043c08 397 LazyCompile:~Socket node:net:338
+3fb4044328 a9 LazyCompile:~Duplex node:internal/streams/duplex:54
+3fb4044ad0 dc LazyCompile:~Readable node:internal/streams/readable:186
+3fb40479b0 12 LazyCompile:~Stream node:internal/streams/legacy:10
+3fb40481c8 162 LazyCompile:~ReadableState node:internal/streams/readable:83
+3fb40485a8 62 LazyCompile:~getHighWaterMark node:internal/streams/state:19
+3fb4048848 1a LazyCompile:~highWaterMarkFrom node:internal/streams/state:10
+3fb4048928 d LazyCompile:~getDefaultHighWaterMark node:internal/streams/state:15
+3fb4048a00 11 LazyCompile:~BufferList node:internal/streams/buffer_list:14
+3fb4049138 62 LazyCompile:~construct node:internal/streams/destroy:219
+3fb4049e58 10a LazyCompile:~Writable node:internal/streams/writable:220
+3fb404c008 155 LazyCompile:~WritableState node:internal/streams/writable:77
+3fb404c3c0 17 LazyCompile:~resetBuffer node:internal/streams/writable:202
+3fb404c508 83 LazyCompile:~createHandle node:net:172
+3fb404c6a0 e LazyCompile:~set node:net:2163
+3fb404c788 8 LazyCompile:~get node:net:2162
+3fb404c918 c4 LazyCompile:~Readable.on node:internal/streams/readable:886
+3fb404cb90 87 LazyCompile:~initSocketHandle node:net:294
+3fb404cdc8 a0 LazyCompile:~undestroy node:internal/streams/destroy:154
+3fb404d080 20 LazyCompile:~getNewAsyncId node:net:191
+3fb404d188 15 LazyCompile:~addCleanup node:internal/bootstrap/switches/is_main_thread:140
+3fb404d2d8 60 LazyCompile:~value node:internal/console/constructor:315
+3fb404d478 26 LazyCompile:~formatWithOptions node:internal/util/inspect:2133
+3fb404d698 2fb LazyCompile:~formatWithOptionsInternal node:internal/util/inspect:2154
+3fb404dd18 10d LazyCompile:~value node:internal/console/constructor:272
+3fb404df88 75 LazyCompile:~listenerCount node:events:841
+3fb404e120 27 LazyCompile:~once node:events:646
+3fb404e2e8 3c LazyCompile:~_onceWrap node:events:632
+3fb404e408 1a LazyCompile:~Writable.write node:internal/streams/writable:336
+3fb404e5f8 152 LazyCompile:~_write node:internal/streams/writable:286
+3fb404e9c8 d9 LazyCompile:~writeOrBuffer node:internal/streams/writable:368
+3fb404ec00 1a LazyCompile:~Socket._write node:net:941
+3fb404eea0 d9 LazyCompile:~Socket._writeGeneric node:net:899
+3fb404f158 2d LazyCompile:~_unrefTimer node:net:486
+3fb404f278 37 LazyCompile:~writeGeneric node:internal/stream_base_commons:147
+3fb404fca0 2f LazyCompile:~createWriteWrap node:internal/stream_base_commons:109
+3fb404fed8 d7 LazyCompile:~handleWriteReq node:internal/stream_base_commons:45
+3fb4050120 5c LazyCompile:~afterWriteDispatched node:internal/stream_base_commons:155
+3fb4050378 143 LazyCompile:~onwrite node:internal/streams/writable:428
+3fb40507a8 174 LazyCompile:~nextTick node:internal/process/task_queues:103
+3fb4050a98 10 LazyCompile:~get node:internal/bootstrap/node:92
+3fb4050b88 f LazyCompile:~isEmpty node:internal/fixed_queue:95
+3fb4050c78 d LazyCompile:~isEmpty node:internal/fixed_queue:67
+3fb4050d68 19 LazyCompile:~setHasTickScheduled node:internal/process/task_queues:51
+3fb4050e68 17 LazyCompile:~newAsyncId node:internal/async_hooks:416
+3fb4050f68 23 LazyCompile:~getDefaultTriggerAsyncId node:internal/async_hooks:432
+3fb4051078 d LazyCompile:~initHooksExist node:internal/async_hooks:478
+3fb4051160 10 LazyCompile:~hasHooks node:internal/async_hooks:470
+3fb4051268 3b LazyCompile:~push node:internal/fixed_queue:99
+3fb40513a8 18 LazyCompile:~isFull node:internal/fixed_queue:71
+3fb40514b0 25 LazyCompile:~push node:internal/fixed_queue:75
+3fb40515e0 3e LazyCompile:~Readable.removeListener node:internal/streams/readable:916
+3fb4051758 133 LazyCompile:~removeListener node:events:675
+3fb4051aa8 13e LazyCompile:~processTicksAndRejections node:internal/process/task_queues:67
+3fb4051d78 30 LazyCompile:~shift node:internal/fixed_queue:108
+3fb4051ea8 36 LazyCompile:~shift node:internal/fixed_queue:80
+3fb4051fe0 2a LazyCompile:~emitBeforeScript node:internal/async_hooks:509
+3fb4052138 b4 LazyCompile:~pushAsyncContext node:internal/async_hooks:539
+3fb4052340 2e LazyCompile:~afterWriteTick node:internal/streams/writable:485
+3fb4052498 68 LazyCompile:~afterWrite node:internal/streams/writable:490
+3fb4052620 23 LazyCompile:~get node:internal/streams/duplex:103
+3fb4052760 57 LazyCompile:~ node:internal/console/constructor:356
+3fb4052950 61 LazyCompile:~finishMaybe node:internal/streams/writable:718
+3fb4052b30 50 LazyCompile:~needFinish node:internal/streams/writable:653
+3fb4052c78 d LazyCompile:~destroyHooksExist node:internal/async_hooks:486
+3fb4052d68 20 LazyCompile:~emitAfterScript node:internal/async_hooks:517
+3fb4052eb0 a7 LazyCompile:~popAsyncContext node:internal/async_hooks:553
+3fb4053090 d LazyCompile:~enabledHooksExist node:internal/async_hooks:474
+3fb4053290 273 LazyCompile:~processPromiseRejections node:internal/process/promises:220
+3fb4053718 19 LazyCompile:~setHasRejectionToWarn node:internal/process/promises:77

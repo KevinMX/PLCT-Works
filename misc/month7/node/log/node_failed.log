@@ -1,0 +1,75 @@
+Failed tests:                                                                                                                                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-builtins.js                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-exports.js                                                                       
+out/Release/node --experimental-wasi-unstable-preview1 /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-stdio.js                                           
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi.js                                                                                       
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-symlinks.js                                                                              
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-sign-verify.js                                                                     
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-debugger-extract-function-name.mjs                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-debugger-address.mjs                                                                      
+out/Release/node --frozen-intrinsics /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-freeze-intrinsics.js                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-fetch.mjs                                                                                 
+out/Release/node --expose-gc --noconcurrent_recompilation /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-dh-leak.js                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-keygen.js                                                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-http-outgoing-end-cork.js                                                                 
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-http-server-headers-timeout-keepalive.js                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-http-server-request-timeouts-mixed.js                                                     
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-icu-env.js                                                                                
+out/Release/node --expose-internals /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-repl-history-navigation.js                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-runner-inspect.mjs                                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-strace-openat-openssl.js                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-tls-root-certificates.js                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-tz-version.js                                                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-vm-global-non-writable-properties.js       
+out/Release/node --experimental-vm-modules /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-vm-module-synthetic.js                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-vm-strict-assign.js                                                                                            
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-wasm-web-api.js                                                                                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/abort/test-abort-backtrace.js                                                                                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wpt/test-url.js                                                                                                              
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-auto-resume.mjs                                                                                     
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-backtrace.js                                                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-break.js                                                                                            
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-breakpoint-exists.js                                                                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-clear-breakpoints.js                                                                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-custom-port.js                                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-exceptions.js                                                                                       
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-exec.js                                                                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-exec-scope.mjs                                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-heap-profiler.js                                                                                    
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-help.mjs                                                                                            
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-launch.mjs                                                                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-list.js                                                                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-low-level.js                                                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-object-type-remote-object.js                                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-pid.js                                                                                              
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-preserve-breaks.js                                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-profile.js                                                                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-profile-command.js                                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-random-port.js                                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-random-port-with-inspect-port.js                                                                    
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-restart-message.js                                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-run-after-quit-restart.js                                                                           
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-sb-before-load.js                                                                                   
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-scripts.js                                                                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-set-context-line-number.mjs                                                                         
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-use-strict.js                                                                                       
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-watch-validation.js                                                                                 
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-debugger-watchers.mjs                                                                                        
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-http-econnrefused.js                                                                                         
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-http-max-sockets.js                                                                                          
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-http-regr-gh-2928.js                                                                                         
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-https-connect-localport.js                                                                                   
+out/Release/node --expose-internals /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-inspector-async-hook-setup-at-signal.js                                                   
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-inspector-debug-brk-flag.js                                                                                  
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-inspector-enabled.js                                                                                         
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-net-GH-5504.js                                                                                               
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-net-connect-local-error.js                                                                                   
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-net-localport.js                                                                                             
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-net-server-bind.js                                                                                           
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-next-tick-error-spin.js                                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-perf-hooks.js                                                                                                
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-pipe.js                                                                                                      
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-tls-psk-client.js                                                                                            
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-tls-session-timeout.js                                                                                       
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-watch-mode.mjs                                                                                               
+out/Release/node /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/sequential/test-watch-mode-inspect.mjs

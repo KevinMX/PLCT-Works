@@ -1,0 +1,347 @@
+TAP version 13
+1..3671
+ok 1 es-module/test-cjs-prototype-pollution
+  ---
+  duration_ms: 7.321
+  ...
+ok 2 es-module/test-esm-basic-imports
+  ---
+  duration_ms: 8.780
+  ...
+ok 3 es-module/test-esm-assert-strict
+  ---
+  duration_ms: 8.874
+  ...
+ok 4 es-module/test-esm-cyclic-dynamic-import
+  ---
+  duration_ms: 8.965
+  ...
+ok 5 es-module/test-esm-dns-promises
+  ---
+  duration_ms: 9.113
+  ...
+ok 6 es-module/test-esm-custom-exports
+  ---
+  duration_ms: 10.12
+  ...
+ok 7 es-module/test-esm-default-type
+  ---
+  duration_ms: 10.854
+  ...
+ok 8 es-module/test-esm-assertionless-json-import
+  ---
+  duration_ms: 11.345
+  ...
+ok 9 es-module/test-esm-data-urls
+  ---
+  duration_ms: 11.848
+  ...
+ok 10 es-module/test-esm-cjs-named-error
+  ---
+  duration_ms: 12.939
+  ...
+ok 11 es-module/test-esm-child-process-fork-main
+  ---
+  duration_ms: 20.366
+  ...
+ok 12 es-module/test-esm-cjs-main # skip 0
+  ---
+  duration_ms: 20.849
+  ...
+ok 13 es-module/test-esm-dynamic-import
+  ---
+  duration_ms: 12.451
+  ...
+ok 14 es-module/test-cjs-esm-warn # skip 0
+  ---
+  duration_ms: 21.487
+  ...
+ok 15 es-module/test-esm-double-encoding
+  ---
+  duration_ms: 14.757
+  ...
+not ok 16 es-module/test-esm-cjs-exports
+  ---
+  duration_ms: 22.405
+  severity: fail
+  exitcode: 1
+  stack: |-
+    TAP version 13
+    # Subtest: ESM: importing CJS
+        # Subtest: should support valid CJS exports
+        not ok 1 - should support valid CJS exports
+          ---
+          duration_ms: 12190.010288
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            1 !== 0
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 0
+          actual: 1
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-exports.js:15:12)
+            process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+            async Test.run (node:internal/test_runner/test:548:9)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:801:7)
+            async startSubtest (node:internal/test_runner/harness:190:3)
+          ...
+        # Subtest: should error on invalid CJS exports
+        ok 2 - should error on invalid CJS exports
+          ---
+          duration_ms: 12235.373842
+          ...
+        1..2
+    not ok 1 - ESM: importing CJS
+      ---
+      duration_ms: 13185.695478
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..1
+    # tests 1
+    # pass 0
+    # fail 1
+    # cancelled 0
+    # skipped 0
+    # todo 0
+    # duration_ms 14019.965586
+  ...
+not ok 17 es-module/test-esm-cjs-builtins
+  ---
+  duration_ms: 23.254
+  severity: fail
+  exitcode: 1
+  stack: |-
+    TAP version 13
+    # Subtest: ESM: importing builtins & CJS
+        # Subtest: should work
+        not ok 1 - should work
+          ---
+          duration_ms: 12733.926334
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            1 !== 0
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 0
+          actual: 1
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-builtins.js:16:12)
+            process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+            async Test.run (node:internal/test_runner/test:548:9)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:801:7)
+            async startSubtest (node:internal/test_runner/harness:190:3)
+          ...
+        1..1
+    not ok 1 - ESM: importing builtins & CJS
+      ---
+      duration_ms: 13186.269075
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..1
+    # tests 1
+    # pass 0
+    # fail 1
+    # cancelled 0
+    # skipped 0
+    # todo 0
+    # duration_ms 14320.151519
+  ...
+ok 18 es-module/test-esm-encoded-path
+  ---
+  duration_ms: 13.111
+  ...
+ok 19 es-module/test-esm-example-loader
+  ---
+  duration_ms: 12.330
+  ...
+ok 20 es-module/test-esm-dynamic-import-assertion
+  ---
+  duration_ms: 14.845
+  ...
+ok 21 es-module/test-esm-error-cache
+  ---
+  duration_ms: 12.948
+  ...
+ok 22 es-module/test-esm-dynamic-import-assertion
+  ---
+  duration_ms: 15.998
+  ...
+ok 23 es-module/test-esm-cjs-load-error-note # skip 0
+  ---
+  duration_ms: 26.797
+  ...
+ok 24 es-module/test-esm-forbidden-globals
+  ---
+  duration_ms: 11.117
+  ...
+ok 25 es-module/test-esm-import-assertion-validation
+  ---
+  duration_ms: 9.76
+  ...
+ok 26 es-module/test-esm-import-assertion-1
+  ---
+  duration_ms: 11.165
+  ...
+ok 27 es-module/test-esm-encoded-path-native # skip 0
+  ---
+  duration_ms: 23.403
+  ...
+ok 28 es-module/test-esm-import-assertion-errors
+  ---
+  duration_ms: 9.476
+  ...
+ok 29 es-module/test-esm-fs-promises
+  ---
+  duration_ms: 12.601
+  ...
+ok 30 es-module/test-esm-import-assertion-3
+  ---
+  duration_ms: 10.398
+  ...
+ok 31 es-module/test-esm-import-assertion-4
+  ---
+  duration_ms: 10.715
+  ...
+ok 32 es-module/test-esm-import-assertion-2
+  ---
+  duration_ms: 11.819
+  ...
+ok 33 es-module/test-esm-import-assertion-warning
+  ---
+  duration_ms: 11.56
+  ...
+ok 34 es-module/test-esm-import-assertion-errors
+  ---
+  duration_ms: 12.72
+  ...
+ok 35 es-module/test-esm-export-not-found # skip 0
+  ---
+  duration_ms: 25.991
+  ...
+ok 36 es-module/test-esm-experimental-warnings # skip 0
+  ---
+  duration_ms: 27.156
+  ...
+ok 37 es-module/test-esm-exports
+  ---
+  duration_ms: 21.602
+  ...
+ok 38 es-module/test-esm-exports-deprecations
+  ---
+  duration_ms: 22.237
+  ...
+ok 39 es-module/test-esm-import-meta
+  ---
+  duration_ms: 12.602
+  ...
+ok 40 es-module/test-esm-import-meta-resolve
+  ---
+  duration_ms: 12.127
+  ...
+ok 41 es-module/test-esm-json-cache
+  ---
+  duration_ms: 11.758
+  ...
+ok 42 es-module/test-esm-live-binding
+  ---
+  duration_ms: 11.137
+  ...
+ok 43 es-module/test-esm-loader
+  ---
+  duration_ms: 11.309
+  ...
+ok 44 es-module/test-esm-invalid-data-urls
+  ---
+  duration_ms: 13.795
+  ...
+ok 45 es-module/test-esm-imports
+  ---
+  duration_ms: 15.650
+  ...
+ok 46 es-module/test-esm-loader-cache-clearing
+  ---
+  duration_ms: 10.55
+  ...
+ok 47 es-module/test-esm-imports-deprecations
+  ---
+  duration_ms: 16.41
+  ...
+ok 48 es-module/test-esm-import-json-named-export # skip 0
+  ---
+  duration_ms: 23.576
+  ...
+ok 49 es-module/test-esm-loader-custom-condition
+  ---
+  duration_ms: 11.606
+  ...
+ok 50 es-module/test-esm-loader-dependency
+  ---
+  duration_ms: 10.889
+  ...
+ok 51 es-module/test-esm-loader-event-loop
+  ---
+  duration_ms: 12.105
+  ...
+ok 52 es-module/test-esm-invalid-pjson # skip 0
+  ---
+  duration_ms: 23.378
+  ...
+ok 53 es-module/test-esm-initialization # skip 0
+  ---
+  duration_ms: 24.188
+  ...
+ok 54 es-module/test-esm-loader-invalid-url
+  ---
+  duration_ms: 11.91
+  ...
+ok 55 es-module/test-esm-loader-modulemap
+  ---
+  duration_ms: 12.221
+  ...
+ok 56 es-module/test-esm-json # skip 0
+  ---
+  duration_ms: 25.753
+  ...
+ok 57 es-module/test-esm-loader-invalid-format
+  ---
+  duration_ms: 14.824
+  ...
+ok 58 es-module/test-esm-loader-resolve-type
+  ---
+  duration_ms: 16.608
+  ...
+ok 59 es-module/test-esm-loader-search
+  ---
+  duration_ms: 17.488
+  ...
+ok 60 es-module/test-esm-loader-stringify-text
+  ---
+  duration_ms: 20.27
+  ...
+ok 61 es-module/test-esm-loader-chaining # skip 0
+  ---
+  duration_ms: 38.887
+  ...
+ok 62 es-module/test-esm-main-lookup
+  ---
+  duration_ms: 19.889
+  ...
+ok 63 es-module/test-esm-named-exports
+  ---
+  duration_ms: 20.992
+  ...

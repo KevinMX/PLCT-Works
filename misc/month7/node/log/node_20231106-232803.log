@@ -1,0 +1,4119 @@
+TAP version 13
+1..3671
+ok 1 es-module/test-cjs-prototype-pollution
+  ---
+  duration_ms: 6.904
+  ...
+ok 2 es-module/test-esm-assert-strict
+  ---
+  duration_ms: 7.259
+  ...
+ok 3 es-module/test-esm-basic-imports
+  ---
+  duration_ms: 7.449
+  ...
+ok 4 es-module/test-esm-cyclic-dynamic-import
+  ---
+  duration_ms: 7.478
+  ...
+ok 5 es-module/test-esm-assertionless-json-import
+  ---
+  duration_ms: 8.793
+  ...
+ok 6 es-module/test-esm-data-urls
+  ---
+  duration_ms: 8.797
+  ...
+ok 7 es-module/test-esm-custom-exports
+  ---
+  duration_ms: 9.66
+  ...
+ok 8 es-module/test-esm-cjs-named-error
+  ---
+  duration_ms: 10.741
+  ...
+ok 9 es-module/test-esm-double-encoding
+  ---
+  duration_ms: 12.195
+  ...
+ok 10 es-module/test-cjs-esm-warn # skip 0
+  ---
+  duration_ms: 19.841
+  ...
+ok 11 es-module/test-esm-default-type
+  ---
+  duration_ms: 13.47
+  ...
+ok 12 es-module/test-esm-cjs-main # skip 0
+  ---
+  duration_ms: 20.139
+  ...
+ok 13 es-module/test-esm-dynamic-import
+  ---
+  duration_ms: 13.473
+  ...
+not ok 14 es-module/test-esm-cjs-exports
+  ---
+  duration_ms: 21.479
+  severity: fail
+  exitcode: 1
+  stack: |-
+    TAP version 13
+    # Subtest: ESM: importing CJS
+        # Subtest: should support valid CJS exports
+        not ok 1 - should support valid CJS exports
+          ---
+          duration_ms: 10796.384107
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            1 !== 0
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 0
+          actual: 1
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-exports.js:15:12)
+            process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+            async Test.run (node:internal/test_runner/test:548:9)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:801:7)
+            async startSubtest (node:internal/test_runner/harness:190:3)
+          ...
+        # Subtest: should error on invalid CJS exports
+        ok 2 - should error on invalid CJS exports
+          ---
+          duration_ms: 12805.167467
+          ...
+        1..2
+    not ok 1 - ESM: importing CJS
+      ---
+      duration_ms: 13208.154334
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..1
+    # tests 1
+    # pass 0
+    # fail 1
+    # cancelled 0
+    # skipped 0
+    # todo 0
+    # duration_ms 13767.302712
+  ...
+not ok 15 es-module/test-esm-cjs-builtins
+  ---
+  duration_ms: 22.284
+  severity: fail
+  exitcode: 1
+  stack: |-
+    TAP version 13
+    # Subtest: ESM: importing builtins & CJS
+        # Subtest: should work
+        not ok 1 - should work
+          ---
+          duration_ms: 12439.773912
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            1 !== 0
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 0
+          actual: 1
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/es-module/test-esm-cjs-builtins.js:16:12)
+            process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+            async Test.run (node:internal/test_runner/test:548:9)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:801:7)
+            async startSubtest (node:internal/test_runner/harness:190:3)
+          ...
+        1..1
+    not ok 1 - ESM: importing builtins & CJS
+      ---
+      duration_ms: 12609.242757
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..1
+    # tests 1
+    # pass 0
+    # fail 1
+    # cancelled 0
+    # skipped 0
+    # todo 0
+    # duration_ms 13675.201076
+  ...
+ok 16 es-module/test-esm-child-process-fork-main
+  ---
+  duration_ms: 22.592
+  ...
+ok 17 es-module/test-esm-encoded-path
+  ---
+  duration_ms: 13.751
+  ...
+ok 18 es-module/test-esm-dynamic-import-assertion
+  ---
+  duration_ms: 14.58
+  ...
+ok 19 es-module/test-esm-dns-promises
+  ---
+  duration_ms: 15.908
+  ...
+ok 20 es-module/test-esm-dynamic-import-assertion
+  ---
+  duration_ms: 14.552
+  ...
+ok 21 es-module/test-esm-cjs-load-error-note # skip 0
+  ---
+  duration_ms: 24.597
+  ...
+ok 22 es-module/test-esm-example-loader
+  ---
+  duration_ms: 8.487
+  ...
+ok 23 es-module/test-esm-error-cache
+  ---
+  duration_ms: 9.10
+  ...
+ok 24 es-module/test-esm-fs-promises
+  ---
+  duration_ms: 8.372
+  ...
+ok 25 es-module/test-esm-forbidden-globals
+  ---
+  duration_ms: 8.807
+  ...
+ok 26 es-module/test-esm-import-assertion-3
+  ---
+  duration_ms: 8.612
+  ...
+ok 27 es-module/test-esm-import-assertion-1
+  ---
+  duration_ms: 9.331
+  ...
+ok 28 es-module/test-esm-import-assertion-2
+  ---
+  duration_ms: 9.551
+  ...
+ok 29 es-module/test-esm-encoded-path-native # skip 0
+  ---
+  duration_ms: 22.595
+  ...
+ok 30 es-module/test-esm-import-assertion-4
+  ---
+  duration_ms: 10.356
+  ...
+ok 31 es-module/test-esm-import-assertion-errors
+  ---
+  duration_ms: 10.156
+  ...
+ok 32 es-module/test-esm-import-assertion-errors
+  ---
+  duration_ms: 11.389
+  ...
+ok 33 es-module/test-esm-exports
+  ---
+  duration_ms: 18.492
+  ...
+ok 34 es-module/test-esm-import-assertion-validation
+  ---
+  duration_ms: 11.389
+  ...
+ok 35 es-module/test-esm-exports-deprecations
+  ---
+  duration_ms: 18.228
+  ...
+ok 36 es-module/test-esm-export-not-found # skip 0
+  ---
+  duration_ms: 22.245
+  ...
+ok 37 es-module/test-esm-experimental-warnings # skip 0
+  ---
+  duration_ms: 23.296
+  ...
+ok 38 es-module/test-esm-import-assertion-warning
+  ---
+  duration_ms: 12.142
+  ...
+ok 39 es-module/test-esm-import-meta
+  ---
+  duration_ms: 11.760
+  ...
+ok 40 es-module/test-esm-invalid-data-urls
+  ---
+  duration_ms: 10.623
+  ...
+ok 41 es-module/test-esm-import-meta-resolve
+  ---
+  duration_ms: 13.102
+  ...
+ok 42 es-module/test-esm-imports
+  ---
+  duration_ms: 17.414
+  ...
+ok 43 es-module/test-esm-imports-deprecations
+  ---
+  duration_ms: 17.399
+  ...
+ok 44 es-module/test-esm-loader-cache-clearing
+  ---
+  duration_ms: 9.642
+  ...
+ok 45 es-module/test-esm-live-binding
+  ---
+  duration_ms: 12.899
+  ...
+ok 46 es-module/test-esm-json-cache
+  ---
+  duration_ms: 13.44
+  ...
+ok 47 es-module/test-esm-loader
+  ---
+  duration_ms: 11.993
+  ...
+ok 48 es-module/test-esm-import-json-named-export # skip 0
+  ---
+  duration_ms: 23.40
+  ...
+ok 49 es-module/test-esm-loader-custom-condition
+  ---
+  duration_ms: 11.726
+  ...
+ok 50 es-module/test-esm-loader-dependency
+  ---
+  duration_ms: 10.485
+  ...
+ok 51 es-module/test-esm-loader-event-loop
+  ---
+  duration_ms: 11.284
+  ...
+ok 52 es-module/test-esm-initialization # skip 0
+  ---
+  duration_ms: 24.223
+  ...
+ok 53 es-module/test-esm-invalid-pjson # skip 0
+  ---
+  duration_ms: 23.441
+  ...
+ok 54 es-module/test-esm-loader-invalid-format
+  ---
+  duration_ms: 11.917
+  ...
+ok 55 es-module/test-esm-json # skip 0
+  ---
+  duration_ms: 26.383
+  ...
+ok 56 es-module/test-esm-loader-invalid-url
+  ---
+  duration_ms: 13.304
+  ...
+ok 57 es-module/test-esm-loader-modulemap
+  ---
+  duration_ms: 13.517
+  ...
+ok 58 es-module/test-esm-loader-search
+  ---
+  duration_ms: 11.401
+  ...
+ok 59 es-module/test-esm-loader-resolve-type
+  ---
+  duration_ms: 19.77
+  ...
+ok 60 es-module/test-esm-loader-chaining # skip 0
+  ---
+  duration_ms: 34.585
+  ...
+ok 61 es-module/test-esm-main-lookup
+  ---
+  duration_ms: 15.453
+  ...
+ok 62 es-module/test-esm-loader-http-imports # skip 0
+  ---
+  duration_ms: 32.346
+  ...
+ok 63 es-module/test-esm-loader-not-found # skip 0
+  ---
+  duration_ms: 28.890
+  ...
+ok 64 es-module/test-esm-named-exports
+  ---
+  duration_ms: 16.297
+  ...
+ok 65 es-module/test-esm-loader-side-effect
+  ---
+  duration_ms: 27.783
+  ...
+ok 66 es-module/test-esm-loader-hooks # skip 0
+  ---
+  duration_ms: 34.699
+  ...
+ok 67 es-module/test-esm-loader-stringify-text
+  ---
+  duration_ms: 21.757
+  ...
+ok 68 es-module/test-esm-loader-obsolete-hooks # skip 0
+  ---
+  duration_ms: 35.82
+  ...
+ok 69 es-module/test-esm-namespace
+  ---
+  duration_ms: 16.226
+  ...
+ok 70 es-module/test-esm-path-posix
+  ---
+  duration_ms: 12.256
+  ...
+ok 71 es-module/test-esm-path-win32
+  ---
+  duration_ms: 12.639
+  ...
+ok 72 es-module/test-esm-module-not-found-commonjs-hint # skip 0
+  ---
+  duration_ms: 31.767
+  ...
+ok 73 es-module/test-esm-loader-with-syntax-error # skip 0
+  ---
+  duration_ms: 32.819
+  ...
+ok 74 es-module/test-esm-pkgname
+  ---
+  duration_ms: 14.679
+  ...
+ok 75 es-module/test-esm-loader-thenable # skip 0
+  ---
+  duration_ms: 34.560
+  ...
+ok 76 es-module/test-esm-preserve-symlinks-not-found-plain
+  ---
+  duration_ms: 10.641
+  ...
+ok 77 es-module/test-esm-preserve-symlinks-not-found
+  ---
+  duration_ms: 12.309
+  ...
+ok 78 es-module/test-esm-no-addons
+  ---
+  duration_ms: 27.224
+  ...
+ok 79 es-module/test-esm-loader-spawn-promisified # skip 0
+  ---
+  duration_ms: 47.991
+  ...
+ok 80 es-module/test-esm-non-js # skip 0
+  ---
+  duration_ms: 24.769
+  ...
+ok 81 es-module/test-esm-preserve-symlinks
+  ---
+  duration_ms: 21.941
+  ...
+ok 82 es-module/test-esm-process
+  ---
+  duration_ms: 11.976
+  ...
+ok 83 es-module/test-esm-prototype-pollution
+  ---
+  duration_ms: 11.601
+  ...
+ok 84 es-module/test-esm-nowarn-exports # skip 0
+  ---
+  duration_ms: 25.297
+  ...
+ok 85 es-module/test-esm-require-cache
+  ---
+  duration_ms: 11.231
+  ...
+ok 86 es-module/test-esm-scope-node-modules
+  ---
+  duration_ms: 9.995
+  ...
+ok 87 es-module/test-esm-shared-loader-dep
+  ---
+  duration_ms: 9.803
+  ...
+ok 88 es-module/test-esm-resolve-type
+  ---
+  duration_ms: 14.54
+  ...
+ok 89 es-module/test-esm-preserve-symlinks-main
+  ---
+  duration_ms: 28.809
+  ...
+ok 90 es-module/test-esm-shebang
+  ---
+  duration_ms: 10.451
+  ...
+ok 91 es-module/test-esm-snapshot
+  ---
+  duration_ms: 10.413
+  ...
+ok 92 es-module/test-esm-repl
+  ---
+  duration_ms: 21.530
+  ...
+ok 93 es-module/test-esm-throw-undefined
+  ---
+  duration_ms: 10.626
+  ...
+ok 94 es-module/test-esm-repl-imports # skip 0
+  ---
+  duration_ms: 22.974
+  ...
+ok 95 es-module/test-esm-tla
+  ---
+  duration_ms: 14.40
+  ...
+ok 96 es-module/test-esm-type-flag
+  ---
+  duration_ms: 13.728
+  ...
+ok 97 es-module/test-esm-specifiers-symlink
+  ---
+  duration_ms: 21.450
+  ...
+ok 98 es-module/test-esm-symlink-main
+  ---
+  duration_ms: 20.527
+  ...
+ok 99 es-module/test-esm-symlink
+  ---
+  duration_ms: 21.705
+  ...
+ok 100 es-module/test-esm-type-main
+  ---
+  duration_ms: 18.191
+  ...
+ok 101 es-module/test-esm-symlink-type
+  ---
+  duration_ms: 27.831
+  ...
+ok 102 es-module/test-esm-syntax-error # skip 0
+  ---
+  duration_ms: 26.322
+  ...
+ok 103 es-module/test-esm-util-types
+  ---
+  duration_ms: 17.162
+  ...
+ok 104 es-module/test-esm-specifiers # skip 0
+  ---
+  duration_ms: 33.28
+  ...
+ok 105 es-module/test-esm-undefined-cjs-global-like-variables
+  ---
+  duration_ms: 20.106
+  ...
+ok 106 es-module/test-loaders-hidden-from-users
+  ---
+  duration_ms: 15.664
+  ...
+ok 107 es-module/test-esm-windows
+  ---
+  duration_ms: 19.454
+  ...
+ok 108 es-module/test-esm-type-flag-errors
+  ---
+  duration_ms: 32.796
+  ...
+ok 109 wasi/test-return-on-exit
+  ---
+  duration_ms: 13.237
+  ...
+ok 110 es-module/test-loaders-unknown-builtin-module
+  ---
+  duration_ms: 15.958
+  ...
+ok 111 wasi/test-wasi-initialize-validation
+  ---
+  duration_ms: 12.190
+  ...
+ok 112 es-module/test-esm-tla-unfinished # skip 0
+  ---
+  duration_ms: 38.92
+  ...
+ok 113 es-module/test-esm-unknown-or-no-extension # skip 0
+  ---
+  duration_ms: 30.43
+  ...
+ok 114 wasi/test-wasi-options-validation
+  ---
+  duration_ms: 11.735
+  ...
+ok 115 wasi/test-wasi-require-flag
+  ---
+  duration_ms: 8.788
+  ...
+ok 116 es-module/test-esm-wasm # skip 0
+  ---
+  duration_ms: 29.354
+  ...
+ok 117 wasi/test-wasi-start-validation
+  ---
+  duration_ms: 9.517
+  ...
+ok 118 es-module/test-http-imports-cli # skip 0
+  ---
+  duration_ms: 28.177
+  ...
+not ok 119 wasi/test-wasi-stdio
+  ---
+  duration_ms: 8.651
+  severity: fail
+  exitcode: 1
+  stack: |-
+    (node:5756) ExperimentalWarning: WASI is an experimental feature and might change at any time
+    (Use `node --trace-warnings ...` to show where the warning was created)
+    wasm://wasm/000119f2:1
+    
+    
+    RuntimeError: memory access out of bounds
+        at wasm://wasm/000119f2:wasm-function[46]:0x3386
+        at wasm://wasm/000119f2:wasm-function[33]:0x2d3c
+        at wasm://wasm/000119f2:wasm-function[31]:0x2bd7
+        at wasm://wasm/000119f2:wasm-function[12]:0x368
+        at wasm://wasm/000119f2:wasm-function[11]:0x281
+        at WASI.start (node:wasi:114:7)
+        at /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-stdio.js:28:20
+    
+    Node.js v18.16.0
+  ...
+not ok 120 wasi/test-wasi
+  ---
+  duration_ms: 21.888
+  severity: fail
+  exitcode: 1
+  stack: |-
+    executing cant_dotdot
+    (node:5757) ExperimentalWarning: WASI is an experimental feature and might change at any time
+    (Use `node --trace-warnings ...` to show where the warning was created)
+    fd_prestat_get(3, 69720)
+    fd_prestat_dir_name(3, 131088, 9)
+    fd_prestat_get(4, 68979)
+    fd_prestat_dir_name(4, 131152, 5)
+    fd_prestat_get(5, 68238)
+    environ_sizes_get(68242, 68238)
+    environ_get(133696, 131168)
+    wasm://wasm/0001fe06:1
+    
+    
+    RuntimeError: memory access out of bounds
+        at wasm://wasm/0001fe06:wasm-function[24]:0x2867
+        at wasm://wasm/0001fe06:wasm-function[25]:0x2944
+        at wasm://wasm/0001fe06:wasm-function[45]:0x35be
+        at wasm://wasm/0001fe06:wasm-function[14]:0x384
+        at wasm://wasm/0001fe06:wasm-function[13]:0x30f
+        at WASI.start (node:wasi:114:7)
+        at /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi.js:31:10
+    
+    Node.js v18.16.0
+    
+    node:assert:125
+      throw new AssertionError(obj);
+      ^
+    
+    AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+    
+    1 !== 0
+    
+        at runWASI (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi.js:58:12)
+        at Object.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi.js:63:3)
+        at Module._compile (node:internal/modules/cjs/loader:1254:14)
+        at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+        at Module.load (node:internal/modules/cjs/loader:1117:32)
+        at Module._load (node:internal/modules/cjs/loader:958:12)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+        at node:internal/main/run_main_module:23:47 {
+      generatedMessage: true,
+      code: 'ERR_ASSERTION',
+      actual: 1,
+      expected: 0,
+      operator: 'strictEqual'
+    }
+    
+    Node.js v18.16.0
+  ...
+ok 121 wasi/test-wasi-not-started
+  ---
+  duration_ms: 19.595
+  ...
+ok 122 parallel/test-abortcontroller
+  ---
+  duration_ms: 8.736
+  ...
+ok 123 parallel/test-accessor-properties
+  ---
+  duration_ms: 8.252
+  ...
+ok 124 parallel/test-abortsignal-cloneable
+  ---
+  duration_ms: 8.709
+  ...
+ok 125 parallel/test-arm-math-illegal-instruction
+  ---
+  duration_ms: 7.489
+  ...
+ok 126 es-module/test-http-imports
+  ---
+  duration_ms: 33.864
+  ...
+ok 127 wasi/test-wasi-worker-terminate
+  ---
+  duration_ms: 12.867
+  ...
+ok 128 parallel/test-assert-async
+  ---
+  duration_ms: 7.892
+  ...
+ok 129 parallel/test-assert-calltracker-calls
+  ---
+  duration_ms: 7.419
+  ...
+not ok 130 wasi/test-wasi-symlinks
+  ---
+  duration_ms: 16.938
+  severity: fail
+  exitcode: 1
+  stack: |-
+    executing create_symlink
+    (node:5875) ExperimentalWarning: WASI is an experimental feature and might change at any time
+    (Use `node --trace-warnings ...` to show where the warning was created)
+    fd_prestat_get(3, 71048)
+    fd_prestat_dir_name(3, 131088, 9)
+    fd_prestat_get(4, 70275)
+    fd_prestat_dir_name(4, 131152, 5)
+    fd_prestat_get(5, 69502)
+    environ_sizes_get(69506, 69502)
+    environ_get(133680, 131168)
+    wasm://wasm/00022d32:1
+    
+    
+    RuntimeError: memory access out of bounds
+        at wasm://wasm/00022d32:wasm-function[28]:0x2b8b
+        at wasm://wasm/00022d32:wasm-function[31]:0x2d2a
+        at wasm://wasm/00022d32:wasm-function[16]:0x415
+        at wasm://wasm/00022d32:wasm-function[15]:0x372
+        at WASI.start (node:wasi:114:7)
+        at /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-symlinks.js:27:10
+    
+    Node.js v18.16.0
+    
+    node:assert:125
+      throw new AssertionError(obj);
+      ^
+    
+    AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+    
+    1 !== 0
+    
+        at runWASI (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-symlinks.js:74:12)
+        at Object.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/wasi/test-wasi-symlinks.js:79:3)
+        at Module._compile (node:internal/modules/cjs/loader:1254:14)
+        at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+        at Module.load (node:internal/modules/cjs/loader:1117:32)
+        at Module._load (node:internal/modules/cjs/loader:958:12)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+        at node:internal/main/run_main_module:23:47 {
+      generatedMessage: true,
+      code: 'ERR_ASSERTION',
+      actual: 1,
+      expected: 0,
+      operator: 'strictEqual'
+    }
+    
+    Node.js v18.16.0
+  ...
+ok 131 parallel/test-assert-calltracker-report
+  ---
+  duration_ms: 7.485
+  ...
+ok 132 parallel/test-assert
+  ---
+  duration_ms: 11.880
+  ...
+ok 133 parallel/test-assert-calltracker-verify
+  ---
+  duration_ms: 7.218
+  ...
+ok 134 parallel/test-aborted-util
+  ---
+  duration_ms: 16.694
+  ...
+ok 135 parallel/test-assert-calltracker-getCalls # skip 0
+  ---
+  duration_ms: 9.385
+  ...
+ok 136 parallel/test-assert-fail
+  ---
+  duration_ms: 7.625
+  ...
+ok 137 parallel/test-assert-checktag
+  ---
+  duration_ms: 9.349
+  ...
+ok 138 parallel/test-assert-fail-deprecation
+  ---
+  duration_ms: 7.920
+  ...
+ok 139 parallel/test-assert-if-error
+  ---
+  duration_ms: 7.355
+  ...
+ok 140 parallel/test-assert-first-line
+  ---
+  duration_ms: 8.299
+  ...
+ok 141 parallel/test-assert-strict-exists
+  ---
+  duration_ms: 7.411
+  ...
+ok 142 parallel/test-assert-builtins-not-read-from-filesystem
+  ---
+  duration_ms: 15.523
+  ...
+ok 143 parallel/test-assert-deep
+  ---
+  duration_ms: 12.348
+  ...
+ok 144 parallel/test-async-hooks-async-await
+  ---
+  duration_ms: 6.789
+  ...
+ok 145 parallel/test-async-hooks-asyncresource-constructor
+  ---
+  duration_ms: 7.431
+  ...
+ok 146 parallel/test-async-hooks-close-during-destroy
+  ---
+  duration_ms: 7.434
+  ...
+ok 147 parallel/test-async-hooks-constructor
+  ---
+  duration_ms: 6.873
+  ...
+ok 148 parallel/test-async-hooks-correctly-switch-promise-hook
+  ---
+  duration_ms: 7.1
+  ...
+ok 149 parallel/test-async-hooks-destroy-on-gc
+  ---
+  duration_ms: 6.854
+  ...
+ok 150 parallel/test-assert-typedarray-deepequal
+  ---
+  duration_ms: 9.930
+  ...
+ok 151 parallel/test-async-hooks-disable-during-promise
+  ---
+  duration_ms: 7.133
+  ...
+ok 152 parallel/test-async-hooks-disable-gc-tracking
+  ---
+  duration_ms: 7.152
+  ...
+ok 153 parallel/test-async-hooks-enable-before-promise-resolve
+  ---
+  duration_ms: 7.98
+  ...
+ok 154 parallel/test-async-hooks-enable-disable-enable
+  ---
+  duration_ms: 6.871
+  ...
+ok 155 parallel/test-async-hooks-enable-disable
+  ---
+  duration_ms: 7.272
+  ...
+ok 156 parallel/test-async-hooks-enable-during-promise
+  ---
+  duration_ms: 6.813
+  ...
+ok 157 parallel/test-async-hooks-enable-recursive
+  ---
+  duration_ms: 6.879
+  ...
+ok 158 parallel/test-async-hooks-execution-async-resource
+  ---
+  duration_ms: 9.411
+  ...
+ok 159 parallel/test-async-hooks-http-agent
+  ---
+  duration_ms: 8.15
+  ...
+ok 160 parallel/test-async-hooks-prevent-double-destroy
+  ---
+  duration_ms: 6.912
+  ...
+ok 161 parallel/test-async-hooks-promise
+  ---
+  duration_ms: 6.887
+  ...
+ok 162 parallel/test-async-hooks-http-agent-destroy
+  ---
+  duration_ms: 8.767
+  ...
+ok 163 parallel/test-async-hooks-execution-async-resource-await
+  ---
+  duration_ms: 9.557
+  ...
+ok 164 parallel/test-async-hooks-promise-enable-disable
+  ---
+  duration_ms: 7.172
+  ...
+ok 165 parallel/test-async-hooks-run-in-async-scope-caught-exception
+  ---
+  duration_ms: 6.999
+  ...
+ok 166 parallel/test-async-hooks-recursive-stack-runInAsyncScope
+  ---
+  duration_ms: 7.687
+  ...
+ok 167 parallel/test-async-hooks-promise-triggerid
+  ---
+  duration_ms: 7.973
+  ...
+ok 168 parallel/test-async-hooks-run-in-async-scope-this-arg
+  ---
+  duration_ms: 8.154
+  ...
+ok 169 parallel/test-async-hooks-top-level-clearimmediate
+  ---
+  duration_ms: 7.603
+  ...
+ok 170 parallel/test-async-hooks-vm-gc
+  ---
+  duration_ms: 7.816
+  ...
+ok 171 parallel/test-async-hooks-http-parser-destroy
+  ---
+  duration_ms: 15.22
+  ...
+ok 172 parallel/test-async-local-storage-bind
+  ---
+  duration_ms: 7.674
+  ...
+ok 173 parallel/test-async-local-storage-contexts
+  ---
+  duration_ms: 7.990
+  ...
+ok 174 parallel/test-async-local-storage-deep-stack
+  ---
+  duration_ms: 7.619
+  ...
+ok 175 parallel/test-async-local-storage-exit-does-not-leak
+  ---
+  duration_ms: 7.619
+  ...
+ok 176 parallel/test-async-hooks-worker-asyncfn-terminate-1
+  ---
+  duration_ms: 11.390
+  ...
+ok 177 parallel/test-async-local-storage-snapshot
+  ---
+  duration_ms: 7.554
+  ...
+ok 178 parallel/test-async-hooks-worker-asyncfn-terminate-2
+  ---
+  duration_ms: 11.785
+  ...
+ok 179 parallel/test-async-hooks-worker-asyncfn-terminate-3
+  ---
+  duration_ms: 11.992
+  ...
+ok 180 parallel/test-async-wrap-constructor
+  ---
+  duration_ms: 8.316
+  ...
+ok 181 parallel/test-async-hooks-worker-asyncfn-terminate-4
+  ---
+  duration_ms: 11.945
+  ...
+ok 182 parallel/test-async-wrap-destroyid
+  ---
+  duration_ms: 7.781
+  ...
+ok 183 parallel/test-async-wrap-promise-after-enabled
+  ---
+  duration_ms: 6.986
+  ...
+ok 184 parallel/test-async-wrap-trigger-id
+  ---
+  duration_ms: 7.9
+  ...
+ok 185 parallel/test-async-local-storage-http-multiclients
+  ---
+  duration_ms: 14.628
+  ...
+ok 186 parallel/test-asyncresource-bind
+  ---
+  duration_ms: 6.970
+  ...
+ok 187 parallel/test-atomics-wake
+  ---
+  duration_ms: 6.798
+  ...
+ok 188 parallel/test-bad-unicode
+  ---
+  duration_ms: 6.623
+  ...
+ok 189 parallel/test-beforeexit-event-exit
+  ---
+  duration_ms: 7.87
+  ...
+ok 190 parallel/test-benchmark-cli
+  ---
+  duration_ms: 7.293
+  ...
+ok 191 parallel/test-async-wrap-tlssocket-asyncreset
+  ---
+  duration_ms: 11.11
+  ...
+ok 192 parallel/test-bash-completion
+  ---
+  duration_ms: 7.711
+  ...
+ok 193 parallel/test-async-wrap-uncaughtexception
+  ---
+  duration_ms: 9.703
+  ...
+ok 194 parallel/test-binding-constants
+  ---
+  duration_ms: 6.591
+  ...
+ok 195 parallel/test-async-wrap-pop-id-during-load
+  ---
+  duration_ms: 15.809
+  ...
+ok 196 parallel/test-blob
+  ---
+  duration_ms: 8.157
+  ...
+ok 197 parallel/test-blob-createobjecturl
+  ---
+  duration_ms: 7.228
+  ...
+ok 198 parallel/test-blocklist
+  ---
+  duration_ms: 7.673
+  ...
+ok 199 parallel/test-blocklist-clone
+  ---
+  duration_ms: 7.657
+  ...
+ok 200 parallel/test-bootstrap-modules
+  ---
+  duration_ms: 7.768
+  ...
+ok 201 parallel/test-broadcastchannel-custom-inspect
+  ---
+  duration_ms: 7.208
+  ...
+ok 202 parallel/test-buffer-arraybuffer
+  ---
+  duration_ms: 7.787
+  ...
+ok 203 parallel/test-btoa-atob
+  ---
+  duration_ms: 8.26
+  ...
+ok 204 parallel/test-buffer-ascii
+  ---
+  duration_ms: 7.332
+  ...
+ok 205 parallel/test-buffer-backing-arraybuffer
+  ---
+  duration_ms: 7.136
+  ...
+ok 206 parallel/test-buffer-alloc
+  ---
+  duration_ms: 9.380
+  ...
+ok 207 parallel/test-buffer-bigint64
+  ---
+  duration_ms: 7.378
+  ...
+ok 208 parallel/test-buffer-badhex
+  ---
+  duration_ms: 7.816
+  ...
+ok 209 parallel/test-buffer-bytelength
+  ---
+  duration_ms: 7.740
+  ...
+ok 210 parallel/test-buffer-compare
+  ---
+  duration_ms: 7.491
+  ...
+ok 211 parallel/test-buffer-compare-offset
+  ---
+  duration_ms: 7.401
+  ...
+ok 212 parallel/test-buffer-concat
+  ---
+  duration_ms: 7.602
+  ...
+ok 213 parallel/test-buffer-constants
+  ---
+  duration_ms: 7.411
+  ...
+ok 214 parallel/test-blob-buffer-too-large
+  ---
+  duration_ms: 17.577
+  ...
+ok 215 parallel/test-buffer-constructor-deprecation-error
+  ---
+  duration_ms: 7.434
+  ...
+ok 216 parallel/test-buffer-constructor-outside-node-modules
+  ---
+  duration_ms: 7.728
+  ...
+ok 217 parallel/test-buffer-equals
+  ---
+  duration_ms: 7.209
+  ...
+ok 218 parallel/test-buffer-copy
+  ---
+  duration_ms: 7.922
+  ...
+ok 219 parallel/test-buffer-fakes
+  ---
+  duration_ms: 7.31
+  ...
+ok 220 parallel/test-buffer-failed-alloc-typed-arrays
+  ---
+  duration_ms: 7.727
+  ...
+ok 221 parallel/test-buffer-from
+  ---
+  duration_ms: 7.753
+  ...
+ok 222 parallel/test-buffer-fill
+  ---
+  duration_ms: 8.88
+  ...
+ok 223 parallel/test-buffer-includes
+  ---
+  duration_ms: 8.42
+  ...
+ok 224 parallel/test-buffer-inheritance
+  ---
+  duration_ms: 7.146
+  ...
+ok 225 parallel/test-buffer-inspect
+  ---
+  duration_ms: 7.264
+  ...
+ok 226 parallel/test-buffer-isascii
+  ---
+  duration_ms: 7.77
+  ...
+ok 227 parallel/test-buffer-isencoding
+  ---
+  duration_ms: 7.381
+  ...
+ok 228 parallel/test-buffer-iterator
+  ---
+  duration_ms: 7.227
+  ...
+ok 229 parallel/test-buffer-isutf8
+  ---
+  duration_ms: 7.677
+  ...
+ok 230 parallel/test-buffer-new
+  ---
+  duration_ms: 7.187
+  ...
+ok 231 parallel/test-buffer-no-negative-allocation
+  ---
+  duration_ms: 7.539
+  ...
+ok 232 parallel/test-buffer-nopendingdep-map
+  ---
+  duration_ms: 6.596
+  ...
+ok 233 parallel/test-buffer-of-no-deprecation
+  ---
+  duration_ms: 6.607
+  ...
+ok 234 parallel/test-buffer-parent-property
+  ---
+  duration_ms: 6.617
+  ...
+ok 235 parallel/test-buffer-indexof
+  ---
+  duration_ms: 14.922
+  ...
+ok 236 parallel/test-buffer-pending-deprecation
+  ---
+  duration_ms: 7.86
+  ...
+ok 237 parallel/test-buffer-pool-untransferable
+  ---
+  duration_ms: 6.973
+  ...
+ok 238 parallel/test-buffer-prototype-inspect
+  ---
+  duration_ms: 6.757
+  ...
+ok 239 parallel/test-buffer-over-max-length
+  ---
+  duration_ms: 9.497
+  ...
+ok 240 parallel/test-buffer-read
+  ---
+  duration_ms: 7.23
+  ...
+ok 241 parallel/test-buffer-readdouble
+  ---
+  duration_ms: 7.567
+  ...
+ok 242 parallel/test-buffer-readfloat
+  ---
+  duration_ms: 7.182
+  ...
+ok 243 parallel/test-buffer-readint
+  ---
+  duration_ms: 7.946
+  ...
+ok 244 parallel/test-buffer-safe-unsafe
+  ---
+  duration_ms: 6.988
+  ...
+ok 245 parallel/test-buffer-sharedarraybuffer
+  ---
+  duration_ms: 6.894
+  ...
+ok 246 parallel/test-buffer-readuint
+  ---
+  duration_ms: 7.841
+  ...
+ok 247 parallel/test-buffer-slice
+  ---
+  duration_ms: 6.745
+  ...
+ok 248 parallel/test-buffer-swap
+  ---
+  duration_ms: 6.855
+  ...
+ok 249 parallel/test-buffer-slow
+  ---
+  duration_ms: 7.251
+  ...
+ok 250 parallel/test-buffer-tojson
+  ---
+  duration_ms: 6.915
+  ...
+ok 251 parallel/test-buffer-tostring
+  ---
+  duration_ms: 6.659
+  ...
+ok 252 parallel/test-buffer-tostring-range
+  ---
+  duration_ms: 6.536
+  ...
+ok 253 parallel/test-buffer-tostring-rangeerror
+  ---
+  duration_ms: 7.62
+  ...
+ok 254 parallel/test-buffer-write
+  ---
+  duration_ms: 7.56
+  ...
+ok 255 parallel/test-buffer-writedouble
+  ---
+  duration_ms: 7.113
+  ...
+ok 256 parallel/test-buffer-writefloat
+  ---
+  duration_ms: 7.250
+  ...
+ok 257 parallel/test-buffer-zero-fill
+  ---
+  duration_ms: 6.874
+  ...
+ok 258 parallel/test-buffer-writeint
+  ---
+  duration_ms: 7.871
+  ...
+ok 259 parallel/test-buffer-zero-fill-cli
+  ---
+  duration_ms: 6.736
+  ...
+ok 260 parallel/test-buffer-zero-fill-reset
+  ---
+  duration_ms: 6.472
+  ...
+ok 261 parallel/test-buffer-writeuint
+  ---
+  duration_ms: 7.662
+  ...
+ok 262 parallel/test-c-ares
+  ---
+  duration_ms: 7.586
+  ...
+ok 263 parallel/test-async-hooks-fatal-error
+  ---
+  duration_ms: 76.497
+  ...
+ok 264 parallel/test-child-process-constructor
+  ---
+  duration_ms: 7.402
+  ...
+ok 265 parallel/test-child-process-default-options
+  ---
+  duration_ms: 7.440
+  ...
+ok 266 parallel/test-child-process-cwd
+  ---
+  duration_ms: 8.346
+  ...
+ok 267 parallel/test-child-process-env
+  ---
+  duration_ms: 7.469
+  ...
+ok 268 parallel/test-child-process-double-pipe
+  ---
+  duration_ms: 7.743
+  ...
+ok 269 parallel/test-child-process-advanced-serialization
+  ---
+  duration_ms: 14.514
+  ...
+ok 270 parallel/test-child-process-exec-abortcontroller-promisified
+  ---
+  duration_ms: 8.126
+  ...
+ok 271 parallel/test-child-process-bad-stdio
+  ---
+  duration_ms: 14.470
+  ...
+ok 272 parallel/test-child-process-can-write-to-stdout
+  ---
+  duration_ms: 14.80
+  ...
+ok 273 parallel/test-child-process-advanced-serialization-largebuffer
+  ---
+  duration_ms: 16.729
+  ...
+ok 274 parallel/test-child-process-exec-any-shells-windows # skip Windows specific test.
+  ---
+  duration_ms: 7.425
+  ...
+ok 275 parallel/test-child-process-exec-cwd
+  ---
+  duration_ms: 7.668
+  ...
+ok 276 parallel/test-child-process-detached
+  ---
+  duration_ms: 14.28
+  ...
+ok 277 parallel/test-child-process-exec-env
+  ---
+  duration_ms: 7.351
+  ...
+ok 278 parallel/test-child-process-disconnect
+  ---
+  duration_ms: 14.943
+  ...
+ok 279 parallel/test-child-process-exec-error
+  ---
+  duration_ms: 7.933
+  ...
+ok 280 parallel/test-child-process-exec-timeout-expire
+  ---
+  duration_ms: 7.636
+  ...
+ok 281 parallel/test-child-process-exec-stdout-stderr-data-string
+  ---
+  duration_ms: 8.565
+  ...
+ok 282 parallel/test-child-process-exec-timeout-kill
+  ---
+  duration_ms: 8.384
+  ...
+ok 283 parallel/test-child-process-execFile-promisified-abortController
+  ---
+  duration_ms: 10.299
+  ...
+ok 284 parallel/test-child-process-exec-kill-throws
+  ---
+  duration_ms: 18.645
+  ...
+ok 285 parallel/test-child-process-exec-std-encoding
+  ---
+  duration_ms: 19.8
+  ...
+ok 286 parallel/test-child-process-exec-encoding
+  ---
+  duration_ms: 22.650
+  ...
+ok 287 parallel/test-child-process-exec-maxbuf
+  ---
+  duration_ms: 21.613
+  ...
+ok 288 parallel/test-child-process-flush-stdio
+  ---
+  duration_ms: 11.835
+  ...
+ok 289 parallel/test-child-process-exec-timeout-not-expired
+  ---
+  duration_ms: 20.782
+  ...
+ok 290 parallel/test-child-process-execfile-maxbuf
+  ---
+  duration_ms: 22.322
+  ...
+ok 291 parallel/test-child-process-execfile
+  ---
+  duration_ms: 23.465
+  ...
+ok 292 parallel/test-child-process-fork-abort-signal
+  ---
+  duration_ms: 14.785
+  ...
+ok 293 parallel/test-child-process-exit-code
+  ---
+  duration_ms: 21.446
+  ...
+ok 294 parallel/test-child-process-fork
+  ---
+  duration_ms: 21.365
+  ...
+ok 295 parallel/test-child-process-fork-detached
+  ---
+  duration_ms: 15.495
+  ...
+ok 296 parallel/test-child-process-fork-closed-channel-segfault
+  ---
+  duration_ms: 15.635
+  ...
+ok 297 parallel/test-child-process-fork-close
+  ---
+  duration_ms: 16.694
+  ...
+ok 298 parallel/test-child-process-fork-args
+  ---
+  duration_ms: 17.884
+  ...
+ok 299 parallel/test-child-process-fork-dgram
+  ---
+  duration_ms: 16.378
+  ...
+ok 300 parallel/test-child-process-execfilesync-maxbuf
+  ---
+  duration_ms: 34.685
+  ...
+ok 301 parallel/test-child-process-fork-and-spawn
+  ---
+  duration_ms: 25.663
+  ...
+ok 302 parallel/test-child-process-fork-exec-path
+  ---
+  duration_ms: 14.896
+  ...
+ok 303 parallel/test-child-process-fork-getconnections
+  ---
+  duration_ms: 15.738
+  ...
+ok 304 parallel/test-child-process-fork-net
+  ---
+  duration_ms: 16.202
+  ...
+ok 305 parallel/test-child-process-execsync-maxbuf
+  ---
+  duration_ms: 40.985
+  ...
+ok 306 parallel/test-child-process-fork-net-server
+  ---
+  duration_ms: 16.975
+  ...
+ok 307 parallel/test-child-process-fork-exec-argv
+  ---
+  duration_ms: 23.399
+  ...
+ok 308 parallel/test-child-process-fork-timeout-kill-signal
+  ---
+  duration_ms: 9.440
+  ...
+ok 309 parallel/test-child-process-fork-no-shell
+  ---
+  duration_ms: 16.67
+  ...
+ok 310 parallel/test-child-process-fork-ref2
+  ---
+  duration_ms: 16.424
+  ...
+ok 311 parallel/test-child-process-fork-ref
+  ---
+  duration_ms: 16.813
+  ...
+ok 312 parallel/test-child-process-fork-net-socket
+  ---
+  duration_ms: 17.224
+  ...
+ok 313 parallel/test-child-process-fork-stdio
+  ---
+  duration_ms: 16.250
+  ...
+ok 314 parallel/test-buffer-constructor-node-modules-paths
+  ---
+  duration_ms: 100.998
+  ...
+ok 315 parallel/test-child-process-fork-stdio-string-variant
+  ---
+  duration_ms: 16.634
+  ...
+ok 316 parallel/test-child-process-fork3
+  ---
+  duration_ms: 15.2
+  ...
+ok 317 parallel/test-child-process-kill
+  ---
+  duration_ms: 8.17
+  ...
+ok 318 parallel/test-child-process-fork-url
+  ---
+  duration_ms: 18.336
+  ...
+ok 319 parallel/test-child-process-internal
+  ---
+  duration_ms: 14.685
+  ...
+ok 320 parallel/test-child-process-pipe-dataflow
+  ---
+  duration_ms: 8.770
+  ...
+ok 321 parallel/test-child-process-ipc
+  ---
+  duration_ms: 15.396
+  ...
+ok 322 parallel/test-child-process-http-socket-leak
+  ---
+  duration_ms: 17.599
+  ...
+ok 323 parallel/test-child-process-reject-null-bytes
+  ---
+  duration_ms: 8.48
+  ...
+ok 324 parallel/test-child-process-ipc-next-tick
+  ---
+  duration_ms: 15.539
+  ...
+ok 325 parallel/test-child-process-no-deprecation
+  ---
+  duration_ms: 15.160
+  ...
+ok 326 parallel/test-child-process-promisified
+  ---
+  duration_ms: 15.646
+  ...
+ok 327 parallel/test-child-process-recv-handle
+  ---
+  duration_ms: 15.784
+  ...
+ok 328 parallel/test-child-process-send-after-close
+  ---
+  duration_ms: 14.714
+  ...
+ok 329 parallel/test-child-process-set-blocking
+  ---
+  duration_ms: 8.125
+  ...
+ok 330 parallel/test-child-process-send-cb
+  ---
+  duration_ms: 15.636
+  ...
+ok 331 parallel/test-child-process-spawn-args
+  ---
+  duration_ms: 9.74
+  ...
+ok 332 parallel/test-child-process-send-returns-boolean
+  ---
+  duration_ms: 14.629
+  ...
+ok 333 parallel/test-child-process-send-keep-open
+  ---
+  duration_ms: 16.652
+  ...
+ok 334 parallel/test-child-process-send-type-error
+  ---
+  duration_ms: 15.620
+  ...
+ok 335 parallel/test-child-process-spawn-controller
+  ---
+  duration_ms: 9.182
+  ...
+ok 336 parallel/test-child-process-spawn-error
+  ---
+  duration_ms: 8.65
+  ...
+ok 337 parallel/test-child-process-spawn-event
+  ---
+  duration_ms: 8.132
+  ...
+ok 338 parallel/test-child-process-send-utf8
+  ---
+  duration_ms: 16.490
+  ...
+ok 339 parallel/test-child-process-server-close
+  ---
+  duration_ms: 16.489
+  ...
+ok 340 parallel/test-child-process-spawn-timeout-kill-signal
+  ---
+  duration_ms: 8.956
+  ...
+ok 341 parallel/test-child-process-spawnsync
+  ---
+  duration_ms: 8.970
+  ...
+ok 342 parallel/test-child-process-spawnsync-args
+  ---
+  duration_ms: 8.751
+  ...
+ok 343 parallel/test-child-process-spawnsync-kill-signal
+  ---
+  duration_ms: 8.228
+  ...
+ok 344 parallel/test-child-process-spawn-shell
+  ---
+  duration_ms: 15.196
+  ...
+ok 345 parallel/test-child-process-spawnsync-timeout
+  ---
+  duration_ms: 8.73
+  ...
+ok 346 parallel/test-child-process-silent
+  ---
+  duration_ms: 23.275
+  ...
+ok 347 parallel/test-child-process-spawn-argv0
+  ---
+  duration_ms: 24.55
+  ...
+ok 348 parallel/test-child-process-stdin
+  ---
+  duration_ms: 9.426
+  ...
+ok 349 parallel/test-child-process-spawnsync-env
+  ---
+  duration_ms: 17.2
+  ...
+ok 350 parallel/test-child-process-spawnsync-shell
+  ---
+  duration_ms: 17.778
+  ...
+ok 351 parallel/test-child-process-stdio
+  ---
+  duration_ms: 12.835
+  ...
+ok 352 parallel/test-child-process-stdio-overlapped # skip overlapped-checker binary is not available
+  ---
+  duration_ms: 9.787
+  ...
+ok 353 parallel/test-child-process-stdio-merge-stdouts-into-cat
+  ---
+  duration_ms: 11.428
+  ...
+ok 354 parallel/test-child-process-spawn-typeerror
+  ---
+  duration_ms: 25.888
+  ...
+ok 355 parallel/test-child-process-stdin-ipc
+  ---
+  duration_ms: 17.747
+  ...
+ok 356 parallel/test-child-process-stdio-reuse-readable-stdio
+  ---
+  duration_ms: 10.828
+  ...
+ok 357 parallel/test-child-process-stdio-big-write-end
+  ---
+  duration_ms: 18.310
+  ...
+ok 358 parallel/test-child-process-uid-gid
+  ---
+  duration_ms: 8.318
+  ...
+ok 359 parallel/test-child-process-stdio-inherit
+  ---
+  duration_ms: 18.465
+  ...
+ok 360 parallel/test-child-process-validate-stdio
+  ---
+  duration_ms: 7.600
+  ...
+ok 361 parallel/test-child-process-stdout-flush
+  ---
+  duration_ms: 17.41
+  ...
+ok 362 parallel/test-child-process-spawnsync-validation-errors
+  ---
+  duration_ms: 29.664
+  ...
+ok 363 parallel/test-cli-bad-options
+  ---
+  duration_ms: 11.464
+  ...
+ok 364 parallel/test-child-process-stdout-flush-exit
+  ---
+  duration_ms: 17.195
+  ...
+ok 365 parallel/test-child-process-stdout-ipc
+  ---
+  duration_ms: 16.909
+  ...
+ok 366 parallel/test-cli-node-options-disallowed
+  ---
+  duration_ms: 20.130
+  ...
+ok 367 parallel/test-child-process-spawnsync-maxbuf
+  ---
+  duration_ms: 49.396
+  ...
+ok 368 parallel/test-cli-eval-event
+  ---
+  duration_ms: 27.63
+  ...
+ok 369 parallel/test-cli-syntax-eval
+  ---
+  duration_ms: 21.17
+  ...
+ok 370 parallel/test-client-request-destroy
+  ---
+  duration_ms: 21.643
+  ...
+ok 371 parallel/test-child-process-windows-hide
+  ---
+  duration_ms: 38.6
+  ...
+ok 372 parallel/test-cli-node-print-help
+  ---
+  duration_ms: 34.864
+  ...
+ok 373 parallel/test-cli-options-precedence
+  ---
+  duration_ms: 54.728
+  ...
+ok 374 parallel/test-cli-eval
+  ---
+  duration_ms: 63.868
+  ...
+ok 375 parallel/test-cluster-advanced-serialization
+  ---
+  duration_ms: 40.137
+  ...
+ok 376 parallel/test-child-process-spawnsync-input
+  ---
+  duration_ms: 91.616
+  ...
+ok 377 parallel/test-cluster-accept-fail
+  ---
+  duration_ms: 43.881
+  ...
+ok 378 parallel/test-cluster-basic
+  ---
+  duration_ms: 40.584
+  ...
+ok 379 parallel/test-cluster-bind-privileged-port
+  ---
+  duration_ms: 40.446
+  ...
+ok 380 parallel/test-cluster-call-and-destroy
+  ---
+  duration_ms: 37.897
+  ...
+ok 381 parallel/test-cluster-child-index-dgram
+  ---
+  duration_ms: 38.958
+  ...
+ok 382 parallel/test-cli-options-negation
+  ---
+  duration_ms: 78.586
+  ...
+ok 383 parallel/test-cluster-bind-twice
+  ---
+  duration_ms: 61.689
+  ...
+ok 384 parallel/test-cli-syntax-piped-bad
+  ---
+  duration_ms: 88.1
+  ...
+ok 385 parallel/test-cli-syntax-piped-good
+  ---
+  duration_ms: 87.571
+  ...
+ok 386 parallel/test-cluster-child-index-net
+  ---
+  duration_ms: 36.660
+  ...
+ok 387 parallel/test-cluster-concurrent-disconnect
+  ---
+  duration_ms: 37.771
+  ...
+ok 388 parallel/test-cli-node-options
+  ---
+  duration_ms: 99.553
+  ...
+ok 389 parallel/test-cluster-cwd
+  ---
+  duration_ms: 37.286
+  ...
+ok 390 parallel/test-cluster-dgram-1
+  ---
+  duration_ms: 36.610
+  ...
+ok 391 parallel/test-cluster-dgram-ipv6only
+  ---
+  duration_ms: 35.206
+  ...
+ok 392 parallel/test-cluster-dgram-bind-fd
+  ---
+  duration_ms: 37.88
+  ...
+ok 393 parallel/test-cluster-dgram-2
+  ---
+  duration_ms: 38.379
+  ...
+ok 394 parallel/test-cluster-dgram-reuse
+  ---
+  duration_ms: 35.360
+  ...
+ok 395 parallel/test-cluster-disconnect-before-exit
+  ---
+  duration_ms: 28.84
+  ...
+ok 396 parallel/test-cluster-disconnect-with-no-workers
+  ---
+  duration_ms: 9.736
+  ...
+ok 397 parallel/test-cluster-disconnect-exitedAfterDisconnect-race
+  ---
+  duration_ms: 25.596
+  ...
+ok 398 parallel/test-cluster-disconnect-leak
+  ---
+  duration_ms: 24.162
+  ...
+ok 399 parallel/test-cluster-disconnect-idle-worker
+  ---
+  duration_ms: 24.701
+  ...
+ok 400 parallel/test-cluster-eaddrinuse
+  ---
+  duration_ms: 19.776
+  ...
+ok 401 parallel/test-cluster-fork-env
+  ---
+  duration_ms: 20.985
+  ...
+ok 402 parallel/test-cluster-fork-stdio
+  ---
+  duration_ms: 21.801
+  ...
+ok 403 parallel/test-cluster-disconnect
+  ---
+  duration_ms: 50.383
+  ...
+ok 404 parallel/test-cluster-disconnect-unshared-udp
+  ---
+  duration_ms: 26.806
+  ...
+ok 405 parallel/test-cluster-disconnect-unshared-tcp
+  ---
+  duration_ms: 29.695
+  ...
+ok 406 parallel/test-cluster-disconnect-race
+  ---
+  duration_ms: 32.961
+  ...
+ok 407 parallel/test-cluster-invalid-message
+  ---
+  duration_ms: 18.406
+  ...
+ok 408 parallel/test-cluster-http-pipe
+  ---
+  duration_ms: 21.432
+  ...
+ok 409 parallel/test-cluster-eaccess
+  ---
+  duration_ms: 28.519
+  ...
+ok 410 parallel/test-cluster-fork-windowsHide
+  ---
+  duration_ms: 26.365
+  ...
+ok 411 parallel/test-cluster-kill-infinite-loop
+  ---
+  duration_ms: 14.453
+  ...
+ok 412 parallel/test-cluster-ipc-throw
+  ---
+  duration_ms: 16.638
+  ...
+ok 413 parallel/test-cluster-kill-disconnect
+  ---
+  duration_ms: 16.923
+  ...
+ok 414 parallel/test-cluster-listen-pipe-readable-writable
+  ---
+  duration_ms: 15.208
+  ...
+ok 415 parallel/test-cluster-listening-port
+  ---
+  duration_ms: 15.751
+  ...
+ok 416 parallel/test-cluster-net-listen
+  ---
+  duration_ms: 15.434
+  ...
+ok 417 parallel/test-cluster-message
+  ---
+  duration_ms: 15.646
+  ...
+ok 418 parallel/test-cluster-net-listen-backlog
+  ---
+  duration_ms: 15.741
+  ...
+ok 419 parallel/test-cluster-net-listen-relative-path
+  ---
+  duration_ms: 15.358
+  ...
+ok 420 parallel/test-cluster-net-listen-ipv6only-false
+  ---
+  duration_ms: 16.372
+  ...
+ok 421 parallel/test-cluster-net-server-drop-connection
+  ---
+  duration_ms: 16.322
+  ...
+ok 422 parallel/test-cluster-net-send
+  ---
+  duration_ms: 17.490
+  ...
+ok 423 parallel/test-cluster-rr-handle-keep-loop-alive
+  ---
+  duration_ms: 11.164
+  ...
+ok 424 parallel/test-cluster-process-disconnect
+  ---
+  duration_ms: 15.345
+  ...
+ok 425 parallel/test-cluster-rr-handle-close
+  ---
+  duration_ms: 14.655
+  ...
+ok 426 parallel/test-cluster-rr-domain-listen
+  ---
+  duration_ms: 15.674
+  ...
+ok 427 parallel/test-cluster-primary-error
+  ---
+  duration_ms: 23.247
+  ...
+ok 428 parallel/test-cluster-rr-handle-ref-unref
+  ---
+  duration_ms: 15.238
+  ...
+ok 429 parallel/test-cluster-setup-primary-argv
+  ---
+  duration_ms: 7.915
+  ...
+ok 430 parallel/test-cluster-rr-ref
+  ---
+  duration_ms: 15.172
+  ...
+ok 431 parallel/test-cluster-primary-kill
+  ---
+  duration_ms: 24.559
+  ...
+ok 432 parallel/test-cluster-setup-primary-cumulative
+  ---
+  duration_ms: 7.836
+  ...
+ok 433 parallel/test-cluster-send-deadlock
+  ---
+  duration_ms: 15.727
+  ...
+ok 434 parallel/test-cluster-setup-primary-multiple
+  ---
+  duration_ms: 7.582
+  ...
+ok 435 parallel/test-cluster-setup-primary-emit
+  ---
+  duration_ms: 7.936
+  ...
+ok 436 parallel/test-cluster-send-handle-twice
+  ---
+  duration_ms: 16.415
+  ...
+ok 437 parallel/test-cluster-send-socket-to-worker-http-server
+  ---
+  duration_ms: 16.430
+  ...
+ok 438 parallel/test-cluster-setup-primary
+  ---
+  duration_ms: 14.318
+  ...
+ok 439 parallel/test-cluster-worker-constructor
+  ---
+  duration_ms: 6.935
+  ...
+ok 440 parallel/test-cluster-server-restart-none
+  ---
+  duration_ms: 21.750
+  ...
+ok 441 parallel/test-cluster-shared-handle-bind-error
+  ---
+  duration_ms: 15.27
+  ...
+ok 442 parallel/test-cluster-server-restart-rr
+  ---
+  duration_ms: 22.648
+  ...
+ok 443 parallel/test-cluster-shared-handle-bind-privileged-port
+  ---
+  duration_ms: 14.730
+  ...
+ok 444 parallel/test-cluster-uncaught-exception
+  ---
+  duration_ms: 13.978
+  ...
+ok 445 parallel/test-cluster-worker-death
+  ---
+  duration_ms: 13.973
+  ...
+ok 446 parallel/test-cluster-worker-destroy
+  ---
+  duration_ms: 14.231
+  ...
+ok 447 parallel/test-cluster-worker-events
+  ---
+  duration_ms: 13.706
+  ...
+ok 448 parallel/test-cluster-worker-disconnect-on-error
+  ---
+  duration_ms: 15.11
+  ...
+ok 449 parallel/test-cluster-worker-disconnect
+  ---
+  duration_ms: 15.409
+  ...
+ok 450 parallel/test-cluster-worker-exit
+  ---
+  duration_ms: 14.578
+  ...
+ok 451 parallel/test-cluster-worker-forced-exit
+  ---
+  duration_ms: 14.102
+  ...
+ok 452 parallel/test-cluster-shared-leak
+  ---
+  duration_ms: 21.731
+  ...
+ok 453 parallel/test-cluster-worker-handle-close
+  ---
+  duration_ms: 14.128
+  ...
+ok 454 parallel/test-cluster-worker-init
+  ---
+  duration_ms: 14.248
+  ...
+ok 455 parallel/test-cluster-worker-isconnected
+  ---
+  duration_ms: 13.751
+  ...
+ok 456 parallel/test-cluster-worker-isdead
+  ---
+  duration_ms: 13.933
+  ...
+ok 457 parallel/test-common-gc
+  ---
+  duration_ms: 8.19
+  ...
+ok 458 parallel/test-code-cache
+  ---
+  duration_ms: 10.806
+  ...
+ok 459 parallel/test-common-must-not-call
+  ---
+  duration_ms: 7.560
+  ...
+ok 460 parallel/test-cluster-worker-kill-signal
+  ---
+  duration_ms: 15.59
+  ...
+ok 461 parallel/test-cluster-worker-kill
+  ---
+  duration_ms: 15.940
+  ...
+ok 462 parallel/test-cluster-worker-no-exit
+  ---
+  duration_ms: 16.156
+  ...
+ok 463 parallel/test-common-must-not-mutate-object-deep
+  ---
+  duration_ms: 9.254
+  ...
+ok 464 parallel/test-cluster-worker-wait-server-close
+  ---
+  duration_ms: 15.831
+  ...
+ok 465 parallel/test-common-countdown
+  ---
+  duration_ms: 15.96
+  ...
+ok 466 parallel/test-console
+  ---
+  duration_ms: 9.105
+  ...
+ok 467 parallel/test-common-expect-warning
+  ---
+  duration_ms: 15.59
+  ...
+ok 468 parallel/test-console-assign-undefined
+  ---
+  duration_ms: 8.31
+  ...
+ok 469 parallel/test-console-async-write-error
+  ---
+  duration_ms: 8.65
+  ...
+ok 470 parallel/test-common
+  ---
+  duration_ms: 17.280
+  ...
+ok 471 parallel/test-console-clear
+  ---
+  duration_ms: 7.864
+  ...
+ok 472 parallel/test-console-count
+  ---
+  duration_ms: 7.794
+  ...
+ok 473 parallel/test-console-formatTime
+  ---
+  duration_ms: 7.443
+  ...
+ok 474 parallel/test-console-group
+  ---
+  duration_ms: 7.969
+  ...
+ok 475 parallel/test-console-instance
+  ---
+  duration_ms: 8.283
+  ...
+ok 476 parallel/test-console-log-stdio-broken-dest
+  ---
+  duration_ms: 7.274
+  ...
+ok 477 parallel/test-console-issue-43095
+  ---
+  duration_ms: 7.424
+  ...
+ok 478 parallel/test-console-log-throw-primitive
+  ---
+  duration_ms: 7.741
+  ...
+ok 479 parallel/test-console-methods
+  ---
+  duration_ms: 6.947
+  ...
+ok 480 parallel/test-console-not-call-toString
+  ---
+  duration_ms: 7.74
+  ...
+ok 481 parallel/test-console-self-assign
+  ---
+  duration_ms: 7.21
+  ...
+ok 482 parallel/test-console-stdio-setters
+  ---
+  duration_ms: 6.910
+  ...
+ok 483 parallel/test-console-no-swallow-stack-overflow
+  ---
+  duration_ms: 8.128
+  ...
+ok 484 parallel/test-console-sync-write-error
+  ---
+  duration_ms: 7.529
+  ...
+ok 485 parallel/test-console-table
+  ---
+  duration_ms: 7.687
+  ...
+ok 486 parallel/test-console-tty-colors
+  ---
+  duration_ms: 7.869
+  ...
+ok 487 parallel/test-constants
+  ---
+  duration_ms: 6.939
+  ...
+ok 488 parallel/test-corepack-version
+  ---
+  duration_ms: 6.993
+  ...
+ok 489 parallel/test-coverage-with-inspector-disabled # skip V8 inspector is enabled
+  ---
+  duration_ms: 6.951
+  ...
+ok 490 parallel/test-crypto-aes-wrap
+  ---
+  duration_ms: 6.876
+  ...
+ok 491 parallel/test-crypto-certificate
+  ---
+  duration_ms: 8.141
+  ...
+ok 492 parallel/test-crypto
+  ---
+  duration_ms: 11.386
+  ...
+ok 493 parallel/test-crypto-cipher-decipher
+  ---
+  duration_ms: 8.91
+  ...
+ok 494 parallel/test-crypto-authenticated-stream
+  ---
+  duration_ms: 9.361
+  ...
+ok 495 parallel/test-crypto-des3-wrap
+  ---
+  duration_ms: 7.738
+  ...
+ok 496 parallel/test-crypto-cipheriv-decipheriv
+  ---
+  duration_ms: 9.263
+  ...
+ok 497 parallel/test-crypto-authenticated
+  ---
+  duration_ms: 13.575
+  ...
+ok 498 parallel/test-crypto-async-sign-verify
+  ---
+  duration_ms: 15.320
+  ...
+ok 499 parallel/test-crypto-dh-curves
+  ---
+  duration_ms: 11.170
+  ...
+ok 500 parallel/test-crypto-dh-padding
+  ---
+  duration_ms: 6.28
+  ...
+ok 501 parallel/test-crypto-dh-shared
+  ---
+  duration_ms: 5.982
+  ...
+ok 502 parallel/test-crypto-domain
+  ---
+  duration_ms: 5.575
+  ...
+ok 503 parallel/test-crypto-domains
+  ---
+  duration_ms: 5.682
+  ...
+ok 504 parallel/test-crypto-ecb # skip Blowfish is only available with the legacy provider in OpenSSl 3.x
+  ---
+  duration_ms: 5.250
+  ...
+ok 505 parallel/test-crypto-ecdh-convert-key
+  ---
+  duration_ms: 5.682
+  ...
+ok 506 parallel/test-crypto-encoding-validation-error
+  ---
+  duration_ms: 5.719
+  ...
+ok 507 parallel/test-crypto-dh-stateless
+  ---
+  duration_ms: 13.610
+  ...
+ok 508 parallel/test-crypto-fips
+  ---
+  duration_ms: 7.155
+  ...
+ok 509 parallel/test-crypto-dh-modp2
+  ---
+  duration_ms: 16.365
+  ...
+ok 510 parallel/test-crypto-from-binary
+  ---
+  duration_ms: 6.728
+  ...
+ok 511 parallel/test-crypto-getcipherinfo
+  ---
+  duration_ms: 6.97
+  ...
+ok 512 parallel/test-crypto-hash-stream-pipe
+  ---
+  duration_ms: 5.842
+  ...
+ok 513 parallel/test-crypto-hash
+  ---
+  duration_ms: 6.864
+  ...
+ok 514 parallel/test-crypto-hkdf
+  ---
+  duration_ms: 6.719
+  ...
+ok 515 parallel/test-crypto-hmac
+  ---
+  duration_ms: 7.19
+  ...
+ok 516 parallel/test-crypto-keygen-deprecation
+  ---
+  duration_ms: 6.369
+  ...
+ok 517 parallel/test-crypto-lazy-transform-writable
+  ---
+  duration_ms: 6.301
+  ...
+ok 518 parallel/test-crypto-key-objects-messageport
+  ---
+  duration_ms: 14.23
+  ...
+ok 519 parallel/test-crypto-modp1-error
+  ---
+  duration_ms: 9.488
+  ...
+ok 520 parallel/test-crypto-padding
+  ---
+  duration_ms: 6.947
+  ...
+ok 521 parallel/test-crypto-key-objects
+  ---
+  duration_ms: 16.859
+  ...
+ok 522 parallel/test-crypto-no-algorithm
+  ---
+  duration_ms: 11.238
+  ...
+ok 523 parallel/test-crypto-padding-aes256
+  ---
+  duration_ms: 5.846
+  ...
+ok 524 parallel/test-crypto-pbkdf2
+  ---
+  duration_ms: 7.128
+  ...
+ok 525 parallel/test-crypto-op-during-process-exit
+  ---
+  duration_ms: 14.419
+  ...
+ok 526 parallel/test-crypto-private-decrypt-gh32240
+  ---
+  duration_ms: 6.344
+  ...
+ok 527 parallel/test-crypto-prime
+  ---
+  duration_ms: 7.962
+  ...
+ok 528 parallel/test-crypto-psychic-signatures
+  ---
+  duration_ms: 6.546
+  ...
+ok 529 parallel/test-crypto-binary-default
+  ---
+  duration_ms: 51.9
+  ...
+ok 530 parallel/test-crypto-randomfillsync-regression
+  ---
+  duration_ms: 5.631
+  ...
+ok 531 parallel/test-crypto-randomuuid
+  ---
+  duration_ms: 5.657
+  ...
+ok 532 parallel/test-crypto-dh-modp2-views
+  ---
+  duration_ms: 45.732
+  ...
+ok 533 parallel/test-crypto-random
+  ---
+  duration_ms: 8.813
+  ...
+ok 534 parallel/test-crypto-publicDecrypt-fails-first-time
+  ---
+  duration_ms: 11.798
+  ...
+ok 535 parallel/test-crypto-secret-keygen
+  ---
+  duration_ms: 6.104
+  ...
+not ok 536 parallel/test-crypto-sign-verify
+  ---
+  duration_ms: 6.165
+  severity: fail
+  exitcode: 1
+  stack: |-
+    node:assert:635
+          throw err;
+          ^
+    
+    AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      Comparison {
+    +   message: 'error:1E08010C:DECODER routines::unsupported'
+    -   message: 'bye, bye, library'
+      }
+        at Object.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-sign-verify.js:42:10)
+        at Module._compile (node:internal/modules/cjs/loader:1254:14)
+        at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+        at Module.load (node:internal/modules/cjs/loader:1117:32)
+        at Module._load (node:internal/modules/cjs/loader:958:12)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+        at node:internal/main/run_main_module:23:47 {
+      generatedMessage: true,
+      code: 'ERR_ASSERTION',
+      actual: Error: error:1E08010C:DECODER routines::unsupported
+          at Sign.sign (node:internal/crypto/sig:131:29)
+          at assert.throws.message (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-sign-verify.js:43:31)
+          at getActual (node:assert:756:5)
+          at Function.throws (node:assert:902:24)
+          at Object.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-crypto-sign-verify.js:42:10)
+          at Module._compile (node:internal/modules/cjs/loader:1254:14)
+          at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+          at Module.load (node:internal/modules/cjs/loader:1117:32)
+          at Module._load (node:internal/modules/cjs/loader:958:12)
+          at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+        reason: 'unsupported',
+        code: 'ERR_OSSL_UNSUPPORTED'
+      },
+      expected: { message: 'bye, bye, library' },
+      operator: 'throws'
+    }
+    
+    Node.js v18.16.0
+  ...
+ok 537 parallel/test-crypto-rsa-dsa
+  ---
+  duration_ms: 11.152
+  ...
+ok 538 parallel/test-crypto-stream
+  ---
+  duration_ms: 6.175
+  ...
+ok 539 parallel/test-crypto-subtle-zero-length
+  ---
+  duration_ms: 5.858
+  ...
+ok 540 parallel/test-crypto-update-encoding
+  ---
+  duration_ms: 6.223
+  ...
+ok 541 parallel/test-crypto-scrypt
+  ---
+  duration_ms: 15.590
+  ...
+ok 542 parallel/test-crypto-webcrypto-aes-decrypt-tag-too-small
+  ---
+  duration_ms: 5.830
+  ...
+ok 543 parallel/test-crypto-verify-failure
+  ---
+  duration_ms: 8.752
+  ...
+ok 544 parallel/test-crypto-x509
+  ---
+  duration_ms: 7.32
+  ...
+ok 545 parallel/test-crypto-worker-thread
+  ---
+  duration_ms: 9.610
+  ...
+ok 546 parallel/test-cwd-enoent
+  ---
+  duration_ms: 10.668
+  ...
+ok 547 parallel/test-datetime-change-notify
+  ---
+  duration_ms: 7.63
+  ...
+ok 548 parallel/test-cwd-enoent-preload
+  ---
+  duration_ms: 11.333
+  ...
+ok 549 parallel/test-cwd-enoent-repl
+  ---
+  duration_ms: 11.898
+  ...
+ok 550 parallel/test-crypto-classes
+  ---
+  duration_ms: 77.776
+  ...
+not ok 551 parallel/test-debugger-address
+  ---
+  duration_ms: 13.710
+  severity: fail
+  exitcode: 1
+  stack: |-
+    /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/common/debugger.js:90
+              reject(new Error([
+                     ^
+    
+    Error: Timeout (5000) while waiting for />\s+$/; found: 
+        at Timeout.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/common/debugger.js:90:18)
+        at listOnTimeout (node:internal/timers:569:17)
+        at process.processTimers (node:internal/timers:512:7)
+    
+    Node.js v18.16.0
+  ...
+not ok 552 parallel/test-debugger-extract-function-name
+  ---
+  duration_ms: 12.168
+  severity: fail
+  exitcode: 1
+  stack: |-
+    /home/openeuler/rpmbuild/BUILD/node-18.16.0/test/common/debugger.js:90
+              reject(new Error([
+                     ^
+    
+    Error: Timeout (5000) while waiting for /break (?:on start )?in/i; found: 
+        at Timeout.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/common/debugger.js:90:18)
+        at listOnTimeout (node:internal/timers:569:17)
+        at process.processTimers (node:internal/timers:512:7)
+    
+    Node.js v18.16.0
+  ...
+ok 553 parallel/test-delayed-require
+  ---
+  duration_ms: 7.215
+  ...
+ok 554 parallel/test-debugger-pid
+  ---
+  duration_ms: 11.786
+  ...
+ok 555 parallel/test-dgram-abort-closed
+  ---
+  duration_ms: 6.184
+  ...
+ok 556 parallel/test-dgram-bind
+  ---
+  duration_ms: 6.334
+  ...
+ok 557 parallel/test-dgram-address
+  ---
+  duration_ms: 6.472
+  ...
+ok 558 parallel/test-crypto-dh-leak
+  ---
+  duration_ms: 82.414
+  ...
+ok 559 parallel/test-debugger-websocket-secret-mismatch
+  ---
+  duration_ms: 13.689
+  ...
+ok 560 parallel/test-debugger-unavailable-port
+  ---
+  duration_ms: 15.586
+  ...
+ok 561 parallel/test-crypto-dh-constructor
+  ---
+  duration_ms: 85.424
+  ...
+ok 562 parallel/test-debugger-invalid-json
+  ---
+  duration_ms: 19.944
+  ...
+ok 563 parallel/test-dgram-bind-default-address
+  ---
+  duration_ms: 6.561
+  ...
+ok 564 parallel/test-dgram-bind-error-repeat
+  ---
+  duration_ms: 6.949
+  ...
+ok 565 parallel/test-dgram-bind-fd
+  ---
+  duration_ms: 6.855
+  ...
+ok 566 parallel/test-dgram-bytes-length
+  ---
+  duration_ms: 6.744
+  ...
+ok 567 parallel/test-dgram-bind-fd-error
+  ---
+  duration_ms: 6.955
+  ...
+ok 568 parallel/test-dgram-close
+  ---
+  duration_ms: 6.861
+  ...
+ok 569 parallel/test-dgram-close-during-bind
+  ---
+  duration_ms: 6.419
+  ...
+ok 570 parallel/test-dgram-close-in-listening
+  ---
+  duration_ms: 6.535
+  ...
+ok 571 parallel/test-dgram-close-is-not-callback
+  ---
+  duration_ms: 6.959
+  ...
+ok 572 parallel/test-dgram-close-signal
+  ---
+  duration_ms: 6.568
+  ...
+ok 573 parallel/test-dgram-connect-send-callback-buffer
+  ---
+  duration_ms: 6.469
+  ...
+ok 574 parallel/test-dgram-connect
+  ---
+  duration_ms: 6.695
+  ...
+ok 575 parallel/test-dgram-connect-send-callback-buffer-length
+  ---
+  duration_ms: 6.378
+  ...
+ok 576 parallel/test-dgram-connect-send-default-host
+  ---
+  duration_ms: 6.234
+  ...
+ok 577 parallel/test-dgram-connect-send-callback-multi-buffer
+  ---
+  duration_ms: 6.668
+  ...
+ok 578 parallel/test-dgram-connect-send-empty-array
+  ---
+  duration_ms: 6.635
+  ...
+ok 579 parallel/test-dgram-connect-send-empty-buffer
+  ---
+  duration_ms: 6.310
+  ...
+ok 580 parallel/test-dgram-cluster-bind-error
+  ---
+  duration_ms: 13.151
+  ...
+ok 581 parallel/test-dgram-cluster-close-during-bind
+  ---
+  duration_ms: 12.723
+  ...
+ok 582 parallel/test-dgram-cluster-close-in-listening
+  ---
+  duration_ms: 13.199
+  ...
+ok 583 parallel/test-dgram-connect-send-multi-string-array
+  ---
+  duration_ms: 6.461
+  ...
+ok 584 parallel/test-dgram-connect-send-multi-buffer-copy
+  ---
+  duration_ms: 6.667
+  ...
+ok 585 parallel/test-dgram-connect-send-empty-packet
+  ---
+  duration_ms: 6.875
+  ...
+ok 586 parallel/test-dgram-create-socket-handle
+  ---
+  duration_ms: 6.360
+  ...
+ok 587 parallel/test-dgram-create-socket-handle-fd
+  ---
+  duration_ms: 6.820
+  ...
+ok 588 parallel/test-dgram-createSocket-type
+  ---
+  duration_ms: 6.688
+  ...
+ok 589 parallel/test-dgram-custom-lookup
+  ---
+  duration_ms: 6.746
+  ...
+ok 590 parallel/test-dgram-error-message-address
+  ---
+  duration_ms: 6.537
+  ...
+ok 591 parallel/test-dgram-listen-after-bind
+  ---
+  duration_ms: 8.481
+  ...
+ok 592 parallel/test-dgram-ipv6only
+  ---
+  duration_ms: 8.879
+  ...
+ok 593 parallel/test-dgram-implicit-bind
+  ---
+  duration_ms: 9.363
+  ...
+ok 594 parallel/test-dgram-membership
+  ---
+  duration_ms: 9.803
+  ...
+ok 595 parallel/test-dgram-msgsize
+  ---
+  duration_ms: 10.92
+  ...
+ok 596 parallel/test-dgram-multicast-loopback
+  ---
+  duration_ms: 10.91
+  ...
+ok 597 parallel/test-dgram-multicast-set-interface
+  ---
+  duration_ms: 11.459
+  ...
+ok 598 parallel/test-dgram-multicast-setTTL
+  ---
+  duration_ms: 12.796
+  ...
+ok 599 parallel/test-dgram-deprecation-error
+  ---
+  duration_ms: 19.898
+  ...
+ok 600 parallel/test-dgram-ref
+  ---
+  duration_ms: 8.718
+  ...
+ok 601 parallel/test-dgram-exclusive-implicit-bind
+  ---
+  duration_ms: 19.802
+  ...
+ok 602 parallel/test-dgram-recv-error
+  ---
+  duration_ms: 10.562
+  ...
+ok 603 parallel/test-dgram-oob-buffer
+  ---
+  duration_ms: 11.130
+  ...
+ok 604 parallel/test-crypto-dh
+  ---
+  duration_ms: 124.604
+  ...
+ok 605 parallel/test-dgram-send-address-types
+  ---
+  duration_ms: 10.567
+  ...
+ok 606 parallel/test-dgram-send-callback-buffer
+  ---
+  duration_ms: 9.517
+  ...
+ok 607 parallel/test-dgram-send-bad-arguments
+  ---
+  duration_ms: 10.342
+  ...
+ok 608 parallel/test-dgram-send-callback-buffer-empty-address
+  ---
+  duration_ms: 8.458
+  ...
+ok 609 parallel/test-dgram-send-callback-buffer-length
+  ---
+  duration_ms: 7.253
+  ...
+ok 610 parallel/test-dgram-send-callback-multi-buffer
+  ---
+  duration_ms: 7.34
+  ...
+ok 611 parallel/test-dgram-send-callback-buffer-length-empty-address
+  ---
+  duration_ms: 7.407
+  ...
+ok 612 parallel/test-dgram-send-callback-multi-buffer-empty-address
+  ---
+  duration_ms: 6.289
+  ...
+ok 613 parallel/test-dgram-send-callback-recursive
+  ---
+  duration_ms: 6.859
+  ...
+ok 614 parallel/test-dgram-send-cb-quelches-error
+  ---
+  duration_ms: 7.543
+  ...
+ok 615 parallel/test-dgram-send-default-host
+  ---
+  duration_ms: 6.949
+  ...
+ok 616 parallel/test-dgram-send-empty-array
+  ---
+  duration_ms: 6.539
+  ...
+ok 617 parallel/test-dgram-send-empty-packet
+  ---
+  duration_ms: 6.387
+  ...
+ok 618 parallel/test-dgram-send-empty-buffer
+  ---
+  duration_ms: 6.656
+  ...
+ok 619 parallel/test-dgram-send-error
+  ---
+  duration_ms: 6.742
+  ...
+ok 620 parallel/test-dgram-send-invalid-msg-type
+  ---
+  duration_ms: 6.267
+  ...
+ok 621 parallel/test-dgram-send-multi-buffer-copy
+  ---
+  duration_ms: 6.411
+  ...
+ok 622 parallel/test-dgram-send-queue-info
+  ---
+  duration_ms: 6.487
+  ...
+ok 623 parallel/test-dgram-send-multi-string-array
+  ---
+  duration_ms: 6.849
+  ...
+ok 624 parallel/test-dgram-sendto
+  ---
+  duration_ms: 6.652
+  ...
+ok 625 parallel/test-dgram-setBroadcast
+  ---
+  duration_ms: 6.491
+  ...
+ok 626 parallel/test-dgram-setTTL
+  ---
+  duration_ms: 6.500
+  ...
+ok 627 parallel/test-dgram-socket-buffer-size
+  ---
+  duration_ms: 6.812
+  ...
+ok 628 parallel/test-dgram-udp4
+  ---
+  duration_ms: 6.428
+  ...
+ok 629 parallel/test-dgram-udp6-link-local-address
+  ---
+  duration_ms: 6.676
+  ...
+ok 630 parallel/test-dgram-udp6-send-default-host
+  ---
+  duration_ms: 7.129
+  ...
+ok 631 parallel/test-dgram-unref
+  ---
+  duration_ms: 6.472
+  ...
+ok 632 parallel/test-diagnostics-channel-has-subscribers
+  ---
+  duration_ms: 6.301
+  ...
+ok 633 parallel/test-diagnostics-channel-http
+  ---
+  duration_ms: 7.780
+  ...
+ok 634 parallel/test-diagnostics-channel-memory-leak
+  ---
+  duration_ms: 6.994
+  ...
+ok 635 parallel/test-diagnostics-channel-http-server-start
+  ---
+  duration_ms: 7.770
+  ...
+ok 636 parallel/test-diagnostics-channel-net
+  ---
+  duration_ms: 6.831
+  ...
+ok 637 parallel/test-diagnostics-channel-object-channel-pub-sub
+  ---
+  duration_ms: 6.794
+  ...
+ok 638 parallel/test-diagnostics-channel-safe-subscriber-errors
+  ---
+  duration_ms: 6.567
+  ...
+ok 639 parallel/test-diagnostics-channel-pub-sub
+  ---
+  duration_ms: 7.76
+  ...
+ok 640 parallel/test-diagnostics-channel-symbol-named
+  ---
+  duration_ms: 6.968
+  ...
+ok 641 parallel/test-diagnostics-channel-udp
+  ---
+  duration_ms: 6.942
+  ...
+ok 642 parallel/test-dgram-unref-in-cluster
+  ---
+  duration_ms: 13.620
+  ...
+ok 643 parallel/test-directory-import
+  ---
+  duration_ms: 6.919
+  ...
+ok 644 parallel/test-crypto-secure-heap
+  ---
+  duration_ms: 98.365
+  ...
+ok 645 parallel/test-dns-cancel-reverse-lookup
+  ---
+  duration_ms: 7.39
+  ...
+ok 646 parallel/test-dns-channel-cancel
+  ---
+  duration_ms: 6.434
+  ...
+ok 647 parallel/test-dns-channel-cancel-promise
+  ---
+  duration_ms: 7.104
+  ...
+ok 648 parallel/test-dns
+  ---
+  duration_ms: 8.657
+  ...
+ok 649 parallel/test-dns-channel-timeout
+  ---
+  duration_ms: 7.670
+  ...
+ok 650 parallel/test-disable-proto-delete
+  ---
+  duration_ms: 11.108
+  ...
+ok 651 parallel/test-dns-default-verbatim-false
+  ---
+  duration_ms: 7.748
+  ...
+ok 652 parallel/test-dns-default-verbatim-true
+  ---
+  duration_ms: 7.427
+  ...
+ok 653 parallel/test-dns-get-server
+  ---
+  duration_ms: 6.855
+  ...
+ok 654 parallel/test-disable-proto-throw
+  ---
+  duration_ms: 11.399
+  ...
+ok 655 parallel/test-dns-lookup-promises
+  ---
+  duration_ms: 7.776
+  ...
+ok 656 parallel/test-dns-lookup
+  ---
+  duration_ms: 8.729
+  ...
+ok 657 parallel/test-dns-lookupService
+  ---
+  duration_ms: 6.915
+  ...
+ok 658 parallel/test-dns-lookup-promises-options-deprecated
+  ---
+  duration_ms: 7.419
+  ...
+ok 659 parallel/test-dns-memory-error
+  ---
+  duration_ms: 6.755
+  ...
+ok 660 parallel/test-dns-lookupService-promises
+  ---
+  duration_ms: 7.297
+  ...
+ok 661 parallel/test-dns-multi-channel
+  ---
+  duration_ms: 7.390
+  ...
+ok 662 parallel/test-dns-promises-exists
+  ---
+  duration_ms: 6.578
+  ...
+ok 663 parallel/test-dns-perf_hooks
+  ---
+  duration_ms: 7.747
+  ...
+ok 664 parallel/test-dns-resolve-promises
+  ---
+  duration_ms: 6.952
+  ...
+ok 665 parallel/test-dns-resolveany-bad-ancount
+  ---
+  duration_ms: 7.575
+  ...
+ok 666 parallel/test-dns-resolveany
+  ---
+  duration_ms: 7.842
+  ...
+ok 667 parallel/test-dns-resolvens-typeerror
+  ---
+  duration_ms: 6.823
+  ...
+ok 668 parallel/test-dns-set-default-order
+  ---
+  duration_ms: 8.448
+  ...
+ok 669 parallel/test-dns-setlocaladdress
+  ---
+  duration_ms: 7.372
+  ...
+ok 670 parallel/test-dns-setserver-when-querying
+  ---
+  duration_ms: 7.578
+  ...
+ok 671 parallel/test-dns-setservers-type-check
+  ---
+  duration_ms: 8.451
+  ...
+ok 672 parallel/test-domain-add-remove
+  ---
+  duration_ms: 7.346
+  ...
+ok 673 parallel/test-domain-bind-timeout
+  ---
+  duration_ms: 7.477
+  ...
+ok 674 parallel/test-domain-async-id-map-leak
+  ---
+  duration_ms: 7.910
+  ...
+ok 675 parallel/test-domain-crypto
+  ---
+  duration_ms: 7.750
+  ...
+ok 676 parallel/test-domain-ee
+  ---
+  duration_ms: 7.311
+  ...
+ok 677 parallel/test-domain-dep0097
+  ---
+  duration_ms: 7.484
+  ...
+ok 678 parallel/test-domain-ee-error-listener
+  ---
+  duration_ms: 7.143
+  ...
+ok 679 parallel/test-domain-ee-implicit
+  ---
+  duration_ms: 6.896
+  ...
+ok 680 parallel/test-domain-emit-error-handler-stack
+  ---
+  duration_ms: 6.713
+  ...
+ok 681 parallel/test-domain-enter-exit
+  ---
+  duration_ms: 6.911
+  ...
+ok 682 parallel/test-domain-from-timer
+  ---
+  duration_ms: 6.608
+  ...
+ok 683 parallel/test-domain-error-types # TODO : Fix flaky test
+  ---
+  duration_ms: 7.287
+  ...
+ok 684 parallel/test-domain-fs-enoent-stream
+  ---
+  duration_ms: 6.450
+  ...
+ok 685 parallel/test-domain-implicit-binding
+  ---
+  duration_ms: 6.355
+  ...
+ok 686 parallel/test-domain-intercept
+  ---
+  duration_ms: 6.439
+  ...
+ok 687 parallel/test-domain-load-after-set-uncaught-exception-capture
+  ---
+  duration_ms: 6.320
+  ...
+ok 688 parallel/test-domain-implicit-fs
+  ---
+  duration_ms: 7.122
+  ...
+ok 689 parallel/test-domain-http-server
+  ---
+  duration_ms: 8.544
+  ...
+ok 690 parallel/test-domain-multiple-errors
+  ---
+  duration_ms: 6.615
+  ...
+ok 691 parallel/test-domain-nested
+  ---
+  duration_ms: 6.347
+  ...
+ok 692 parallel/test-domain-multi
+  ---
+  duration_ms: 7.590
+  ...
+ok 693 parallel/test-domain-nexttick
+  ---
+  duration_ms: 6.226
+  ...
+ok 694 parallel/test-domain-nested-throw
+  ---
+  duration_ms: 13.91
+  ...
+ok 695 parallel/test-domain-no-error-handler-abort-on-uncaught-0
+  ---
+  duration_ms: 15.178
+  ...
+ok 696 parallel/test-domain-no-error-handler-abort-on-uncaught-2
+  ---
+  duration_ms: 15.871
+  ...
+ok 697 parallel/test-domain-no-error-handler-abort-on-uncaught-1
+  ---
+  duration_ms: 16.788
+  ...
+ok 698 parallel/test-domain-no-error-handler-abort-on-uncaught-3
+  ---
+  duration_ms: 16.428
+  ...
+ok 699 parallel/test-domain-no-error-handler-abort-on-uncaught-4
+  ---
+  duration_ms: 16.298
+  ...
+ok 700 parallel/test-domain-no-error-handler-abort-on-uncaught-5
+  ---
+  duration_ms: 16.561
+  ...
+ok 701 parallel/test-domain-promise
+  ---
+  duration_ms: 8.179
+  ...
+ok 702 parallel/test-domain-no-error-handler-abort-on-uncaught-7
+  ---
+  duration_ms: 16.849
+  ...
+ok 703 parallel/test-domain-no-error-handler-abort-on-uncaught-6
+  ---
+  duration_ms: 17.96
+  ...
+ok 704 parallel/test-domain-no-error-handler-abort-on-uncaught-8
+  ---
+  duration_ms: 16.636
+  ...
+ok 705 parallel/test-domain-no-error-handler-abort-on-uncaught-9
+  ---
+  duration_ms: 16.524
+  ...
+ok 706 parallel/test-domain-run
+  ---
+  duration_ms: 7.360
+  ...
+ok 707 parallel/test-domain-set-uncaught-exception-capture-after-load
+  ---
+  duration_ms: 6.782
+  ...
+ok 708 parallel/test-domain-safe-exit
+  ---
+  duration_ms: 7.324
+  ...
+ok 709 parallel/test-domain-stack-empty-in-process-uncaughtexception
+  ---
+  duration_ms: 7.11
+  ...
+ok 710 parallel/test-domain-thrown-error-handler-stack
+  ---
+  duration_ms: 6.580
+  ...
+ok 711 parallel/test-domain-timer
+  ---
+  duration_ms: 6.513
+  ...
+ok 712 parallel/test-domain-stack
+  ---
+  duration_ms: 9.824
+  ...
+ok 713 parallel/test-domain-timers-uncaught-exception
+  ---
+  duration_ms: 7.76
+  ...
+ok 714 parallel/test-domain-top-level-error-handler-clears-stack
+  ---
+  duration_ms: 6.351
+  ...
+ok 715 parallel/test-domain-timers
+  ---
+  duration_ms: 8.327
+  ...
+ok 716 parallel/test-dsa-fips-invalid-key # skip node compiled without FIPS OpenSSL.
+  ---
+  duration_ms: 6.986
+  ...
+ok 717 parallel/test-domexception-cause
+  ---
+  duration_ms: 9.109
+  ...
+ok 718 parallel/test-domain-throw-error-then-throw-from-uncaught-exception-handler
+  ---
+  duration_ms: 17.313
+  ...
+ok 719 parallel/test-emit-after-uncaught-exception
+  ---
+  duration_ms: 8.652
+  ...
+ok 720 parallel/test-env-newprotomethod-remove-unnecessary-prototypes
+  ---
+  duration_ms: 9.219
+  ...
+ok 721 parallel/test-domain-top-level-error-handler-throw
+  ---
+  duration_ms: 16.276
+  ...
+ok 722 parallel/test-domain-uncaught-exception
+  ---
+  duration_ms: 17.979
+  ...
+ok 723 parallel/test-err-name-deprecation
+  ---
+  duration_ms: 13.874
+  ...
+ok 724 parallel/test-error-prepare-stack-trace
+  ---
+  duration_ms: 11.730
+  ...
+ok 725 parallel/test-domain-with-abort-on-uncaught-exception
+  ---
+  duration_ms: 24.591
+  ...
+ok 726 parallel/test-error-format-list
+  ---
+  duration_ms: 15.48
+  ...
+ok 727 parallel/test-error-aggregateTwoErrors
+  ---
+  duration_ms: 17.693
+  ...
+ok 728 parallel/test-error-serdes
+  ---
+  duration_ms: 14.981
+  ...
+ok 729 parallel/test-errors-aborterror
+  ---
+  duration_ms: 12.176
+  ...
+ok 730 parallel/test-env-var-no-warnings
+  ---
+  duration_ms: 31.567
+  ...
+ok 731 parallel/test-error-value-type-detection
+  ---
+  duration_ms: 18.574
+  ...
+ok 732 parallel/test-domain-vm-promise-isolation
+  ---
+  duration_ms: 37.16
+  ...
+ok 733 parallel/test-errors-systemerror
+  ---
+  duration_ms: 13.82
+  ...
+ok 734 parallel/test-errors-systemerror-stackTraceLimit-custom-setter
+  ---
+  duration_ms: 11.285
+  ...
+ok 735 parallel/test-error-reporting
+  ---
+  duration_ms: 25.477
+  ...
+ok 736 parallel/test-errors-systemerror-stackTraceLimit-deleted-and-Error-sealed
+  ---
+  duration_ms: 9.994
+  ...
+ok 737 parallel/test-errors-systemerror-stackTraceLimit-deleted
+  ---
+  duration_ms: 11.31
+  ...
+ok 738 parallel/test-errors-systemerror-frozen-intrinsics
+  ---
+  duration_ms: 15.731
+  ...
+ok 739 parallel/test-dummy-stdio
+  ---
+  duration_ms: 38.715
+  ...
+ok 740 parallel/test-errors-systemerror-stackTraceLimit-has-only-a-getter
+  ---
+  duration_ms: 6.865
+  ...
+ok 741 parallel/test-errors-systemerror-stackTraceLimit-not-writable
+  ---
+  duration_ms: 7.66
+  ...
+ok 742 parallel/test-eslint-alphabetize-errors
+  ---
+  duration_ms: 24.554
+  ...
+ok 743 parallel/test-eslint-documented-deprecation-codes
+  ---
+  duration_ms: 22.118
+  ...
+ok 744 parallel/test-eslint-documented-errors
+  ---
+  duration_ms: 21.627
+  ...
+ok 745 parallel/test-eslint-eslint-check
+  ---
+  duration_ms: 21.830
+  ...
+ok 746 parallel/test-eslint-crypto-check
+  ---
+  duration_ms: 24.988
+  ...
+ok 747 parallel/test-eslint-async-iife-no-unused-result
+  ---
+  duration_ms: 26.403
+  ...
+ok 748 parallel/test-eslint-duplicate-requires
+  ---
+  duration_ms: 23.587
+  ...
+ok 749 parallel/test-eslint-inspector-check
+  ---
+  duration_ms: 23.540
+  ...
+ok 750 parallel/test-eslint-lowercase-name-for-primitive
+  ---
+  duration_ms: 23.840
+  ...
+ok 751 parallel/test-eslint-avoid-prototype-pollution
+  ---
+  duration_ms: 32.214
+  ...
+ok 752 parallel/test-eslint-no-array-destructuring
+  ---
+  duration_ms: 30.51
+  ...
+ok 753 parallel/test-domain-abort-on-uncaught
+  ---
+  duration_ms: 123.254
+  ...
+ok 754 parallel/test-eval
+  ---
+  duration_ms: 9.692
+  ...
+ok 755 parallel/test-eslint-prefer-assert-iferror
+  ---
+  duration_ms: 25.49
+  ...
+ok 756 parallel/test-eslint-no-unescaped-regexp-dot
+  ---
+  duration_ms: 26.580
+  ...
+ok 757 parallel/test-eslint-prefer-common-mustnotcall
+  ---
+  duration_ms: 24.270
+  ...
+ok 758 parallel/test-eslint-non-ascii-character
+  ---
+  duration_ms: 27.619
+  ...
+ok 759 parallel/test-eslint-prefer-assert-methods
+  ---
+  duration_ms: 26.209
+  ...
+ok 760 parallel/test-eslint-prefer-common-mustsucceed
+  ---
+  duration_ms: 27.253
+  ...
+ok 761 parallel/test-eslint-prefer-util-format-errors
+  ---
+  duration_ms: 26.356
+  ...
+ok 762 parallel/test-eval-strict-referenceerror
+  ---
+  duration_ms: 9.322
+  ...
+ok 763 parallel/test-eval-disallow-code-generation-from-strings
+  ---
+  duration_ms: 10.17
+  ...
+ok 764 parallel/test-eslint-require-common-first
+  ---
+  duration_ms: 26.257
+  ...
+ok 765 parallel/test-eslint-prefer-primordials
+  ---
+  duration_ms: 31.310
+  ...
+ok 766 parallel/test-event-capture-rejections
+  ---
+  duration_ms: 10.548
+  ...
+ok 767 parallel/test-event-emitter-add-listeners
+  ---
+  duration_ms: 9.454
+  ...
+ok 768 parallel/test-eslint-required-modules
+  ---
+  duration_ms: 28.288
+  ...
+ok 769 parallel/test-event-emitter-emit-context
+  ---
+  duration_ms: 9.103
+  ...
+ok 770 parallel/test-event-emitter-errors
+  ---
+  duration_ms: 7.781
+  ...
+ok 771 parallel/test-event-emitter-error-monitor
+  ---
+  duration_ms: 9.451
+  ...
+ok 772 parallel/test-event-emitter-get-max-listeners
+  ---
+  duration_ms: 8.207
+  ...
+ok 773 parallel/test-event-emitter-check-listener-leaks
+  ---
+  duration_ms: 12.450
+  ...
+ok 774 parallel/test-event-emitter-listener-count
+  ---
+  duration_ms: 7.595
+  ...
+ok 775 parallel/test-event-emitter-listeners
+  ---
+  duration_ms: 8.88
+  ...
+ok 776 parallel/test-event-emitter-invalid-listener
+  ---
+  duration_ms: 9.593
+  ...
+ok 777 parallel/test-event-emitter-listeners-side-effects
+  ---
+  duration_ms: 7.912
+  ...
+ok 778 parallel/test-event-emitter-max-listeners-warning
+  ---
+  duration_ms: 7.329
+  ...
+ok 779 parallel/test-event-emitter-max-listeners-warning-for-symbol
+  ---
+  duration_ms: 7.168
+  ...
+ok 780 parallel/test-event-emitter-max-listeners
+  ---
+  duration_ms: 8.274
+  ...
+ok 781 parallel/test-event-emitter-max-listeners-warning-for-null
+  ---
+  duration_ms: 7.535
+  ...
+ok 782 parallel/test-event-emitter-modify-in-emit
+  ---
+  duration_ms: 7.196
+  ...
+ok 783 parallel/test-event-emitter-method-names
+  ---
+  duration_ms: 7.436
+  ...
+ok 784 parallel/test-event-emitter-num-args
+  ---
+  duration_ms: 6.999
+  ...
+ok 785 parallel/test-event-emitter-no-error-provided-to-error-event
+  ---
+  duration_ms: 7.397
+  ...
+ok 786 parallel/test-event-emitter-once
+  ---
+  duration_ms: 7.11
+  ...
+ok 787 parallel/test-event-emitter-prepend
+  ---
+  duration_ms: 7.99
+  ...
+ok 788 parallel/test-event-emitter-remove-all-listeners
+  ---
+  duration_ms: 6.926
+  ...
+ok 789 parallel/test-event-emitter-remove-listeners
+  ---
+  duration_ms: 6.897
+  ...
+ok 790 parallel/test-event-emitter-special-event-names
+  ---
+  duration_ms: 6.422
+  ...
+ok 791 parallel/test-event-emitter-set-max-listeners-side-effects
+  ---
+  duration_ms: 7.104
+  ...
+ok 792 parallel/test-event-emitter-symbols
+  ---
+  duration_ms: 6.775
+  ...
+ok 793 parallel/test-event-emitter-subclass
+  ---
+  duration_ms: 6.936
+  ...
+ok 794 parallel/test-eventemitter-asyncresource
+  ---
+  duration_ms: 6.983
+  ...
+ok 795 parallel/test-events-customevent
+  ---
+  duration_ms: 7.245
+  ...
+ok 796 parallel/test-events-listener-count-with-listener
+  ---
+  duration_ms: 6.302
+  ...
+ok 797 parallel/test-events-list
+  ---
+  duration_ms: 6.732
+  ...
+ok 798 parallel/test-events-on-async-iterator
+  ---
+  duration_ms: 7.477
+  ...
+ok 799 parallel/test-events-once
+  ---
+  duration_ms: 7.81
+  ...
+ok 800 parallel/test-events-static-geteventlisteners
+  ---
+  duration_ms: 6.848
+  ...
+ok 801 parallel/test-events-uncaught-exception-stack
+  ---
+  duration_ms: 6.514
+  ...
+ok 802 parallel/test-eventtarget-brandcheck
+  ---
+  duration_ms: 6.925
+  ...
+ok 803 parallel/test-eventtarget-once-twice
+  ---
+  duration_ms: 6.553
+  ...
+ok 804 parallel/test-eventtarget-memoryleakwarning
+  ---
+  duration_ms: 7.91
+  ...
+ok 805 parallel/test-eventtarget
+  ---
+  duration_ms: 7.923
+  ...
+ok 806 parallel/test-exception-handler
+  ---
+  duration_ms: 6.735
+  ...
+ok 807 parallel/test-exception-handler2
+  ---
+  duration_ms: 6.749
+  ...
+ok 808 parallel/test-fetch-disabled
+  ---
+  duration_ms: 7.358
+  ...
+ok 809 parallel/test-file-read-noexist
+  ---
+  duration_ms: 6.625
+  ...
+ok 810 parallel/test-file
+  ---
+  duration_ms: 7.181
+  ...
+ok 811 parallel/test-file-validate-mode-flag
+  ---
+  duration_ms: 6.838
+  ...
+ok 812 parallel/test-file-write-stream
+  ---
+  duration_ms: 7.509
+  ...
+ok 813 parallel/test-file-write-stream2
+  ---
+  duration_ms: 7.80
+  ...
+ok 814 parallel/test-filehandle-close
+  ---
+  duration_ms: 6.833
+  ...
+ok 815 parallel/test-file-write-stream4
+  ---
+  duration_ms: 7.465
+  ...
+ok 816 parallel/test-file-write-stream3
+  ---
+  duration_ms: 8.209
+  ...
+ok 817 parallel/test-filehandle-readablestream
+  ---
+  duration_ms: 7.448
+  ...
+ok 818 parallel/test-fixed-queue
+  ---
+  duration_ms: 7.403
+  ...
+ok 819 parallel/test-freelist
+  ---
+  duration_ms: 6.607
+  ...
+not ok 820 parallel/test-freeze-intrinsics
+  ---
+  duration_ms: 8.656
+  severity: fail
+  exitcode: 1
+  stack: |-
+    node:assert:125
+      throw new AssertionError(obj);
+      ^
+    
+    AssertionError [ERR_ASSERTION]: Missing expected exception (TypeError).
+        at Object.<anonymous> (/home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-freeze-intrinsics.js:36:10)
+        at Module._compile (node:internal/modules/cjs/loader:1254:14)
+        at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+        at Module.load (node:internal/modules/cjs/loader:1117:32)
+        at Module._load (node:internal/modules/cjs/loader:958:12)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+        at node:internal/main/run_main_module:23:47 {
+      generatedMessage: false,
+      code: 'ERR_ASSERTION',
+      actual: undefined,
+      expected: Object <[Object: null prototype] {}> { name: 'TypeError' },
+      operator: 'throws'
+    }
+    
+    Node.js v18.16.0
+  ...
+ok 821 parallel/test-fs-access
+  ---
+  duration_ms: 7.554
+  ...
+not ok 822 parallel/test-fetch
+  ---
+  duration_ms: 19.47
+  severity: fail
+  exitcode: 1
+  stack: |-
+    node:internal/deps/undici/undici:11457
+        Error.captureStackTrace(err, this);
+              ^
+    
+    TypeError: fetch failed
+        at Object.fetch (node:internal/deps/undici/undici:11457:11)
+        at async file:///home/openeuler/rpmbuild/BUILD/node-18.16.0/test/parallel/test-fetch.mjs:20:18 {
+      cause: SocketError: other side closed
+          at Socket.onSocketEnd (node:internal/deps/undici/undici:9689:26)
+          at Socket.emit (node:events:525:35)
+          at endReadableNT (node:internal/streams/readable:1359:12)
+          at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+        code: 'UND_ERR_SOCKET',
+        socket: {
+          localAddress: '::1',
+          localPort: 41846,
+          remoteAddress: '::1',
+          remotePort: 36183,
+          remoteFamily: 'IPv6',
+          timeout: undefined,
+          bytesWritten: 172,
+          bytesRead: 134
+        }
+      }
+    }
+    
+    Node.js v18.16.0
+  ...
+ok 823 parallel/test-fs-append-file
+  ---
+  duration_ms: 7.482
+  ...
+ok 824 parallel/test-fs-assert-encoding-error
+  ---
+  duration_ms: 7.113
+  ...
+ok 825 parallel/test-fs-append-file-sync
+  ---
+  duration_ms: 7.549
+  ...
+ok 826 parallel/test-fs-buffertype-writesync
+  ---
+  duration_ms: 6.890
+  ...
+ok 827 parallel/test-fs-buffer
+  ---
+  duration_ms: 7.564
+  ...
+ok 828 parallel/test-fs-chmod
+  ---
+  duration_ms: 7.497
+  ...
+ok 829 parallel/test-force-repl
+  ---
+  duration_ms: 13.914
+  ...
+ok 830 parallel/test-force-repl-with-eval
+  ---
+  duration_ms: 14.531
+  ...
+ok 831 parallel/test-fs-chmod-mask
+  ---
+  duration_ms: 8.33
+  ...
+ok 832 parallel/test-fs-chown-type-check
+  ---
+  duration_ms: 7.210
+  ...
+ok 833 parallel/test-fs-close
+  ---
+  duration_ms: 7.912
+  ...
+ok 834 parallel/test-fs-close-errors
+  ---
+  duration_ms: 6.956
+  ...
+ok 835 parallel/test-fs-constants
+  ---
+  duration_ms: 7.80
+  ...
+ok 836 parallel/test-fs-copyfile-respect-permissions
+  ---
+  duration_ms: 7.151
+  ...
+ok 837 parallel/test-fs-copyfile
+  ---
+  duration_ms: 7.787
+  ...
+ok 838 parallel/test-fs-empty-readStream
+  ---
+  duration_ms: 7.272
+  ...
+ok 839 parallel/test-fs-exists
+  ---
+  duration_ms: 6.780
+  ...
+ok 840 parallel/test-fs-error-messages
+  ---
+  duration_ms: 8.244
+  ...
+ok 841 parallel/test-fs-existssync-false
+  ---
+  duration_ms: 7.309
+  ...
+ok 842 parallel/test-fs-fchmod
+  ---
+  duration_ms: 7.391
+  ...
+ok 843 parallel/test-fs-fchown
+  ---
+  duration_ms: 7.403
+  ...
+ok 844 parallel/test-crypto-dh-odd-key
+  ---
+  duration_ms: 341.709
+  ...
+ok 845 parallel/test-fs-filehandle
+  ---
+  duration_ms: 7.357
+  ...
+ok 846 parallel/test-fs-filehandle-use-after-close
+  ---
+  duration_ms: 7.152
+  ...
+ok 847 parallel/test-fs-fmap
+  ---
+  duration_ms: 7.505
+  ...
+ok 848 parallel/test-fs-lchmod # skip lchmod is only available on macOS
+  ---
+  duration_ms: 7.39
+  ...
+ok 849 parallel/test-fs-link
+  ---
+  duration_ms: 7.115
+  ...
+ok 850 parallel/test-fs-fsync
+  ---
+  duration_ms: 8.337
+  ...
+ok 851 parallel/test-fs-lchown
+  ---
+  duration_ms: 8.8
+  ...
+ok 852 parallel/test-fs-long-path # skip this test is Windows-specific.
+  ---
+  duration_ms: 6.755
+  ...
+ok 853 parallel/test-fs-make-callback
+  ---
+  duration_ms: 7.129
+  ...
+ok 854 parallel/test-fs-makeStatsCallback
+  ---
+  duration_ms: 7.546
+  ...
+ok 855 parallel/test-fs-cp
+  ---
+  duration_ms: 19.414
+  ...
+ok 856 parallel/test-fs-mkdir-recursive-eaccess
+  ---
+  duration_ms: 6.890
+  ...
+ok 857 parallel/test-fs-mkdir-mode-mask
+  ---
+  duration_ms: 7.241
+  ...
+ok 858 parallel/test-fs-mkdir-rmdir
+  ---
+  duration_ms: 7.81
+  ...
+ok 859 parallel/test-fs-mkdir
+  ---
+  duration_ms: 8.469
+  ...
+ok 860 parallel/test-fs-mkdtemp
+  ---
+  duration_ms: 7.612
+  ...
+ok 861 parallel/test-fs-mkdtemp-prefix-check
+  ---
+  duration_ms: 6.777
+  ...
+ok 862 parallel/test-fs-non-number-arguments-throw
+  ---
+  duration_ms: 7.240
+  ...
+ok 863 parallel/test-fs-open-flags
+  ---
+  duration_ms: 7.236
+  ...
+ok 864 parallel/test-fs-null-bytes
+  ---
+  duration_ms: 8.170
+  ...
+ok 865 parallel/test-fs-open
+  ---
+  duration_ms: 7.849
+  ...
+ok 866 parallel/test-fs-open-mode-mask
+  ---
+  duration_ms: 6.893
+  ...
+ok 867 parallel/test-fs-open-numeric-flags
+  ---
+  duration_ms: 6.455
+  ...
+ok 868 parallel/test-fs-open-no-close
+  ---
+  duration_ms: 8.420
+  ...
+ok 869 parallel/test-fs-promises-exists
+  ---
+  duration_ms: 6.720
+  ...
+ok 870 parallel/test-fs-opendir
+  ---
+  duration_ms: 7.808
+  ...
+ok 871 parallel/test-fs-options-immutable
+  ---
+  duration_ms: 7.797
+  ...
+ok 872 parallel/test-fs-promises-file-handle-aggregate-errors
+  ---
+  duration_ms: 7.417
+  ...
+ok 873 parallel/test-fs-promises
+  ---
+  duration_ms: 8.879
+  ...
+ok 874 parallel/test-fs-promises-file-handle-append-file
+  ---
+  duration_ms: 7.716
+  ...
+ok 875 parallel/test-fs-promises-file-handle-chmod
+  ---
+  duration_ms: 6.819
+  ...
+ok 876 parallel/test-fs-promises-file-handle-close
+  ---
+  duration_ms: 7.273
+  ...
+ok 877 parallel/test-fs-promises-file-handle-close-errors
+  ---
+  duration_ms: 7.44
+  ...
+ok 878 parallel/test-fs-promises-file-handle-op-errors
+  ---
+  duration_ms: 6.974
+  ...
+ok 879 parallel/test-fs-promises-file-handle-read
+  ---
+  duration_ms: 8.170
+  ...
+ok 880 parallel/test-fs-promises-file-handle-readFile
+  ---
+  duration_ms: 7.618
+  ...
+ok 881 parallel/test-fs-promises-file-handle-stat
+  ---
+  duration_ms: 7.75
+  ...
+ok 882 parallel/test-fs-promises-file-handle-stream
+  ---
+  duration_ms: 7.573
+  ...
+ok 883 parallel/test-fs-promises-file-handle-truncate
+  ---
+  duration_ms: 6.824
+  ...
+ok 884 parallel/test-fs-promises-file-handle-sync
+  ---
+  duration_ms: 7.198
+  ...
+ok 885 parallel/test-fs-promises-file-handle-readLines
+  ---
+  duration_ms: 8.807
+  ...
+ok 886 parallel/test-fs-promises-file-handle-write
+  ---
+  duration_ms: 7.338
+  ...
+ok 887 parallel/test-fs-promises-readfile-empty
+  ---
+  duration_ms: 6.943
+  ...
+ok 888 parallel/test-fs-promises-file-handle-read-worker
+  ---
+  duration_ms: 11.816
+  ...
+ok 889 parallel/test-fs-promises-file-handle-writeFile
+  ---
+  duration_ms: 8.541
+  ...
+ok 890 parallel/test-fs-promises-readfile-with-fd
+  ---
+  duration_ms: 7.175
+  ...
+ok 891 parallel/test-fs-promises-watch
+  ---
+  duration_ms: 8.77
+  ...
+ok 892 parallel/test-fs-promises-write-optional-params
+  ---
+  duration_ms: 7.954
+  ...
+ok 893 parallel/test-fs-promises-readfile
+  ---
+  duration_ms: 11.607
+  ...
+ok 894 parallel/test-fs-promises-writefile-with-fd
+  ---
+  duration_ms: 6.436
+  ...
+ok 895 parallel/test-fs-read
+  ---
+  duration_ms: 6.996
+  ...
+ok 896 parallel/test-fs-promisified
+  ---
+  duration_ms: 7.144
+  ...
+ok 897 parallel/test-fs-promises-writefile-typedarray
+  ---
+  duration_ms: 7.689
+  ...
+ok 898 parallel/test-fs-read-empty-buffer
+  ---
+  duration_ms: 7.126
+  ...
+ok 899 parallel/test-fs-read-file-sync-hostname
+  ---
+  duration_ms: 6.522
+  ...
+ok 900 parallel/test-fs-read-file-sync
+  ---
+  duration_ms: 6.684
+  ...
+ok 901 parallel/test-fs-read-file-assert-encoding
+  ---
+  duration_ms: 6.885
+  ...
+ok 902 parallel/test-fs-promises-writefile
+  ---
+  duration_ms: 10.68
+  ...
+ok 903 parallel/test-fs-read-offset-null
+  ---
+  duration_ms: 7.252
+  ...
+ok 904 parallel/test-fs-read-optional-params
+  ---
+  duration_ms: 7.265
+  ...
+not ok 905 parallel/test-crypto-keygen
+  ---
+  duration_ms: 360.235
+  severity: fail
+  exitcode: -15
+  stack: |-
+    timeout
+  ...
+ok 906 parallel/test-fs-read-promises-optional-params
+  ---
+  duration_ms: 6.944
+  ...
+ok 907 parallel/test-fs-read-stream-autoClose
+  ---
+  duration_ms: 7.106
+  ...
+ok 908 parallel/test-fs-read-stream-double-close
+  ---
+  duration_ms: 6.954
+  ...
+ok 909 parallel/test-fs-read-stream-encoding
+  ---
+  duration_ms: 6.818
+  ...
+ok 910 parallel/test-fs-read-stream-err
+  ---
+  duration_ms: 6.665
+  ...
+ok 911 parallel/test-fs-read-stream-fd
+  ---
+  duration_ms: 7.18
+  ...
+ok 912 parallel/test-fs-read-position-validation
+  ---
+  duration_ms: 10.20
+  ...
+ok 913 parallel/test-fs-read-stream
+  ---
+  duration_ms: 9.550
+  ...
+ok 914 parallel/test-fs-read-stream-file-handle
+  ---
+  duration_ms: 7.393
+  ...
+ok 915 parallel/test-fs-read-stream-fd-leak
+  ---
+  duration_ms: 8.578
+  ...
+ok 916 parallel/test-fs-read-stream-inherit
+  ---
+  duration_ms: 8.677
+  ...
+ok 917 parallel/test-fs-read-stream-patch-open
+  ---
+  duration_ms: 7.505
+  ...
+ok 918 parallel/test-fs-read-stream-resume
+  ---
+  duration_ms: 8.711
+  ...
+ok 919 parallel/test-fs-read-zero-length
+  ---
+  duration_ms: 7.681
+  ...
+ok 920 parallel/test-fs-read-type
+  ---
+  duration_ms: 8.400
+  ...
+ok 921 parallel/test-fs-readSync-optional-params
+  ---
+  duration_ms: 7.854
+  ...
+ok 922 parallel/test-fs-readdir
+  ---
+  duration_ms: 8.189
+  ...
+ok 923 parallel/test-fs-readdir-buffer # skip this tests works only on MacOS
+  ---
+  duration_ms: 8.205
+  ...
+ok 924 parallel/test-fs-read-stream-throw-type-error
+  ---
+  duration_ms: 10.548
+  ...
+ok 925 parallel/test-fs-readdir-ucs2
+  ---
+  duration_ms: 7.585
+  ...
+ok 926 parallel/test-fs-readdir-types
+  ---
+  duration_ms: 8.760
+  ...
+ok 927 parallel/test-fs-readSync-position-validation
+  ---
+  duration_ms: 10.781
+  ...
+ok 928 parallel/test-fs-readfile
+  ---
+  duration_ms: 8.812
+  ...
+ok 929 parallel/test-fs-readfile-empty
+  ---
+  duration_ms: 7.778
+  ...
+ok 930 parallel/test-fs-readfile-flags
+  ---
+  duration_ms: 7.852
+  ...
+ok 931 parallel/test-fs-readfile-fd
+  ---
+  duration_ms: 8.556
+  ...
+ok 932 parallel/test-fs-readfile-unlink
+  ---
+  duration_ms: 7.617
+  ...
+ok 933 parallel/test-fs-readfile-zero-byte-liar
+  ---
+  duration_ms: 7.124
+  ...
+ok 934 parallel/test-fs-readfilesync-enoent # skip Windows specific test.
+  ---
+  duration_ms: 6.937
+  ...
+ok 935 parallel/test-fs-readlink-type-check
+  ---
+  duration_ms: 7.530
+  ...
+ok 936 parallel/test-fs-readfile-error
+  ---
+  duration_ms: 15.47
+  ...
+ok 937 parallel/test-fs-readv
+  ---
+  duration_ms: 8.224
+  ...
+ok 938 parallel/test-fs-readv-promises
+  ---
+  duration_ms: 7.825
+  ...
+ok 939 parallel/test-fs-readv-promisify
+  ---
+  duration_ms: 7.421
+  ...
+ok 940 parallel/test-fs-readfile-pipe
+  ---
+  duration_ms: 15.191
+  ...
+ok 941 parallel/test-fs-readv-sync
+  ---
+  duration_ms: 7.667
+  ...
+ok 942 parallel/test-fs-ready-event-stream
+  ---
+  duration_ms: 8.70
+  ...
+ok 943 parallel/test-fs-readfile-pipe-large
+  ---
+  duration_ms: 16.505
+  ...
+ok 944 parallel/test-fs-read-stream-concurrent-reads
+  ---
+  duration_ms: 33.974
+  ...
+ok 945 parallel/test-fs-readfilesync-pipe-large
+  ---
+  duration_ms: 16.370
+  ...
