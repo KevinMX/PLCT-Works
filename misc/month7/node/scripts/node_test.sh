@@ -43,7 +43,7 @@ get_source() {
 run_test() {
     cd ~/rpmbuild/BUILD/node*
     mkdir -p out/Release && pushd out/Release
-    if [ -f ~/rpmbuild/BUILD/node-*/out/Release/node ]; then
+    if [ ! -f ~/rpmbuild/BUILD/node-*/out/Release/node ]; then
     ln -s /usr/bin/node .
     fi
     popd
