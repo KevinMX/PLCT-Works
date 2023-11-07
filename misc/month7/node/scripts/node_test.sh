@@ -1,11 +1,10 @@
 #!/bin/bash
 
-BRANCH="openEuler-23.09"
-PROXY=""
-
 set_yum_repo() {
-    rm /etc/yum.repos.d/openEuler.repo
-    cat <<"EOF" >/etc/yum.repos.d/openEuler.repo
+    sudo cp /etc/yum.repos.d/openEuler.repo /etc/yum.repos.d/openEuler.repo.bak
+    if [[ $(arch) == "riscv64" ]]; then
+        sudo rm /etc/yum.repos.d/openEuler.repo
+        sudo bash -c 'cat << "EOF" > /etc/yum.repos.d/openEuler.repo
 [OS]
 name=OS
 baseurl=https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20231106/v0.1/repo/
@@ -23,7 +22,10 @@ metadata_expire=1h
 enabled=1
 gpgcheck=1
 gpgkey=http://repo.openeuler.org/openEuler-23.09/source/RPM-GPG-KEY-openEuler
-EOF
+EOF'
+    else
+        echo "Not riscv64, will not override repo configuration."
+    fi
 }
 
 install_dependencies() {
@@ -47,8 +49,9 @@ run_test() {
     ln -s /usr/bin/node .
     fi
     popd
-    ./tools/test.py --logfile ~/node_$(date +%Y%m%d-%H%M%S).log -p tap -j$(($(nproc)-2)) | tee ~/node_failed_$(date +%Y%m%d-%H%M%S).log
-    echo "Test finished. Please check log output."
+    ./tools/test.py -p tap -j$(($(nproc)-2)) | tee ~/node_failed_$(date +%Y%m%d-%H%M%S).log
+    mv /tmp/perf-* node-coverage-* ~/
+    echo "Test finished. Please check log output at ~"
 }
 
 set_yum_repo || { echo "Failed to overwrite yum repo config."; exit 1; }
