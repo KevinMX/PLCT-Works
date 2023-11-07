@@ -47,7 +47,7 @@ run_test() {
     ln -s /usr/bin/node .
     fi
     popd
-    ./tools/test.py --logfile ~/node_$(date +%Y%m%d-%H%M%S).log -p tap -j$(($(nproc)-2))
+    ./tools/test.py --logfile ~/node_$(date +%Y%m%d-%H%M%S).log -p tap -j$(($(nproc)-2)) | tee ~/node_failed_$(date +%Y%m%d-%H%M%S).log
     echo "Test finished. Please check log output."
 }
 
