@@ -43,9 +43,11 @@ get_source() {
 run_test() {
     cd ~/rpmbuild/BUILD/node*
     mkdir -p out/Release && pushd out/Release
+    if [ -f ~/rpmbuild/BUILD/node-18.16.0/out/Release/node ]; then
     ln -s /usr/bin/node .
+    fi
     popd
-    ./tools/test.py --logfile ~/node_$(date +%Y%m%d-%H%M%S).log
+    ./tools/test.py --logfile ~/node_$(date +%Y%m%d-%H%M%S).log -p tap -j$(($(nproc)-2))
     echo "Test finished. Please check log output."
 }
 
