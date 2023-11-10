@@ -23,7 +23,7 @@ riscv64:
 - QEMU 版本：8.1.2
 - vCPU 分配：18
 - RAM 分配：16GiB
-- 使用 tarsier-infra 仓库镜像 [ISCAS Mirror](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20231106/v0.1/repo/) / [Tarsier-Infta Repo](https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_20231106/)
+- 使用 tarsier-infra 仓库镜像 [ISCAS Mirror](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20231106/v0.1/repo/) / [Tarsier-Infra Repo](https://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309_20231106/)
 
 ## 测试方法
 
