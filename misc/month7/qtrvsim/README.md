@@ -397,3 +397,7 @@ PC: 100e0
 # 总结
 
 QtRvSim 提供了一个有趣的在线 RISC-V 架构实现平台，非常适合初学者学习，实现一些 RISC-V 模块，目前只实现了 RV32/64G、RV32/64M 和一些伪指令，Wasm 实现仍处于实验性阶段。
+
+# 参考
+
+[qtrvsim 使用](https://blog.csdn.net/jtwqwq/article/details/132252621)
