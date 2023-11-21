@@ -6,8 +6,76 @@
 
 除此之外，也提供基于 Qt 的版本，[GitHub release](https://github.com/cvut/qtrvsim/releases) 中包含了 macOS、Windows (mingw32)、AppImage 等多种构建。软件已在 Ubuntu [PPA](https://launchpad.net/~qtrvsimteam/+archive/ubuntu/ppa)、Arch Linux [AUR](https://aur.archlinux.org/pkgbase/qtrvsim) 和 [nixpkgs](https://github.com/NixOS/nixpkgs/blob/release-23.05/pkgs/applications/science/computer-architecture/qtrvsim/default.nix) 等上架。
 
-也可以从 [openSUSE Build Service](
-https://software.opensuse.org/download.html?project=home%3Ajdupak&package=qtrvsim) 获取各个发行版可用的软件包。
+也可以从 [openSUSE Build Service](https://software.opensuse.org/download.html?project=home%3Ajdupak&package=qtrvsim) 获取各个发行版可用的软件包。
+
+## 安装
+
+### Ubuntu
+
+```bash
+sudo add-apt-repository ppa:qtrvsimteam/ppa
+sudo apt update
+sudo apt install -y qtrvsim
+```
+
+### Debian Unstable / 11
+
+前往 [OBS](https://software.opensuse.org/download.html?project=home%3Ajdupak&package=qtrvsim) 获取软件包。
+
+请注意下方的链接未必是最新。
+
+#### Debian Unstable
+
+```bash
+echo 'deb http://download.opensuse.org/repositories/home:/jdupak/Debian_Unstable/ /' | sudo tee /etc/apt/sources.list.d/home:jdupak.list
+curl -fsSL https://download.opensuse.org/repositories/home:jdupak/Debian_Unstable/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_jdupak.gpg > /dev/null
+sudo apt update
+sudo apt install qtrvsim
+```
+
+#### Debian 11
+
+```bash
+echo 'deb http://download.opensuse.org/repositories/home:/jdupak/Debian_11/ /' | sudo tee /etc/apt/sources.list.d/home:jdupak.list
+curl -fsSL https://download.opensuse.org/repositories/home:jdupak/Debian_11/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_jdupak.gpg > /dev/null
+sudo apt update
+sudo apt install qtrvsim
+```
+
+### Arch Linux
+
+从 [AUR](https://aur.archlinux.org/pkgbase/qtrvsim) 获取，可使用任意 AUR Helper。
+
+```bash
+yay -S qtrvsim
+# paru -S qtrvsim
+```
+
+或者添加 OBS 软件源（以 root 用户执行）：
+
+```bash
+cat << "EOF" >> /etc/pacman.conf
+[home_jdupak_Arch]
+Server = https://download.opensuse.org/repositories/home:/jdupak/Arch/$arch
+EOF
+key=$(curl -fsSL https://download.opensuse.org/repositories/home:jdupak/Arch/$(uname -m)/home_jdupak_Arch.key)
+fingerprint=$(gpg --quiet --with-colons --import-options show-only --import --fingerprint <<< "${key}" | awk -F: '$1 == "fpr" { print $10 }')
+pacman-key --init
+pacman-key --add - <<< "${key}"
+pacman-key --lsign-key "${fingerprint}"
+pacman -Sy home_jdupak_Arch/qtrvsim
+```
+
+### Fedora
+
+```bash
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:jdupak/Fedora_37/home:jdupak.repo
+dnf install qtrvsim
+```
+
+### Windows
+
+从 [GitHub Release](https://github.com/cvut/qtrvsim/releases) 获取最新二进制 `qtrvsim-mingw32`，下载并解压。
 
 ## GUI 使用
 
