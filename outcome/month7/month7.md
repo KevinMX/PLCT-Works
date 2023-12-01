@@ -4,7 +4,6 @@
 
 - 修正 [自动化测试脚本](https://github.com/KevinMX/PLCT-Tarsier-Works/tree/main/misc/month6/scripts)。
 - 协助 openEuler 23.09 RISC-V 独立发行版镜像测试（烧写镜像检查是否能够正常启动）。
-- 修正 [自动化测试脚本](https://github.com/KevinMX/PLCT-Tarsier-Works/tree/main/misc/month6/scripts)。
 - 编写 Node.js [测试报告](https://github.com/KevinMX/PLCT-Tarsier-Works/tree/main/misc/month7/node/report_oe2309)。
 - 参加 SIG-QA 会议 & openEuler 社区优秀贡献者评选。- [etherpad](https://etherpad.openeuler.org/p/sig-QA-meetings)
 - 测试 OpenJDK on openEuler RISC-V on Docker。- Issue [I8IFPN](https://gitee.com/openeuler/RISC-V/issues/I8IFPN)

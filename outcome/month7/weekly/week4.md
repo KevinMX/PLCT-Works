@@ -18,3 +18,9 @@ openEuler 23.09 独立发版测试：
 - 协助测试 Firefox 115 ESR
     - 经测试目前可在 QEMU / LPi4A / VisionFive / VisionFive 2 启动
     - 先前出现的 H264 解码问题已解决
+
+### 缺陷列表 / Issues
+
+| ID/Link                                                    | 缺陷名称                                                                       |
+|------------------------------------------------------------|----------------------------------------------------------------------------|
+| [I8KZYR](https://gitee.com/openeuler/RISC-V/issues/I8KZYR) | 23.09 D1 preview V1 镜像 bootloop |
