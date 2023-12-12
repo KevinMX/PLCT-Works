@@ -11,6 +11,7 @@ size: 16:9
 PLCT Lab 第三测试小队 Kevin.MX
 
 <!-- _footer: "" -->
+<!-- _paginate: "skip" -->
 
 ---
 
