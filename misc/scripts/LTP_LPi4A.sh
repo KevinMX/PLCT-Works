@@ -1,8 +1,8 @@
 #!/bin/bash
 
 LTP_VERSION=20230929
-LTP_TIMEOUT_MUL=100
-# Enter your proxy server here if your network is restricted, i.e. no access to GitHub
+#LTP_TIMEOUT_MUL=100
+#Enter your proxy server here if your network is restricted, i.e. no access to GitHub
 PROXY=""
 
 

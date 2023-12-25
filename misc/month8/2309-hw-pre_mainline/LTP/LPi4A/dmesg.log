@@ -1,0 +1,2163 @@
+[Dec22 15:30] Linux version 5.10.113 (abuild@obs-worker-arm64-0002) (gcc_old (GCC) 12.3.1 (openEuler 12.3.1-16.oe2309), GNU ld (GNU Binutils) 2.40) #1 SMP PREEMPT Mon Nov 20 04:44:14 UTC 2023
+[  +0.000000] earlycon: uart0 at MMIO32 0x000000ffe7014000 (options '115200n8')
+[  +0.000000] printk: bootconsole [uart0] enabled
+[  +0.000000] efi: UEFI not found.
+[  +0.000000] Reserved memory: created CMA memory pool at 0x00000003e4000000, size 320 MiB
+[  +0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[  +0.000000] Zone ranges:
+[  +0.000000]   DMA32    [mem 0x0000000000200000-0x00000000ffffffff]
+[  +0.000000]   Normal   [mem 0x0000000100000000-0x00000003ffffffff]
+[  +0.000000] Movable zone start for each node
+[  +0.000000] Early memory node ranges
+[  +0.000000]   node   0: [mem 0x0000000000200000-0x000000000fffffff]
+[  +0.000000]   node   0: [mem 0x0000000010000000-0x00000000166fffff]
+[  +0.000000]   node   0: [mem 0x0000000016700000-0x0000000016ffffff]
+[  +0.000000]   node   0: [mem 0x0000000017000000-0x0000000018ffffff]
+[  +0.000000]   node   0: [mem 0x0000000019000000-0x000000001bffffff]
+[  +0.000000]   node   0: [mem 0x000000001c000000-0x000000001e00ffff]
+[  +0.000000]   node   0: [mem 0x000000001e010000-0x000000001fffffff]
+[  +0.000000]   node   0: [mem 0x0000000020000000-0x00000000207fffff]
+[  +0.000000]   node   0: [mem 0x0000000020800000-0x0000000031ffffff]
+[  +0.000000]   node   0: [mem 0x0000000032000000-0x00000000383fffff]
+[  +0.000000]   node   0: [mem 0x0000000038400000-0x00000003ffffffff]
+[  +0.000000] Initmem setup node 0 [mem 0x0000000000200000-0x00000003ffffffff]
+[  +0.000000] On node 0 totalpages: 4193792
+[  +0.000000]   DMA32 zone: 16376 pages used for memmap
+[  +0.000000]   DMA32 zone: 0 pages reserved
+[  +0.000000]   DMA32 zone: 1048064 pages, LIFO batch:63
+[  +0.000000]   Normal zone: 49152 pages used for memmap
+[  +0.000000]   Normal zone: 3145728 pages, LIFO batch:63
+[  +0.000000] software IO TLB: mapped [mem 0x00000000fbfff000-0x00000000fffff000] (64MB)
+[  +0.000000] SBI specification v0.3 detected
+[  +0.000000] SBI implementation ID=0x1 Version=0x9
+[  +0.000000] SBI v0.2 TIME extension detected
+[  +0.000000] SBI v0.2 IPI extension detected
+[  +0.000000] SBI v0.2 RFENCE extension detected
+[  +0.000000] SBI v0.2 HSM extension detected
+[  +0.000000] riscv: ISA extensions acdfimsuv
+[  +0.000000] riscv: ELF capabilities acdfimv
+[  +0.000000] percpu: Embedded 27 pages/cpu s73560 r8192 d28840 u110592
+[  +0.000000] pcpu-alloc: s73560 r8192 d28840 u110592 alloc=27*4096
+[  +0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[  +0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 4128264
+[  +0.000000] Kernel command line: root=/dev/mmcblk0p3 console=ttyS0,115200 rootwait rw earlycon clk_ignore_unused loglevel=7 eth= rootrwoptions=rw,noatime rootrwreset=yes
+[  +0.000000] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[  +0.000000] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[  +0.000000] Sorting __ex_table...
+[  +0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[  +0.000000] Memory: 15786900K/16775168K available (12171K kernel code, 6222K rwdata, 4096K rodata, 331K init, 511K bss, 660588K reserved, 327680K cma-reserved)
+[  +0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[  +0.000000] rcu: Preemptible hierarchical RCU implementation.
+[  +0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+[  +0.000000] 	Trampoline variant of Tasks RCU enabled.
+[  +0.000000] 	Tracing variant of Tasks RCU enabled.
+[  +0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[  +0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[  +0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[  +0.000000] riscv-intc: 64 local interrupts mapped
+[  +0.000000] plic: interrupt-controller@ffd8000000: mapped 64 interrupts with 4 handlers for 8 contexts.
+[  +0.000000] random: get_random_bytes called from start_kernel+0x370/0x4d4 with crng_init=0
+[  +0.000000] riscv_timer_init_dt: Registering clocksource cpuid [0] hartid [0]
+[  +0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x1623fa770, max_idle_ns: 881590404476 ns
+[  +0.000000] sched_clock: 64 bits at 3000kHz, resolution 333ns, wraps every 4398046511097ns
+[  +0.008707] Console: colour dummy device 80x25
+[  +0.004527] Calibrating delay loop (skipped), value calculated using timer frequency.. 6.00 BogoMIPS (lpj=12000)
+[  +0.010198] pid_max: default: 32768 minimum: 301
+[  +0.004804] LSM: Security Framework initializing
+[  +0.004800] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[  +0.007665] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[  +0.010433] ASID allocator initialised with 65536 entries
+[  +0.005596] rcu: Hierarchical SRCU implementation.
+[  +0.005732] EFI services will not be available.
+[  +0.005052] smp: Bringing up secondary CPUs ...
+[  +0.007380] smp: Brought up 1 node, 4 CPUs
+[  +0.007586] devtmpfs: initialized
+[  +0.028496] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[  +0.009825] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[  +0.016543] pinctrl core: initialized pinctrl subsystem
+[  +0.006547] NET: Registered protocol family 16
+[  +0.024350] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[  +0.007602] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[  +0.008137] audit: initializing netlink subsys (disabled)
+[  +0.005700] audit: type=2000 audit(0.124:1): state=initialized audit_enabled=0 res=1
+[  +0.000612] thermal_sys: Registered thermal governor 'step_wise'
+[  +0.007636] cpuidle: using governor ladder
+[  +0.010183] cpuidle: using governor menu
+[  +0.117739] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[  +0.006811] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[  +0.082983] raid6: int64x8  gen()   766 MB/s
+[  +0.072484] raid6: int64x8  xor()   447 MB/s
+[  +0.072478] raid6: int64x4  gen()  1027 MB/s
+[  +0.072466] raid6: int64x4  xor()   551 MB/s
+[  +0.072456] raid6: int64x2  gen()  1035 MB/s
+[  +0.072448] raid6: int64x2  xor()   537 MB/s
+[  +0.072474] raid6: int64x1  gen()   834 MB/s
+[  +0.072522] raid6: int64x1  xor()   388 MB/s
+[  +0.004307] raid6: using algorithm int64x2 gen() 1035 MB/s
+[  +0.005506] raid6: .... xor() 537 MB/s, rmw enabled
+[  +0.004892] raid6: using intx1 recovery algorithm
+[  +0.006365] vgaarb: loaded
+[  +0.003217] SCSI subsystem initialized
+[  +0.004081] usbcore: registered new interface driver usbfs
+[  +0.005573] usbcore: registered new interface driver hub
+[  +0.005387] usbcore: registered new device driver usb
+[  +0.005688] mc: Linux media interface: v0.10
+[  +0.004343] videodev: Linux video capture interface: v2.00
+[  +0.006205] Advanced Linux Sound Architecture Driver Initialized.
+[  +0.006898] Bluetooth: Core ver 2.22
+[  +0.003675] NET: Registered protocol family 31
+[  +0.004465] Bluetooth: HCI device and connection manager initialized
+[  +0.006386] Bluetooth: HCI socket layer initialized
+[  +0.004901] Bluetooth: L2CAP socket layer initialized
+[  +0.005092] Bluetooth: SCO socket layer initialized
+[  +0.005485] clocksource: Switched to clocksource riscv_clocksource
+[  +0.909506] NET: Registered protocol family 2
+[  +0.005120] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[  +0.021260] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[  +0.008777] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[  +0.008847] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[  +0.008338] TCP: Hash tables configured (established 131072 bind 65536)
+[  +0.006900] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[  +0.006944] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[  +0.007607] NET: Registered protocol family 1
+[  +0.005254] RPC: Registered named UNIX socket transport module.
+[  +0.005978] RPC: Registered udp transport module.
+[  +0.004723] RPC: Registered tcp transport module.
+[  +0.004721] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[  +0.007171] PCI: CLS 0 bytes, default 64
+[  +0.005379] khv_probe, 164, irq: 64.
+[  +0.005113] Initialise system trusted keyrings
+[  +0.004826] workingset: timestamp_bits=46 max_order=22 bucket_order=0
+[  +0.018923] NFS: Registering the id_resolver key type
+[  +0.005149] Key type id_resolver registered
+[  +0.004216] Key type id_legacy registered
+[  +0.004190] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[  +0.006746] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[  +0.007451] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[  +0.006755] fuse: init (API version 7.32)
+[  +0.004676] 9p: Installing v9fs 9p2000 file system support
+[  +0.094769] NET: Registered protocol family 38
+[  +0.004514] xor: measuring software checksum speed
+[  +0.009183]    8regs           :  2259 MB/sec
+[  +0.008722]    8regs_prefetch  :  2266 MB/sec
+[  +0.009134]    32regs          :  2069 MB/sec
+[  +0.009144]    32regs_prefetch :  2069 MB/sec
+[  +0.004369] xor: using function: 8regs_prefetch (2266 MB/sec)
+[  +0.005762] Key type asymmetric registered
+[  +0.004111] Asymmetric key parser 'x509' registered
+[  +0.004951] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[  +0.007618] io scheduler mq-deadline registered
+[  +0.004594] io scheduler kyber registered
+[  +0.005703] light-pinctrl ffe7f3c000.pinctrl1-apsys: initialized light pinctrl driver
+[  +0.008275] light-pinctrl ffec007000.padctrl0-apsys: initialized light pinctrl driver
+[  +0.008243] light-pinctrl fffff4a000.padctrl-aosys: initialized light pinctrl driver
+[  +0.008096] light-pinctrl ffcb01d000.padctrl-audiosys: initialized light pinctrl driver
+[  +0.014984] pwm-backlight pwm-backlight@0: supply power not found, using dummy regulator
+[  +0.026512] light-fm-clk ffef010000.clock-controller: succeed to register light fullmask clock driver
+[  +0.017352] visys-clk-gate-provider soc:visys-clk-gate: succeed to register visys gate clock provider
+[  +0.012519] vpsys-clk-gate-provider ffecc30000.vpsys-clk-gate: succeed to register vpsys gate clock provider
+[  +0.017832] vosys-clk-gate-provider ffef528000.vosys-clk-gate: succeed to register vosys gate clock provider
+[  +0.010484] dspsys-clk-gate-provider soc:dspsys-clk-gate: cannot find regmap for tee dsp system register
+[  +0.012895] dspsys-clk-gate-provider soc:dspsys-clk-gate: succeed to register dspsys gate clock provider
+[  +0.010154] light_audiosys_clk_probe audiosys_regmap=0xffffffe100ad8800
+[  +0.013539] audiosys-clk-gate-provider soc:audiosys-clk-gate: succeed to register audiosys gate clock provider
+[  +0.011033] dw_axi_dmac_platform ffefc00000.dmac: DesignWare AXI DMA Controller, 4 channels
+[  +0.010169] dw_axi_dmac_platform ffc8000000.audio_dmac: DesignWare AXI DMA Controller, 16 channels
+[  +0.011005] (NULL device *): failed to find vdmabuf_reserved_memory node
+[  +0.006749] virtio-vdmabuf: carveout bufs setup failed -22
+[  +0.084859] Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+[  +0.009679] printk: console [ttyS0] disabled
+[  +0.004395] ffe7014000.serial: ttyS0 at MMIO 0xffe7014000 (irq = 4, base_baud = 6250000) is a 16550A
+[  +0.009217] printk: console [ttyS0] enabled
+[  +0.008408] printk: bootconsole [uart0] disabled
+[  +0.011025] ffe7f00000.serial: ttyS1 at MMIO 0xffe7f00000 (irq = 6, base_baud = 6250000) is a 16550A
+[  +0.010614] fff7f08000.serial: ttyS4 at MMIO 0xfff7f08000 (irq = 8, base_baud = 6250000) is a 16550A
+[  +0.018146] vs-dc ffef600000.dc8200: dpu0pll_on:0 dpu1pll_on:1
+[  +0.009854] vs-drm display-subsystem: bound ffef600000.dc8200 (ops 0xffffffe0010c3748)
+[  +0.008240] dwhdmi-light ffef540000.dw-hdmi-tx: Detected HDMI TX controller v2.14a with HDCP (DWC HDMI 2.0 TX PHY)
+[  +0.011121] dwhdmi-light ffef540000.dw-hdmi-tx: registered DesignWare HDMI I2C bus driver
+[  +0.008591] vs-drm display-subsystem: bound ffef540000.dw-hdmi-tx (ops 0xffffffe0010c4f10)
+[  +0.009370] [drm] Initialized vs-drm 1.0.0 20191101 for display-subsystem on minor 0
+[  +0.007919] vs-drm display-subsystem: [drm] Cannot find any crtc or sizes
+[  +0.020161] loop: module loaded
+[  +0.005906] spi_norflash@0 enforce active low on chipselect handle
+[  +0.007297] spi-nor spi0.0: unrecognized JEDEC id bytes: ff ff ff ff ff ff
+[  +0.006992] dw_spi_mmio ffe700c000.spi: cs1 >= max 1
+[  +0.005013] spi_master spi0: spi_device register error /soc/spi@ffe700c000/spidev@1
+[  +0.007696] spi_master spi0: Failed to create SPI device for /soc/spi@ffe700c000/spidev@1
+[  +0.008740] spidev@0 enforce active low on chipselect handle
+[  +0.009967] tun: Universal TUN/TAP device driver, 1.6
+[  +0.007921] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[  +0.006242] ohci-pci: OHCI PCI platform driver
+[  +0.005495] usbcore: registered new interface driver usb-storage
+[  +0.006082] usbcore: registered new interface driver ums-sddr09
+[  +0.005982] usbcore: registered new interface driver ums-sddr55
+[  +0.006371] mousedev: PS/2 mouse device common for all mice
+[  +0.006772] xgene-rtc fffff40000.rtc: registered as rtc0
+[  +0.005417] xgene-rtc fffff40000.rtc: setting system clock to 1970-01-01T00:00:00 UTC (0)
+[  +0.008573] i2c /dev entries driver
+[  +0.005458] hwmon hwmon0: temp2_input not attached to any thermal zone
+[  +0.007629] light_reset_deassert id:0
+[  +0.003688] dw_wdt ffefc30000.watchdog: No valid TOPs array specified
+[  +0.007267] light_reset_deassert id:1
+[  +0.003727] dw_wdt ffefc31000.watchdog: No valid TOPs array specified
+[  +0.007856] Watchdog module: light-wdt loaded
+[  +0.004925] device-mapper: ioctl: 4.44.0-ioctl (2021-02-01) initialised: dm-devel@redhat.com
+[  +0.008901] Bluetooth: HCI UART driver ver 2.2.0c90be4.20211102-175223
+[  +0.006593] Bluetooth: HCI H4 protocol initialized
+[  +0.004825] Bluetooth: HCI Realtek H5 protocol initialized
+[  +0.005522] rtk_btcoex: rtk_btcoex_init: version: 1.2
+[  +0.005076] rtk_btcoex: create workqueue
+[  +0.004135] rtk_btcoex: alloc buffers 1792, 2432 for ev and l2
+[  +0.007931] sdhci: Secure Digital Host Controller Interface driver
+[  +0.006232] sdhci: Copyright(c) Pierre Ossman
+[  +0.004384] sdhci-pltfm: SDHCI platform and OF driver helper
+[  +0.014247] usbcore: registered new interface driver usbhid
+[  +0.005675] usbhid: USB HID core driver
+[  +0.004966] misc vhost-vdmabuf: failed to find vdmabuf_reserved_memory node
+[  +0.007030] misc vhost-vdmabuf: vhost-vdmabuf: carveout bufs setup failed -22
+[  +0.002943] mmc0: SDHCI controller on ffe7080000.sdhci [ffe7080000.sdhci] using ADMA 64-bit
+[  +0.004304] misc vhost-vdmabuf: vhost-vdmabuf: init successfully
+[  +0.005919] mmc1: SDHCI controller on ffe7090000.sd [ffe7090000.sd] using ADMA 64-bit
+[  +0.018083] thead,light-mbox-client mbox_910t_client2: Successfully registered
+[  +0.008490] light-adc fffff51000.adc: Thead light adc registered.
+[  +0.007579] [perf] T-HEAD C900 PMU v1 probed
+[  +0.005267] light_efuse ffff210000.efuse: succeed to register light efuse driver
+[  +0.016477] IPVS: Registered protocols (TCP, UDP)
+[  +0.004838] IPVS: Connection hash table configured (size=4096, memory=64Kbytes)
+[  +0.007541] IPVS: ipvs loaded.
+[  +0.003112] IPVS: [rr] scheduler registered.
+[  +0.004509] IPv4 over IPsec tunneling driver
+[  +0.005294] Initializing XFRM netlink socket
+[  +0.005248] NET: Registered protocol family 10
+[  +0.006137] Segment Routing with IPv6
+[  +0.004094] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[  +0.001128] mmc2: SDHCI controller on ffe70a0000.sd [ffe70a0000.sd] using ADMA 64-bit
+[  +0.005795] NET: Registered protocol family 17
+[  +0.011574] Bridge firewalling registered
+[  +0.004318] Bluetooth: RFCOMM TTY layer initialized
+[  +0.004945] sdhci-dwcmshc ffe70a0000.sd: card claims to support voltages below defined range
+[  +0.008604] mmc0: new HS400 MMC card at address 0001
+[  +0.000006] Bluetooth: RFCOMM socket layer initialized
+[  +0.000039] Bluetooth: RFCOMM ver 1.11
+[  +0.005887] mmcblk0: mmc0:0001 Y2P128 116 GiB 
+[  +0.004311] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[  +0.004124] mmcblk0boot0: mmc0:0001 Y2P128 partition 1 4.00 MiB
+[  +0.004141] Bluetooth: BNEP socket layer initialized
+[  +0.005716] mmcblk0boot1: mmc0:0001 Y2P128 partition 2 4.00 MiB
+[  +0.005576] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[  +0.005227] mmcblk0rpmb: mmc0:0001 Y2P128 partition 3 16.0 MiB, chardev (245:0)
+[  +0.005744] Bluetooth: HIDP socket layer initialized
+[  +0.018421] 8021q: 802.1Q VLAN Support v1.8
+[  +0.004351] [WLAN_RFKILL]: Enter rfkill_wlan_init
+[  +0.005422] [WLAN_RFKILL]: Enter rfkill_wlan_probe
+[  +0.001335]  mmcblk0: p1 p2 p3
+[  +0.003516] [WLAN_RFKILL]: can't find rockchip,grf property
+[  +0.001828] mmc2: new high speed SDIO card at address 0001
+[  +0.012422] [WLAN_RFKILL]: wlan_platdata_parse_dt: wifi_chip_type = rtl8723ds
+[  +0.000572] random: fast init done
+[  +0.006602] [WLAN_RFKILL]: wlan_platdata_parse_dt: wifi power will enabled while kernel starting and keep on.
+[  +0.013328] [WLAN_RFKILL]: wlan_platdata_parse_dt: wifi power controled by gpio.
+[  +0.007478] [WLAN_RFKILL]: wlan_platdata_parse_dt: The ref_wifi_clk not found !
+[  +0.007337] [WLAN_RFKILL]: rfkill_wlan_probe: init gpio
+[  +0.005247] [WLAN_RFKILL]: rockchip_wifi_power: 1
+[  +0.004734] [BT_RFKILL]: rfkill_get_bt_power_state: rfkill-bt driver has not Successful initialized
+[  +0.009068] [WLAN_RFKILL]: wifi turn on power. -1
+[  +0.004725] [WLAN_RFKILL]: Exit rfkill_wlan_probe
+[  +0.004873] [BT_RFKILL]: Enter rfkill_rk_init
+[  +0.004906] [BT_RFKILL]: bluetooth_platdata_parse_dt: uart_rts_gpios is no-in-use.
+[  +0.007645] [BT_RFKILL]: bluetooth_platdata_parse_dt: clk_get failed!!!.
+[  +0.006923] [BT_RFKILL]: bt_default device registered.
+[  +0.005501] 9pnet: Installing 9P2000 support
+[  +0.004383] Key type dns_resolver registered
+[  +0.004632] NET: Registered protocol family 40
+[  +0.005091] registered taskstats version 1
+[  +0.004152] Loading compiled-in X.509 certificates
+[  +0.007996] Btrfs loaded, crc32c=crc32c-generic
+
+[  +0.006279] ********************************************************************
+[  +0.007424] **     NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE           **
+[  +0.007414] **                                                                **
+[  +0.007414] **  WRITEABLE clk DebugFS SUPPORT HAS BEEN ENABLED IN THIS KERNEL **
+[  +0.007413] **                                                                **
+[  +0.007412] ** This means that this kernel is built to expose clk operations  **
+[  +0.007425] ** such as parent or rate setting, enabling, disabling, etc.      **
+[  +0.007414] ** to userspace, which may compromise security on your system.    **
+[  +0.007412] **                                                                **
+[  +0.007414] ** If you see this message and you are not debugging the          **
+[  +0.007418] ** kernel, report this immediately to your vendor!                **
+[  +0.007414] **                                                                **
+[  +0.007412] **     NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE           **
+[  +0.007413] ********************************************************************
+[  +0.062257] pca953x 0-0018: supply vcc not found, using dummy regulator
+[  +0.006926] pca953x 0-0018: using no AI
+[  +0.007534] pca953x 1-0018: supply vcc not found, using dummy regulator
+[  +0.006930] pca953x 1-0018: using no AI
+[  +0.007350] pca953x 3-0018: supply vcc not found, using dummy regulator
+[  +0.006873] pca953x 3-0018: using no AI
+[  +0.009282] pwm-light ffec01c000.pwm: succeed to add a pwm chip
+[  +0.006178] pwm-backlight pwm-backlight@0: supply power not found, using dummy regulator
+[  +0.008990] light_dwmac_eth ffe7070000.ethernet: IRQ eth_wake_irq not found
+[  +0.007019] light_dwmac_eth ffe7070000.ethernet: IRQ eth_lpi not found
+[  +0.006693] light_dwmac_eth ffe7070000.ethernet: Cannot get CSR clock
+[  +0.006482] light_dwmac_eth ffe7070000.ethernet: PTP uses main clock
+[  +0.006383] light_dwmac_eth ffe7070000.ethernet: no reset control found
+[  +0.006646] light_dwmac_eth ffe7070000.ethernet: id: 0
+[  +0.005164] light_dwmac_eth ffe7070000.ethernet: phy interface: 9
+[  +0.006195] RX clk delay: 0x0
+[  +0.002977] TX clk delay: 0x0
+[  +0.003305] light_dwmac_eth ffe7070000.ethernet: User ID: 0x10, Synopsys ID: 0x37
+[  +0.007530] light_dwmac_eth ffe7070000.ethernet: 	DWMAC1000
+[  +0.005598] light_dwmac_eth ffe7070000.ethernet: DMA HW capability register supported
+[  +0.007851] light_dwmac_eth ffe7070000.ethernet: RX Checksum Offload Engine supported
+[  +0.007858] light_dwmac_eth ffe7070000.ethernet: COE Type 2
+[  +0.005594] light_dwmac_eth ffe7070000.ethernet: TX Checksum insertion supported
+[  +0.007438] light_dwmac_eth ffe7070000.ethernet: Enhanced/Alternate descriptors
+[  +0.007338] light_dwmac_eth ffe7070000.ethernet: Enabled extended descriptors
+[  +0.007158] light_dwmac_eth ffe7070000.ethernet: Ring mode enabled
+[  +0.006205] light_dwmac_eth ffe7070000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[  +0.008377] light_dwmac_eth ffe7070000.ethernet: Using 0 bits DMA width,skb alloc dma32 flag 4
+[  +0.014377] light_dwmac_eth ffe7060000.ethernet: IRQ eth_wake_irq not found
+[  +0.007046] light_dwmac_eth ffe7060000.ethernet: IRQ eth_lpi not found
+[  +0.006678] light_dwmac_eth ffe7060000.ethernet: Cannot get CSR clock
+[  +0.006481] light_dwmac_eth ffe7060000.ethernet: PTP uses main clock
+[  +0.006383] light_dwmac_eth ffe7060000.ethernet: no reset control found
+[  +0.006647] light_dwmac_eth ffe7060000.ethernet: id: 1
+[  +0.005164] light_dwmac_eth ffe7060000.ethernet: phy interface: 9
+[  +0.006181] RX clk delay: 0x0
+[  +0.002977] TX clk delay: 0x0
+[  +0.003261] light_dwmac_eth ffe7060000.ethernet: User ID: 0x10, Synopsys ID: 0x37
+[  +0.007530] light_dwmac_eth ffe7060000.ethernet: 	DWMAC1000
+[  +0.005597] light_dwmac_eth ffe7060000.ethernet: DMA HW capability register supported
+[  +0.007851] light_dwmac_eth ffe7060000.ethernet: RX Checksum Offload Engine supported
+[  +0.007850] light_dwmac_eth ffe7060000.ethernet: COE Type 2
+[  +0.005592] light_dwmac_eth ffe7060000.ethernet: TX Checksum insertion supported
+[  +0.007416] light_dwmac_eth ffe7060000.ethernet: Enhanced/Alternate descriptors
+[  +0.007336] light_dwmac_eth ffe7060000.ethernet: Enabled extended descriptors
+[  +0.007158] light_dwmac_eth ffe7060000.ethernet: Ring mode enabled
+[  +0.006204] light_dwmac_eth ffe7060000.ethernet: Enable RX Mitigation via HW Watchdog Timer
+[  +0.008377] light_dwmac_eth ffe7060000.ethernet: Using 0 bits DMA width,skb alloc dma32 flag 4
+[  +0.039778] succeed to create power domain debugfs direntry
+[  +0.007707] soc_vdd_3v3_en GPIO handle specifies active low - ignored
+[  +0.007245] soc_lcd0_vdd33_en GPIO handle specifies active low - ignored
+[  +0.008379] soc_lcd0_vdd18_en GPIO handle specifies active low - ignored
+[  +0.008039] soc_vdd5v_se_en GPIO handle specifies active low - ignored
+[  +0.007255] soc_wcn33_en GPIO handle specifies active low - ignored
+[  +0.007091] soc_vbus_en GPIO handle specifies active low - ignored
+[  +0.007099] soc_avdd28_rgb GPIO handle specifies active low - ignored
+[  +0.008561] soc_dovdd18_rgb GPIO handle specifies active low - ignored
+[  +0.008302] soc_dvdd12_rgb GPIO handle specifies active low - ignored
+[  +0.008094] soc_avdd25_ir GPIO handle specifies active low - ignored
+[  +0.007734] soc_dovdd18_ir GPIO handle specifies active low - ignored
+[  +0.007881] soc_dvdd12_ir GPIO handle specifies active low - ignored
+[  +0.007790] soc_cam2_avdd25_ir GPIO handle specifies active low - ignored
+[  +0.008221] soc_cam2_dovdd18_ir GPIO handle specifies active low - ignored
+[  +0.008302] soc_cam2_dvdd12_ir GPIO handle specifies active low - ignored
+[  +0.032515] cpufreq: cpufreq_online: CPU0: Running at unlisted initial frequency: 750000 KHz, changing to: 800000 KHz
+[  +0.011071] cpu cpu0: finish to register cpufreq driver
+[  +0.006033] thead,light-aon-test aon:light-aon-test: Successfully registered
+[  +0.008853] regulator-pwr-en GPIO handle specifies active low - ignored
+[  +0.008027] regulator-hub-vdd12-en GPIO handle specifies active low - ignored
+[  +0.007994] regulator-hub-vcc5v-en GPIO handle specifies active low - ignored
+[  +0.012857] light-event soc:light-event: failed to set aon reservemem
+[  +0.006509] light-event soc:light-event: set aon reservemem failed!
+[  +0.006310] light-event: probe of soc:light-event failed with error -1
+[  +0.008168] [light_wdt_probe,329] register power off callback
+[  +0.005789] succeed to register light pmic watchdog
+[  +0.050776] alloc_contig_range: [3e4280, 3e4300) PFNs busy
+[  +0.009372] alloc_contig_range: [3e4280, 3e4300) PFNs busy
+[  +0.005984] alloc_contig_range: [3e4300, 3e4380) PFNs busy
+[  +0.009009] debugfs: File 'ES8156 SDOUT' in directory 'dapm' already present!
+[  +0.010593] input: gpio-keys as /devices/platform/gpio-keys/input/input0
+[  +0.007428] light rpmsg: Ready for cross core communication!
+[  +0.005712] light rpmsg: rproc_name = m4
+[  +0.532139] virtio_rpmsg_bus virtio0: rpmsg host is online
+[  +0.010481] light rpmsg: driver is registered.
+[  +0.004939] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[  +0.013322] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[  +0.006678] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[  +0.000473] clk: Not disabling unused clocks
+[  +0.008183] cfg80211: failed to load regulatory.db
+[  +0.004305] ALSA device list:
+[  +0.007761]   #0: Light-Sound-Card
+[  +0.003899] dw-apb-uart ffe7014000.serial: forbid DMA for kernel console
+[  +0.457494] random: crng init done
+[  +0.030092] EXT4-fs (mmcblk0p3): recovery complete
+[  +0.005449] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+[  +0.008275] VFS: Mounted root (ext4 filesystem) on device 179:3.
+[  +0.006334] devtmpfs: mounted
+[  +0.003145] Freeing unused kernel memory: 328K
+[  +0.004913] Run /sbin/init as init process
+[  +0.004122]   with arguments:
+[  +0.000006]     /sbin/init
+[  +0.000005]   with environment:
+[  +0.000004]     HOME=/
+[  +0.000004]     TERM=linux
+[  +0.000004]     eth=
+[  +0.000014]     rootrwoptions=rw,noatime
+[  +0.000005]     rootrwreset=yes
+[  +0.141629] systemd[1]: System time before build time, advancing clock.
+[  +0.041407] systemd[1]: systemd v253-5.oe2309 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA -SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID -CURL -ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE -TPM2 +BZIP2 +LZ4 +XZ +ZLIB -ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=legacy)
+[  +0.032485] systemd[1]: Detected architecture riscv64.
+[  +0.026939] systemd[1]: Hostname set to <openeuler-riscv64>.
+[  +0.201020] systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+[  +0.290019] systemd[1]: /usr/lib/systemd/system/rtkit-daemon.service:32: Unknown key name 'ControlGroup' in section 'Service', ignoring.
+[  +0.021924] systemd[1]: Queued start job for default target Graphical Interface.
+[  +0.039106] systemd[1]: Created slice Slice /system/getty.
+[  +0.031567] systemd[1]: Created slice Slice /system/modprobe.
+[  +0.026898] systemd[1]: Created slice Slice /system/serial-getty.
+[  +0.034129] systemd[1]: Created slice Slice /system/sshd-keygen.
+[  +0.028376] systemd[1]: Created slice User and Session Slice.
+[  +0.022730] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  +0.028735] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[  +0.030179] systemd[1]: Reached target User and Group Name Lookups.
+[  +0.024701] systemd[1]: Reached target Slice Units.
+[  +0.018368] systemd[1]: Reached target Swaps.
+[  +0.022232] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[  +0.026902] systemd[1]: Listening on LVM2 poll daemon socket.
+[  +0.030874] systemd[1]: Listening on RPCbind Server Activation Socket.
+[  +0.024102] systemd[1]: Reached target RPC Port Mapper.
+[  +0.036250] systemd[1]: Listening on Process Core Dump Socket.
+[  +0.024299] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[  +0.026663] systemd[1]: Listening on Journal Socket (/dev/log).
+[  +0.028135] systemd[1]: Listening on Journal Socket.
+[  +0.024992] systemd[1]: Listening on udev Control Socket.
+[  +0.025870] systemd[1]: Listening on udev Kernel Socket.
+[  +0.044418] systemd[1]: Mounting Huge Pages File System...
+[  +0.025602] systemd[1]: Mounting POSIX Message Queue File System...
+[  +0.028148] systemd[1]: Mounting Kernel Debug File System...
+[  +0.024310] systemd[1]: Mounting Kernel Trace File System...
+[  +0.020157] systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+[  +0.012727] systemd[1]: Mounting Temporary Directory /tmp...
+[  +0.022659] systemd[1]: Kernel Module supporting RPCSEC_GSS was skipped because of an unmet condition check (ConditionPathExists=/etc/krb5.keytab).
+[  +0.014133] systemd[1]: Create List of Static Device Nodes was skipped because of an unmet condition check (ConditionFileNotEmpty=/lib/modules/5.10.113/modules.devname).
+[  +0.019459] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[  +0.037247] systemd[1]: Starting Load Kernel Module configfs...
+[  +0.027190] systemd[1]: Starting Load Kernel Module drm...
+[  +0.026986] systemd[1]: Starting Load Kernel Module fuse...
+[  +0.023799] systemd[1]: systemd-journald.service: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+[  +0.013070] systemd[1]: (This warning is only shown for the first unit using IP firewalling.)
+[  +0.018803] systemd[1]: Starting Journal Service...
+[  +0.025185] systemd[1]: Load Kernel Modules was skipped because no trigger condition checks were met.
+[  +0.014254] systemd[1]: Starting Generate network units from Kernel command line...
+[  +0.000963] systemd-journald[216]: Collecting audit messages is disabled.
+[  +0.034715] systemd[1]: Starting Remount Root and Kernel File Systems...
+[  +0.028249] systemd[1]: Starting Apply Kernel Variables...
+[  +0.024524] systemd[1]: Starting Coldplug All udev Devices...
+[  +0.027516] systemd[1]: Starting Setup Virtual Console...
+[  +0.034794] systemd[1]: Started Journal Service.
+[  +0.335664] systemd-journald[216]: Received client request to flush runtime journal.
+[  +0.009787] systemd-journald[216]: File /var/log/journal/5e4d5729405f4f12985b98c99be03c3c/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[  +0.612671] light_dwmac_eth ffe7060000.ethernet end1: renamed from eth1
+[  +0.065464] aicbsp_init
+[  +0.002497] RELEASE_DATE:2023_0904_1726
+[  +0.004737] light_dwmac_eth ffe7070000.ethernet end0: renamed from eth0
+[  +0.452869] EXT4-fs (mmcblk0p2): recovery complete
+[  +0.008947] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[  +0.390313] dwc3-thead soc:usb@ffec03f000: hubswitch usb_role = 1
+[  +0.019507] dwc3-thead soc:usb@ffec03f000: light dwc3 probe ok!
+[  +0.197286] Galcore version 6.4.6.9.354872
+[  +0.057245] alloc_contig_range: [3e4900, 3e4d00) PFNs busy
+[  +0.015260] alloc_contig_range: [3e4a00, 3e4e00) PFNs busy
+[  +0.150444] [drm] Initialized vivante 1.0.0 20170808 for ffecc80000.gc620 on minor 1
+[  +0.108526] xhci-hcd xhci-hcd.3.auto: xHCI Host Controller
+[  +0.013762] xhci-hcd xhci-hcd.3.auto: new USB bus registered, assigned bus number 1
+[  +0.015170] xhci-hcd xhci-hcd.3.auto: hcc params 0x0220fe65 hci version 0x110 quirks 0x0000000000010810
+[  +0.020530] xhci-hcd xhci-hcd.3.auto: irq 73, io mem 0xffe7040000
+[  +0.016647] hub 1-0:1.0: USB hub found
+[  +0.003885] hub 1-0:1.0: 1 port detected
+[  +0.011788] xhci-hcd xhci-hcd.3.auto: xHCI Host Controller
+[  +0.005589] xhci-hcd xhci-hcd.3.auto: new USB bus registered, assigned bus number 2
+[  +0.018117] xhci-hcd xhci-hcd.3.auto: Host supports USB 3.0 SuperSpeed
+[  +0.016948] hub 2-0:1.0: USB hub found
+[  +0.003924] hub 2-0:1.0: 1 port detected
+[  +0.211061] usb 1-1: new high-speed USB device number 2 using xhci-hcd
+[  +0.200893] hub 1-1:1.0: USB hub found
+[  +0.006696] hub 1-1:1.0: 5 ports detected
+[  +0.088259] usb 2-1: new SuperSpeed Gen 1 USB device number 2 using xhci-hcd
+[  +0.176906] hub 2-1:1.0: USB hub found
+[  +0.004203] hub 2-1:1.0: 4 ports detected
+[  +0.484683] usb 1-1.5: new high-speed USB device number 3 using xhci-hcd
+[  +4.851282] PVR_K:  260: *****enter sys dev init ffef400000 28
+
+[  +0.007911] PVR_K:  260: Read BVNC 36.52.104.182 from HW device registers
+[  +0.023157] PVR_K:  260: RGX Device registered BVNC 36.52.104.182 with 1 core in the system
+[  +0.009793] [drm] Initialized pvr 1.17.6210866 20170530 for ffef400000.gpu on minor 2
+[  +2.341541] alloc_contig_range: [3e4204, 3e4208) PFNs busy
+[  +0.080625] light_dwmac_eth ffe7070000.ethernet end0: PHY [stmmac-0:01] driver [RTL8211F Gigabit Ethernet] (irq=POLL)
+[  +0.023570] alloc_contig_range: [3e4204, 3e4208) PFNs busy
+[  +0.007562] dwmac1000: Master AXI performs fixed burst length
+[  +0.013699] light_dwmac_eth ffe7070000.ethernet end0: No Safety Features support found
+[  +0.311197] light_dwmac_eth ffe7070000.ethernet end0: IEEE 1588-2008 Advanced Timestamp supported
+[  +0.021982] light_dwmac_eth ffe7070000.ethernet end0: configuring for phy/rgmii-id link mode
+[  +0.138049] light_dwmac_eth ffe7060000.ethernet end1: PHY [stmmac-0:02] driver [RTL8211F Gigabit Ethernet] (irq=POLL)
+[  +0.015928] alloc_contig_range: [3e4204, 3e4208) PFNs busy
+[  +0.016328] alloc_contig_range: [3e4208, 3e420c) PFNs busy
+[  +0.047664] dwmac1000: Master AXI performs fixed burst length
+[  +0.005838] light_dwmac_eth ffe7060000.ethernet end1: No Safety Features support found
+[  +0.418154] light_dwmac_eth ffe7060000.ethernet end1: IEEE 1588-2008 Advanced Timestamp supported
+[  +0.032903] light_dwmac_eth ffe7060000.ethernet end1: configuring for phy/rgmii-id link mode
+[  +2.425911] light_dwmac_eth ffe7070000.ethernet end0: Link is Up - 1Gbps/Full - flow control rx/tx
+[  +0.009052] IPv6: ADDRCONF(NETDEV_CHANGE): end0: link becomes ready
+[  +6.724293] systemd-journald[216]: Oldest entry in /var/log/journal/5e4d5729405f4f12985b98c99be03c3c/system.journal is older than the configured file retention duration (1month), suggesting rotation.
+[  +0.019324] systemd-journald[216]: /var/log/journal/5e4d5729405f4f12985b98c99be03c3c/system.journal: Journal header limits reached or header out-of-date, rotating.
+[  +7.516623] soc_dovdd18_scan: disabling
+[  +0.004230] soc_dvdd12_scan: disabling
+[  +0.004092] soc_avdd28_scan_en: disabling
+[Dec22 15:35] capability: warning: `dnf' uses 32-bit capabilities (legacy support in use)
+[Dec22 15:56] LTP: starting abort01
+[  +0.422082] LTP: starting accept01
+[  +0.013643] LTP: starting accept02
+[  +0.013874] LTP: starting accept4_01
+[  +0.016945] LTP: starting access01
+[  +0.113902] LTP: starting access02
+[  +0.052110] LTP: starting access03
+[  +0.014422] LTP: starting access04
+[  +0.025090] LTP: starting acct01
+[  +0.016552] LTP: starting acct02
+[  +0.024240] LTP: starting add_key01
+[  +0.011621] LTP: starting add_key02
+[  +0.010463] LTP: starting add_key03
+[  +0.013764] LTP: starting add_key04
+[  +0.011497] LTP: starting add_key05
+[  +0.391666] LTP: starting adjtimex01
+[  +0.010688] LTP: starting adjtimex02
+[  +0.013509] LTP: starting adjtimex03
+[  +0.010715] LTP: starting alarm02
+[  +0.010333] LTP: starting alarm03
+[  +0.010840] LTP: starting alarm05
+[  +2.010453] LTP: starting alarm06
+[  +3.016143] LTP: starting alarm07
+[  +3.011215] LTP: starting bind01
+[  +0.010338] LTP: starting bind02
+[  +0.010847] LTP: starting bind03
+[  +0.011198] LTP: starting bind04
+[  +0.023551] LTP: starting bind05
+[  +0.017102] LTP: starting bind06
+[Dec22 16:00] LTP: starting bpf_map01
+[  +0.011425] LTP: starting bpf_prog01
+[  +0.011401] LTP: starting bpf_prog02
+[  +0.011911] LTP: starting bpf_prog03
+[  +0.011554] LTP: starting bpf_prog04
+[  +0.011486] LTP: starting bpf_prog05
+[  +0.012696] LTP: starting bpf_prog06
+[  +0.012118] LTP: starting bpf_prog07
+[  +1.063448] LTP: starting brk01
+[  +0.011920] LTP: starting brk02
+[  +0.011285] LTP: starting capget01
+[  +0.009037] capability: warning: `capget01' uses deprecated v2 capabilities in a way that may be insecure
+[  +0.011236] LTP: starting capget02
+[  +0.010810] LTP: starting capset01
+[  +0.010474] LTP: starting capset02
+[  +0.010525] LTP: starting capset03
+[  +0.010575] LTP: starting capset04
+[  +0.011121] LTP: starting cacheflush01
+[  +0.008112] LTP: starting chdir01
+[  +0.095644] /dev/zero: Can't open blockdev
+[  +0.036596] LTP: starting chdir01A (symlink01 -T chdir01)
+[  +0.011776] LTP: starting chdir04
+[  +0.010771] LTP: starting chmod01
+[  +0.014173] LTP: starting chmod01A (symlink01 -T chmod01)
+[  +0.010637] LTP: starting chmod03
+[  +0.012169] LTP: starting chmod05
+[  +0.014706] LTP: starting chmod06
+[  +0.016441] LTP: starting chmod07
+[  +0.012982] LTP: starting chown01
+[  +0.011091] LTP: starting chown01_16
+[  +0.011290] LTP: starting chown02
+[  +0.011380] LTP: starting chown02_16
+[  +0.011416] LTP: starting chown03
+[  +0.011626] LTP: starting chown03_16
+[  +0.011876] LTP: starting chown04
+[  +0.014974] LTP: starting chown04_16
+[  +0.016133] LTP: starting chown05
+[  +0.011626] LTP: starting chown05_16
+[  +0.011202] LTP: starting chroot01
+[  +0.011412] LTP: starting chroot02
+[  +0.012068] LTP: starting chroot03
+[  +0.012090] LTP: starting chroot04
+[  +0.011840] LTP: starting clock_adjtime01
+[  +0.013259] LTP: starting clock_adjtime02
+[  +0.012445] LTP: starting clock_getres01
+[  +0.016497] LTP: starting clock_nanosleep01
+[  +1.516329] LTP: starting clock_nanosleep02
+[  +8.377318] LTP: starting clock_nanosleep03
+[  +0.021982] LTP: starting clock_nanosleep04
+[  +0.052639] LTP: starting clock_gettime01
+[  +0.161338] LTP: starting clock_gettime02
+[  +0.011323] LTP: starting clock_gettime03
+[  +0.021924] LTP: starting clock_gettime04
+[  +0.072827] LTP: starting leapsec01
+[  +3.010041] Clock: inserting leap second 23:59:60 UTC
+[  +4.508150] systemd-journald[216]: Time jumped backwards, rotating.
+[  +1.001178] LTP: starting clock_settime01
+[  +0.014562] LTP: starting clock_settime02
+[  +0.012071] LTP: starting clock_settime03
+[  +0.010518] systemd-journald[216]: Oldest entry in /var/log/journal/5e4d5729405f4f12985b98c99be03c3c/system.journal is older than the configured file retention duration (1month), suggesting rotation.
+[  +0.017818] systemd-journald[216]: /var/log/journal/5e4d5729405f4f12985b98c99be03c3c/system.journal: Journal header limits reached or header out-of-date, rotating.
+[  +2.983693] LTP: starting clone01
+[  +0.000165] systemd-journald[216]: Time jumped backwards, rotating.
+[  +0.016834] LTP: starting clone02
+[  +0.011251] LTP: starting clone03
+[  +0.011118] LTP: starting clone04
+[  +0.011588] LTP: starting clone05
+[  +0.121069] LTP: starting clone06
+[  +0.011185] LTP: starting clone07
+[  +0.010663] LTP: starting clone08
+[  +0.013217] LTP: starting clone09
+[  +0.013021] LTP: starting clone301
+[  +0.015257] LTP: starting clone302
+[  +0.012031] LTP: starting clone303
+[  +0.025527] LTP: starting close01
+[  +0.011876] LTP: starting close02
+[  +0.010302] LTP: starting close_range01
+[  +0.064351] /dev/zero: Can't open blockdev
+[  +0.034197] LTP: starting close_range02
+[  +0.012468] LTP: starting confstr01
+[  +0.011167] LTP: starting connect01
+[  +0.009560] LTP: starting connect02
+[  +0.452774] LTP: starting creat01
+[  +0.015662] LTP: starting creat03
+[  +0.011084] LTP: starting creat04
+[  +0.013813] LTP: starting creat05
+[  +0.188110] LTP: starting creat06
+[  +0.017272] LTP: starting creat07
+[  +0.027806] LTP: starting creat08
+[  +0.016656] LTP: starting creat09
+[  +0.066514] LTP: starting delete_module01
+[  +0.037748] LTP: starting delete_module02
+[  +0.011874] LTP: starting delete_module03
+[  +0.037007] LTP: starting dup01
+[  +0.011002] LTP: starting dup02
+[  +0.010050] LTP: starting dup03
+[  +0.012621] LTP: starting dup04
+[  +0.010794] LTP: starting dup05
+[  +0.010880] LTP: starting dup06
+[  +0.010768] LTP: starting dup07
+[  +0.008972] LTP: starting dup201
+[  +0.010137] LTP: starting dup202
+[  +0.012196] LTP: starting dup203
+[  +0.011946] LTP: starting dup204
+[  +0.010554] LTP: starting dup205
+[  +0.012577] LTP: starting dup206
+[  +0.010978] LTP: starting dup207
+[  +0.011160] LTP: starting dup3_01
+[  +0.009982] LTP: starting dup3_02
+[  +0.010203] LTP: starting epoll_create01
+[  +0.012084] LTP: starting epoll_create02
+[  +0.012045] LTP: starting epoll_create1_01
+[  +0.010911] LTP: starting epoll_create1_02
+[  +0.010889] LTP: starting epoll01 (epoll-ltp)
+[  +9.652875] LTP: starting epoll_ctl01
+[  +0.010840] LTP: starting epoll_ctl02
+[  +0.011053] LTP: starting epoll_ctl03
+[  +0.014002] LTP: starting epoll_ctl04
+[  +0.010788] LTP: starting epoll_ctl05
+[  +0.010707] LTP: starting epoll_wait01
+[  +0.012487] LTP: starting epoll_wait02
+[Dec22 16:01] LTP: starting epoll_wait03
+[  +0.010932] LTP: starting epoll_wait04
+[  +0.010659] LTP: starting epoll_wait05
+[  +0.013021] LTP: starting epoll_wait06
+[  +0.010848] LTP: starting epoll_wait07
+[  +0.010825] LTP: starting epoll_pwait01
+[  +0.034790] LTP: starting epoll_pwait02
+[  +0.012031] LTP: starting epoll_pwait03
+[  +8.382852] LTP: starting epoll_pwait04
+[  +0.012182] LTP: starting epoll_pwait05
+[  +0.010645] LTP: starting eventfd01
+[  +0.022007] LTP: starting eventfd02
+[  +0.021735] LTP: starting eventfd03
+[  +0.021811] LTP: starting eventfd04
+[  +0.022024] LTP: starting eventfd05
+[  +0.022673] LTP: starting eventfd06
+[  +0.076827] LTP: starting eventfd2_01
+[  +0.010563] LTP: starting eventfd2_02
+[  +0.010498] LTP: starting eventfd2_03
+[  +0.011621] LTP: starting execl01
+[  +0.013192] LTP: starting execle01
+[  +0.013511] LTP: starting execlp01
+[  +0.014035] LTP: starting execv01
+[  +0.013230] LTP: starting execve01
+[  +0.013289] LTP: starting execve02
+[  +0.025783] LTP: starting execve03
+[  +0.017300] LTP: starting execve04
+[  +0.025352] LTP: starting execve05 (execve05 -i 5 -n 32)
+[  +0.160680] LTP: starting execve06
+[  +0.009944] process 'execve06' launched '/opt/ltp/testcases/bin/execve06_child' with NULL argv: empty string added
+[  +0.014793] LTP: starting execvp01
+[  +0.014078] LTP: starting execveat01
+[  +0.048121] LTP: starting execveat02
+[  +0.042039] LTP: starting execveat03
+[  +0.019010] LTP: starting exit01
+[  +0.008734] LTP: starting exit02
+[  +0.011770] LTP: starting exit_group01
+[  +0.009224] LTP: starting faccessat01
+[  +0.012251] LTP: starting faccessat02
+[  +0.011687] LTP: starting faccessat201
+[  +0.013082] LTP: starting faccessat202
+[  +0.012784] LTP: starting fallocate01
+[  +0.010821] LTP: starting fallocate02
+[  +0.009653] LTP: starting fallocate03
+[  +0.011073] LTP: starting fallocate04
+[  +0.064591] /dev/zero: Can't open blockdev
+[  +0.032499] LTP: starting fallocate05
+[  +0.063588] /dev/zero: Can't open blockdev
+[  +0.036249] LTP: starting fallocate06
+[  +0.063469] /dev/zero: Can't open blockdev
+[  +0.035858] LTP: starting fsetxattr01
+[  +0.063635] /dev/zero: Can't open blockdev
+[  +0.036044] LTP: starting fsetxattr02
+[  +0.014366] LTP: starting posix_fadvise01
+[  +0.011030] LTP: starting posix_fadvise01_64
+[  +0.011628] LTP: starting posix_fadvise02
+[  +0.010901] LTP: starting posix_fadvise02_64
+[  +0.011368] LTP: starting posix_fadvise03
+[  +0.011981] LTP: starting posix_fadvise03_64
+[  +0.012172] LTP: starting posix_fadvise04
+[  +0.011152] LTP: starting posix_fadvise04_64
+[  +0.011186] LTP: starting fchdir01
+[  +0.011397] LTP: starting fchdir02
+[  +0.010182] LTP: starting fchdir03
+[  +0.012065] LTP: starting fchmod01
+[  +0.011267] LTP: starting fchmod02
+[  +0.011896] LTP: starting fchmod03
+[  +0.011655] LTP: starting fchmod04
+[  +0.011893] LTP: starting fchmod05
+[  +0.015076] LTP: starting fchmod06
+[  +0.014762] LTP: starting fchmodat01
+[  +0.013131] LTP: starting fchown01
+[  +0.011174] LTP: starting fchown01_16
+[  +0.011380] LTP: starting fchown02
+[  +0.011879] LTP: starting fchown02_16
+[  +0.011722] LTP: starting fchown03
+[  +0.011854] LTP: starting fchown03_16
+[  +0.012108] LTP: starting fchown04
+[  +0.013088] LTP: starting fchown04_16
+[  +0.013220] LTP: starting fchown05
+[  +0.011457] LTP: starting fchown05_16
+[  +0.011403] LTP: starting fchownat01
+[  +0.009365] LTP: starting fchownat02
+[  +0.009259] LTP: starting fcntl01
+[  +0.009592] LTP: starting fcntl01_64
+[  +0.010066] LTP: starting fcntl02
+[  +0.011002] LTP: starting fcntl02_64
+[  +0.011378] LTP: starting fcntl03
+[  +0.010903] LTP: starting fcntl03_64
+[  +0.011289] LTP: starting fcntl04
+[  +0.010851] LTP: starting fcntl04_64
+[  +0.011211] LTP: starting fcntl05
+[  +0.011162] LTP: starting fcntl05_64
+[  +0.011313] LTP: starting fcntl07
+[  +0.020386] LTP: starting fcntl07_64
+[  +0.020775] LTP: starting fcntl08
+[  +0.008870] LTP: starting fcntl08_64
+[  +0.009052] LTP: starting fcntl09
+[  +0.008783] LTP: starting fcntl09_64
+[  +0.009138] LTP: starting fcntl10
+[  +0.008841] LTP: starting fcntl10_64
+[  +0.009169] LTP: starting fcntl11
+[  +0.010909] LTP: starting fcntl11_64
+[  +0.011266] LTP: starting fcntl12
+[  +0.021601] LTP: starting fcntl12_64
+[  +0.023212] LTP: starting fcntl13
+[  +0.010160] LTP: starting fcntl13_64
+[  +0.011677] LTP: starting fcntl14
+[  +5.487665] LTP: starting fcntl14_64
+[  +5.484160] LTP: starting fcntl15
+[  +0.016440] LTP: starting fcntl15_64
+[  +0.016381] LTP: starting fcntl16
+[  +0.019897] LTP: starting fcntl16_64
+[  +0.019972] LTP: starting fcntl17
+[  +0.011570] LTP: starting fcntl17_64
+[  +0.011978] LTP: starting fcntl18
+[  +0.010686] LTP: starting fcntl18_64
+[  +0.010852] LTP: starting fcntl19
+[  +0.010768] LTP: starting fcntl19_64
+[  +0.010852] LTP: starting fcntl20
+[  +0.010538] LTP: starting fcntl20_64
+[  +0.010897] LTP: starting fcntl21
+[  +0.011207] LTP: starting fcntl21_64
+[  +0.011527] LTP: starting fcntl22
+[  +0.010119] LTP: starting fcntl22_64
+[  +0.010361] LTP: starting fcntl23
+[  +0.008759] LTP: starting fcntl23_64
+[  +0.009030] LTP: starting fcntl24
+[  +0.008859] LTP: starting fcntl24_64
+[  +0.009104] LTP: starting fcntl25
+[  +0.008764] LTP: starting fcntl25_64
+[  +0.009222] LTP: starting fcntl26
+[  +0.008973] LTP: starting fcntl26_64
+[  +0.009178] LTP: starting fcntl27
+[  +0.008795] LTP: starting fcntl27_64
+[  +0.009063] LTP: starting fcntl28
+[  +0.008770] LTP: starting fcntl28_64
+[  +0.009084] LTP: starting fcntl29
+[  +0.008742] LTP: starting fcntl29_64
+[  +0.009093] LTP: starting fcntl30
+[  +0.010438] LTP: starting fcntl30_64
+[  +0.010560] LTP: starting fcntl31
+[  +0.013218] LTP: starting fcntl31_64
+[  +0.013613] LTP: starting fcntl32
+[  +0.009193] LTP: starting fcntl32_64
+[  +0.009577] LTP: starting fcntl33
+[  +0.025418] LTP: starting fcntl33_64
+[  +0.025599] LTP: starting fcntl34
+[  +0.081538] LTP: starting fcntl34_64
+[  +0.083258] LTP: starting fcntl35
+[  +0.013096] LTP: starting fcntl35_64
+[  +0.013116] LTP: starting fcntl36
+[  +7.105464] LTP: starting fcntl36_64
+[  +7.203805] LTP: starting fcntl37
+[  +0.011393] LTP: starting fcntl37_64
+[  +0.012067] LTP: starting fcntl38
+[  +0.026348] LTP: starting fcntl38_64
+[  +0.026504] LTP: starting fcntl39
+[  +0.029518] LTP: starting fcntl39_64
+[  +0.029541] LTP: starting fdatasync01
+[  +0.012640] LTP: starting fdatasync02
+[  +0.008953] LTP: starting fdatasync03
+[  +0.068115] /dev/zero: Can't open blockdev
+[  +0.033599] LTP: starting fgetxattr01
+[  +0.069567] /dev/zero: Can't open blockdev
+[  +0.038509] LTP: starting fgetxattr02
+[  +0.015025] LTP: starting fgetxattr03
+[  +0.012205] LTP: starting finit_module01
+[  +0.042342] LTP: starting finit_module02
+[  +0.012617] LTP: starting flistxattr01
+[  +0.012761] LTP: starting flistxattr02
+[  +0.012342] LTP: starting flistxattr03
+[  +0.012621] LTP: starting flock01
+[  +0.011966] LTP: starting flock02
+[  +0.011940] LTP: starting flock03
+[  +0.014751] LTP: starting flock04
+[  +0.017351] LTP: starting flock06
+[  +0.012167] LTP: starting fmtmsg01
+[  +0.015493] LTP: starting fork01
+[  +0.013801] LTP: starting fork03
+[  +0.011685] LTP: starting fork04
+[  +0.010477] LTP: starting fork05
+[  +0.008034] LTP: starting fork06
+[  +0.607095] LTP: starting fork07
+[  +0.042007] LTP: starting fork08
+[  +0.013005] LTP: starting fork09
+[  +0.192397] LTP: starting fork10
+[  +0.012554] LTP: starting fork11
+[  +0.080604] LTP: starting fork13
+[Dec22 16:11] LTP: starting fork14
+[  +0.041009] LTP: starting fpathconf01
+[  +0.009364] LTP: starting fremovexattr01
+[  +0.063651] /dev/zero: Can't open blockdev
+[  +0.032486] LTP: starting fremovexattr02
+[  +0.063846] /dev/zero: Can't open blockdev
+[  +0.035793] LTP: starting fsconfig01
+[  +0.063047] /dev/zero: Can't open blockdev
+[  +0.037295] LTP: starting fsconfig02
+[  +0.012295] LTP: starting fsconfig03
+[  +0.063673] /dev/zero: Can't open blockdev
+[  +0.119984] LTP: starting fsmount01
+[  +0.063561] /dev/zero: Can't open blockdev
+[  +0.068184] LTP: starting fsmount02
+[  +0.063378] /dev/zero: Can't open blockdev
+[  +0.033485] LTP: starting fsopen01
+[  +0.063373] /dev/zero: Can't open blockdev
+[  +0.060173] LTP: starting fsopen02
+[  +0.015753] LTP: starting fspick01
+[  +0.062779] /dev/zero: Can't open blockdev
+[  +0.032053] LTP: starting fspick02
+[  +0.062964] /dev/zero: Can't open blockdev
+[  +0.031603] LTP: starting fstat02
+[  +0.015108] LTP: starting fstat02_64
+[  +0.011911] LTP: starting fstat03
+[  +0.014721] LTP: starting fstat03_64
+[  +0.013216] LTP: starting fstatat01
+[  +0.010089] LTP: starting fstatfs01
+[  +0.063346] /dev/zero: Can't open blockdev
+[  +0.036760] LTP: starting fstatfs01_64
+[  +0.063414] /dev/zero: Can't open blockdev
+[  +0.032289] LTP: starting fstatfs02
+[  +0.013104] LTP: starting fstatfs02_64
+[  +0.013424] LTP: starting fsync01
+[  +0.063134] /dev/zero: Can't open blockdev
+[  +0.031988] LTP: starting fsync02
+[  +0.429051] LTP: starting fsync03
+[  +0.011342] LTP: starting fsync04
+[  +0.063032] /dev/zero: Can't open blockdev
+[  +0.030725] LTP: starting ftruncate01
+[  +0.011632] LTP: starting ftruncate01_64
+[  +0.012291] LTP: starting ftruncate03
+[  +0.011704] LTP: starting ftruncate03_64
+[  +0.011905] LTP: starting ftruncate04
+[  +0.031380] LTP: starting ftruncate04_64
+[  +0.031850] LTP: starting futimesat01
+[  +0.009504] LTP: starting getcontext01
+[  +0.010972] LTP: starting getcpu01
+[  +0.010490] LTP: starting getcwd01
+[  +0.010120] LTP: starting getcwd02
+[  +0.010489] LTP: starting getcwd03
+[  +0.011505] LTP: starting getcwd04
+[  +5.011339] LTP: starting getdents01
+[  +0.016529] LTP: starting getdents02
+[  +0.017079] LTP: starting getdomainname01
+[  +0.010746] LTP: starting getdtablesize01
+[  +0.018877] LTP: starting getegid01
+[  +0.008103] LTP: starting getegid01_16
+[  +0.008377] LTP: starting getegid02
+[  +0.008706] LTP: starting getegid02_16
+[  +0.008609] LTP: starting geteuid01
+[  +0.010202] LTP: starting geteuid01_16
+[  +0.010393] LTP: starting geteuid02
+[  +0.010451] LTP: starting geteuid02_16
+[  +0.010404] LTP: starting getgid01
+[  +0.010689] LTP: starting getgid01_16
+[  +0.010910] LTP: starting getgid03
+[  +0.010651] LTP: starting getgid03_16
+[  +0.010326] LTP: starting getgroups01
+[  +0.009295] LTP: starting getgroups01_16
+[  +0.008550] LTP: starting getgroups03
+[  +0.012485] LTP: starting getgroups03_16
+[  +0.012965] LTP: starting gethostbyname_r01
+[  +0.009106] LTP: starting gethostid01
+[  +0.281474] LTP: starting gethostname01
+[  +0.010616] LTP: starting getitimer01
+[  +0.011112] LTP: starting getitimer02
+[  +0.010601] LTP: starting getpagesize01
+[  +0.010615] LTP: starting getpeername01
+[  +0.008823] LTP: starting getpgid01
+[  +0.011422] LTP: starting getpgid02
+[  +0.010341] LTP: starting getpgrp01
+[  +0.010169] LTP: starting getpid01
+[  +0.090762] LTP: starting getpid02
+[  +0.011503] LTP: starting getppid01
+[  +0.010200] LTP: starting getppid02
+[  +0.011134] LTP: starting getpriority01
+[  +0.010710] LTP: starting getpriority02
+[  +0.010612] LTP: starting getrandom01
+[  +0.010387] LTP: starting getrandom02
+[  +0.010767] LTP: starting getrandom03
+[  +0.010613] LTP: starting getrandom04
+[  +0.010651] LTP: starting getresgid01
+[  +0.008220] LTP: starting getresgid01_16
+[  +0.008560] LTP: starting getresgid02
+[  +0.008860] LTP: starting getresgid02_16
+[  +0.009149] LTP: starting getresgid03
+[  +0.008857] LTP: starting getresgid03_16
+[  +0.009186] LTP: starting getresuid01
+[  +0.008311] LTP: starting getresuid01_16
+[  +0.008553] LTP: starting getresuid02
+[  +0.008827] LTP: starting getresuid02_16
+[  +0.009115] LTP: starting getresuid03
+[  +0.008857] LTP: starting getresuid03_16
+[  +0.009094] LTP: starting getrlimit01
+[  +0.010742] LTP: starting getrlimit02
+[  +0.010406] LTP: starting getrlimit03
+[  +0.010714] LTP: starting get_mempolicy01
+[  +0.008574] LTP: starting get_mempolicy02
+[  +0.008434] LTP: starting get_robust_list01
+[  +0.008914] LTP: starting getrusage01
+[  +0.010603] LTP: starting getrusage02
+[  +0.011629] LTP: starting getrusage03
+[  +4.394834] LTP: starting getrusage04
+[  +0.133809] LTP: starting getsid01
+[  +0.011183] LTP: starting getsid02
+[  +0.010150] LTP: starting getsockname01
+[  +0.008611] LTP: starting getsockopt01
+[  +0.008917] LTP: starting getsockopt02
+[  +0.012681] LTP: starting gettid01
+[  +0.007956] LTP: starting gettimeofday01
+[  +0.008706] LTP: starting gettimeofday02
+[Dec22 16:12] LTP: starting getuid01
+[  +0.010217] LTP: starting getuid01_16
+[  +0.010384] LTP: starting getuid03
+[  +0.010235] LTP: starting getuid03_16
+[  +0.012304] LTP: starting getxattr01
+[  +0.009492] LTP: starting getxattr02
+[  +0.009624] LTP: starting getxattr03
+[  +0.009118] LTP: starting getxattr04
+[  +0.029827] LTP: starting getxattr05
+[  +0.016698] LTP: starting init_module01
+[  +0.037119] LTP: starting init_module02
+[  +0.010760] LTP: starting ioctl01
+[  +0.012041] LTP: starting ioctl02 (test_ioctl)
+[  +1.044546] LTP: starting ioctl03
+[  +0.010223] LTP: starting ioctl04
+[  +0.020530] LTP: starting ioctl05
+[  +0.011548] LTP: starting ioctl06
+[  +0.010813] LTP: starting ioctl07
+[  +0.010152] LTP: starting ioctl08
+[  +0.016827] LTP: starting ioctl09
+[  +0.069799]  loop0: p1
+[  +0.040501]  loop0: p1 p2
+[  +0.081027] LTP: starting ioctl_loop01
+[  +0.170365]  loop0: p1
+[  +0.119309] LTP: starting ioctl_loop02
+[  +0.293870] LTP: starting ioctl_loop03
+[  +0.151013] LTP: starting ioctl_loop04
+[  +0.152103] LTP: starting ioctl_loop05
+[  +0.219437] loop_set_status: loop0 () has still dirty pages (nrpages=1)
+[  +0.024005] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.023996] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.024000] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.024002] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.020007] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.019991] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.024000] loop_set_status: loop0 () has still dirty pages (nrpages=1)
+[  +0.023994] loop_set_status: loop0 () has still dirty pages (nrpages=2)
+[  +0.137603] LTP: starting ioctl_loop06
+[  +0.168578] LTP: starting ioctl_loop07
+[  +0.233813] loop_set_status: loop0 () has still dirty pages (nrpages=13)
+[  +0.305935] LTP: starting ioctl_ns01
+[  +0.012132] LTP: starting ioctl_ns02
+[  +0.010542] LTP: starting ioctl_ns03
+[  +0.010302] LTP: starting ioctl_ns04
+[  +0.010408] LTP: starting ioctl_ns05
+[  +0.011879] LTP: starting ioctl_ns06
+[  +0.011951] LTP: starting ioctl_ns07
+[  +0.011084] LTP: starting ioctl_sg01
+[  +0.011351] LTP: starting inotify_init1_01
+[  +0.011052] LTP: starting inotify_init1_02
+[  +0.011003] LTP: starting inotify01
+[  +0.016241] LTP: starting inotify02
+[  +0.031859] LTP: starting inotify03
+[  +0.020454] LTP: starting inotify04
+[  +0.011947] LTP: starting inotify05
+[  +0.239737] LTP: starting inotify06
+[  +2.136505] LTP: starting inotify07
+[  +0.018591] LTP: starting inotify08
+[  +0.018538] LTP: starting inotify09
+[Dec22 16:13] LTP: starting inotify10
+[  +0.087258] LTP: starting inotify11
+[  +1.991677] LTP: starting inotify12
+[  +0.040105] LTP: starting fanotify01
+[  +0.018732] LTP: starting fanotify02
+[  +0.010920] LTP: starting fanotify03
+[  +0.018978] LTP: starting fanotify04
+[  +0.011746] LTP: starting fanotify05
+[  +0.018843] LTP: starting fanotify06
+[  +0.018692] LTP: starting fanotify07
+[  +0.010947] LTP: starting fanotify08
+[  +0.010379] LTP: starting fanotify09
+[  +0.019158] LTP: starting fanotify10
+[  +0.018997] LTP: starting fanotify11
+[  +0.011184] LTP: starting fanotify12
+[  +0.018658] LTP: starting fanotify13
+[  +0.063789] /dev/zero: Can't open blockdev
+[  +0.035982] LTP: starting fanotify14
+[  +0.065015] /dev/zero: Can't open blockdev
+[  +0.035952] LTP: starting fanotify15
+[  +0.063675] /dev/zero: Can't open blockdev
+[  +0.036276] LTP: starting fanotify16
+[  +0.071005] /dev/zero: Can't open blockdev
+[  +0.032162] LTP: starting fanotify17
+[  +0.018733] LTP: starting fanotify18
+[  +0.018641] LTP: starting fanotify19
+[  +0.018730] LTP: starting fanotify20
+[  +0.063144] /dev/zero: Can't open blockdev
+[  +0.035319] LTP: starting fanotify21
+[  +0.062992] /dev/zero: Can't open blockdev
+[  +0.032148] LTP: starting fanotify22
+[  +0.018845] LTP: starting fanotify23
+[  +0.018465] LTP: starting ioperm01
+[  +0.007953] LTP: starting ioperm02
+[  +0.007813] LTP: starting iopl01
+[  +0.007629] LTP: starting iopl02
+[  +0.007638] LTP: starting ioprio_get01
+[  +0.010572] LTP: starting ioprio_set01
+[  +0.010545] LTP: starting ioprio_set02
+[  +0.010402] LTP: starting ioprio_set03
+[  +0.010497] LTP: starting io_cancel01
+[  +0.021792] LTP: starting io_cancel02
+[  +0.021954] LTP: starting io_destroy01
+[  +0.010733] LTP: starting io_destroy02
+[  +0.021909] LTP: starting io_getevents01
+[  +0.021879] LTP: starting io_getevents02
+[  +0.022304] LTP: starting io_pgetevents01
+[  +0.068186] LTP: starting io_pgetevents02
+[  +0.059927] LTP: starting io_setup01
+[  +0.051780] LTP: starting io_setup02
+[  +0.083824] LTP: starting io_submit01
+[  +0.048378] LTP: starting io_submit02
+[  +0.068022] LTP: starting io_submit03
+[  +0.068053] LTP: starting keyctl01
+[  +0.010155] LTP: starting keyctl02
+[  +4.668742] LTP: starting keyctl03
+[  +0.010231] LTP: starting keyctl04
+[  +0.010204] LTP: starting keyctl05
+[  +0.037330] LTP: starting keyctl06
+[  +0.010194] LTP: starting keyctl07
+[  +0.020980] LTP: starting keyctl08
+[  +0.010114] LTP: starting keyctl09
+[  +0.021322] LTP: starting kcmp01
+[  +0.016269] LTP: starting kcmp02
+[  +0.011202] LTP: starting kcmp03
+[  +0.012366] LTP: starting kill02
+[ +10.009576] LTP: starting kill03
+[  +0.010148] LTP: starting kill05
+[  +0.012030] LTP: starting kill06
+[  +0.011997] LTP: starting kill07
+[  +1.009424] LTP: starting kill08
+[  +0.009795] LTP: starting kill09
+[  +0.008239] LTP: starting kill10
+[  +1.015514] LTP: starting kill11
+[  +4.514286] LTP: starting kill12
+[  +0.028232] LTP: starting kill13
+[  +0.021054] LTP: starting lchown01
+[  +0.009208] LTP: starting lchown01_16
+[  +0.009323] LTP: starting lchown02
+[  +0.010497] LTP: starting lchown03
+[  +0.018435] LTP: starting lchown02_16
+[  +0.010718] LTP: starting lchown03_16
+[  +0.019154] LTP: starting lgetxattr01
+[  +0.011755] LTP: starting lgetxattr02
+[  +0.011890] LTP: starting link01 (symlink01 -T link01)
+[  +0.010197] LTP: starting link02
+[  +0.011102] LTP: starting link03
+[  +0.009219] LTP: starting link04
+[  +0.014643] LTP: starting link05
+[  +0.092948] LTP: starting link08
+[  +0.016366] LTP: starting linkat01
+[  +0.018154] LTP: starting linkat02
+[  +0.020126] LTP: starting listen01
+[  +0.008250] LTP: starting listxattr01
+[  +0.011434] LTP: starting listxattr02
+[  +0.011494] LTP: starting listxattr03
+[  +0.011557] LTP: starting llistxattr01
+[  +0.011571] LTP: starting llistxattr02
+[  +0.011569] LTP: starting llistxattr03
+[  +0.011696] LTP: starting llseek01
+[  +0.011373] LTP: starting llseek02
+[  +0.011332] LTP: starting llseek03
+[  +0.011718] LTP: starting lremovexattr01
+[  +0.063730] /dev/zero: Can't open blockdev
+[  +0.032456] LTP: starting lseek01
+[  +0.011585] LTP: starting lseek02
+[  +0.011645] LTP: starting lseek07
+[  +0.011297] LTP: starting lseek11
+[  +0.044067] LTP: starting lstat01A (symlink01 -T lstat01)
+[  +0.010341] LTP: starting lstat01A_64 (symlink01 -T lstat01_64)
+[  +0.010881] LTP: starting lstat01
+[  +0.011138] LTP: starting lstat01_64
+[  +0.011260] LTP: starting lstat02
+[  +0.012883] LTP: starting lstat02_64
+[  +0.013130] LTP: starting mallinfo02
+[  +0.010546] LTP: starting mallinfo2_01
+[  +0.010465] LTP: starting mallopt01
+[  +0.010202] LTP: starting mbind01
+[  +0.007666] LTP: starting mbind02
+[  +0.007751] LTP: starting mbind03
+[  +0.007738] LTP: starting mbind04
+[  +0.007841] LTP: starting memset01
+[  +0.010239] LTP: starting memcmp01
+[  +0.010201] LTP: starting memcpy01
+[  +0.010069] LTP: starting migrate_pages01
+[  +0.008588] LTP: starting migrate_pages02
+[  +0.008694] LTP: starting migrate_pages03
+[  +0.008644] LTP: starting mlockall01
+[  +0.016179] LTP: starting mlockall02
+[  +0.008887] LTP: starting mlockall03
+[  +0.008860] LTP: starting mkdir02
+[  +0.015532] LTP: starting mkdir03
+[  +0.014222] LTP: starting mkdir04
+[  +0.013748] LTP: starting mkdir05
+[  +0.012132] LTP: starting mkdir05A (symlink01 -T mkdir05)
+[  +0.009991] LTP: starting mkdir09
+[  +0.062398] /dev/zero: Can't open blockdev
+[  +0.031895] LTP: starting mkdirat01
+[  +0.010388] LTP: starting mkdirat02
+[  +0.014075] LTP: starting mknod01
+[  +0.011764] LTP: starting mknod02
+[  +0.011850] LTP: starting mknod03
+[  +0.009742] LTP: starting mknod04
+[  +0.009857] LTP: starting mknod05
+[  +0.009688] LTP: starting mknod06
+[  +0.008931] LTP: starting mknod07
+[  +0.017996] LTP: starting mknod08
+[  +0.009843] LTP: starting mknod09
+[  +0.008519] LTP: starting mknodat01
+[  +0.009592] LTP: starting mknodat02
+[  +0.017964] LTP: starting mlock01
+[  +0.036012] LTP: starting mlock02
+[  +0.010851] LTP: starting mlock03 (mlock03 -i 20)
+[  +0.160911] LTP: starting mlock04
+[  +0.011387] LTP: starting mlock201
+[  +0.012727] LTP: starting mlock202
+[  +0.010922] LTP: starting mlock203
+[  +0.010557] LTP: starting qmm01 (mmap001 -m 1)
+[  +0.017727] LTP: starting mmap01
+[  +0.020850] LTP: starting mmap02
+[  +0.011073] LTP: starting mmap03
+[  +0.008673] LTP: starting mmap04
+[  +0.008846] LTP: starting mmap05
+[  +0.010980] LTP: starting mmap06
+[  +0.011008] LTP: starting mmap08
+[  +0.011047] LTP: starting mmap09
+[  +0.008973] LTP: starting mmap12
+[  +0.018022] LTP: starting mmap13
+[  +0.008701] LTP: starting mmap14
+[  +0.010613] LTP: starting mmap15
+[  +0.008621] LTP: starting mmap16
+[  +0.018787] LTP: starting mmap17
+[  +0.011117] LTP: starting mmap18
+[  +0.012738] mmap18[114425]: unhandled signal 11 code 0x1 at 0x0000003fee67bff8 in mmap18[10000+2c000]
+[  +0.009291] CPU: 2 PID: 114425 Comm: mmap18 Not tainted 5.10.113 #1
+[  +0.006339] epc: 0000000000014ff4 ra : 0000000000015004 sp : 0000003fee67bff0
+[  +0.007157]  gp : 000000000003e420 tp : 0000003fee67f8e0 t0 : 0000003fee8b5290
+[  +0.007267]  t1 : ffffffffffffffe0 t2 : 0000000000000003 s0 : 0000003fee67ea40
+[  +0.007262]  s1 : 0000003fee67f59c a0 : 0000003fee661000 a1 : 0000003fee67f870
+[  +0.007283]  a2 : 0000000000000000 a3 : 0000000000000008 a4 : 0000003fee67c018
+[  +0.007277]  a5 : 0000000000014fec a6 : 0000003fee67f250 a7 : 0000000000000087
+[  +0.007251]  s2 : 0000003fee67f180 s3 : 0000003fee700d54 s4 : 0000000000000019
+[  +0.007246]  s5 : 0000000000014fec s6 : 0000003fee661000 s7 : 0000003fee8b3d60
+[  +0.007261]  s8 : 0000003fee86e09c s9 : 0000003fee67f180 s10: 0000000000000001
+[  +0.007273]  s11: 0000000000020000 t3 : 0000003fee89db48 t4 : 00000000000811bc
+[  +0.007255]  t5 : ffffffffbad299e0 t6 : 0000000002eb4a67
+[  +0.005339] status: 8000000201804020 badaddr: 0000003fee67bff8 cause: 000000000000000f
+[  +0.008073] Process 114424(mmap18) has RLIMIT_CORE set to 1
+[  +0.005616] Aborting core
+[  +0.004081] mmap18[114427]: unhandled signal 11 code 0x1 at 0x0000003fee66fff8 in mmap18[10000+2c000]
+[  +0.009292] CPU: 1 PID: 114427 Comm: mmap18 Not tainted 5.10.113 #1
+[  +0.006316] epc: 0000000000014ff4 ra : 0000000000015004 sp : 0000003fee66fff0
+[  +0.007157]  gp : 000000000003e420 tp : 0000003fee67f8e0 t0 : 0000003fee8b5290
+[  +0.007250]  t1 : ffffffffffffffe0 t2 : 0000000000000003 s0 : 0000003fee67ea40
+[  +0.007245]  s1 : 0000003fee67f59c a0 : 0000003fee661000 a1 : 0000003fee67f870
+[  +0.007247]  a2 : 0000000000000000 a3 : 0000000000000008 a4 : 0000003fee670018
+[  +0.007246]  a5 : 0000000000014fec a6 : 0000003fee67f250 a7 : 0000000000000087
+[  +0.007252]  s2 : 0000003fee67f180 s3 : 0000003fee700d54 s4 : 0000000000000019
+[  +0.007241]  s5 : 0000000000014fec s6 : 0000003fee661000 s7 : 0000003fee8b3d60
+[  +0.007248]  s8 : 0000003fee86e09c s9 : 0000003fee67f180 s10: 0000000000000001
+[  +0.007243]  s11: 0000000000020000 t3 : 0000003fee89db48 t4 : 00000000000811bc
+[  +0.007248]  t5 : ffffffffbad299e0 t6 : 0000000002eb4a67
+[  +0.005333] status: 8000000201804020 badaddr: 0000003fee66fff8 cause: 000000000000000f
+[  +0.008243] Process 114426(mmap18) has RLIMIT_CORE set to 1
+[  +0.005623] Aborting core
+[  +0.004493] LTP: starting mmap19
+[  +0.011274] LTP: starting mmap20
+[  +0.015117] LTP: starting modify_ldt01
+[  +0.008330] LTP: starting modify_ldt02
+[  +0.008291] LTP: starting modify_ldt03
+[  +0.008320] LTP: starting mount01
+[  +0.017992] LTP: starting mount02
+[  +0.022986] LTP: starting mount03
+[  +0.116163] LTP: starting mount04
+[  +0.018836] LTP: starting mount05
+[  +0.010385] LTP: starting mount06
+[  +0.019538] LTP: starting mount07
+[  +0.071449] LTP: starting mount_setattr01
+[  +0.063669] /dev/zero: Can't open blockdev
+[  +0.031555] LTP: starting move_mount01
+[  +0.064019] /dev/zero: Can't open blockdev
+[  +0.065441] LTP: starting move_mount02
+[  +0.063011] /dev/zero: Can't open blockdev
+[  +0.062596] LTP: starting move_pages01
+[  +0.008559] LTP: starting move_pages02
+[  +0.008387] LTP: starting move_pages03
+[  +0.008409] LTP: starting move_pages04
+[  +0.008649] LTP: starting move_pages05
+[  +0.008440] LTP: starting move_pages06
+[  +0.008408] LTP: starting move_pages07
+[  +0.008417] LTP: starting move_pages09
+[  +0.008456] LTP: starting move_pages10
+[  +0.008381] LTP: starting move_pages11
+[  +0.008463] LTP: starting move_pages12
+[  +0.008232] LTP: starting mprotect01
+[  +0.008311] LTP: starting mprotect02
+[  +0.011967] LTP: starting mprotect03
+[  +0.010233] LTP: starting mprotect04
+[  +0.009217] LTP: starting mprotect05
+[  +0.011403] LTP: starting pkey01
+[  +4.421259] pkey01 (114573): drop_caches: 3
+[  +1.028014] LTP: starting mq_notify01
+[  +0.025529] LTP: starting mq_notify02
+[  +0.013278] LTP: starting mq_notify03
+[  +0.013515] LTP: starting mq_open01
+[  +0.018238] LTP: starting mq_timedreceive01
+[  +0.138228] LTP: starting mq_timedsend01
+[  +0.139825] LTP: starting mq_unlink01
+[  +0.014313] LTP: starting mremap01
+[  +0.122568] LTP: starting mremap02
+[  +0.010420] LTP: starting mremap03
+[  +0.010289] LTP: starting mremap04
+[  +0.010588] LTP: starting mremap05
+[  +0.009896] LTP: starting mremap06
+[  +0.014291] LTP: starting msgctl01
+[  +0.013589] LTP: starting msgctl02
+[  +0.013697] LTP: starting msgctl03
+[  +0.013092] LTP: starting msgctl04
+[  +0.017091] LTP: starting msgctl05
+[  +0.009897] LTP: starting msgctl06
+[  +0.013636] LTP: starting msgstress01
+[  +1.932498] LTP: starting msgstress02
+[  +0.567915] LTP: starting msgstress03
+[Dec22 16:15] LTP: starting msgstress04
+[Dec22 16:32] LTP: starting msgctl12
+[  +0.017247] LTP: starting msgget01
+[  +0.012764] LTP: starting msgget02
+[  +0.017089] LTP: starting msgget03
+[  +0.013409] LTP: starting msgget04
+[  +0.026710] LTP: starting msgget05
+[  +0.024120] LTP: starting msgrcv01
+[  +0.015373] LTP: starting msgrcv02
+[  +0.021312] LTP: starting msgrcv03
+[  +0.024441] LTP: starting msgrcv05
+[  +0.017982] LTP: starting msgrcv06
+[  +0.014965] LTP: starting msgrcv07
+[  +0.013458] LTP: starting msgrcv08
+[  +0.012664] LTP: starting msgsnd01
+[  +0.013379] LTP: starting msgsnd02
+[  +0.014823] LTP: starting msgsnd05
+[  +0.016053] LTP: starting msgsnd06
+[  +0.015050] LTP: starting msync01
+[  +0.011160] LTP: starting msync02
+[  +0.011320] LTP: starting msync03
+[  +0.010930] LTP: starting msync04
+[  +0.091123] /dev/zero: Can't open blockdev
+[  +0.034209] LTP: starting munlock01
+[  +0.037969] LTP: starting munlock02
+[  +0.012491] LTP: starting munlockall01
+[  +0.010443] LTP: starting munmap01
+[  +0.011477] LTP: starting munmap02
+[  +0.011034] LTP: starting munmap03
+[  +0.010227] LTP: starting nanosleep01
+[  +8.375383] LTP: starting nanosleep02
+[  +1.018269] LTP: starting nanosleep04
+[  +0.016738] LTP: starting name_to_handle_at01
+[  +0.016187] LTP: starting name_to_handle_at02
+[  +0.014058] LTP: starting nftw01
+[  +0.033738] LTP: starting nftw6401
+[  +0.032909] LTP: starting nice01
+[  +0.012391] LTP: starting nice02
+[  +0.011733] LTP: starting nice03
+[  +0.012827] LTP: starting nice04
+[  +0.012451] LTP: starting nice05
+[  +3.056928] LTP: starting open01
+[  +0.015802] LTP: starting open01A (symlink01 -T open01)
+[  +0.015861] LTP: starting open02
+[  +0.013595] LTP: starting open03
+[  +0.012924] LTP: starting open04
+[  +0.190895] LTP: starting open06
+[  +0.013638] LTP: starting open07
+[  +0.013553] LTP: starting open08
+[  +0.013885] LTP: starting open09
+[  +0.010703] LTP: starting open10
+[  +0.018464] LTP: starting open11
+[  +0.016413] LTP: starting open12
+[  +0.020417] LTP: starting open13
+[  +0.010864] LTP: starting open14
+[  +0.113842] LTP: starting openat01
+[  +0.014292] LTP: starting openat02
+[  +0.016352] LTP: starting openat03
+[  +0.114090] LTP: starting openat04
+[  +0.075486] LTP: starting openat201
+[  +0.015232] LTP: starting openat202
+[  +0.014375] LTP: starting openat203
+[  +0.013427] LTP: starting open_by_handle_at01
+[  +0.015569] LTP: starting open_by_handle_at02
+[  +0.014674] LTP: starting open_tree01
+[  +0.066099] /dev/zero: Can't open blockdev
+[  +0.032616] LTP: starting open_tree02
+[  +0.066483] /dev/zero: Can't open blockdev
+[  +0.036357] LTP: starting mincore01
+[  +0.011619] LTP: starting mincore02
+[  +0.011243] LTP: starting mincore03
+[  +0.012197] LTP: starting mincore04
+[  +0.019671] LTP: starting madvise01
+[  +0.020413] LTP: starting madvise02
+[  +0.032056] LTP: starting madvise03
+[  +0.012675] LTP: starting madvise05
+[  +0.025293] LTP: starting madvise06
+[  +0.118331] madvise06 (808083): drop_caches: 3
+[  +0.009115] LTP: starting madvise07
+[  +0.025279] LTP: starting madvise08
+[  +0.043196] LTP: starting madvise09
+[  +0.013392] LTP: starting madvise10
+[  +0.020180] LTP: starting madvise11
+[  +0.020855] LTP: starting newuname01
+[  +0.011398] LTP: starting pathconf01
+[  +0.012793] LTP: starting pause01
+[  +0.014698] LTP: starting pause02
+[  +0.012870] LTP: starting pause03
+[  +0.010651] LTP: starting personality01
+[  +0.028970] LTP: starting personality02
+[  +0.012818] LTP: starting pidfd_getfd01
+[  +0.015632] LTP: starting pidfd_getfd02
+[  +0.022970] LTP: starting pidfd_open01
+[  +0.013042] LTP: starting pidfd_open02
+[  +0.013017] LTP: starting pidfd_open03
+[  +0.015528] LTP: starting pidfd_open04
+[  +0.015189] LTP: starting pidfd_send_signal01
+[  +0.014054] LTP: starting pidfd_send_signal02
+[  +0.014431] LTP: starting pidfd_send_signal03
+[  +0.017441] LTP: starting pipe01
+[  +0.011817] LTP: starting pipe02
+[  +0.013940] LTP: starting pipe03
+[  +0.012029] LTP: starting pipe04
+[  +0.010965] LTP: starting pipe05
+[  +0.009797] LTP: starting pipe06
+[  +0.026941] LTP: starting pipe07
+[  +0.027462] LTP: starting pipe08
+[  +0.012981] LTP: starting pipe09
+[  +0.014750] LTP: starting pipe10
+[  +0.015262] LTP: starting pipe11
+[  +0.033663] LTP: starting pipe12
+[  +0.013249] LTP: starting pipe13
+[  +0.114622] LTP: starting pipe14
+[  +0.012205] LTP: starting pipe2_01
+[  +0.013116] LTP: starting pipe2_02
+[  +0.033396] LTP: starting pipe2_04
+[  +0.014575] LTP: starting pivot_root01
+[  +0.025732] LTP: starting poll01
+[  +0.014515] LTP: starting poll02
+[  +8.392938] LTP: starting ppoll01
+[  +0.305936] LTP: starting prctl01
+[  +0.016314] LTP: starting prctl02
+[  +0.012663] LTP: starting prctl03
+[  +0.014561] LTP: starting prctl04
+[  +1.241056] LTP: starting prctl05
+[  +0.015316] LTP: starting prctl06
+[  +0.029954] LTP: starting prctl07
+[  +0.013626] LTP: starting prctl08
+[  +0.013915] LTP: starting prctl09
+[  +8.598754] LTP: starting prctl10
+[  +0.014237] LTP: starting pread01
+[  +0.012945] LTP: starting pread01_64
+[  +0.013218] LTP: starting pread02
+[  +0.013373] LTP: starting pread02_64
+[  +0.013691] LTP: starting preadv01
+[  +0.013473] LTP: starting preadv01_64
+[  +0.013941] LTP: starting preadv02
+[  +0.013319] LTP: starting preadv02_64
+[  +0.013629] LTP: starting preadv03
+[  +0.084158] /dev/zero: Can't open blockdev
+[  +0.031931] LTP: starting preadv03_64
+[  +0.066761] /dev/zero: Can't open blockdev
+[  +0.031229] LTP: starting preadv201
+[  +0.013592] LTP: starting preadv201_64
+[  +0.013767] LTP: starting preadv202
+[  +0.013564] LTP: starting preadv202_64
+[  +0.013813] LTP: starting preadv203
+[  +0.065189] /dev/zero: Can't open blockdev
+[  +0.036185] LTP: starting preadv203_64
+[  +0.066669] /dev/zero: Can't open blockdev
+[  +0.036254] LTP: starting profil01
+[  +5.010575] LTP: starting process_vm_readv01 (process_vm01 -r)
+[  +0.021534] LTP: starting process_vm_readv02
+[  +0.015635] LTP: starting process_vm_readv03
+[  +0.056409] LTP: starting process_vm_writev01 (process_vm01)
+[  +0.013898] LTP: starting process_vm_writev02
+[  +0.016743] LTP: starting process_madvise01
+[  +0.024795] LTP: starting prot_hsymlinks
+[  +0.307833] LTP: starting dirtyc0w
+[  +1.054587] LTP: starting dirtyc0w_shmem
+[Dec22 16:35] LTP: starting dirtypipe
+[  +0.018772] LTP: starting pselect01
+[  +8.382023] LTP: starting pselect01_64
+[  +8.381581] LTP: starting pselect02
+[  +0.013771] LTP: starting pselect02_64
+[  +0.013572] LTP: starting pselect03
+[  +0.013187] LTP: starting pselect03_64
+[  +0.013145] LTP: starting ptrace01
+[  +0.015812] LTP: starting ptrace02
+[  +0.013906] LTP: starting ptrace03
+[  +0.014055] LTP: starting ptrace04
+[  +0.009893] LTP: starting ptrace05
+[  +0.052247] LTP: starting ptrace07
+[  +0.010180] LTP: starting ptrace08
+[  +0.009748] LTP: starting ptrace09
+[  +0.009873] LTP: starting ptrace10
+[  +0.009698] LTP: starting ptrace11
+[  +0.012164] LTP: starting pwrite01
+[  +0.013193] LTP: starting pwrite02
+[  +0.013028] LTP: starting pwrite03
+[  +0.013004] LTP: starting pwrite04
+[  +0.013151] LTP: starting pwrite01_64
+[  +0.013345] LTP: starting pwrite02_64
+[  +0.013314] LTP: starting pwrite03_64
+[  +0.013216] LTP: starting pwrite04_64
+[  +0.013481] LTP: starting pwritev01
+[  +0.013086] LTP: starting pwritev01_64
+[  +0.013446] LTP: starting pwritev02
+[  +0.013154] LTP: starting pwritev02_64
+[  +0.013414] LTP: starting pwritev03
+[  +0.065397] /dev/zero: Can't open blockdev
+[  +0.030993] LTP: starting pwritev03_64
+[  +0.065733] /dev/zero: Can't open blockdev
+[  +0.031388] LTP: starting pwritev201
+[  +0.013983] LTP: starting pwritev201_64
+[  +0.013600] LTP: starting pwritev202
+[  +0.013479] LTP: starting pwritev202_64
+[  +0.013916] LTP: starting quotactl01
+[  +0.010943] LTP: starting quotactl02
+[  +0.023225] LTP: starting quotactl03
+[  +0.022925] LTP: starting quotactl04
+[  +0.019979] LTP: starting quotactl05
+[  +0.023112] LTP: starting quotactl06
+[  +0.014364] LTP: starting quotactl07
+[  +0.022927] LTP: starting quotactl08
+[  +0.019797] LTP: starting quotactl09
+[  +0.019974] LTP: starting read01
+[  +0.013124] LTP: starting read02
+[  +0.013893] LTP: starting read03
+[  +0.012876] LTP: starting read04
+[  +0.013296] LTP: starting readahead01
+[  +0.013825] LTP: starting readahead02
+[  +0.021000] LTP: starting readdir01
+[  +0.015288] LTP: starting readdir21
+[  +0.013784] LTP: starting readlink01A (symlink01 -T readlink01)
+[  +0.016716] LTP: starting readlink01
+[  +0.014992] LTP: starting readlink03
+[  +0.015956] LTP: starting readlinkat01
+[  +0.014316] LTP: starting readlinkat02
+[  +0.013560] LTP: starting readv01
+[  +0.014727] LTP: starting readv02
+[  +0.013613] LTP: starting realpath01
+[  +0.014350] LTP: starting reboot01
+[  +0.012223] LTP: starting reboot02
+[  +0.012832] LTP: starting recv01
+[  +0.012152] LTP: starting recvfrom01
+[  +0.012742] LTP: starting recvmsg01
+[  +0.029279] LTP: starting recvmsg02
+[  +0.012941] LTP: starting recvmsg03
+[  +0.017986] LTP: starting recvmmsg01
+[  +0.015836] LTP: starting remap_file_pages01
+[  +0.027426] mmap: remap_file_page (809098) uses deprecated remap_file_pages() syscall. See Documentation/vm/remap_file_pages.rst.
+[  +0.052710] LTP: starting remap_file_pages02
+[  +0.014410] LTP: starting removexattr01
+[  +0.011573] LTP: starting removexattr02
+[  +0.011352] LTP: starting rename01
+[  +0.064748] /dev/zero: Can't open blockdev
+[  +0.036313] LTP: starting rename01A (symlink01 -T rename01)
+[  +0.010856] LTP: starting rename03
+[  +0.065887] /dev/zero: Can't open blockdev
+[  +0.040175] LTP: starting rename04
+[  +0.065796] /dev/zero: Can't open blockdev
+[  +0.033560] LTP: starting rename05
+[  +0.065645] /dev/zero: Can't open blockdev
+[  +0.043051] LTP: starting rename06
+[  +0.065734] /dev/zero: Can't open blockdev
+[  +0.036251] LTP: starting rename07
+[  +0.065429] /dev/zero: Can't open blockdev
+[  +0.032565] LTP: starting rename08
+[  +0.065747] /dev/zero: Can't open blockdev
+[  +0.032965] LTP: starting rename09
+[  +0.014447] LTP: starting rename10
+[  +0.065067] /dev/zero: Can't open blockdev
+[  +0.032043] LTP: starting rename11
+[  +0.020255] LTP: starting rename12
+[  +0.068226] LTP: starting rename13
+[  +0.079745] LTP: starting rename14
+[  +5.012179] LTP: starting renameat01
+[  +0.026683] LTP: starting renameat201
+[  +0.012610] LTP: starting renameat202 (renameat202 -i 10)
+[  +0.015057] LTP: starting request_key01
+[  +0.012662] LTP: starting request_key02
+[  +2.012731] LTP: starting request_key03
+[  +4.546990] LTP: starting request_key04
+[  +0.017064] LTP: starting request_key05
+[  +0.013264] LTP: starting rmdir01
+[  +0.013033] LTP: starting rmdir02
+[  +0.023662] LTP: starting rmdir03
+[  +0.017624] LTP: starting rmdir03A (symlink01 -T rmdir03)
+[  +0.010453] LTP: starting rt_sigaction01
+[  +0.014809] LTP: starting rt_sigaction02
+[  +0.012292] LTP: starting rt_sigaction03
+[  +0.012365] LTP: starting rt_sigprocmask01
+[  +0.011299] LTP: starting rt_sigprocmask02
+[  +0.011151] LTP: starting rt_sigqueueinfo01
+[  +0.014012] LTP: starting rt_sigsuspend01
+[  +1.017257] LTP: starting rt_sigtimedwait01
+[  +2.324189] LTP: starting rt_tgsigqueueinfo01
+[  +0.020260] LTP: starting sbrk01
+[  +0.011831] LTP: starting sbrk02
+[  +0.012291] LTP: starting sbrk03
+[  +0.011843] LTP: starting sched_get_priority_max01
+[  +0.013636] LTP: starting sched_get_priority_max02
+[  +0.013622] LTP: starting sched_get_priority_min01
+[  +0.013406] LTP: starting sched_get_priority_min02
+[  +0.013504] LTP: starting sched_getparam01
+[  +0.017604] LTP: starting sched_getparam03
+[  +0.014556] LTP: starting sched_rr_get_interval01
+[  +0.015045] LTP: starting sched_rr_get_interval02
+[  +0.014751] LTP: starting sched_rr_get_interval03
+[  +0.015260] LTP: starting sched_setparam01
+[  +0.014045] LTP: starting sched_setparam02
+[  +0.014404] LTP: starting sched_setparam03
+[  +0.012520] LTP: starting sched_setparam04
+[  +0.014318] LTP: starting sched_setparam05
+[  +0.017275] LTP: starting sched_getscheduler01
+[  +0.014791] LTP: starting sched_getscheduler02
+[  +0.014479] LTP: starting sched_setscheduler01
+[  +0.014700] LTP: starting sched_setscheduler02
+[  +0.017345] LTP: starting sched_setscheduler03
+[  +0.021427] LTP: starting sched_yield01
+[  +0.010201] LTP: starting sched_setaffinity01
+[  +0.015204] LTP: starting sched_getaffinity01
+[  +0.014528] LTP: starting sched_setattr01
+[  +0.011371] LTP: starting sched_getattr01
+[  +0.010967] LTP: starting sched_getattr02
+[  +0.010716] LTP: starting select01
+[  +0.020125] LTP: starting select02
+[ +16.797115] LTP: starting select03
+[  +0.022527] select03[811156]: unhandled signal 11 code 0x2 at 0x0000003fd0fa5000 in libc.so.6[3fd0d9b000+18b000]
+[  +0.010253] CPU: 3 PID: 811156 Comm: select03 Not tainted 5.10.113 #1
+[  +0.006549] epc: 0000003fd0e84ca0 ra : 0000000000014d20 sp : 0000003fff829f90
+[  +0.007172]  gp : 000000000003d3b0 tp : 0000003fd0f99400 t0 : 0000003fd0fd0290
+[  +0.007253]  t1 : 0000003fd0e84c68 t2 : 0000000000000003 s0 : 0000003fd0fa5000
+[  +0.007273]  s1 : 0000000000000006 a0 : 0000000000000006 a1 : 000000000003cef0
+[  +0.007260]  a2 : 000000000003cf70 a3 : 0000000000000000 a4 : 0000003fd0fa5000
+[  +0.007263]  a5 : 0000000000000000 a6 : 000000000003cc88 a7 : 0000000000000000
+[  +0.007258]  s2 : 0000003fd0fced60 s3 : 0000003fd0f99410 s4 : 0000000000031558
+[  +0.007249]  s5 : 0000000000000007 s6 : 0000003fd0fa5000 s7 : 0000000000000000
+[  +0.007256]  s8 : 0000000000000000 s9 : 0000000000000000 s10: 0000000000000001
+[  +0.007246]  s11: 000000000000000d t3 : 0000003fd0fd0290 t4 : 00000000000e9c68
+[  +0.007257]  t5 : 000000001b80e3c5 t6 : 00000000006e038f
+[  +0.005337] status: 8000000201804020 badaddr: 0000003fd0fa5000 cause: 000000000000000d
+[  +0.450465] LTP: starting select04
+[  +0.157171] LTP: starting semctl01
+[  +0.031314] LTP: starting semctl02
+[  +0.013084] LTP: starting semctl03
+[  +0.014071] LTP: starting semctl04
+[  +0.013847] LTP: starting semctl05
+[  +0.012277] LTP: starting semctl06
+[  +0.021943] LTP: starting semctl07
+[  +0.012325] LTP: starting semctl08
+[  +0.009956] LTP: starting semctl09
+[  +0.015405] LTP: starting semget01
+[  +0.012867] LTP: starting semget02
+[  +0.014447] LTP: starting semget05
+[  +0.248936] LTP: starting semop01
+[  +0.019030] LTP: starting semop02
+[  +0.037351] LTP: starting semop03
+[  +0.034123] LTP: starting semop04
+[  +0.265196] LTP: starting semop05
+[Dec22 16:36] LTP: starting send01
+[  +0.015704] LTP: starting send02
+[  +0.513782] LTP: starting sendfile02
+[  +0.018517] LTP: starting sendfile02_64
+[  +0.014043] LTP: starting sendfile03
+[  +0.013334] LTP: starting sendfile03_64
+[  +0.013798] LTP: starting sendfile04
+[  +0.013649] LTP: starting sendfile04_64
+[  +0.013930] LTP: starting sendfile05
+[  +0.013442] LTP: starting sendfile05_64
+[  +0.013452] LTP: starting sendfile06
+[  +0.013441] LTP: starting sendfile06_64
+[  +0.013789] LTP: starting sendfile07
+[  +0.015889] LTP: starting sendfile07_64
+[  +0.016121] LTP: starting sendfile08
+[  +0.013326] LTP: starting sendfile08_64
+[  +0.014185] LTP: starting sendfile09
+[ +11.457919] LTP: starting sendfile09_64
+[ +11.562298] LTP: starting sendmsg01
+[  +0.040399] LTP: starting sendmsg02
+[ +15.042530] LTP: starting sendmsg03
+[  +0.321840] raw_sendmsg: sendmsg03 forgot to set AF_INET. Fix it!
+[  +4.976546] LTP: starting sendmmsg01
+[  +0.021334] LTP: starting sendmmsg02
+[  +0.014563] LTP: starting sendto01
+[  +0.012073] LTP: starting sendto02
+[  +0.021314] LTP: starting sendto03
+[  +0.155903] LTP: starting set_mempolicy01
+[  +0.010532] LTP: starting set_mempolicy02
+[  +0.010648] LTP: starting set_mempolicy03
+[  +0.010385] LTP: starting set_mempolicy04
+[  +0.010773] LTP: starting set_robust_list01
+[  +0.010587] LTP: starting set_thread_area01
+[  +0.010757] LTP: starting set_tid_address01
+[  +0.011402] LTP: starting setdomainname01
+[  +0.013932] LTP: starting setdomainname02
+[  +0.014521] LTP: starting setdomainname03
+[  +0.015261] LTP: starting setfsgid01
+[  +0.013030] LTP: starting setfsgid01_16
+[  +0.013427] LTP: starting setfsgid02
+[  +0.013002] LTP: starting setfsgid02_16
+[  +0.012991] LTP: starting setfsgid03
+[  +0.011241] LTP: starting setfsgid03_16
+[  +0.011686] LTP: starting setfsuid01
+[  +0.012716] LTP: starting setfsuid01_16
+[  +0.013071] LTP: starting setfsuid02
+[  +0.012222] LTP: starting setfsuid02_16
+[  +0.012559] LTP: starting setfsuid03
+[  +0.012637] LTP: starting setfsuid03_16
+[  +0.013090] LTP: starting setfsuid04
+[  +0.013731] LTP: starting setfsuid04_16
+[  +0.012866] LTP: starting setgid01
+[  +0.012748] LTP: starting setgid01_16
+[  +0.012646] LTP: starting setgid02
+[  +0.012641] LTP: starting setgid02_16
+[  +0.012831] LTP: starting setgid03
+[  +0.012808] LTP: starting setgid03_16
+[  +0.013043] LTP: starting setegid01
+[  +0.013096] LTP: starting setegid02
+[  +0.012622] LTP: starting sgetmask01
+[  +0.010604] LTP: starting setgroups01
+[  +0.012359] LTP: starting setgroups01_16
+[  +0.012468] LTP: starting setgroups02
+[  +0.012887] LTP: starting setgroups02_16
+[  +0.013043] LTP: starting setgroups03
+[  +0.013675] LTP: starting setgroups03_16
+[  +0.013743] LTP: starting sethostname01
+[  +0.013906] LTP: starting sethostname02
+[  +0.013951] LTP: starting sethostname03
+[  +0.015125] LTP: starting setitimer01
+[  +0.452599] LTP: starting setitimer02
+[  +0.017018] LTP: starting setns01
+[  +0.014650] LTP: starting setns02
+[  +0.016602] LTP: starting setpgid01
+[  +0.010989] LTP: starting setpgid02
+[  +0.012306] LTP: starting setpgid03
+[  +0.018969] LTP: starting setpgrp01
+[  +0.010991] LTP: starting setpgrp02
+[  +0.010896] LTP: starting setpriority01
+[  +0.186793] LTP: starting setpriority02
+[  +0.016758] LTP: starting setregid01
+[  +0.012591] LTP: starting setregid01_16
+[  +0.012555] LTP: starting setregid02
+[  +0.012930] LTP: starting setregid02_16
+[  +0.013041] LTP: starting setregid03
+[  +0.014007] LTP: starting setregid03_16
+[  +0.014187] LTP: starting setregid04
+[  +0.012385] LTP: starting setregid04_16
+[  +0.012491] LTP: starting setresgid01
+[  +0.010859] LTP: starting setresgid01_16
+[  +0.011098] LTP: starting setresgid02
+[  +0.012574] LTP: starting setresgid02_16
+[  +0.012410] LTP: starting setresgid03
+[  +0.012868] LTP: starting setresgid03_16
+[  +0.013416] LTP: starting setresgid04
+[  +0.011598] LTP: starting setresgid04_16
+[  +0.012189] LTP: starting setresuid01
+[  +0.012685] LTP: starting setresuid01_16
+[  +0.012581] LTP: starting setresuid02
+[  +0.013106] LTP: starting setresuid02_16
+[  +0.013080] LTP: starting setresuid03
+[  +0.012415] LTP: starting setresuid03_16
+[  +0.012635] LTP: starting setresuid04
+[  +0.015017] LTP: starting setresuid04_16
+[  +0.014343] LTP: starting setresuid05
+[  +0.013823] LTP: starting setresuid05_16
+[  +0.013759] LTP: starting setreuid01
+[  +0.012088] LTP: starting setreuid01_16
+[  +0.012456] LTP: starting setreuid02
+[  +0.012965] LTP: starting setreuid02_16
+[  +0.012997] LTP: starting setreuid03
+[  +0.013451] LTP: starting setreuid03_16
+[  +0.013129] LTP: starting setreuid04
+[  +0.013948] LTP: starting setreuid04_16
+[  +0.014061] LTP: starting setreuid05
+[  +0.014648] LTP: starting setreuid05_16
+[  +0.014038] LTP: starting setreuid06
+[  +0.013045] LTP: starting setreuid06_16
+[  +0.013157] LTP: starting setreuid07
+[  +0.014369] LTP: starting setreuid07_16
+[  +0.013388] LTP: starting setrlimit01
+[  +0.017205] LTP: starting setrlimit02
+[  +0.012908] LTP: starting setrlimit03
+[  +0.012490] LTP: starting setrlimit04
+[  +0.015652] LTP: starting setrlimit05
+[  +0.013204] LTP: starting setrlimit06
+[Dec22 16:37] LTP: starting setsid01
+[  +1.016975] LTP: starting setsockopt01
+[  +0.017994] LTP: starting setsockopt02
+[  +0.100488] LTP: starting setsockopt03
+[  +0.012970] LTP: starting setsockopt04
+[  +0.012690] LTP: starting setsockopt05
+[  +0.159871] LTP: starting setsockopt06
+[Dec22 16:41] LTP: starting setsockopt07
+[ +24.339096] LTP: starting setsockopt08
+[  +0.026969] LTP: starting setsockopt09
+[  +1.316955] LTP: starting settimeofday01
+[  +0.018544] systemd-journald[216]: Time jumped backwards, rotating.
+[  +0.000480] LTP: starting settimeofday02
+[  +0.020755] LTP: starting setuid01
+[  +0.016364] LTP: starting setuid01_16
+[  +0.013799] LTP: starting setuid03
+[  +0.028886] LTP: starting setuid03_16
+[  +0.014347] LTP: starting setuid04
+[  +0.015596] LTP: starting setuid04_16
+[  +0.015585] LTP: starting setxattr01
+[  +0.071627] /dev/zero: Can't open blockdev
+[  +0.036125] LTP: starting setxattr02
+[  +0.015162] LTP: starting setxattr03
+[  +0.013820] LTP: starting shmat01
+[  +0.013918] shmat01[812083]: unhandled signal 11 code 0x2 at 0x0000003fcd9be000 in shmat01[10000+2c000]
+[  +0.009483] CPU: 3 PID: 812083 Comm: shmat01 Not tainted 5.10.113 #1
+[  +0.006460] epc: 0000000000015090 ra : 00000000000150a4 sp : 0000003fffd95fa0
+[  +0.007157]  gp : 000000000003e408 tp : 0000003fcd9b3400 t0 : 0000003fcd9ea290
+[  +0.007252]  t1 : 0000000000014b5c t2 : 0000000000000003 s0 : 0000000000000003
+[  +0.007252]  s1 : 0000003fcd9be000 a0 : 0000000000035a48 a1 : 0000003fffd95ac0
+[  +0.007250]  a2 : 0000000000000049 a3 : 0000000000000000 a4 : 000000000001eb50
+[  +0.007248]  a5 : 000000000000000a a6 : 2525252525252525 a7 : 0000000000000040
+[  +0.007249]  s2 : 0000000000031e58 s3 : 0000000000032000 s4 : 0000003fcd9be000
+[  +0.007252]  s5 : 000000000003dcc8 s6 : 0000000000000000 s7 : 0000000000000000
+[  +0.007249]  s8 : 0000000000000000 s9 : 0000000000000000 s10: 0000000000000001
+[  +0.007250]  s11: 000000000000000d t3 : 0000003fcd898338 t4 : 0000003fffd95af0
+[  +0.007249]  t5 : 000000006f29b1e2 t6 : 0000000001bca6c7
+[  +0.005339] status: 8000000201806020 badaddr: 0000003fcd9be000 cause: 000000000000000f
+[  +0.008018] Process 812083(shmat01) has RLIMIT_CORE set to 1
+[  +0.005699] Aborting core
+[  +0.004504] LTP: starting shmat02
+[  +0.014406] LTP: starting shmat03
+[  +0.011958] LTP: starting shmctl01
+[  +0.033855] LTP: starting shmctl02
+[  +0.015902] LTP: starting shmctl03
+[  +0.012623] LTP: starting shmctl04
+[  +0.013232] LTP: starting shmctl05
+[Dec22 16:42] LTP: starting shmctl06
+[  +0.014598] LTP: starting shmctl07
+[  +0.012332] LTP: starting shmctl08
+[  +1.012410] LTP: starting shmdt01
+[  +0.017249] LTP: starting shmdt02
+[  +0.012240] LTP: starting shmget02
+[  +0.029496] LTP: starting shmget03
+[  +0.122668] LTP: starting shmget04
+[  +0.013767] LTP: starting shmget05
+[  +0.024833] LTP: starting shmget06
+[  +0.026748] LTP: starting sigaction01
+[  +0.012064] LTP: starting sigaction02
+[  +0.010457] LTP: starting sigaltstack01
+[  +0.010464] LTP: starting sigaltstack02
+[  +0.010377] LTP: starting sighold02
+[  +0.013987] LTP: starting signal01
+[  +0.020691] LTP: starting signal02
+[  +0.012086] LTP: starting signal03
+[  +0.013403] LTP: starting signal04
+[  +0.012929] LTP: starting signal05
+[  +0.013214] LTP: starting signal06
+[  +0.009907] LTP: starting signalfd01
+[  +0.010065] LTP: starting signalfd4_01
+[  +0.010955] LTP: starting signalfd4_02
+[  +0.011240] LTP: starting sigpending02
+[  +0.015132] LTP: starting sigprocmask01
+[  +0.010348] LTP: starting sigrelse01
+[  +0.012497] LTP: starting sigsuspend01
+[  +1.012607] LTP: starting sigtimedwait01
+[  +1.323836] LTP: starting sigwait01
+[  +0.118474] LTP: starting sigwaitinfo01
+[  +0.318867] LTP: starting socket01
+[  +0.056915] LTP: starting socket02
+[  +0.012637] LTP: starting socketcall01
+[  +0.012601] LTP: starting socketcall02
+[  +0.012613] LTP: starting socketcall03
+[  +0.012561] LTP: starting socketpair01
+[  +0.045928] LTP: starting socketpair02
+[  +0.013086] LTP: starting sockioctl01
+[  +0.011401] LTP: starting splice01
+[  +0.013590] LTP: starting splice02
+[  +0.047830] LTP: starting splice03
+[  +0.013654] LTP: starting splice04
+[  +0.012794] LTP: starting splice05
+[  +0.013010] LTP: starting tee01
+[  +0.013094] LTP: starting tee02
+[  +0.012790] LTP: starting ssetmask01
+[  +0.010760] LTP: starting stat01
+[  +0.013852] LTP: starting stat01_64
+[  +0.014116] LTP: starting stat02
+[  +0.014380] LTP: starting stat02_64
+[  +0.014577] LTP: starting stat03
+[  +0.014736] LTP: starting stat03_64
+[  +0.014854] LTP: starting stat04 (symlink01 -T stat04)
+[  +0.010221] LTP: starting stat04_64 (symlink01 -T stat04_64)
+[  +0.010641] LTP: starting statfs01
+[  +0.065675] /dev/zero: Can't open blockdev
+[  +0.040046] LTP: starting statfs01_64
+[  +0.065613] /dev/zero: Can't open blockdev
+[  +0.037209] LTP: starting statfs02
+[  +0.020323] LTP: starting statfs02_64
+[  +0.019744] LTP: starting statfs03
+[  +0.014388] LTP: starting statfs03_64
+[  +0.015134] LTP: starting statvfs01
+[  +0.069825] /dev/zero: Can't open blockdev
+[  +0.037962] LTP: starting statvfs02
+[  +0.014304] LTP: starting stime01
+[  +0.017646] LTP: starting stime02
+[  +0.016686] LTP: starting string01
+[  +0.011062] LTP: starting swapoff01
+[  +0.049953] Adding 36k swap on ./tstswap.  Priority:-2 extents:1 across:36k SS
+[  +1.143962] Adding 65532k swap on ./swapfile01.  Priority:-2 extents:1 across:65532k SS
+[  +0.091578] LTP: starting swapoff02
+[  +0.048401] Adding 36k swap on ./tstswap.  Priority:-2 extents:1 across:36k SS
+[  +0.024351] LTP: starting swapon01
+[  +0.039670] Adding 36k swap on ./tstswap.  Priority:-2 extents:1 across:36k SS
+[  +0.079996] Adding 36k swap on ./swapfile01.  Priority:-2 extents:1 across:36k SS
+[  +0.031121] LTP: starting swapon02
+[  +0.040907] Adding 36k swap on ./tstswap.  Priority:-2 extents:1 across:36k SS
+[  +0.067987] Adding 36k swap on alreadyused.  Priority:-2 extents:1 across:36k SS
+[  +0.007692] Unable to find swap-space signature
+[  +0.027368] LTP: starting swapon03
+[  +0.032928] Adding 36k swap on ./tstswap.  Priority:-2 extents:1 across:36k SS
+[  +0.072016] Adding 36k swap on swapfile02.  Priority:-2 extents:1 across:36k SS
+[  +0.043978] Adding 36k swap on swapfile03.  Priority:-3 extents:1 across:36k SS
+[  +0.048019] Adding 36k swap on swapfile04.  Priority:-4 extents:1 across:36k SS
+[  +0.060002] Adding 36k swap on swapfile05.  Priority:-5 extents:1 across:36k SS
+[  +0.047997] Adding 36k swap on swapfile06.  Priority:-6 extents:1 across:36k SS
+[  +0.043992] Adding 36k swap on swapfile07.  Priority:-7 extents:1 across:36k SS
+[  +0.055993] Adding 36k swap on swapfile08.  Priority:-8 extents:1 across:36k SS
+[  +0.032013] Adding 36k swap on swapfile09.  Priority:-9 extents:1 across:36k SS
+[  +0.051988] Adding 36k swap on swapfile10.  Priority:-10 extents:1 across:36k SS
+[  +0.040003] Adding 36k swap on swapfile11.  Priority:-11 extents:1 across:36k SS
+[  +0.043999] Adding 36k swap on swapfile12.  Priority:-12 extents:1 across:36k SS
+[  +0.032010] Adding 36k swap on swapfile13.  Priority:-13 extents:1 across:36k SS
+[  +0.040011] Adding 36k swap on swapfile14.  Priority:-14 extents:1 across:36k SS
+[  +0.064001] Adding 36k swap on swapfile15.  Priority:-15 extents:1 across:36k SS
+[  +0.040002] Adding 36k swap on swapfile16.  Priority:-16 extents:1 across:36k SS
+[  +0.031993] Adding 36k swap on swapfile17.  Priority:-17 extents:1 across:36k SS
+[  +0.035986] Adding 36k swap on swapfile18.  Priority:-18 extents:1 across:36k SS
+[  +0.031990] Adding 36k swap on swapfile19.  Priority:-19 extents:1 across:36k SS
+[  +0.048017] Adding 36k swap on swapfile20.  Priority:-20 extents:1 across:36k SS
+[  +0.032027] Adding 36k swap on swapfile21.  Priority:-21 extents:1 across:36k SS
+[  +0.051952] Adding 36k swap on swapfile22.  Priority:-22 extents:1 across:36k SS
+[  +0.036008] Adding 36k swap on swapfile23.  Priority:-23 extents:1 across:36k SS
+[  +0.036016] Adding 36k swap on swapfile24.  Priority:-24 extents:1 across:36k SS
+[  +0.051975] Adding 36k swap on swapfile25.  Priority:-25 extents:1 across:36k SS
+[  +0.052001] Adding 36k swap on swapfile26.  Priority:-26 extents:1 across:36k SS
+[  +0.044017] Adding 36k swap on swapfile27.  Priority:-27 extents:1 across:36k SS
+[  +0.047994] Adding 36k swap on swapfile28.  Priority:-28 extents:1 across:36k SS
+[  +0.032017] Adding 36k swap on swapfile29.  Priority:-29 extents:1 across:36k SS
+[  +0.055942] Adding 36k swap on swapfile30.  Priority:-30 extents:1 across:36k SS
+[  +0.052017] Adding 36k swap on swapfile31.  Priority:-31 extents:1 across:36k SS
+[  +1.256751] LTP: starting switch01 (endian_switch01)
+[  +0.015945] LTP: starting symlink01
+[  +0.011113] LTP: starting symlink02
+[  +0.010905] LTP: starting symlink03
+[  +0.012495] LTP: starting symlink04
+[  +0.010976] LTP: starting symlink05
+[  +0.011055] LTP: starting symlinkat01
+[  +0.015750] LTP: starting sync01
+[  +0.064775] /dev/zero: Can't open blockdev
+[  +0.030947] LTP: starting syncfs01
+[  +0.065238] /dev/zero: Can't open blockdev
+[  +0.032315] LTP: starting sync_file_range01
+[  +0.014560] LTP: starting sync_file_range02
+[  +0.066016] /dev/zero: Can't open blockdev
+[  +0.020543] LTP: starting syscall01
+[  +0.013077] LTP: starting sysconf01
+[  +0.010117] LTP: starting sysctl01
+[  +0.011859] LTP: starting sysctl03
+[  +0.012430] LTP: starting sysctl04
+[  +0.012297] LTP: starting sysfs01
+[  +0.011936] LTP: starting sysfs02
+[  +0.012127] LTP: starting sysfs03
+[  +0.011970] LTP: starting sysfs04
+[  +0.012216] LTP: starting sysfs05
+[  +0.012051] LTP: starting sysinfo01
+[  +0.010271] LTP: starting sysinfo02
+[  +0.010138] LTP: starting sysinfo03
+[  +0.023174] LTP: starting syslog11
+[  +0.012693] LTP: starting syslog12
+[  +0.013051] LTP: starting tgkill01
+[  +0.025409] LTP: starting tgkill02
+[  +0.014503] LTP: starting tgkill03
+[  +0.013716] LTP: starting time01
+[  +0.011900] LTP: starting times01
+[  +0.012055] LTP: starting times03
+[  +7.779734] LTP: starting timerfd01
+[  +0.937828] LTP: starting timerfd02
+[  +0.015150] LTP: starting timerfd03
+[  +0.010807] LTP: starting timerfd04
+[  +0.023240] LTP: starting timerfd_create01
+[  +0.015995] LTP: starting timerfd_gettime01
+[  +0.014136] LTP: starting timerfd_settime01
+[  +0.014135] LTP: starting timerfd_settime02
+[Dec22 16:43] LTP: starting timer_create01
+[  +0.018099] LTP: starting timer_create02
+[  +0.012940] LTP: starting timer_create03
+[  +0.012535] LTP: starting timer_delete01
+[  +0.012707] LTP: starting timer_delete02
+[  +0.012506] LTP: starting timer_getoverrun01
+[  +0.011462] LTP: starting timer_gettime01
+[  +0.013477] LTP: starting timer_settime01
+[  +1.631149] LTP: starting timer_settime02
+[  +0.018308] LTP: starting timer_settime03
+[  +0.012608] LTP: starting tkill01
+[  +0.012524] LTP: starting tkill02
+[  +0.012508] LTP: starting truncate02
+[  +0.013278] LTP: starting truncate02_64
+[  +0.013444] LTP: starting truncate03
+[  +0.015025] LTP: starting truncate03_64
+[  +0.015360] LTP: starting ulimit01
+[  +0.010134] LTP: starting umask01
+[  +0.069473] LTP: starting uname01
+[  +0.012174] LTP: starting uname02
+[  +0.011855] LTP: starting uname04
+[  +0.013600] LTP: starting unlink01 (symlink01 -T unlink01)
+[  +0.010204] LTP: starting unlink05
+[  +0.012929] LTP: starting unlink07
+[  +0.013322] LTP: starting unlink08
+[  +0.018547] LTP: starting unlinkat01
+[  +0.015667] LTP: starting unshare01
+[  +0.016106] LTP: starting unshare02
+[  +0.015453] LTP: starting umount01
+[  +0.022249] LTP: starting umount02
+[  +0.022062] LTP: starting umount03
+[  +0.022205] LTP: starting umount2_01
+[  +0.019953] LTP: starting umount2_02
+[  +0.022615] LTP: starting userfaultfd01
+[  +0.012601] LTP: starting ustat01
+[  +0.012193] LTP: starting ustat02
+[  +0.012065] LTP: starting utime01
+[  +0.083144] LTP: starting utime01A (symlink01 -T utime01)
+[  +0.010860] LTP: starting utime02
+[  +0.083792] LTP: starting utime03
+[  +0.083805] LTP: starting utime04
+[  +0.080335] LTP: starting utime05
+[  +0.079968] LTP: starting utime06
+[  +0.015539] LTP: starting utimes01
+[  +0.015392] LTP: starting utimensat01
+[  +0.021199] LTP: starting vfork01
+[  +0.010432] LTP: starting vfork02
+[  +0.010034] LTP: starting vhangup01
+[  +0.013680] LTP: starting vhangup02
+[  +0.012844] LTP: starting vmsplice01
+[  +0.015262] LTP: starting vmsplice02
+[  +0.013143] LTP: starting vmsplice03
+[  +0.012934] LTP: starting vmsplice04
+[  +0.014539] LTP: starting wait01
+[  +0.011753] LTP: starting wait02
+[  +0.012362] LTP: starting wait401
+[  +0.012977] LTP: starting wait402
+[  +0.010056] LTP: starting wait403
+[  +0.011967] LTP: starting waitpid01
+[  +0.012884] LTP: starting waitpid02
+[  +0.009229] Process 812902(waitpid02) has RLIMIT_CORE set to 1
+[  +0.005893] Aborting core
+[  +0.004138] LTP: starting waitpid03
+[  +0.016252] LTP: starting waitpid04
+[  +0.011628] LTP: starting waitpid05
+[  +2.537556] LTP: starting waitpid06
+[  +0.023735] LTP: starting waitpid07
+[  +0.017667] LTP: starting waitpid08
+[  +0.018413] LTP: starting waitpid09
+[  +0.015649] LTP: starting waitpid10
+[  +2.018698] LTP: starting waitpid11
+[  +0.022763] LTP: starting waitpid12
+[  +0.027962] LTP: starting waitpid13
+[  +0.019664] LTP: starting waitid01
+[  +0.013502] LTP: starting waitid02
+[  +0.012070] LTP: starting waitid03
+[  +0.012116] LTP: starting waitid04
+[  +0.015783] LTP: starting waitid05
+[  +0.013995] LTP: starting waitid06
+[  +0.014517] LTP: starting waitid07
+[  +0.015314] LTP: starting waitid08
+[  +0.014084] LTP: starting waitid09
+[  +0.012776] LTP: starting waitid10
+[  +0.470383] LTP: starting waitid11
+[  +0.020563] LTP: starting write01
+[  +0.311586] LTP: starting write02
+[  +0.017213] LTP: starting write03
+[  +0.012967] LTP: starting write04
+[  +0.012970] LTP: starting write05
+[  +0.013353] LTP: starting write06
+[  +0.013064] LTP: starting writev01
+[  +0.013376] LTP: starting writev02
+[  +0.011039] LTP: starting writev03
+[  +0.066367] /dev/zero: Can't open blockdev
+[  +0.036381] LTP: starting writev05
+[  +0.011606] LTP: starting writev06
+[  +0.010924] LTP: starting writev07
+[  +0.014719] LTP: starting perf_event_open01
+[  +0.441584] LTP: starting perf_event_open02
+[Dec22 16:44] LTP: starting futex_cmp_requeue01
+[  +1.151972] LTP: starting futex_cmp_requeue02
+[  +0.019189] LTP: starting futex_wait01
+[  +0.012943] LTP: starting futex_wait02
+[  +0.013674] LTP: starting futex_wait03
+[  +0.013082] LTP: starting futex_wait04
+[  +0.012883] LTP: starting futex_wait05
+[Dec22 16:45] LTP: starting futex_waitv01
+[  +0.015307] LTP: starting futex_waitv02
+[  +0.010515] LTP: starting futex_waitv03
+[  +0.010565] LTP: starting futex_wake01
+[  +0.012822] LTP: starting futex_wake02
+[  +0.027489] LTP: starting futex_wake03
+[  +0.041509] LTP: starting futex_wake04
+[  +0.181001] futex_wake04 (815750): drop_caches: 3
+[  +0.167787] LTP: starting futex_wait_bitset01
+[  +0.222015] LTP: starting memfd_create01
+[  +0.019118] LTP: starting memfd_create02
+[  +0.013812] LTP: starting memfd_create03
+[  +0.038637] memfd_create03 (815760): drop_caches: 3
+[  +0.087473] LTP: starting memfd_create04
+[  +0.023329] LTP: starting copy_file_range01
+[  +0.129586] /dev/zero: Can't open blockdev
+[  +0.039524] LTP: starting copy_file_range02
+[  +0.022531] LTP: starting copy_file_range03
+[  +3.021844] LTP: starting statx01
+[  +0.016720] LTP: starting statx02
+[  +0.013695] LTP: starting statx03
+[  +0.013732] LTP: starting statx04
+[  +0.066052] /dev/zero: Can't open blockdev
+[  +0.025577] LTP: starting statx05
+[  +0.032001] LTP: starting statx06
+[  +0.020537] LTP: starting statx07
+[  +0.037617] LTP: starting statx08
+[  +0.066302] /dev/zero: Can't open blockdev
+[  +0.036540] LTP: starting statx09
+[  +0.025636] LTP: starting statx10
+[  +0.065544] /dev/zero: Can't open blockdev
+[  +0.033388] LTP: starting statx11
+[ +30.013796] LTP: starting statx12
+[  +0.069904] /dev/zero: Can't open blockdev
+[  +0.040356] LTP: starting membarrier01
+[  +0.037210] LTP: starting io_uring01
+[  +0.056368] LTP: starting io_uring02
+[  +0.015033] LTP: starting perf_event_open03
+[  +0.013537] LTP: starting gf01 (growfiles -W gf01 -b -e 1 -u -i 0 -L 20 -w -C 1 -l -I r -T 10 -f glseek20 -S 2 -d $TMPDIR)
+[ +21.179993] LTP: starting gf02 (growfiles -W gf02 -b -e 1 -L 10 -i 100 -I p -S 2 -u -f gf03_ -d $TMPDIR)
+[  +0.063234] LTP: starting gf03 (growfiles -W gf03 -b -e 1 -g 1 -i 1 -S 150 -u -f gf05_ -d $TMPDIR)
+[  +0.050070] LTP: starting gf04 (growfiles -W gf04 -b -e 1 -g 4090 -i 500 -t 39000 -u -f gf06_ -d $TMPDIR)
+[  +0.084930] LTP: starting gf05 (growfiles -W gf05 -b -e 1 -g 5000 -i 500 -t 49900 -T10 -c9 -I p -u -f gf07_ -d $TMPDIR)
+[  +0.157331] LTP: starting gf06 (growfiles -W gf06 -b -e 1 -u -r 1-5000 -R 0--1 -i 0 -L 30 -C 1 -f g_rand10 -S 2 -d $TMPDIR)
+[Dec22 16:46] LTP: starting gf07 (growfiles -W gf07 -b -e 1 -u -r 1-5000 -R 0--2 -i 0 -L 30 -C 1 -I p -f g_rand13 -S 2 -d $TMPDIR)
+[Dec22 16:47] LTP: starting gf08 (growfiles -W gf08 -b -e 1 -u -r 1-5000 -R 0--2 -i 0 -L 30 -C 1 -f g_rand11 -S 2 -d $TMPDIR)
+[ +31.001517] LTP: starting gf09 (growfiles -W gf09 -b -e 1 -u -r 1-5000 -R 0--1 -i 0 -L 30 -C 1 -I p -f g_rand12 -S 2 -d $TMPDIR)
+[Dec22 16:48] LTP: starting gf10 (growfiles -W gf10 -b -e 1 -u -r 1-5000 -i 0 -L 30 -C 1 -I l -f g_lio14 -S 2 -d $TMPDIR)
+[ +31.561207] LTP: starting gf11 (growfiles -W gf11 -b -e 1 -u -r 1-5000 -i 0 -L 30 -C 1 -I L -f g_lio15 -S 2 -d $TMPDIR)
+[Dec22 16:49] LTP: starting gf12 (mkfifo $TMPDIR/gffifo17; growfiles -b -W gf12 -e 1 -u -i 0 -L 30 $TMPDIR/gffifo17)
+[ +30.445713] LTP: starting gf13 (mkfifo $TMPDIR/gffifo18; growfiles -b -W gf13 -e 1 -u -i 0 -L 30 -I r -r 1-4096 $TMPDIR/gffifo18)
+[Dec22 16:50] LTP: starting gf14 (growfiles -W gf14 -b -e 1 -u -i 0 -L 20 -w -l -C 1 -T 10 -f glseek19 -S 2 -d $TMPDIR)
+[ +21.735799] LTP: starting gf15 (growfiles -W gf15 -b -e 1 -u -r 1-49600 -I r -u -i 0 -L 120 -f Lgfile1 -d $TMPDIR)
+[Dec22 16:51] LTP: starting gf16 (growfiles -W gf16 -b -e 1 -i 0 -L 120 -u -g 4090 -T 101 -t 408990 -l -C 10 -c 1000 -S 10 -f Lgf02_ -d $TMPDIR)
+[Dec22 16:53] LTP: starting gf17 (growfiles -W gf17 -b -e 1 -i 0 -L 120 -u -g 5000 -T 101 -t 499990 -l -C 10 -c 1000 -S 10 -f Lgf03_ -d $TMPDIR)
+[Dec22 16:55] LTP: starting gf18 (growfiles -W gf18 -b -e 1 -i 0 -L 120 -w -u -r 10-5000 -I r -l -S 2 -f Lgf04_ -d $TMPDIR)
+[Dec22 16:57] LTP: starting gf19 (growfiles -W gf19 -b -e 1 -g 5000 -i 500 -t 49900 -T10 -c9 -I p -o O_RDWR,O_CREAT,O_TRUNC -u -f gf08i_ -d $TMPDIR)
+[  +0.318078] LTP: starting gf20 (growfiles -W gf20 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 1-256000:512 -R 512-256000 -T 4 -f gfbigio-$$ -d $TMPDIR)
+[Dec22 16:58] LTP: starting gf21 (growfiles -W gf21 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -T 10 -t 20480 -f gf-bld-$$ -d $TMPDIR)
+[  +0.030854] LTP: starting gf22 (growfiles -W gf22 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -T 10 -t 20480 -f gf-bldf-$$ -d $TMPDIR)
+[  +0.030869] LTP: starting gf23 (growfiles -W gf23 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 512-64000:1024 -R 1-384000 -T 4 -f gf-inf-$$ -d $TMPDIR)
+[ +21.101989] LTP: starting gf24 (growfiles -W gf24 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -f gf-jbld-$$ -d $TMPDIR)
+[  +0.028778] LTP: starting gf25 (growfiles -W gf25 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 1024000-2048000:2048 -R 4095-2048000 -T 1 -f gf-large-gs-$$ -d $TMPDIR)
+[  +0.056769] LTP: starting gf26 (growfiles -W gf26 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 128-32768:128 -R 512-64000 -T 4 -f gfsmallio-$$ -d $TMPDIR)
+[Dec22 16:59] LTP: starting gf27 (growfiles -W gf27 -b -D 0 -w -g 8b -C 1 -b -i 1000 -u -f gfsparse-1-$$ -d $TMPDIR)
+[  +0.202561] LTP: starting gf28 (growfiles -W gf28 -b -D 0 -w -g 16b -C 1 -b -i 1000 -u -f gfsparse-2-$$ -d $TMPDIR)
+[  +0.310531] LTP: starting gf29 (growfiles -W gf29 -b -D 0 -r 1-4096 -R 0-33554432 -i 0 -L 60 -C 1 -u -f gfsparse-3-$$ -d $TMPDIR)
+[Dec22 17:00] LTP: starting gf30 (growfiles -W gf30 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -o O_RDWR,O_CREAT,O_SYNC -g 20480 -T 10 -t 20480 -f gf-sync-$$ -d $TMPDIR)
+[  +0.078182] LTP: starting rwtest01 (export LTPROOT; rwtest -N rwtest01 -c -q -i 60s  -f sync 10%25000:$TMPDIR/rw-sync-$$)
+[Dec22 17:01] LTP: starting rwtest02 (export LTPROOT; rwtest -N rwtest02 -c -q -i 60s  -f buffered 10%25000:$TMPDIR/rw-buffered-$$)
+[Dec22 17:02] LTP: starting rwtest03 (export LTPROOT; rwtest -N rwtest03 -c -q -i 60s -n 2  -f buffered -s mmread,mmwrite -m random -Dv 10%25000:$TMPDIR/mm-buff-$$)
+[Dec22 17:03] LTP: starting rwtest04 (export LTPROOT; rwtest -N rwtest04 -c -q -i 60s -n 2  -f sync -s mmread,mmwrite -m random -Dv 10%25000:$TMPDIR/mm-sync-$$)
+[Dec22 17:04] LTP: starting rwtest05 (export LTPROOT; rwtest -N rwtest05 -c -q -i 50 -T 64b 500b:$TMPDIR/rwtest01%s)
+[  +0.057269] LTP: starting iogen01 (export LTPROOT; rwtest -N iogen01 -i 120s -s read,write -Da -Dv -n 2 500b:$TMPDIR/doio.f1.$$ 1000b:$TMPDIR/doio.f2.$$)
+[Dec22 17:06] LTP: starting fs_inod01 (fs_inod $TMPDIR 10 10 10)
+[Dec22 17:07] LTP: starting linker01 (linktest.sh)
+[  +6.692047] LTP: starting openfile01 (openfile -f10 -t10)
+[  +0.039819] LTP: starting inode01
+[  +0.038979] LTP: starting inode02
+[  +1.084315] LTP: starting stream01
+[  +0.021302] LTP: starting stream02
+[  +0.011066] LTP: starting stream03
+[  +0.011454] LTP: starting stream04
+[  +0.011288] LTP: starting stream05
+[  +0.011740] LTP: starting ftest01
+[  +3.486724] LTP: starting ftest02
+[  +0.111056] LTP: starting ftest03
+[  +2.457179] LTP: starting ftest04
+[  +0.958718] LTP: starting ftest05
+[  +3.438089] LTP: starting ftest06
+[  +0.131687] LTP: starting ftest07
+[  +3.445825] LTP: starting ftest08
+[  +1.090905] LTP: starting lftest01 (lftest)
+[  +1.358677] LTP: starting writetest01 (writetest)
+[  +0.094081] LTP: starting fs_di (fs_di -d $TMPDIR)
+[ +15.767759] LTP: starting proc01 (proc01 -m 128)
+[  +0.178411] ICMPv6: process `proc01' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time - use net.ipv6.neigh.default.base_reachable_time_ms instead
