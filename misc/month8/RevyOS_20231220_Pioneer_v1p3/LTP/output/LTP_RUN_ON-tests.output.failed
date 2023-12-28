@@ -1,0 +1,39 @@
+clock_nanosleep02 clock_nanosleep02
+leapsec01 leapsec01
+clock_settime03 clock_settime03
+fanotify10 fanotify10
+ksm01 ksm01
+ksm01_1 ksm01 -u 128
+ksm03_1 ksm03 -u 128
+overcommit_memory01 overcommit_memory
+overcommit_memory03 overcommit_memory -R 30
+overcommit_memory04 overcommit_memory -R 80
+overcommit_memory05 overcommit_memory -R 100
+overcommit_memory06 overcommit_memory -R 200
+cgroup cgroup_regression_test.sh
+memcontrol02 memcontrol02
+memcontrol03 memcontrol03
+memcontrol04 memcontrol04
+cpuset_base_ops cpuset_base_ops_testset.sh
+cpuset_inherit cpuset_inherit_testset.sh
+cpuset_exclusive cpuset_exclusive_test.sh
+cpuset_hierarchy cpuset_hierarchy_test.sh
+cpuset_syscall cpuset_syscall_testset.sh
+cpuset_sched_domains cpuset_sched_domains_test.sh
+cpuset_load_balance cpuset_load_balance_test.sh
+cpuset_hotplug cpuset_hotplug_test.sh
+cpuset_memory cpuset_memory_testset.sh
+cpuset_memory_pressure cpuset_memory_pressure_testset.sh
+cpuset_memory_spread cpuset_memory_spread_testset.sh
+hugemmap24 hugemmap24
+nm01_sh nm01.sh
+cve-2016-7042 cve-2016-7042
+wqueue01 wqueue01
+wqueue02 wqueue02
+wqueue03 wqueue03
+wqueue04 wqueue04
+wqueue05 wqueue05
+wqueue06 wqueue06
+wqueue07 wqueue07
+wqueue08 wqueue08
+wqueue09 wqueue09

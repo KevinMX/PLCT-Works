@@ -67,7 +67,7 @@ run_ltp() {
     cd /opt/ltp
     mkdir -p /ltp/tmp
     dmesg -Hw >~/dmesg.log &
-    ./runltp -p -o tests.output -d /ltp/tmp -b /dev/vdc1 -B ext4 -z /dev/vdb1 -Z ext4
+    ./runltp -p -o tests.output -d /ltp/tmp
     echo "LTP test finished. Please check log output."
 }
 
