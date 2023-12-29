@@ -36,3 +36,15 @@ Pioneer v1.3 / RevyOS 20231220 测试结果：
 - openEuler 24.03 RISC-V 测试准备
     - SIG-QA 沟通会，交流南向兼容性、部分测试工具不可用等问题 [会议纪要](https://gitee.com/yunxiangluo/openEuler-RISCV-2403LTS-Pretest/blob/master/Meeting_Notes.md)
     - 测试策略编写：[PR](https://gitee.com/yunxiangluo/openEuler-RISCV-2403LTS-Pretest/pulls/1)
+
+### 其他产出
+
+- PLCT Open Day 报告：[oERV 专项测试拾遗：次世代 LTP 执行器 Kirk](https://github.com/KevinMX/PLCT-Tarsier-Works/tree/main/reports/month8/oERV%E4%B8%93%E9%A1%B9%E6%B5%8B%E8%AF%95%E6%8B%BE%E9%81%97%EF%BC%9A%E6%AC%A1%E4%B8%96%E4%BB%A3LTP%E6%89%A7%E8%A1%8C%E5%99%A8Kirk) | [PLCT Lab Open Reports](https://github.com/plctlab/PLCT-Open-Reports/blob/master/OpenDay2023/09-%E9%83%91%E6%99%AF%E5%9D%A4-%E6%AC%A1%E4%B8%96%E4%BB%A3LTP%E6%89%A7%E8%A1%8C%E5%99%A8Kirk.pdf)
+- openEuler Summit 2023
+    - 优秀贡献者领奖
+    - 展台 SG2042/Milk-V Pioneer 调试
+    - 展台解说
+    - Lichee Pi 4A / ROS / ROSMaster X3 小车 Demo 调试
+        - 解决无线网卡 AP 模式下 DHCP 不工作的问题：安装并启用 dnsmasq，从 nmtui/nmcli 重新配置 AP
+- oERV / RuyiSDK 演示
+    - 录制 RuyiSDK on openEuler RISC-V 23.09 LPi4A 实机演示视频 [Video](/misc/month8/RuyiSDK_LPi4A_2023-12-13%2013-26-00.mp4)
