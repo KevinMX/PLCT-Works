@@ -1,0 +1,8 @@
+﻿fanotify10,fanotify10,Found 12 ignore marks but at most 8 expected
+ksm03,ksm03,TFAIL: pages_sharing is not 98303 but 93792.,https://lists.linux.it/pipermail/ltp/2019-May/011931.html
+starvation,starvation,超时，复测通过,
+cgroup,cgroup_regression_test.sh,cgroup already mounted on /sys/fs/cgroup/systemd.,上一个测试用例 cgroup_core0 中挂载的 cgroup 未被释放？
+memcg_stress,memcg_stress_test.sh,超时，复测中,
+memcontrol02,memcontrol02,测试时未指定块设备，预期失败,
+hugemmap24,hugemmap24,can't use slice_boundary: 0x100000000000: ENOMEM (12),超出 SV39 地址空间限制，预期失败
+zram01,zram01.sh,超时，复测中

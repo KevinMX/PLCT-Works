@@ -1,0 +1,8 @@
+fanotify10 fanotify10
+ksm03 ksm03
+starvation starvation
+cgroup cgroup_regression_test.sh
+memcg_stress memcg_stress_test.sh
+memcontrol02 memcontrol02
+hugemmap24 hugemmap24
+zram01 zram01.sh
