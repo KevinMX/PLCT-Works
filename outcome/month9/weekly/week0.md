@@ -17,3 +17,4 @@
     - 搭建 Tailscale DERP 中继节点，优化国内连接延迟
     - 尝试解决 Share out machine 无法使用自建 DERP 节点的问题
     - 记录 [文档](/misc/month9/tailscale.md)
+- 调查 oERV perf top SIGSEGV 问题，并提交 core dump 结果：[I8TLYZ](https://gitee.com/openeuler/RISC-V/issues/I8TLYZ?from=project-issue#note_24150341_link)
