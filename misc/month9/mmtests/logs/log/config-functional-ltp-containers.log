@@ -1,0 +1,2679 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 10894's current affinity list: 0-63
+pid 10894's new affinity list: 0-7,16-23
+pid 10894's current affinity list: 0-7,16-23
+pid 10894's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+ltp fine
+Starting test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 11039's current affinity list: 0-63
+pid 11039's new affinity list: 0-7,16-23
+pid 11039's current affinity list: 0-7,16-23
+pid 11039's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Executing LTP test
+Execute via runltp
+Checking for required user/group ids
+
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/openEuler-release
+/etc/os-release
+/etc/system-release
+openEuler release 23.09
+NAME="openEuler"
+VERSION="23.09"
+ID="openEuler"
+VERSION_ID="23.09"
+PRETTY_NAME="openEuler 23.09"
+ANSI_COLOR="0;31"
+
+openEuler release 23.09
+
+uname:
+Linux openeuler-riscv64 6.1.61-4.oe2309.riscv64 #1 SMP Thu Dec 28 18:01:00 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
+
+/proc/cmdline
+root=/dev/nvme0n1p3 rw rootwait earlycon selinux=0 LANG=en_US.UTF-8 nvme.use_threaded_interrupts=1 nvme_core.io_timeout=3000 console=tty1
+
+Gnu C                  gcc (GCC) 12.3.1 (openEuler 12.3.1-16.oe2309)
+Clang                  clang version 15.0.7 ( 15.0.7-7.oe2309)
+Gnu make               4.4.1
+util-linux             2.39.1
+mount                  mount, assert, debug)
+modutils               30
+e2fsprogs              1.47.0
+Linux C Library        x 1 root root 2038312 Sep 14 08:00 /usr/lib64/libc.so.6
+Dynamic linker (ldd)   2.38
+Procps                 4.0.2
+Net-tools              2.10
+iproute2               0.8.1
+iputils                20221126
+ethtool                6.4
+Sh-utils               9.3
+Modules Loaded         binfmt_misc nft_fib_inet nft_fib_ipv4 nft_fib_ipv6 nft_fib nft_reject_inet nf_reject_ipv4 nf_reject_ipv6 nft_reject nft_ct nft_chain_nat nf_tables ebtable_nat ebtable_broute ip6table_nat ip6table_mangle ip6table_raw ip6table_security iptable_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 libcrc32c iptable_mangle iptable_raw iptable_security amdgpu ip_set nfnetlink ebtable_filter ebtables ip6table_filter ip6_tables iptable_filter ip_tables x_tables bpfilter gpu_sched drm_buddy radeon sunrpc snd_hda_codec_hdmi drm_display_helper snd_hda_intel snd_intel_dspcfg drm_ttm_helper snd_hda_codec ttm snd_hda_core cec rc_core snd_hwdep nls_iso8859_1 ofpart evbug drm_kms_helper snd_pcm cmdlinepart ixgbe fb_sys_fops syscopyarea snd_timer sophgo_spifmc sysfillrect r8169 spi_dw_mmio spi_nor xfrm_algo snd ahci sysimgblt gpio_keys spi_dw mdio i2c_algo_bit gpio_dwapb mtd soundcore xhci_pci realtek libahci xhci_pci_renesas uio_pdrv_genirq uio sch_fq_codel drm backlight autofs4
+
+free reports:
+               total        used        free      shared  buff/cache   available
+Mem:       131721044     1876444   129578844        7204     1195108   129844600
+Swap:              0           0           0
+
+cpuinfo:
+Architecture:        riscv64
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+NUMA node(s):        4
+NUMA node0 CPU(s):   0-7,16-23
+NUMA node1 CPU(s):   8-15,24-31
+NUMA node2 CPU(s):   32-39,48-55
+NUMA node3 CPU(s):   40-47,56-63
+
+available filesystems:
+autofs bdev binfmt_misc bpf cgroup cgroup2 configfs cpuset debugfs devpts devtmpfs ecryptfs ext2 ext3 ext4 fuse fuseblk fusectl hugetlbfs mqueue pipefs proc pstore ramfs rpc_pipefs securityfs sockfs squashfs sysfs tmpfs tracefs vfat
+
+mounted filesystems (/proc/mounts):
+/dev/root / ext4 rw,noatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,noexec,relatime,size=65717896k,nr_inodes=16429474,mode=755,inode64 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=26344212k,nr_inodes=819200,mode=755,inode64 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=4096k,nr_inodes=1024,mode=755,inode64 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+bpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/misc cgroup rw,nosuid,nodev,noexec,relatime,misc 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=24922 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=65860524k,nr_inodes=1048576,inode64 0 0
+ramfs /run/credentials/systemd-sysctl.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+ramfs /run/credentials/systemd-vconsole-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup-dev.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+/dev/nvme0n1p2 /boot vfat rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+tmpfs /run/user/995 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=995,gid=991,inode64 0 0
+gvfsd-fuse /run/user/995/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=995,group_id=991 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=1000,gid=1000,inode64 0 0
+binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0
+
+mounted filesystems (df):
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4      939G   16G  885G   2% /
+devtmpfs       devtmpfs   63G     0   63G   0% /dev
+tmpfs          tmpfs      63G     0   63G   0% /dev/shm
+tmpfs          tmpfs      26G  988K   26G   1% /run
+tmpfs          tmpfs     4.0M     0  4.0M   0% /sys/fs/cgroup
+tmpfs          tmpfs      63G  8.0K   63G   1% /tmp
+/dev/nvme0n1p2 vfat      511M  189M  323M  37% /boot
+tmpfs          tmpfs      13G  4.0K   13G   1% /run/user/995
+tmpfs          tmpfs      13G     0   13G   0% /run/user/1000
+
+AppArmor enabled
+
+SELinux status:                 disabled
+no big block device was specified on commandline.
+Tests which require a big block device are disabled.
+You can specify it with option -z
+COMMAND:    /opt/mmtests/work/sources/ltp-20220930-installed/bin/ltp-pan   -e -S   -a 11161     -n 11161  -f /opt/mmtests/work/testdisk/data/config-functional-ltp-containers/ltp-F8sOr1wmeK/alltests -l /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-containers.log  -C /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-containers.failed -T /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-containers.log.tconf
+LOG File: /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-containers.log
+FAILED COMMAND File: /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-containers.failed
+TCONF COMMAND File: /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-containers.log.tconf
+Running tests.......
+<<<test_start>>>
+tag=pidns01 stime=1704786146
+cmdline="pidns01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+pidns01.c:27: TPASS: cpid == 1 passed
+pidns01.c:28: TPASS: ppid == 0 passed
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns02 stime=1704786146
+cmdline="pidns02"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+pidns02.c:26: TPASS: sid == 1 passed
+pidns02.c:27: TPASS: pgid == 1 passed
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns03 stime=1704786146
+cmdline="pidns03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+pidns03.c:30: TPASS: proc/self contains 1: passed
+tst_device.c:434: TINFO: No device is mounted at /opt/mmtests/work/testdisk/data/config-functional-ltp-containers/ltp-F8sOr1wmeK/pidbHpHfB/proc
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns04 stime=1704786146
+cmdline="pidns04"
+contacts=""
+analysis=exit
+<<<test_output>>>
+PIDNS test is running inside container
+pidns04     1  TPASS  :  Container init : I was not killed !
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns05 stime=1704786146
+cmdline="pidns05"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pidns05     0  TINFO  :   5 Nested Containers are created
+pidns05     1  TPASS  :  The number of containers killed are 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=90 cstime=184
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns06 stime=1704786149
+cmdline="pidns06"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pidns06     0  TINFO  :  Parent: Passing the pid of the process 11315
+Container: killing parent pid=11315 failed as expected with ESRCH
+Container: killing non-existent pid failed as expected with ESRCH
+pidns06     0  TINFO  :  Parent: Passing the pid of the process 11315
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns10 stime=1704786149
+cmdline="pidns10"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cinit: kill(-1, sig) failed with -1 / ESRCH as expected
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns12 stime=1704786150
+cmdline="pidns12"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pidns12     0  TINFO  :  parent: PID is 11321
+pidns12     1  TPASS  :  cinit: signalling PID (from other namespace) is 0 as expected
+pidns12     0  TINFO  :  parent: PID is 11321
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns13 stime=1704786150
+cmdline="pidns13"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+test
+pidns13.c:90: TPASS: cinit1: si_fd is 4, si_code is 1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns16 stime=1704786150
+cmdline="pidns16"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pidns16     1  TPASS  :  container init continued successfuly, after handling signal -USR1
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns17 stime=1704786153
+cmdline="pidns17"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cinit: all children have terminated.
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns20 stime=1704786154
+cmdline="pidns20"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+pidns20.c:67: TPASS: Received SIGUSR1 signal after unblock
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns30 stime=1704786154
+cmdline="pidns30"
+contacts=""
+analysis=exit
+<<<test_output>>>
+mq_open succeeded
+successfully registered for notification
+successfully registered handler for SIGUSR1
+signal originator PID = 0
+parent is done - cleaning up
+pidns30     0  TINFO  :  successfully created posix mqueue
+pidns30     0  TINFO  :  mq_send succeeded
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns31 stime=1704786154
+cmdline="pidns31"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pidns31     0  TINFO  :  parent: successfully created posix mqueue
+pidns31     0  TINFO  :  cinit: my father is ready to receive a message
+pidns31     0  TINFO  :  cinit: mq_open succeeded
+pidns31     0  TINFO  :  cinit: mq_send() succeeded
+pidns31     0  TINFO  :  parent: successfully created posix mqueue
+pidns31     0  TINFO  :  parent: successfully created child (pid = 11352)
+pidns31     0  TINFO  :  parent: successfully registered for notification
+pidns31     0  TINFO  :  parent: successfully registered handler for SIGUSR1
+pidns31     1  TPASS  :  father: signal originator PID = 11352
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=pidns32 stime=1704786154
+cmdline="pidns32"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+pidns32.c:65: TPASS: All 32 containers have been nested
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=3 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_01 stime=1704786154
+cmdline="mqns_01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_01    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+posixmq_namespace_01    0  TINFO  :  Checking namespaces isolation from parent to child
+posixmq_namespace_01    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+posixmq_namespace_01    0  TINFO  :  Checking namespaces isolation from parent to child
+posixmq_namespace_01    1  TPASS  :  child process didn't find mqueue
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_01_clone stime=1704786154
+cmdline="mqns_01 -clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_01    0  TINFO  :  Testing posix mq namespaces through clone(2).
+posixmq_namespace_01    0  TINFO  :  Checking namespaces isolation from parent to child
+posixmq_namespace_01    0  TINFO  :  Testing posix mq namespaces through clone(2).
+posixmq_namespace_01    0  TINFO  :  Checking namespaces isolation from parent to child
+posixmq_namespace_01    1  TPASS  :  child process didn't find mqueue
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_02 stime=1704786154
+cmdline="mqns_02"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_02    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+posixmq_namespace_02    0  TINFO  :  Checking namespaces isolation (child to parent)
+posixmq_namespace_02    1  TPASS  :  Parent process can't see the mqueue
+posixmq_namespace_02    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_02_clone stime=1704786154
+cmdline="mqns_02 -clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_02    0  TINFO  :  Testing posix mq namespaces through clone(2).
+posixmq_namespace_02    0  TINFO  :  Checking namespaces isolation (child to parent)
+posixmq_namespace_02    1  TPASS  :  Parent process can't see the mqueue
+posixmq_namespace_02    0  TINFO  :  Testing posix mq namespaces through clone(2).
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_03 stime=1704786154
+cmdline="mqns_03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_03    0  TINFO  :  Testing posix mq namespaces through unshare(2)
+posixmq_namespace_03    0  TINFO  :  Testing posix mq namespaces through unshare(2)
+posixmq_namespace_03    0  TINFO  :  Checking correct umount+remount of mqueuefs
+posixmq_namespace_03    1  TPASS  :  umount+remount of mqueuefs remounted the right fs
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_03_clone stime=1704786154
+cmdline="mqns_03 -clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_03    0  TINFO  :  Testing posix mq namespaces through clone(2)
+posixmq_namespace_03    0  TINFO  :  Testing posix mq namespaces through clone(2)
+posixmq_namespace_03    0  TINFO  :  Checking correct umount+remount of mqueuefs
+posixmq_namespace_03    1  TPASS  :  umount+remount of mqueuefs remounted the right fs
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_04 stime=1704786154
+cmdline="mqns_04"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_04    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+posixmq_namespace_04    0  TINFO  :  Checking mqueue filesystem lifetime
+posixmq_namespace_04    0  TINFO  :  Testing posix mq namespaces through unshare(2).
+posixmq_namespace_04    0  TINFO  :  Checking mqueue filesystem lifetime
+posixmq_namespace_04    1  TPASS  :  Child mqueue fs still visible for parent
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mqns_04_clone stime=1704786154
+cmdline="mqns_04 -clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+posixmq_namespace_04    0  TINFO  :  Testing posix mq namespaces through clone(2).
+posixmq_namespace_04    0  TINFO  :  Checking mqueue filesystem lifetime
+posixmq_namespace_04    0  TINFO  :  Testing posix mq namespaces through clone(2).
+posixmq_namespace_04    0  TINFO  :  Checking mqueue filesystem lifetime
+posixmq_namespace_04    1  TPASS  :  Child mqueue fs still visible for parent
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_netlink stime=1704786154
+cmdline="netns_netlink"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+netns_netlink.c:86: TPASS: interface changes detected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=3
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ip_ipv4_netlink stime=1704786154
+cmdline="netns_breakns.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over netlink with ip netns exec 
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ip address add 10.23.0.4/24 dev veth1 failed as expected
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ifconfig veth1 10.23.0.4/24 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=8 cstime=29
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ip_ipv6_netlink stime=1704786154
+cmdline="netns_breakns.sh -6"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over netlink with ip netns exec 
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ip address add fd00:23::4/64 dev veth1 failed as expected
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ifconfig veth1 inet6 add fd00:23::4/64 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=12 cstime=27
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ip_ipv4_ioctl stime=1704786155
+cmdline="netns_breakns.sh -I"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over ioctl with ip netns exec 
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ip address add 10.23.0.4/24 dev veth1 failed as expected
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ifconfig veth1 10.23.0.4/24 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=10 cstime=25
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ip_ipv6_ioctl stime=1704786155
+cmdline="netns_breakns.sh -6I"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over ioctl with ip netns exec 
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ip address add fd00:23::4/64 dev veth1 failed as expected
+netns_breakns 1 TPASS: ip netns exec tst_net_ns0 ifconfig veth1 inet6 add fd00:23::4/64 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=11 cstime=28
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ns_exec_ipv4_netlink stime=1704786156
+cmdline="netns_breakns.sh -e"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over netlink with ns_exec 
+netns_breakns 1 TPASS: ns_exec 11639 net ip address add 10.23.0.4/24 dev veth1 failed as expected
+netns_breakns 1 TPASS: ns_exec 11639 net ifconfig veth1 10.23.0.4/24 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=10 cstime=22
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ns_exec_ipv6_netlink stime=1704786156
+cmdline="netns_breakns.sh -6e"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over netlink with ns_exec 
+netns_breakns 1 TPASS: ns_exec 11694 net ip address add fd00:23::4/64 dev veth1 failed as expected
+netns_breakns 1 TPASS: ns_exec 11694 net ifconfig veth1 inet6 add fd00:23::4/64 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=10 cstime=23
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ns_exec_ipv4_ioctl stime=1704786156
+cmdline="netns_breakns.sh -eI"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over ioctl with ns_exec 
+netns_breakns 1 TPASS: ns_exec 11752 net ip address add 10.23.0.4/24 dev veth1 failed as expected
+netns_breakns 1 TPASS: ns_exec 11752 net ifconfig veth1 10.23.0.4/24 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=11 cstime=19
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_breakns_ns_exec_ipv6_ioctl stime=1704786157
+cmdline="netns_breakns.sh -6eI"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_breakns 1 TINFO: timeout per run is 0h 5m 0s
+netns_breakns 1 TINFO: testing netns over ioctl with ns_exec 
+netns_breakns 1 TPASS: ns_exec 11808 net ip address add fd00:23::4/64 dev veth1 failed as expected
+netns_breakns 1 TPASS: ns_exec 11808 net ifconfig veth1 inet6 add fd00:23::4/64 failed as expected
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=11 cstime=21
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ip_ipv4_netlink stime=1704786157
+cmdline="netns_comm.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over netlink with ip netns exec 
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping -q -c2 -I veth0 10.23.0.4 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns1 ping -q -c2 -I veth1 10.23.0.2 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping -q -c2 -I lo 127.0.0.1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=9 cstime=32
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ip_ipv6_netlink stime=1704786161
+cmdline="netns_comm.sh -6"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over netlink with ip netns exec 
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping6 -q -c2 -I veth0 fd00:23::4 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns1 ping6 -q -c2 -I veth1 fd00:23::2 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping6 -q -c2 -I lo ::1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=9 cstime=34
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ip_ipv4_ioctl stime=1704786164
+cmdline="netns_comm.sh -I"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over ioctl with ip netns exec 
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping -q -c2 -I veth0 10.23.0.4 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns1 ping -q -c2 -I veth1 10.23.0.2 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping -q -c2 -I lo 127.0.0.1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=8 cstime=30
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ip_ipv6_ioctl stime=1704786168
+cmdline="netns_comm.sh -6I"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over ioctl with ip netns exec 
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping6 -q -c2 -I veth0 fd00:23::4 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns1 ping6 -q -c2 -I veth1 fd00:23::2 passed as expected
+netns_comm 1 TPASS: ip netns exec tst_net_ns0 ping6 -q -c2 -I lo ::1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=11 cstime=33
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ns_exec_ipv4_netlink stime=1704786171
+cmdline="netns_comm.sh -e"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over netlink with ns_exec 
+netns_comm 1 TPASS: ns_exec 12048 net ping -q -c2 -I veth0 10.23.0.4 passed as expected
+netns_comm 1 TPASS: ns_exec 12050 net ping -q -c2 -I veth1 10.23.0.2 passed as expected
+netns_comm 1 TPASS: ns_exec 12048 net ping -q -c2 -I lo 127.0.0.1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=8 cstime=25
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ns_exec_ipv6_netlink stime=1704786174
+cmdline="netns_comm.sh -6e"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over netlink with ns_exec 
+netns_comm 1 TPASS: ns_exec 12101 net ping6 -q -c2 -I veth0 fd00:23::4 passed as expected
+netns_comm 1 TPASS: ns_exec 12103 net ping6 -q -c2 -I veth1 fd00:23::2 passed as expected
+netns_comm 1 TPASS: ns_exec 12101 net ping6 -q -c2 -I lo ::1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=10 cstime=27
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ns_exec_ipv4_ioctl stime=1704786178
+cmdline="netns_comm.sh -eI"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over ioctl with ns_exec 
+netns_comm 1 TPASS: ns_exec 12161 net ping -q -c2 -I veth0 10.23.0.4 passed as expected
+netns_comm 1 TPASS: ns_exec 12163 net ping -q -c2 -I veth1 10.23.0.2 passed as expected
+netns_comm 1 TPASS: ns_exec 12161 net ping -q -c2 -I lo 127.0.0.1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=8 cstime=25
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_comm_ns_exec_ipv6_ioctl stime=1704786181
+cmdline="netns_comm.sh -6eI"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_comm 1 TINFO: timeout per run is 0h 5m 0s
+netns_comm 1 TINFO: testing netns over ioctl with ns_exec 
+netns_comm 1 TPASS: ns_exec 12212 net ping6 -q -c2 -I veth0 fd00:23::4 passed as expected
+netns_comm 1 TPASS: ns_exec 12214 net ping6 -q -c2 -I veth1 fd00:23::2 passed as expected
+netns_comm 1 TPASS: ns_exec 12212 net ping6 -q -c2 -I lo ::1 passed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=7 cstime=28
+<<<test_end>>>
+<<<test_start>>>
+tag=netns_sysfs stime=1704786185
+cmdline="netns_sysfs.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+netns_sysfs 1 TINFO: timeout per run is 0h 5m 0s
+netns_sysfs 1 TPASS: ns_exec 12273 net,mnt test -e /sys/class/net/dummy_test1 passed as expected
+netns_sysfs 1 TPASS: ns_exec 12273 net,mnt test -e /sys/class/net/dummy_test0 failed as expected
+netns_sysfs 1 TPASS: test -e /sys/class/net/dummy_test1 failed as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=6 cstime=20
+<<<test_end>>>
+<<<test_start>>>
+tag=shmnstest_none stime=1704786185
+cmdline="shmnstest -m none"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmnstest.c:40: TPASS: plain cloned process found shmid
+shmnstest.c:66: TINFO: Destroying shared memory
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shmnstest_clone stime=1704786185
+cmdline="shmnstest -m clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmnstest.c:37: TPASS: clone: child process didn't find shmid
+shmnstest.c:66: TINFO: Destroying shared memory
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shmnstest_unshare stime=1704786185
+cmdline="shmnstest -m unshare"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmnstest.c:37: TPASS: unshare: child process didn't find shmid
+shmnstest.c:66: TINFO: Destroying shared memory
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shmem_2nstest_none stime=1704786185
+cmdline="shmem_2nstest -m none"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmem_2nstest.c:49: TINFO: container1: able to create shared mem segment
+shmem_2nstest.c:71: TPASS: Plain cloned process able to access shmem segment created
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shmem_2nstest_clone stime=1704786185
+cmdline="shmem_2nstest -m clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmem_2nstest.c:49: TINFO: container1: able to create shared mem segment
+shmem_2nstest.c:68: TPASS: clone: in namespace2 unable to access the shmem seg created in namespace1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shmem_2nstest_unshare stime=1704786185
+cmdline="shmem_2nstest -m unshare"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shmem_2nstest.c:49: TINFO: container1: able to create shared mem segment
+shmem_2nstest.c:68: TPASS: unshare: in namespace2 unable to access the shmem seg created in namespace1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=shm_comm stime=1704786185
+cmdline="shm_comm"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+shm_comm.c:53: TPASS: shared memory didn't leak between namespaces
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=mesgq_nstest_none stime=1704786185
+cmdline="mesgq_nstest -m none"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mesgq_nstest.c:88: TINFO: mesgq namespaces test: none
+mesgq_nstest.c:62: TPASS: Plain cloned process found mesgq inside container
+mesgq_nstest.c:66: TINFO: Mesg read of 11 bytes, Type 5, Msg: My message!
+mesgq_nstest.c:106: TINFO: Destroying message queue
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mesgq_nstest_clone stime=1704786185
+cmdline="mesgq_nstest -m clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mesgq_nstest.c:88: TINFO: mesgq namespaces test: clone
+mesgq_nstest.c:56: TPASS: clone: container didn't find mesgq
+mesgq_nstest.c:106: TINFO: Destroying message queue
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=mesgq_nstest_unshare stime=1704786185
+cmdline="mesgq_nstest -m unshare"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mesgq_nstest.c:88: TINFO: mesgq namespaces test: unshare
+mesgq_nstest.c:56: TPASS: unshare: container didn't find mesgq
+mesgq_nstest.c:106: TINFO: Destroying message queue
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=msg_comm stime=1704786185
+cmdline="msg_comm"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+msg_comm.c:64: TPASS: messages does not leak between namespaces
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=sem_nstest_none stime=1704786185
+cmdline="sem_nstest -m none"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+sem_nstest.c:53: TINFO: PID 12347: fetched existing semaphore..id = 0
+sem_nstest.c:56: TPASS: Plain cloned process found semaphore inside container
+sem_nstest.c:81: TINFO: Destroying semaphore
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=sem_nstest_clone stime=1704786185
+cmdline="sem_nstest -m clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+sem_nstest.c:48: TPASS: clone: container didn't find semaphore
+sem_nstest.c:81: TINFO: Destroying semaphore
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=sem_nstest_unshare stime=1704786185
+cmdline="sem_nstest -m unshare"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+sem_nstest.c:48: TPASS: unshare: container didn't find semaphore
+sem_nstest.c:81: TINFO: Destroying semaphore
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=semtest_2ns_none stime=1704786185
+cmdline="semtest_2ns -m none"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+semtest_2ns.c:54: TINFO: none: created key in child1
+semtest_2ns.c:80: TINFO: none: reading key in child2
+semtest_2ns.c:85: TPASS: Plain cloned process able to access the semaphore created
+semtest_2ns.c:58: TINFO: Lock semaphore in container1
+semtest_2ns.c:98: TINFO: Trying to unlock semaphore in container2
+semtest_2ns.c:103: TPASS: Plain cloned process able to unlock semaphore
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=semtest_2ns_clone stime=1704786185
+cmdline="semtest_2ns -m clone"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+semtest_2ns.c:54: TINFO: clone: created key in child1
+semtest_2ns.c:80: TINFO: clone: reading key in child2
+semtest_2ns.c:92: TPASS: clone: In namespace2 unable to access semaphore created in namespace1
+semtest_2ns.c:58: TINFO: Lock semaphore in container1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=semtest_2ns_unshare stime=1704786185
+cmdline="semtest_2ns -m unshare"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+semtest_2ns.c:54: TINFO: unshare: created key in child1
+semtest_2ns.c:80: TINFO: unshare: reading key in child2
+semtest_2ns.c:92: TPASS: unshare: In namespace2 unable to access semaphore created in namespace1
+semtest_2ns.c:58: TINFO: Lock semaphore in container1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=sem_comm stime=1704786185
+cmdline="sem_comm"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+sem_comm.c:90: TPASS: semaphore has not been decremented
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_unshare_1 stime=1704786185
+cmdline="utstest unshare 1"
+contacts=""
+analysis=exit
+<<<test_output>>>
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_unshare_2 stime=1704786185
+cmdline="utstest unshare 2"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 2 (unshare): success
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_unshare_3 stime=1704786185
+cmdline="utstest unshare 3"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 3 (unshare): success
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_unshare_4 stime=1704786185
+cmdline="utstest unshare 4"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 4 (unshare): successful
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_unshare_5 stime=1704786185
+cmdline="utstest unshare 5"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  P2: P1 claims error
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_clone_1 stime=1704786185
+cmdline="utstest clone 1"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 1 (clone): success
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_clone_2 stime=1704786185
+cmdline="utstest clone 2"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 2 (clone): success
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_clone_3 stime=1704786185
+cmdline="utstest clone 3"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 3 (clone): success
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_clone_4 stime=1704786185
+cmdline="utstest clone 4"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  test 4 (clone): successful
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=utstest_clone_5 stime=1704786185
+cmdline="utstest clone 5"
+contacts=""
+analysis=exit
+<<<test_output>>>
+uts_namespace    1  TPASS  :  P2: P1 claims error
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=0
+<<<test_end>>>
+<<<test_start>>>
+tag=mountns01 stime=1704786185
+cmdline="mountns01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mountns01.c:42: TPASS: shared mount in parent passed
+mountns01.c:83: TPASS: shared mount in child passed
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_A
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_B
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mountns02 stime=1704786185
+cmdline="mountns02"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mountns02.c:45: TPASS: private mount in parent passed
+mountns02.c:86: TPASS: private mount in child passed
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_A
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_B
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mountns03 stime=1704786185
+cmdline="mountns03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mountns03.c:51: TPASS: propagation to slave mount passed
+mountns03.c:94: TPASS: propagation from slave mount passed
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_A
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_B
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=mountns04 stime=1704786186
+cmdline="mountns04"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+mountns04.c:38: TPASS: unbindable mount passed
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_A
+tst_device.c:434: TINFO: No device is mounted at LTP_DIR_B
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=userns01 stime=1704786186
+cmdline="userns01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+tst_capability.c:29: TINFO: Dropping CAP_NET_RAW(13)
+userns01.c:46: TINFO: USERNS test is running in a new user namespace.
+userns01.c:51: TPASS: got expected uid and gid
+userns01.c:70: TPASS: expected capabilities
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=userns02 stime=1704786186
+cmdline="userns02"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns02.c:33: TPASS: got expected uid and gid
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=userns03 stime=1704786186
+cmdline="userns03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns03.c:182: TPASS: setgroups can't be re-enabled
+userns03.c:73: TINFO: uid=200, gid=200
+userns03.c:78: TPASS: expected uid and gid
+userns03.c:88: TINFO: child2 checks /proc/cpid2/uid_map
+userns03.c:93: TPASS: expected namespaces IDs
+userns03.c:102: TINFO: child2 checks /proc/cpid1/uid_map
+userns03.c:107: TPASS: expected namespaces IDs
+userns03.c:112: TINFO: child2 checks /proc/cpid2/gid_map
+userns03.c:117: TPASS: expected namespaces IDs
+userns03.c:121: TINFO: child1 checks /proc/cpid1/gid_map
+userns03.c:126: TPASS: expected namespaces IDs
+
+Summary:
+passed   6
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=userns04 stime=1704786186
+cmdline="userns04"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns04.c:40: TPASS: child2 setns() failed as expected
+userns04.c:67: TPASS: tst_syscall(__NR_setns, fd, CLONE_NEWUSER) passed
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=userns05 stime=1704786186
+cmdline="userns05"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns05.c:70: TPASS: userns:parent is equal to cpid1
+userns05.c:83: TPASS: userns:parent is not equal to cpid2
+userns05.c:97: TPASS: unshared namespaces with different id
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=userns06 stime=1704786186
+cmdline="userns06"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns06.c:61: TPASS: expected uid and gid
+userns06_capcheck.c:55: TPASS: expected caps at 41
+userns06_capcheck.c:55: TPASS: expected caps at 41
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=5
+<<<test_end>>>
+<<<test_start>>>
+tag=userns07 stime=1704786186
+cmdline="userns07"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+userns07.c:38: TPASS: nested all children
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=4 cstime=5
+<<<test_end>>>
+<<<test_start>>>
+tag=userns08 stime=1704786186
+cmdline="userns08"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+
+userns08.c:67: TPASS: Denied write access to ./restricted : EACCES (13)
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=sysinfo03 stime=1704786186
+cmdline="sysinfo03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+sysinfo03.c:60: TPASS: Correct sysinfo uptime offset 10
+sysinfo03.c:66: TPASS: /proc/uptime is consistent with sysinfo
+sysinfo03.c:60: TPASS: Correct sysinfo uptime offset -10
+sysinfo03.c:66: TPASS: /proc/uptime is consistent with sysinfo
+sysinfo03.c:60: TPASS: Correct sysinfo uptime offset 3600
+sysinfo03.c:66: TPASS: /proc/uptime is consistent with sysinfo
+
+Summary:
+passed   6
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+<<<test_start>>>
+tag=clock_nanosleep03 stime=1704786186
+cmdline="clock_nanosleep03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+clock_nanosleep03.c:52: TINFO: Testing variant: vDSO or syscall with libc spec
+clock_nanosleep03.c:99: TPASS: clock_nanosleep() slept correctly 100487
+clock_nanosleep03.c:52: TINFO: Testing variant: syscall with old kernel spec
+clock_nanosleep03.c:99: TPASS: clock_nanosleep() slept correctly 100454
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=clock_gettime03 stime=1704786186
+cmdline="clock_gettime03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+clock_gettime03.c:123: TINFO: Testing variant: vDSO or syscall with libc spec
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC) is correct 10001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_BOOTTIME) is correct 10001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_BOOTTIME) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC) is correct -9999ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_BOOTTIME) is correct -9999ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_BOOTTIME) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC_RAW) is correct 100001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC_RAW) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC_COARSE) is correct 100000ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC_COARSE) is correct 0ms
+clock_gettime03.c:123: TINFO: Testing variant: syscall with old kernel spec
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC) is correct 10001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_BOOTTIME) is correct 10001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_BOOTTIME) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC) is correct -9999ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_BOOTTIME) is correct -9999ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_BOOTTIME) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC_RAW) is correct 100001ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC_RAW) is correct 1ms
+clock_gettime03.c:78: TPASS: Offset (CLOCK_MONOTONIC_COARSE) is correct 100000ms
+clock_gettime03.c:88: TPASS: Offset (CLOCK_MONOTONIC_COARSE) is correct 0ms
+
+Summary:
+passed   24
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=2 cstime=6
+<<<test_end>>>
+<<<test_start>>>
+tag=timens01 stime=1704786186
+cmdline="timens01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+timens01.c:58: TPASS: Obvious garbage: EINVAL (22)
+timens01.c:58: TPASS: Missing nanoseconds: EINVAL (22)
+timens01.c:58: TPASS: Negative nanoseconds: EINVAL (22)
+timens01.c:58: TPASS: Nanoseconds > 1s: EINVAL (22)
+timens01.c:58: TPASS: Unsupported CLOCK_REALTIME: EINVAL (22)
+timens01.c:58: TPASS: Mess on the second line: EINVAL (22)
+timens01.c:58: TPASS: Overflow kernel 64bit ns timer: ERANGE (34)
+timens01.c:58: TPASS: Overflow kernel 64bit ns timer: ERANGE (34)
+
+Summary:
+passed   8
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=timerfd04 stime=1704786186
+cmdline="timerfd04"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_kconfig.c:82: TINFO: Parsing kernel config '/lib/modules/6.1.61-4.oe2309.riscv64/build/.config'
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+timerfd04.c:50: TINFO: Testing variant: syscall with old kernel spec
+timerfd04.c:117: TPASS: timerfd CLOCK_MONOTONIC slept correctly 40491
+timerfd04.c:117: TPASS: timerfd CLOCK_BOOTTIME slept correctly 40407
+timerfd04.c:117: TPASS: timerfd CLOCK_MONOTONIC slept correctly 40488
+timerfd04.c:117: TPASS: timerfd CLOCK_BOOTTIME slept correctly 40411
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+incrementing stop
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=1 cstime=2
+<<<test_end>>>
+INFO: ltp-pan reported all tests PASS
+LTP Version: 20220930
+
+       ###############################################################
+
+            Done executing testcases.
+            LTP Version:  20220930
+       ###############################################################
+
+Executing LTP test
+Execute via runltp
+Checking for required user/group ids
+
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/openEuler-release
+/etc/os-release
+/etc/system-release
+openEuler release 23.09
+NAME="openEuler"
+VERSION="23.09"
+ID="openEuler"
+VERSION_ID="23.09"
+PRETTY_NAME="openEuler 23.09"
+ANSI_COLOR="0;31"
+
+openEuler release 23.09
+
+uname:
+Linux openeuler-riscv64 6.1.61-4.oe2309.riscv64 #1 SMP Thu Dec 28 18:01:00 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
+
+/proc/cmdline
+root=/dev/nvme0n1p3 rw rootwait earlycon selinux=0 LANG=en_US.UTF-8 nvme.use_threaded_interrupts=1 nvme_core.io_timeout=3000 console=tty1
+
+Gnu C                  gcc (GCC) 12.3.1 (openEuler 12.3.1-16.oe2309)
+Clang                  clang version 15.0.7 ( 15.0.7-7.oe2309)
+Gnu make               4.4.1
+util-linux             2.39.1
+mount                  mount, assert, debug)
+modutils               30
+e2fsprogs              1.47.0
+Linux C Library        x 1 root root 2038312 Sep 14 08:00 /usr/lib64/libc.so.6
+Dynamic linker (ldd)   2.38
+Procps                 4.0.2
+Net-tools              2.10
+iproute2               0.8.1
+iputils                20221126
+ethtool                6.4
+Sh-utils               9.3
+Modules Loaded         dummy veth binfmt_misc nft_fib_inet nft_fib_ipv4 nft_fib_ipv6 nft_fib nft_reject_inet nf_reject_ipv4 nf_reject_ipv6 nft_reject nft_ct nft_chain_nat nf_tables ebtable_nat ebtable_broute ip6table_nat ip6table_mangle ip6table_raw ip6table_security iptable_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 libcrc32c iptable_mangle iptable_raw iptable_security amdgpu ip_set nfnetlink ebtable_filter ebtables ip6table_filter ip6_tables iptable_filter ip_tables x_tables bpfilter gpu_sched drm_buddy radeon sunrpc snd_hda_codec_hdmi drm_display_helper snd_hda_intel snd_intel_dspcfg drm_ttm_helper snd_hda_codec ttm snd_hda_core cec rc_core snd_hwdep nls_iso8859_1 ofpart evbug drm_kms_helper snd_pcm cmdlinepart ixgbe fb_sys_fops syscopyarea snd_timer sophgo_spifmc sysfillrect r8169 spi_dw_mmio spi_nor xfrm_algo snd ahci sysimgblt gpio_keys spi_dw mdio i2c_algo_bit gpio_dwapb mtd soundcore xhci_pci realtek libahci xhci_pci_renesas uio_pdrv_genirq uio sch_fq_codel drm backlight autofs4
+
+free reports:
+               total        used        free      shared  buff/cache   available
+Mem:       131721044     1871572   129534636        7264     1244388   129849472
+Swap:              0           0           0
+
+cpuinfo:
+Architecture:        riscv64
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+NUMA node(s):        4
+NUMA node0 CPU(s):   0-7,16-23
+NUMA node1 CPU(s):   8-15,24-31
+NUMA node2 CPU(s):   32-39,48-55
+NUMA node3 CPU(s):   40-47,56-63
+
+available filesystems:
+autofs bdev binfmt_misc bpf cgroup cgroup2 configfs cpuset debugfs devpts devtmpfs ecryptfs ext2 ext3 ext4 fuse fuseblk fusectl hugetlbfs mqueue pipefs proc pstore ramfs rpc_pipefs securityfs sockfs squashfs sysfs tmpfs tracefs vfat
+
+mounted filesystems (/proc/mounts):
+/dev/root / ext4 rw,noatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,noexec,relatime,size=65717896k,nr_inodes=16429474,mode=755,inode64 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=26344212k,nr_inodes=819200,mode=755,inode64 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=4096k,nr_inodes=1024,mode=755,inode64 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+bpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/misc cgroup rw,nosuid,nodev,noexec,relatime,misc 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=24922 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=65860524k,nr_inodes=1048576,inode64 0 0
+ramfs /run/credentials/systemd-sysctl.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+ramfs /run/credentials/systemd-vconsole-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup-dev.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+/dev/nvme0n1p2 /boot vfat rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+tmpfs /run/user/995 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=995,gid=991,inode64 0 0
+gvfsd-fuse /run/user/995/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=995,group_id=991 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=1000,gid=1000,inode64 0 0
+binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /run/netns tmpfs rw,nosuid,nodev,size=26344212k,nr_inodes=819200,mode=755,inode64 0 0
+nsfs /run/netns/tst_net_ns0 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns0 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns1 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns1 nsfs rw 0 0
+
+mounted filesystems (df):
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4      939G   16G  885G   2% /
+devtmpfs       devtmpfs   63G     0   63G   0% /dev
+tmpfs          tmpfs      63G     0   63G   0% /dev/shm
+tmpfs          tmpfs      26G  988K   26G   1% /run
+tmpfs          tmpfs     4.0M     0  4.0M   0% /sys/fs/cgroup
+tmpfs          tmpfs      63G   68K   63G   1% /tmp
+/dev/nvme0n1p2 vfat      511M  189M  323M  37% /boot
+tmpfs          tmpfs      13G  4.0K   13G   1% /run/user/995
+tmpfs          tmpfs      13G     0   13G   0% /run/user/1000
+
+AppArmor enabled
+
+SELinux status:                 disabled
+no big block device was specified on commandline.
+Tests which require a big block device are disabled.
+You can specify it with option -z
+COMMAND:    /opt/mmtests/work/sources/ltp-20220930-installed/bin/ltp-pan   -e -S   -a 12535     -n 12535  -f /opt/mmtests/work/testdisk/data/config-functional-ltp-containers/ltp-S5z3amVSTm/alltests -l /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-controllers.log  -C /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-controllers.failed -T /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-controllers.log.tconf
+LOG File: /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-controllers.log
+FAILED COMMAND File: /opt/mmtests/work/log/config-functional-ltp-containers/iter-0/ltp/logs/ltp-controllers.failed
+TCONF COMMAND File: /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-controllers.log.tconf
+Running tests.......
+<<<test_start>>>
+tag=cgroup_core01 stime=1704786187
+cmdline="cgroup_core01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+cgroup_core01.c:63: TPASS: test_lesser_euid_open passed: EACCES (13)
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=0 cstime=1
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup stime=1704786187
+cmdline="cgroup_regression_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_regression_test 1 TINFO: timeout per run is 0h 5m 0s
+cgroup_regression_test 1 TPASS: no kernel bug was found
+mount: /opt/mmtests/work/testdisk/data/config-functional-ltp-containers/ltp-S5z3amVSTm/LTP_cgroup_regression_test.wAcR4ULNoH/cgroup: cgroup already mounted on /sys/fs/cgroup/systemd.
+       dmesg(1) may have more information after failed mount system call.
+cgroup_regression_test 2 TFAIL: Failed to mount cgroup filesystem
+cgroup_regression_test 3 TCONF: CONFIG_SCHED_DEBUG is not enabled
+cgroup_regression_test 4 TCONF: CONFIG_LOCKDEP is not enabled
+cgroup_regression_test 5 TINFO: The '/opt/mmtests/work/testdisk/data/config-functional-ltp-containers/ltp-S5z3amVSTm/LTP_cgroup_regression_test.wAcR4ULNoH/cgroup' is not mounted, skipping umount
+cgroup_regression_test 5 TPASS: no kernel bug was found
+cgroup_regression_test 6 TCONF: CONFIG_CGROUP_NS is NOT supported in Kernels >= 3.0
+cgroup_regression_test 7 TPASS: no kernel bug was found for test 1
+cgroup_regression_test 7 TCONF: skip rest of testing due possible oops triggered by reading /proc/sched_debug
+cgroup_regression_test 7 TPASS: no kernel bug was found for test 2
+cgroup_regression_test 8 TPASS: no kernel bug was found
+cgroup_regression_test 9 TPASS: no kernel bug was found
+cgroup_regression_test 10 TINFO: AppArmor enabled, this may affect test results
+cgroup_regression_test 10 TINFO: it can be disabled with TST_DISABLE_APPARMOR=1 (requires super/root)
+cgroup_regression_test 10 TINFO: loaded AppArmor profiles: none
+
+Summary:
+passed   6
+failed   1
+broken   0
+skipped  4
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=62 termination_type=exited termination_id=1 corefile=no
+cutime=2599 cstime=10454
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_regression stime=1704786249
+cmdline="memcg_regression_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_regression_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_regression_test 1 TINFO: test starts with cgroup version 1
+memcg_regression_test 1 TPASS: no kernel bug was found
+memcg_regression_test 2 TPASS: EBUSY was returned as expected
+memcg_regression_test 3 TPASS: no kernel bug was found
+./memcg_test_4.sh: line 29: echo: write error: Device or resource busy
+memcg_regression_test 4 TPASS: no kernel bug was found
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=7 termination_type=exited termination_id=0 corefile=no
+cutime=62 cstime=231
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_test_3 stime=1704786256
+cmdline="memcg_test_3"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1526: TINFO: Timeout per run is 0h 00m 30s
+memcg_test_3.c:58: TPASS: Bug not reproduced
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=2 cstime=172
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_failcnt stime=1704786257
+cmdline="memcg_failcnt.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_failcnt 1 TINFO: timeout per run is 0h 5m 0s
+memcg_failcnt 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_failcnt 1 TINFO: Setting shmmax
+memcg_failcnt 1 TINFO: Running memcg_process --mmap-anon -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33150 Killed                  memcg_process "$@"
+memcg_failcnt 1 TPASS: memory.failcnt is 37, > 0 as expected
+memcg_failcnt 2 TINFO: Running memcg_process --mmap-file -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33167 Killed                  memcg_process "$@"
+memcg_failcnt 2 TPASS: memory.failcnt is 37, > 0 as expected
+memcg_failcnt 3 TINFO: Running memcg_process --shm -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33184 Killed                  memcg_process "$@"
+memcg_failcnt 3 TPASS: memory.failcnt is 37, > 0 as expected
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=15 cstime=56
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_force_empty stime=1704786258
+cmdline="memcg_force_empty.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_force_empty 1 TINFO: timeout per run is 0h 5m 0s
+memcg_force_empty 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_force_empty 1 TINFO: Running memcg_process --mmap-anon -s 4096
+memcg_force_empty 1 TPASS: echo 1 > memory.force_empty passed as expected
+memcg_force_empty 2 TPASS: echo 0 > memory.force_empty passed as expected
+memcg_force_empty 3 TPASS: echo 1.0 > memory.force_empty passed as expected
+memcg_force_empty 4 TPASS: echo 1xx > memory.force_empty passed as expected
+memcg_force_empty 5 TPASS: echo xx > memory.force_empty passed as expected
+memcg_force_empty 6 TPASS: echo 1 > /sys/fs/cgroup/memory/memory.force_empty failed as expected
+
+Summary:
+passed   6
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=14 cstime=43
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_limit_in_bytes stime=1704786259
+cmdline="memcg_limit_in_bytes.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_limit_in_bytes 1 TINFO: timeout per run is 0h 5m 0s
+memcg_limit_in_bytes 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_limit_in_bytes 1 TINFO: Setting shmmax
+memcg_limit_in_bytes 1 TINFO: Test mmap(locked) + alloc_mem > limit_in_bytes
+memcg_limit_in_bytes 1 TINFO: Running memcg_process --mmap-lock1 -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33332 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 1 TPASS: process 33332 is killed
+memcg_limit_in_bytes 2 TINFO: Running memcg_process --mmap-lock2 -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33342 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 2 TPASS: process 33342 is killed
+memcg_limit_in_bytes 3 TINFO: Test swapoff + alloc_mem > limit_in_bytes
+memcg_limit_in_bytes 3 TINFO: Running memcg_process --mmap-anon -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33353 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 3 TPASS: process 33353 is killed
+memcg_limit_in_bytes 4 TINFO: Running memcg_process --mmap-file -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33365 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 4 TPASS: process 33365 is killed
+memcg_limit_in_bytes 5 TINFO: Running memcg_process --shm -k 18 -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33377 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 5 TPASS: process 33377 is killed
+memcg_limit_in_bytes 6 TINFO: Test limit_in_bytes == 0
+memcg_limit_in_bytes 6 TINFO: Running memcg_process --mmap-anon -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33388 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 6 TPASS: process 33388 is killed
+memcg_limit_in_bytes 7 TINFO: Running memcg_process --mmap-file -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33398 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 7 TPASS: process 33398 is killed
+memcg_limit_in_bytes 8 TINFO: Running memcg_process --shm -k 21 -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 33408 Killed                  memcg_process "$@"
+memcg_limit_in_bytes 8 TPASS: process 33408 is killed
+memcg_limit_in_bytes 9 TINFO: Test limit_in_bytes will be aligned to PAGESIZE
+memcg_limit_in_bytes 9 TPASS: echo 4095 > memory.limit_in_bytes passed as expected
+memcg_limit_in_bytes 9 TPASS: input=4095, limit_in_bytes=0
+memcg_limit_in_bytes 10 TPASS: echo 4097 > memory.limit_in_bytes passed as expected
+memcg_limit_in_bytes 10 TPASS: input=4097, limit_in_bytes=4096
+memcg_limit_in_bytes 11 TPASS: echo 1 > memory.limit_in_bytes passed as expected
+memcg_limit_in_bytes 11 TPASS: input=1, limit_in_bytes=0
+memcg_limit_in_bytes 12 TINFO: Test invalid memory.limit_in_bytes
+memcg_limit_in_bytes 12 TPASS: echo -1 > memory.limit_in_bytes passed as expected
+memcg_limit_in_bytes 13 TPASS: echo 1.0 > memory.limit_in_bytes failed as expected
+memcg_limit_in_bytes 14 TPASS: echo 1xx > memory.limit_in_bytes failed as expected
+memcg_limit_in_bytes 15 TPASS: echo xx > memory.limit_in_bytes failed as expected
+
+Summary:
+passed   18
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=16 cstime=114
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_stat_rss stime=1704786261
+cmdline="memcg_stat_rss.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_stat_rss 1 TINFO: timeout per run is 0h 5m 0s
+memcg_stat_rss 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_stat_rss 1 TINFO: Setting shmmax
+memcg_stat_rss 1 TINFO: Running memcg_process --mmap-anon -s 135168
+memcg_stat_rss 1 TINFO: Warming up pid: 33511
+memcg_stat_rss 1 TINFO: Process is still here after warm up: 33511
+memcg_stat_rss 1 TPASS: rss is 135168 as expected
+memcg_stat_rss 2 TINFO: Running memcg_process --mmap-file -s 4096
+memcg_stat_rss 2 TINFO: Warming up pid: 33527
+memcg_stat_rss 2 TINFO: Process is still here after warm up: 33527
+memcg_stat_rss 2 TPASS: rss is 0 as expected
+memcg_stat_rss 3 TINFO: Running memcg_process --shm -k 3 -s 4096
+memcg_stat_rss 3 TINFO: Warming up pid: 33543
+memcg_stat_rss 3 TINFO: Process is still here after warm up: 33543
+memcg_stat_rss 3 TPASS: rss is 0 as expected
+memcg_stat_rss 4 TINFO: Running memcg_process --mmap-anon --mmap-file --shm -s 135168
+memcg_stat_rss 4 TINFO: Warming up pid: 33559
+memcg_stat_rss 4 TINFO: Process is still here after warm up: 33559
+memcg_stat_rss 4 TPASS: rss is 135168 as expected
+memcg_stat_rss 5 TINFO: Running memcg_process --mmap-lock1 -s 135168
+memcg_stat_rss 5 TINFO: Warming up pid: 33575
+memcg_stat_rss 5 TINFO: Process is still here after warm up: 33575
+memcg_stat_rss 5 TPASS: rss is 135168 as expected
+memcg_stat_rss 6 TINFO: Running memcg_process --mmap-anon -s 135168
+memcg_stat_rss 6 TINFO: Warming up pid: 33591
+memcg_stat_rss 6 TINFO: Process is still here after warm up: 33591
+memcg_stat_rss 6 TPASS: rss is 135168 as expected
+memcg_stat_rss 6 TPASS: rss is 0 as expected
+memcg_stat_rss 7 TINFO: Running memcg_process --mmap-file -s 4096
+memcg_stat_rss 7 TINFO: Warming up pid: 33610
+memcg_stat_rss 7 TINFO: Process is still here after warm up: 33610
+memcg_stat_rss 7 TPASS: rss is 0 as expected
+memcg_stat_rss 7 TPASS: rss is 0 as expected
+memcg_stat_rss 8 TINFO: Running memcg_process --shm -k 8 -s 4096
+memcg_stat_rss 8 TINFO: Warming up pid: 33629
+memcg_stat_rss 8 TINFO: Process is still here after warm up: 33629
+memcg_stat_rss 8 TPASS: rss is 0 as expected
+memcg_stat_rss 8 TPASS: rss is 0 as expected
+memcg_stat_rss 9 TINFO: Running memcg_process --mmap-anon --mmap-file --shm -s 135168
+memcg_stat_rss 9 TINFO: Warming up pid: 33648
+memcg_stat_rss 9 TINFO: Process is still here after warm up: 33648
+memcg_stat_rss 9 TPASS: rss is 135168 as expected
+memcg_stat_rss 9 TPASS: rss is 0 as expected
+memcg_stat_rss 10 TINFO: Running memcg_process --mmap-lock1 -s 135168
+memcg_stat_rss 10 TINFO: Warming up pid: 33667
+memcg_stat_rss 10 TINFO: Process is still here after warm up: 33667
+memcg_stat_rss 10 TPASS: rss is 135168 as expected
+memcg_stat_rss 10 TPASS: rss is 0 as expected
+
+Summary:
+passed   15
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=11 termination_type=exited termination_id=0 corefile=no
+cutime=41 cstime=114
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_subgroup_charge stime=1704786272
+cmdline="memcg_subgroup_charge.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_subgroup_charge 1 TINFO: timeout per run is 0h 5m 0s
+memcg_subgroup_charge 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_subgroup_charge 1 TINFO: Test that group and subgroup have no relationship
+memcg_subgroup_charge 1 TPASS: echo 2392064 > subgroup/memory.limit_in_bytes passed as expected
+memcg_subgroup_charge 1 TINFO: Running memcg_process --mmap-anon -s 270336
+memcg_subgroup_charge 1 TINFO: Warming up pid: 33742
+memcg_subgroup_charge 1 TINFO: Process is still here after warm up: 33742
+memcg_subgroup_charge 1 TPASS: rss is 270336 as expected
+memcg_subgroup_charge 1 TPASS: rss is 0 as expected
+memcg_subgroup_charge 2 TPASS: echo 2121728 > subgroup/memory.limit_in_bytes passed as expected
+memcg_subgroup_charge 2 TINFO: Running memcg_process --mmap-anon -s 270336
+memcg_subgroup_charge 2 TINFO: Warming up pid: 33767
+memcg_subgroup_charge 2 TINFO: Process is still here after warm up: 33767
+memcg_subgroup_charge 2 TPASS: rss is 270336 as expected
+memcg_subgroup_charge 2 TPASS: rss is 0 as expected
+memcg_subgroup_charge 3 TPASS: echo 0 > subgroup/memory.limit_in_bytes passed as expected
+memcg_subgroup_charge 3 TINFO: Running memcg_process --mmap-anon -s 270336
+memcg_subgroup_charge 3 TINFO: Warming up pid: 33787
+memcg_subgroup_charge 3 TINFO: Process is still here after warm up: 33787
+memcg_subgroup_charge 3 TPASS: rss is 270336 as expected
+memcg_subgroup_charge 3 TPASS: rss is 0 as expected
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=20 cstime=61
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_max_usage_in_bytes stime=1704786276
+cmdline="memcg_max_usage_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_max_usage_in_bytes_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_max_usage_in_bytes_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_max_usage_in_bytes_test 1 TINFO: Test memory.max_usage_in_bytes
+memcg_max_usage_in_bytes_test 1 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_max_usage_in_bytes_test 1 TINFO: Warming up pid: 33854
+memcg_max_usage_in_bytes_test 1 TINFO: Process is still here after warm up: 33854
+memcg_max_usage_in_bytes_test 1 TFAIL: memory.max_usage_in_bytes is 4456448, 4206592-4341760 expected
+memcg_max_usage_in_bytes_test 2 TINFO: Test memory.memsw.max_usage_in_bytes
+memcg_max_usage_in_bytes_test 2 TPASS: echo 8388608 > memory.limit_in_bytes passed as expected
+memcg_max_usage_in_bytes_test 2 TPASS: echo 8388608 > memory.memsw.limit_in_bytes passed as expected
+memcg_max_usage_in_bytes_test 2 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_max_usage_in_bytes_test 2 TINFO: Warming up pid: 33872
+memcg_max_usage_in_bytes_test 2 TINFO: Process is still here after warm up: 33872
+memcg_max_usage_in_bytes_test 2 TFAIL: memory.memsw.max_usage_in_bytes is 4464640, 4206592-4341760 expected
+memcg_max_usage_in_bytes_test 3 TINFO: Test reset memory.max_usage_in_bytes
+memcg_max_usage_in_bytes_test 3 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_max_usage_in_bytes_test 3 TINFO: Warming up pid: 33891
+memcg_max_usage_in_bytes_test 3 TINFO: Process is still here after warm up: 33891
+memcg_max_usage_in_bytes_test 3 TFAIL: memory.max_usage_in_bytes is 4456448, 4206592-4341760 expected
+memcg_max_usage_in_bytes_test 3 TPASS: memory.max_usage_in_bytes is 0-135168 as expected
+memcg_max_usage_in_bytes_test 4 TINFO: Test reset memory.memsw.max_usage_in_bytes
+memcg_max_usage_in_bytes_test 4 TPASS: echo 8388608 > memory.limit_in_bytes passed as expected
+memcg_max_usage_in_bytes_test 4 TPASS: echo 8388608 > memory.memsw.limit_in_bytes passed as expected
+memcg_max_usage_in_bytes_test 4 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_max_usage_in_bytes_test 4 TINFO: Warming up pid: 33910
+memcg_max_usage_in_bytes_test 4 TINFO: Process is still here after warm up: 33910
+memcg_max_usage_in_bytes_test 4 TFAIL: memory.memsw.max_usage_in_bytes is 4456448, 4206592-4341760 expected
+memcg_max_usage_in_bytes_test 4 TPASS: memory.memsw.max_usage_in_bytes is 0-135168 as expected
+memcg_max_usage_in_bytes_test 5 TINFO: AppArmor enabled, this may affect test results
+memcg_max_usage_in_bytes_test 5 TINFO: it can be disabled with TST_DISABLE_APPARMOR=1 (requires super/root)
+memcg_max_usage_in_bytes_test 5 TINFO: loaded AppArmor profiles: none
+
+Summary:
+passed   6
+failed   4
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=5 termination_type=exited termination_id=1 corefile=no
+cutime=20 cstime=75
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_move_charge_at_immigrate stime=1704786281
+cmdline="memcg_move_charge_at_immigrate_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_move_charge_at_immigrate_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_move_charge_at_immigrate_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_move_charge_at_immigrate_test 1 TINFO: Test disable moving charges
+memcg_move_charge_at_immigrate_test 1 TINFO: Running memcg_process --mmap-anon -s 135168
+memcg_move_charge_at_immigrate_test 1 TINFO: Warming up pid: 33983
+memcg_move_charge_at_immigrate_test 1 TINFO: Process is still here after warm up: 33983
+memcg_move_charge_at_immigrate_test 1 TPASS: rss is 0 as expected
+memcg_move_charge_at_immigrate_test 1 TPASS: cache is 0 as expected
+memcg_move_charge_at_immigrate_test 1 TPASS: rss is 135168 as expected
+memcg_move_charge_at_immigrate_test 1 TPASS: cache is 0 as expected
+memcg_move_charge_at_immigrate_test 2 TINFO: Test move anon
+memcg_move_charge_at_immigrate_test 2 TINFO: Running memcg_process --mmap-anon --shm --mmap-file -s 135168
+memcg_move_charge_at_immigrate_test 2 TINFO: Warming up pid: 34010
+memcg_move_charge_at_immigrate_test 2 TINFO: Process is still here after warm up: 34010
+memcg_move_charge_at_immigrate_test 2 TPASS: rss is 135168 as expected
+memcg_move_charge_at_immigrate_test 2 TPASS: cache is 0 as expected
+memcg_move_charge_at_immigrate_test 2 TPASS: rss is 0 as expected
+memcg_move_charge_at_immigrate_test 2 TPASS: cache is 270336 as expected
+memcg_move_charge_at_immigrate_test 3 TINFO: Test move file
+memcg_move_charge_at_immigrate_test 3 TINFO: Running memcg_process --mmap-anon --shm --mmap-file -s 135168
+memcg_move_charge_at_immigrate_test 3 TINFO: Warming up pid: 34037
+memcg_move_charge_at_immigrate_test 3 TINFO: Process is still here after warm up: 34037
+memcg_move_charge_at_immigrate_test 3 TPASS: rss is 0 as expected
+memcg_move_charge_at_immigrate_test 3 TPASS: cache is 270336 as expected
+memcg_move_charge_at_immigrate_test 3 TPASS: rss is 135168 as expected
+memcg_move_charge_at_immigrate_test 3 TPASS: cache is 0 as expected
+memcg_move_charge_at_immigrate_test 4 TINFO: Test move anon and file
+memcg_move_charge_at_immigrate_test 4 TINFO: Running memcg_process --mmap-anon --shm -s 135168
+memcg_move_charge_at_immigrate_test 4 TINFO: Warming up pid: 34064
+memcg_move_charge_at_immigrate_test 4 TINFO: Process is still here after warm up: 34064
+memcg_move_charge_at_immigrate_test 4 TPASS: rss is 135168 as expected
+memcg_move_charge_at_immigrate_test 4 TPASS: cache is 135168 as expected
+memcg_move_charge_at_immigrate_test 4 TPASS: rss is 0 as expected
+memcg_move_charge_at_immigrate_test 4 TPASS: cache is 0 as expected
+
+Summary:
+passed   16
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=5 termination_type=exited termination_id=0 corefile=no
+cutime=22 cstime=84
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_memsw_limit_in_bytes stime=1704786286
+cmdline="memcg_memsw_limit_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_memsw_limit_in_bytes_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_memsw_limit_in_bytes_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_memsw_limit_in_bytes_test 1 TINFO: Running memcg_process --mmap-lock1 -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34139 Killed                  memcg_process "$@"
+memcg_memsw_limit_in_bytes_test 1 TPASS: process 34139 is killed
+memcg_memsw_limit_in_bytes_test 2 TINFO: Running memcg_process --mmap-lock2 -s 8192
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34149 Killed                  memcg_process "$@"
+memcg_memsw_limit_in_bytes_test 2 TPASS: process 34149 is killed
+memcg_memsw_limit_in_bytes_test 3 TINFO: Running memcg_process --mmap-anon -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34159 Killed                  memcg_process "$@"
+memcg_memsw_limit_in_bytes_test 3 TPASS: process 34159 is killed
+memcg_memsw_limit_in_bytes_test 4 TINFO: Running memcg_process --mmap-file -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34169 Killed                  memcg_process "$@"
+memcg_memsw_limit_in_bytes_test 4 TPASS: process 34169 is killed
+memcg_memsw_limit_in_bytes_test 5 TINFO: Running memcg_process --shm -k 21 -s 4096
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34179 Killed                  memcg_process "$@"
+memcg_memsw_limit_in_bytes_test 5 TPASS: process 34179 is killed
+memcg_memsw_limit_in_bytes_test 6 TPASS: echo 4095 > memory.limit_in_bytes passed as expected
+memcg_memsw_limit_in_bytes_test 6 TPASS: input=4095, limit_in_bytes=0
+memcg_memsw_limit_in_bytes_test 7 TPASS: echo 4097 > memory.limit_in_bytes passed as expected
+memcg_memsw_limit_in_bytes_test 7 TPASS: input=4097, limit_in_bytes=4096
+memcg_memsw_limit_in_bytes_test 8 TPASS: echo 1 > memory.limit_in_bytes passed as expected
+memcg_memsw_limit_in_bytes_test 8 TPASS: input=1, limit_in_bytes=0
+memcg_memsw_limit_in_bytes_test 9 TPASS: echo -1 > memory.memsw.limit_in_bytes passed as expected
+memcg_memsw_limit_in_bytes_test 10 TPASS: echo 1.0 > memory.memsw.limit_in_bytes failed as expected
+memcg_memsw_limit_in_bytes_test 11 TPASS: echo 1xx > memory.memsw.limit_in_bytes failed as expected
+memcg_memsw_limit_in_bytes_test 12 TPASS: echo xx > memory.memsw.limit_in_bytes failed as expected
+
+Summary:
+passed   15
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=19 cstime=82
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_stat stime=1704786287
+cmdline="memcg_stat_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_stat_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_stat_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_stat_test 1 TINFO: Test cache
+memcg_stat_test 1 TINFO: Running memcg_process --shm -k 3 -s 135168
+memcg_stat_test 1 TINFO: Warming up pid: 34281
+memcg_stat_test 1 TINFO: Process is still here after warm up: 34281
+memcg_stat_test 1 TPASS: cache is 135168 as expected
+memcg_stat_test 2 TINFO: Test mapped_file
+memcg_stat_test 2 TINFO: Running memcg_process --mmap-file -s 135168
+memcg_stat_test 2 TINFO: Warming up pid: 34297
+memcg_stat_test 2 TINFO: Process is still here after warm up: 34297
+memcg_stat_test 2 TPASS: mapped_file is 135168 as expected
+memcg_stat_test 3 TINFO: Test unevictable with MAP_LOCKED
+memcg_stat_test 3 TINFO: Running memcg_process --mmap-lock1 -s 135168
+memcg_stat_test 3 TINFO: Warming up pid: 34313
+memcg_stat_test 3 TINFO: Process is still here after warm up: 34313
+memcg_stat_test 3 TPASS: unevictable is 135168 as expected
+memcg_stat_test 4 TINFO: Test unevictable with mlock
+memcg_stat_test 4 TINFO: Running memcg_process --mmap-lock2 -s 135168
+memcg_stat_test 4 TINFO: Warming up pid: 34329
+memcg_stat_test 4 TINFO: Process is still here after warm up: 34329
+memcg_stat_test 4 TPASS: unevictable is 135168 as expected
+memcg_stat_test 5 TINFO: Test hierarchical_memory_limit with enabling hierarchical accounting
+memcg_stat_test 5 TPASS: echo 1986560 > memory.limit_in_bytes passed as expected
+memcg_stat_test 5 TPASS: echo 2256896 > subgroup/memory.limit_in_bytes passed as expected
+memcg_stat_test 5 TPASS: hierarchical_memory_limit is 1986560 as expected
+memcg_stat_test 6 TINFO: Test hierarchical_memory_limit with disabling hierarchical accounting
+memcg_stat_test 6 TCONF: Test requires root cgroup memory.use_hierarchy=0
+
+Summary:
+passed   7
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=5 termination_type=exited termination_id=0 corefile=no
+cutime=16 cstime=77
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_use_hierarchy stime=1704786292
+cmdline="memcg_use_hierarchy_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_use_hierarchy_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_use_hierarchy_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_use_hierarchy_test 1 TINFO: test if one of the ancestors goes over its limit, the proces will be killed
+memcg_use_hierarchy_test 1 TINFO: Running memcg_process --mmap-lock1 -s 1863680
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/bin/memcg_lib.sh: line 192: 34421 Killed                  memcg_process "$@"
+memcg_use_hierarchy_test 1 TPASS: process 34421 is killed
+memcg_use_hierarchy_test 2 TINFO: test Enabling will fail if the cgroup already has other cgroups
+memcg_use_hierarchy_test 2 TCONF: Test requires root cgroup memory.use_hierarchy=0
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=12 cstime=35
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_usage_in_bytes stime=1704786293
+cmdline="memcg_usage_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_usage_in_bytes_test 1 TINFO: timeout per run is 0h 5m 0s
+memcg_usage_in_bytes_test 1 TINFO: set /sys/fs/cgroup/memory/memory.use_hierarchy to 0 failed
+memcg_usage_in_bytes_test 1 TINFO: Test memory.usage_in_bytes
+memcg_usage_in_bytes_test 1 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_usage_in_bytes_test 1 TINFO: Warming up pid: 34484
+memcg_usage_in_bytes_test 1 TINFO: Process is still here after warm up: 34484
+memcg_usage_in_bytes_test 1 TFAIL: memory.usage_in_bytes is 4456448, 4202496-4337664 expected
+memcg_usage_in_bytes_test 2 TINFO: Test memory.memsw.usage_in_bytes
+memcg_usage_in_bytes_test 2 TPASS: echo 8388608 > memory.limit_in_bytes passed as expected
+memcg_usage_in_bytes_test 2 TPASS: echo 8388608 > memory.memsw.limit_in_bytes passed as expected
+memcg_usage_in_bytes_test 2 TINFO: Running memcg_process --mmap-anon -s 4194304
+memcg_usage_in_bytes_test 2 TINFO: Warming up pid: 34503
+memcg_usage_in_bytes_test 2 TINFO: Process is still here after warm up: 34503
+memcg_usage_in_bytes_test 2 TFAIL: memory.memsw.usage_in_bytes is 4456448, 4202496-4337664 expected
+memcg_usage_in_bytes_test 3 TINFO: AppArmor enabled, this may affect test results
+memcg_usage_in_bytes_test 3 TINFO: it can be disabled with TST_DISABLE_APPARMOR=1 (requires super/root)
+memcg_usage_in_bytes_test 3 TINFO: loaded AppArmor profiles: none
+
+Summary:
+passed   2
+failed   2
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=1 corefile=no
+cutime=9 cstime=55
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_stress stime=1704786295
+cmdline="memcg_stress_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_stress_test 1 TINFO: timeout per run is 0h 35m 0s
+memcg_stress_test 1 TINFO: test starts with cgroup version 1
+memcg_stress_test 1 TINFO: Calculated available memory 127541 MB
+memcg_stress_test 1 TINFO: Testing 150 cgroups, using 849 MB, interval 5
+memcg_stress_test 1 TINFO: Starting cgroups
+memcg_stress_test 1 TINFO: Testing cgroups for 900s
+Terminated
+Interrupt received, shutting down ltp
+Interrupt received but test not running to shutdown
+test exit :: ltp 143
+Cleaning up
+run-mmtests.sh: line 22: /tmp/mmtest-cleanup-ZNvezFyWP: No such file or directory

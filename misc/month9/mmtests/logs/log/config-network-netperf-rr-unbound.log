@@ -1,0 +1,397 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test netperf-udp-rr
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 49623's current affinity list: 0-63
+pid 49623's new affinity list: 0-7,16-23
+pid 49623's current affinity list: 0-7,16-23
+pid 49623's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+netperf-udp-rr fine
+Starting test netperf-udp-rr
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 49818's current affinity list: 0-63
+pid 49818's new affinity list: 0-7,16-23
+pid 49818's current affinity list: 0-7,16-23
+pid 49818's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Killing old servers
+netserver: no process found
+Starting server
+Starting netserver at port 12865
+Starting netserver at hostname 0.0.0.0 port 12865 and family AF_INET
+Running test UDP_RR iteration 1/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 49991 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 25.548%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    8889.01   
+212992 212992
+Running test UDP_RR iteration 2/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50082 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 37.503%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9181.76   
+212992 212992
+Running test UDP_RR iteration 3/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50166 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 6.305%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    8428.37   
+212992 212992
+Running test UDP_RR iteration 4/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50249 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9742.52   
+212992 212992
+Running test UDP_RR iteration 5/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50331 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 5.271%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9856.89   
+212992 212992
+Running test UDP_RR iteration 6/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50413 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9331.56   
+212992 212992
+Running test UDP_RR iteration 7/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50495 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 10.417%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9658.45   
+212992 212992
+Running test UDP_RR iteration 8/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50577 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 7.437%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9660.53   
+212992 212992
+Running test UDP_RR iteration 9/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50665 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9911.00   
+212992 212992
+Running test UDP_RR iteration 10/10 size 1 nr_pairs 1
+netperf -4 -t UDP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 50747 to shutdown.....................................
+UDP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+212992 212992 1        1       10.00    9881.02   
+212992 212992
+netperf-udp-rr fine
+test exit :: netperf-udp-rr 0
+Installing test netperf-tcp-rr
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 50850's current affinity list: 0-63
+pid 50850's new affinity list: 0-7,16-23
+pid 50850's current affinity list: 0-7,16-23
+pid 50850's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+netperf-tcp-rr fine
+Starting test netperf-tcp-rr
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 51045's current affinity list: 0-63
+pid 51045's new affinity list: 0-7,16-23
+pid 51045's current affinity list: 0-7,16-23
+pid 51045's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Killing old servers
+netserver: no process found
+Starting server
+Starting netserver at port 12865
+Starting netserver at hostname 0.0.0.0 port 12865 and family AF_INET
+Running test TCP_RR iteration 1/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51218 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    7080.79   
+16384  131072
+Running test TCP_RR iteration 2/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51300 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    7896.53   
+16384  131072
+Running test TCP_RR iteration 3/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51382 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    7935.49   
+16384  131072
+Running test TCP_RR iteration 4/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51464 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    7824.36   
+16384  131072
+Running test TCP_RR iteration 5/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51546 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+!!! WARNING
+!!! Desired confidence was not achieved within the specified iterations.
+!!! This implies that there was variability in the test environment that
+!!! must be investigated before going further.
+!!! Confidence intervals: Throughput      : 19.890%
+!!!                       Local CPU util  : 0.000%
+!!!                       Remote CPU util : 0.000%
+
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    7374.98   
+16384  131072
+Running test TCP_RR iteration 6/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51630 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    8164.64   
+16384  131072
+Running test TCP_RR iteration 7/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51714 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    8168.86   
+16384  131072
+Running test TCP_RR iteration 8/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51796 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    8242.32   
+16384  131072
+Running test TCP_RR iteration 9/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51879 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    8109.28   
+16384  131072
+Running test TCP_RR iteration 10/10 size 1 nr_pairs 1
+netperf -4 -t TCP_RR -i 3,3 -I 95,5 -H 127.0.0.1 --
+Waiting on pid 51961 to shutdown.....................................
+TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 127.0.0.1 (127.0.0.1) port 0 AF_INET : +/-2.500% @ 95% conf. 
+Local /Remote
+Socket Size   Request  Resp.   Elapsed  Trans.
+Send   Recv   Size     Size    Time     Rate         
+bytes  Bytes  bytes    bytes   secs.    per sec   
+
+16384  131072 1        1       10.00    8149.48   
+16384  131072
+netperf-tcp-rr fine
+test exit :: netperf-tcp-rr 0
+Cleaning up

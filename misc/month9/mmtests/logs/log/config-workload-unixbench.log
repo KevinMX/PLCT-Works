@@ -1,0 +1,92 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test unixbench-dhry2reg
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 434710's current affinity list: 0-63
+pid 434710's new affinity list: 0-7,16-23
+pid 434710's current affinity list: 0-7,16-23
+pid 434710's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+unixbench-install: Fetching from mirror http://mcp/mmtests-mirror/unixbench//v{VERSION}.tar.gz
+unixbench-install: Fetching from internet https://github.com/kdlucas/byte-unixbench/archive/refs/tags/v{VERSION}.tar.gz
+unixbench-install: Fetching from alt internet /v{VERSION}.tar.gz
+FATAL unixbench-install: unixbench-install: Could not download /v{VERSION}.tar.gz
+FATAL unixbench-bench: unixbench install script returned error
+FATAL: unixbench-dhry2reg returned failure, unable to continue
+FATAL: Installation step failed for unixbench-dhry2reg

@@ -1,0 +1,6 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+A config must be in the current directory or specified with --config
+File configs/config-workload-thpscale not found

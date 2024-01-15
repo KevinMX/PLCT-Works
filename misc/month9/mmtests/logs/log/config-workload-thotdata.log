@@ -1,0 +1,135 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test thotdata
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 432954's current affinity list: 0-63
+pid 432954's new affinity list: 0-7,16-23
+pid 432954's current affinity list: 0-7,16-23
+pid 432954's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+thotdata fine
+Starting test thotdata
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 433100's current affinity list: 0-63
+pid 433100's new affinity list: 0-7,16-23
+pid 433100's current affinity list: 0-7,16-23
+pid 433100's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Setting cpu: 0
+Error setting new values. Common errors:
+- Do you have proper administration rights? (super-user?)
+- Is the governor you requested available and modprobed?
+- Trying to set an invalid policy?
+- Trying to set a specific frequency, but userspace governor is not available,
+   for example because of hardware which cannot be set to a specific frequency
+   or because the userspace governor isn't loaded?
+Starting 4/128 with alignment 64
+o 0 1 2 3
+Starting 8/128 with alignment 64
+o 0 1 2 3 4 5 6 7
+Starting 16/128 with alignment 64
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23
+Starting 32/128 with alignment 64
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31
+Starting 64/128 with alignment 64
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+Starting 128/128 with alignment 64
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+Starting 4/128 with alignment 4096
+o 0 1 2 3
+Starting 8/128 with alignment 4096
+o 0 1 2 3 4 5 6 7
+Starting 16/128 with alignment 4096
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23
+Starting 32/128 with alignment 4096
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31
+Starting 64/128 with alignment 4096
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+Starting 128/128 with alignment 4096
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+Starting 4/128 with alignment 2097152
+o 0 1 2 3
+Starting 8/128 with alignment 2097152
+o 0 1 2 3 4 5 6 7
+Starting 16/128 with alignment 2097152
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23
+Starting 32/128 with alignment 2097152
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31
+Starting 64/128 with alignment 2097152
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+Starting 128/128 with alignment 2097152
+o 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 8 9 10 11 12 13 14 15 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 40 41 42 43 44 45 46 47 56 57 58 59 60 61 62 63
+thotdata fine
+test exit :: thotdata 0
+Cleaning up

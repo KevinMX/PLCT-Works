@@ -1,0 +1,526 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test sysbenchmutex
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 158356's current affinity list: 0-63
+pid 158356's new affinity list: 0-7,16-23
+pid 158356's current affinity list: 0-7,16-23
+pid 158356's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Building sysbench
+Downloaded file already available at /opt/mmtests/work/sources/sysbenchbuild-1.0.20.tar.gz
+./autogen.sh: running `libtoolize --copy --force' 
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+./autogen.sh: running `aclocal -I m4' 
+./autogen.sh: running `autoheader' 
+./autogen.sh: running `automake -c --foreign --add-missing' 
+configure.ac:40: installing 'config/compile'
+configure.ac:32: installing 'config/missing'
+src/Makefile.am: installing 'config/depcomp'
+./autogen.sh: running `autoconf' 
+configure.ac:34: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.ac:34: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.ac:34: the top level
+configure.ac:43: warning: The macro `AC_PROG_CC_C99' is obsolete.
+configure.ac:43: You should run autoupdate.
+./lib/autoconf/c.m4:1659: AC_PROG_CC_C99 is expanded from...
+configure.ac:43: the top level
+configure.ac:61: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:61: You should run autoupdate.
+m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:61: the top level
+configure.ac:182: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:182: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+m4/sb_luajit.m4:20: SB_LUAJIT is expanded from...
+configure.ac:182: the top level
+configure.ac:185: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:185: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+m4/sb_concurrency_kit.m4:20: SB_CONCURRENCY_KIT is expanded from...
+configure.ac:185: the top level
+configure.ac:229: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:229: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+m4/sb_check_mysql.m4:9: SB_CHECK_MYSQL is expanded from...
+configure.ac:229: the top level
+configure.ac:231: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:231: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/lib-link.m4:56: AC_LIB_HAVE_LINKFLAGS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:231: the top level
+configure.ac:245: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:245: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/lib-link.m4:56: AC_LIB_HAVE_LINKFLAGS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:245: the top level
+configure.ac:268: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:268: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+m4/ac_check_pgsql.m4:7: AC_CHECK_PGSQL is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:268: the top level
+configure.ac:288: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:288: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:288: the top level
+configure.ac:313: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.ac:313: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.ac:313: the top level
+configure.ac:314: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:314: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:594: AS_CASE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/ax_tls.m4:49: AX_TLS is expanded from...
+configure.ac:314: the top level
+Libtoolized with: libtoolize (GNU libtool) 2.4.7
+Automade with: automake (GNU automake) 1.16.5
+Configured with: autoconf (GNU Autoconf) 2.71
+checking build system type... riscv64-unknown-linux-gnu
+checking host system type... riscv64-unknown-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/time.h... yes
+checking for sys/param.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for gcc... (cached) gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to enable C11 features... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for C compiler vendor... gnu
+checking for gcc architecture flag... 
+checking for gcc architecture flag... unknown
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert riscv64-unknown-linux-gnu file names to riscv64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert riscv64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for file... file
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for pkg-config... yes
+checking for C compiler vendor... (cached) gnu
+checking whether to compile with MySQL support... no
+checking whether to compile with Drizzle support... no
+checking whether to compile with libattachsql support... no
+checking whether to compile with Oracle support... no
+checking whether to compile with PostgreSQL support... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether to build with system or bundled LuaJIT... bundled
+checking whether to build with system or bundled Concurrency Kit... bundled
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether SHM_HUGETLB is declared... yes
+checking whether O_SYNC is declared... yes
+checking for xsltproc... xsltproc
+checking whether xsltproc works... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for sqrt in -lm... yes
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for libaio.h... yes
+checking for io_queue_init in -laio... yes
+checking if io_getevents() has an old interface... no
+checking for malloc in -lumem... no
+checking for malloc in -lmtmalloc... no
+checking for egrep... (cached) /usr/bin/grep -E
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for math.h... yes
+checking for pthread.h... yes
+checking for sched.h... yes
+checking for signal.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/aio.h... no
+checking for sys/ipc.h... yes
+checking for sys/time.h... (cached) yes
+checking for sys/mman.h... yes
+checking for sys/shm.h... yes
+checking for thread.h... no
+checking for unistd.h... (cached) yes
+checking for limits.h... yes
+checking for libgen.h... yes
+checking for off_t... yes
+checking for thread local storage (TLS) class... _Thread_local
+checking for __attribute__((format))... yes
+checking for __attribute__((unused))... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking size of size_t... 8
+checking size of bool... 1
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether strerror_r is declared... yes
+checking whether strerror_r returns char *... yes
+checking for library containing clock_gettime... none required
+checking for alarm... yes
+checking for clock_gettime... yes
+checking for directio... no
+checking for fdatasync... yes
+checking for gettimeofday... yes
+checking for isatty... yes
+checking for memalign... yes
+checking for memset... yes
+checking for posix_memalign... yes
+checking for pthread_yield... no
+checking for setvbuf... yes
+checking for sqrt... yes
+checking for strdup... yes
+checking for thr_setconcurrency... no
+checking for valloc... yes
+checking for pthread_once... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/xsl/Makefile
+config.status: creating doc/xsl/catalog.xml
+config.status: creating doc/Makefile
+config.status: creating third_party/luajit/Makefile
+config.status: creating third_party/concurrency_kit/Makefile
+config.status: creating src/Makefile
+config.status: creating src/drivers/Makefile
+config.status: creating src/drivers/mysql/Makefile
+config.status: creating src/drivers/drizzle/Makefile
+config.status: creating src/drivers/oracle/Makefile
+config.status: creating src/drivers/pgsql/Makefile
+config.status: creating src/drivers/attachsql/Makefile
+config.status: creating src/tests/Makefile
+config.status: creating src/tests/cpu/Makefile
+config.status: creating src/tests/fileio/Makefile
+config.status: creating src/tests/memory/Makefile
+config.status: creating src/tests/threads/Makefile
+config.status: creating src/tests/mutex/Makefile
+config.status: creating src/lua/Makefile
+config.status: creating src/lua/internal/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/include/config.sh
+config.status: creating snap/snapcraft.yaml
+config.status: creating config/config.h
+config.status: config/config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+===============================================================================
+sysbench version   : 1.0.20-ebf1c90
+CC                 : gcc
+CFLAGS             : -O2 -funroll-loops  -Wall -Wextra -Wpointer-arith -Wbad-function-cast -Wstrict-prototypes -Wnested-externs -Wno-format-zero-length -Wundef -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wcast-align -Wvla   
+CPPFLAGS           : -D_GNU_SOURCE   -I$(top_srcdir)/src -I$(abs_top_builddir)/third_party/luajit/inc -I$(abs_top_builddir)/third_party/concurrency_kit/include
+LDFLAGS            :  
+LIBS               : -laio -lm 
+EXTRA_LDFLAGS      : 
+
+prefix             : /opt/mmtests/work/sources/sysbenchbuild-1.0.20-installed
+bindir             : ${prefix}/bin
+libexecdir         : ${prefix}/libexec
+mandir             : ${prefix}/share/man
+datadir            : ${prefix}/share
+
+MySQL support      : no
+Drizzle support    : no
+AttachSQL support  : no
+Oracle support     : no
+PostgreSQL support : no
+
+LuaJIT             : bundled
+LUAJIT_CFLAGS      : -I$(abs_top_builddir)/third_party/luajit/inc
+LUAJIT_LIBS        : $(abs_top_builddir)/third_party/luajit/lib/libluajit-5.1.a -ldl
+LUAJIT_LDFLAGS     : -rdynamic
+
+Concurrency Kit    : bundled
+CK_CFLAGS          : -I$(abs_top_builddir)/third_party/concurrency_kit/include
+CK_LIBS            : $(abs_top_builddir)/third_party/concurrency_kit/lib/libck.a
+configure flags    : 
+===============================================================================
+Making all in doc
+make[1]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+Making all in xsl
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc/xsl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc/xsl'
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+make[1]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+Making all in third_party/luajit
+make[1]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit'
+make -C ./luajit clean
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit'
+make -C src clean
+make[3]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit/src'
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+Makefile:265: *** Unsupported target architecture.  Stop.
+make[3]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit/src'
+make[2]: *** [Makefile:162: clean] Error 2
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit'
+make[1]: *** [Makefile:523: lib/libluajit-5.1.a] Error 2
+make[1]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit'
+make: *** [Makefile:501: all-recursive] Error 1
+WARNING: make failed, retrying once
+Making all in doc
+make[1]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+Making all in xsl
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc/xsl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc/xsl'
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+make[1]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/doc'
+Making all in third_party/luajit
+make[1]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit'
+make -C ./luajit clean
+make[2]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit'
+make -C src clean
+make[3]: Entering directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit/src'
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+lj_arch.h:59:2: error: #error "No support for this architecture (yet)"
+   59 | #error "No support for this architecture (yet)"
+      |  ^~~~~
+lj_arch.h:357:2: error: #error "No target architecture defined"
+  357 | #error "No target architecture defined"
+      |  ^~~~~
+Makefile:265: *** Unsupported target architecture.  Stop.
+make[3]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit/src'
+make[2]: *** [Makefile:162: clean] Error 2
+make[2]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit/luajit'
+make[1]: *** [Makefile:523: lib/libluajit-5.1.a] Error 2
+make[1]: Leaving directory '/opt/mmtests/work/sources/sysbenchbuild-1.0.20/third_party/luajit'
+make: *** [Makefile:501: all-recursive] Error 1
+ERROR sysbenchbuild-install: sysbenchbuild-install: make failed
+FATAL sysbenchmutex-bench: sysbenchbuild install script returned error
+FATAL: sysbenchmutex returned failure, unable to continue
+FATAL: Installation step failed for sysbenchmutex

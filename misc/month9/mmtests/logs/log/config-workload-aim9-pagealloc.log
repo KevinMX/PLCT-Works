@@ -1,0 +1,463 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test aim9
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 167031's current affinity list: 0-63
+pid 167031's new affinity list: 0-7,16-23
+pid 167031's current affinity list: 0-7,16-23
+pid 167031's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+aim9 fine
+Starting test aim9
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 167179's current affinity list: 0-63
+pid 167179's new affinity list: 0-7,16-23
+pid 167179's current affinity list: 0-7,16-23
+pid 167179's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Starting iteration 1
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:11:18 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:12:18 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        741   49.36709        83924.05 System Allocations & Pages/second
+     2 brk_test            15.02        231   15.37949       261451.40 System Memory Allocations/second
+     3 exec_test           15.01        477   31.77881          158.89 Program Loads/second
+     4 fork_test           15.04        139    9.24202          924.20 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:12:18 2024
+Actual Completion time:     Tue Jan  9 23:12:18 2024
+Difference:                 0:00:00
+Starting iteration 2
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:12:19 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:13:19 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.00        759   50.60000        86020.00 System Allocations & Pages/second
+     2 brk_test            15.04        229   15.22606       258843.09 System Memory Allocations/second
+     3 exec_test           15.02        479   31.89081          159.45 Program Loads/second
+     4 fork_test           15.08        143    9.48276          948.28 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:13:19 2024
+Actual Completion time:     Tue Jan  9 23:13:19 2024
+Difference:                 0:00:00
+Starting iteration 3
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:13:19 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:14:19 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.02        776   51.66445        87829.56 System Allocations & Pages/second
+     2 brk_test            15.04        225   14.96011       254321.81 System Memory Allocations/second
+     3 exec_test           15.01        478   31.84544          159.23 Program Loads/second
+     4 fork_test           15.06        143    9.49535          949.54 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:14:19 2024
+Actual Completion time:     Tue Jan  9 23:14:19 2024
+Difference:                 0:00:00
+Starting iteration 4
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:14:19 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:15:19 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.02        756   50.33289        85565.91 System Allocations & Pages/second
+     2 brk_test            15.05        225   14.95017       254152.82 System Memory Allocations/second
+     3 exec_test           15.00        477   31.80000          159.00 Program Loads/second
+     4 fork_test           15.10        138    9.13907          913.91 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:15:19 2024
+Actual Completion time:     Tue Jan  9 23:15:19 2024
+Difference:                 0:00:00
+Starting iteration 5
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:15:19 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:16:19 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        737   49.10060        83471.02 System Allocations & Pages/second
+     2 brk_test            15.01        230   15.32312       260493.00 System Memory Allocations/second
+     3 exec_test           15.02        476   31.69108          158.46 Program Loads/second
+     4 fork_test           15.07        137    9.09091          909.09 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:16:19 2024
+Actual Completion time:     Tue Jan  9 23:16:19 2024
+Difference:                 0:00:00
+Starting iteration 6
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:16:20 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:17:20 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.00        770   51.33333        87266.67 System Allocations & Pages/second
+     2 brk_test            15.06        233   15.47145       263014.61 System Memory Allocations/second
+     3 exec_test           15.02        480   31.95739          159.79 Program Loads/second
+     4 fork_test           15.06        142    9.42895          942.90 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:17:20 2024
+Actual Completion time:     Tue Jan  9 23:17:20 2024
+Difference:                 0:00:00
+Starting iteration 7
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:17:20 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:18:20 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        746   49.70020        84490.34 System Allocations & Pages/second
+     2 brk_test            15.05        231   15.34884       260930.23 System Memory Allocations/second
+     3 exec_test           15.02        478   31.82423          159.12 Program Loads/second
+     4 fork_test           15.08        141    9.35013          935.01 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:18:20 2024
+Actual Completion time:     Tue Jan  9 23:18:20 2024
+Difference:                 0:00:00
+Starting iteration 8
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:18:20 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:19:20 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        768   51.16589        86982.01 System Allocations & Pages/second
+     2 brk_test            15.00        224   14.93333       253866.67 System Memory Allocations/second
+     3 exec_test           15.02        484   32.22370          161.12 Program Loads/second
+     4 fork_test           15.06        141    9.36255          936.25 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:19:20 2024
+Actual Completion time:     Tue Jan  9 23:19:20 2024
+Difference:                 0:00:00
+Starting iteration 9
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:19:20 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:20:20 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.02        750   49.93342        84886.82 System Allocations & Pages/second
+     2 brk_test            15.02        229   15.24634       259187.75 System Memory Allocations/second
+     3 exec_test           15.01        479   31.91206          159.56 Program Loads/second
+     4 fork_test           15.04        139    9.24202          924.20 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:20:20 2024
+Actual Completion time:     Tue Jan  9 23:20:20 2024
+Difference:                 0:00:00
+Starting iteration 10
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:20:21 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:21:21 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        760   50.63291        86075.95 System Allocations & Pages/second
+     2 brk_test            15.06        230   15.27224       259628.15 System Memory Allocations/second
+     3 exec_test           15.01        476   31.71219          158.56 Program Loads/second
+     4 fork_test           15.04        137    9.10904          910.90 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:21:21 2024
+Actual Completion time:     Tue Jan  9 23:21:21 2024
+Difference:                 0:00:00
+Starting iteration 11
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:21:21 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:22:21 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.01        772   51.43238        87435.04 System Allocations & Pages/second
+     2 brk_test            15.01        230   15.32312       260493.00 System Memory Allocations/second
+     3 exec_test           15.02        478   31.82423          159.12 Program Loads/second
+     4 fork_test           15.04        140    9.30851          930.85 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:22:21 2024
+Actual Completion time:     Tue Jan  9 23:22:21 2024
+Difference:                 0:00:00
+Starting iteration 12
+spawn ./singleuser
+
+AIM Independent Resource Benchmark - Suite IX v1.1, January 22, 1996
+Copyright (c) 1996 - 2001 Caldera International, Inc.
+All Rights Reserved
+
+Machine's name                                    : openeuler-riscv64
+Machine's configuration                           : 6.1.61-4.oe2309.riscv64
+Number of seconds to run each test [2 to 1000]    : 15
+Path to disk files                                : /opt/mmtests/work/testdisk/data/config-workload-aim9-pagealloc
+
+
+Starting time:      Tue Jan  9 23:22:21 2024
+Projected Run Time: 0:01:00
+Projected finish:   Tue Jan  9 23:23:21 2024
+
+
+
+------------------------------------------------------------------------------------------------------------
+ Test        Test        Elapsed  Iteration    Iteration          Operation
+Number       Name      Time (sec)   Count   Rate (loops/sec)    Rate (ops/sec)
+------------------------------------------------------------------------------------------------------------
+     1 page_test           15.02        796   52.99601        90093.21 System Allocations & Pages/second
+     2 brk_test            15.00        231   15.40000       261800.00 System Memory Allocations/second
+     3 exec_test           15.01        480   31.97868          159.89 Program Loads/second
+     4 fork_test           15.00        141    9.40000          940.00 Task Creations/second
+------------------------------------------------------------------------------------------------------------
+Projected Completion time:  Tue Jan  9 23:23:21 2024
+Actual Completion time:     Tue Jan  9 23:23:21 2024
+Difference:                 0:00:00
+aim9 fine
+test exit :: aim9 0
+Cleaning up

@@ -1,0 +1,276 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test spinplace
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 403711's current affinity list: 0-63
+pid 403711's new affinity list: 0-7,16-23
+pid 403711's current affinity list: 0-7,16-23
+pid 403711's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+installed only as requested.
+spinplace fine
+Starting test spinplace
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 403857's current affinity list: 0-63
+pid 403857's new affinity list: 0-7,16-23
+pid 403857's current affinity list: 0-7,16-23
+pid 403857's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Allowed CPUS: 0,8,32,40
+Mpstat CPU: 63
+Nr CPUs: 4
+Shutting down spinplace pid 403993/opt/mmtests/shellpacks/common.sh: line 241: kill: (403993) - No such process
+
+Shutting down spinplace pid 404004/opt/mmtests/shellpacks/common.sh: line 241: kill: (404004) - No such process
+
+Shutting down spinplace pid 404015/opt/mmtests/shellpacks/common.sh: line 241: kill: (404015) - No such process
+
+Shutting down spinplace pid 404026/opt/mmtests/shellpacks/common.sh: line 241: kill: (404026) - No such process
+
+Shutting down spinplace pid 404037/opt/mmtests/shellpacks/common.sh: line 241: kill: (404037) - No such process
+
+Shutting down spinplace pid 404048/opt/mmtests/shellpacks/common.sh: line 241: kill: (404048) - No such process
+
+Shutting down spinplace pid 404059/opt/mmtests/shellpacks/common.sh: line 241: kill: (404059) - No such process
+
+Shutting down spinplace pid 404070/opt/mmtests/shellpacks/common.sh: line 241: kill: (404070) - No such process
+
+Shutting down spinplace pid 404081/opt/mmtests/shellpacks/common.sh: line 241: kill: (404081) - No such process
+
+Shutting down spinplace pid 404092/opt/mmtests/shellpacks/common.sh: line 241: kill: (404092) - No such process
+
+Shutting down spinplace pid 404107/opt/mmtests/shellpacks/common.sh: line 241: kill: (404107) - No such process
+
+Shutting down spinplace pid 404118/opt/mmtests/shellpacks/common.sh: line 241: kill: (404118) - No such process
+
+Shutting down spinplace pid 404129/opt/mmtests/shellpacks/common.sh: line 241: kill: (404129) - No such process
+
+Shutting down spinplace pid 404140/opt/mmtests/shellpacks/common.sh: line 241: kill: (404140) - No such process
+
+Shutting down spinplace pid 404151/opt/mmtests/shellpacks/common.sh: line 241: kill: (404151) - No such process
+
+Shutting down spinplace pid 404162/opt/mmtests/shellpacks/common.sh: line 241: kill: (404162) - No such process
+
+Shutting down spinplace pid 404173/opt/mmtests/shellpacks/common.sh: line 241: kill: (404173) - No such process
+
+Shutting down spinplace pid 404184/opt/mmtests/shellpacks/common.sh: line 241: kill: (404184) - No such process
+
+Shutting down spinplace pid 404195/opt/mmtests/shellpacks/common.sh: line 241: kill: (404195) - No such process
+
+Shutting down spinplace pid 404207/opt/mmtests/shellpacks/common.sh: line 241: kill: (404207) - No such process
+
+Shutting down spinplace pid 404218/opt/mmtests/shellpacks/common.sh: line 241: kill: (404218) - No such process
+
+Shutting down spinplace pid 404229/opt/mmtests/shellpacks/common.sh: line 241: kill: (404229) - No such process
+
+Shutting down spinplace pid 404240/opt/mmtests/shellpacks/common.sh: line 241: kill: (404240) - No such process
+
+Shutting down spinplace pid 404251/opt/mmtests/shellpacks/common.sh: line 241: kill: (404251) - No such process
+
+Shutting down spinplace pid 404262/opt/mmtests/shellpacks/common.sh: line 241: kill: (404262) - No such process
+
+Shutting down spinplace pid 404274/opt/mmtests/shellpacks/common.sh: line 241: kill: (404274) - No such process
+
+Shutting down spinplace pid 404285/opt/mmtests/shellpacks/common.sh: line 241: kill: (404285) - No such process
+
+Shutting down spinplace pid 404296/opt/mmtests/shellpacks/common.sh: line 241: kill: (404296) - No such process
+
+Shutting down spinplace pid 404307/opt/mmtests/shellpacks/common.sh: line 241: kill: (404307) - No such process
+
+Shutting down spinplace pid 404318/opt/mmtests/shellpacks/common.sh: line 241: kill: (404318) - No such process
+
+Shutting down spinplace pid 404329/opt/mmtests/shellpacks/common.sh: line 241: kill: (404329) - No such process
+
+Shutting down spinplace pid 404340/opt/mmtests/shellpacks/common.sh: line 241: kill: (404340) - No such process
+
+Shutting down spinplace pid 404351/opt/mmtests/shellpacks/common.sh: line 241: kill: (404351) - No such process
+
+Shutting down spinplace pid 404363/opt/mmtests/shellpacks/common.sh: line 241: kill: (404363) - No such process
+
+Shutting down spinplace pid 404374/opt/mmtests/shellpacks/common.sh: line 241: kill: (404374) - No such process
+
+Shutting down spinplace pid 404385/opt/mmtests/shellpacks/common.sh: line 241: kill: (404385) - No such process
+
+Shutting down spinplace pid 404396/opt/mmtests/shellpacks/common.sh: line 241: kill: (404396) - No such process
+
+Shutting down spinplace pid 404407/opt/mmtests/shellpacks/common.sh: line 241: kill: (404407) - No such process
+
+Shutting down spinplace pid 404419/opt/mmtests/shellpacks/common.sh: line 241: kill: (404419) - No such process
+
+Shutting down spinplace pid 404430/opt/mmtests/shellpacks/common.sh: line 241: kill: (404430) - No such process
+
+Shutting down spinplace pid 404441/opt/mmtests/shellpacks/common.sh: line 241: kill: (404441) - No such process
+
+Shutting down spinplace pid 404452/opt/mmtests/shellpacks/common.sh: line 241: kill: (404452) - No such process
+
+Shutting down spinplace pid 404463/opt/mmtests/shellpacks/common.sh: line 241: kill: (404463) - No such process
+
+Shutting down spinplace pid 404475/opt/mmtests/shellpacks/common.sh: line 241: kill: (404475) - No such process
+
+Shutting down spinplace pid 404486/opt/mmtests/shellpacks/common.sh: line 241: kill: (404486) - No such process
+
+Shutting down spinplace pid 404497/opt/mmtests/shellpacks/common.sh: line 241: kill: (404497) - No such process
+
+Shutting down spinplace pid 404508/opt/mmtests/shellpacks/common.sh: line 241: kill: (404508) - No such process
+
+Shutting down spinplace pid 404519/opt/mmtests/shellpacks/common.sh: line 241: kill: (404519) - No such process
+
+Shutting down spinplace pid 404530/opt/mmtests/shellpacks/common.sh: line 241: kill: (404530) - No such process
+
+Shutting down spinplace pid 404541/opt/mmtests/shellpacks/common.sh: line 241: kill: (404541) - No such process
+
+Shutting down spinplace pid 404552/opt/mmtests/shellpacks/common.sh: line 241: kill: (404552) - No such process
+
+Shutting down spinplace pid 404563/opt/mmtests/shellpacks/common.sh: line 241: kill: (404563) - No such process
+
+Shutting down spinplace pid 404574/opt/mmtests/shellpacks/common.sh: line 241: kill: (404574) - No such process
+
+Shutting down spinplace pid 404585/opt/mmtests/shellpacks/common.sh: line 241: kill: (404585) - No such process
+
+Shutting down spinplace pid 404596/opt/mmtests/shellpacks/common.sh: line 241: kill: (404596) - No such process
+
+Shutting down spinplace pid 404607/opt/mmtests/shellpacks/common.sh: line 241: kill: (404607) - No such process
+
+Shutting down spinplace pid 404629/opt/mmtests/shellpacks/common.sh: line 241: kill: (404629) - No such process
+
+Shutting down spinplace pid 404640/opt/mmtests/shellpacks/common.sh: line 241: kill: (404640) - No such process
+
+Shutting down spinplace pid 404651/opt/mmtests/shellpacks/common.sh: line 241: kill: (404651) - No such process
+
+Shutting down spinplace pid 404662/opt/mmtests/shellpacks/common.sh: line 241: kill: (404662) - No such process
+
+Shutting down spinplace pid 404673/opt/mmtests/shellpacks/common.sh: line 241: kill: (404673) - No such process
+
+Shutting down spinplace pid 404684/opt/mmtests/shellpacks/common.sh: line 241: kill: (404684) - No such process
+
+Shutting down spinplace pid 404695/opt/mmtests/shellpacks/common.sh: line 241: kill: (404695) - No such process
+
+Shutting down spinplace pid 404706/opt/mmtests/shellpacks/common.sh: line 241: kill: (404706) - No such process
+
+Shutting down spinplace pid 404717/opt/mmtests/shellpacks/common.sh: line 241: kill: (404717) - No such process
+
+Shutting down spinplace pid 404728/opt/mmtests/shellpacks/common.sh: line 241: kill: (404728) - No such process
+
+Shutting down spinplace pid 404741/opt/mmtests/shellpacks/common.sh: line 241: kill: (404741) - No such process
+
+Shutting down spinplace pid 404752/opt/mmtests/shellpacks/common.sh: line 241: kill: (404752) - No such process
+
+Shutting down spinplace pid 404763/opt/mmtests/shellpacks/common.sh: line 241: kill: (404763) - No such process
+
+Shutting down spinplace pid 404774/opt/mmtests/shellpacks/common.sh: line 241: kill: (404774) - No such process
+
+Shutting down spinplace pid 404785/opt/mmtests/shellpacks/common.sh: line 241: kill: (404785) - No such process
+
+Shutting down spinplace pid 404796/opt/mmtests/shellpacks/common.sh: line 241: kill: (404796) - No such process
+
+Shutting down spinplace pid 404807/opt/mmtests/shellpacks/common.sh: line 241: kill: (404807) - No such process
+
+Shutting down spinplace pid 404818/opt/mmtests/shellpacks/common.sh: line 241: kill: (404818) - No such process
+
+Shutting down spinplace pid 404829/opt/mmtests/shellpacks/common.sh: line 241: kill: (404829) - No such process
+
+Shutting down spinplace pid 404840/opt/mmtests/shellpacks/common.sh: line 241: kill: (404840) - No such process
+
+Shutting down spinplace pid 404851/opt/mmtests/shellpacks/common.sh: line 241: kill: (404851) - No such process
+
+Shutting down spinplace pid 404862/opt/mmtests/shellpacks/common.sh: line 241: kill: (404862) - No such process
+
+Shutting down spinplace pid 404873/opt/mmtests/shellpacks/common.sh: line 241: kill: (404873) - No such process
+
+Shutting down spinplace pid 404885/opt/mmtests/shellpacks/common.sh: line 241: kill: (404885) - No such process
+
+Shutting down spinplace pid 404896/opt/mmtests/shellpacks/common.sh: line 241: kill: (404896) - No such process
+
+Shutting down spinplace pid 404907/opt/mmtests/shellpacks/common.sh: line 241: kill: (404907) - No such process
+
+Shutting down spinplace pid 404918/opt/mmtests/shellpacks/common.sh: line 241: kill: (404918) - No such process
+
+Shutting down spinplace pid 404929/opt/mmtests/shellpacks/common.sh: line 241: kill: (404929) - No such process
+
+Shutting down spinplace pid 404941/opt/mmtests/shellpacks/common.sh: line 241: kill: (404941) - No such process
+
+Shutting down spinplace pid 404952/opt/mmtests/shellpacks/common.sh: line 241: kill: (404952) - No such process
+
+Shutting down spinplace pid 404963/opt/mmtests/shellpacks/common.sh: line 241: kill: (404963) - No such process
+
+Shutting down spinplace pid 404974/opt/mmtests/shellpacks/common.sh: line 241: kill: (404974) - No such process
+
+Shutting down spinplace pid 404985/opt/mmtests/shellpacks/common.sh: line 241: kill: (404985) - No such process
+
+Shutting down spinplace pid 404996/opt/mmtests/shellpacks/common.sh: line 241: kill: (404996) - No such process
+
+spinplace fine
+test exit :: spinplace 0
+Cleaning up

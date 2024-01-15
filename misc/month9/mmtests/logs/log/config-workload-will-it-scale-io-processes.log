@@ -1,0 +1,664 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test wis-pread
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 443430's current affinity list: 0-63
+pid 443430's new affinity list: 0-7,16-23
+pid 443430's current affinity list: 0-7,16-23
+pid 443430's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-pread fine
+Starting test wis-pread
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 443597's current affinity list: 0-63
+pid 443597's new affinity list: 0-7,16-23
+pid 443597's current affinity list: 0-7,16-23
+pid 443597's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test pread1
+Starting processes 2/128
+Running test pread1
+Starting processes 5/128
+Running test pread1
+Starting processes 8/128
+Running test pread1
+Starting processes 12/128
+Running test pread1
+Starting processes 21/128
+Running test pread1
+Starting processes 30/128
+Running test pread1
+Starting processes 48/128
+Running test pread1
+Starting processes 79/128
+Running test pread1
+Starting processes 110/128
+Running test pread1
+Starting processes 128/128
+Running test pread2
+Starting processes 2/128
+Running test pread2
+Starting processes 5/128
+Running test pread2
+Starting processes 8/128
+Running test pread2
+Starting processes 12/128
+Running test pread2
+Starting processes 21/128
+Running test pread2
+Starting processes 30/128
+Running test pread2
+Starting processes 48/128
+Running test pread2
+Starting processes 79/128
+Running test pread2
+Starting processes 110/128
+Running test pread2
+Starting processes 128/128
+Running test pread3
+Starting processes 2/128
+Running test pread3
+Starting processes 5/128
+Running test pread3
+Starting processes 8/128
+Running test pread3
+Starting processes 12/128
+Running test pread3
+Starting processes 21/128
+Running test pread3
+Starting processes 30/128
+Running test pread3
+Starting processes 48/128
+Running test pread3
+Starting processes 79/128
+Running test pread3
+Starting processes 110/128
+Running test pread3
+Starting processes 128/128
+wis-pread fine
+test exit :: wis-pread 0
+Installing test wis-pwrite
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 445221's current affinity list: 0-63
+pid 445221's new affinity list: 0-7,16-23
+pid 445221's current affinity list: 0-7,16-23
+pid 445221's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-pwrite fine
+Starting test wis-pwrite
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 445387's current affinity list: 0-63
+pid 445387's new affinity list: 0-7,16-23
+pid 445387's current affinity list: 0-7,16-23
+pid 445387's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test pwrite1
+Starting processes 2/128
+Running test pwrite1
+Starting processes 5/128
+Running test pwrite1
+Starting processes 8/128
+Running test pwrite1
+Starting processes 12/128
+Running test pwrite1
+Starting processes 21/128
+Running test pwrite1
+Starting processes 30/128
+Running test pwrite1
+Starting processes 48/128
+Running test pwrite1
+Starting processes 79/128
+Running test pwrite1
+Starting processes 110/128
+Running test pwrite1
+Starting processes 128/128
+Running test pwrite2
+Starting processes 2/128
+Running test pwrite2
+Starting processes 5/128
+Running test pwrite2
+Starting processes 8/128
+Running test pwrite2
+Starting processes 12/128
+Running test pwrite2
+Starting processes 21/128
+Running test pwrite2
+Starting processes 30/128
+Running test pwrite2
+Starting processes 48/128
+Running test pwrite2
+Starting processes 79/128
+Running test pwrite2
+Starting processes 110/128
+Running test pwrite2
+Starting processes 128/128
+Running test pwrite3
+Starting processes 2/128
+Running test pwrite3
+Starting processes 5/128
+Running test pwrite3
+Starting processes 8/128
+Running test pwrite3
+Starting processes 12/128
+Running test pwrite3
+Starting processes 21/128
+Running test pwrite3
+Starting processes 30/128
+Running test pwrite3
+Starting processes 48/128
+Running test pwrite3
+Starting processes 79/128
+Running test pwrite3
+Starting processes 110/128
+Running test pwrite3
+Starting processes 128/128
+wis-pwrite fine
+test exit :: wis-pwrite 0
+Installing test wis-unlink
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 447046's current affinity list: 0-63
+pid 447046's new affinity list: 0-7,16-23
+pid 447046's current affinity list: 0-7,16-23
+pid 447046's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-unlink fine
+Starting test wis-unlink
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 447212's current affinity list: 0-63
+pid 447212's new affinity list: 0-7,16-23
+pid 447212's current affinity list: 0-7,16-23
+pid 447212's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test unlink1
+Starting processes 2/128
+Running test unlink1
+Starting processes 5/128
+Running test unlink1
+Starting processes 8/128
+Running test unlink1
+Starting processes 12/128
+Running test unlink1
+Starting processes 21/128
+Running test unlink1
+Starting processes 30/128
+Running test unlink1
+Starting processes 48/128
+Running test unlink1
+Starting processes 79/128
+Running test unlink1
+Starting processes 110/128
+Running test unlink1
+Starting processes 128/128
+Running test unlink2
+Starting processes 2/128
+Running test unlink2
+Starting processes 5/128
+Running test unlink2
+Starting processes 8/128
+Running test unlink2
+Starting processes 12/128
+Running test unlink2
+Starting processes 21/128
+Running test unlink2
+Starting processes 30/128
+Running test unlink2
+Starting processes 48/128
+Running test unlink2
+Starting processes 79/128
+Running test unlink2
+Starting processes 110/128
+Running test unlink2
+Starting processes 128/128
+wis-unlink fine
+test exit :: wis-unlink 0
+Installing test wis-mmap
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 448347's current affinity list: 0-63
+pid 448347's new affinity list: 0-7,16-23
+pid 448347's current affinity list: 0-7,16-23
+pid 448347's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-mmap fine
+Starting test wis-mmap
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 448513's current affinity list: 0-63
+pid 448513's new affinity list: 0-7,16-23
+pid 448513's current affinity list: 0-7,16-23
+pid 448513's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test mmap1
+Starting processes 2/128
+Running test mmap1
+Starting processes 5/128
+Running test mmap1
+Starting processes 8/128
+Running test mmap1
+Starting processes 12/128
+Running test mmap1
+Starting processes 21/128
+Running test mmap1
+Starting processes 30/128
+Running test mmap1
+Starting processes 48/128
+Running test mmap1
+Starting processes 79/128
+Running test mmap1
+Starting processes 110/128
+Running test mmap1
+Starting processes 128/128
+Running test mmap2
+Starting processes 2/128
+Running test mmap2
+Starting processes 5/128
+Running test mmap2
+Starting processes 8/128
+Running test mmap2
+Starting processes 12/128
+Running test mmap2
+Starting processes 21/128
+Running test mmap2
+Starting processes 30/128
+Running test mmap2
+Starting processes 48/128
+Running test mmap2
+Starting processes 79/128
+Running test mmap2
+Starting processes 110/128
+Running test mmap2
+Starting processes 128/128
+wis-mmap fine
+test exit :: wis-mmap 0
+Installing test wis-open
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 449652's current affinity list: 0-63
+pid 449652's new affinity list: 0-7,16-23
+pid 449652's current affinity list: 0-7,16-23
+pid 449652's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-open fine
+Starting test wis-open
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 449819's current affinity list: 0-63
+pid 449819's new affinity list: 0-7,16-23
+pid 449819's current affinity list: 0-7,16-23
+pid 449819's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test open1
+Starting processes 2/128
+Running test open1
+Starting processes 5/128
+Running test open1
+Starting processes 8/128
+Running test open1
+Starting processes 12/128
+Running test open1
+Starting processes 21/128
+Running test open1
+Starting processes 30/128
+Running test open1
+Starting processes 48/128
+Running test open1
+Starting processes 79/128
+Running test open1
+Starting processes 110/128
+Running test open1
+Starting processes 128/128
+Running test open2
+Starting processes 2/128
+Running test open2
+Starting processes 5/128
+Running test open2
+Starting processes 8/128
+Running test open2
+Starting processes 12/128
+Running test open2
+Starting processes 21/128
+Running test open2
+Starting processes 30/128
+Running test open2
+Starting processes 48/128
+Running test open2
+Starting processes 79/128
+Running test open2
+Starting processes 110/128
+Running test open2
+Starting processes 128/128
+Running test open3
+Starting processes 2/128
+Running test open3
+Starting processes 5/128
+Running test open3
+Starting processes 8/128
+Running test open3
+Starting processes 12/128
+Running test open3
+Starting processes 21/128
+Running test open3
+Starting processes 30/128
+Running test open3
+Starting processes 48/128
+Running test open3
+Starting processes 79/128
+Running test open3
+Starting processes 110/128
+Running test open3
+Starting processes 128/128
+wis-open fine
+test exit :: wis-open 0
+Installing test wis-poll
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 451453's current affinity list: 0-63
+pid 451453's new affinity list: 0-7,16-23
+pid 451453's current affinity list: 0-7,16-23
+pid 451453's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-poll fine
+Starting test wis-poll
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 451619's current affinity list: 0-63
+pid 451619's new affinity list: 0-7,16-23
+pid 451619's current affinity list: 0-7,16-23
+pid 451619's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test poll1
+Starting processes 2/128
+Running test poll1
+Starting processes 5/128
+Running test poll1
+Starting processes 8/128
+Running test poll1
+Starting processes 12/128
+Running test poll1
+Starting processes 21/128
+Running test poll1
+Starting processes 30/128
+Running test poll1
+Starting processes 48/128
+Running test poll1
+Starting processes 79/128
+Running test poll1
+Starting processes 110/128
+Running test poll1
+Starting processes 128/128
+Running test poll2
+Starting processes 2/128
+Running test poll2
+Starting processes 5/128
+Running test poll2
+Starting processes 8/128
+Running test poll2
+Starting processes 12/128
+Running test poll2
+Starting processes 21/128
+Running test poll2
+Starting processes 30/128
+Running test poll2
+Starting processes 48/128
+Running test poll2
+Starting processes 79/128
+Running test poll2
+Starting processes 110/128
+Running test poll2
+Starting processes 128/128
+wis-poll fine
+test exit :: wis-poll 0
+Installing test wis-filelock
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 452754's current affinity list: 0-63
+pid 452754's new affinity list: 0-7,16-23
+pid 452754's current affinity list: 0-7,16-23
+pid 452754's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-filelock fine
+Starting test wis-filelock
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 452920's current affinity list: 0-63
+pid 452920's new affinity list: 0-7,16-23
+pid 452920's current affinity list: 0-7,16-23
+pid 452920's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test lock1
+Starting processes 2/128
+Running test lock1
+Starting processes 5/128
+Running test lock1
+Starting processes 8/128
+Running test lock1
+Starting processes 12/128
+Running test lock1
+Starting processes 21/128
+Running test lock1
+Starting processes 30/128
+Running test lock1
+Starting processes 48/128
+Running test lock1
+Starting processes 79/128
+Running test lock1
+Starting processes 110/128
+Running test lock1
+Starting processes 128/128
+wis-filelock fine
+test exit :: wis-filelock 0
+Installing test wis-read
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 453570's current affinity list: 0-63
+pid 453570's new affinity list: 0-7,16-23
+pid 453570's current affinity list: 0-7,16-23
+pid 453570's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-read fine
+Starting test wis-read
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 453736's current affinity list: 0-63
+pid 453736's new affinity list: 0-7,16-23
+pid 453736's current affinity list: 0-7,16-23
+pid 453736's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test read1
+Starting processes 2/128
+Running test read1
+Starting processes 5/128
+Running test read1
+Starting processes 8/128
+Running test read1
+Starting processes 12/128
+Running test read1
+Starting processes 21/128
+Running test read1
+Starting processes 30/128
+Running test read1
+Starting processes 48/128
+Running test read1
+Starting processes 79/128
+Running test read1
+Starting processes 110/128
+Running test read1
+Starting processes 128/128
+Running test read2
+Starting processes 2/128
+Running test read2
+Starting processes 5/128
+Running test read2
+Starting processes 8/128
+Running test read2
+Starting processes 12/128
+Running test read2
+Starting processes 21/128
+Running test read2
+Starting processes 30/128
+Running test read2
+Starting processes 48/128
+Running test read2
+Starting processes 79/128
+Running test read2
+Starting processes 110/128
+Running test read2
+Starting processes 128/128
+Running test read3
+Starting processes 2/128
+Running test read3
+Starting processes 5/128
+Running test read3
+Starting processes 8/128
+Running test read3
+Starting processes 12/128
+Running test read3
+Starting processes 21/128
+Running test read3
+Starting processes 30/128
+Running test read3
+Starting processes 48/128
+Running test read3
+Starting processes 79/128
+Running test read3
+Starting processes 110/128
+Running test read3
+Starting processes 128/128
+Running test read4
+Starting processes 2/128
+Running test read4
+Starting processes 5/128
+Running test read4
+Starting processes 8/128
+Running test read4
+Starting processes 12/128
+Running test read4
+Starting processes 21/128
+Running test read4
+Starting processes 30/128
+Running test read4
+Starting processes 48/128
+Running test read4
+Starting processes 79/128
+Running test read4
+Starting processes 110/128
+Running test read4
+Starting processes 128/128
+wis-read fine
+test exit :: wis-read 0
+Installing test wis-fallocate
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 455857's current affinity list: 0-63
+pid 455857's new affinity list: 0-7,16-23
+pid 455857's current affinity list: 0-7,16-23
+pid 455857's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-fallocate fine
+Starting test wis-fallocate
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 456023's current affinity list: 0-63
+pid 456023's new affinity list: 0-7,16-23
+pid 456023's current affinity list: 0-7,16-23
+pid 456023's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test fallocate1
+Starting processes 2/128
+Running test fallocate1
+Starting processes 5/128
+Running test fallocate1
+Starting processes 8/128
+Running test fallocate1
+Starting processes 12/128
+Running test fallocate1
+Starting processes 21/128
+Running test fallocate1
+Starting processes 30/128
+Running test fallocate1
+Starting processes 48/128
+Running test fallocate1
+Starting processes 79/128
+Running test fallocate1
+Starting processes 110/128
+Running test fallocate1
+Starting processes 128/128
+wis-fallocate fine
+test exit :: wis-fallocate 0
+Cleaning up

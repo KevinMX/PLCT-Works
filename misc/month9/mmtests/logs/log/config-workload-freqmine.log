@@ -1,0 +1,4268 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+Package must be a directory
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test freqmine-small
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 373136's current affinity list: 0-63
+pid 373136's new affinity list: 0-7,16-23
+pid 373136's current affinity list: 0-7,16-23
+pid 373136's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+freqmine-small fine
+Starting test freqmine-small
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 373303's current affinity list: 0-63
+pid 373303's new affinity list: 0-7,16-23
+pid 373303's current affinity list: 0-7,16-23
+pid 373303's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running small workload
+Starting threads 2/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.461959 seconds, the FPgrowth cost 4.076548 seconds
+Starting threads 2/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.440658 seconds, the FPgrowth cost 4.088396 seconds
+Starting threads 2/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.444527 seconds, the FPgrowth cost 3.986551 seconds
+Starting threads 2/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.441355 seconds, the FPgrowth cost 4.106314 seconds
+Running small workload
+Starting threads 5/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.478740 seconds, the FPgrowth cost 1.888215 seconds
+Starting threads 5/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.479884 seconds, the FPgrowth cost 1.897789 seconds
+Starting threads 5/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.539537 seconds, the FPgrowth cost 1.903611 seconds
+Starting threads 5/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.474080 seconds, the FPgrowth cost 1.900360 seconds
+Running small workload
+Starting threads 8/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.513885 seconds, the FPgrowth cost 1.637739 seconds
+Starting threads 8/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.514547 seconds, the FPgrowth cost 1.599973 seconds
+Starting threads 8/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.513166 seconds, the FPgrowth cost 1.571885 seconds
+Starting threads 8/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.515506 seconds, the FPgrowth cost 1.615764 seconds
+Running small workload
+Starting threads 12/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.548615 seconds, the FPgrowth cost 1.501312 seconds
+Starting threads 12/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.561716 seconds, the FPgrowth cost 1.517927 seconds
+Starting threads 12/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.556314 seconds, the FPgrowth cost 1.489644 seconds
+Starting threads 12/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.559911 seconds, the FPgrowth cost 1.481199 seconds
+Running small workload
+Starting threads 21/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.660939 seconds, the FPgrowth cost 1.514261 seconds
+Starting threads 21/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.649595 seconds, the FPgrowth cost 1.488387 seconds
+Starting threads 21/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.666491 seconds, the FPgrowth cost 1.538857 seconds
+Starting threads 21/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.674233 seconds, the FPgrowth cost 1.508693 seconds
+Running small workload
+Starting threads 30/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.769550 seconds, the FPgrowth cost 1.606389 seconds
+Starting threads 30/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.780713 seconds, the FPgrowth cost 1.539585 seconds
+Starting threads 30/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.774890 seconds, the FPgrowth cost 1.536110 seconds
+Starting threads 30/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.777346 seconds, the FPgrowth cost 1.646011 seconds
+Running small workload
+Starting threads 48/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.981897 seconds, the FPgrowth cost 1.602569 seconds
+Starting threads 48/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.969661 seconds, the FPgrowth cost 1.605563 seconds
+Starting threads 48/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.981552 seconds, the FPgrowth cost 1.661995 seconds
+Starting threads 48/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 0.968512 seconds, the FPgrowth cost 1.669506 seconds
+Running small workload
+Starting threads 79/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.324418 seconds, the FPgrowth cost 1.771349 seconds
+Starting threads 79/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.340723 seconds, the FPgrowth cost 1.886193 seconds
+Starting threads 79/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.346301 seconds, the FPgrowth cost 1.741463 seconds
+Starting threads 79/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.343213 seconds, the FPgrowth cost 1.788638 seconds
+Running small workload
+Starting threads 110/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.689557 seconds, the FPgrowth cost 1.917486 seconds
+Starting threads 110/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.717503 seconds, the FPgrowth cost 1.989987 seconds
+Starting threads 110/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.714100 seconds, the FPgrowth cost 1.949077 seconds
+Starting threads 110/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 1.691786 seconds, the FPgrowth cost 2.036048 seconds
+Running small workload
+Starting threads 141/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.063691 seconds, the FPgrowth cost 2.117651 seconds
+Starting threads 141/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.031491 seconds, the FPgrowth cost 2.152059 seconds
+Starting threads 141/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.055822 seconds, the FPgrowth cost 2.209112 seconds
+Starting threads 141/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.032015 seconds, the FPgrowth cost 2.167888 seconds
+Running small workload
+Starting threads 172/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.408588 seconds, the FPgrowth cost 2.302759 seconds
+Starting threads 172/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.413686 seconds, the FPgrowth cost 2.514130 seconds
+Starting threads 172/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.400024 seconds, the FPgrowth cost 2.335626 seconds
+Starting threads 172/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.428724 seconds, the FPgrowth cost 2.563943 seconds
+Running small workload
+Starting threads 203/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.811512 seconds, the FPgrowth cost 2.657139 seconds
+Starting threads 203/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.812079 seconds, the FPgrowth cost 2.835161 seconds
+Starting threads 203/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.831737 seconds, the FPgrowth cost 2.889880 seconds
+Starting threads 203/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 2.764452 seconds, the FPgrowth cost 2.865605 seconds
+Running small workload
+Starting threads 234/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.115606 seconds, the FPgrowth cost 3.072792 seconds
+Starting threads 234/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.122035 seconds, the FPgrowth cost 3.093386 seconds
+Starting threads 234/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.180475 seconds, the FPgrowth cost 3.119622 seconds
+Starting threads 234/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.179462 seconds, the FPgrowth cost 3.068466 seconds
+Running small workload
+Starting threads 256/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.789400 seconds, the FPgrowth cost 3.503459 seconds
+Starting threads 256/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.657636 seconds, the FPgrowth cost 3.508167 seconds
+Starting threads 256/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.402350 seconds, the FPgrowth cost 3.335189 seconds
+Starting threads 256/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 500000
+1571
+14359
+52747
+160979
+558009
+1853691
+5069110
+11108153
+19711123
+28660728
+34425621
+34327365
+28473765
+19625800
+11193219
+5245419
+2000973
+614147
+149301
+28028
+3869
+353
+16
+the data preparation cost 3.351425 seconds, the FPgrowth cost 3.427837 seconds
+freqmine-small fine
+test exit :: freqmine-small 0
+Installing test freqmine-medium
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 379201's current affinity list: 0-63
+pid 379201's new affinity list: 0-7,16-23
+pid 379201's current affinity list: 0-7,16-23
+pid 379201's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+freqmine-medium fine
+Starting test freqmine-medium
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 379367's current affinity list: 0-63
+pid 379367's new affinity list: 0-7,16-23
+pid 379367's current affinity list: 0-7,16-23
+pid 379367's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running medium workload
+Starting threads 2/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.884505 seconds, the FPgrowth cost 46.596237 seconds
+Starting threads 2/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.845908 seconds, the FPgrowth cost 46.297683 seconds
+Starting threads 2/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.852714 seconds, the FPgrowth cost 46.266691 seconds
+Starting threads 2/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.840673 seconds, the FPgrowth cost 46.238864 seconds
+Running medium workload
+Starting threads 5/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.878873 seconds, the FPgrowth cost 18.915880 seconds
+Starting threads 5/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.881545 seconds, the FPgrowth cost 20.233518 seconds
+Starting threads 5/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.879877 seconds, the FPgrowth cost 19.178810 seconds
+Starting threads 5/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.876340 seconds, the FPgrowth cost 19.073868 seconds
+Running medium workload
+Starting threads 8/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.913064 seconds, the FPgrowth cost 16.486977 seconds
+Starting threads 8/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.915733 seconds, the FPgrowth cost 17.003877 seconds
+Starting threads 8/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.915326 seconds, the FPgrowth cost 16.488141 seconds
+Starting threads 8/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.922028 seconds, the FPgrowth cost 15.169179 seconds
+Running medium workload
+Starting threads 12/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.957614 seconds, the FPgrowth cost 14.434089 seconds
+Starting threads 12/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.959646 seconds, the FPgrowth cost 14.645619 seconds
+Starting threads 12/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.027851 seconds, the FPgrowth cost 14.730643 seconds
+Starting threads 12/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 0.953490 seconds, the FPgrowth cost 14.745425 seconds
+Running medium workload
+Starting threads 21/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.059609 seconds, the FPgrowth cost 15.190882 seconds
+Starting threads 21/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.096974 seconds, the FPgrowth cost 14.962310 seconds
+Starting threads 21/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.071411 seconds, the FPgrowth cost 15.306102 seconds
+Starting threads 21/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.092687 seconds, the FPgrowth cost 15.419888 seconds
+Running medium workload
+Starting threads 30/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.215777 seconds, the FPgrowth cost 15.157867 seconds
+Starting threads 30/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.165789 seconds, the FPgrowth cost 15.680588 seconds
+Starting threads 30/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.168581 seconds, the FPgrowth cost 15.744818 seconds
+Starting threads 30/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.219002 seconds, the FPgrowth cost 14.794507 seconds
+Running medium workload
+Starting threads 48/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.457637 seconds, the FPgrowth cost 14.531161 seconds
+Starting threads 48/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.372762 seconds, the FPgrowth cost 14.570208 seconds
+Starting threads 48/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.372975 seconds, the FPgrowth cost 15.747812 seconds
+Starting threads 48/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.414443 seconds, the FPgrowth cost 15.803426 seconds
+Running medium workload
+Starting threads 79/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.838890 seconds, the FPgrowth cost 16.137613 seconds
+Starting threads 79/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.731641 seconds, the FPgrowth cost 15.809894 seconds
+Starting threads 79/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.716059 seconds, the FPgrowth cost 16.632836 seconds
+Starting threads 79/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 1.858592 seconds, the FPgrowth cost 16.174253 seconds
+Running medium workload
+Starting threads 110/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.084249 seconds, the FPgrowth cost 15.373263 seconds
+Starting threads 110/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.252716 seconds, the FPgrowth cost 17.365771 seconds
+Starting threads 110/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.249225 seconds, the FPgrowth cost 15.457209 seconds
+Starting threads 110/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.115514 seconds, the FPgrowth cost 17.261273 seconds
+Running medium workload
+Starting threads 141/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.458197 seconds, the FPgrowth cost 16.501856 seconds
+Starting threads 141/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.652056 seconds, the FPgrowth cost 17.347046 seconds
+Starting threads 141/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.666137 seconds, the FPgrowth cost 16.334362 seconds
+Starting threads 141/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 141
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.650325 seconds, the FPgrowth cost 17.051016 seconds
+Running medium workload
+Starting threads 172/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.052291 seconds, the FPgrowth cost 16.251294 seconds
+Starting threads 172/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.799239 seconds, the FPgrowth cost 17.852773 seconds
+Starting threads 172/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.830375 seconds, the FPgrowth cost 16.178611 seconds
+Starting threads 172/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 172
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 2.827127 seconds, the FPgrowth cost 16.084135 seconds
+Running medium workload
+Starting threads 203/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.213697 seconds, the FPgrowth cost 17.941117 seconds
+Starting threads 203/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.209380 seconds, the FPgrowth cost 17.117280 seconds
+Starting threads 203/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.138756 seconds, the FPgrowth cost 17.495767 seconds
+Starting threads 203/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 203
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.214191 seconds, the FPgrowth cost 17.235901 seconds
+Running medium workload
+Starting threads 234/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.788304 seconds, the FPgrowth cost 18.789374 seconds
+Starting threads 234/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.775958 seconds, the FPgrowth cost 18.909130 seconds
+Starting threads 234/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.585475 seconds, the FPgrowth cost 18.546670 seconds
+Starting threads 234/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 234
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.531987 seconds, the FPgrowth cost 18.347387 seconds
+Running medium workload
+Starting threads 256/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 4.063060 seconds, the FPgrowth cost 20.213515 seconds
+Starting threads 256/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 3.835153 seconds, the FPgrowth cost 22.662516 seconds
+Starting threads 256/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 4.056016 seconds, the FPgrowth cost 20.123939 seconds
+Starting threads 256/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 256
+transaction number is 990002
+1654
+15586
+59822
+202890
+810206
+3075540
+9655272
+24702901
+52070993
+91566294
+135762212
+170815294
+182630062
+165559759
+126925199
+82227840
+45046378
+20850667
+8101599
+2602812
+675130
+136988
+20888
+2271
+162
+6
+the data preparation cost 4.059298 seconds, the FPgrowth cost 20.293569 seconds
+freqmine-medium fine
+test exit :: freqmine-medium 0
+Installing test freqmine-large
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 385277's current affinity list: 0-63
+pid 385277's new affinity list: 0-7,16-23
+pid 385277's current affinity list: 0-7,16-23
+pid 385277's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+freqmine-large fine
+Starting test freqmine-large
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 385443's current affinity list: 0-63
+pid 385443's new affinity list: 0-7,16-23
+pid 385443's current affinity list: 0-7,16-23
+pid 385443's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running large workload
+Starting threads 2/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.497871 seconds, the FPgrowth cost 495.999353 seconds
+Starting threads 2/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.216073 seconds, the FPgrowth cost 494.418663 seconds
+Starting threads 2/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.210309 seconds, the FPgrowth cost 492.580810 seconds
+Starting threads 2/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 2
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.142771 seconds, the FPgrowth cost 495.372193 seconds
+Running large workload
+Starting threads 5/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.265860 seconds, the FPgrowth cost 199.530189 seconds
+Starting threads 5/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.277974 seconds, the FPgrowth cost 201.374655 seconds
+Starting threads 5/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.264482 seconds, the FPgrowth cost 201.966052 seconds
+Starting threads 5/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 5
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.247974 seconds, the FPgrowth cost 204.107773 seconds
+Running large workload
+Starting threads 8/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.292734 seconds, the FPgrowth cost 127.634054 seconds
+Starting threads 8/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.328256 seconds, the FPgrowth cost 128.320894 seconds
+Starting threads 8/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.291299 seconds, the FPgrowth cost 131.034958 seconds
+Starting threads 8/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 8
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.308052 seconds, the FPgrowth cost 129.809231 seconds
+Running large workload
+Starting threads 12/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.340356 seconds, the FPgrowth cost 94.530415 seconds
+Starting threads 12/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.335856 seconds, the FPgrowth cost 97.281569 seconds
+Starting threads 12/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.360488 seconds, the FPgrowth cost 95.314337 seconds
+Starting threads 12/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 12
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.366496 seconds, the FPgrowth cost 95.337573 seconds
+Running large workload
+Starting threads 21/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.477237 seconds, the FPgrowth cost 67.468157 seconds
+Starting threads 21/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.495026 seconds, the FPgrowth cost 68.449566 seconds
+Starting threads 21/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.494920 seconds, the FPgrowth cost 67.312011 seconds
+Starting threads 21/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 21
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.468939 seconds, the FPgrowth cost 67.378466 seconds
+Running large workload
+Starting threads 30/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.577851 seconds, the FPgrowth cost 59.020833 seconds
+Starting threads 30/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.532335 seconds, the FPgrowth cost 58.578675 seconds
+Starting threads 30/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.589336 seconds, the FPgrowth cost 58.914592 seconds
+Starting threads 30/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 30
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.645543 seconds, the FPgrowth cost 58.392832 seconds
+Running large workload
+Starting threads 48/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.814054 seconds, the FPgrowth cost 53.572335 seconds
+Starting threads 48/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.793992 seconds, the FPgrowth cost 53.378342 seconds
+Starting threads 48/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.820955 seconds, the FPgrowth cost 52.168178 seconds
+Starting threads 48/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 48
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 5.811399 seconds, the FPgrowth cost 53.183504 seconds
+Running large workload
+Starting threads 79/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 6.204638 seconds, the FPgrowth cost 342.488041 seconds
+Starting threads 79/256 iteration 2/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 6.200408 seconds, the FPgrowth cost 89.068346 seconds
+Starting threads 79/256 iteration 3/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 6.181731 seconds, the FPgrowth cost 311.735050 seconds
+Starting threads 79/256 iteration 4/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 79
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 6.214174 seconds, the FPgrowth cost 96.152695 seconds
+Running large workload
+Starting threads 110/256 iteration 1/4
+PARSEC Benchmark Suite
+Number of threads (openmp support [on]): 110
+transaction number is 250000
+829
+28599
+363898
+2699198
+13410070
+47495313
+124190838
+245065199
+369974305
+430373350
+386138019
+265795578
+138598934
+53551164
+14790217
+2753445
+311877
+17498
+269
+the data preparation cost 6.537539 seconds, the FPgrowth cost 316.185474 seconds
+Starting threads 110/256 iteration 2/4
+PARSEC Benchmark Suite
+Terminated
+Interrupt received, shutting down freqmine-large
+Interrupt received but test not running to shutdown
+test exit :: freqmine-large 143
+Cleaning up
+run-mmtests.sh: line 22: /tmp/mmtest-cleanup-R34nTSxko: No such file or directory

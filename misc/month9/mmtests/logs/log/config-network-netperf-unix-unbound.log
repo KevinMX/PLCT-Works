@@ -1,0 +1,547 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test netperf-unix
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 52654's current affinity list: 0-63
+pid 52654's new affinity list: 0-7,16-23
+pid 52654's current affinity list: 0-7,16-23
+pid 52654's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+netperf-unix fine
+Starting test netperf-unix
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 52849's current affinity list: 0-63
+pid 52849's new affinity list: 0-7,16-23
+pid 52849's current affinity list: 0-7,16-23
+pid 52849's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Killing old servers
+netserver: no process found
+Starting server
+Starting netserver at port 12865
+Starting netserver at hostname 0.0.0.0 port 12865 and family AF_UNSPEC
+Running test STREAM_STREAM iteration 1/5 size 64 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 64 -M 64
+Waiting on pid 53022 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608      64    10.00     134.35   
+Running test STREAM_STREAM iteration 2/5 size 64 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 64 -M 64
+Waiting on pid 53048 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608      64    10.00     140.61   
+Running test STREAM_STREAM iteration 3/5 size 64 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 64 -M 64
+Waiting on pid 53074 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608      64    10.00     136.05   
+Running test STREAM_STREAM iteration 4/5 size 64 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 64 -M 64
+Waiting on pid 53100 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608      64    10.00     134.70   
+Running test STREAM_STREAM iteration 5/5 size 64 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 64 -M 64
+Waiting on pid 53127 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608      64    10.00     131.19   
+Running test STREAM_STREAM iteration 1/5 size 128 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 128 -M 128
+Waiting on pid 53166 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     128    10.00     280.32   
+Running test STREAM_STREAM iteration 2/5 size 128 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 128 -M 128
+Waiting on pid 53193 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     128    10.00     239.23   
+Running test STREAM_STREAM iteration 3/5 size 128 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 128 -M 128
+Waiting on pid 53219 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     128    10.00     278.11   
+Running test STREAM_STREAM iteration 4/5 size 128 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 128 -M 128
+Waiting on pid 53245 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     128    10.00     278.23   
+Running test STREAM_STREAM iteration 5/5 size 128 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 128 -M 128
+Waiting on pid 53271 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     128    10.00     281.44   
+Running test STREAM_STREAM iteration 1/5 size 256 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 256 -M 256
+Waiting on pid 53299 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     256    10.00     489.71   
+Running test STREAM_STREAM iteration 2/5 size 256 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 256 -M 256
+Waiting on pid 53336 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     256    10.00     470.56   
+Running test STREAM_STREAM iteration 3/5 size 256 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 256 -M 256
+Waiting on pid 53362 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     256    10.00     472.78   
+Running test STREAM_STREAM iteration 4/5 size 256 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 256 -M 256
+Waiting on pid 53388 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     256    10.00     495.64   
+Running test STREAM_STREAM iteration 5/5 size 256 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 256 -M 256
+Waiting on pid 53414 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608     256    10.00     478.19   
+Running test STREAM_STREAM iteration 1/5 size 1024 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 1024 -M 1024
+Waiting on pid 53442 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    1024    10.00     279.98   
+Running test STREAM_STREAM iteration 2/5 size 1024 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 1024 -M 1024
+Waiting on pid 53468 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    1024    10.00     274.87   
+Running test STREAM_STREAM iteration 3/5 size 1024 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 1024 -M 1024
+Waiting on pid 53495 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    1024    10.00     236.32   
+Running test STREAM_STREAM iteration 4/5 size 1024 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 1024 -M 1024
+Waiting on pid 53521 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    1024    10.00     247.31   
+Running test STREAM_STREAM iteration 5/5 size 1024 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 1024 -M 1024
+Waiting on pid 53547 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    1024    10.00     264.92   
+Running test STREAM_STREAM iteration 1/5 size 2048 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 2048 -M 2048
+Waiting on pid 53575 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    2048    10.00     509.73   
+Running test STREAM_STREAM iteration 2/5 size 2048 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 2048 -M 2048
+Waiting on pid 53601 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    2048    10.00     505.72   
+Running test STREAM_STREAM iteration 3/5 size 2048 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 2048 -M 2048
+Waiting on pid 53628 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    2048    10.00     544.13   
+Running test STREAM_STREAM iteration 4/5 size 2048 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 2048 -M 2048
+Waiting on pid 53654 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    2048    10.00     525.56   
+Running test STREAM_STREAM iteration 5/5 size 2048 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 2048 -M 2048
+Waiting on pid 53680 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    2048    10.00     526.92   
+Running test STREAM_STREAM iteration 1/5 size 3312 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 3312 -M 3312
+Waiting on pid 53708 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    3312    10.00     447.44   
+Running test STREAM_STREAM iteration 2/5 size 3312 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 3312 -M 3312
+Waiting on pid 53735 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    3312    10.00     473.35   
+Running test STREAM_STREAM iteration 3/5 size 3312 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 3312 -M 3312
+Waiting on pid 53761 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    3312    10.00     461.87   
+Running test STREAM_STREAM iteration 4/5 size 3312 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 3312 -M 3312
+Waiting on pid 53787 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    3312    10.00     446.96   
+Running test STREAM_STREAM iteration 5/5 size 3312 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 3312 -M 3312
+Waiting on pid 53813 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    3312    10.00     415.11   
+Running test STREAM_STREAM iteration 1/5 size 4096 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 4096 -M 4096
+Waiting on pid 53841 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    4096    10.00     539.95   
+Running test STREAM_STREAM iteration 2/5 size 4096 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 4096 -M 4096
+Waiting on pid 53867 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    4096    10.00     528.46   
+Running test STREAM_STREAM iteration 3/5 size 4096 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 4096 -M 4096
+Waiting on pid 53893 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    4096    10.00     553.37   
+Running test STREAM_STREAM iteration 4/5 size 4096 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 4096 -M 4096
+Waiting on pid 53919 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    4096    10.00     496.60   
+Running test STREAM_STREAM iteration 5/5 size 4096 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 4096 -M 4096
+Waiting on pid 53947 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    4096    10.00     560.15   
+Running test STREAM_STREAM iteration 1/5 size 8192 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 8192 -M 8192
+Waiting on pid 53976 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    8192    10.00     498.03   
+Running test STREAM_STREAM iteration 2/5 size 8192 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 8192 -M 8192
+Waiting on pid 54002 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    8192    10.00     504.83   
+Running test STREAM_STREAM iteration 3/5 size 8192 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 8192 -M 8192
+Waiting on pid 54028 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    8192    10.00     537.31   
+Running test STREAM_STREAM iteration 4/5 size 8192 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 8192 -M 8192
+Waiting on pid 54054 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    8192    10.00     520.37   
+Running test STREAM_STREAM iteration 5/5 size 8192 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 8192 -M 8192
+Waiting on pid 54080 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608    8192    10.00     484.86   
+Running test STREAM_STREAM iteration 1/5 size 16384 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 16384 -M 16384
+Waiting on pid 54109 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608   16384    10.00     530.55   
+Running test STREAM_STREAM iteration 2/5 size 16384 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 16384 -M 16384
+Waiting on pid 54135 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608   16384    10.00     562.78   
+Running test STREAM_STREAM iteration 3/5 size 16384 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 16384 -M 16384
+Waiting on pid 54161 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608   16384    10.00     552.20   
+Running test STREAM_STREAM iteration 4/5 size 16384 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 16384 -M 16384
+Waiting on pid 54187 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608   16384    10.00     560.64   
+Running test STREAM_STREAM iteration 5/5 size 16384 nr_pairs 1
+netperf -t STREAM_STREAM -i 3,3 -I 95,5 -H 127.0.0.1 -- -m 16384 -M 16384
+Waiting on pid 54213 to shutdown.........
+STREAM STREAM TEST
+Recv   Send    Send                          
+Socket Socket  Message  Elapsed              
+Size   Size    Size     Time     Throughput  
+bytes  bytes   bytes    secs.    10^6bits/sec  
+
+ 2304   4608   16384    10.00     532.36   
+netperf-unix fine
+test exit :: netperf-unix 0
+Cleaning up

@@ -1,0 +1,3353 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 954945's current affinity list: 0-63
+pid 954945's new affinity list: 0-7,16-23
+pid 954945's current affinity list: 0-7,16-23
+pid 954945's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+ltp fine
+Starting test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 955090's current affinity list: 0-63
+pid 955090's new affinity list: 0-7,16-23
+pid 955090's current affinity list: 0-7,16-23
+pid 955090's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Executing LTP test
+Real-time tests run
+ Running 1 runs of func 
+--- Running testcase hrtimer-prio  ---
+Wed Jan 10 13:15:50 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-hrtimer-prio.log
+
+-------------------------------------------
+High Resolution Timer Priority (Starvation)
+-------------------------------------------
+
+Running 10000 iterations
+Running with 128 busy threads
+Busy thread work time: 10
+Busy thread priority: 60
+Timer thread priority: 61
+All Busy Threads started, commencing test
+Minimum: 14 us
+Maximum: 96 us
+Average: 37.467400 us
+Standard Deviation: 6.674472
+Quantiles:
+99.0% < 53
+99.9% < 75
+99.99% < 96
+
+Criteria: Maximum wakeup latency < 10 us
+Result: FAIL
+
+Wed Jan 10 13:15:51 CST 2024
+The hrtimer-prio test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase tc-2 -c 0.5  ---
+Wed Jan 10 13:15:51 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-tc-2-c0.5.log
+
+5 sleeper threads created
+
+2 worker threads created
+
+Please wait...
+
+Process: 0.0212 s
+Threads: 0.0010 s
+Delta:   0.0202 s
+
+Criteria: Delta < 0.5000 s
+Result: PASS
+
+Wed Jan 10 13:15:56 CST 2024
+The tc-2 test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase prio-wake  ---
+Wed Jan 10 13:15:58 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-prio-wake.log
+000000: 00000651 us: RealtimeThread-990254048 pri 001 started
+000001: 00011072 us: RealtimeThread-990254544 pri 002 started
+000002: 00074349 us: RealtimeThread-990255536 pri 004 started
+000003: 00078578 us: RealtimeThread-990263472 pri 020 started
+000004: 00078743 us: RealtimeThread-990258512 pri 010 started
+000005: 00078745 us: RealtimeThread-990263968 pri 021 started
+000006: 00088597 us: RealtimeThread-990262480 pri 018 started
+000007: 00088608 us: RealtimeThread-990261488 pri 016 started
+000008: 00088762 us: RealtimeThread-990282816 pri 059 started
+000009: 00088793 us: RealtimeThread-990258016 pri 009 started
+000010: 00090537 us: RealtimeThread-990255040 pri 003 started
+000011: 00092649 us: RealtimeThread-990260000 pri 013 started
+000012: 00093448 us: RealtimeThread-990260496 pri 014 started
+000013: 00095371 us: RealtimeThread-990279840 pri 053 started
+000014: 00095415 us: RealtimeThread-990269920 pri 033 started
+000015: 00095658 us: RealtimeThread-990267936 pri 029 started
+000016: 00096542 us: RealtimeThread-990278352 pri 050 started
+000017: 00100603 us: RealtimeThread-990284800 pri 063 started
+000018: 00102802 us: RealtimeThread-990276368 pri 046 started
+000019: 00102802 us: RealtimeThread-990271904 pri 037 started
+000020: 00104385 us: RealtimeThread-990271408 pri 036 started
+000021: 00109986 us: RealtimeThread-990276864 pri 047 started
+000022: 00110574 us: RealtimeThread-990281328 pri 056 started
+000023: 00110646 us: RealtimeThread-990256032 pri 005 started
+000024: 00111229 us: RealtimeThread-990272400 pri 038 started
+000025: 00111715 us: RealtimeThread-990282320 pri 058 started
+000026: 00112912 us: RealtimeThread-990266944 pri 027 started
+000027: 00113928 us: RealtimeThread-990268432 pri 030 started
+000028: 00115675 us: RealtimeThread-990264960 pri 023 started
+000029: 00118608 us: RealtimeThread-990275376 pri 044 started
+000030: 00119761 us: RealtimeThread-990268928 pri 031 started
+000031: 00121007 us: RealtimeThread-990264464 pri 022 started
+000032: 00122326 us: RealtimeThread-990279344 pri 052 started
+000033: 00123128 us: RealtimeThread-990261984 pri 017 started
+000034: 00125905 us: RealtimeThread-990278848 pri 051 started
+000035: 00125906 us: RealtimeThread-990277360 pri 048 started
+000036: 00125976 us: RealtimeThread-990283312 pri 060 started
+000037: 00129128 us: RealtimeThread-990281824 pri 057 started
+000038: 00133950 us: RealtimeThread-990275872 pri 045 started
+000039: 00135108 us: RealtimeThread-990257024 pri 007 started
+000040: 00142747 us: RealtimeThread-990273392 pri 040 started
+000041: 00146902 us: RealtimeThread-990257520 pri 008 started
+000042: 00148880 us: RealtimeThread-990277856 pri 049 started
+000043: 00150123 us: RealtimeThread-990285296 pri 064 started
+000044: 00151348 us: RealtimeThread-990284304 pri 062 started
+000045: 00157906 us: RealtimeThread-990272896 pri 039 started
+000046: 00161961 us: RealtimeThread-990259504 pri 012 started
+000047: 00163305 us: RealtimeThread-990266448 pri 026 started
+000048: 00163767 us: RealtimeThread-990262976 pri 019 started
+000049: 00169440 us: RealtimeThread-990270416 pri 034 started
+000050: 00171530 us: RealtimeThread-990270912 pri 035 started
+000051: 00173548 us: RealtimeThread-990256528 pri 006 started
+000052: 00192919 us: RealtimeThread-990274384 pri 042 started
+000053: 00194138 us: RealtimeThread-990269424 pri 032 started
+000054: 00243417 us: RealtimeThread-990280336 pri 054 started
+000055: 00255191 us: RealtimeThread-990265952 pri 025 started
+000056: 00264977 us: RealtimeThread-990265456 pri 024 started
+000057: 00265901 us: RealtimeThread-990283808 pri 061 started
+000058: 00298755 us: RealtimeThread-990280832 pri 055 started
+000059: 00301927 us: RealtimeThread-990259008 pri 011 started
+000060: 00319287 us: RealtimeThread-990260992 pri 015 started
+000061: 00342682 us: RealtimeThread-990267440 pri 028 started
+000062: 00368482 us: RealtimeThread-990274880 pri 043 started
+000063: 00382290 us: RealtimeThread-990273888 pri 041 started
+000064: 00452957 us: RealtimeThread-990279840 pri 053 awake
+000065: 00453497 us: RealtimeThread-990284800 pri 063 awake
+000066: 00453908 us: RealtimeThread-990276864 pri 047 awake
+000067: 00455651 us: RealtimeThread-990270912 pri 035 awake
+000068: 00455668 us: RealtimeThread-990271408 pri 036 awake
+000069: 00458166 us: RealtimeThread-990281328 pri 056 awake
+000070: 00460168 us: RealtimeThread-990283312 pri 060 awake
+000071: 00461934 us: RealtimeThread-990278352 pri 050 awake
+000072: 00466193 us: RealtimeThread-990275872 pri 045 awake
+000073: 00469927 us: RealtimeThread-990271904 pri 037 awake
+000074: 00472813 us: RealtimeThread-990282320 pri 058 awake
+000075: 00474504 us: RealtimeThread-990278848 pri 051 awake
+000076: 00475412 us: RealtimeThread-990267936 pri 029 awake
+000077: 00480175 us: RealtimeThread-990264960 pri 023 awake
+000078: 00481547 us: RealtimeThread-990284304 pri 062 awake
+000079: 00482775 us: RealtimeThread-990267440 pri 028 awake
+000080: 00484048 us: RealtimeThread-990269424 pri 032 awake
+000081: 00484081 us: RealtimeThread-990268928 pri 031 awake
+000082: 00485726 us: RealtimeThread-990276368 pri 046 awake
+000083: 00485778 us: RealtimeThread-990264464 pri 022 awake
+000084: 00487385 us: RealtimeThread-990280832 pri 055 awake
+000085: 00489723 us: RealtimeThread-990261488 pri 016 awake
+000086: 00489757 us: RealtimeThread-990281824 pri 057 awake
+000087: 00490636 us: RealtimeThread-990272400 pri 038 awake
+000088: 00492254 us: RealtimeThread-990273392 pri 040 awake
+000089: 00494256 us: RealtimeThread-990277360 pri 048 awake
+000090: 00496760 us: RealtimeThread-990268432 pri 030 awake
+000091: 00498001 us: RealtimeThread-990273888 pri 041 awake
+000092: 00500421 us: RealtimeThread-990275376 pri 044 awake
+000093: 00501510 us: RealtimeThread-990258512 pri 010 awake
+000094: 00501588 us: RealtimeThread-990263472 pri 020 awake
+000095: 00501663 us: RealtimeThread-990260496 pri 014 awake
+000096: 00503294 us: RealtimeThread-990277856 pri 049 awake
+000097: 00505510 us: RealtimeThread-990260992 pri 015 awake
+000098: 00510229 us: RealtimeThread-990272896 pri 039 awake
+000099: 00515521 us: RealtimeThread-990270416 pri 034 awake
+000100: 00516338 us: RealtimeThread-990257520 pri 008 awake
+000101: 00520775 us: RealtimeThread-990279344 pri 052 awake
+000102: 00528205 us: RealtimeThread-990265952 pri 025 awake
+000103: 00530971 us: RealtimeThread-990285296 pri 064 awake
+000104: 00531334 us: RealtimeThread-990280336 pri 054 awake
+000105: 00531352 us: RealtimeThread-990260000 pri 013 awake
+000106: 00531822 us: RealtimeThread-990256528 pri 006 awake
+000107: 00531857 us: RealtimeThread-990257024 pri 007 awake
+000108: 00536827 us: RealtimeThread-990256032 pri 005 awake
+000109: 00537634 us: RealtimeThread-990263968 pri 021 awake
+000110: 00538418 us: RealtimeThread-990258016 pri 009 awake
+000111: 00539704 us: RealtimeThread-990255536 pri 004 awake
+000112: 00544952 us: RealtimeThread-990265456 pri 024 awake
+000113: 00550931 us: RealtimeThread-990262976 pri 019 awake
+000114: 00552840 us: RealtimeThread-990266944 pri 027 awake
+000115: 00555877 us: RealtimeThread-990274384 pri 042 awake
+000116: 00557693 us: RealtimeThread-990255040 pri 003 awake
+000117: 00557974 us: RealtimeThread-990254544 pri 002 awake
+000118: 00560159 us: RealtimeThread-990282816 pri 059 awake
+000119: 00564323 us: RealtimeThread-990254048 pri 001 awake
+000120: 00569093 us: RealtimeThread-990262480 pri 018 awake
+000121: 00570459 us: RealtimeThread-990274880 pri 043 awake
+000122: 00589024 us: RealtimeThread-990283808 pri 061 awake
+000123: 00593916 us: RealtimeThread-990259008 pri 011 awake
+000124: 00622187 us: RealtimeThread-990269920 pri 033 awake
+000125: 00648147 us: RealtimeThread-990266448 pri 026 awake
+000126: 00656960 us: RealtimeThread-990261984 pri 017 awake
+000127: 00715113 us: RealtimeThread-990259504 pri 012 awake
+
+-----------------------
+Priority Ordered Wakeup
+-----------------------
+Worker Threads: 64
+Calling pthread_cond_broadcast() with mutex: LOCKED
+
+00452107 us: Master thread about to wake the workers
+
+Criteria: Threads should be woken up in priority order
+FAIL: Thread 53 woken before 63
+FAIL: Thread 35 woken before 36
+FAIL: Thread 36 woken before 56
+FAIL: Thread 56 woken before 60
+FAIL: Thread 37 woken before 58
+FAIL: Thread 23 woken before 62
+FAIL: Thread 28 woken before 32
+FAIL: Thread 31 woken before 46
+FAIL: Thread 22 woken before 55
+FAIL: Thread 16 woken before 57
+FAIL: Thread 38 woken before 40
+FAIL: Thread 40 woken before 48
+FAIL: Thread 30 woken before 41
+FAIL: Thread 41 woken before 44
+FAIL: Thread 10 woken before 20
+FAIL: Thread 14 woken before 49
+FAIL: Thread 15 woken before 39
+FAIL: Thread 8 woken before 52
+FAIL: Thread 25 woken before 64
+FAIL: Thread 6 woken before 7
+FAIL: Thread 5 woken before 21
+FAIL: Thread 4 woken before 24
+FAIL: Thread 19 woken before 27
+FAIL: Thread 27 woken before 42
+FAIL: Thread 2 woken before 59
+FAIL: Thread 1 woken before 18
+FAIL: Thread 18 woken before 43
+FAIL: Thread 43 woken before 61
+FAIL: Thread 11 woken before 33
+Result: FAIL
+
+Wed Jan 10 13:15:59 CST 2024
+The prio-wake test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase periodic_cpu_load  ---
+Wed Jan 10 13:16:01 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-periodic_cpu_load.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 6000 iterations per thread
+Thread Group A:
+  threads: 4
+  priority: 63
+  period: 40 ms
+Thread Group B:
+  threads: 4
+  priority: 53
+  period: 80 ms
+Thread Group C:
+  threads: 4
+  priority: 43
+  period: 160 ms
+
+TID 3 missed period, aborting
+TID 3 (A - prio 63) complete
+TID 2 missed period, aborting
+TID 2 (A - prio 63) complete
+TID 1 missed period, aborting
+TID 1 (A - prio 63) complete
+TID 4 missed period, aborting
+TID 4 (B - prio 53) complete
+TID 0 missed period, aborting
+TID 0 (A - prio 63) complete
+TID 5 missed period, aborting
+TID 5 (B - prio 53) complete
+TID 7 missed period, aborting
+TID 7 (B - prio 53) complete
+TID 8 missed period, aborting
+TID 8 (C - prio 43) complete
+TID 6 missed period, aborting
+TID 6 (B - prio 53) complete
+TID 10 missed period, aborting
+TID 10 (C - prio 43) complete
+TID 11 missed period, aborting
+TID 11 (C - prio 43) complete
+TID 9 missed period, aborting
+TID 9 (C - prio 43) complete
+
+Execution Time Statistics:
+
+TID 0 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 0 did not miss a period
+Result: FAIL
+
+TID 1 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 1 did not miss a period
+Result: FAIL
+
+TID 2 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 2 did not miss a period
+Result: FAIL
+
+TID 3 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 3 did not miss a period
+Result: FAIL
+
+TID 4 (B)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 4 did not miss a period
+Result: FAIL
+
+TID 5 (B)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 5 did not miss a period
+Result: FAIL
+
+TID 6 (B)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 6 did not miss a period
+Result: FAIL
+
+TID 7 (B)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 7 did not miss a period
+Result: FAIL
+
+TID 8 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 8 did not miss a period
+Result: FAIL
+
+TID 9 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 9 did not miss a period
+Result: FAIL
+
+TID 10 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 10 did not miss a period
+Result: FAIL
+
+TID 11 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 11 did not miss a period
+Result: FAIL
+
+
+Wed Jan 10 13:16:06 CST 2024
+The periodic_cpu_load test appears to have completed.
+--- Running testcase periodic_cpu_load_single  ---
+Wed Jan 10 13:16:06 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-periodic_cpu_load_single.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 10000 iterations
+priority: 90
+  period: 5 ms
+   loops: 1000
+    logs: pcl*
+Missed period, aborting (didn't get scheduled in time)
+  Execution Time Statistics:
+Min: 4101 us
+Max: 4289 us
+Avg: 4200.7334 us
+StdDev: 54.0771 us
+Quantiles:
+99.0% < 0
+99.9% < 0
+99.99% < 0
+Criteria: no missed periods
+Result: FAIL
+
+Wed Jan 10 13:16:07 CST 2024
+The periodic_cpu_load_single test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase sched_latency -d 1 -t 5 -c 100  ---
+Wed Jan 10 13:16:08 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-sched_latency-d1-t5-c100.log
+-------------------------------
+Scheduling Latency
+-------------------------------
+
+Running 10000 iterations with a period of 5 ms
+Periodic load duration: 1 ms
+Expected running time: 50 s
+
+PERIOD MISSED!
+     scheduled delta:     4999 us
+	actual delta:   148236 us
+	     latency:   143236 us
+---------------------------------------
+      previous start:   148236 us
+		 now:   149370 us
+     scheduled start:    10000 us
+next scheduled start is in the past!
+
+
+Start: 4957 us: FAIL
+Min:   143236 us: FAIL
+Max:   143236 us: FAIL
+Avg:   143236 us: FAIL
+StdDev: 0.0000 us
+Quantiles:
+99.0% < 0
+99.9% < 0
+99.99% < 0
+Failed Iterations: 1
+
+Criteria: latencies < 100 us
+Result: FAIL
+
+Wed Jan 10 13:16:08 CST 2024
+The sched_latency test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase testpi-0  ---
+Wed Jan 10 13:16:09 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-0.log
+LIBC_VERSION: glibc 2.38
+LIBPTHREAD_VERSION: NPTL 2.38
+Prio inheritance support present
+
+Wed Jan 10 13:16:09 CST 2024
+The testpi-0 test appears to have completed.
+--- Running testcase testpi-1  ---
+Wed Jan 10 13:16:09 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-1.log
+Start ./testpi-1
+Thread 955538 started running with prio 20
+Thread 955539 started running with prio 30
+Thread 955540 started running with prio 40
+Noise Thread 955541 started running with prio 40
+Joining threads
+Thread 955537 started running with priority 0
+Thread 955537 at start pthread pol 0 pri 0 - Got global lock
+Noise Thread 955541 loop 0 pthread pol 2 pri 40
+Thread 955537 loop 0 pthread pol 0 pri 0
+Thread 955537 loop 100 pthread pol 0 pri 0
+Thread 955537 loop 200 pthread pol 0 pri 0
+Thread 955537 loop 300 pthread pol 0 pri 0
+Thread 955537 loop 400 pthread pol 0 pri 0
+Thread 955537 loop 500 pthread pol 0 pri 0
+Thread 955537 loop 600 pthread pol 0 pri 0
+Thread 955537 loop 700 pthread pol 0 pri 0
+Thread 955537 loop 800 pthread pol 0 pri 0
+Thread 955537 loop 900 pthread pol 0 pri 0
+Thread 955537 loop 1000 pthread pol 0 pri 0
+Thread 955537 loop 1100 pthread pol 0 pri 0
+Thread 955537 loop 1200 pthread pol 0 pri 0
+Thread 955537 loop 1300 pthread pol 0 pri 0
+Thread 955537 loop 1400 pthread pol 0 pri 0
+Thread 955537 loop 1500 pthread pol 0 pri 0
+Thread 955537 loop 1600 pthread pol 0 pri 0
+Thread 955537 loop 1700 pthread pol 0 pri 0
+Thread 955537 loop 1800 pthread pol 0 pri 0
+Thread 955537 loop 1900 pthread pol 0 pri 0
+Thread 955537 loop 2000 pthread pol 0 pri 0
+Thread 955537 loop 2100 pthread pol 0 pri 0
+Thread 955537 loop 2200 pthread pol 0 pri 0
+Thread 955537 loop 2300 pthread pol 0 pri 0
+Thread 955537 loop 2400 pthread pol 0 pri 0
+Thread 955537 loop 2500 pthread pol 0 pri 0
+Thread 955537 loop 2600 pthread pol 0 pri 0
+Thread 955537 loop 2700 pthread pol 0 pri 0
+Thread 955537 loop 2800 pthread pol 0 pri 0
+Thread 955537 loop 2900 pthread pol 0 pri 0
+Thread 955537 loop 3000 pthread pol 0 pri 0
+Thread 955537 loop 3100 pthread pol 0 pri 0
+Thread 955537 loop 3200 pthread pol 0 pri 0
+Thread 955537 loop 3300 pthread pol 0 pri 0
+Thread 955537 loop 3400 pthread pol 0 pri 0
+Thread 955537 loop 3500 pthread pol 0 pri 0
+Thread 955537 loop 3600 pthread pol 0 pri 0
+Thread 955537 loop 3700 pthread pol 0 pri 0
+Thread 955537 loop 3800 pthread pol 0 pri 0
+Thread 955537 loop 3900 pthread pol 0 pri 0
+Thread 955537 loop 4000 pthread pol 0 pri 0
+Thread 955537 loop 4100 pthread pol 0 pri 0
+Thread 955537 loop 4200 pthread pol 0 pri 0
+Thread 955537 loop 4300 pthread pol 0 pri 0
+Thread 955537 loop 4400 pthread pol 0 pri 0
+Thread 955537 loop 4500 pthread pol 0 pri 0
+Thread 955537 loop 4600 pthread pol 0 pri 0
+Thread 955537 loop 4700 pthread pol 0 pri 0
+Thread 955537 loop 4800 pthread pol 0 pri 0
+Thread 955537 loop 4900 pthread pol 0 pri 0
+Thread 955537 loop 5000 pthread pol 0 pri 0
+Thread 955537 loop 5100 pthread pol 0 pri 0
+Thread 955537 loop 5200 pthread pol 0 pri 0
+Thread 955537 loop 5300 pthread pol 0 pri 0
+Thread 955537 loop 5400 pthread pol 0 pri 0
+Thread 955537 loop 5500 pthread pol 0 pri 0
+Thread 955537 loop 5600 pthread pol 0 pri 0
+Thread 955537 loop 5700 pthread pol 0 pri 0
+Thread 955537 loop 5800 pthread pol 0 pri 0
+Thread 955537 loop 5900 pthread pol 0 pri 0
+Thread 955537 loop 6000 pthread pol 0 pri 0
+Thread 955537 loop 6100 pthread pol 0 pri 0
+Thread 955537 loop 6200 pthread pol 0 pri 0
+Thread 955537 loop 6300 pthread pol 0 pri 0
+Thread 955537 loop 6400 pthread pol 0 pri 0
+Thread 955537 loop 6500 pthread pol 0 pri 0
+Thread 955537 loop 6600 pthread pol 0 pri 0
+Thread 955537 loop 6700 pthread pol 0 pri 0
+Thread 955537 loop 6800 pthread pol 0 pri 0
+Thread 955537 loop 6900 pthread pol 0 pri 0
+Thread 955537 loop 7000 pthread pol 0 pri 0
+Thread 955537 loop 7100 pthread pol 0 pri 0
+Thread 955537 loop 7200 pthread pol 0 pri 0
+Thread 955537 loop 7300 pthread pol 0 pri 0
+Thread 955537 loop 7400 pthread pol 0 pri 0
+Thread 955537 loop 7500 pthread pol 0 pri 0
+Thread 955537 loop 7600 pthread pol 0 pri 0
+Thread 955537 loop 7700 pthread pol 0 pri 0
+Thread 955537 loop 7800 pthread pol 0 pri 0
+Thread 955537 loop 7900 pthread pol 0 pri 0
+Thread 955537 loop 8000 pthread pol 0 pri 0
+Thread 955537 loop 8100 pthread pol 0 pri 0
+Thread 955537 loop 8200 pthread pol 0 pri 0
+Thread 955537 loop 8300 pthread pol 0 pri 0
+Thread 955537 loop 8400 pthread pol 0 pri 0
+Thread 955537 loop 8500 pthread pol 0 pri 0
+Thread 955537 loop 8600 pthread pol 0 pri 0
+Thread 955537 loop 8700 pthread pol 0 pri 0
+Thread 955537 loop 8800 pthread pol 0 pri 0
+Thread 955537 loop 8900 pthread pol 0 pri 0
+Thread 955537 loop 9000 pthread pol 0 pri 0
+Thread 955537 loop 9100 pthread pol 0 pri 0
+Thread 955537 loop 9200 pthread pol 0 pri 0
+Thread 955537 loop 9300 pthread pol 0 pri 0
+Thread 955537 loop 9400 pthread pol 0 pri 0
+Thread 955537 loop 9500 pthread pol 0 pri 0
+Thread 955537 loop 9600 pthread pol 0 pri 0
+Thread 955537 loop 9700 pthread pol 0 pri 0
+Thread 955537 loop 9800 pthread pol 0 pri 0
+Thread 955537 loop 9900 pthread pol 0 pri 0
+Noise Thread 955541 loop 100 pthread pol 2 pri 40
+Thread 955540 at start pthread pol 2 pri 40 - Got global lock
+Thread 955540 loop 0 pthread pol 2 pri 40
+Thread 955540 loop 100 pthread pol 2 pri 40
+Noise Thread 955541 loop 200 pthread pol 2 pri 40
+Noise Thread 955541 loop 300 pthread pol 2 pri 40
+Thread 955540 loop 200 pthread pol 2 pri 40
+Noise Thread 955541 loop 400 pthread pol 2 pri 40
+Thread 955540 loop 300 pthread pol 2 pri 40
+Noise Thread 955541 loop 500 pthread pol 2 pri 40
+Thread 955540 loop 400 pthread pol 2 pri 40
+Noise Thread 955541 loop 600 pthread pol 2 pri 40
+Thread 955540 loop 500 pthread pol 2 pri 40
+Noise Thread 955541 loop 700 pthread pol 2 pri 40
+Thread 955540 loop 600 pthread pol 2 pri 40
+Noise Thread 955541 loop 800 pthread pol 2 pri 40
+Thread 955540 loop 700 pthread pol 2 pri 40
+Noise Thread 955541 loop 900 pthread pol 2 pri 40
+Thread 955540 loop 800 pthread pol 2 pri 40
+Noise Thread 955541 loop 1000 pthread pol 2 pri 40
+Thread 955540 loop 900 pthread pol 2 pri 40
+Noise Thread 955541 loop 1100 pthread pol 2 pri 40
+Noise Thread 955541 loop 1200 pthread pol 2 pri 40
+Noise Thread 955541 loop 1300 pthread pol 2 pri 40
+Noise Thread 955541 loop 1400 pthread pol 2 pri 40
+Noise Thread 955541 loop 1500 pthread pol 2 pri 40
+Noise Thread 955541 loop 1600 pthread pol 2 pri 40
+Noise Thread 955541 loop 1700 pthread pol 2 pri 40
+Noise Thread 955541 loop 1800 pthread pol 2 pri 40
+Noise Thread 955541 loop 1900 pthread pol 2 pri 40
+Noise Thread 955541 loop 2000 pthread pol 2 pri 40
+Noise Thread 955541 loop 2100 pthread pol 2 pri 40
+Noise Thread 955541 loop 2200 pthread pol 2 pri 40
+Noise Thread 955541 loop 2300 pthread pol 2 pri 40
+Noise Thread 955541 loop 2400 pthread pol 2 pri 40
+Noise Thread 955541 loop 2500 pthread pol 2 pri 40
+Noise Thread 955541 loop 2600 pthread pol 2 pri 40
+Noise Thread 955541 loop 2700 pthread pol 2 pri 40
+Noise Thread 955541 loop 2800 pthread pol 2 pri 40
+Noise Thread 955541 loop 2900 pthread pol 2 pri 40
+Noise Thread 955541 loop 3000 pthread pol 2 pri 40
+Noise Thread 955541 loop 3100 pthread pol 2 pri 40
+Noise Thread 955541 loop 3200 pthread pol 2 pri 40
+Noise Thread 955541 loop 3300 pthread pol 2 pri 40
+Noise Thread 955541 loop 3400 pthread pol 2 pri 40
+Noise Thread 955541 loop 3500 pthread pol 2 pri 40
+Noise Thread 955541 loop 3600 pthread pol 2 pri 40
+Noise Thread 955541 loop 3700 pthread pol 2 pri 40
+Noise Thread 955541 loop 3800 pthread pol 2 pri 40
+Noise Thread 955541 loop 3900 pthread pol 2 pri 40
+Noise Thread 955541 loop 4000 pthread pol 2 pri 40
+Noise Thread 955541 loop 4100 pthread pol 2 pri 40
+Noise Thread 955541 loop 4200 pthread pol 2 pri 40
+Noise Thread 955541 loop 4300 pthread pol 2 pri 40
+Noise Thread 955541 loop 4400 pthread pol 2 pri 40
+Noise Thread 955541 loop 4500 pthread pol 2 pri 40
+Noise Thread 955541 loop 4600 pthread pol 2 pri 40
+Noise Thread 955541 loop 4700 pthread pol 2 pri 40
+Noise Thread 955541 loop 4800 pthread pol 2 pri 40
+Noise Thread 955541 loop 4900 pthread pol 2 pri 40
+Noise Thread 955541 loop 5000 pthread pol 2 pri 40
+Noise Thread 955541 loop 5100 pthread pol 2 pri 40
+Noise Thread 955541 loop 5200 pthread pol 2 pri 40
+Noise Thread 955541 loop 5300 pthread pol 2 pri 40
+Noise Thread 955541 loop 5400 pthread pol 2 pri 40
+Noise Thread 955541 loop 5500 pthread pol 2 pri 40
+Noise Thread 955541 loop 5600 pthread pol 2 pri 40
+Noise Thread 955541 loop 5700 pthread pol 2 pri 40
+Noise Thread 955541 loop 5800 pthread pol 2 pri 40
+Noise Thread 955541 loop 5900 pthread pol 2 pri 40
+Noise Thread 955541 loop 6000 pthread pol 2 pri 40
+Noise Thread 955541 loop 6100 pthread pol 2 pri 40
+Noise Thread 955541 loop 6200 pthread pol 2 pri 40
+Noise Thread 955541 loop 6300 pthread pol 2 pri 40
+Noise Thread 955541 loop 6400 pthread pol 2 pri 40
+Noise Thread 955541 loop 6500 pthread pol 2 pri 40
+Noise Thread 955541 loop 6600 pthread pol 2 pri 40
+Noise Thread 955541 loop 6700 pthread pol 2 pri 40
+Noise Thread 955541 loop 6800 pthread pol 2 pri 40
+Noise Thread 955541 loop 6900 pthread pol 2 pri 40
+Noise Thread 955541 loop 7000 pthread pol 2 pri 40
+Noise Thread 955541 loop 7100 pthread pol 2 pri 40
+Noise Thread 955541 loop 7200 pthread pol 2 pri 40
+Noise Thread 955541 loop 7300 pthread pol 2 pri 40
+Noise Thread 955541 loop 7400 pthread pol 2 pri 40
+Noise Thread 955541 loop 7500 pthread pol 2 pri 40
+Noise Thread 955541 loop 7600 pthread pol 2 pri 40
+Noise Thread 955541 loop 7700 pthread pol 2 pri 40
+Noise Thread 955541 loop 7800 pthread pol 2 pri 40
+Noise Thread 955541 loop 7900 pthread pol 2 pri 40
+Noise Thread 955541 loop 8000 pthread pol 2 pri 40
+Noise Thread 955541 loop 8100 pthread pol 2 pri 40
+Noise Thread 955541 loop 8200 pthread pol 2 pri 40
+Noise Thread 955541 loop 8300 pthread pol 2 pri 40
+Noise Thread 955541 loop 8400 pthread pol 2 pri 40
+Noise Thread 955541 loop 8500 pthread pol 2 pri 40
+Noise Thread 955541 loop 8600 pthread pol 2 pri 40
+Noise Thread 955541 loop 8700 pthread pol 2 pri 40
+Noise Thread 955541 loop 8800 pthread pol 2 pri 40
+Noise Thread 955541 loop 8900 pthread pol 2 pri 40
+Noise Thread 955541 loop 9000 pthread pol 2 pri 40
+Noise Thread 955541 loop 9100 pthread pol 2 pri 40
+Noise Thread 955541 loop 9200 pthread pol 2 pri 40
+Noise Thread 955541 loop 9300 pthread pol 2 pri 40
+Noise Thread 955541 loop 9400 pthread pol 2 pri 40
+Noise Thread 955541 loop 9500 pthread pol 2 pri 40
+Noise Thread 955541 loop 9600 pthread pol 2 pri 40
+Noise Thread 955541 loop 9700 pthread pol 2 pri 40
+Noise Thread 955541 loop 9800 pthread pol 2 pri 40
+Noise Thread 955541 loop 9900 pthread pol 2 pri 40
+Thread 955539 at start pthread pol 2 pri 30 - Got global lock
+Thread 955539 loop 0 pthread pol 2 pri 30
+Thread 955539 loop 100 pthread pol 2 pri 30
+Thread 955539 loop 200 pthread pol 2 pri 30
+Thread 955539 loop 300 pthread pol 2 pri 30
+Thread 955539 loop 400 pthread pol 2 pri 30
+Thread 955539 loop 500 pthread pol 2 pri 30
+Thread 955539 loop 600 pthread pol 2 pri 30
+Thread 955539 loop 700 pthread pol 2 pri 30
+Thread 955539 loop 800 pthread pol 2 pri 30
+Thread 955539 loop 900 pthread pol 2 pri 30
+Thread 955538 at start pthread pol 2 pri 20 - Got global lock
+Thread 955538 loop 0 pthread pol 2 pri 20
+Thread 955538 loop 100 pthread pol 2 pri 20
+Thread 955538 loop 200 pthread pol 2 pri 20
+Thread 955538 loop 300 pthread pol 2 pri 20
+Thread 955538 loop 400 pthread pol 2 pri 20
+Thread 955538 loop 500 pthread pol 2 pri 20
+Thread 955538 loop 600 pthread pol 2 pri 20
+Thread 955538 loop 700 pthread pol 2 pri 20
+Thread 955538 loop 800 pthread pol 2 pri 20
+Thread 955538 loop 900 pthread pol 2 pri 20
+Done
+Criteria:Low Priority Thread should Preempt Higher Priority Noise Thread
+
+Wed Jan 10 13:16:33 CST 2024
+The testpi-1 test appears to have completed.
+Result: PASS 
+--- Running testcase testpi-2  ---
+Wed Jan 10 13:16:34 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-2.log
+Start ./testpi-2
+Thread 955553 started running with priority 10
+Thread 955553 at start pthread pol 2 pri 10 - Got global lock
+Thread 955554 started running with prio 20
+Thread 955555 started running with prio 30
+Thread 955556 started running with prio 40
+Noise Thread 955557 started running with prio 40
+Joining threads
+Noise Thread 955557 loop 0 pthread pol 2 pri 40
+Thread 955553 loop 0 pthread pol 2 pri 10
+Noise Thread 955557 loop 100 pthread pol 2 pri 40
+Thread 955553 loop 100 pthread pol 2 pri 10
+Noise Thread 955557 loop 200 pthread pol 2 pri 40
+Thread 955553 loop 200 pthread pol 2 pri 10
+Noise Thread 955557 loop 300 pthread pol 2 pri 40
+Thread 955553 loop 300 pthread pol 2 pri 10
+Noise Thread 955557 loop 400 pthread pol 2 pri 40
+Thread 955553 loop 400 pthread pol 2 pri 10
+Noise Thread 955557 loop 500 pthread pol 2 pri 40
+Thread 955553 loop 500 pthread pol 2 pri 10
+Noise Thread 955557 loop 600 pthread pol 2 pri 40
+Thread 955553 loop 600 pthread pol 2 pri 10
+Noise Thread 955557 loop 700 pthread pol 2 pri 40
+Thread 955553 loop 700 pthread pol 2 pri 10
+Noise Thread 955557 loop 800 pthread pol 2 pri 40
+Thread 955553 loop 800 pthread pol 2 pri 10
+Noise Thread 955557 loop 900 pthread pol 2 pri 40
+Thread 955553 loop 900 pthread pol 2 pri 10
+Noise Thread 955557 loop 1000 pthread pol 2 pri 40
+Thread 955553 loop 1000 pthread pol 2 pri 10
+Noise Thread 955557 loop 1100 pthread pol 2 pri 40
+Thread 955553 loop 1100 pthread pol 2 pri 10
+Noise Thread 955557 loop 1200 pthread pol 2 pri 40
+Thread 955553 loop 1200 pthread pol 2 pri 10
+Noise Thread 955557 loop 1300 pthread pol 2 pri 40
+Thread 955553 loop 1300 pthread pol 2 pri 10
+Noise Thread 955557 loop 1400 pthread pol 2 pri 40
+Thread 955553 loop 1400 pthread pol 2 pri 10
+Noise Thread 955557 loop 1500 pthread pol 2 pri 40
+Thread 955553 loop 1500 pthread pol 2 pri 10
+Noise Thread 955557 loop 1600 pthread pol 2 pri 40
+Thread 955553 loop 1600 pthread pol 2 pri 10
+Noise Thread 955557 loop 1700 pthread pol 2 pri 40
+Thread 955553 loop 1700 pthread pol 2 pri 10
+Noise Thread 955557 loop 1800 pthread pol 2 pri 40
+Thread 955553 loop 1800 pthread pol 2 pri 10
+Noise Thread 955557 loop 1900 pthread pol 2 pri 40
+Thread 955553 loop 1900 pthread pol 2 pri 10
+Noise Thread 955557 loop 2000 pthread pol 2 pri 40
+Thread 955553 loop 2000 pthread pol 2 pri 10
+Noise Thread 955557 loop 2100 pthread pol 2 pri 40
+Thread 955553 loop 2100 pthread pol 2 pri 10
+Noise Thread 955557 loop 2200 pthread pol 2 pri 40
+Thread 955553 loop 2200 pthread pol 2 pri 10
+Noise Thread 955557 loop 2300 pthread pol 2 pri 40
+Thread 955553 loop 2300 pthread pol 2 pri 10
+Noise Thread 955557 loop 2400 pthread pol 2 pri 40
+Thread 955553 loop 2400 pthread pol 2 pri 10
+Noise Thread 955557 loop 2500 pthread pol 2 pri 40
+Thread 955553 loop 2500 pthread pol 2 pri 10
+Noise Thread 955557 loop 2600 pthread pol 2 pri 40
+Thread 955553 loop 2600 pthread pol 2 pri 10
+Noise Thread 955557 loop 2700 pthread pol 2 pri 40
+Thread 955553 loop 2700 pthread pol 2 pri 10
+Noise Thread 955557 loop 2800 pthread pol 2 pri 40
+Thread 955553 loop 2800 pthread pol 2 pri 10
+Noise Thread 955557 loop 2900 pthread pol 2 pri 40
+Thread 955553 loop 2900 pthread pol 2 pri 10
+Noise Thread 955557 loop 3000 pthread pol 2 pri 40
+Thread 955553 loop 3000 pthread pol 2 pri 10
+Noise Thread 955557 loop 3100 pthread pol 2 pri 40
+Thread 955553 loop 3100 pthread pol 2 pri 10
+Noise Thread 955557 loop 3200 pthread pol 2 pri 40
+Thread 955553 loop 3200 pthread pol 2 pri 10
+Noise Thread 955557 loop 3300 pthread pol 2 pri 40
+Thread 955553 loop 3300 pthread pol 2 pri 10
+Noise Thread 955557 loop 3400 pthread pol 2 pri 40
+Thread 955553 loop 3400 pthread pol 2 pri 10
+Noise Thread 955557 loop 3500 pthread pol 2 pri 40
+Thread 955553 loop 3500 pthread pol 2 pri 10
+Noise Thread 955557 loop 3600 pthread pol 2 pri 40
+Thread 955553 loop 3600 pthread pol 2 pri 10
+Noise Thread 955557 loop 3700 pthread pol 2 pri 40
+Thread 955553 loop 3700 pthread pol 2 pri 10
+Noise Thread 955557 loop 3800 pthread pol 2 pri 40
+Noise Thread 955557 loop 3900 pthread pol 2 pri 40
+Thread 955553 loop 3800 pthread pol 2 pri 10
+Thread 955553 loop 3900 pthread pol 2 pri 10
+Noise Thread 955557 loop 4000 pthread pol 2 pri 40
+Thread 955553 loop 4000 pthread pol 2 pri 10
+Noise Thread 955557 loop 4100 pthread pol 2 pri 40
+Thread 955553 loop 4100 pthread pol 2 pri 10
+Noise Thread 955557 loop 4200 pthread pol 2 pri 40
+Thread 955553 loop 4200 pthread pol 2 pri 10
+Noise Thread 955557 loop 4300 pthread pol 2 pri 40
+Thread 955553 loop 4300 pthread pol 2 pri 10
+Noise Thread 955557 loop 4400 pthread pol 2 pri 40
+Thread 955553 loop 4400 pthread pol 2 pri 10
+Noise Thread 955557 loop 4500 pthread pol 2 pri 40
+Thread 955553 loop 4500 pthread pol 2 pri 10
+Noise Thread 955557 loop 4600 pthread pol 2 pri 40
+Thread 955553 loop 4600 pthread pol 2 pri 10
+Noise Thread 955557 loop 4700 pthread pol 2 pri 40
+Thread 955553 loop 4700 pthread pol 2 pri 10
+Noise Thread 955557 loop 4800 pthread pol 2 pri 40
+Thread 955553 loop 4800 pthread pol 2 pri 10
+Noise Thread 955557 loop 4900 pthread pol 2 pri 40
+Thread 955553 loop 4900 pthread pol 2 pri 10
+Noise Thread 955557 loop 5000 pthread pol 2 pri 40
+Thread 955553 loop 5000 pthread pol 2 pri 10
+Noise Thread 955557 loop 5100 pthread pol 2 pri 40
+Thread 955553 loop 5100 pthread pol 2 pri 10
+Noise Thread 955557 loop 5200 pthread pol 2 pri 40
+Thread 955553 loop 5200 pthread pol 2 pri 10
+Noise Thread 955557 loop 5300 pthread pol 2 pri 40
+Thread 955553 loop 5300 pthread pol 2 pri 10
+Noise Thread 955557 loop 5400 pthread pol 2 pri 40
+Thread 955553 loop 5400 pthread pol 2 pri 10
+Noise Thread 955557 loop 5500 pthread pol 2 pri 40
+Thread 955553 loop 5500 pthread pol 2 pri 10
+Noise Thread 955557 loop 5600 pthread pol 2 pri 40
+Thread 955553 loop 5600 pthread pol 2 pri 10
+Noise Thread 955557 loop 5700 pthread pol 2 pri 40
+Thread 955553 loop 5700 pthread pol 2 pri 10
+Noise Thread 955557 loop 5800 pthread pol 2 pri 40
+Thread 955553 loop 5800 pthread pol 2 pri 10
+Noise Thread 955557 loop 5900 pthread pol 2 pri 40
+Thread 955553 loop 5900 pthread pol 2 pri 10
+Noise Thread 955557 loop 6000 pthread pol 2 pri 40
+Thread 955553 loop 6000 pthread pol 2 pri 10
+Noise Thread 955557 loop 6100 pthread pol 2 pri 40
+Thread 955553 loop 6100 pthread pol 2 pri 10
+Noise Thread 955557 loop 6200 pthread pol 2 pri 40
+Thread 955553 loop 6200 pthread pol 2 pri 10
+Noise Thread 955557 loop 6300 pthread pol 2 pri 40
+Thread 955553 loop 6300 pthread pol 2 pri 10
+Noise Thread 955557 loop 6400 pthread pol 2 pri 40
+Thread 955553 loop 6400 pthread pol 2 pri 10
+Noise Thread 955557 loop 6500 pthread pol 2 pri 40
+Thread 955553 loop 6500 pthread pol 2 pri 10
+Noise Thread 955557 loop 6600 pthread pol 2 pri 40
+Thread 955553 loop 6600 pthread pol 2 pri 10
+Noise Thread 955557 loop 6700 pthread pol 2 pri 40
+Thread 955553 loop 6700 pthread pol 2 pri 10
+Noise Thread 955557 loop 6800 pthread pol 2 pri 40
+Thread 955553 loop 6800 pthread pol 2 pri 10
+Noise Thread 955557 loop 6900 pthread pol 2 pri 40
+Thread 955553 loop 6900 pthread pol 2 pri 10
+Noise Thread 955557 loop 7000 pthread pol 2 pri 40
+Thread 955553 loop 7000 pthread pol 2 pri 10
+Noise Thread 955557 loop 7100 pthread pol 2 pri 40
+Thread 955553 loop 7100 pthread pol 2 pri 10
+Noise Thread 955557 loop 7200 pthread pol 2 pri 40
+Thread 955553 loop 7200 pthread pol 2 pri 10
+Noise Thread 955557 loop 7300 pthread pol 2 pri 40
+Thread 955553 loop 7300 pthread pol 2 pri 10
+Noise Thread 955557 loop 7400 pthread pol 2 pri 40
+Thread 955553 loop 7400 pthread pol 2 pri 10
+Noise Thread 955557 loop 7500 pthread pol 2 pri 40
+Thread 955553 loop 7500 pthread pol 2 pri 10
+Noise Thread 955557 loop 7600 pthread pol 2 pri 40
+Thread 955553 loop 7600 pthread pol 2 pri 10
+Noise Thread 955557 loop 7700 pthread pol 2 pri 40
+Thread 955553 loop 7700 pthread pol 2 pri 10
+Noise Thread 955557 loop 7800 pthread pol 2 pri 40
+Thread 955553 loop 7800 pthread pol 2 pri 10
+Noise Thread 955557 loop 7900 pthread pol 2 pri 40
+Thread 955553 loop 7900 pthread pol 2 pri 10
+Noise Thread 955557 loop 8000 pthread pol 2 pri 40
+Thread 955553 loop 8000 pthread pol 2 pri 10
+Noise Thread 955557 loop 8100 pthread pol 2 pri 40
+Thread 955553 loop 8100 pthread pol 2 pri 10
+Noise Thread 955557 loop 8200 pthread pol 2 pri 40
+Thread 955553 loop 8200 pthread pol 2 pri 10
+Noise Thread 955557 loop 8300 pthread pol 2 pri 40
+Thread 955553 loop 8300 pthread pol 2 pri 10
+Noise Thread 955557 loop 8400 pthread pol 2 pri 40
+Thread 955553 loop 8400 pthread pol 2 pri 10
+Noise Thread 955557 loop 8500 pthread pol 2 pri 40
+Thread 955553 loop 8500 pthread pol 2 pri 10
+Noise Thread 955557 loop 8600 pthread pol 2 pri 40
+Thread 955553 loop 8600 pthread pol 2 pri 10
+Noise Thread 955557 loop 8700 pthread pol 2 pri 40
+Thread 955553 loop 8700 pthread pol 2 pri 10
+Noise Thread 955557 loop 8800 pthread pol 2 pri 40
+Thread 955553 loop 8800 pthread pol 2 pri 10
+Noise Thread 955557 loop 8900 pthread pol 2 pri 40
+Thread 955553 loop 8900 pthread pol 2 pri 10
+Noise Thread 955557 loop 9000 pthread pol 2 pri 40
+Thread 955553 loop 9000 pthread pol 2 pri 10
+Noise Thread 955557 loop 9100 pthread pol 2 pri 40
+Thread 955553 loop 9100 pthread pol 2 pri 10
+Noise Thread 955557 loop 9200 pthread pol 2 pri 40
+Thread 955553 loop 9200 pthread pol 2 pri 10
+Noise Thread 955557 loop 9300 pthread pol 2 pri 40
+Thread 955553 loop 9300 pthread pol 2 pri 10
+Noise Thread 955557 loop 9400 pthread pol 2 pri 40
+Thread 955553 loop 9400 pthread pol 2 pri 10
+Noise Thread 955557 loop 9500 pthread pol 2 pri 40
+Thread 955553 loop 9500 pthread pol 2 pri 10
+Noise Thread 955557 loop 9600 pthread pol 2 pri 40
+Thread 955553 loop 9600 pthread pol 2 pri 10
+Noise Thread 955557 loop 9700 pthread pol 2 pri 40
+Thread 955553 loop 9700 pthread pol 2 pri 10
+Noise Thread 955557 loop 9800 pthread pol 2 pri 40
+Thread 955553 loop 9800 pthread pol 2 pri 10
+Noise Thread 955557 loop 9900 pthread pol 2 pri 40
+Thread 955553 loop 9900 pthread pol 2 pri 10
+Thread 955556 at start pthread pol 1 pri 40 - Got global lock
+Thread 955556 loop 0 pthread pol 1 pri 40
+Thread 955556 loop 100 pthread pol 1 pri 40
+Thread 955556 loop 200 pthread pol 1 pri 40
+Thread 955556 loop 300 pthread pol 1 pri 40
+Thread 955556 loop 400 pthread pol 1 pri 40
+Thread 955556 loop 500 pthread pol 1 pri 40
+Thread 955556 loop 600 pthread pol 1 pri 40
+Thread 955556 loop 700 pthread pol 1 pri 40
+Thread 955556 loop 800 pthread pol 1 pri 40
+Thread 955556 loop 900 pthread pol 1 pri 40
+Thread 955555 at start pthread pol 1 pri 30 - Got global lock
+Thread 955555 loop 0 pthread pol 1 pri 30
+Thread 955555 loop 100 pthread pol 1 pri 30
+Thread 955555 loop 200 pthread pol 1 pri 30
+Thread 955555 loop 300 pthread pol 1 pri 30
+Thread 955555 loop 400 pthread pol 1 pri 30
+Thread 955555 loop 500 pthread pol 1 pri 30
+Thread 955555 loop 600 pthread pol 1 pri 30
+Thread 955555 loop 700 pthread pol 1 pri 30
+Thread 955555 loop 800 pthread pol 1 pri 30
+Thread 955555 loop 900 pthread pol 1 pri 30
+Thread 955554 at start pthread pol 2 pri 20 - Got global lock
+Thread 955554 loop 0 pthread pol 2 pri 20
+Thread 955554 loop 100 pthread pol 2 pri 20
+Thread 955554 loop 200 pthread pol 2 pri 20
+Thread 955554 loop 300 pthread pol 2 pri 20
+Thread 955554 loop 400 pthread pol 2 pri 20
+Thread 955554 loop 500 pthread pol 2 pri 20
+Thread 955554 loop 600 pthread pol 2 pri 20
+Thread 955554 loop 700 pthread pol 2 pri 20
+Thread 955554 loop 800 pthread pol 2 pri 20
+Thread 955554 loop 900 pthread pol 2 pri 20
+Done
+Criteria: Low Priority Thread and High Priority Thread should prempt each other multiple times
+
+Wed Jan 10 13:16:59 CST 2024
+The testpi-2 test appears to have completed.
+Result: PASS 
+--- Running testcase testpi-4  ---
+Wed Jan 10 13:17:00 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-4.log
+Start ./testpi-4
+Thread 955569 started running with prio 20
+Thread 955570 started running with prio 30
+Thread 955571 started running with prio 40
+Noise Thread started running with prio 40
+Joining threads
+Thread 955568 started running with priority 0
+Thread 955568 at start pthread pol 0 pri 0 - Got global lock
+Noise Thread 955572 loop 0 pthread pol 2 pri 40
+Thread 955568 loop 0 pthread pol 0 pri 0
+Thread 955568 loop 100 pthread pol 0 pri 0
+Thread 955568 loop 200 pthread pol 0 pri 0
+Thread 955568 loop 300 pthread pol 0 pri 0
+Thread 955568 loop 400 pthread pol 0 pri 0
+Thread 955568 loop 500 pthread pol 0 pri 0
+Thread 955568 loop 600 pthread pol 0 pri 0
+Thread 955568 loop 700 pthread pol 0 pri 0
+Thread 955568 loop 800 pthread pol 0 pri 0
+Thread 955568 loop 900 pthread pol 0 pri 0
+Thread 955568 loop 1000 pthread pol 0 pri 0
+Thread 955568 loop 1100 pthread pol 0 pri 0
+Thread 955568 loop 1200 pthread pol 0 pri 0
+Thread 955568 loop 1300 pthread pol 0 pri 0
+Thread 955568 loop 1400 pthread pol 0 pri 0
+Thread 955568 loop 1500 pthread pol 0 pri 0
+Thread 955568 loop 1600 pthread pol 0 pri 0
+Thread 955568 loop 1700 pthread pol 0 pri 0
+Thread 955568 loop 1800 pthread pol 0 pri 0
+Thread 955568 loop 1900 pthread pol 0 pri 0
+Thread 955568 loop 2000 pthread pol 0 pri 0
+Thread 955568 loop 2100 pthread pol 0 pri 0
+Thread 955568 loop 2200 pthread pol 0 pri 0
+Thread 955568 loop 2300 pthread pol 0 pri 0
+Thread 955568 loop 2400 pthread pol 0 pri 0
+Thread 955568 loop 2500 pthread pol 0 pri 0
+Thread 955568 loop 2600 pthread pol 0 pri 0
+Thread 955568 loop 2700 pthread pol 0 pri 0
+Thread 955568 loop 2800 pthread pol 0 pri 0
+Thread 955568 loop 2900 pthread pol 0 pri 0
+Thread 955568 loop 3000 pthread pol 0 pri 0
+Thread 955568 loop 3100 pthread pol 0 pri 0
+Thread 955568 loop 3200 pthread pol 0 pri 0
+Thread 955568 loop 3300 pthread pol 0 pri 0
+Thread 955568 loop 3400 pthread pol 0 pri 0
+Thread 955568 loop 3500 pthread pol 0 pri 0
+Thread 955568 loop 3600 pthread pol 0 pri 0
+Thread 955568 loop 3700 pthread pol 0 pri 0
+Thread 955568 loop 3800 pthread pol 0 pri 0
+Thread 955568 loop 3900 pthread pol 0 pri 0
+Thread 955568 loop 4000 pthread pol 0 pri 0
+Thread 955568 loop 4100 pthread pol 0 pri 0
+Thread 955568 loop 4200 pthread pol 0 pri 0
+Thread 955568 loop 4300 pthread pol 0 pri 0
+Thread 955568 loop 4400 pthread pol 0 pri 0
+Thread 955568 loop 4500 pthread pol 0 pri 0
+Thread 955568 loop 4600 pthread pol 0 pri 0
+Thread 955568 loop 4700 pthread pol 0 pri 0
+Thread 955568 loop 4800 pthread pol 0 pri 0
+Thread 955568 loop 4900 pthread pol 0 pri 0
+Thread 955568 loop 5000 pthread pol 0 pri 0
+Thread 955568 loop 5100 pthread pol 0 pri 0
+Thread 955568 loop 5200 pthread pol 0 pri 0
+Thread 955568 loop 5300 pthread pol 0 pri 0
+Thread 955568 loop 5400 pthread pol 0 pri 0
+Thread 955568 loop 5500 pthread pol 0 pri 0
+Thread 955568 loop 5600 pthread pol 0 pri 0
+Thread 955568 loop 5700 pthread pol 0 pri 0
+Thread 955568 loop 5800 pthread pol 0 pri 0
+Thread 955568 loop 5900 pthread pol 0 pri 0
+Thread 955568 loop 6000 pthread pol 0 pri 0
+Thread 955568 loop 6100 pthread pol 0 pri 0
+Thread 955568 loop 6200 pthread pol 0 pri 0
+Thread 955568 loop 6300 pthread pol 0 pri 0
+Thread 955568 loop 6400 pthread pol 0 pri 0
+Thread 955568 loop 6500 pthread pol 0 pri 0
+Thread 955568 loop 6600 pthread pol 0 pri 0
+Thread 955568 loop 6700 pthread pol 0 pri 0
+Thread 955568 loop 6800 pthread pol 0 pri 0
+Thread 955568 loop 6900 pthread pol 0 pri 0
+Thread 955568 loop 7000 pthread pol 0 pri 0
+Thread 955568 loop 7100 pthread pol 0 pri 0
+Thread 955568 loop 7200 pthread pol 0 pri 0
+Thread 955568 loop 7300 pthread pol 0 pri 0
+Thread 955568 loop 7400 pthread pol 0 pri 0
+Thread 955568 loop 7500 pthread pol 0 pri 0
+Thread 955568 loop 7600 pthread pol 0 pri 0
+Thread 955568 loop 7700 pthread pol 0 pri 0
+Thread 955568 loop 7800 pthread pol 0 pri 0
+Thread 955568 loop 7900 pthread pol 0 pri 0
+Thread 955568 loop 8000 pthread pol 0 pri 0
+Thread 955568 loop 8100 pthread pol 0 pri 0
+Thread 955568 loop 8200 pthread pol 0 pri 0
+Thread 955568 loop 8300 pthread pol 0 pri 0
+Thread 955568 loop 8400 pthread pol 0 pri 0
+Thread 955568 loop 8500 pthread pol 0 pri 0
+Thread 955568 loop 8600 pthread pol 0 pri 0
+Thread 955568 loop 8700 pthread pol 0 pri 0
+Thread 955568 loop 8800 pthread pol 0 pri 0
+Thread 955568 loop 8900 pthread pol 0 pri 0
+Thread 955568 loop 9000 pthread pol 0 pri 0
+Thread 955568 loop 9100 pthread pol 0 pri 0
+Thread 955568 loop 9200 pthread pol 0 pri 0
+Thread 955568 loop 9300 pthread pol 0 pri 0
+Thread 955568 loop 9400 pthread pol 0 pri 0
+Thread 955568 loop 9500 pthread pol 0 pri 0
+Thread 955568 loop 9600 pthread pol 0 pri 0
+Thread 955568 loop 9700 pthread pol 0 pri 0
+Thread 955568 loop 9800 pthread pol 0 pri 0
+Thread 955568 loop 9900 pthread pol 0 pri 0
+Noise Thread 955572 loop 100 pthread pol 2 pri 40
+Thread 955571 at start pthread pol 2 pri 40 - Got global lock
+Thread 955571 loop 0 pthread pol 2 pri 40
+Noise Thread 955572 loop 200 pthread pol 2 pri 40
+Thread 955571 loop 100 pthread pol 2 pri 40
+Thread 955571 loop 200 pthread pol 2 pri 40
+Noise Thread 955572 loop 300 pthread pol 2 pri 40
+Thread 955571 loop 300 pthread pol 2 pri 40
+Noise Thread 955572 loop 400 pthread pol 2 pri 40
+Thread 955571 loop 400 pthread pol 2 pri 40
+Noise Thread 955572 loop 500 pthread pol 2 pri 40
+Noise Thread 955572 loop 600 pthread pol 2 pri 40
+Thread 955571 loop 500 pthread pol 2 pri 40
+Noise Thread 955572 loop 700 pthread pol 2 pri 40
+Thread 955571 loop 600 pthread pol 2 pri 40
+Noise Thread 955572 loop 800 pthread pol 2 pri 40
+Thread 955571 loop 700 pthread pol 2 pri 40
+Noise Thread 955572 loop 900 pthread pol 2 pri 40
+Thread 955571 loop 800 pthread pol 2 pri 40
+Noise Thread 955572 loop 1000 pthread pol 2 pri 40
+Thread 955571 loop 900 pthread pol 2 pri 40
+Noise Thread 955572 loop 1100 pthread pol 2 pri 40
+Noise Thread 955572 loop 1200 pthread pol 2 pri 40
+Noise Thread 955572 loop 1300 pthread pol 2 pri 40
+Noise Thread 955572 loop 1400 pthread pol 2 pri 40
+Noise Thread 955572 loop 1500 pthread pol 2 pri 40
+Noise Thread 955572 loop 1600 pthread pol 2 pri 40
+Noise Thread 955572 loop 1700 pthread pol 2 pri 40
+Noise Thread 955572 loop 1800 pthread pol 2 pri 40
+Noise Thread 955572 loop 1900 pthread pol 2 pri 40
+Noise Thread 955572 loop 2000 pthread pol 2 pri 40
+Noise Thread 955572 loop 2100 pthread pol 2 pri 40
+Noise Thread 955572 loop 2200 pthread pol 2 pri 40
+Noise Thread 955572 loop 2300 pthread pol 2 pri 40
+Noise Thread 955572 loop 2400 pthread pol 2 pri 40
+Noise Thread 955572 loop 2500 pthread pol 2 pri 40
+Noise Thread 955572 loop 2600 pthread pol 2 pri 40
+Noise Thread 955572 loop 2700 pthread pol 2 pri 40
+Noise Thread 955572 loop 2800 pthread pol 2 pri 40
+Noise Thread 955572 loop 2900 pthread pol 2 pri 40
+Noise Thread 955572 loop 3000 pthread pol 2 pri 40
+Noise Thread 955572 loop 3100 pthread pol 2 pri 40
+Noise Thread 955572 loop 3200 pthread pol 2 pri 40
+Noise Thread 955572 loop 3300 pthread pol 2 pri 40
+Noise Thread 955572 loop 3400 pthread pol 2 pri 40
+Noise Thread 955572 loop 3500 pthread pol 2 pri 40
+Noise Thread 955572 loop 3600 pthread pol 2 pri 40
+Noise Thread 955572 loop 3700 pthread pol 2 pri 40
+Noise Thread 955572 loop 3800 pthread pol 2 pri 40
+Noise Thread 955572 loop 3900 pthread pol 2 pri 40
+Noise Thread 955572 loop 4000 pthread pol 2 pri 40
+Noise Thread 955572 loop 4100 pthread pol 2 pri 40
+Noise Thread 955572 loop 4200 pthread pol 2 pri 40
+Noise Thread 955572 loop 4300 pthread pol 2 pri 40
+Noise Thread 955572 loop 4400 pthread pol 2 pri 40
+Noise Thread 955572 loop 4500 pthread pol 2 pri 40
+Noise Thread 955572 loop 4600 pthread pol 2 pri 40
+Noise Thread 955572 loop 4700 pthread pol 2 pri 40
+Noise Thread 955572 loop 4800 pthread pol 2 pri 40
+Noise Thread 955572 loop 4900 pthread pol 2 pri 40
+Noise Thread 955572 loop 5000 pthread pol 2 pri 40
+Noise Thread 955572 loop 5100 pthread pol 2 pri 40
+Noise Thread 955572 loop 5200 pthread pol 2 pri 40
+Noise Thread 955572 loop 5300 pthread pol 2 pri 40
+Noise Thread 955572 loop 5400 pthread pol 2 pri 40
+Noise Thread 955572 loop 5500 pthread pol 2 pri 40
+Noise Thread 955572 loop 5600 pthread pol 2 pri 40
+Noise Thread 955572 loop 5700 pthread pol 2 pri 40
+Noise Thread 955572 loop 5800 pthread pol 2 pri 40
+Noise Thread 955572 loop 5900 pthread pol 2 pri 40
+Noise Thread 955572 loop 6000 pthread pol 2 pri 40
+Noise Thread 955572 loop 6100 pthread pol 2 pri 40
+Noise Thread 955572 loop 6200 pthread pol 2 pri 40
+Noise Thread 955572 loop 6300 pthread pol 2 pri 40
+Noise Thread 955572 loop 6400 pthread pol 2 pri 40
+Noise Thread 955572 loop 6500 pthread pol 2 pri 40
+Noise Thread 955572 loop 6600 pthread pol 2 pri 40
+Noise Thread 955572 loop 6700 pthread pol 2 pri 40
+Noise Thread 955572 loop 6800 pthread pol 2 pri 40
+Noise Thread 955572 loop 6900 pthread pol 2 pri 40
+Noise Thread 955572 loop 7000 pthread pol 2 pri 40
+Noise Thread 955572 loop 7100 pthread pol 2 pri 40
+Noise Thread 955572 loop 7200 pthread pol 2 pri 40
+Noise Thread 955572 loop 7300 pthread pol 2 pri 40
+Noise Thread 955572 loop 7400 pthread pol 2 pri 40
+Noise Thread 955572 loop 7500 pthread pol 2 pri 40
+Noise Thread 955572 loop 7600 pthread pol 2 pri 40
+Noise Thread 955572 loop 7700 pthread pol 2 pri 40
+Noise Thread 955572 loop 7800 pthread pol 2 pri 40
+Noise Thread 955572 loop 7900 pthread pol 2 pri 40
+Noise Thread 955572 loop 8000 pthread pol 2 pri 40
+Noise Thread 955572 loop 8100 pthread pol 2 pri 40
+Noise Thread 955572 loop 8200 pthread pol 2 pri 40
+Noise Thread 955572 loop 8300 pthread pol 2 pri 40
+Noise Thread 955572 loop 8400 pthread pol 2 pri 40
+Noise Thread 955572 loop 8500 pthread pol 2 pri 40
+Noise Thread 955572 loop 8600 pthread pol 2 pri 40
+Noise Thread 955572 loop 8700 pthread pol 2 pri 40
+Noise Thread 955572 loop 8800 pthread pol 2 pri 40
+Noise Thread 955572 loop 8900 pthread pol 2 pri 40
+Noise Thread 955572 loop 9000 pthread pol 2 pri 40
+Noise Thread 955572 loop 9100 pthread pol 2 pri 40
+Noise Thread 955572 loop 9200 pthread pol 2 pri 40
+Noise Thread 955572 loop 9300 pthread pol 2 pri 40
+Noise Thread 955572 loop 9400 pthread pol 2 pri 40
+Noise Thread 955572 loop 9500 pthread pol 2 pri 40
+Noise Thread 955572 loop 9600 pthread pol 2 pri 40
+Noise Thread 955572 loop 9700 pthread pol 2 pri 40
+Noise Thread 955572 loop 9800 pthread pol 2 pri 40
+Noise Thread 955572 loop 9900 pthread pol 2 pri 40
+Thread 955570 at start pthread pol 2 pri 30 - Got global lock
+Thread 955570 loop 0 pthread pol 2 pri 30
+Thread 955570 loop 100 pthread pol 2 pri 30
+Thread 955570 loop 200 pthread pol 2 pri 30
+Thread 955570 loop 300 pthread pol 2 pri 30
+Thread 955570 loop 400 pthread pol 2 pri 30
+Thread 955570 loop 500 pthread pol 2 pri 30
+Thread 955570 loop 600 pthread pol 2 pri 30
+Thread 955570 loop 700 pthread pol 2 pri 30
+Thread 955570 loop 800 pthread pol 2 pri 30
+Thread 955570 loop 900 pthread pol 2 pri 30
+Thread 955569 at start pthread pol 2 pri 20 - Got global lock
+Thread 955569 loop 0 pthread pol 2 pri 20
+Thread 955569 loop 100 pthread pol 2 pri 20
+Thread 955569 loop 200 pthread pol 2 pri 20
+Thread 955569 loop 300 pthread pol 2 pri 20
+Thread 955569 loop 400 pthread pol 2 pri 20
+Thread 955569 loop 500 pthread pol 2 pri 20
+Thread 955569 loop 600 pthread pol 2 pri 20
+Thread 955569 loop 700 pthread pol 2 pri 20
+Thread 955569 loop 800 pthread pol 2 pri 20
+Thread 955569 loop 900 pthread pol 2 pri 20
+Done
+
+Wed Jan 10 13:17:25 CST 2024
+The testpi-4 test appears to have completed.
+Result: PASS 
+--- Running testcase testpi-5  ---
+Wed Jan 10 13:17:25 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-5.log
+Inside the timeout handler, killing the TC threads 
+
+Result:PASS
+
+Wed Jan 10 13:17:47 CST 2024
+The testpi-5 test appears to have completed.
+--- Running testcase testpi-6  ---
+Wed Jan 10 13:17:47 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-testpi-6.log
+Inside the timeout handler, killing the TC threads 
+
+Result:PASS
+
+Wed Jan 10 13:18:07 CST 2024
+The testpi-6 test appears to have completed.
+--- Running testcase sbrk_mutex  ---
+Wed Jan 10 13:18:08 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-sbrk_mutex.log
+robust in mutexattr is 1
+allocating and initializing 5000 mutexes
+mutexes allocated and initialized successfully
+joining threads
+
+Wed Jan 10 13:26:41 CST 2024
+The sbrk_mutex test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase sched_football  ---
+Wed Jan 10 13:26:43 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-sched_football.log
+Running with: players_per_team=64 game_length=5
+Starting 64 offense threads at priority 15
+Starting 64 defense threads at priority 30
+Starting referee thread
+Game On (5 seconds)!
+Game Over!
+Final ball position: 0
+Result: PASS
+
+Wed Jan 10 13:26:48 CST 2024
+The sched_football test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase pthread_kill_latency -c 20  ---
+Wed Jan 10 13:26:49 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-pthread_kill_latency-c20.log
+-------------------------------
+pthread_kill Latency
+-------------------------------
+
+Iterations: 10000
+
+Min: 36 us
+Max: 1580312 us
+Avg: 35891.0703 us
+StdDev: 63164.1250 us
+Quantiles:
+99.0% < 251399
+99.9% < 797141
+99.99% < 1580312
+Failures: 10000
+Criteria: Time < 20 us
+Result: FAIL
+
+
+Wed Jan 10 13:38:28 CST 2024
+The pthread_kill_latency test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase async_handler -c 100  ---
+Wed Jan 10 13:38:30 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-async_handler-c100.log
+
+-----------------------------------
+Asynchronous Event Handling Latency
+-----------------------------------
+
+Running 1000000 iterations
+recording statistics...
+Min: 1 us
+Max: 3553506 us
+handler thread exiting
+Avg: 4116.8027 us
+StdDev: 29659.1484 us
+signal thread exiting
+
+Criteria: latencies < 100
+Result: FAIL
+
+Wed Jan 10 15:04:18 CST 2024
+The async_handler test appears to have completed.
+--- Running testcase async_handler_jk -c 100  ---
+Wed Jan 10 15:04:18 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-async_handler_jk-c100.log
+delta = 64 us
+
+Criteria: latencies < 100
+Result: PASS
+
+Wed Jan 10 15:04:18 CST 2024
+The async_handler_jk test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase sched_jitter  ---
+Wed Jan 10 15:04:19 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-sched_jitter.log
+delta: 153022023 ns
+delta: 151044465 ns
+delta: 145989849 ns
+delta: 144668050 ns
+delta: 144286190 ns
+delta: 143870330 ns
+delta: 143830991 ns
+delta: 143847430 ns
+delta: 143847351 ns
+delta: 143831450 ns
+delta: 145480929 ns
+delta: 143193931 ns
+delta: 192357734 ns
+delta: 144010570 ns
+delta: 144151530 ns
+delta: 144638650 ns
+delta: 144006650 ns
+delta: 143501171 ns
+delta: 191813214 ns
+delta: 144169990 ns
+delta: 144831929 ns
+delta: 142864132 ns
+delta: 142835731 ns
+delta: 143225611 ns
+delta: 144526950 ns
+delta: 196434310 ns
+delta: 143727270 ns
+delta: 143505871 ns
+delta: 145597229 ns
+delta: 144176230 ns
+delta: 145951189 ns
+delta: 195256611 ns
+delta: 142855952 ns
+delta: 145147309 ns
+delta: 147613508 ns
+delta: 144167270 ns
+delta: 143508430 ns
+delta: 142861292 ns
+delta: 194403371 ns
+delta: 143049852 ns
+delta: 145191989 ns
+delta: 143874530 ns
+delta: 144501770 ns
+delta: 143215831 ns
+delta: 143200211 ns
+delta: 193188433 ns
+delta: 142855151 ns
+delta: 143512931 ns
+delta: 143496710 ns
+delta: 144801450 ns
+delta: 143494771 ns
+delta: 196458190 ns
+delta: 143520871 ns
+delta: 144126170 ns
+delta: 143552511 ns
+delta: 144641909 ns
+delta: 144824730 ns
+delta: 144163410 ns
+delta: 192574414 ns
+delta: 145264089 ns
+delta: 143500991 ns
+delta: 143485450 ns
+delta: 142870471 ns
+delta: 143506651 ns
+delta: 191812114 ns
+delta: 144181870 ns
+delta: 143503571 ns
+delta: 144187810 ns
+delta: 145160629 ns
+delta: 143635411 ns
+delta: 143669070 ns
+delta: 194375512 ns
+delta: 145449010 ns
+delta: 143996370 ns
+delta: 144656670 ns
+delta: 144662369 ns
+delta: 145149330 ns
+delta: 144659670 ns
+delta: 199392568 ns
+delta: 144660730 ns
+delta: 144663549 ns
+delta: 142884632 ns
+delta: 144827969 ns
+delta: 142844071 ns
+delta: 193123693 ns
+delta: 142863611 ns
+delta: 144171031 ns
+delta: 143513590 ns
+delta: 144171850 ns
+delta: 144174011 ns
+delta: 143102291 ns
+delta: 193712072 ns
+delta: 144629630 ns
+delta: 143483410 ns
+delta: 144811310 ns
+delta: 143487751 ns
+delta: 143485371 ns
+delta: 192453673 ns
+delta: 142871251 ns
+delta: 142854351 ns
+delta: 146273369 ns
+delta: 142856291 ns
+delta: 143477091 ns
+delta: 142857371 ns
+delta: 195801831 ns
+delta: 145916709 ns
+delta: 143524330 ns
+delta: 143553891 ns
+delta: 143519371 ns
+delta: 144009671 ns
+delta: 142850211 ns
+delta: 192482433 ns
+delta: 144655610 ns
+delta: 144650250 ns
+delta: 144158990 ns
+delta: 142860991 ns
+delta: 143516671 ns
+delta: 193440573 ns
+delta: 144005490 ns
+delta: 143070851 ns
+delta: 145303229 ns
+delta: 143489431 ns
+delta: 142855531 ns
+delta: 144799170 ns
+delta: 196437910 ns
+delta: 144645490 ns
+delta: 143507951 ns
+delta: 142849131 ns
+delta: 144827609 ns
+delta: 142867332 ns
+delta: 193110612 ns
+delta: 143516371 ns
+delta: 142859451 ns
+delta: 144393330 ns
+delta: 144197890 ns
+delta: 143517391 ns
+delta: 143520811 ns
+delta: 192464573 ns
+delta: 144002110 ns
+delta: 144168971 ns
+delta: 144167810 ns
+delta: 143760210 ns
+delta: 143507071 ns
+delta: 145479209 ns
+delta: 193611553 ns
+delta: 144176530 ns
+delta: 144131790 ns
+delta: 144164030 ns
+delta: 143504471 ns
+delta: 143512010 ns
+delta: 196468831 ns
+delta: 144160590 ns
+delta: 144169070 ns
+delta: 142851771 ns
+delta: 142856932 ns
+delta: 144786850 ns
+delta: 144817750 ns
+delta: 191805194 ns
+delta: 142863551 ns
+delta: 144821090 ns
+delta: 143548610 ns
+delta: 143488271 ns
+delta: 142850511 ns
+delta: 192938253 ns
+delta: 145439369 ns
+delta: 143513831 ns
+delta: 142849111 ns
+delta: 143485411 ns
+delta: 143495411 ns
+delta: 143499830 ns
+delta: 194269292 ns
+delta: 143516971 ns
+delta: 142859031 ns
+delta: 144166450 ns
+delta: 143502291 ns
+delta: 143505391 ns
+delta: 144173450 ns
+delta: 197722569 ns
+delta: 143510891 ns
+delta: 142851831 ns
+delta: 143471091 ns
+delta: 144659749 ns
+delta: 143509411 ns
+delta: 192449194 ns
+delta: 144009550 ns
+delta: 143497590 ns
+delta: 146151049 ns
+delta: 143517091 ns
+delta: 142861951 ns
+delta: 144657730 ns
+delta: 191806414 ns
+delta: 144172610 ns
+delta: 143507850 ns
+delta: 142848472 ns
+delta: 143497930 ns
+delta: 142863272 ns
+delta: 197096789 ns
+delta: 143512471 ns
+delta: 143529091 ns
+delta: 144685569 ns
+delta: 142844572 ns
+delta: 142856371 ns
+delta: 144824169 ns
+delta: 192466974 ns
+delta: 143516071 ns
+delta: 144831630 ns
+delta: 143505491 ns
+delta: 143511831 ns
+delta: 143516550 ns
+delta: 143494771 ns
+delta: 191816714 ns
+delta: 143511910 ns
+delta: 144163591 ns
+delta: 144825389 ns
+delta: 144147750 ns
+delta: 143503231 ns
+delta: 192467853 ns
+delta: 144184511 ns
+delta: 144803869 ns
+delta: 143859171 ns
+delta: 142846931 ns
+delta: 143514671 ns
+delta: 142847111 ns
+delta: 195797391 ns
+delta: 143501510 ns
+delta: 144020191 ns
+delta: 142858571 ns
+delta: 142857891 ns
+delta: 143504371 ns
+delta: 143513690 ns
+delta: 194273152 ns
+delta: 142860071 ns
+delta: 142852172 ns
+delta: 142856031 ns
+delta: 143512070 ns
+delta: 142838952 ns
+delta: 193098113 ns
+delta: 143525971 ns
+delta: 144146210 ns
+delta: 144837430 ns
+delta: 143513791 ns
+delta: 143527670 ns
+delta: 143498471 ns
+delta: 191828654 ns
+delta: 143518871 ns
+delta: 142850511 ns
+delta: 144158750 ns
+delta: 143488671 ns
+delta: 143511370 ns
+delta: 196459591 ns
+delta: 143517350 ns
+delta: 144818030 ns
+delta: 144152270 ns
+delta: 144829030 ns
+delta: 144179150 ns
+delta: 143497091 ns
+delta: 193133992 ns
+delta: 143518391 ns
+delta: 144369850 ns
+delta: 146140229 ns
+delta: 144789430 ns
+delta: 144162750 ns
+delta: 143519750 ns
+delta: 192399014 ns
+delta: 143514530 ns
+delta: 143530451 ns
+delta: 144224030 ns
+delta: 142862671 ns
+delta: 142858472 ns
+delta: 192673813 ns
+delta: 145219969 ns
+delta: 143501951 ns
+delta: 143502071 ns
+delta: 144164011 ns
+delta: 146125828 ns
+delta: 144141311 ns
+delta: 198414608 ns
+delta: 144345110 ns
+delta: 143543871 ns
+delta: 143515611 ns
+delta: 143511650 ns
+delta: 143506991 ns
+delta: 193086613 ns
+delta: 142834231 ns
+delta: 143469371 ns
+delta: 143502711 ns
+delta: 143483030 ns
+delta: 143520511 ns
+delta: 143518151 ns
+delta: 193102132 ns
+delta: 142853212 ns
+delta: 143503330 ns
+delta: 143557011 ns
+delta: 145985229 ns
+delta: 143490150 ns
+delta: 142850952 ns
+delta: 196442490 ns
+delta: 143514331 ns
+delta: 144826469 ns
+delta: 144167250 ns
+delta: 142861872 ns
+delta: 143518230 ns
+delta: 194396352 ns
+delta: 143522131 ns
+delta: 144834610 ns
+delta: 142862992 ns
+delta: 144257510 ns
+delta: 143231551 ns
+delta: 143887970 ns
+delta: 192539033 ns
+delta: 142864652 ns
+delta: 144168370 ns
+delta: 144643970 ns
+delta: 146354549 ns
+delta: 144173090 ns
+delta: 192938813 ns
+delta: 143899031 ns
+delta: 143704550 ns
+delta: 144049910 ns
+delta: 143515991 ns
+delta: 142860671 ns
+delta: 144659170 ns
+delta: 195817151 ns
+delta: 143496370 ns
+delta: 143511711 ns
+delta: 142839971 ns
+delta: 142859271 ns
+delta: 145022830 ns
+delta: 144827710 ns
+delta: 193296092 ns
+delta: 143710091 ns
+delta: 145884169 ns
+delta: 142862271 ns
+delta: 142848071 ns
+delta: 142848971 ns
+delta: 191794714 ns
+delta: 142848031 ns
+delta: 142862492 ns
+delta: 142853631 ns
+delta: 144153910 ns
+delta: 142846431 ns
+delta: 142859871 ns
+delta: 192050734 ns
+delta: 144162390 ns
+delta: 143521031 ns
+delta: 143547190 ns
+delta: 144158651 ns
+delta: 144668109 ns
+delta: 196450171 ns
+delta: 144178470 ns
+delta: 144174450 ns
+delta: 144157710 ns
+delta: 144166790 ns
+delta: 144816350 ns
+delta: 142835751 ns
+delta: 192467394 ns
+delta: 144171130 ns
+delta: 142848251 ns
+delta: 143045951 ns
+delta: 142859311 ns
+delta: 144158250 ns
+delta: 144164931 ns
+delta: 192644773 ns
+delta: 142854811 ns
+delta: 142858871 ns
+delta: 142858311 ns
+delta: 142855271 ns
+delta: 144798470 ns
+delta: 192450374 ns
+delta: 142854231 ns
+delta: 143515950 ns
+delta: 142897932 ns
+delta: 143516611 ns
+delta: 142859871 ns
+delta: 144815510 ns
+delta: 195807951 ns
+delta: 142860251 ns
+delta: 144818810 ns
+delta: 142858231 ns
+delta: 143519731 ns
+delta: 143493950 ns
+delta: 144144530 ns
+delta: 193773293 ns
+delta: 142860851 ns
+delta: 144160170 ns
+delta: 143502891 ns
+delta: 143701530 ns
+delta: 143516191 ns
+delta: 191788254 ns
+delta: 143506911 ns
+delta: 142860431 ns
+delta: 142846071 ns
+delta: 142856571 ns
+delta: 143729011 ns
+delta: 144134750 ns
+delta: 197124050 ns
+delta: 143488950 ns
+delta: 144017551 ns
+delta: 142891391 ns
+delta: 142862891 ns
+delta: 142861671 ns
+delta: 194257152 ns
+delta: 142860571 ns
+delta: 142849751 ns
+delta: 145172770 ns
+delta: 142843891 ns
+delta: 146303689 ns
+delta: 143523110 ns
+delta: 193976792 ns
+delta: 142843072 ns
+delta: 144688849 ns
+delta: 146955388 ns
+delta: 144664690 ns
+delta: 143516051 ns
+delta: 142850611 ns
+delta: 192970993 ns
+delta: 145422189 ns
+delta: 144164190 ns
+delta: 144009871 ns
+delta: 145809089 ns
+delta: 142863191 ns
+delta: 197587209 ns
+delta: 144003891 ns
+delta: 143521390 ns
+delta: 144677910 ns
+delta: 144634270 ns
+delta: 145316829 ns
+delta: 144008270 ns
+delta: 191804754 ns
+delta: 144655430 ns
+delta: 144006770 ns
+delta: 144643750 ns
+delta: 143992410 ns
+delta: 143516691 ns
+delta: 194858312 ns
+delta: 145160269 ns
+delta: 142856631 ns
+delta: 144661230 ns
+delta: 144145550 ns
+delta: 144791850 ns
+delta: 142863051 ns
+delta: 192433274 ns
+delta: 144173610 ns
+delta: 143500230 ns
+delta: 142842552 ns
+delta: 142854391 ns
+delta: 142857631 ns
+delta: 196442410 ns
+delta: 142869511 ns
+delta: 143519391 ns
+delta: 142837811 ns
+delta: 143529971 ns
+delta: 144145850 ns
+delta: 145295309 ns
+delta: 192972773 ns
+delta: 144160991 ns
+delta: 143517830 ns
+delta: 145306450 ns
+delta: 144012670 ns
+delta: 142864671 ns
+delta: 143514271 ns
+delta: 192952273 ns
+delta: 144670009 ns
+delta: 142861212 ns
+delta: 143989670 ns
+delta: 143505671 ns
+delta: 142863471 ns
+delta: 192951493 ns
+delta: 143502330 ns
+delta: 143491911 ns
+delta: 144002090 ns
+delta: 144648830 ns
+delta: 143512251 ns
+delta: 144010270 ns
+delta: 196937210 ns
+delta: 146293689 ns
+delta: 143511070 ns
+delta: 145966449 ns
+delta: 144673350 ns
+delta: 143501911 ns
+delta: 191845814 ns
+delta: 144655530 ns
+delta: 146576549 ns
+delta: 144008070 ns
+delta: 142835011 ns
+delta: 143513551 ns
+delta: 144659870 ns
+delta: 195608731 ns
+delta: 145144809 ns
+delta: 142848731 ns
+delta: 144662150 ns
+delta: 144014910 ns
+delta: 145329150 ns
+delta: 145391609 ns
+delta: 197103930 ns
+delta: 143516170 ns
+delta: 143507251 ns
+delta: 145164169 ns
+delta: 143505411 ns
+delta: 144666230 ns
+delta: 193185613 ns
+delta: 144663109 ns
+delta: 144644110 ns
+delta: 144684130 ns
+delta: 143517111 ns
+delta: 145329449 ns
+delta: 143494271 ns
+delta: 191794914 ns
+delta: 145316649 ns
+delta: 142855711 ns
+delta: 144652390 ns
+delta: 144001370 ns
+delta: 143516311 ns
+delta: 193601612 ns
+delta: 143504371 ns
+delta: 143507571 ns
+delta: 144673089 ns
+delta: 144004491 ns
+delta: 145153589 ns
+delta: 146301709 ns
+delta: 196434090 ns
+delta: 142863811 ns
+delta: 144681010 ns
+delta: 143879030 ns
+delta: 143877911 ns
+delta: 143203151 ns
+delta: 143869190 ns
+delta: 194472272 ns
+delta: 143674990 ns
+delta: 143077171 ns
+delta: 144599070 ns
+delta: 143874271 ns
+delta: 143865310 ns
+delta: 194017772 ns
+delta: 143515511 ns
+delta: 146945588 ns
+delta: 144132790 ns
+delta: 144661090 ns
+delta: 147607028 ns
+delta: 144179890 ns
+delta: 193330112 ns
+delta: 144002431 ns
+delta: 142859931 ns
+delta: 144644470 ns
+delta: 145817629 ns
+delta: 142859691 ns
+delta: 196940030 ns
+delta: 143507470 ns
+delta: 145811949 ns
+delta: 144005651 ns
+delta: 143515430 ns
+delta: 145162630 ns
+delta: 144009930 ns
+delta: 194089332 ns
+delta: 144666010 ns
+delta: 144655770 ns
+delta: 143519830 ns
+delta: 144005431 ns
+delta: 144000790 ns
+delta: 194261392 ns
+delta: 144015890 ns
+delta: 142840492 ns
+delta: 144172131 ns
+delta: 143998970 ns
+delta: 145166469 ns
+delta: 146946548 ns
+delta: 192948253 ns
+delta: 144654650 ns
+delta: 143810331 ns
+delta: 143214291 ns
+delta: 143856050 ns
+delta: 143872150 ns
+delta: 143195951 ns
+delta: 198294429 ns
+delta: 144018511 ns
+delta: 144132810 ns
+delta: 143992950 ns
+delta: 142840231 ns
+delta: 144009210 ns
+delta: 197567210 ns
+delta: 142850411 ns
+delta: 144434430 ns
+delta: 145091830 ns
+delta: 143220250 ns
+delta: 143236031 ns
+delta: 143219071 ns
+delta: 192570874 ns
+delta: 142842551 ns
+delta: 143505130 ns
+delta: 144660030 ns
+delta: 144656870 ns
+delta: 145785229 ns
+delta: 196445050 ns
+delta: 145949089 ns
+delta: 143605191 ns
+delta: 143041011 ns
+delta: 143036911 ns
+delta: 144186910 ns
+delta: 143693490 ns
+delta: 191899734 ns
+delta: 143496391 ns
+delta: 145143149 ns
+delta: 145969649 ns
+delta: 142852531 ns
+delta: 144018551 ns
+delta: 143493270 ns
+delta: 191787234 ns
+delta: 142913391 ns
+delta: 144175910 ns
+delta: 143751831 ns
+delta: 143656191 ns
+delta: 143051631 ns
+delta: 192426453 ns
+delta: 144171710 ns
+delta: 144009690 ns
+delta: 143521991 ns
+delta: 143523591 ns
+delta: 143509290 ns
+delta: 142843912 ns
+delta: 196947750 ns
+delta: 142860371 ns
+delta: 143687550 ns
+delta: 143669051 ns
+delta: 143018431 ns
+delta: 143028191 ns
+delta: 193256253 ns
+delta: 142862751 ns
+delta: 142849371 ns
+delta: 143512871 ns
+delta: 143518570 ns
+delta: 148117307 ns
+delta: 142859432 ns
+delta: 192467013 ns
+delta: 143516951 ns
+delta: 145547229 ns
+delta: 145804029 ns
+delta: 144915209 ns
+delta: 144266990 ns
+delta: 145377970 ns
+delta: 191853214 ns
+delta: 143514891 ns
+delta: 143509011 ns
+delta: 143490491 ns
+delta: 144666829 ns
+delta: 142846691 ns
+delta: 196943630 ns
+delta: 148752807 ns
+delta: 145904069 ns
+delta: 145316249 ns
+delta: 144172010 ns
+delta: 143041271 ns
+delta: 143034432 ns
+delta: 194150192 ns
+delta: 145828369 ns
+delta: 142846431 ns
+delta: 146963788 ns
+delta: 143490690 ns
+delta: 144019251 ns
+delta: 194256252 ns
+delta: 144183850 ns
+delta: 144730910 ns
+delta: 143132771 ns
+delta: 145592489 ns
+delta: 144590050 ns
+delta: 144375111 ns
+delta: 196563890 ns
+delta: 146685088 ns
+delta: 144667110 ns
+delta: 144013890 ns
+delta: 144012510 ns
+delta: 143518131 ns
+delta: 142849491 ns
+delta: 193623593 ns
+delta: 144074550 ns
+delta: 145560229 ns
+delta: 143010011 ns
+delta: 144315030 ns
+delta: 143025351 ns
+delta: 193084273 ns
+delta: 142854631 ns
+delta: 142874591 ns
+delta: 145188950 ns
+delta: 142860191 ns
+delta: 144001370 ns
+delta: 144028051 ns
+delta: 192455293 ns
+delta: 145828309 ns
+delta: 143023531 ns
+delta: 146428108 ns
+delta: 144390130 ns
+delta: 143161771 ns
+delta: 198011069 ns
+delta: 145022870 ns
+delta: 142839911 ns
+delta: 143508031 ns
+delta: 142843511 ns
+delta: 143489391 ns
+delta: 144177230 ns
+delta: 194782011 ns
+delta: 143498871 ns
+delta: 144461650 ns
+delta: 143871211 ns
+delta: 143198291 ns
+delta: 143746811 ns
+delta: 143209471 ns
+delta: 194244352 ns
+delta: 144663590 ns
+delta: 143507210 ns
+delta: 143994151 ns
+delta: 142843671 ns
+delta: 144133770 ns
+delta: 193638792 ns
+delta: 144013351 ns
+delta: 142982331 ns
+delta: 143112111 ns
+delta: 144414290 ns
+delta: 145570009 ns
+delta: 144386890 ns
+delta: 197657249 ns
+delta: 144686450 ns
+delta: 142872431 ns
+delta: 145797189 ns
+delta: 145797209 ns
+delta: 145338029 ns
+delta: 192470954 ns
+delta: 142830071 ns
+delta: 144243990 ns
+delta: 145667549 ns
+delta: 143666331 ns
+delta: 143672810 ns
+delta: 144327110 ns
+delta: 192507774 ns
+delta: 142859191 ns
+delta: 143994890 ns
+delta: 146144969 ns
+delta: 144796669 ns
+delta: 142852312 ns
+delta: 192956293 ns
+delta: 142913931 ns
+delta: 143867630 ns
+delta: 144755950 ns
+delta: 145709109 ns
+delta: 143876990 ns
+delta: 143198351 ns
+delta: 196007471 ns
+delta: 144182750 ns
+delta: 144646230 ns
+delta: 143512670 ns
+delta: 143475111 ns
+delta: 142858011 ns
+delta: 143513871 ns
+delta: 192455433 ns
+delta: 143515611 ns
+delta: 143030011 ns
+delta: 143020651 ns
+delta: 143000911 ns
+delta: 143677571 ns
+delta: 194226292 ns
+delta: 145147949 ns
+delta: 143516491 ns
+delta: 145274409 ns
+delta: 144168470 ns
+delta: 145330250 ns
+delta: 145155189 ns
+delta: 198751949 ns
+delta: 144004870 ns
+delta: 144787910 ns
+delta: 144527649 ns
+delta: 143182351 ns
+delta: 145152170 ns
+delta: 192095634 ns
+delta: 146477309 ns
+delta: 145296249 ns
+delta: 143502211 ns
+delta: 142857051 ns
+delta: 143489511 ns
+delta: 142849991 ns
+delta: 191798534 ns
+delta: 142850811 ns
+delta: 143072331 ns
+delta: 143700131 ns
+delta: 143168910 ns
+delta: 143234871 ns
+delta: 143840051 ns
+delta: 192482093 ns
+delta: 145818809 ns
+delta: 143506771 ns
+delta: 143503350 ns
+delta: 144139151 ns
+delta: 142857071 ns
+delta: 198101869 ns
+delta: 143513470 ns
+delta: 143580171 ns
+delta: 143797051 ns
+delta: 144488429 ns
+delta: 143171551 ns
+delta: 145168110 ns
+delta: 193888012 ns
+delta: 143998850 ns
+delta: 142833332 ns
+delta: 142853071 ns
+delta: 145141029 ns
+delta: 143502391 ns
+delta: 192673793 ns
+delta: 144009130 ns
+delta: 143995091 ns
+delta: 143675450 ns
+delta: 143002851 ns
+delta: 144309310 ns
+delta: 144800590 ns
+delta: 192342034 ns
+delta: 143506750 ns
+delta: 143515531 ns
+delta: 142861651 ns
+delta: 143489651 ns
+delta: 144374730 ns
+delta: 143481250 ns
+delta: 195801991 ns
+delta: 142845851 ns
+delta: 143006392 ns
+delta: 145117530 ns
+delta: 145186049 ns
+delta: 143882951 ns
+delta: 193914452 ns
+delta: 142863591 ns
+delta: 142858031 ns
+delta: 144259310 ns
+delta: 144795370 ns
+delta: 142850231 ns
+delta: 143518971 ns
+delta: 192974833 ns
+delta: 143997930 ns
+delta: 143698751 ns
+delta: 144521990 ns
+delta: 145165689 ns
+delta: 143220431 ns
+delta: 192141714 ns
+delta: 145308389 ns
+delta: 142845891 ns
+delta: 143511571 ns
+delta: 144030210 ns
+delta: 142852051 ns
+delta: 143492691 ns
+delta: 196454410 ns
+delta: 143497331 ns
+delta: 142897691 ns
+delta: 145020290 ns
+delta: 143223330 ns
+delta: 143872351 ns
+delta: 143868690 ns
+delta: 192523954 ns
+delta: 143502330 ns
+delta: 144135930 ns
+delta: 143498831 ns
+delta: 142858851 ns
+delta: 143498931 ns
+delta: 193124013 ns
+delta: 144792230 ns
+delta: 146512828 ns
+delta: 143029151 ns
+delta: 143675551 ns
+delta: 143018251 ns
+delta: 143671390 ns
+delta: 197699149 ns
+delta: 144664510 ns
+delta: 144668590 ns
+delta: 143501071 ns
+delta: 148246107 ns
+delta: 142847031 ns
+delta: 192926533 ns
+delta: 143479531 ns
+delta: 144157670 ns
+delta: 143058271 ns
+delta: 144560370 ns
+delta: 144518870 ns
+delta: 143170191 ns
+delta: 191991253 ns
+delta: 144165671 ns
+delta: 144139270 ns
+delta: 144813329 ns
+delta: 144134311 ns
+delta: 144003230 ns
+delta: 145460389 ns
+delta: 192284834 ns
+delta: 142849151 ns
+delta: 143765050 ns
+delta: 143195131 ns
+delta: 143180071 ns
+delta: 143850350 ns
+delta: 196547471 ns
+delta: 143506850 ns
+delta: 142857312 ns
+delta: 142853671 ns
+delta: 144347230 ns
+delta: 142839211 ns
+delta: 142854311 ns
+delta: 192436754 ns
+delta: 142845531 ns
+delta: 144875929 ns
+delta: 145043010 ns
+delta: 143177291 ns
+delta: 143839010 ns
+delta: 143813871 ns
+delta: 192467033 ns
+delta: 143514451 ns
+delta: 142849211 ns
+delta: 142857091 ns
+delta: 143502471 ns
+delta: 143507830 ns
+delta: 191795174 ns
+delta: 145814569 ns
+delta: 146359709 ns
+delta: 143162711 ns
+delta: 143825510 ns
+delta: 143820210 ns
+delta: 144492450 ns
+delta: 198656409 ns
+delta: 144662450 ns
+delta: 143509051 ns
+delta: 143709230 ns
+delta: 143512291 ns
+delta: 144139470 ns
+delta: 191781974 ns
+delta: 142857671 ns
+delta: 143515011 ns
+delta: 143821550 ns
+delta: 143867271 ns
+delta: 143191911 ns
+delta: 143185951 ns
+delta: 195042352 ns
+delta: 144657390 ns
+delta: 144144310 ns
+delta: 144130590 ns
+delta: 142853091 ns
+delta: 142834291 ns
+delta: 143487851 ns
+delta: 197099790 ns
+delta: 144138050 ns
+delta: 143733171 ns
+delta: 143837570 ns
+delta: 143166531 ns
+delta: 143818810 ns
+delta: 193305373 ns
+delta: 144634010 ns
+delta: 144001870 ns
+delta: 145140770 ns
+delta: 142855731 ns
+delta: 143505070 ns
+delta: 145292870 ns
+delta: 193118653 ns
+delta: 143490410 ns
+delta: 143594231 ns
+delta: 144450990 ns
+delta: 143085611 ns
+delta: 143726070 ns
+delta: 193798033 ns
+delta: 144003510 ns
+delta: 144018370 ns
+delta: 145136370 ns
+delta: 144656910 ns
+delta: 145804708 ns
+delta: 145309410 ns
+delta: 196448870 ns
+delta: 144663090 ns
+delta: 142969671 ns
+delta: 143159771 ns
+delta: 143183811 ns
+delta: 143848170 ns
+delta: 193905833 ns
+delta: 144661589 ns
+delta: 143512171 ns
+delta: 142832391 ns
+delta: 143514951 ns
+delta: 142855011 ns
+delta: 142859731 ns
+delta: 193103453 ns
+delta: 142861831 ns
+delta: 144810030 ns
+delta: 145112689 ns
+delta: 143736931 ns
+delta: 143743190 ns
+delta: 143837831 ns
+delta: 193684352 ns
+delta: 143506011 ns
+delta: 144157890 ns
+delta: 143477291 ns
+delta: 145306909 ns
+delta: 142847851 ns
+delta: 196457631 ns
+delta: 144175890 ns
+delta: 144675170 ns
+delta: 143151031 ns
+delta: 143810571 ns
+delta: 143835530 ns
+delta: 144499350 ns
+delta: 193229553 ns
+delta: 145315149 ns
+delta: 143492751 ns
+delta: 143478491 ns
+delta: 144803589 ns
+max jitter: 56.562496 ms
+
+Wed Jan 10 15:06:51 CST 2024
+The sched_jitter test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase prio-preempt -c 1  ---
+Wed Jan 10 15:06:51 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-prio-preempt-c1.log
+Maximum busy thread count(64), should not exceed number of cpus(64)
+Using 64
+
+-------------------
+Priority Preemption
+-------------------
+
+Busy Threads: 64
+Interrupter Threads: Disabled
+Worker Threads: 27
+
+Busy Thread 64(81): Running...
+Busy Thread 63(81): Running...
+Busy Thread 62(81): Running...
+Busy Thread 61(81): Running...
+Busy Thread 60(81): Running...
+Busy Thread 59(81): Running...
+Busy Thread 58(81): Running...
+Busy Thread 57(81): Running...
+Busy Thread 56(81): Running...
+Busy Thread 55(81): Running...
+Busy Thread 54(81): Running...
+Busy Thread 53(81): Running...
+Busy Thread 52(81): Running...
+Busy Thread 51(81): Running...
+Busy Thread 50(81): Running...
+Busy Thread 49(81): Running...
+Busy Thread 48(81): Running...
+Busy Thread 47(81): Running...
+Busy Thread 46(81): Running...
+Busy Thread 45(81): Running...
+Busy Thread 44(81): Running...
+Busy Thread 43(81): Running...
+Busy Thread 42(81): Running...
+Busy Thread 41(81): Running...
+Busy Thread 40(81): Running...
+Busy Thread 39(81): Running...
+Busy Thread 38(81): Running...
+Busy Thread 37(81): Running...
+Busy Thread 36(81): Running...
+Busy Thread 35(81): Running...
+Busy Thread 34(81): Running...
+Busy Thread 33(81): Running...
+Busy Thread 32(81): Running...
+Busy Thread 31(81): Running...
+Busy Thread 30(81): Running...
+Busy Thread 29(81): Running...
+Busy Thread 28(81): Running...
+Busy Thread 27(81): Running...
+Busy Thread 26(81): Running...
+Busy Thread 25(81): Running...
+Busy Thread 24(81): Running...
+Busy Thread 23(81): Running...
+Busy Thread 22(81): Running...
+Busy Thread 21(81): Running...
+Busy Thread 20(81): Running...
+Busy Thread 19(81): Running...
+Busy Thread 18(81): Running...
+Busy Thread 17(81): Running...
+Busy Thread 16(81): Running...
+Busy Thread 15(81): Running...
+Busy Thread 14(81): Running...
+Busy Thread 13(81): Running...
+Busy Thread 12(81): Running...
+Busy Thread 11(81): Running...
+Busy Thread 10(81): Running...
+Busy Thread 9(81): Running...
+Busy Thread 8(81): Running...
+Busy Thread 7(81): Running...
+Busy Thread 6(81): Running...
+Busy Thread 5(81): Running...
+Busy Thread 4(81): Running...
+Busy Thread 3(81): Running...
+Busy Thread 2(81): Running...
+Busy threads created!
+Worker threads created
+Signaling first thread
+Busy Thread 52(81): Exiting
+Busy Thread 40(81): Exiting
+Busy Thread 3(81): Exiting
+Busy Thread 2(81): Exiting
+Busy Thread 60(81): Exiting
+Busy Thread 28(81): Exiting
+Busy Thread 26(81): Exiting
+Busy Thread 62(81): Exiting
+Busy Thread 17(81): Exiting
+Busy Thread 42(81): Exiting
+Busy Thread 44(81): Exiting
+Busy Thread 54(81): Exiting
+Busy Thread 56(81): Exiting
+Busy Thread 19(81): Exiting
+Busy Thread 9(81): Exiting
+Busy Thread 6(81): Exiting
+Busy Thread 35(81): Exiting
+Busy Thread 36(81): Exiting
+Busy Thread 32(81): Exiting
+Busy Thread 11(81): Exiting
+Busy Thread 48(81): Exiting
+Busy Thread 46(81): Exiting
+Busy Thread 22(81): Exiting
+Busy Thread 51(81): Exiting
+Busy Thread 5(81): Exiting
+Busy Thread 58(81): Exiting
+Busy Thread 29(81): Exiting
+Busy Thread 63(81): Exiting
+Busy Thread 38(81): Exiting
+Busy Thread 41(81): Exiting
+Busy Thread 57(81): Exiting
+Busy Thread 61(81): Exiting
+Busy Thread 8(81): Exiting
+Busy Thread 4(81): Exiting
+Busy Thread 64(81): Exiting
+Busy Thread 34(81): Exiting
+Busy Thread 43(81): Exiting
+Busy Thread 18(81): Exiting
+Busy Thread 20(81): Exiting
+Busy Thread 37(81): Exiting
+Busy Thread 7(81): Exiting
+
+Criteria: All threads appropriately preempted within 1 loop(s)
+Result: PASS
+Busy Thread 47(81): Exiting
+Busy Thread 13(81): Exiting
+Busy Thread 49(81): Exiting
+Busy Thread 15(81): Exiting
+Busy Thread 10(81): Exiting
+Busy Thread 12(81): Exiting
+Busy Thread 33(81): Exiting
+Busy Thread 31(81): Exiting
+Busy Thread 23(81): Exiting
+Busy Thread 25(81): Exiting
+Busy Thread 24(81): Exiting
+Busy Thread 53(81): Exiting
+Busy Thread 45(81): Exiting
+Busy Thread 50(81): Exiting
+Busy Thread 21(81): Exiting
+Busy Thread 59(81): Exiting
+Busy Thread 30(81): Exiting
+Busy Thread 55(81): Exiting
+Busy Thread 27(81): Exiting
+Busy Thread 16(81): Exiting
+Busy Thread 39(81): Exiting
+Busy Thread 14(81): Exiting
+
+Wed Jan 10 15:06:52 CST 2024
+The prio-preempt test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase gtod_latency  ---
+Wed Jan 10 15:06:52 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-gtod_latency.log
+
+----------------------
+Gettimeofday() Latency
+----------------------
+Iterations: 10000000
+
+Min: 59 ns
+Max: 46620 ns
+Avg: 113.8325 ns
+StdDev: 216.7386 ns
+Quantiles:
+99.0% < 420
+99.9% < 540
+99.99% < 600
+99.999% < 39040
+99.9999% < 43720
+99.99999% < 46620
+
+Wed Jan 10 15:07:00 CST 2024
+The gtod_latency test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase pi_perf -c 200  ---
+Wed Jan 10 15:07:00 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-pi_perf-c200.log
+Low prio thread started
+Busy 0 started
+High prio thread started
+Busy 1 started
+Busy 2 started
+Busy 3 started
+Busy 4 started
+Busy 5 started
+Busy 6 started
+Busy 7 started
+Busy 8 started
+Busy 9 started
+Busy 10 started
+Busy 11 started
+Busy 12 started
+Busy 13 started
+Busy 14 started
+Busy 15 started
+Busy 16 started
+Busy 17 started
+Busy 18 started
+Busy 19 started
+Busy 20 started
+Busy 21 started
+Busy 22 started
+Busy 23 started
+Busy 24 started
+Busy 25 started
+Busy 26 started
+Busy 27 started
+Busy 28 started
+Busy 29 started
+Busy 30 started
+Busy 31 started
+Busy 32 started
+Busy 33 started
+Busy 34 started
+Busy 35 started
+Busy 36 started
+Busy 37 started
+Busy 38 started
+Busy 39 started
+Busy 40 started
+Busy 41 started
+Busy 42 started
+Busy 43 started
+Busy 44 started
+Busy 45 started
+Busy 46 started
+Busy 47 started
+Busy 48 started
+Busy 49 started
+Busy 50 started
+Busy 51 started
+Busy 52 started
+Busy 53 started
+Busy 54 started
+Busy 55 started
+Busy 56 started
+Busy 57 started
+Busy 58 started
+Busy 59 started
+Busy 60 started
+Busy 61 started
+Busy 62 started
+Busy 63 started
+Time taken for high prio thread to get the lock once released by low prio thread
+Min delay = 8 us
+Max delay = 50 us
+Average delay = 10.51 us
+Standard Deviation = 6.58 us
+Quantiles:
+99.0% < 50
+Criteria: High prio lock wait time < (Low prio lock held time + 200 us)
+Result: PASS
+
+Wed Jan 10 15:07:02 CST 2024
+The pi_perf test appears to have completed.
+ Running 1 runs of func 
+--- Running testcase matrix_mult -c 0.75  ---
+Wed Jan 10 15:07:02 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-matrix_mult-c0.75.log
+
+---------------------------------------
+Matrix Multiplication (SMP Performance)
+---------------------------------------
+
+Running 128 iterations
+Matrix Dimensions: 100x100
+Calculations per iteration: 8
+Number of CPUs: 64
+
+Running sequential operations
+Min: 15520 us
+Max: 64566 us
+Avg: 15944.0000 us
+StdDev: 4314.7139 us
+
+Running concurrent operations
+Min: 15692 us
+Max: 303516 us
+Avg: 2661.0000 us
+StdDev: 132929.1875 us
+
+Concurrent Multipliers:
+Min: 0.9890
+Max: 0.2127
+Avg: 5.9917
+
+Criteria: 48.00 * average concurrent time < average sequential time
+Result: FAIL
+
+Wed Jan 10 15:07:04 CST 2024
+The matrix_mult test appears to have completed.
+ Running 1 runs of func 
+ Running 1 runs of func 
+--- Running testcase rt-migrate  ---
+Wed Jan 10 15:07:04 CST 2024
+Logging to /opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-rt-migrate.log
+|                                                                      |||                                                                      |||                                                                      ||-|                                                                      ||--|                                                                      ||----|                                                                      ||-----|                                                                      ||-------|                                                                      ||--------|                                                                      ||---------|                                                                      ||-----------|                                                                      ||------------|                                                                      ||--------------|                                                                      ||---------------|                                                                      ||----------------|                                                                      ||------------------|                                                                      ||-------------------|                                                                      ||---------------------|                                                                      ||----------------------|                                                                      ||-----------------------|                                                                      ||-------------------------|                                                                      ||--------------------------|                                                                      ||----------------------------|                                                                      ||-----------------------------|                                                                      ||------------------------------|                                                                      ||--------------------------------|                                                                      ||---------------------------------|                                                                      ||-----------------------------------|                                                                      ||------------------------------------|                                                                      ||-------------------------------------|                                                                      ||---------------------------------------|                                                                      ||----------------------------------------|                                                                      ||------------------------------------------|                                                                      ||-------------------------------------------|                                                                      ||--------------------------------------------|                                                                      ||----------------------------------------------|                                                                      ||-----------------------------------------------|                                                                      ||-------------------------------------------------|                                                                      ||--------------------------------------------------|                                                                      ||---------------------------------------------------|                                                                      ||-----------------------------------------------------|                                                                      ||------------------------------------------------------|                                                                      ||--------------------------------------------------------|                                                                      ||---------------------------------------------------------|                                                                      ||----------------------------------------------------------|                                                                      ||------------------------------------------------------------|                                                                      ||-------------------------------------------------------------|                                                                      ||---------------------------------------------------------------|                                                                      ||----------------------------------------------------------------|                                                                      ||-----------------------------------------------------------------|                                                                      ||-------------------------------------------------------------------|                                                                      ||--------------------------------------------------------------------
+Iter:      0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17      18      19      20      21      22      23      24      25      26      27      28      29      30      31      32      33      34      35      36      37      38      39      40      41      42      43      44      45      46      47      48      49      50      51      52      53      54      55      56      57      58      59      60      61      62      63      64  
+   0:    20199    1115    1102    1093    1092    1061    1052    1036    1028    1008    1000     987     976     955     948     934     910     905     899     899     868     865     853     853     811     806     794     789     767     758     752     752     707     703     696     692     672     666     662     662     631     623     616     611     585     579     574     564     544     541     525     523     493     495     486     464     449     439     439     430     403     389     383    1089     138  
+ len:    40199   21115   21102   21094   21092   21062   21052   21036   21028   21008   21000   20987   20976   20955   20948   20934   20910   20905   20899   20899   20868   20865   20853   20853   20811   20806   20794   20789   20767   20758   20752   20752   20707   20703   20696   20692   20672   20667   20662   20662   20631   20623   20616   20611   20585   20579   20574   20565   20544   20542   20525   20523   20493   20495   20486   20464   20450   20439   20439   20430   20403   20389   20383   21089   20138  
+ loops: 237451  236965  236955  236922  236903  237666  237719  237740  237538  237763  237671  237678  237563  236455  236636  236608  237643  237487  237440  237564  237516  237483  237408  237399  236364  236963  236862  236815  237744  237724  237693  237651  237085  237020  236978  237020  237498  237550  237541  237431  237609  237621  237579  237489  237317  237152  237274  237109  237559  237622  237562  237462  236911  237121  237221  236997  237328  237288  237479  237390  235543  235720  235382  236168  235977  
+
+   1:      647     666     664     718     650     705     630     624     661     602     596     588     637     547     613     565     514     512     500     499     484     481     469     463     449     443     435     430     407     404     394     383     368     366     360     360     338     306     305     295     288     306     302     269     249     245     238     234     226     226     217     217     239     199     198     224     175     171     164     161     146     141     142     122     108  
+ len:    20648   20666   20664   20718   20650   20705   20631   20625   20661   20602   20596   20588   20637   20547   20613   20566   20514   20512   20500   20499   20484   20481   20469   20463   20449   20443   20435   20430   20407   20404   20394   20383   20368   20366   20360   20360   20338   20309   20306   20295   20294   20306   20302   20269   20249   20245   20238   20234   20226   20226   20217   20217   20239   20200   20198   20224   20175   20171   20164   20161   20146   20141   20142   20122   20108  
+ loops:   5772  237554  237552  236971  237392  237580  237510  237444  237427  237892  237837  237775  237451  237023  237847  237128  236736  237369  236662  237284  237255  237925  237238  237222  237531  237488  237550  237568  237995  237910  237814  237675  237811  237196  237711  237742  237028  236893  236987  236927  237934  238018  237952  237905  237789  237906  237888  237681  237780  237216  237782  237820  235348  236281  236305  236442  237888  237784  237132  237138  236922  237617  237526  237452  235826  
+
+   2:      601     618     616     649     637     591     581     578     569     554     545     536     523     513     496     491     469     466     457     453     446     441     431     420     409     403     397     385     375     366     360     348     333     332     330     323     312     311     305     304     290     287     283     283     258     257     253     245     229     228     226     216     206     205     199     199     178     175     163     163     148     143     137     133     116  
+ len:    20601   20618   20616   20649   20637   20591   20583   20578   20569   20554   20545   20536   20523   20513   20496   20491   20469   20466   20457   20453   20446   20442   20431   20420   20409   20403   20397   20385   20375   20366   20360   20349   20333   20332   20330   20323   20312   20311   20305   20305   20290   20287   20283   20283   20258   20257   20253   20245   20230   20228   20227   20216   20206   20206   20200   20199   20178   20175   20163   20163   20148   20143   20138   20133   20116  
+ loops:   5184  237277  237338  237204  237216  237197  237590  237757  237620  237156  237119  237132  237513  237253  237233  237091  237541  237528  237470  237490  237629  237560  237536  237457  237440  237453  237477  237213  237354  237316  237354  237288  237579  237367  237488  237420  236187  236188  236175  235972  237382  237435  237350  237373  237464  237419  237490  237396  237618  237503  237668  237349  237430  237277  237322  237294  237851  237822  237773  237846  237727  237814  237713  237706  236116  
+
+   3:      587     641     601     628     603     577     569     566     555     543     534     527     512     501     481     473     452     450     441     439     428     422     416     404     394     386     379     369     357     353     345     331     316     314     311     305     295     294     285     285     270     266     265     253     236     236     235     222     203     205     201     226     187     188     214     175     162     158     150     150     131     127     128     110      96  
+ len:    20587   20641   20601   20628   20603   20577   20570   20566   20555   20543   20534   20527   20512   20501   20481   20474   20452   20450   20442   20440   20428   20422   20416   20404   20395   20387   20379   20369   20358   20353   20345   20331   20316   20314   20311   20305   20295   20294   20285   20285   20270   20266   20265   20254   20236   20236   20235   20222   20203   20205   20201   20226   20188   20188   20214   20175   20162   20158   20150   20150   20131   20127   20128   20110   20097  
+ loops:   5245  236076  237085  237072  236995  236940  237426  237505  237524  237605  237558  237506  237421  236416  237499  236162  237931  237927  237869  237883  237947  237871  237897  237740  237904  237870  237887  237769  238078  237999  238011  237904  237782  237755  237781  237705  237983  237949  237873  237915  238012  237936  238005  237869  237852  237847  237913  237753  237672  237696  237703  235733  237566  235660  235680  235523  237711  237692  237676  237683  237910  237924  237951  237777  235025  
+
+   4:      584     596     589     584     637     567     624     547     535     525     585     543     498     488     473     460     440     437     429     427     415     409     404     394     381     374     366     356     342     339     330     319     303     302     299     295     282     281     277     270     258     254     249     243     229     225     219     212     198     197     194     211     180     180     178     200     155     151     148     137     126     123     120     116      90  
+ len:    20584   20596   20589   20585   20637   20567   20624   20547   20535   20527   20585   20544   20498   20488   20473   20460   20440   20437   20430   20427   20416   20410   20404   20394   20381   20374   20366   20356   20343   20340   20330   20319   20303   20302   20299   20295   20282   20282   20277   20270   20259   20255   20249   20244   20229   20225   20219   20212   20198   20197   20194   20211   20180   20180   20178   20200   20155   20152   20148   20137   20126   20123   20120   20116   20090  
+ loops:   5300  237539  236547  236529  237252  236438  236554  235863  235802  237425  235821  237399  235745  237394  237315  237145  237681  237683  237683  237664  237852  237792  237820  237735  237647  237593  237616  237512  237672  237651  237649  237541  237473  237426  237449  237476  237722  237691  237669  237664  237859  237905  237827  237789  237953  237987  237931  237903  237727  237681  237711  237436  237585  237359  237407  237406  237403  237406  237254  237326  237704  237744  237731  237697  237113  
+
+   5:      598     654     641     613     593     581     579     559     550     569     529     549     507     500     488     475     458     456     447     445     432     426     421     410     394     391     381     369     357     351     344     332     317     317     307     305     295     293     288     287     272     268     267     256     239     237     231     226     209     209     201     216     188     180     181     204     165     153     146     145     131     126     127     112      95  
+ len:    20598   20654   20641   20613   20593   20581   20579   20559   20550   20569   20529   20549   20508   20500   20488   20476   20459   20456   20447   20445   20432   20426   20422   20411   20394   20391   20381   20369   20358   20351   20344   20332   20318   20317   20307   20305   20295   20293   20288   20287   20272   20269   20267   20256   20239   20238   20231   20226   20209   20209   20202   20216   20188   20181   20181   20205   20165   20153   20146   20146   20131   20126   20127   20112   20095  
+ loops:   5600  234732  234004  235942  234012  236041  236026  237786  237808  235930  237720  234925  235942  235780  236434  234150  235915  235956  235925  235988  236205  236257  236167  236140  236044  235944  235965  235980  236216  237943  237894  235784  237835  237763  235957  236014  237856  236142  237844  236082  236256  236285  236256  236137  235926  235987  235940  235933  235965  236001  235967  234985  235895  234902  234908  234862  237626  235844  237584  235888  235660  237290  235700  237273  235305  
+
+   6:       10       9     690     695     660     695     614     645     593     577     575     619     592     568     534     563     506     501     492     488     476     473     465     451     442     434     423     411     370     359     375     342     321     320     310     307     386     297     293     288     271     269     341     257     243     242     305     229     213     213     266     235     158     157     159     152     132     130     123     116     110     108     107      96      75  
+ len:    20064   20010   20691   20695   20660   20695   20614   20645   20594   20577   20575   20619   20594   20569   20534   20563   20507   20501   20492   20488   20478   20473   20465   20451   20442   20434   20423   20412   20370   20365   20375   20342   20321   20320   20310   20307   20386   20297   20294   20288   20271   20270   20341   20257   20243   20242   20305   20229   20213   20213   20266   20235   20158   20157   20159   20152   20133   20130   20123   20116   20110   20108   20107   20096   20075  
+ loops:   7178  237051  236604  236986  237780  237567  237392  237451  237919  237324  237798  237838  237878  237695  236921  237463  237916  237940  237864  237865  237721  237787  237687  237680  237803  237718  237945  237844  237776  237723  237890  237692  237209  237199  237138  237281  237348  237350  237410  237312  236037  235922  237385  235955  237294  237316  236071  237268  237355  237324  237344  237281  237159  235461  235437  235386  237789  237762  237784  237700  237840  237945  237735  237763  237007  
+
+   7:      682     718     711     678     664     655     654     641     626     617     615     608     593     580     573     554     541     539     530     529     516     510     502     495     483     478     467     457     444     438     429     417     407     405     405     397     386     371     370     362     351     351     336     340     323     320     310     303     292     292     277     276     276     266     264     252     249     240     229     229     215     206     204     193     182  
+ len:    20682   20718   20711   20678   20664   20657   20654   20641   20626   20617   20615   20608   20593   20580   20573   20554   20541   20539   20530   20529   20516   20511   20503   20495   20483   20478   20468   20458   20445   20438   20429   20417   20407   20405   20405   20397   20386   20371   20370   20362   20351   20351   20336   20340   20323   20320   20311   20303   20292   20292   20277   20277   20276   20266   20264   20252   20249   20241   20229   20229   20215   20207   20204   20193   20182  
+ loops:   5411  235622  235742  234635  235628  237804  237787  237715  235812  237663  237366  237222  237288  235608  235340  235583  236054  237597  237588  236005  237595  236015  237539  235760  237399  237531  237462  235749  238096  236545  236423  236444  237264  235718  235719  235579  235555  236037  236112  235998  237805  237632  235989  237714  237555  236078  237614  235976  235980  235930  237411  235877  235871  234778  234762  234679  236379  237872  236294  236216  235892  235931  235915  235838  234369  
+
+   8:       12     655     641     644     602     647     558     545     588     525     520     512     510     488     478     467     542     450     445     434     429     426     490     401     393     457     378     363     420     344     387     361     315     314     304     304     295     281     286     277     254     254     244     241     227     223     214     207     197     197     182     175     172     160     163     154     134     134     122     120     115     110     110     110      78  
+ len:    20135   20655   20641   20644   20602   20647   20559   20545   20588   20525   20520   20512   20510   20488   20478   20467   20542   20452   20445   20434   20429   20426   20490   20402   20393   20457   20379   20363   20420   20344   20387   20362   20315   20315   20305   20304   20295   20282   20286   20277   20254   20254   20244   20241   20227   20224   20214   20207   20197   20197   20183   20175   20172   20160   20163   20154   20135   20134   20122   20120   20115   20110   20110   20110   20078  
+ loops:   6962  236427  236930  237368  237242  237297  237455  237404  237475  237322  238130  238082  238054  237136  237069  236962  238006  236333  236311  236286  237760  237764  236305  237582  235980  237798  235969  235810  235941  237825  237841  237823  237831  237739  237680  237775  236829  237700  237541  237686  237573  237560  237506  237623  237609  237459  237465  237501  237974  237956  237413  237874  237863  235047  235106  235055  237698  237592  237621  237627  237448  237483  237484  237416  237427  
+
+   9:       12      49     595     585     639     557     552     548     540     632     511     577     523     491     480     467     453     445     443     433     426     476     405     399     465     383     375     418     363     394     336     360     315     313     313     305     293     279     277     277     257     252     246     239     231     231     215     218     200     200     196     181     181     165     151     146     135     131     126     116     115     110     111     102      78  
+ len:    20058   20049   20595   20585   20639   20557   20552   20548   20541   20633   20511   20578   20523   20491   20480   20468   20453   20445   20443   20433   20426   20476   20405   20399   20465   20383   20376   20418   20363   20394   20336   20361   20315   20314   20313   20305   20293   20279   20277   20277   20257   20253   20246   20239   20231   20231   20215   20218   20200   20200   20196   20181   20181   20165   20152   20146   20135   20132   20127   20116   20115   20110   20111   20102   20078  
+ loops:   7321  230999  237705  237669  237168  237634  237376  237479  237297  236106  237244  237363  237272  236093  237700  235768  237081  237249  237147  237299  237814  237202  237020  237589  237692  237579  237675  237671  237555  237671  237776  237762  237815  237730  237722  237670  235898  237555  237366  237483  237818  237853  237225  237538  237389  237239  237652  237314  237502  237498  236811  237312  237431  235727  235469  235839  237425  237469  237422  237243  237095  237203  237155  237174  237667  
+
+  10:    20238     687     678     669     659     646     638     633     625     609     598     588     580     572     564     552     540     531     529     522     511     498     490     486     483     474     458     450     440     435     418     707     402     401     399     395     381     363     363     356     343     343     331     332     318     310     298     299     292     294     275     272     282     260     250     248     229     203     201     190     190     189     184     181     696  
+ len:    40238   20687   20678   20669   20659   20646   20640   20633   20625   20609   20598   20588   20580   20572   20564   20552   20540   20531   20529   20522   20511   20498   20490   20487   20483   20474   20458   20450   20440   20436   20418   20707   20402   20401   20399   20395   20382   20364   20363   20357   20344   20344   20332   20332   20320   20311   20298   20299   20292   20294   20276   20272   20282   20261   20250   20248   20229   20203   20201   20191   20191   20191   20184   20181   20697  
+ loops: 237389  236435  236065  235948  235522  236038  237512  237406  237307  237852  237784  237371  237622  237830  235966  237794  237705  237301  237294  237115  237704  237664  237093  237630  237623  237581  238019  237960  237862  237890  235695  236368  237768  237687  237771  237755  237722  237796  237811  237685  237632  237720  237669  237664  237828  237744  237614  237563  237302  237289  237522  237220  237211  235492  235591  235541  237706  237625  237622  237681  235672  235683  235744  235584  236125  
+
+  11:    20147     634     620     611     602     588     580     573     562     550     538     528     519     510     500     488     473     465     463     454     444     432     424     418     416     407     390     382     379     367     351     340     329     329     322     319     308     292     290     289     270     269     256     257     243     242     225     225     212     212     203     195     195     179     179     169     151     148     139     626     129     120     120     115      92  
+ len:    40147   20634   20620   20611   20602   20588   20580   20573   20562   20550   20538   20528   20519   20510   20500   20488   20473   20465   20463   20454   20445   20432   20424   20418   20416   20407   20390   20382   20380   20367   20352   20340   20329   20329   20322   20319   20308   20293   20290   20290   20270   20269   20256   20257   20243   20242   20225   20249   20213   20212   20203   20195   20195   20179   20179   20169   20151   20148   20139   20626   20130   20120   20121   20115   20092  
+ loops: 237533  237350  237818  237650  235816  237494  237463  237476  237279  237660  237622  237342  237693  237587  237674  237563  237577  237435  237474  237446  238001  237808  237380  237976  237974  237916  237583  237673  237612  237757  237516  237405  237754  237636  237633  237615  237507  237724  237722  237781  237302  237363  237629  237263  237717  237668  237101  237456  237729  237598  237512  237751  237811  236961  236948  236841  235863  235890  235906  237034  235768  235894  236014  235846  237193  
+
+  12:      613     659     648     615     606     593     586     577     567     555     543     533     523     513     499     490     474     467     466     456     508     434     423     491     417     407     455     388     380     373     345     334     324     322     318     316     303     288     285     278     265     265     250     251     237     233     220     216     208     208     201     192     189     181     182     166     163     156     144     139     131     132     126     126     100  
+ len:    20614   20659   20649   20615   20606   20593   20586   20577   20567   20555   20543   20533   20523   20513   20499   20490   20474   20467   20466   20456   20508   20434   20423   20492   20417   20408   20455   20388   20380   20374   20345   20334   20324   20322   20318   20316   20304   20288   20285   20279   20265   20265   20250   20251   20237   20233   20220   20217   20208   20208   20201   20192   20190   20181   20182   20166   20163   20156   20145   20139   20131   20132   20126   20126   20100  
+ loops:   5608  237331  236609  236438  236916  236689  237650  237664  237690  237628  237699  237543  237653  237450  236586  237526  237651  237796  237778  237813  237215  237603  237694  236885  236648  236619  236813  237548  237383  237134  236827  236767  237923  237716  237911  237855  237371  237693  237739  237745  237383  237489  237552  237423  237581  237595  237269  237421  237717  237767  237304  237648  237715  236878  236884  236811  235625  235781  235824  235779  236137  236218  236220  236137  237523  
+
+  13:      605     652     639     608     599     584     577     566     559     547     533     525     516     508     496     484     468     462     460     499     434     421     414     412     485     387     376     365     432     381     340     329     318     316     315     308     297     279     278     271     258     256     242     246     231     227     213     217     202     201     187     182     182     173     166     160     146     146     133     133     122     123     116     116      84  
+ len:    20605   20652   20639   20609   20599   20584   20577   20566   20559   20547   20533   20525   20516   20508   20497   20484   20469   20462   20460   20499   20434   20422   20414   20412   20485   20387   20376   20365   20432   20381   20340   20329   20319   20316   20315   20308   20298   20279   20278   20271   20258   20257   20242   20246   20231   20227   20214   20217   20202   20201   20187   20182   20182   20173   20166   20160   20146   20146   20133   20133   20122   20123   20116   20116   20085  
+ loops:   5818  237260  237699  237616  236732  237561  237345  237330  237383  237431  237314  237214  237241  237474  237540  237325  237321  237413  237408  237533  237487  237247  237333  237870  237485  237742  237753  236827  237792  236783  237475  237432  237939  237848  237872  237787  237291  237345  237283  237276  236972  236941  237130  236973  237402  237537  236762  237497  237623  237669  237372  237627  237616  236654  236589  236451  235063  234979  235067  235001  236125  236231  236288  235945  235817  
+
+  14:      636     678     668     638     628     616     608     602     594     578     567     557     548     540     532     519     505     500     493     482     473     460     448     442     430     419     409     423     397     412     374     364     355     354     352     344     351     318     315     310     295     268     264     256     285     264     228     221     208     212     200     190     189     175     177     172     159     156     143     148     134     124     123     127      99  
+ len:    20636   20678   20668   20638   20628   20617   20608   20602   20594   20578   20567   20557   20548   20540   20532   20520   20505   20500   20493   20482   20473   20460   20448   20442   20430   20419   20411   20423   20397   20412   20374   20364   20355   20354   20352   20344   20351   20318   20315   20310   20296   20268   20264   20262   20286   20264   20228   20221   20208   20212   20200   20190   20190   20176   20177   20172   20159   20156   20143   20148   20134   20125   20123   20127   20099  
+ loops:   5692  236883  237953  237905  237987  237845  237597  237689  237447  237471  237716  237470  237625  237453  237793  237433  237685  237495  237437  237933  237971  237625  237396  237609  237332  237586  237607  236524  237531  236478  237932  237839  237909  237853  237883  237867  237267  238080  238050  237980  237860  237898  237909  237812  236323  236297  237832  236172  237850  237830  236118  237801  237789  237698  237885  237858  237657  237615  237449  237535  236148  236128  235930  236000  235664  
+
+  15:      606     648     637     608     600     585     578     572     560     547     534     526     517     508     498     488     473     466     463     449     441     429     418     412     398     389     378     392     366     382     340     332     320     318     317     313     300     284     282     281     261     260     248     248     234     230     217     214     206     205     192     190     190     179     179     168     153     150     140     138     135     134     131     126      99  
+ len:    20606   20649   20637   20608   20600   20586   20579   20574   20561   20548   20534   20526   20517   20508   20499   20488   20473   20466   20463   20449   20441   20429   20418   20412   20398   20389   20380   20393   20366   20382   20340   20332   20320   20318   20317   20313   20300   20284   20283   20281   20261   20260   20248   20248   20234   20231   20218   20214   20207   20207   20192   20190   20190   20179   20179   20168   20153   20150   20141   20138   20135   20134   20131   20126   20099  
+ loops:   5670  237058  237520  237522  236738  237484  238044  238090  238038  237902  237798  237970  237784  237977  237423  237860  237835  237873  237899  237820  237845  237783  237832  237485  237856  237455  237402  236757  237423  236692  237734  237796  237497  237394  237435  237407  237843  237984  238027  238007  237969  237912  237812  237747  237067  237090  237783  237053  237227  237347  237018  237276  237266  236634  236514  236567  237524  237467  237436  237408  236820  236972  236777  236740  235735  
+
+  16:       11     684     661     646     581     567     646     584     542     527     559     505     526     486     477     464     453     444     438     427     419     408     396     390     380     376     367     354     352     338     327     319     311     309     307     299     289     274     272     268     252     251     239     239     226     222     208     205     196     194     184     174     166     157     154     150     128     128     117     113     114     113     103     103      73  
+ len:    20131   20684   20662   20646   20582   20568   20646   20584   20543   20527   20560   20505   20526   20486   20477   20465   20453   20444   20438   20427   20420   20408   20396   20390   20381   20376   20368   20355   20352   20338   20328   20319   20311   20310   20307   20300   20289   20275   20272   20268   20252   20251   20239   20239   20226   20222   20208   20205   20196   20194   20184   20174   20166   20158   20154   20151   20128   20128   20117   20113   20114   20113   20104   20103   20074  
+ loops:   7294  237307  235523  237454  237511  235386  235430  237770  237726  237848  237817  237580  236526  237691  235385  237750  236643  237373  237394  237778  237911  236819  237324  237663  237346  237688  237613  237528  237597  237534  237866  237851  237690  237681  237784  237722  237490  237634  237661  237577  237544  237559  237462  237502  237930  237907  237371  237826  237671  237766  237746  237732  237640  236144  236094  236035  237287  237199  237166  237159  236821  236692  236807  236784  237650  
+
+  17:      611     624     654     613     599     591     640     614     583     559     549     546     545     520     510     498     480     473     466     456     447     434     418     414     404     399     388     378     373     360     349     341     332     330     330     322     311     298     295     290     274     273     260     262     247     243     230     227     218     218     206     201     198     196     184     183     171     169     161     153     146     143     137     132     107  
+ len:    20612   20625   20654   20613   20599   20592   20640   20614   20583   20559   20549   20546   20546   20520   20511   20498   20480   20473   20466   20456   20447   20434   20420   20414   20405   20399   20389   20378   20373   20360   20350   20341   20333   20331   20330   20322   20311   20299   20295   20290   20275   20273   20260   20262   20247   20243   20230   20227   20218   20218   20206   20201   20198   20196   20184   20183   20171   20169   20161   20153   20146   20143   20137   20132   20107  
+ loops:   5567  237723  235451  235084  235971  233565  233503  233576  237906  237733  236154  236170  236138  237709  233533  237703  235237  236013  235988  236084  236083  235070  235955  236099  235911  236222  236156  237705  236107  237677  236092  235956  237588  237540  237504  235806  235810  235676  235662  235615  235876  235884  235544  235808  236230  236127  235711  236154  237713  237702  235980  237656  235878  235073  236709  235042  235723  235851  235835  235773  237600  237424  235828  235806  233977  
+
+  18:       13     709     675     690     635     609     601     590     578     569     558     557     550     531     523     523     496     487     457     439     436     414     402     395     386     382     373     359     355     342     331     322     313     311     310     302     292     275     274     268     254     254     237     240     226     222     209     205     194     194     185     170     164     158     156     154     134     135     123     122     112     113     105      99      78  
+ len:    20122   20709   20675   20690   20635   20609   20601   20590   20578   20569   20558   20557   20551   20531   20523   20523   20496   20487   20457   20439   20436   20414   20402   20396   20386   20382   20373   20359   20355   20342   20331   20322   20313   20311   20310   20302   20292   20275   20274   20268   20254   20254   20237   20240   20227   20222   20209   20206   20194   20194   20186   20170   20164   20159   20156   20154   20134   20135   20123   20123   20112   20113   20105   20099   20078  
+ loops:   7272  237000  237879  237588  237540  237990  238006  237946  237726  238183  237749  237750  237627  237963  237821  238092  237173  237422  237389  237980  238003  236972  237315  237919  237267  237857  237799  237184  237768  237298  237948  237890  237642  237624  237654  237622  237974  237914  237966  237900  237498  237497  237691  237521  237928  237882  237283  237874  238133  237999  237642  237887  237892  236431  236399  236363  237914  237825  237866  237822  237694  237590  237679  237634  237156  
+
+  19:      579     628     618     583     575     564     555     544     534     526     515     514     503     488     480     467     450     440     437     424     416     400     391     391     379     374     361     350     350     333     323     316     307     304     304     298     286     271     268     263     250     250     236     236     223     222     209     210     195     194     185     178     178     171     164     161     152     146     143     138     124     123     115     108      87  
+ len:    20579   20628   20619   20583   20575   20564   20555   20545   20534   20526   20515   20514   20503   20488   20480   20468   20450   20441   20438   20424   20416   20400   20392   20391   20379   20374   20362   20351   20350   20334   20323   20316   20307   20304   20304   20298   20286   20271   20268   20263   20250   20250   20236   20236   20224   20224   20210   20210   20195   20194   20186   20178   20178   20171   20164   20161   20154   20146   20143   20138   20124   20123   20115   20109   20087  
+ loops:   5651  237275  236553  237296  237311  237788  237739  237652  237678  237733  237723  237711  237601  237813  237653  237822  237009  237768  237795  236515  236644  236898  237785  236940  237733  236919  236901  237242  236784  237107  236551  236485  238037  237980  238025  237934  237777  237155  237109  237180  237846  237781  236967  237730  237391  237453  237641  237531  237700  237611  237190  237529  237616  236382  236508  236353  237499  237540  237420  237443  236617  236538  236708  236653  235890  
+
+  20:       10     636     627     601     570     561     626     541     593     518     555     500     524     478     469     457     442     435     429     418     411     399     390     384     377     372     363     349     347     333     322     313     304     302     301     296     283     268     266     266     247     246     231     235     220     217     203     200     184     181     178     165     154     154     151     152     131     127     121     121     110     104      97      97      78  
+ len:    20131   20636   20627   20601   20570   20562   20627   20541   20593   20518   20555   20500   20524   20479   20469   20457   20442   20435   20429   20418   20411   20399   20390   20385   20377   20373   20363   20349   20347   20333   20322   20314   20304   20302   20301   20296   20284   20269   20266   20266   20247   20247   20232   20235   20221   20217   20204   20200   20184   20181   20178   20165   20154   20155   20152   20152   20131   20128   20121   20121   20110   20104   20097   20097   20078  
+ loops:   6754  235930  235707  235178  236611  237481  234524  237417  237380  237804  237549  237445  237467  237787  235879  237728  235758  236129  236116  236173  237563  234373  236019  236273  236051  236227  236213  236526  236028  236506  237652  236155  236545  236476  236456  236449  236235  236426  237892  236545  235251  236897  237741  235218  236575  236513  236569  236513  237774  236363  237720  237783  237778  234505  234558  235872  236198  236206  236108  236110  234404  234692  234650  234579  237436  
+
+  21:      586     601     630     585     577     617     588     556     547     529     514     551     532     489     482     470     458     449     446     433     425     414     404     399     391     385     374     363     361     346     336     329     321     317     315     309     299     282     281     274     261     261     244     247     233     232     218     212     199     198     193     184     184     176     170     170     150     147     141     135     135     127     120     121      97  
+ len:    20586   20601   20630   20585   20578   20617   20588   20556   20547   20529   20514   20551   20532   20489   20482   20470   20458   20450   20446   20433   20425   20414   20404   20399   20391   20387   20375   20363   20361   20346   20336   20329   20321   20318   20315   20309   20299   20282   20281   20275   20261   20261   20244   20248   20233   20232   20218   20212   20200   20198   20193   20184   20184   20177   20170   20170   20150   20147   20141   20135   20135   20128   20120   20121   20097  
+ loops:   5457  236041  237366  237576  237673  235765  235746  237843  237777  237593  237395  237822  237352  237570  237681  237510  235528  237807  237714  237516  237569  235651  237691  237771  237692  237816  237853  237570  237724  237566  237744  237746  237366  237349  237237  237476  237422  237778  237652  237741  237856  237901  237522  237696  237907  237917  237701  237825  237858  237852  237634  237806  237755  235968  235946  235972  237560  237496  237567  237404  237550  237667  237712  237670  236042  
+
+  22:       10     683     666     683     616     604     596     586     578     565     554     544     542     523     514     501     488     479     473     463     455     443     434     428     419     415     406     393     391     379     366     357     348     347     345     338     328     315     310     310     291     290     281     272     237     235     238     239     189     188     198     174     165     158     155     155     131     129     118     115     115     117     107     105      77  
+ len:    20122   20683   20666   20683   20616   20604   20596   20586   20578   20567   20554   20544   20542   20523   20514   20501   20488   20479   20474   20463   20455   20443   20434   20428   20419   20415   20406   20393   20391   20379   20366   20358   20348   20348   20345   20339   20328   20315   20310   20310   20291   20290   20281   20272   20237   20235   20238   20239   20191   20197   20198   20176   20165   20158   20155   20155   20131   20129   20118   20116   20115   20117   20108   20105   20077  
+ loops:   7025  235691  236991  237400  237318  237732  237697  237865  237833  237356  237387  237748  237322  237346  237520  237323  237716  237801  237885  237756  237854  237700  237888  237728  237909  237717  237639  237468  237588  237327  237876  237851  237617  237559  237558  237551  237133  237896  237756  237847  237321  237169  237665  237056  237637  237663  237127  237782  235274  234492  237480  235183  235270  234124  234297  234100  237747  237879  237829  237785  237116  237177  237186  237196  237582  
+
+  23:      581     599     620     609     579     567     559     548     541     529     517     500     493     479     469     459     447     438     432     422     414     402     394     388     379     374     365     352     351     334     324     318     308     306     305     300     288     270     269     263     250     250     232     236     222     221     205     209     190     190     185     175     175     165     159     159     150     141     135     135     126     118     115     115      86  
+ len:    20581   20599   20620   20609   20579   20568   20559   20548   20541   20530   20517   20500   20493   20479   20469   20459   20447   20438   20432   20422   20414   20402   20395   20388   20379   20375   20366   20352   20351   20335   20325   20318   20308   20306   20305   20300   20288   20270   20270   20264   20250   20250   20232   20236   20223   20223   20205   20210   20191   20191   20185   20175   20175   20165   20159   20159   20150   20141   20135   20135   20126   20119   20115   20115   20086  
+ loops:   5489  233633  235610  235951  235730  236072  236052  235539  235833  237725  235576  235710  235537  235997  235738  236030  235963  235724  235743  237692  237463  235956  235835  235945  235785  235969  235799  235823  235822  235805  237670  237686  235974  235936  236014  236153  235802  235947  237793  235952  237641  237741  235741  235741  236090  235853  235749  235978  235562  235444  235728  235482  235573  233649  233592  233486  235781  235778  235798  235702  234023  234122  234191  234137  234276  
+
+  24:       12     662     632     645     583     560     554     543     535     523     512     502     500     483     474     463     448     440     434     482     414     402     392     468     378     431     393     353     347     337     326     318     308     307     306     298     288     272     271     264     251     251     234     237     223     219     206     206     189     189     176     168     158     154     153     150     136     136     130     121     113     106     101      98      75  
+ len:    20126   20664   20632   20646   20583   20560   20554   20544   20535   20523   20512   20502   20500   20484   20474   20464   20448   20441   20434   20482   20414   20402   20392   20469   20379   20431   20393   20353   20347   20337   20326   20318   20309   20307   20306   20299   20288   20272   20271   20264   20252   20251   20234   20237   20223   20219   20206   20206   20189   20189   20176   20169   20158   20155   20153   20150   20136   20136   20130   20121   20113   20106   20101   20098   20075  
+ loops:   6995  237289  237839  237456  238010  238111  238199  237734  237833  237591  237195  237633  237256  237664  237650  237672  238075  238025  238001  237938  237338  238081  238042  237347  238003  236682  236746  237990  236382  238048  237295  237219  237372  237298  237351  237251  237502  237887  237909  237802  237808  237739  237716  237627  237628  237658  237774  237430  237468  237392  237218  237458  237392  236496  236584  236475  237389  237355  237377  237289  237804  237948  238051  237764  236478  
+
+  25:       48     586       8     624     622     584     559     547     539     528     515     506     504     487     478     466     451     444     438     451     418     409     399     396     381     441     397     356     351     340     329     322     311     310     309     302     291     276     274     274     254     253     238     241     227     244     209     212     197     197     183     173     224     160     174     144     128     127     116     112     106     103     104     101      73  
+ len:    20048   20586   20009   20624   20622   20584   20559   20548   20539   20528   20516   20506   20505   20487   20478   20466   20451   20444   20438   20451   20418   20409   20399   20396   20381   20441   20397   20356   20351   20340   20329   20322   20312   20310   20309   20302   20292   20276   20274   20274   20254   20254   20238   20242   20227   20245   20209   20212   20197   20198   20184   20173   20224   20161   20175   20144   20129   20128   20116   20113   20106   20104   20104   20102   20073  
+ loops:   7154  237489  228815  237627  237636  237680  237706  237503  237623  237839  237506  237527  237314  237825  237470  237899  237697  237653  237701  237795  237377  237745  237734  237314  237733  237813  235427  237707  235500  237713  237360  237313  237849  237835  237852  237881  237728  237238  237258  237178  237925  237968  237002  237813  236468  236115  237765  236481  237658  237634  236176  237574  237661  236279  236393  236185  237957  237916  237907  237746  237689  237704  237491  237701  235478  
+
+  26:    20217     643     634     631     615     608     600     589     582     570     555     547     545     528     520     508     495     487     481     471     461     453     443     435     425     415     408     396     664     386     374     366     358     357     355     347     337     322     319     313     298     295     281     285     271     268     254     257     238     238     232     226     225     214     208     208     175     170     161     157     160     155     153     154     654  
+ len:    40217   20643   20635   20631   20615   20608   20600   20589   20582   20570   20555   20547   20545   20528   20521   20509   20495   20487   20481   20471   20461   20453   20443   20435   20425   20416   20408   20396   20664   20386   20374   20367   20358   20357   20355   20348   20337   20322   20319   20313   20298   20297   20282   20285   20271   20270   20254   20257   20241   20241   20232   20226   20225   20214   20208   20208   20175   20170   20161   20157   20160   20156   20153   20154   20654  
+ loops: 237918  237772  236016  236635  237670  237605  237624  237569  237505  237521  237776  237441  237654  237653  237381  237653  237534  237613  237636  237163  237546  237501  237642  237409  237625  237148  235480  237189  236150  237140  237457  237437  237703  237521  237625  237646  237580  237773  237829  237738  237520  237509  237656  237362  237778  237772  237372  237855  237687  237698  237634  237696  237661  236614  236657  236557  237921  238008  237936  237860  237508  237536  237312  237396  235749  
+
+  27:       12     598     634     632     575     569     561     550     543     531     517     509     507     490     483     471     455     448     442     432     422     412     403     395     385     377     369     358     349     340     329     321     312     310     310     304     292     275     274     268     255     255     238     241     254     221     210     207     193     235     180     174     165     156     196     150     129     128     117     142     111     108     106     102      74  
+ len:    20124   20598   20634   20632   20575   20569   20561   20550   20543   20531   20517   20509   20507   20491   20483   20471   20456   20448   20442   20432   20422   20412   20403   20396   20385   20377   20370   20358   20349   20340   20329   20321   20312   20310   20310   20304   20292   20275   20274   20268   20255   20255   20238   20242   20254   20221   20210   20207   20193   20235   20181   20175   20165   20156   20196   20150   20129   20128   20117   20142   20111   20109   20106   20102   20074  
+ loops:    799  237493  237451  237651  237490  237637  237583  237309  237278  237645  237375  237272  237308  237487  237111  237544  237563  237526  237626  237889  237582  237491  237503  237707  237548  237877  237633  237893  237528  237882  237806  237644  237638  237596  237615  237656  237491  237674  237921  237704  238152  238180  237743  238054  235388  235861  237985  235909  237538  237562  235550  237507  237460  235964  236178  235983  237564  237596  237596  237690  236983  237079  236944  236968  237590  
+
+  28:      620     658     629     647     593     588     582     569     562     550     538     527     518     507     490     480     465     501     481     445     435     424     415     407     397     385     373     363     354     343     333     326     316     314     313     306     295     278     277     270     257     257     240     243     229     225     212     209     196     195     192     183     183     173     167     168     153     150     143     137     131     128     128     119      95  
+ len:    20620   20658   20629   20647   20593   20588   20582   20569   20562   20551   20538   20527   20518   20507   20490   20480   20465   20501   20482   20445   20435   20424   20415   20407   20397   20385   20373   20363   20354   20343   20333   20326   20316   20314   20313   20306   20295   20278   20277   20271   20257   20257   20240   20244   20230   20225   20212   20209   20198   20198   20192   20183   20183   20173   20167   20168   20153   20150   20143   20137   20131   20128   20128   20119   20095  
+ loops:   5726  236774  237565  237132  237052  237728  237736  237761  237687  237671  236913  237684  236882  237671  237531  237489  237631  236711  236180  237739  237488  237721  236153  237378  236147  237660  236342  237752  236263  237667  237530  237424  237150  237100  237235  237203  237496  237701  237765  237789  238003  238000  237624  237873  237198  237183  237973  237234  237922  237837  237107  237893  237793  237544  237516  237404  236626  236656  236562  236481  237724  237739  237543  237612  236157  
+
+  29:      635       9     654     687     635     674     644     613     603     593     577     569     557     549     536     510     493     552     536     519     440     428     415     405     393     378     371     360     352     344     333     326     319     316     313     307     296     281     278     276     259     258     244     246     232     225     213     203     198     196     186     181     181     167     166     162     147     146     133     133     123     120     119     106      91  
+ len:    20635   20009   20654   20687   20635   20674   20644   20613   20603   20593   20578   20569   20557   20550   20536   20511   20493   20552   20536   20519   20440   20428   20415   20405   20393   20378   20371   20360   20353   20344   20333   20327   20320   20316   20313   20308   20297   20281   20278   20276   20259   20259   20244   20246   20232   20225   20213   20204   20198   20197   20186   20181   20181   20167   20167   20162   20147   20146   20133   20133   20123   20120   20119   20106   20091  
+ loops:   6822  237436  237556  237626  237852  237859  236864  237744  237714  236780  237838  237780  237730  237592  237683  237399  236748  237599  237339  237765  237987  236604  237167  237994  237059  237442  237402  237468  237322  237403  237994  237915  237862  237763  237813  237683  237229  237722  237790  237670  237671  237742  237522  237555  237920  237842  237557  237794  237708  237582  237749  237609  237656  237336  237376  237342  237570  237588  237501  237466  237636  237730  237480  237626  236065  
+
+  30:    20169     633     628     619     608     601     591     581     574     562     553     544     534     525     515     503     490     482     467     456     447     436     426     418     409     398     629     387     372     364     354     346     340     337     337     333     318     306     302     301     282     281     268     269     256     252     239     235     223     222     212     207     206     201     196     189     182     178     170     170     153     150     147     138     120  
+ len:    40169   20634   20628   20620   20609   20601   20591   20581   20574   20562   20553   20544   20534   20525   20515   20503   20490   20482   20467   20456   20447   20436   20427   20418   20409   20399   20630   20387   20372   20364   20354   20346   20340   20338   20337   20333   20318   20306   20302   20301   20282   20283   20268   20269   20256   20252   20239   20235   20224   20224   20212   20207   20206   20201   20196   20190   20186   20178   20170   20170   20153   20150   20147   20138   20120  
+ loops: 237346  236571  236873  237119  238023  237924  237391  237814  237899  237319  237988  237739  237918  237601  237701  237431  237242  237573  236083  238034  237613  237404  237283  237628  237285  237961  236349  237870  235722  237882  237712  237548  237620  237485  237568  237612  237418  237902  238032  238025  237595  237526  237803  237560  237827  237917  237548  237832  237118  237121  237801  237102  237088  236843  236769  236736  235925  236051  235956  236030  237351  237548  237350  237404  237138  
+
+  31:      606     639     613     629     591     583     573     565     555     544     535     526     516     507     496     484     473     462     452     441     431     421     408     398     381     373     365     356     348     339     329     320     311     309     308     303     291     273     272     266     252     252     235     238     224     220     207     203     191     190     180     179     179     168     163     163     143     135     133     125     119     117     117     115      85  
+ len:    20606   20639   20613   20629   20591   20583   20573   20565   20556   20544   20535   20526   20516   20507   20496   20484   20474   20462   20452   20441   20431   20421   20409   20398   20381   20373   20365   20356   20348   20340   20329   20320   20311   20309   20308   20303   20291   20273   20272   20266   20253   20253   20235   20238   20224   20220   20207   20203   20193   20190   20180   20179   20179   20168   20163   20163   20143   20135   20133   20126   20119   20117   20117   20115   20085  
+ loops:   5795  237413  237512  235511  237753  237752  237739  237862  237867  237742  237727  237787  237616  237580  237754  237428  237695  237572  235414  237854  237954  237669  237174  237846  237120  237822  235405  237784  235290  237781  237918  237775  237645  237589  237620  237650  237404  237814  237964  237895  236846  236920  237789  236843  237698  237774  236733  237716  237510  237410  237621  237563  237419  237468  237459  237372  237974  237933  237811  237885  237441  237610  237466  237604  236174  
+
+  32:      600     642     635     613     587     584     570     561     553     541     532     523     515     504     494     481     470     460     450     437     428     420     407     396     386     374     366     357     349     347     329     321     316     313     311     358     291     344     274     268     256     305     237     240     278     246     208     225     185     184     175     171     171     162     163     158     144     140     133     127     121     115     115     107      87  
+ len:    20601   20642   20635   20613   20587   20584   20570   20561   20553   20541   20532   20523   20515   20504   20494   20481   20471   20460   20450   20437   20428   20420   20407   20397   20386   20374   20367   20358   20349   20347   20329   20321   20316   20313   20311   20359   20292   20344   20274   20268   20256   20305   20237   20240   20278   20246   20209   20225   20185   20184   20175   20171   20171   20163   20163   20158   20144   20140   20133   20127   20121   20116   20115   20107   20087  
+ loops:   5606  235425  235645  237683  237903  237912  237880  237954  238012  237806  237913  238021  237807  238015  237815  238027  237762  237954  237604  237660  237943  237780  235149  237853  235023  237700  237718  237671  237589  237637  237599  237916  237862  237750  237845  237173  237939  237791  236803  236781  238148  236797  236635  237984  238020  235699  237782  235674  237995  237908  235684  237816  237700  237173  237224  237081  237248  237275  237231  237110  237754  237765  237604  237717  235710  
+
+  33:       14     684     595     585     627     573     604     676     584     524     518     543     498     528     516     510     460     452     436     427     417     408     399     391     381     373     370     355     348     338     328     319     311     311     383     365     288     370     266     259     304     248     247     234     231     274     214     242     192     188     213     165     158     155     150     141     130     132     119     114     102     102     102      92      76  
+ len:    20118   20684   20596   20585   20627   20573   20604   20676   20584   20524   20518   20545   20498   20529   20517   20511   20460   20453   20436   20427   20418   20408   20400   20391   20382   20373   20371   20355   20348   20338   20328   20320   20311   20311   20383   20365   20288   20370   20266   20263   20305   20248   20247   20235   20231   20274   20214   20242   20192   20188   20214   20165   20158   20156   20151   20141   20130   20132   20119   20115   20102   20102   20102   20092   20076  
+ loops:   7349  235942  237520  237694  237552  237404  237369  236997  237945  237885  237432  235698  237391  236095  235667  235939  237782  237343  237550  237596  237502  237820  237569  237448  237551  237626  237623  237653  237558  237668  237471  237439  235795  235654  237156  237197  237048  235814  237247  237065  235694  237184  237202  237110  237169  237167  237128  236151  237633  237662  236154  237750  237781  235559  235563  235425  235700  235657  235594  235393  237029  237175  237075  237166  236137  
+
+  34:       15     630      14     611     595     569     563     554     539     533     522     513     507     494     486     476     465     454     443     433     424     414     405     397     387     378     370     360     354     346     333     325     315     313     303     292     283     264     258     257     248     245     237     226     222     219     211     200     190     187     183     160     158     155     148     148     129     124     120     119     106     101     106      95      85  
+ len:    20064   20630   20014   20611   20595   20569   20563   20554   20539   20533   20522   20513   20507   20494   20486   20476   20466   20454   20443   20433   20424   20414   20405   20397   20387   20378   20370   20360   20354   20346   20334   20325   20315   20313   20304   20292   20283   20265   20258   20258   20248   20245   20238   20226   20222   20219   20211   20200   20190   20187   20183   20160   20158   20155   20148   20148   20129   20124   20120   20119   20106   20101   20106   20095   20086  
+ loops:   6506  237150  237790  236682  237759  237891  237836  237993  238307  238257  237881  238568  237841  238539  238543  238424  238345  238260  237988  237504  237868  238187  237809  237828  237785  237580  237915  237596  237931  237580  237895  237863  238308  238235  238280  238307  238052  238226  238301  238135  238161  238277  238241  238133  238188  238132  238088  237251  237781  237770  236698  237819  237683  235776  235771  235651  238243  238355  238186  238306  238056  237981  237963  237933  237205  
+
+  35:    20168     617     608     602     588     579     575     562     555     547     537     526     520     507     499     489     480     468     459     451     441     431     421     411     608     396     386     379     373     366     354     346     336     335     323     312     302     282     278     274     266     262     259     247     245     234     233     221     202     200     193     188     188     181     175     175     162     161     149     148     138     136     136     133     107  
+ len:    40168   20617   20609   20602   20588   20579   20575   20562   20555   20547   20537   20526   20520   20507   20499   20489   20480   20468   20459   20451   20441   20432   20421   20411   20608   20396   20387   20379   20373   20366   20354   20346   20337   20335   20324   20312   20303   20283   20278   20274   20266   20262   20259   20247   20245   20235   20233   20221   20202   20200   20193   20188   20188   20181   20175   20175   20162   20161   20149   20148   20139   20136   20136   20133   20107  
+ loops: 236988  237500  235905  235793  235846  237552  237572  236937  237606  237639  237515  237138  237479  237162  237037  237114  237660  237642  236829  237568  236908  237543  235220  237042  234857  237521  236924  237574  236851  237589  237098  237033  237534  237450  237751  237653  237711  237457  237999  237935  237408  237906  237871  237399  237345  237340  237373  235698  237970  238000  235740  237980  237981  237549  237518  237524  237729  237678  237591  237514  237628  237590  237482  237587  235797  
+
+  36:      616     662     621     650     605     599     593     581     573     566     557     547     538     526     517     507     497     485     475     464     455     447     437     429     418     410     402     391     381     370     360     353     376     360     326     321     311     291     283     280     314     268     262     303     267     236     229     221     204     204     202     186     186     173     174     170     157     152     155     144     132     131     125     117     100  
+ len:    20616   20662   20621   20650   20605   20599   20593   20581   20574   20566   20557   20547   20538   20526   20517   20507   20497   20485   20475   20464   20456   20447   20437   20429   20418   20410   20402   20391   20381   20370   20360   20353   20376   20360   20326   20322   20311   20291   20283   20280   20314   20268   20262   20304   20267   20236   20229   20221   20204   20204   20202   20186   20186   20173   20174   20170   20157   20152   20155   20145   20132   20131   20125   20117   20100  
+ loops:   5686  236971  237523  235474  237667  238025  237965  237581  237514  237486  238000  237616  237989  237697  237741  237647  237459  237610  237629  237804  237711  237457  237643  237672  237602  237804  237663  237673  237635  237719  237747  237645  236427  235359  237530  237636  237433  235206  237859  237832  235131  237658  237807  235313  237541  237544  237513  236030  237555  237626  236081  237627  237687  235362  235416  235275  237678  237557  237573  237560  236786  236834  236896  236794  237404  
+
+  37:      619     654     627     624     608     601     594     584     575     568     558     549     546     530     521     511     500     490     480     469     460     450     441     433     423     414     405     396     391     379     369     360     377     370     336     325     315     314     291     289     278     278     274     257     307     240     263     219     211     210     205     195     195     189     176     175     158     156     145     141     140     137     128     128     105  
+ len:    20619   20654   20627   20624   20608   20601   20594   20584   20575   20568   20559   20549   20546   20530   20521   20512   20500   20490   20480   20469   20460   20450   20441   20433   20423   20414   20406   20397   20391   20379   20369   20360   20378   20370   20336   20325   20315   20314   20291   20289   20279   20278   20275   20257   20308   20240   20263   20219   20211   20210   20205   20195   20195   20189   20176   20175   20159   20156   20145   20141   20140   20137   20128   20129   20105  
+ loops:   5652  235550  236089  235471  236001  236327  236231  236254  235688  235631  236230  236080  236286  236170  236208  236175  235511  237180  236136  236019  235908  235593  236096  235935  236066  236124  236177  236056  236117  236068  235944  237655  233488  233601  235890  237727  235802  235956  235860  235957  235870  235865  235860  235743  235853  234644  234638  233636  235985  236026  233544  235873  235903  235507  235503  235458  235636  235543  235596  235569  235578  235814  235685  235447  234216  
+
+  38:      639     681     670     645     634     627     619     610     602     594     584     576     572     558     549     539     526     518     508     496     487     477     468     460     450     441     434     423     417     407     397     388     378     376     367     361     353     325     320     318     276     272     279     246     244     287     289     224     214     214     207     201     202     186     191     175     165     163     163     152     148     144     136     139     120  
+ len:    20639   20681   20670   20646   20634   20627   20620   20610   20602   20594   20585   20576   20572   20558   20549   20540   20527   20518   20508   20496   20487   20477   20468   20460   20450   20441   20434   20423   20417   20407   20397   20388   20379   20376   20367   20361   20354   20325   20322   20318   20276   20277   20281   20246   20244   20287   20289   20224   20214   20214   20207   20201   20203   20186   20191   20175   20165   20164   20163   20152   20148   20144   20136   20140   20121  
+ loops:   5481  235330  235468  236807  235341  236486  236401  236266  236575  236622  236466  237723  236319  237694  237646  237571  236497  237570  236132  236433  237770  236589  235451  237632  235377  236575  236198  236519  236200  236450  237741  237630  236445  236308  237536  237606  236236  236381  236916  236965  236498  236948  237956  237626  237632  233367  233257  237641  237529  237521  237555  237440  237421  237795  237813  237728  236142  236344  236297  236210  237778  237777  237674  237645  232726  
+
+  39:      586      14     631     620     591     582     576     566     557     550     541     532     522     513     504     494     482     472     462     451     441     434     424     416     406     398     387     378     368     361     351     344     368     353     321     309     297     280     274     307     263     260     255     240     231     293     247     211     204     205     196     191     192     182     174     166     160     158     151     151     136     134     131     127     100  
+ len:    20586   20014   20631   20620   20591   20583   20576   20566   20557   20550   20541   20532   20522   20513   20504   20494   20482   20472   20462   20451   20442   20434   20424   20416   20406   20398   20387   20378   20368   20361   20351   20344   20368   20353   20323   20310   20297   20280   20274   20307   20263   20260   20255   20240   20231   20294   20247   20211   20205   20205   20196   20191   20192   20182   20174   20166   20160   20158   20151   20151   20136   20134   20131   20127   20100  
+ loops:   6337  235336  236734  237569  237514  237899  237879  237403  237838  237855  237876  237964  237733  237958  237963  237872  237840  237602  237300  237305  238055  237712  237498  237948  237485  237356  237350  237349  237297  237342  238052  237885  237652  235371  237581  237567  237313  238079  237450  235321  238145  237506  237446  238101  238134  237540  235969  235483  237329  237349  235447  237311  237127  237629  237556  237473  237419  237370  237408  237399  237595  237629  237604  237517  235319  
+
+  40:      631     667     660     638     632     625     614     605     596     589     579     570     560     551     543     532     520     511     501     490     481     473     464     455     445     436     427     417     403     395     386     376     412     391     353     342     332     315     308     304     295     296     283     276     271     255     256     244     233     231     227     218     216     211     209     200     184     184     215     196     166     162     160     156     134  
+ len:    20631   20667   20660   20638   20632   20625   20615   20605   20596   20589   20579   20571   20560   20551   20543   20532   20520   20511   20502   20490   20481   20473   20464   20455   20445   20437   20427   20417   20404   20395   20386   20376   20412   20392   20355   20342   20332   20317   20308   20304   20295   20296   20283   20276   20271   20255   20257   20245   20233   20232   20227   20218   20216   20211   20210   20200   20185   20184   20216   20197   20166   20162   20160   20156   20134  
+ loops:   5417  233485  233824  235681  237487  237993  237954  235804  235773  237619  237925  235510  236028  235455  235374  235461  235531  235816  235562  235726  235812  235676  237402  237506  237465  235718  235731  235687  235677  235698  235790  235614  233106  234748  235806  235803  235740  235970  236072  234748  235949  236036  235915  235974  235864  235946  232664  234835  235711  235712  234939  235613  235610  235555  235558  235483  235556  235433  235618  235492  235371  235381  235442  235396  235368  
+
+  41:    20156     618     615     606     602     588     581     571     564     557     545     537     534     518     509     499     487     477     467     456     446     436     426     417     408     399     391     382     374     364     354     346     339     328     319     310     302     286     279     276     265     265     258     251     242     235     226     219     211     211     205     195     195     182     179     165     154     149     140     611     129     129     120     120     104  
+ len:    40156   20618   20615   20606   20603   20588   20581   20571   20564   20557   20545   20537   20534   20518   20509   20499   20487   20477   20467   20456   20447   20436   20426   20417   20408   20399   20392   20382   20374   20364   20354   20346   20339   20328   20319   20311   20302   20287   20279   20276   20265   20265   20258   20251   20242   20235   20226   20219   20212   20212   20206   20195   20195   20182   20179   20165   20155   20149   20140   20611   20129   20129   20120   20120   20104  
+ loops: 236423  237704  237684  237306  237195  237961  237781  237790  237769  237724  237787  237422  237745  237427  237420  237347  237682  237969  237740  237972  237558  237660  237183  237381  237215  237995  237563  237903  237648  237903  237545  237452  237649  237705  237919  237906  237832  237891  237834  237352  237734  237904  237869  237798  237755  237728  237395  237595  237694  237489  237647  237539  237605  237481  237467  237428  235695  235668  237300  236820  235833  235909  235755  235743  235501  
+
+  42:    20143     614     611     603     599     585     578     568     560     553     543     533     531     514     505     496     484     473     464     452     442     433     425     416     406     398     390     380     372     363     352     344     335     325     316     307     298     281     275     267     257     261     263     242     242     233     222     215     208     208     199     193     194     181     175     163     154     608     138     129     126     123     122     114      96  
+ len:    40143   20614   20611   20603   20599   20585   20578   20568   20560   20553   20543   20533   20531   20514   20506   20496   20484   20473   20464   20452   20442   20433   20425   20416   20406   20398   20390   20380   20373   20363   20353   20344   20335   20326   20317   20307   20298   20281   20275   20267   20258   20262   20263   20242   20242   20233   20222   20215   20208   20208   20199   20193   20194   20181   20175   20163   20155   20608   20138   20129   20126   20123   20123   20114   20096  
+ loops: 237119  237546  237670  237379  237373  237769  237709  237535  237819  237762  237741  237699  237730  237779  237678  237653  237765  237866  237558  237764  237881  237542  237304  237673  237286  237630  237347  237629  237454  237605  237811  237849  237556  237170  237741  237773  237771  237737  237426  237152  237851  237293  237126  237755  237868  237370  237468  237266  237680  237670  237236  237631  237573  237679  237633  237522  233879  235072  237383  233801  236711  236760  236731  236676  233781  
+
+  43:    20166     647     643     635     629     621     616     601     595     585     575     565     564     546     538     528     515     505     498     489     475     467     456     448     442     430     422     412     406     395     384     374     367     358     354     345     343     314     307     301     294     294     288     276     276     263     257     249     240     238     233     226     226     215     205     204     639     177     165     159     150     118     118     115     149  
+ len:    40166   20647   20643   20635   20629   20621   20616   20601   20595   20585   20575   20566   20565   20546   20538   20528   20516   20505   20498   20490   20475   20467   20456   20448   20442   20430   20422   20412   20406   20395   20384   20374   20367   20358   20354   20345   20343   20314   20307   20302   20295   20295   20288   20276   20276   20263   20257   20249   20240   20238   20234   20226   20226   20215   20206   20204   20640   20177   20165   20160   20150   20118   20118   20115   20150  
+ loops: 236825  236725  236688  237565  237587  237876  237764  237560  237886  237704  237703  238048  237652  238084  238105  238041  237764  237474  237462  237837  236752  237672  237603  236671  237586  237862  237579  237888  237542  237805  236702  236543  236688  237312  237465  237444  236428  236017  236838  237313  235974  236873  236711  235854  235968  236728  236595  236684  237810  237846  236506  237787  236841  237696  237660  237674  236232  234419  237418  234114  236604  235724  235757  235740  234953  
+
+  44:    20135     633     631     625     616     608     601     589     585     580     564     555     553     538     529     518     508     497     488     476     467     457     449     441     435     423     415     406     401     392     380     372     364     353     345     335     326     308     299     295     292     285     279     268     262     257     249     241     230     283     221     211     211     267     219     185     170     162     156     147     141     137     125     128     627  
+ len:    40135   20633   20631   20625   20616   20609   20601   20590   20585   20580   20564   20555   20553   20538   20529   20519   20508   20498   20488   20477   20467   20457   20450   20441   20435   20423   20417   20407   20401   20392   20380   20372   20364   20353   20345   20335   20326   20308   20300   20295   20292   20285   20279   20269   20262   20257   20249   20241   20230   20283   20221   20211   20211   20267   20219   20185   20170   20162   20156   20147   20142   20137   20125   20129   20627  
+ loops: 235474  237420  237333  236477  236484  236266  236243  236192  236598  236499  236225  236005  236195  235950  235975  235895  236535  235813  236126  237297  237030  236536  236436  237077  236405  237231  236155  237247  236129  237213  237142  237134  237287  235553  235843  235886  235607  237088  236798  235538  237042  236866  236774  237032  237026  236568  237258  235409  235864  236948  235539  235770  235767  235862  235193  235077  236821  236969  234883  236524  237377  237265  237235  237188  236395  
+
+  45:    20152     673     669     661     655     647     636     626     618     610     599     589     584     570     561     550     538     528     518     506     497     487     478     469     463     451     442     432     424     414     404     394     385     375     367     357     347     326     322     316     305     303     300     290     280     276     268     261     247     244     236     232     229     225     234     224     184     181     153     137     134     130     667     112     109  
+ len:    40152   20673   20670   20661   20655   20647   20636   20626   20618   20611   20599   20589   20584   20570   20561   20551   20539   20528   20518   20506   20497   20487   20478   20469   20463   20451   20442   20433   20424   20414   20404   20394   20386   20375   20367   20357   20347   20326   20323   20317   20306   20304   20300   20290   20280   20276   20268   20261   20247   20244   20237   20232   20230   20225   20234   20224   20184   20181   20153   20137   20135   20131   20667   20112   20109  
+ loops: 238106  237342  236010  237853  237772  237581  237491  237744  236243  237537  237400  237823  236210  237698  237823  236457  236281  237713  236482  237619  237638  236128  237908  236394  237678  237450  236389  237534  237663  237590  237732  237717  237294  235661  236422  237792  237408  236398  235958  235704  237593  235995  237300  236399  236240  235813  235928  235504  237428  237210  235370  237288  236030  237464  235703  235869  237203  235897  235643  237202  233076  233003  234545  232993  235530  
+
+  46:    20149     654     651     643     639     624     617     607     599     591     580     570     567     552     543     532     520     509     500     488     478     469     460     451     441     432     424     415     407     397     387     378     368     359     350     340     330     311     306     301     290     288     284     271     271     259     255     248     233     232     229     222     218     215     230     224     183     179     159     131     131     126     126     649     101  
+ len:    40149   20654   20652   20643   20639   20624   20617   20607   20599   20591   20582   20570   20568   20552   20543   20532   20520   20510   20500   20488   20478   20469   20460   20451   20441   20432   20424   20415   20407   20397   20387   20378   20368   20359   20350   20340   20331   20311   20306   20301   20290   20288   20284   20272   20271   20259   20255   20249   20233   20232   20229   20222   20218   20215   20230   20224   20183   20179   20159   20131   20131   20126   20127   20649   20101  
+ loops: 238159  237806  237817  237427  237524  237912  237971  237732  237780  237779  237890  237578  237824  237551  237539  237360  237737  236469  237729  237817  237281  237753  237422  237288  237260  237680  237595  237681  237637  237785  237361  237340  237773  237234  236360  236455  235941  237766  237959  237168  237632  237986  237929  237663  237661  237802  237514  237008  237275  237187  237132  237329  237310  237159  235212  235268  237280  237304  234998  237219  235511  235520  235509  236882  234993  
+
+  47:    20204     662     658     650     644     636     631     616     612     604     591     581     577     564     556     546     535     525     514     503     493     483     474     467     460     447     439     433     425     420     405     397     389     382     373     362     357     332     326     323     316     311     306     298     296     283     279     271     262     255     255     238     230     226     224     229     198     190     224     171     168     164     152     151     656  
+ len:    40204   20662   20658   20650   20644   20636   20631   20616   20612   20604   20592   20581   20577   20564   20556   20546   20535   20525   20514   20503   20493   20483   20475   20467   20460   20448   20440   20434   20425   20420   20405   20397   20389   20382   20373   20362   20357   20333   20326   20323   20316   20311   20306   20298   20297   20283   20280   20271   20262   20255   20255   20238   20230   20227   20224   20229   20198   20190   20224   20171   20168   20164   20152   20151   20656  
+ loops: 238390  237062  237048  237323  237396  236031  236110  236818  235372  235247  236053  235799  235909  235850  235853  235841  235190  236144  236899  236401  235790  235140  237270  235725  237339  236353  236872  236426  236857  236358  235735  235734  236894  236137  236080  236154  235946  237589  237825  235989  237514  237837  237795  237511  237482  237648  236891  236140  236752  237104  236070  236692  236638  236675  234132  234569  237308  237324  234316  237272  237488  237489  237510  237431  235558  
+
+  48:    20151     686     674     648     642     632     625     615     607     600     588     579     578     560     551     539     527     518     507     494     484     475     466     458     451     440     430     421     414     403     394     385     376     390     354     345     335     378     335     304     292     291     284     277     270     267     253     242     232     230     226     220     215     212     199     198     181     180     180     136     135     131     668     112     103  
+ len:    40152   20686   20674   20648   20642   20633   20625   20616   20607   20600   20588   20579   20578   20560   20551   20539   20527   20518   20507   20494   20484   20475   20466   20458   20452   20440   20430   20421   20414   20403   20394   20385   20376   20390   20354   20345   20335   20378   20336   20304   20292   20292   20284   20277   20271   20267   20253   20243   20232   20230   20226   20220   20215   20212   20199   20198   20181   20181   20180   20137   20136   20131   20668   20112   20103  
+ loops: 236846  237488  237840  237921  237798  237466  237416  237903  237806  237675  237414  237729  237269  237901  237817  237745  237637  237687  237963  237597  237363  237641  237809  237375  237827  237594  237890  237553  237769  237648  237363  237233  237680  237705  237737  237785  237668  236563  236779  236406  236747  237024  236884  236771  236702  236903  237647  236446  237733  237443  236409  237777  237749  237806  237594  237532  237465  237451  237538  237429  235726  235728  237326  235570  236731  
+
+  49:    20140     624     610     604     600     588     580     570     562     555     545     535     531     517     508     496     484     474     464     453     444     434     425     416     409     397     390     380     372     364     353     345     337     330     317     309     298     281     271     269     261     257     253     242     240     239     220     210     203     198     194     186     179     165     168     162     142     138     621     126     124     119     115     108      94  
+ len:    40140   20624   20610   20604   20600   20588   20580   20570   20562   20555   20545   20535   20532   20517   20508   20496   20485   20474   20464   20453   20444   20434   20425   20416   20409   20398   20390   20380   20372   20364   20353   20345   20337   20331   20317   20309   20298   20283   20271   20269   20261   20257   20253   20242   20240   20239   20220   20210   20203   20200   20194   20186   20179   20165   20168   20162   20143   20139   20621   20126   20124   20119   20115   20108   20094  
+ loops: 236946  237059  237355  237775  237758  237404  237289  237463  237749  237736  237346  237573  237142  237664  237532  237601  237614  237772  237448  237769  237353  237485  237685  237321  237698  237770  237489  237751  237393  237799  237364  237206  237376  237326  237714  237856  237622  237661  237787  237600  237886  237652  237626  237656  237660  237398  237243  237433  237953  237067  237585  237909  237874  237776  235760  235644  237027  237075  237157  237078  237725  237759  237769  237723  237496  
+
+Parent pid: 956327
+ Task 0 (prio 2) (pid 956328):
+   Max: 20238 us
+   Min: 10 us
+   Tot: 316750 us
+   Avg: 6335 us
+
+ Task 1 (prio 3) (pid 956329):
+   Max: 1115 us
+   Min: 9 us
+   Tot: 30300 us
+   Avg: 606 us
+
+ Task 2 (prio 4) (pid 956330):
+   Max: 1102 us
+   Min: 8 us
+   Tot: 31100 us
+   Avg: 622 us
+
+ Task 3 (prio 5) (pid 956331):
+   Max: 1093 us
+   Min: 583 us
+   Tot: 32000 us
+   Avg: 640 us
+
+ Task 4 (prio 6) (pid 956332):
+   Max: 1092 us
+   Min: 570 us
+   Tot: 31100 us
+   Avg: 622 us
+
+ Task 5 (prio 7) (pid 956333):
+   Max: 1061 us
+   Min: 557 us
+   Tot: 30550 us
+   Avg: 611 us
+
+ Task 6 (prio 8) (pid 956334):
+   Max: 1052 us
+   Min: 552 us
+   Tot: 30200 us
+   Avg: 604 us
+
+ Task 7 (prio 9) (pid 956335):
+   Max: 1036 us
+   Min: 541 us
+   Tot: 29550 us
+   Avg: 591 us
+
+ Task 8 (prio 10) (pid 956336):
+   Max: 1028 us
+   Min: 534 us
+   Tot: 29100 us
+   Avg: 582 us
+
+ Task 9 (prio 11) (pid 956337):
+   Max: 1008 us
+   Min: 518 us
+   Tot: 28500 us
+   Avg: 570 us
+
+ Task 10 (prio 12) (pid 956338):
+   Max: 1000 us
+   Min: 511 us
+   Tot: 28000 us
+   Avg: 560 us
+
+ Task 11 (prio 13) (pid 956339):
+   Max: 987 us
+   Min: 500 us
+   Tot: 27650 us
+   Avg: 553 us
+
+ Task 12 (prio 14) (pid 956340):
+   Max: 976 us
+   Min: 493 us
+   Tot: 27250 us
+   Avg: 545 us
+
+ Task 13 (prio 15) (pid 956341):
+   Max: 955 us
+   Min: 478 us
+   Tot: 26400 us
+   Avg: 528 us
+
+ Task 14 (prio 16) (pid 956342):
+   Max: 948 us
+   Min: 469 us
+   Tot: 25950 us
+   Avg: 519 us
+
+ Task 15 (prio 17) (pid 956343):
+   Max: 934 us
+   Min: 457 us
+   Tot: 25400 us
+   Avg: 508 us
+
+ Task 16 (prio 18) (pid 956344):
+   Max: 910 us
+   Min: 440 us
+   Tot: 24700 us
+   Avg: 494 us
+
+ Task 17 (prio 19) (pid 956345):
+   Max: 905 us
+   Min: 435 us
+   Tot: 24300 us
+   Avg: 486 us
+
+ Task 18 (prio 20) (pid 956346):
+   Max: 899 us
+   Min: 429 us
+   Tot: 23900 us
+   Avg: 478 us
+
+ Task 19 (prio 21) (pid 956347):
+   Max: 899 us
+   Min: 418 us
+   Tot: 23500 us
+   Avg: 470 us
+
+ Task 20 (prio 22) (pid 956348):
+   Max: 868 us
+   Min: 411 us
+   Tot: 22850 us
+   Avg: 457 us
+
+ Task 21 (prio 23) (pid 956349):
+   Max: 865 us
+   Min: 399 us
+   Tot: 22350 us
+   Avg: 447 us
+
+ Task 22 (prio 24) (pid 956350):
+   Max: 853 us
+   Min: 390 us
+   Tot: 21900 us
+   Avg: 438 us
+
+ Task 23 (prio 25) (pid 956351):
+   Max: 853 us
+   Min: 384 us
+   Tot: 21600 us
+   Avg: 432 us
+
+ Task 24 (prio 26) (pid 956352):
+   Max: 811 us
+   Min: 377 us
+   Tot: 21300 us
+   Avg: 426 us
+
+ Task 25 (prio 27) (pid 956353):
+   Max: 806 us
+   Min: 372 us
+   Tot: 20750 us
+   Avg: 415 us
+
+ Task 26 (prio 28) (pid 956354):
+   Max: 794 us
+   Min: 361 us
+   Tot: 20450 us
+   Avg: 409 us
+
+ Task 27 (prio 29) (pid 956355):
+   Max: 789 us
+   Min: 349 us
+   Tot: 19650 us
+   Avg: 393 us
+
+ Task 28 (prio 30) (pid 956356):
+   Max: 767 us
+   Min: 342 us
+   Tot: 19550 us
+   Avg: 391 us
+
+ Task 29 (prio 31) (pid 956357):
+   Max: 758 us
+   Min: 333 us
+   Tot: 18800 us
+   Avg: 376 us
+
+ Task 30 (prio 32) (pid 956358):
+   Max: 752 us
+   Min: 322 us
+   Tot: 18200 us
+   Avg: 364 us
+
+ Task 31 (prio 33) (pid 956359):
+   Max: 752 us
+   Min: 313 us
+   Tot: 18050 us
+   Avg: 361 us
+
+ Task 32 (prio 34) (pid 956360):
+   Max: 707 us
+   Min: 303 us
+   Tot: 17300 us
+   Avg: 346 us
+
+ Task 33 (prio 35) (pid 956361):
+   Max: 703 us
+   Min: 302 us
+   Tot: 17100 us
+   Avg: 342 us
+
+ Task 34 (prio 36) (pid 956362):
+   Max: 696 us
+   Min: 299 us
+   Tot: 16800 us
+   Avg: 336 us
+
+ Task 35 (prio 37) (pid 956363):
+   Max: 692 us
+   Min: 292 us
+   Tot: 16500 us
+   Avg: 330 us
+
+ Task 36 (prio 38) (pid 956364):
+   Max: 672 us
+   Min: 282 us
+   Tot: 15950 us
+   Avg: 319 us
+
+ Task 37 (prio 39) (pid 956365):
+   Max: 666 us
+   Min: 264 us
+   Tot: 15300 us
+   Avg: 306 us
+
+ Task 38 (prio 40) (pid 956366):
+   Max: 662 us
+   Min: 258 us
+   Tot: 14900 us
+   Avg: 298 us
+
+ Task 39 (prio 41) (pid 956367):
+   Max: 662 us
+   Min: 257 us
+   Tot: 14700 us
+   Avg: 294 us
+
+ Task 40 (prio 42) (pid 956368):
+   Max: 631 us
+   Min: 247 us
+   Tot: 14050 us
+   Avg: 281 us
+
+ Task 41 (prio 43) (pid 956369):
+   Max: 623 us
+   Min: 245 us
+   Tot: 13950 us
+   Avg: 279 us
+
+ Task 42 (prio 44) (pid 956370):
+   Max: 616 us
+   Min: 231 us
+   Tot: 13500 us
+   Avg: 270 us
+
+ Task 43 (prio 45) (pid 956371):
+   Max: 611 us
+   Min: 226 us
+   Tot: 13200 us
+   Avg: 264 us
+
+ Task 44 (prio 46) (pid 956372):
+   Max: 585 us
+   Min: 220 us
+   Tot: 12750 us
+   Avg: 255 us
+
+ Task 45 (prio 47) (pid 956373):
+   Max: 579 us
+   Min: 217 us
+   Tot: 12550 us
+   Avg: 251 us
+
+ Task 46 (prio 48) (pid 956374):
+   Max: 574 us
+   Min: 203 us
+   Tot: 12000 us
+   Avg: 240 us
+
+ Task 47 (prio 49) (pid 956375):
+   Max: 564 us
+   Min: 200 us
+   Tot: 11650 us
+   Avg: 233 us
+
+ Task 48 (prio 50) (pid 956376):
+   Max: 544 us
+   Min: 184 us
+   Tot: 10900 us
+   Avg: 218 us
+
+ Task 49 (prio 51) (pid 956377):
+   Max: 541 us
+   Min: 181 us
+   Tot: 10950 us
+   Avg: 219 us
+
+ Task 50 (prio 52) (pid 956378):
+   Max: 525 us
+   Min: 175 us
+   Tot: 10550 us
+   Avg: 211 us
+
+ Task 51 (prio 53) (pid 956379):
+   Max: 523 us
+   Min: 160 us
+   Tot: 10200 us
+   Avg: 204 us
+
+ Task 52 (prio 54) (pid 956380):
+   Max: 493 us
+   Min: 154 us
+   Tot: 9950 us
+   Avg: 199 us
+
+ Task 53 (prio 55) (pid 956381):
+   Max: 495 us
+   Min: 154 us
+   Tot: 9550 us
+   Avg: 191 us
+
+ Task 54 (prio 56) (pid 956382):
+   Max: 486 us
+   Min: 148 us
+   Tot: 9400 us
+   Avg: 188 us
+
+ Task 55 (prio 57) (pid 956383):
+   Max: 464 us
+   Min: 141 us
+   Tot: 9100 us
+   Avg: 182 us
+
+ Task 56 (prio 58) (pid 956384):
+   Max: 639 us
+   Min: 128 us
+   Tot: 8650 us
+   Avg: 173 us
+
+ Task 57 (prio 59) (pid 956385):
+   Max: 608 us
+   Min: 124 us
+   Tot: 8450 us
+   Avg: 169 us
+
+ Task 58 (prio 60) (pid 956386):
+   Max: 621 us
+   Min: 116 us
+   Tot: 8150 us
+   Avg: 163 us
+
+ Task 59 (prio 61) (pid 956387):
+   Max: 626 us
+   Min: 112 us
+   Tot: 8300 us
+   Avg: 166 us
+
+ Task 60 (prio 62) (pid 956388):
+   Max: 403 us
+   Min: 102 us
+   Tot: 6900 us
+   Avg: 138 us
+
+ Task 61 (prio 63) (pid 956389):
+   Max: 389 us
+   Min: 101 us
+   Tot: 6650 us
+   Avg: 133 us
+
+ Task 62 (prio 64) (pid 956390):
+   Max: 668 us
+   Min: 97 us
+   Tot: 7550 us
+   Avg: 151 us
+
+ Task 63 (prio 65) (pid 956391):
+   Max: 1089 us
+   Min: 92 us
+   Tot: 7450 us
+   Avg: 149 us
+
+ Task 64 (prio 66) (pid 956392):
+   Max: 696 us
+   Min: 73 us
+   Tot: 7100 us
+   Avg: 142 us
+
+ Result: PASS
+
+Wed Jan 10 15:07:09 CST 2024
+The rt-migrate test appears to have completed.
+ Running 1 runs of perf 
+Logging to: 
+/opt/mmtests/work/sources/ltp-20220930-installed/testcases/realtime/logs/openeuler-riscv64-riscv64-6.1.61-4.oe2309.riscv64-2024-01-10-pthread_cond_many.log 
+and to local individual .out files 
+make: *** No targets specified and no makefile found.  Stop.
+pthread_cond_many configuration:
+number of threads = 5000 
+number of iterations = 400 
+number of processes = 5 
+Terminated
+Interrupt received, shutting down ltp
+Interrupt received but test not running to shutdown
+test exit :: ltp 143
+Cleaning up
+run-mmtests.sh: line 22: /tmp/mmtest-cleanup-9RYwv6OXa: No such file or directory

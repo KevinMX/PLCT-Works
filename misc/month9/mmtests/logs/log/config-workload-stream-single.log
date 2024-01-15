@@ -1,0 +1,246 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test stream
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 410297's current affinity list: 0-63
+pid 410297's new affinity list: 0-7,16-23
+pid 410297's current affinity list: 0-7,16-23
+pid 410297's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+installed only as requested.
+stream fine
+Starting test stream
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 410444's current affinity list: 0-63
+pid 410444's new affinity list: 0-7,16-23
+pid 410444's current affinity list: 0-7,16-23
+pid 410444's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+STREAM build flags: gcc -O2
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 22369621 (elements), Offset = 0 (elements)
+Memory per array = 170.7 MiB (= 0.2 GiB).
+Total memory required = 512.0 MiB (= 0.5 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 73577 microseconds.
+   (= 73577 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            8170.1     0.045121     0.043808     0.045835
+Scale:           7949.5     0.045837     0.045023     0.046527
+Add:             8860.2     0.060783     0.060594     0.060929
+Triad:           8837.2     0.061258     0.060751     0.064279
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 22369621 (elements), Offset = 0 (elements)
+Memory per array = 170.7 MiB (= 0.2 GiB).
+Total memory required = 512.0 MiB (= 0.5 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 73460 microseconds.
+   (= 73460 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            8231.5     0.045141     0.043481     0.045852
+Scale:           8058.0     0.045514     0.044417     0.046031
+Add:             8842.8     0.060865     0.060713     0.061317
+Triad:           8854.2     0.061202     0.060635     0.064915
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 22369621 (elements), Offset = 0 (elements)
+Memory per array = 170.7 MiB (= 0.2 GiB).
+Total memory required = 512.0 MiB (= 0.5 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 78166 microseconds.
+   (= 78166 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            8261.5     0.045913     0.043323     0.049562
+Scale:           7964.8     0.045613     0.044937     0.047883
+Add:             8838.5     0.060863     0.060742     0.061040
+Triad:           8842.2     0.061173     0.060717     0.064358
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 22369621 (elements), Offset = 0 (elements)
+Memory per array = 170.7 MiB (= 0.2 GiB).
+Total memory required = 512.0 MiB (= 0.5 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 72792 microseconds.
+   (= 72792 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            8143.3     0.045796     0.043952     0.049533
+Scale:           7912.3     0.045970     0.045235     0.046492
+Add:             8844.8     0.060832     0.060699     0.061362
+Triad:           8844.5     0.061187     0.060701     0.064734
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 22369621 (elements), Offset = 0 (elements)
+Memory per array = 170.7 MiB (= 0.2 GiB).
+Total memory required = 512.0 MiB (= 0.5 GiB).
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 75129 microseconds.
+   (= 75129 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            8152.8     0.045479     0.043901     0.046478
+Scale:           7911.3     0.045951     0.045241     0.048102
+Add:             8853.7     0.060796     0.060638     0.061190
+Triad:           8842.5     0.061359     0.060715     0.065824
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+stream fine
+test exit :: stream 0
+Cleaning up

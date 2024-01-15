@@ -1,0 +1,231 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+Package must be a directory
+Package must be a directory
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test wis-malloc
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 471141's current affinity list: 0-63
+pid 471141's new affinity list: 0-7,16-23
+pid 471141's current affinity list: 0-7,16-23
+pid 471141's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-malloc fine
+Starting test wis-malloc
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 471308's current affinity list: 0-63
+pid 471308's new affinity list: 0-7,16-23
+pid 471308's current affinity list: 0-7,16-23
+pid 471308's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test brk1
+Starting processes 2/128
+Running test brk1
+Starting processes 5/128
+Running test brk1
+Starting processes 8/128
+Running test brk1
+Starting processes 12/128
+Running test brk1
+Starting processes 21/128
+Running test brk1
+Starting processes 30/128
+Running test brk1
+Starting processes 48/128
+Running test brk1
+Starting processes 79/128
+Running test brk1
+Starting processes 110/128
+Running test brk1
+Starting processes 128/128
+Running test malloc1
+Starting processes 2/128
+Running test malloc1
+Starting processes 5/128
+Running test malloc1
+Starting processes 8/128
+Running test malloc1
+Starting processes 12/128
+Running test malloc1
+Starting processes 21/128
+Running test malloc1
+Starting processes 30/128
+Running test malloc1
+Starting processes 48/128
+Running test malloc1
+Starting processes 79/128
+Running test malloc1
+Starting processes 110/128
+Running test malloc1
+Starting processes 128/128
+Running test malloc2
+Starting processes 2/128
+Running test malloc2
+Starting processes 5/128
+Running test malloc2
+Starting processes 8/128
+Running test malloc2
+Starting processes 12/128
+Running test malloc2
+Starting processes 21/128
+Running test malloc2
+Starting processes 30/128
+Running test malloc2
+Starting processes 48/128
+Running test malloc2
+Starting processes 79/128
+Running test malloc2
+Starting processes 110/128
+Running test malloc2
+Starting processes 128/128
+wis-malloc fine
+test exit :: wis-malloc 0
+Installing test wis-pf
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 472941's current affinity list: 0-63
+pid 472941's new affinity list: 0-7,16-23
+pid 472941's current affinity list: 0-7,16-23
+pid 472941's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+wis-pf fine
+Starting test wis-pf
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 473107's current affinity list: 0-63
+pid 473107's new affinity list: 0-7,16-23
+pid 473107's current affinity list: 0-7,16-23
+pid 473107's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running test page_fault1
+Starting processes 2/128
+Running test page_fault1
+Starting processes 5/128
+Running test page_fault1
+Starting processes 8/128
+Running test page_fault1
+Starting processes 12/128
+Running test page_fault1
+Starting processes 21/128
+Running test page_fault1
+Starting processes 30/128
+Running test page_fault1
+Starting processes 48/128
+Running test page_fault1
+Starting processes 79/128
+Running test page_fault1
+Starting processes 110/128
+Running test page_fault1
+Starting processes 128/128
+Running test page_fault2
+Starting processes 2/128
+Running test page_fault2
+Starting processes 5/128
+Running test page_fault2
+Starting processes 8/128
+Running test page_fault2
+Starting processes 12/128
+Running test page_fault2
+Starting processes 21/128
+Running test page_fault2
+Starting processes 30/128
+Running test page_fault2
+Starting processes 48/128
+Running test page_fault2
+Starting processes 79/128
+Running test page_fault2
+Starting processes 110/128
+Running test page_fault2
+Starting processes 128/128
+Running test page_fault3
+Starting processes 2/128
+Running test page_fault3
+Starting processes 5/128
+Running test page_fault3
+Starting processes 8/128
+Running test page_fault3
+Starting processes 12/128
+Running test page_fault3
+Starting processes 21/128
+Running test page_fault3
+Starting processes 30/128
+Running test page_fault3
+Starting processes 48/128
+Running test page_fault3
+Starting processes 79/128
+Running test page_fault3
+Starting processes 110/128
+Running test page_fault3
+Starting processes 128/128
+wis-pf fine
+test exit :: wis-pf 0
+Cleaning up

@@ -1,0 +1,1951 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 897906's current affinity list: 0-63
+pid 897906's new affinity list: 0-7,16-23
+pid 897906's current affinity list: 0-7,16-23
+pid 897906's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+ltp fine
+Starting test ltp
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 898051's current affinity list: 0-63
+pid 898051's new affinity list: 0-7,16-23
+pid 898051's current affinity list: 0-7,16-23
+pid 898051's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Executing LTP test
+Execute via runltp
+Checking for required user/group ids
+
+'nobody' user id and group found.
+'bin' user id and group found.
+'daemon' user id and group found.
+Users group found.
+Sys group found.
+Required users/groups exist.
+If some fields are empty or look unusual you may have an old version.
+Compare to the current minimal requirements in Documentation/Changes.
+
+/etc/openEuler-release
+/etc/os-release
+/etc/system-release
+openEuler release 23.09
+NAME="openEuler"
+VERSION="23.09"
+ID="openEuler"
+VERSION_ID="23.09"
+PRETTY_NAME="openEuler 23.09"
+ANSI_COLOR="0;31"
+
+openEuler release 23.09
+
+uname:
+Linux openeuler-riscv64 6.1.61-4.oe2309.riscv64 #1 SMP Thu Dec 28 18:01:00 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
+
+/proc/cmdline
+root=/dev/nvme0n1p3 rw rootwait earlycon selinux=0 LANG=en_US.UTF-8 nvme.use_threaded_interrupts=1 nvme_core.io_timeout=3000 console=tty1
+
+Gnu C                  gcc (GCC) 12.3.1 (openEuler 12.3.1-16.oe2309)
+Clang                  clang version 15.0.7 ( 15.0.7-7.oe2309)
+Gnu make               4.4.1
+util-linux             2.39.1
+mount                  mount, assert, debug)
+modutils               30
+e2fsprogs              1.47.0
+Linux C Library        x 1 root root 2038312 Sep 14 08:00 /usr/lib64/libc.so.6
+Dynamic linker (ldd)   2.38
+Procps                 4.0.2
+Net-tools              2.10
+iproute2               0.8.1
+iputils                20221126
+ethtool                6.4
+Sh-utils               9.3
+Modules Loaded         nfsv3 nfs_acl nfs lockd grace fscache netfs rds brd overlay ntfs exfat quota_v2 quota_tree vfio vhost_vsock vhost_net vhost vhost_iotlb tap snd_seq_dummy vsock_loopback vmw_vsock_virtio_transport_common vsock xt_state can_bcm can vcan n_gsm caif_serial pps_ldisc ppp_synctty mkiss ax25 ppp_async serport slcan can_dev slip btrfs blake2b_generic xor raid6_pq zstd_compress xfs snd_hrtimer snd_seq snd_seq_device sctp ip6_udp_tunnel udp_tunnel authenc xfrm_user sm3_generic n_hdlc dummy veth binfmt_misc nft_fib_inet nft_fib_ipv4 nft_fib_ipv6 nft_fib nft_reject_inet nf_reject_ipv4 nf_reject_ipv6 nft_reject nft_ct nft_chain_nat nf_tables ebtable_nat ebtable_broute ip6table_nat ip6table_mangle ip6table_raw ip6table_security iptable_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 libcrc32c iptable_mangle iptable_raw iptable_security amdgpu ip_set nfnetlink ebtable_filter ebtables ip6table_filter ip6_tables iptable_filter ip_tables x_tables bpfilter gpu_sched drm_buddy radeon sunrpc snd_hda_codec_hdmi drm_display_helper snd_hda_intel snd_intel_dspcfg drm_ttm_helper snd_hda_codec ttm snd_hda_core cec rc_core snd_hwdep nls_iso8859_1 ofpart evbug drm_kms_helper snd_pcm cmdlinepart ixgbe fb_sys_fops syscopyarea snd_timer sophgo_spifmc sysfillrect r8169 spi_dw_mmio spi_nor xfrm_algo snd ahci sysimgblt gpio_keys spi_dw mdio i2c_algo_bit gpio_dwapb mtd soundcore xhci_pci realtek libahci xhci_pci_renesas uio_pdrv_genirq uio sch_fq_codel drm backlight autofs4
+
+free reports:
+               total        used        free      shared  buff/cache   available
+Mem:       131721044    44313452    87662284        8072      662160    87407592
+Swap:              0           0           0
+
+cpuinfo:
+Architecture:        riscv64
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+NUMA node(s):        4
+NUMA node0 CPU(s):   0-7,16-23
+NUMA node1 CPU(s):   8-15,24-31
+NUMA node2 CPU(s):   32-39,48-55
+NUMA node3 CPU(s):   40-47,56-63
+
+available filesystems:
+autofs bdev binfmt_misc bpf btrfs cgroup cgroup2 configfs cpuset debugfs devpts devtmpfs ecryptfs exfat ext2 ext3 ext4 fuse fuseblk fusectl hugetlbfs mqueue nfs nfs4 ntfs overlay pipefs proc pstore ramfs rpc_pipefs securityfs sockfs squashfs sysfs tmpfs tracefs vfat xfs
+
+mounted filesystems (/proc/mounts):
+/dev/root / ext4 rw,noatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,noexec,relatime,size=65717896k,nr_inodes=16429474,mode=755,inode64 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=26344212k,nr_inodes=819200,mode=755,inode64 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=4096k,nr_inodes=1024,mode=755,inode64 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+bpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/misc cgroup rw,nosuid,nodev,noexec,relatime,misc 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=24922 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=65860524k,nr_inodes=1048576,inode64 0 0
+ramfs /run/credentials/systemd-sysctl.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+ramfs /run/credentials/systemd-vconsole-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup-dev.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+/dev/nvme0n1p2 /boot vfat rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+ramfs /run/credentials/systemd-tmpfiles-setup.service ramfs ro,nosuid,nodev,noexec,relatime,mode=700 0 0
+sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=1000,gid=1000,inode64 0 0
+binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /run/netns tmpfs rw,nosuid,nodev,size=26344212k,nr_inodes=819200,mode=755,inode64 0 0
+nsfs /run/netns/tst_net_ns0 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns0 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns1 nsfs rw 0 0
+nsfs /run/netns/tst_net_ns1 nsfs rw 0 0
+tmpfs /run/user/995 tmpfs rw,nosuid,nodev,relatime,size=13172104k,nr_inodes=3293026,mode=700,uid=995,gid=991,inode64 0 0
+gvfsd-fuse /run/user/995/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=995,group_id=991 0 0
+tracefs /sys/kernel/debug/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+
+mounted filesystems (df):
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4      939G   16G  885G   2% /
+devtmpfs       devtmpfs   63G     0   63G   0% /dev
+tmpfs          tmpfs      63G  4.0K   63G   1% /dev/shm
+tmpfs          tmpfs      26G  1.1M   26G   1% /run
+tmpfs          tmpfs     4.0M     0  4.0M   0% /sys/fs/cgroup
+tmpfs          tmpfs      63G  800K   63G   1% /tmp
+/dev/nvme0n1p2 vfat      511M  189M  323M  37% /boot
+tmpfs          tmpfs      13G     0   13G   0% /run/user/1000
+tmpfs          tmpfs      13G  4.0K   13G   1% /run/user/995
+
+AppArmor enabled
+
+SELinux status:                 disabled
+no big block device was specified on commandline.
+Tests which require a big block device are disabled.
+You can specify it with option -z
+COMMAND:    /opt/mmtests/work/sources/ltp-20220930-installed/bin/ltp-pan   -e -S   -a 898171     -n 898171  -f /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/alltests -l /opt/mmtests/work/log/config-functional-ltp-netstress/iter-0/ltp/logs/ltp-net_stress.ipsec_tcp.log  -C /opt/mmtests/work/log/config-functional-ltp-netstress/iter-0/ltp/logs/ltp-net_stress.ipsec_tcp.failed -T /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-net_stress.ipsec_tcp.log.tconf
+LOG File: /opt/mmtests/work/log/config-functional-ltp-netstress/iter-0/ltp/logs/ltp-net_stress.ipsec_tcp.log
+FAILED COMMAND File: /opt/mmtests/work/log/config-functional-ltp-netstress/iter-0/ltp/logs/ltp-net_stress.ipsec_tcp.failed
+TCONF COMMAND File: /opt/mmtests/work/sources/ltp-20220930-installed/output/LTP_RUN_ON-ltp-net_stress.ipsec_tcp.log.tconf
+Running tests.......
+<<<test_start>>>
+tag=tcp4_ipsec01 stime=1704856586
+cmdline="tcp_ipsec.sh -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3788 ms, data: 3788 108 242 9828 7770
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 143 ms, data: 143 116 141 8014 9258
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 277 ms, data: 205 4014 1191 277 266
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.aXC5Y6twbF/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2781 ms, data: 2781 6836 61 7760 181
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=142 termination_type=exited termination_id=0 corefile=no
+cutime=376 cstime=2354
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec02 stime=1704856728
+cmdline="tcp_ipsec.sh -p ah -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[ah/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 8136 ms, data: 9093 8136 7996 3682 8299
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 757 ms, data: 7075 214 278 757 3937
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 2927 ms, data: 4469 2842 3781 2603 2927
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.buWCSozcq2/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 1547 ms, data: 2998 1547 1410 3292 1170
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=159 termination_type=exited termination_id=0 corefile=no
+cutime=394 cstime=3092
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec03 stime=1704856887
+cmdline="tcp_ipsec.sh -p ah -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[ah/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3676 ms, data: 3676 5077 793 4875 2941
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 4501 ms, data: 6520 4959 3590 4048 4501
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 2988 ms, data: 2864 2988 4037 2858 3753
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Mo99GWAOP5/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2596 ms, data: 2656 3183 1993 2596 1957
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=149 termination_type=exited termination_id=0 corefile=no
+cutime=381 cstime=4101
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec04 stime=1704857036
+cmdline="tcp_ipsec.sh -p esp -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3051 ms, data: 3051 7160 665 352 5546
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 6541 ms, data: 3467 1705 6807 7329 6541
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7369 ms, data: 6135 7795 11679 7369 6276
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BCLlDfK4XV/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4142 ms, data: 4142 3303 5009 5482 4000
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=193 termination_type=exited termination_id=0 corefile=no
+cutime=408 cstime=5680
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec05 stime=1704857229
+cmdline="tcp_ipsec.sh -p esp -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3739 ms, data: 822 7227 3800 3739 137
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 460 ms, data: 225 365 460 572 787
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 8008 ms, data: 12168 7757 8586 8008 7548
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.p5GmLBm2QQ/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4628 ms, data: 4910 4239 4628 7090 4448
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=153 termination_type=exited termination_id=0 corefile=no
+cutime=393 cstime=6415
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec06 stime=1704857382
+cmdline="tcp_ipsec.sh -p comp -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[comp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 753 ms, data: 933 862 753 474 327
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2156 ms, data: 599 3498 3933 1222 2156
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 2604 ms, data: 2166 2604 2288 3342 2640
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MqVUcaG2HY/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2168 ms, data: 1934 3063 2168 4324 1605
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=120 termination_type=exited termination_id=0 corefile=no
+cutime=376 cstime=2893
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec07 stime=1704857502
+cmdline="tcp_ipsec.sh -p comp -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[comp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 216 ms, data: 207 210 216 3818 6672
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 5030 ms, data: 6372 8252 3560 247 5030
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 3312 ms, data: 2188 2990 6118 3312 3552
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mvN0pXiC3x/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4372 ms, data: 5277 4372 4860 4145 2368
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=147 termination_type=exited termination_id=0 corefile=no
+cutime=399 cstime=4059
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec08 stime=1704857649
+cmdline="tcp_ipsec.sh -A rfc4106_128 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 7332 ms, data: 9239 7516 1912 338 7332
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 3440 ms, data: 843 1700 8836 3500 3440
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6508 ms, data: 5581 6769 6508 5148 6636
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.KPV7Gh5ByQ/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3969 ms, data: 3684 3712 4192 4236 3969
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=182 termination_type=exited termination_id=0 corefile=no
+cutime=397 cstime=4743
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec09 stime=1704857831
+cmdline="tcp_ipsec.sh -A rfc4106_128 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 2268 ms, data: 250 5210 219 2268 3034
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1344 ms, data: 1243 1344 6287 4997 1116
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6511 ms, data: 5869 11234 6032 7851 6511
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Vkq1aPuWBE/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3688 ms, data: 3190 2969 3785 3688 4315
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=168 termination_type=exited termination_id=0 corefile=no
+cutime=393 cstime=5573
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec10 stime=1704857999
+cmdline="tcp_ipsec.sh -A rfc4106_192 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5687 ms, data: 3725 9400 591 5687 10573
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 7973 ms, data: 8913 934 8767 4427 7973
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7540 ms, data: 7540 7569 6640 10091 6651
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UEQjThos2r/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 5029 ms, data: 2862 5648 4497 5029 5597
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=241 termination_type=exited termination_id=0 corefile=no
+cutime=395 cstime=4881
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec11 stime=1704858240
+cmdline="tcp_ipsec.sh -A rfc4106_192 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5050 ms, data: 7906 5050 203 255 7524
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 966 ms, data: 966 795 358 6951 5834
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 8181 ms, data: 8181 8874 11687 7893 7034
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3eHdtRmz9Z/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4425 ms, data: 4420 3773 4425 5948 5821
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=211 termination_type=exited termination_id=0 corefile=no
+cutime=394 cstime=5695
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec12 stime=1704858451
+cmdline="tcp_ipsec.sh -A rfc4106_256 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 7584 ms, data: 9880 8960 3771 7584 1267
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 962 ms, data: 962 775 452 1284 1056
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7049 ms, data: 7049 8037 6612 5817 8044
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.wdcqh1hPhb/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3853 ms, data: 3853 3601 3860 8312 3634
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=212 termination_type=exited termination_id=0 corefile=no
+cutime=368 cstime=4887
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec13 stime=1704858663
+cmdline="tcp_ipsec.sh -A rfc4106_256 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 7067 ms, data: 8172 7067 9935 144 320
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 4109 ms, data: 2198 7168 4109 7062 2827
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7835 ms, data: 7835 7304 13049 8112 7623
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.2myjPzyOlZ/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4320 ms, data: 6594 5580 3648 4320 3376
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=241 termination_type=exited termination_id=0 corefile=no
+cutime=386 cstime=5875
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec14 stime=1704858904
+cmdline="tcp_ipsec.sh -A rfc4309_128 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5885 ms, data: 7302 6512 5885 430 505
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 749 ms, data: 790 564 520 752 749
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5742 ms, data: 6094 5742 4652 5650 5760
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mSoe17qmrm/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4248 ms, data: 4248 4287 6057 2511 3240
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=172 termination_type=exited termination_id=0 corefile=no
+cutime=365 cstime=4613
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec15 stime=1704859077
+cmdline="tcp_ipsec.sh -A rfc4309_128 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5886 ms, data: 5904 5886 2146 1543 6000
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1432 ms, data: 3434 6624 1432 352 297
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6577 ms, data: 9531 6577 7287 5352 5818
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Rofk656ZR5/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4362 ms, data: 2932 2980 4438 4362 4917
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=163 termination_type=exited termination_id=0 corefile=no
+cutime=367 cstime=5220
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec16 stime=1704859240
+cmdline="tcp_ipsec.sh -A rfc4309_192 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 706 ms, data: 477 621 706 750 7050
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 4005 ms, data: 8092 6464 4005 2919 2957
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5560 ms, data: 5343 5560 11487 9013 5403
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.J90S0BJDBE/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3287 ms, data: 3287 3509 3488 2813 2909
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=162 termination_type=exited termination_id=0 corefile=no
+cutime=396 cstime=4588
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec17 stime=1704859402
+cmdline="tcp_ipsec.sh -A rfc4309_192 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 4872 ms, data: 5714 4872 3351 8339 321
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2064 ms, data: 949 214 2064 6306 5096
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6876 ms, data: 7100 6208 6827 9670 6876
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.mAqGFa1OWG/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4850 ms, data: 4850 4730 4538 5555 7069
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=215 termination_type=exited termination_id=0 corefile=no
+cutime=348 cstime=5343
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec18 stime=1704859617
+cmdline="tcp_ipsec.sh -A rfc4309_256 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 1444 ms, data: 2187 973 10559 1444 436
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 3940 ms, data: 270 5032 3940 8282 983
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6282 ms, data: 5868 10619 7502 6282 5843
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.gtvHChOD4F/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 5203 ms, data: 3716 8081 5690 5203 4634
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=224 termination_type=exited termination_id=0 corefile=no
+cutime=394 cstime=4986
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec19 stime=1704859841
+cmdline="tcp_ipsec.sh -A rfc4309_256 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 259 ms, data: 1132 215 259 187 886
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 5842 ms, data: 5842 3999 401 13737 7788
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7278 ms, data: 7278 6899 8864 8278 5990
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Zqnuc1cA0C/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4463 ms, data: 3228 5516 12027 4463 3635
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=195 termination_type=exited termination_id=0 corefile=no
+cutime=399 cstime=5669
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec20 stime=1704860036
+cmdline="tcp_ipsec.sh -A rfc4543_128 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5237 ms, data: 6028 1809 5237 6179 592
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 3713 ms, data: 1619 4997 6233 3713 742
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4477 ms, data: 3652 4844 3781 4477 4732
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.ZidxUihmSs/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2738 ms, data: 2314 4525 3277 2687 2738
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=163 termination_type=exited termination_id=0 corefile=no
+cutime=377 cstime=3765
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec21 stime=1704860199
+cmdline="tcp_ipsec.sh -A rfc4543_128 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 295 ms, data: 295 2686 5302 216 239
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 280 ms, data: 497 246 280 998 197
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5289 ms, data: 6814 5289 6415 4978 4508
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.JHadZZ039n/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2986 ms, data: 2558 3664 2986 2344 4082
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=133 termination_type=exited termination_id=0 corefile=no
+cutime=368 cstime=4808
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec22 stime=1704860332
+cmdline="tcp_ipsec.sh -A rfc4543_192 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 789 ms, data: 783 832 692 1696 789
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1759 ms, data: 1908 1759 9580 984 388
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4828 ms, data: 4444 6309 5386 4828 4773
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.uNTQlquhax/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3803 ms, data: 3449 4391 3803 5514 3285
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=127 termination_type=exited termination_id=0 corefile=no
+cutime=369 cstime=3731
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec23 stime=1704860459
+cmdline="tcp_ipsec.sh -A rfc4543_192 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 8602 ms, data: 8602 11329 3701 616 8918
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2191 ms, data: 2191 4829 763 4332 289
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5872 ms, data: 5274 5315 5872 8212 6285
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.4BaZ02COcx/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4305 ms, data: 5943 4305 3105 5363 3961
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=251 termination_type=exited termination_id=0 corefile=no
+cutime=398 cstime=4807
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec24 stime=1704860710
+cmdline="tcp_ipsec.sh -A rfc4543_256 -p esp_aead -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 449 ms, data: 944 970 413 336 449
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1713 ms, data: 1329 398 6714 15754 1713
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5184 ms, data: 4449 5859 6468 5184 4734
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cW45vLKlRH/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 6534 ms, data: 8781 2537 6534 12865 5783
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=180 termination_type=exited termination_id=0 corefile=no
+cutime=386 cstime=3731
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec25 stime=1704860890
+cmdline="tcp_ipsec.sh -A rfc4543_256 -p esp_aead -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp_aead/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 268 ms, data: 709 267 412 268 136
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 385 ms, data: 385 610 261 602 340
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6396 ms, data: 10670 6396 5643 4523 7222
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.u5BenfkXbz/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3209 ms, data: 2583 8423 4369 3209 2712
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=120 termination_type=exited termination_id=0 corefile=no
+cutime=391 cstime=4843
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec26 stime=1704861010
+cmdline="tcp_ipsec.sh -p esp -a sha1 -e cast5 -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 7803 ms, data: 8718 5957 7803 5534 10996
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 6455 ms, data: 6455 5481 7303 4900 9119
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4127 ms, data: 4266 4127 3880 4148 3740
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.3Nk3yN0cqh/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2984 ms, data: 2459 3181 4449 2984 2536
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=202 termination_type=exited termination_id=0 corefile=no
+cutime=358 cstime=3690
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec27 stime=1704861212
+cmdline="tcp_ipsec.sh -p esp -a sha1 -e cast5 -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 211 ms, data: 193 673 424 197 211
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 245 ms, data: 245 233 222 6932 366
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4950 ms, data: 5271 4618 4950 4127 12794
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.eGiJrxw4SS/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2962 ms, data: 3796 2766 3158 2768 2962
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=127 termination_type=exited termination_id=0 corefile=no
+cutime=386 cstime=4486
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec28 stime=1704861339
+cmdline="tcp_ipsec.sh -p esp -a sha256 -e blowfish -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 649 ms, data: 649 334 1164 2088 242
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 863 ms, data: 346 1063 863 1220 847
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4003 ms, data: 3623 4003 6808 6236 3701
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.UGE6MIFGo8/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2357 ms, data: 2357 2869 2317 2307 2459
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=110 termination_type=exited termination_id=0 corefile=no
+cutime=399 cstime=3651
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec29 stime=1704861449
+cmdline="tcp_ipsec.sh -p esp -a sha256 -e blowfish -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 1268 ms, data: 1268 255 665 4583 3117
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2751 ms, data: 5180 2751 387 3968 396
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4285 ms, data: 4793 3623 4109 4929 4285
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.I5XKBBlhIY/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2676 ms, data: 2307 7358 4276 2676 2637
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=142 termination_type=exited termination_id=0 corefile=no
+cutime=374 cstime=4340
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec30 stime=1704861591
+cmdline="tcp_ipsec.sh -p esp -a sha384 -e twofish -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 4628 ms, data: 3711 7265 4531 4628 8441
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1234 ms, data: 1350 5595 609 695 1234
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4050 ms, data: 4050 3876 11450 4579 3258
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.NhFqr0Trh6/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2843 ms, data: 3026 3853 2843 2705 2287
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=191 termination_type=exited termination_id=0 corefile=no
+cutime=398 cstime=3756
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec31 stime=1704861782
+cmdline="tcp_ipsec.sh -p esp -a sha384 -e twofish -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 337 ms, data: 411 232 582 210 337
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 462 ms, data: 244 525 255 462 1458
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5324 ms, data: 6109 6012 3682 4679 5324
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.MoapIvUhbS/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3278 ms, data: 2901 4138 2432 3278 4643
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=109 termination_type=exited termination_id=0 corefile=no
+cutime=400 cstime=4615
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec32 stime=1704861891
+cmdline="tcp_ipsec.sh -p esp -a sha512 -e camellia -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 6559 ms, data: 6559 5180 7664 6728 1064
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1634 ms, data: 776 3033 3385 398 1634
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4894 ms, data: 4894 3838 8911 4345 5209
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.m3hszMNtW2/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2829 ms, data: 2829 2424 2925 2872 2642
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=149 termination_type=exited termination_id=0 corefile=no
+cutime=383 cstime=3957
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec33 stime=1704862040
+cmdline="tcp_ipsec.sh -p esp -a sha512 -e camellia -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 6375 ms, data: 6375 351 726 9987 7412
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 1000 ms, data: 1000 206 1145 455 1070
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5054 ms, data: 5017 5115 4679 5054 5177
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.85HvgjVkw9/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4001 ms, data: 3007 5524 3635 7118 4001
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=149 termination_type=exited termination_id=0 corefile=no
+cutime=394 cstime=4667
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec34 stime=1704862189
+cmdline="tcp_ipsec.sh -p esp -a rmd160 -e serpent -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 5641 ms, data: 7145 5641 374 7914 826
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2674 ms, data: 2674 544 4663 960 3062
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 5304 ms, data: 5304 5307 5867 5028 5162
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.cEVADkL9Np/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 5826 ms, data: 5961 4483 5932 5826 3334
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=196 termination_type=exited termination_id=0 corefile=no
+cutime=392 cstime=4198
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec35 stime=1704862385
+cmdline="tcp_ipsec.sh -p esp -a rmd160 -e serpent -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 263 ms, data: 263 245 231 336 400
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 3837 ms, data: 247 2029 6081 3837 6007
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 4713 ms, data: 4882 3751 12617 3947 4713
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.HEMNRdri9D/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 3710 ms, data: 3710 2956 3246 3821 4772
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=133 termination_type=exited termination_id=0 corefile=no
+cutime=395 cstime=4816
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp4_ipsec36 stime=1704862518
+cmdline="tcp_ipsec.sh -p esp -m beet -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/beet]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H 10.0.0.1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 4763 ms, data: 166 1225 5977 8217 4763
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H 10.0.0.1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 2476 ms, data: 2003 2476 3410 4553 482
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H 10.0.0.1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 6958 ms, data: 7904 11274 6673 6958 6481
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H 10.0.0.1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.owzic7dk6Z/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4995 ms, data: 5054 4575 4995 4938 5132
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=199 termination_type=exited termination_id=0 corefile=no
+cutime=367 cstime=6079
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp6_ipsec01 stime=1704862717
+cmdline="tcp_ipsec.sh -6 -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3620 ms, data: 6308 5884 2330 3620 2761
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 150 ms, data: 128 120 5660 271 150
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 393 ms, data: 552 345 240 393 1848
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.D9LpxcT91g/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 2542 ms, data: 429 4067 6704 2542 1985
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=134 termination_type=exited termination_id=0 corefile=no
+cutime=342 cstime=2154
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp6_ipsec02 stime=1704862851
+cmdline="tcp_ipsec.sh -6 -p ah -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[ah/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BwgxaCNqrs'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.BwgxaCNqrs/tst_netload.res' 5 times
+tcp_ipsec 1 TWARN: netstress failed, ret: 2
+tst_test.c:1526: TINFO: Timeout per run is 0h 05m 30s
+netstress.c:898: TINFO: connection: addr 'fd00:1:1:1::1', port '43873'
+netstress.c:900: TINFO: client max req: 100
+netstress.c:901: TINFO: clients num: 2
+netstress.c:906: TINFO: client msg size: 100
+netstress.c:907: TINFO: server msg size: 100
+netstress.c:821: TINFO: tcp_tw_reuse is already set
+netstress.c:949: TINFO: TCP client is using old TCP API.
+netstress.c:793: TINFO: '/proc/sys/net/ipv4/tcp_fastopen' is 1
+netstress.c:475: TINFO: Running the test over IPv6
+netstress.c:343: TBROK: connect(4, [fd00:1:1:1::1]:43873, 28) failed: ETIMEDOUT (110)
+
+Summary:
+passed   0
+failed   0
+broken   1
+skipped  0
+warnings 0
+tcp_ipsec 1 TFAIL: expected 'pass' but ret: '2'
+tcp_ipsec 1 TINFO: AppArmor enabled, this may affect test results
+tcp_ipsec 1 TINFO: it can be disabled with TST_DISABLE_APPARMOR=1 (requires super/root)
+tcp_ipsec 1 TINFO: loaded AppArmor profiles: none
+
+Summary:
+passed   0
+failed   1
+broken   0
+skipped  0
+warnings 1
+<<<execution_status>>>
+initiation_status="ok"
+duration=299 termination_type=exited termination_id=5 corefile=no
+cutime=86 cstime=733
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp6_ipsec03 stime=1704863150
+cmdline="tcp_ipsec.sh -6 -p ah -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[ah/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 3740 ms, data: 3740 6400 4154 192 285
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 5763 ms, data: 196 326 6293 5763 6850
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 7452 ms, data: 8262 7452 10205 6763 6861
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.Imnhf4jEiR/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 4143 ms, data: 9247 4932 3714 3832 4143
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=182 termination_type=exited termination_id=0 corefile=no
+cutime=375 cstime=3981
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp6_ipsec04 stime=1704863332
+cmdline="tcp_ipsec.sh -6 -p esp -m transport -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/transport]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 7318 ms, data: 6666 8846 7318 8876 772
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 834 ms, data: 834 778 1190 965 596
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp/tst_netload.res' 5 times
+tcp_ipsec 3 TPASS: netstress passed, median time 8714 ms, data: 7613 7704 14529 10015 8714
+tcp_ipsec 4 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp'
+tcp_ipsec 4 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -A 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.yRpvaTS1gp/tst_netload.res' 5 times
+tcp_ipsec 4 TPASS: netstress passed, median time 5063 ms, data: 5241 6353 5063 4010 4867
+
+Summary:
+passed   4
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=191 termination_type=exited termination_id=0 corefile=no
+cutime=386 cstime=5549
+<<<test_end>>>
+<<<test_start>>>
+tag=tcp6_ipsec05 stime=1704863523
+cmdline="tcp_ipsec.sh -6 -p esp -m tunnel -s 100:1000:65535:R65535"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tcp_ipsec 1 TINFO: initialize 'lhost' 'ltp_ns_veth2' interface
+tcp_ipsec 1 TINFO: add local addr 10.0.0.2/24
+tcp_ipsec 1 TINFO: add local addr fd00:1:1:1::2/64
+tcp_ipsec 1 TINFO: initialize 'rhost' 'ltp_ns_veth1' interface
+tcp_ipsec 1 TINFO: add remote addr 10.0.0.1/24
+tcp_ipsec 1 TINFO: add remote addr fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: Network config (local -- remote):
+tcp_ipsec 1 TINFO: ltp_ns_veth2 -- ltp_ns_veth1
+tcp_ipsec 1 TINFO: 10.0.0.2/24 -- 10.0.0.1/24
+tcp_ipsec 1 TINFO: fd00:1:1:1::2/64 -- fd00:1:1:1::1/64
+tcp_ipsec 1 TINFO: timeout per run is 0h 5m 0s
+tcp_ipsec 1 TINFO: IPsec[esp/tunnel]
+tcp_ipsec 1 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR'
+tcp_ipsec 1 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 100 -N 100 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR/tst_netload.res' 5 times
+tcp_ipsec 1 TPASS: netstress passed, median time 718 ms, data: 289 317 13337 1563 718
+tcp_ipsec 2 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR'
+tcp_ipsec 2 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 1000 -N 1000 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR/tst_netload.res' 5 times
+tcp_ipsec 2 TPASS: netstress passed, median time 567 ms, data: 576 392 856 370 567
+tcp_ipsec 3 TINFO: run server 'netstress -D ltp_ns_veth1 -R 10 -B /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR'
+tcp_ipsec 3 TINFO: run client 'netstress -l -H fd00:1:1:1::1 -n 65535 -N 65535 -D ltp_ns_veth2 -a 2 -r 100 -d /opt/mmtests/work/testdisk/data/config-functional-ltp-netstress/ltp-aY74RVPbTS/LTP_tcp_ipsec.FyD2uRP8KR/tst_netload.res' 5 times
+Terminated
+Interrupt received, shutting down ltp
+Interrupt received but test not running to shutdown
+test exit :: ltp 143
+Cleaning up
+run-mmtests.sh: line 22: /tmp/mmtest-cleanup-GHD3b0mdH: No such file or directory

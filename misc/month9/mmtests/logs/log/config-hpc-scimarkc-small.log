@@ -1,0 +1,176 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test scimarkc
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 36874's current affinity list: 0-63
+pid 36874's new affinity list: 0-7,16-23
+pid 36874's current affinity list: 0-7,16-23
+pid 36874's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+scimarkc fine
+Starting test scimarkc
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 37019's current affinity list: 0-63
+pid 37019's new affinity list: 0-7,16-23
+pid 37019's current affinity list: 0-7,16-23
+pid 37019's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Running iteration 1/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          126.62
+FFT             Mflops:    92.46    (N=1024)
+SOR             Mflops:   290.67    (100 x 100)
+MonteCarlo:     Mflops:    43.64
+Sparse matmult  Mflops:    95.19    (N=1000, nz=5000)
+LU              Mflops:   111.11    (M=100, N=100)
+Running iteration 2/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          128.85
+FFT             Mflops:    93.08    (N=1024)
+SOR             Mflops:   290.39    (100 x 100)
+MonteCarlo:     Mflops:    43.59
+Sparse matmult  Mflops:   105.94    (N=1000, nz=5000)
+LU              Mflops:   111.22    (M=100, N=100)
+Running iteration 3/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          125.45
+FFT             Mflops:    93.72    (N=1024)
+SOR             Mflops:   281.85    (100 x 100)
+MonteCarlo:     Mflops:    43.65
+Sparse matmult  Mflops:    96.93    (N=1000, nz=5000)
+LU              Mflops:   111.10    (M=100, N=100)
+Running iteration 4/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          126.49
+FFT             Mflops:    93.04    (N=1024)
+SOR             Mflops:   290.57    (100 x 100)
+MonteCarlo:     Mflops:    43.64
+Sparse matmult  Mflops:    93.30    (N=1000, nz=5000)
+LU              Mflops:   111.91    (M=100, N=100)
+Running iteration 5/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          124.73
+FFT             Mflops:    92.85    (N=1024)
+SOR             Mflops:   275.31    (100 x 100)
+MonteCarlo:     Mflops:    43.65
+Sparse matmult  Mflops:   100.61    (N=1000, nz=5000)
+LU              Mflops:   111.23    (M=100, N=100)
+Running iteration 6/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          125.14
+FFT             Mflops:    93.23    (N=1024)
+SOR             Mflops:   275.33    (100 x 100)
+MonteCarlo:     Mflops:    43.61
+Sparse matmult  Mflops:   102.07    (N=1000, nz=5000)
+LU              Mflops:   111.43    (M=100, N=100)
+Running iteration 7/7
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          128.45
+FFT             Mflops:    92.93    (N=1024)
+SOR             Mflops:   295.52    (100 x 100)
+MonteCarlo:     Mflops:    43.62
+Sparse matmult  Mflops:    98.85    (N=1000, nz=5000)
+LU              Mflops:   111.35    (M=100, N=100)
+scimarkc successful
+scimarkc fine
+test exit :: scimarkc 0
+Cleaning up

@@ -1,0 +1,128 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test cmakebuild
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 4256's current affinity list: 0-63
+pid 4256's new affinity list: 0-7,16-23
+pid 4256's current affinity list: 0-7,16-23
+pid 4256's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Downloaded file already available at /opt/mmtests/work/sources/cmakebuild-v3.8.2.tar.gz
+Unknown option: --libdir=/opt/mmtests/work/sources/cmakebuild-v3.8.2-installed/lib64
+---------------------------------------------
+CMake 3.8.2, Copyright 2000-2017 Kitware, Inc. and Contributors
+Found GNU toolchain
+C compiler on this system is: gcc 
+C++ compiler on this system is: g++ 
+Makefile processor on this system is: gmake
+g++ is GNU compiler
+g++ has setenv
+g++ has unsetenv
+g++ does not have environ in stdlib.h
+g++ has stl wstring
+g++ has <ext/stdio_filebuf.h>
+---------------------------------------------
+g++  -I/opt/mmtests/work/sources/cmakebuild-v3.8.2/Bootstrap.cmk -I/opt/mmtests/work/sources/cmakebuild-v3.8.2/Source   -I/opt/mmtests/work/sources/cmakebuild-v3.8.2/Utilities  -c /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAddCustomCommandCommand.cxx -o cmAddCustomCommandCommand.o
+In file included from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Utilities/cm_kwiml.h:12,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAlgorithms.h:9,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmTarget.h:15,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmGlobalGenerator.h:19,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAddCustomCommandCommand.cxx:9:
+/opt/mmtests/work/sources/cmakebuild-v3.8.2/Utilities/KWIML/include/kwiml/abi.h:476:3: error: #error "Byte order of target CPU unknown."
+  476 | # error "Byte order of target CPU unknown."
+      |   ^~~~~
+In file included from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmStateSnapshot.h:12,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmListFileCache.h:12,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmCustomCommand.h:9,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAddCustomCommandCommand.cxx:7:
+/opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmLinkedTree.h:36:32: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   36 |   class iterator : public std::iterator<std::forward_iterator_tag, T>
+      |                                ^~~~~~~~
+In file included from /usr/include/c++/12/string:45,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAddCustomCommandCommand.h:7,
+                 from /opt/mmtests/work/sources/cmakebuild-v3.8.2/Source/cmAddCustomCommandCommand.cxx:3:
+/usr/include/c++/12/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+gmake: *** [Makefile:4: cmAddCustomCommandCommand.o] Error 1
+---------------------------------------------
+Error when bootstrapping CMake:
+Problem while running gmake
+---------------------------------------------
+Log of errors: /opt/mmtests/work/sources/cmakebuild-v3.8.2/Bootstrap.cmk/cmake_bootstrap.log
+---------------------------------------------
+ERROR cmakebuild: cmakebuild: configure failed
+FATAL cmakebuild: cmakebuild install script returned error
+FATAL: cmakebuild returned failure, unable to continue
+FATAL: Installation step failed for cmakebuild

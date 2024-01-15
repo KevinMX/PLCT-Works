@@ -1,0 +1,414 @@
+Failed to identify distribution
+Failed to identify distribution
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Failed to identify distribution
+Failed to identify distribution
+Building shellpacks
+
+Using default SHELLPACK_DATA
+cat: '/sys/devices/system/cpu/cpu0/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu1/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu2/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu3/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu4/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu5/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu6/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu7/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu16/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu17/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu18/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu19/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu20/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu21/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu22/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu23/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu8/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu9/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu10/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu11/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu12/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu13/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu14/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu15/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu24/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu25/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu26/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu27/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu28/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu29/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu30/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu31/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu32/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu33/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu34/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu35/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu36/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu37/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu38/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu39/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu48/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu49/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu50/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu51/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu52/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu53/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu54/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu55/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu40/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu41/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu42/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu43/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu44/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu45/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu46/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu47/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu56/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu57/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu58/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu59/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu60/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu61/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu62/cache/index*/shared_cpu_list': No such file or directory
+cat: '/sys/devices/system/cpu/cpu63/cache/index*/shared_cpu_list': No such file or directory
+Installing test blogbench
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 982075's current affinity list: 0-63
+pid 982075's new affinity list: 0-7,16-23
+pid 982075's current affinity list: 0-7,16-23
+pid 982075's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+installed only as requested.
+blogbench fine
+Starting test blogbench
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+pid 982220's current affinity list: 0-63
+pid 982220's new affinity list: 0-7,16-23
+pid 982220's current affinity list: 0-7,16-23
+pid 982220's new affinity list: 0-63
+grep: /sys/devices/system/cpu/cpu*/cache/index/shared_cpu_map: No such file or directory
+Starting interation 1/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       300       899357         17399        582859         15421        468152         51378
+       518       994489         13276        669161         12450        558990         38731
+       691      1009512         11240        692538          9486        557657         32884
+       879       990599         12872        686430         10705        564534         37006
+      1071       999567         11861        683555         11099        553837         35576
+      1293       989443         14429        683073         12219        559187         37401
+      1483       984089         12440        685483         11468        562442         30302
+      1670       984842         12777        682897         10823        563519         33681
+      1881       992481         14164        678353         11865        560441         32618
+      2095       995703         13925        686313         11729        566627         37792
+      2288       992931         13558        689751         11572        565314         32007
+      2493       989794         13788        679796         11753        565676         34732
+      2679       986965         12535        682757         11155        564146         33559
+      2844       980199         13320        687982         10801        563440         31931
+      3033       992483         13045        692282         10919        561957         32479
+      3181       999178         10475        684447          8634        555415         33321
+      3354       991356         10742        693284          8931        570273         29071
+      3519       995226         11262        687411          9381        563850         26843
+      3702       987316         10843        680155         11318        557071         33447
+      3859      1004412         11203        693434          8832        560081         29844
+      4063       983379         11875        691565         11260        557753         30507
+      4249       986635         12040        692896         10871        561999         34259
+      4426       992456         12551        686066         10648        555228         31443
+      4602       988081         11340        688574          9164        564099         34218
+      4777       994565         12789        692139         10709        559395         29535
+      4955       992384         11481        698972          9896        556884         31435
+      5093       988676         10808        692727          9329        568150         26645
+      5239       996155         10858        698351          8856        559390         29690
+      5402       998041         11615        700492          9353        561898         29052
+      5572       993012         11910        688910          9689        556748         36182
+
+Final score for writes:          5572
+Final score for reads :        586815
+
+Starting interation 2/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       218       933709         12722        751772         11314        616778         38853
+       383      1034548          8779        851046          8929        695894         27551
+       567      1015200          9744        847439          9950        713669         31351
+       718      1018267          9288        861799          8329        697481         28300
+       862      1021382          9636        860038          8490        704884         26494
+       988      1029928          7724        860218          7125        702548         25380
+      1121      2059853          9503        854480          7362        700433         24360
+      1254      1020126          9233        867018          8350        683720         24477
+      1378      1039707          9189        877815          7329        684308         21507
+      1520      1029354          8672        865203          8275        697255         25220
+      1658      1035822          9040        878185          7231        683698         23551
+      1775      1037640          8758        871311          7296        680014         25214
+      1954      1025490         11847        866299         10692        667100         28456
+      2096      1028019          9133        868109          8229        678337         26342
+      2271      1037396         11460        869526         10063        678218         25015
+      2408      1046409          9387        879606          8114        665292         23706
+      2526      1033113          8532        879922          6815        659623         23988
+      2667      1044481          9327        877210          8086        673973         26256
+      2787      1050283         10063        868185          7911        663607         26750
+      2905      1044263          9231        885862          6920        664186         20884
+      3030      1055657          8906        876661          7524        648861         27065
+      3141      1046344          8515        875352          6881        650457         25234
+      3265      1054243          8855        881480          8358        649554         25610
+      3401      1045792          9088        883439          7949        647977         29199
+      3543      1057932          9051        876032          8527        638111         27283
+      3718      1040336         10929        875611         10282        635699         28123
+      3861      1048141          9317        881855          8167        625080         27230
+      4003      1049512          8874        879321          8004        640405         27326
+      4114      1060255          8021        889398          7216        630151         24058
+      4291      1054241         11514        892416         10250        621974         27128
+
+Final score for writes:          4291
+Final score for reads :        468892
+
+Starting interation 3/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       205       908383         10561        828166         10501        575091         32534
+       348      1015860          8427        923264          7518        631142         27200
+       490      1012359          9083        926180          8368        642567         26408
+       643      1017618          9667        929057          8594        642192         21150
+       752      1011714          7236        937926          6761        642139         20303
+       863      1023162          8177        932523          7100        632243         25298
+       974      1017257          7470        919261          6465        642945         22710
+      1092      1006444          7110        927452          6943        637912         20272
+      1192      1021688          6915        923250          6002        637502         22810
+      1324      1022170          9219        925672          7210        632239         23811
+      1438      1027429          7395        929250          6172        627243         23081
+      1561      1023141          9282        924694          7998        629973         25175
+      1678      1022252          8153        921222          7251        627410         23074
+      1793      1024260          7510        921780          6646        640834         23125
+      1937      1021626          8807        925688          7833        629100         24725
+      2058      1013919          8862        923403          7291        626938         23655
+      2190      1022452          8519        924278          7688        623923         22779
+      2318      1026915          8977        925546          7627        618860         23165
+      2433      1014559          8744        925352          7552        619103         24444
+      2550      1026634          8022        928001          7177        616983         20854
+      2643      1031165          7603        934763          6423        616647         20766
+      2745      1027228          7000        927812          5942        618633         20546
+      2854      1022141          7389        923045          6204        623418         20849
+      2956      1030104          7521        923865          6519        607791         24140
+      3084      1039727          8704        933279          6931        599969         22425
+      3223      1014167          8830        923073          8369        614591         25581
+      3353      1029219          8699        924878          8282        610228         21360
+      3474      1024582          9226        923565          7478       1209827         25799
+      3615      1037378          8841        926563          8065        597614         26242
+      3733      1039354          8558        932749          7265        591279         24702
+
+Final score for writes:          3733
+Final score for reads :        407940
+
+Starting interation 4/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       190       876299          9811        826243          9965        515223         32901
+       314       978507          7524        926136          6713        564647         24204
+       416       976842          6836        923753          5649        565612         21717
+       532       973858          7655        915424          7122        567426         24243
+       652       982642          8105        912969          6971        561431         24486
+       755       970587          6984        912269          5827        571260         21968
+       881       974331          8488        910948          7324        570699         24508
+       978       982051          6129        913586          5447        565151         23020
+      1097       967690          7432        918839          6485        570860         25234
+      1210       971159          7844        916360          6410        575054         19487
+      1331       974593          8434        905686          7014        563837         20878
+      1445       974681          7071        908265          6926        570284         22128
+      1557       970281          7782        914394          6537        573357         23048
+      1672       980941          7376        917945          7020        564974         22014
+      1792       977787          8647        912935          7193        559179         21955
+      1915       972821          8137        908727          7616        566274         25921
+      2050       980352          8030        910280          7838        562153         24300
+      2167       980282          8384        905830          6894        572991         21992
+      2298       973444          8349        913130          7473        559249         21964
+      2415       984282          8131        916398          7049        558859         21996
+      2527       987329          7589        907977          6816        556165         25760
+      2641       974068          8054        903950          6946        563305         22819
+      2769       980985          8138        906683          7098        564524         23309
+      2866       983979          7372        922544          6064        560909         19711
+      2979       983292          7274        913298          6749        563005         23799
+      3106       977536          8568        904740          7030        553055         25265
+      3221       988671          7555        917281          6773        559460         21706
+      3348       988838          8150        909811          7145        553026         23278
+      3461       986904          6901        912885          6822        545031         22080
+      3578       987062          8694        906038          7085        548253         27101
+
+Final score for writes:          3578
+Final score for reads :        359245
+
+Starting interation 5/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       194       963003         10404        920455          9589        536968         32568
+       316      1052697          7902       1029764          6968        596900         23630
+       441      1053272          7536       1020645          6522        605183         19733
+       540      1068670          5617       1031319          5818        604881         23674
+       641      1059967          6550       1021603          6276       1210340         20323
+       751      1070851          7525       1026681          6603        599624         21669
+       872      1058415          6779       1020018          6917        609590         24223
+       998      1052573          7623       1023240          7224        599092         22490
+      1114      1067065          7573       1016689          6784        606619         21225
+      1229      1061673          7660       1017689          6757        607932         20620
+      1341      1062102          7495       1018094          6258        599375         21365
+      1457      1054158          8074       1009081          7392        599395         20122
+      1558      1073242          7318       1023437          5922        595717         20112
+      1659      1063609          6963       1009735          6572        597564         19062
+      1755      1063678          7214       1027759          6319        598762         20202
+      1841      1066800          6613       1020554          5843        600567         20291
+      1945      1077617          7134       1022655          6301        593698         20275
+      2049      1057068          6810       1007595          6001        606505         20922
+      2147      1070465          7003       1016917          6600        606418         20208
+      2277      1068944          8541       1017795          7488        599115         25114
+      2379      1069136          7272       1019418          6328        596061         22924
+      2483      1054450          7258       1016172          5764        603128         22434
+      2581      1060275          7461       1020675          6028        597204         45256
+      2703      1059616          7979       1020141          7016        601234         21414
+      2811      1067240          7529       1017689          6421        583394         21884
+      2930      1066546          8546       1011883          7142        597459         21316
+      3048      1071594          8306       1018796          7203        590192         19314
+      3151      1064243          7471       1018149          6276        588864         20635
+      3279      1066522          9333       1013557          7653        586287         21953
+      3390      1067647          7898       1016630          7053        582369         21289
+
+Final score for writes:          3390
+Final score for reads :        376916
+
+Starting interation 6/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       185       963364         10277        941513          9902        527212         32238
+       319      1087796          8454       1059847          6910        575041         27291
+       462      1078833          8608       1040566          7499        583058         24445
+       586      1086006          8698       1050966          7366        581968         25069
+       693      1084219          6779       1042349          6226        595537         23432
+       822      1074079          8871       1045837          7310        586725         22257
+       914      1073219          6917       1043067          5368        590909         22406
+      1022      1072121          7481       1040887          6447        589720         21525
+      1114      1074301          5684       1036315          5728        586703         21963
+      1236      1085861          7630       1039272          6680        591571         20198
+      1326      1077421          6812       1044490          5813        591417         21514
+      1420      1067646          6387       1036696          5787        592060         21854
+      1519      1063647          6891       1028536          6086        588165         20306
+      1602      1073528          6004       1043851          5531        585530         17955
+      1716      1063455          6926       1028714          6843        588378         21469
+      1816      1066174          7319       1032425          5798        589235         22231
+      1915      1069167          6864       1037434          5653        584169         19539
+      1994      1075684          6470       1041543          5072        593316         19261
+      2105      1072565          7338       1035148          5857        592016         21836
+      2223      1072466          8034       1028924          7386        582457         22321
+      2335      2136860          7703       1029129          6456       1173740         19705
+      2447      1075293          7255       1040274          6035        584616         21115
+      2559      1073194          7302       1029767          6344        587135         21259
+      2663      1070590          7029       1041320          6206        578277         23220
+      2774      1065792          8361       1034266          6629        584249         21920
+      2892      1080874          8008       1029462          7386        578528         21788
+      2992      1080457          6886       1030931          5925        585858         20767
+      3120      1074197          8276       1031714          7540        582155         20807
+      3234      1083971          8032       1028066          6488        586609         24204
+      3357      1082878          7698       1034680          7205       1163915         20314
+
+Final score for writes:          3357
+Final score for reads :        365550
+
+Starting interation 7/7
+
+Frequency = 10 secs
+Scratch dir = [/opt/mmtests/work/testdisk/data/config-io-blogbench]
+Spawning 3 writers...
+Spawning 1 rewriters...
+Spawning 5 commenters...
+Spawning 100 readers...
+Benchmarking for 30 iterations.
+The test will run during 5 minutes.
+
+  Nb blogs   R articles    W articles    R pictures    W pictures    R comments    W comments
+       174       915309         10101        902624          9704        484233         32088
+       306      1028872          8009       1008848          6872        530030         23004
+       444      1019158          8423       1000240          7016        534881         23623
+       557      1003743          7170        996761          6439        547275         23444
+       659      1019374          6828        995318          6423        533026         21884
+       771      1020382          7717        995243          6441       1072201         20192
+       880      1016238          7366        992277          6560        540225         22045
+       977      1013928          6682        993281          5605        541756         19955
+      1076      1016127          6746       1002369          6370        534681         17947
+      1174      1021697          6545        995055          6201        554813         20690
+      1282      1013799          7509        989794          6784        546414         22803
+      1383      1021150          5945        996004          5806        547720         21090
+      1497      1007110          7360        989064          6955        547966         24385
+      1620      1014505          6930        992399          7040        540858         22344
+      1736      1015879          8049        984046          6663        545013         23562
+      1836      1016264          6509        994189          5974        547871         19769
+      1955      1012007          8259        991511          7037        544056         18721
+      2053      1018307          6830        986096          5734        548634         19398
+      2158      1016822          6983        978666          5798        536155         23075
+      2256      1020680          6958        982232          5989        552633         19370
+      2361      1019564          7057        977629          6654        542463         23239
+      2468      1005628          6865        972363          5528        541261         21560
+      2570      1005616          7808        992416          6842        541478         22425
+      2674      1009146          7001        981094          5900        543343         18723
+      2776      1010810          7077        983584          6398        538486         18064
+      2892      1009324          7485        990018          6926        543170         21273
+      2995      1026710          7751        989003          6917        533110         19571
+      3097      1010251          7397        977471          6548        540761         20932
+      3214      1015231          8069        987001          7551        534099         20078
+      3317      1018941          6887        986347          6232        533260         21160
+
+Final score for writes:          3317
+Final score for reads :        337645
+
+blogbench completed successfully
+blogbench fine
+test exit :: blogbench 0
+Cleaning up
