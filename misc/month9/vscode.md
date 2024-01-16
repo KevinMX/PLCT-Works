@@ -15,8 +15,40 @@
 
 ![](./images/03.png)
 
-3. 选择编译目标平台。
+3. 选择 IntelliSense 模式。
 
 > 目前 VSCode 的 IntelliSense 只支持 x86 / x64 / ARM / ARM64。
 
+选择 `gcc-x86`。其他选项可能会有问题。
+
 ![](./images/04.png)
+
+4. 编辑 `.vscode/c_cpp_properties` 配置文件。
+
+```json
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x86",
+            "compilerPath": "/usr/bin/riscv64-linux-gnu-gcc",
+            "compilerArgs": [
+                "-static"
+            ]
+        }
+    ],
+    "version": 4
+}
+```
+
+5. 点击右上角的三角形图标（运行 C/C++ 文件）。
+
+6. 正确输出了静态编译的目标二进制。
+
+![](05.png)
