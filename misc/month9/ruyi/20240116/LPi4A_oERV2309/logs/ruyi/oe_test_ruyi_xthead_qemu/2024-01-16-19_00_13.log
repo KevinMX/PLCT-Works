@@ -1,0 +1,21 @@
+Tue Jan 16 19:00:13 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:00:18 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:00:19 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.2M  100 10.2M    0     0  10.9M      0 --:--:-- --:--:-- --:--:-- 10.9M100 10.2M  100 10.2M    0     0  10.9M      0 --:--:-- --:--:-- --:--:-- 10.9M
+Tue Jan 16 19:00:20 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:00:20 2024 - INFO  - Start to run test.
+
+There are 2 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+
+You can read them with ruyi news read.
+Tue Jan 16 19:00:26 2024 - INFO  - No qemu-user-riscv-xthead available for current host riscv64, skip
+Tue Jan 16 19:00:27 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:00:27 2024 - WARN  - no thing to do.
+Tue Jan 16 19:00:27 2024 - INFO  - Finish environment cleanup!

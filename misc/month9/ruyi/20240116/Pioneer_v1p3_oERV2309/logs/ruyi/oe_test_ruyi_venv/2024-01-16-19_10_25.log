@@ -1,0 +1,31 @@
+Tue Jan 16 19:10:25 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:10:30 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:10:30 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.2M  100 10.2M    0     0  12.0M      0 --:--:-- --:--:-- --:--:-- 12.0M100 10.2M  100 10.2M    0     0  12.0M      0 --:--:-- --:--:-- --:--:-- 12.0M
+Tue Jan 16 19:10:32 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:10:32 2024 - INFO  - Start to run test.
+
+There are 2 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+
+You can read them with ruyi news read.
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz to 
+/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  8  224M    8 20.0M    0     0  16.0M      0  0:00:14  0:00:01  0:00:13 16.0M 17  224M   17 40.3M    0     0  18.9M      0  0:00:11  0:00:02  0:00:09 18.9M 29  224M   29 65.5M    0     0  20.3M      0  0:00:11  0:00:03  0:00:08 20.3M 40  224M   40 90.7M    0     0  21.0M      0  0:00:10  0:00:04  0:00:06 21.0M 49  224M   49  110M    0     0  21.4M      0  0:00:10  0:00:05  0:00:05 22.1M 60  224M   60  136M    0     0  21.7M      0  0:00:10  0:00:06  0:00:04 23.1M 69  224M   69  156M    0     0  21.9M      0  0:00:10  0:00:07  0:00:03 23.1M 80  224M   80  181M    0     0  22.0M      0  0:00:10  0:00:08  0:00:02 23.1M 92  224M   92  206M    0     0  22.2M      0  0:00:10  0:00:09  0:00:01 23.1M100  224M  100  224M    0     0  22.2M      0  0:00:10  0:00:10 --:--:-- 23.1M
+info: extracting RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz for package gnu-plct-0.20231212.0
+info: package gnu-plct-0.20231212.0 installed to /root/.local/share/ruyi/binaries/riscv64/gnu-plct-0.20231212.0
+info: The virtual environment is now created.
+«Ruyi test-venv» 
+Tue Jan 16 19:11:51 2024 - INFO  - End of the test.
+Tue Jan 16 19:11:51 2024 - INFO  - succeed to execute the case.
+Tue Jan 16 19:11:51 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:11:52 2024 - WARN  - no thing to do.
+Tue Jan 16 19:11:54 2024 - INFO  - Finish environment cleanup!

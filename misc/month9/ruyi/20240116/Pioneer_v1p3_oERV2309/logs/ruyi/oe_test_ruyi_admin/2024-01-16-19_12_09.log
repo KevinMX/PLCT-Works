@@ -1,0 +1,23 @@
+Tue Jan 16 19:12:09 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:12:14 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:12:15 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 97 10.2M   97 10.0M    0     0  12.1M      0 --:--:-- --:--:-- --:--:-- 12.1M100 10.2M  100 10.2M    0     0  12.2M      0 --:--:-- --:--:-- --:--:-- 12.2M
+Tue Jan 16 19:12:16 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:12:16 2024 - INFO  - Start to run test.
+[
+  {
+    "name": "oe_test_ruyi_admin.sh",
+    "size": 1267,
+    "checksums": {
+      "sha512": "9d7ca780bd8a665469ed07984b28e766fc993fa2fdb3b73caa5efa9bbfb06a2b394c33fabf1e01670fd51b468730dbb6d5fcc23c29f4c3ad0e86485327853655",
+      "sha256": "1551d068e39a8d44069cba152f5d521b190f63462be8236bb59757858b891e76"
+    }
+  }
+]
+Tue Jan 16 19:12:19 2024 - INFO  - End of the test.
+Tue Jan 16 19:12:19 2024 - INFO  - succeed to execute the case.
+Tue Jan 16 19:12:19 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:12:19 2024 - WARN  - no thing to do.
+Tue Jan 16 19:12:19 2024 - INFO  - Finish environment cleanup!

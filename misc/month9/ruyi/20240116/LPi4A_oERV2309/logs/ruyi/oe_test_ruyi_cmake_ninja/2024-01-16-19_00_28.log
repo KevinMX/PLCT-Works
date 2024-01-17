@@ -1,0 +1,283 @@
+Tue Jan 16 19:00:28 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:00:33 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:00:34 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 10.2M    0  6992    0     0  24326      0  0:07:23 --:--:--  0:07:23 24277100 10.2M  100 10.2M    0     0  11.5M      0 --:--:-- --:--:-- --:--:-- 11.5M
+Tue Jan 16 19:01:06 2024 - INFO  - unsupported package manager: apt-get
+Tue Jan 16 19:01:07 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:01:07 2024 - INFO  - Start to run test.
+
+There are 2 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+
+You can read them with ruyi news read.
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz to 
+/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  4  224M    4 10.5M    0     0  9949k      0  0:00:23  0:00:01  0:00:22 9954k 17  224M   17 39.8M    0     0  17.2M      0  0:00:13  0:00:02  0:00:11 17.2M 26  224M   26 59.2M    0     0  18.1M      0  0:00:12  0:00:03  0:00:09 18.1M 34  224M   34 78.6M    0     0  18.7M      0  0:00:12  0:00:04  0:00:08 18.7M 43  224M   43 98.0M    0     0  19.0M      0  0:00:11  0:00:05  0:00:06 19.0M 52  224M   52  117M    0     0  19.2M      0  0:00:11  0:00:06  0:00:05 21.3M 60  224M   60  136M    0     0  19.4M      0  0:00:11  0:00:07  0:00:04 20.4M 73  224M   73  166M    0     0  20.0M      0  0:00:11  0:00:08  0:00:03 21.3M 82  224M   82  185M    0     0  20.1M      0  0:00:11  0:00:09  0:00:02 21.3M 91  224M   91  205M    0     0  20.1M      0  0:00:11  0:00:10  0:00:01 21.3M 99  224M   99  222M    0     0  20.3M      0  0:00:11  0:00:10  0:00:01 21.6M100  224M  100  224M    0     0  20.3M      0  0:00:11  0:00:11 --:--:-- 21.8M
+info: extracting RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz for package gnu-plct-0.20231212.0
+info: package gnu-plct-0.20231212.0 installed to /root/.local/share/ruyi/binaries/riscv64/gnu-plct-0.20231212.0
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-T-Head-Sources-HOST-riscv64-linux-gnu-riscv64-plctxthead-linux-gnu.tar.xz to 
+/root/.cache/ruyi/distfiles/RuyiSDK-20231212-T-Head-Sources-HOST-riscv64-linux-gnu-riscv64-plctxthead-linux-gnu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  259M    0  366k    0     0   893k      0  0:04:57 --:--:--  0:04:57  892k  7  259M    7 20.3M    0     0  12.8M      0  0:00:20  0:00:01  0:00:19 12.8M 19  259M   19 49.8M    0     0  17.6M      0  0:00:14  0:00:02  0:00:12 17.6M 26  259M   26 69.4M    0     0  18.4M      0  0:00:14  0:00:03  0:00:11 18.4M 34  259M   34 89.0M    0     0  18.8M      0  0:00:13  0:00:04  0:00:09 18.8M 42  259M   42  110M    0     0  19.3M      0  0:00:13  0:00:05  0:00:08 20.7M 50  259M   50  130M    0     0  19.5M      0  0:00:13  0:00:06  0:00:07 21.6M 57  259M   57  149M    0     0  19.6M      0  0:00:13  0:00:07  0:00:06 20.7M 64  259M   64  168M    0     0  19.7M      0  0:00:13  0:00:08  0:00:05 20.7M 72  259M   72  188M    0     0  19.8M      0  0:00:13  0:00:09  0:00:04 20.7M 79  259M   79  207M    0     0  19.8M      0  0:00:13  0:00:10  0:00:03 20.4M 91  259M   91  236M    0     0  19.8M      0  0:00:13  0:00:11  0:00:02 20.3M 98  259M   98  256M    0     0  19.9M      0  0:00:13  0:00:12  0:00:01 20.3M100  259M  100  259M    0     0  20.0M      0  0:00:12  0:00:12 --:--:-- 20.5M
+info: extracting RuyiSDK-20231212-T-Head-Sources-HOST-riscv64-linux-gnu-riscv64-plctxthead-linux-gnu.tar.xz for package gnu-plct-xthead-0.20231212.0
+info: package gnu-plct-xthead-0.20231212.0 installed to /root/.local/share/ruyi/binaries/riscv64/gnu-plct-xthead-0.20231212.0
+info: Creating a Ruyi virtual environment at coremark_venv...
+info: The virtual environment is now created.
+
+You may activate it by sourcing the appropriate activation script in the
+bin directory, and deactivate by invoking `ruyi-deactivate`.
+
+A fresh sysroot/prefix is also provisioned in the virtual environment.
+It is available at the following path:
+
+    /root/ruyi-mugen/testcases/cli-test/ruyi/build/coremark_venv/sysroot
+
+The virtual environment also comes with ready-made CMake toolchain file
+and Meson cross file. Check the virtual environment root for those;
+comments in the files contain usage instructions.
+
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/coremark-1.01.tar.gz to /root/.cache/ruyi/distfiles/coremark-1.01.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  391k  100  391k    0     0   961k      0 --:--:-- --:--:-- --:--:--  962k
+info: extracting coremark-1.01.tar.gz for package coremark-1.0.1
+info: package coremark-1.0.1 extracted to current working directory
+riscv64-plctxthead-linux-gnu-gcc -O2 -Ilinux64 -I. -DFLAGS_STR=\""-O2   -lrt"\" -DITERATIONS=0  core_list_join.c core_main.c core_matrix.c core_state.c core_util.c linux64/core_portme.c -o ./coremark.exe -lrt
+Link performed along with compile
+coremark.exe: ELF 64-bit LSB executable, UCB RISC-V, RVC, double-float ABI, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-riscv64xthead-lp64d.so.1, BuildID[sha1]=2fa2c035fe145ae78f7aec3ccc0cbd14ecdb6e8a, for GNU/Linux 4.15.0, with debug_info, not stripped
+info: Creating a Ruyi virtual environment at zlib_venv...
+info: The virtual environment is now created.
+
+You may activate it by sourcing the appropriate activation script in the
+bin directory, and deactivate by invoking `ruyi-deactivate`.
+
+A fresh sysroot/prefix is also provisioned in the virtual environment.
+It is available at the following path:
+
+    /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_venv/sysroot
+
+The virtual environment also comes with ready-made CMake toolchain file
+and Meson cross file. Check the virtual environment root for those;
+comments in the files contain usage instructions.
+
+-- Using CMake version 3.24.3
+-- ZLIB_HEADER_VERSION: 1.3.0
+-- ZLIBNG_HEADER_VERSION: 2.1.5
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_venv/bin/riscv64-plct-linux-gnu-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Arch detected: 'riscv64'
+-- Basearch of 'riscv64' has been detected as: 'riscv'
+-- Performing Test FNO_LTO_AVAILABLE
+-- Performing Test FNO_LTO_AVAILABLE - Success
+-- Looking for arm_acle.h
+-- Looking for arm_acle.h - not found
+-- Looking for sys/auxv.h
+-- Looking for sys/auxv.h - found
+-- Looking for sys/sdt.h
+-- Looking for sys/sdt.h - not found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Performing Test HAVE_NO_INTERPOSITION
+-- Performing Test HAVE_NO_INTERPOSITION - Success
+-- Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN
+-- Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL
+-- Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL - Success
+-- Performing Test HAVE_ATTRIBUTE_ALIGNED
+-- Performing Test HAVE_ATTRIBUTE_ALIGNED - Success
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- Performing Test HAVE_BUILTIN_CTZ
+-- Performing Test HAVE_BUILTIN_CTZ - Success
+-- Performing Test HAVE_BUILTIN_CTZLL
+-- Performing Test HAVE_BUILTIN_CTZLL - Success
+-- Performing Test HAVE_PTRDIFF_T
+-- Performing Test HAVE_PTRDIFF_T - Success
+-- Performing Test HAVE_RVV_INTRIN
+-- Performing Test HAVE_RVV_INTRIN - Success
+-- Architecture-specific source files: arch/riscv/riscv_features.c;arch/riscv/riscv_features.c;arch/riscv/adler32_rvv.c;arch/riscv/chunkset_rvv.c;arch/riscv/compare256_rvv.c;arch/riscv/slide_hash_rvv.c
+-- The following features have been enabled:
+
+ * CMAKE_BUILD_TYPE, Build type: Release (default)
+ * WITH_GZFILEOP, Compile with support for gzFile related functions
+ * ZLIB_COMPAT, Compile with zlib compatible API
+ * ZLIB_ENABLE_TESTS, Build test binaries
+ * ZLIBNG_ENABLE_TESTS, Test zlib-ng specific API
+ * WITH_SANITIZER, Enable sanitizer support
+ * WITH_OPTIM, Build with optimisation
+ * WITH_NEW_STRATEGIES, Use new strategies
+ * WITH_RVV, Build with RVV intrinsics
+
+-- The following features have been disabled:
+
+ * ZLIB_SYMBOL_PREFIX, Publicly exported symbols DO NOT have a custom prefix
+ * WITH_GTEST, Build gtest_zlib
+ * WITH_FUZZERS, Build test/fuzz
+ * WITH_BENCHMARKS, Build test/benchmarks
+ * WITH_BENCHMARK_APPS, Build application benchmarks
+ * WITH_NATIVE_INSTRUCTIONS, Instruct the compiler to use the full instruction set on this host (gcc/clang -march=native)
+ * WITH_MAINTAINER_WARNINGS, Build with project maintainer warnings
+ * WITH_CODE_COVERAGE, Enable code coverage reporting
+ * WITH_INFLATE_STRICT, Build with strict inflate distance checking
+ * WITH_INFLATE_ALLOW_INVALID_DIST, Build with zero fill for inflate invalid distances
+ * INSTALL_UTILS, Copy minigzip and minideflate during install
+
+CMake Warning at CMakeLists.txt:1287 (message):
+  Building to source folder is not recommended.  Cpack will be unable to
+  generate source package.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5
+[1/93] Building C object CMakeFiles/zlib.dir/cpu_features.c.o
+[2/93] Building C object CMakeFiles/zlib.dir/adler32_fold.c.o
+[3/93] Building C object CMakeFiles/zlib.dir/compress.c.o
+[4/93] Building C object CMakeFiles/zlib.dir/compare256.c.o
+[5/93] Building C object CMakeFiles/zlib.dir/adler32.c.o
+[6/93] Building C object CMakeFiles/zlib.dir/chunkset.c.o
+[7/93] Building C object CMakeFiles/zlib.dir/crc32_braid.c.o
+[8/93] Building C object CMakeFiles/zlib.dir/crc32_fold.c.o
+[9/93] Building C object CMakeFiles/zlib.dir/crc32_braid_comb.c.o
+[10/93] Building C object CMakeFiles/zlib.dir/deflate_fast.c.o
+[11/93] Building C object CMakeFiles/zlib.dir/deflate_huff.c.o
+[12/93] Building C object CMakeFiles/zlib.dir/deflate_medium.c.o
+[13/93] Building C object CMakeFiles/zlib.dir/deflate_rle.c.o
+[14/93] Building C object CMakeFiles/zlib.dir/deflate.c.o
+[15/93] Building C object CMakeFiles/zlib.dir/deflate_quick.c.o
+[16/93] Building C object CMakeFiles/zlib.dir/functable.c.o
+[17/93] Building C object CMakeFiles/zlib.dir/deflate_slow.c.o
+[18/93] Building C object CMakeFiles/zlib.dir/deflate_stored.c.o
+[19/93] Building C object CMakeFiles/zlib.dir/insert_string.c.o
+[20/93] Building C object CMakeFiles/zlib.dir/insert_string_roll.c.o
+[21/93] Building C object CMakeFiles/zlib.dir/inftrees.c.o
+[22/93] Building C object CMakeFiles/zlib.dir/slide_hash.c.o
+[23/93] Building C object CMakeFiles/zlib.dir/infback.c.o
+[24/93] Building C object CMakeFiles/zlib.dir/zutil.c.o
+[25/93] Building C object CMakeFiles/zlib.dir/uncompr.c.o
+[26/93] Building C object CMakeFiles/zlib.dir/arch/riscv/riscv_features.c.o
+/root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/arch/riscv/riscv_features.c: In function 'is_kernel_version_greater_or_equal_to_6_5':
+/root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/arch/riscv/riscv_features.c:22:33: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   22 |     if (major > 6 || major == 6 && minor >= 5)
+      |                      ~~~~~~~~~~~^~~~~~~~~~~~~
+[27/93] Building C object CMakeFiles/zlib.dir/arch/riscv/adler32_rvv.c.o
+[28/93] Building C object CMakeFiles/zlib.dir/trees.c.o
+[29/93] Building C object CMakeFiles/zlib.dir/arch/riscv/compare256_rvv.c.o
+[30/93] Building C object CMakeFiles/zlib.dir/arch/riscv/chunkset_rvv.c.o
+[31/93] Building C object CMakeFiles/zlib.dir/arch/riscv/slide_hash_rvv.c.o
+[32/93] Building C object CMakeFiles/zlib.dir/inflate.c.o
+[33/93] Building C object CMakeFiles/zlib.dir/gzlib.c.o
+[34/93] Building C object CMakeFiles/zlib.dir/gzread.c.o
+[35/93] Building C object CMakeFiles/zlibstatic.dir/adler32_fold.c.o
+[36/93] Building C object CMakeFiles/zlibstatic.dir/adler32.c.o
+[37/93] Building C object CMakeFiles/zlib.dir/gzwrite.c.o
+[38/93] Building C object CMakeFiles/zlibstatic.dir/chunkset.c.o
+[39/93] Building C object CMakeFiles/zlibstatic.dir/compare256.c.o
+[40/93] Building C object CMakeFiles/zlibstatic.dir/cpu_features.c.o
+[41/93] Building C object CMakeFiles/zlibstatic.dir/compress.c.o
+[42/93] Linking C shared library libz.so.1.3.0.zlib-ng
+[43/93] Building C object CMakeFiles/zlibstatic.dir/crc32_braid.c.o
+[44/93] Creating library symlink libz.so.1 libz.so
+[45/93] Building C object CMakeFiles/zlibstatic.dir/crc32_fold.c.o
+[46/93] Building C object CMakeFiles/zlibstatic.dir/crc32_braid_comb.c.o
+[47/93] Building C object CMakeFiles/zlibstatic.dir/deflate_fast.c.o
+[48/93] Building C object CMakeFiles/zlibstatic.dir/deflate_huff.c.o
+[49/93] Building C object CMakeFiles/zlibstatic.dir/deflate.c.o
+[50/93] Building C object CMakeFiles/zlibstatic.dir/deflate_medium.c.o
+[51/93] Building C object CMakeFiles/zlibstatic.dir/deflate_stored.c.o
+[52/93] Building C object CMakeFiles/zlibstatic.dir/deflate_quick.c.o
+[53/93] Building C object CMakeFiles/zlibstatic.dir/deflate_rle.c.o
+[54/93] Building C object CMakeFiles/zlibstatic.dir/deflate_slow.c.o
+[55/93] Building C object CMakeFiles/zlibstatic.dir/functable.c.o
+[56/93] Building C object CMakeFiles/zlibstatic.dir/insert_string.c.o
+[57/93] Building C object CMakeFiles/zlibstatic.dir/inftrees.c.o
+[58/93] Building C object CMakeFiles/zlibstatic.dir/infback.c.o
+[59/93] Building C object CMakeFiles/zlibstatic.dir/insert_string_roll.c.o
+[60/93] Building C object CMakeFiles/zlibstatic.dir/slide_hash.c.o
+[61/93] Building C object CMakeFiles/zlibstatic.dir/uncompr.c.o
+[62/93] Building C object CMakeFiles/zlibstatic.dir/zutil.c.o
+[63/93] Building C object CMakeFiles/zlibstatic.dir/arch/riscv/riscv_features.c.o
+/root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/arch/riscv/riscv_features.c: In function 'is_kernel_version_greater_or_equal_to_6_5':
+/root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/arch/riscv/riscv_features.c:22:33: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   22 |     if (major > 6 || major == 6 && minor >= 5)
+      |                      ~~~~~~~~~~~^~~~~~~~~~~~~
+[64/93] Building C object CMakeFiles/zlibstatic.dir/arch/riscv/adler32_rvv.c.o
+[65/93] Building C object CMakeFiles/zlibstatic.dir/trees.c.o
+[66/93] Building C object CMakeFiles/zlibstatic.dir/arch/riscv/slide_hash_rvv.c.o
+[67/93] Building C object CMakeFiles/zlibstatic.dir/inflate.c.o
+[68/93] Building C object CMakeFiles/zlibstatic.dir/arch/riscv/chunkset_rvv.c.o
+[69/93] Building C object CMakeFiles/zlibstatic.dir/arch/riscv/compare256_rvv.c.o
+[70/93] Building C object CMakeFiles/zlibstatic.dir/gzlib.c.o
+[71/93] Building C object CMakeFiles/zlibstatic.dir/gzread.c.o
+[72/93] Building C object test/CMakeFiles/minigzip.dir/minigzip.c.o
+[73/93] Building C object CMakeFiles/zlibstatic.dir/gzwrite.c.o
+[74/93] Building C object test/CMakeFiles/minideflate.dir/minideflate.c.o
+[75/93] Building C object test/CMakeFiles/switchlevels.dir/switchlevels.c.o
+[76/93] Building C object test/CMakeFiles/example.dir/example.c.o
+[77/93] Building C object test/CMakeFiles/infcover.dir/__/inftrees.c.o
+[78/93] Building C object test/CMakeFiles/infcover.dir/infcover.c.o
+[79/93] Linking C executable minideflate
+[80/93] Linking C executable example
+[81/93] Linking C executable switchlevels
+[82/93] Linking C static library libz.a
+[83/93] Building C object test/CMakeFiles/makefixed.dir/__/tools/makefixed.c.o
+[84/93] Linking C executable infcover
+[85/93] Building C object test/CMakeFiles/maketrees.dir/__/tools/maketrees.c.o
+[86/93] Linking C executable minigzip
+[87/93] Building C object test/CMakeFiles/maketrees.dir/__/zutil.c.o
+[88/93] Building C object test/CMakeFiles/makefixed.dir/__/inftrees.c.o
+[89/93] Linking C executable makefixed
+[90/93] Building C object test/CMakeFiles/makecrct.dir/__/tools/makecrct.c.o
+[91/93] Building C object test/CMakeFiles/maketrees.dir/__/trees.c.o
+[92/93] Linking C executable makecrct
+[93/93] Linking C executable maketrees
+[0/1] Install the project...
+-- Install configuration: "Release"
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/lib64/libz.so.1.3.0.zlib-ng
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/lib64/libz.so.1
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/lib64/libz.so
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/lib64/libz.a
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/include/zlib.h
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/include/zlib_name_mangling.h
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/include/zconf.h
+-- Installing: /root/ruyi-mugen/testcases/cli-test/ruyi/build/zlib-ng-2.1.5/zlib_my_install/lib64/pkgconfig/zlib.pc
+zconf.h
+zlib.h
+zlib_name_mangling.h
+Tue Jan 16 19:06:58 2024 - INFO  - End of the test.
+Tue Jan 16 19:06:58 2024 - INFO  - succeed to execute the case.
+Tue Jan 16 19:06:59 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:07:06 2024 - INFO  - unsupported package manager: apt-get
+(0, None)
+Tue Jan 16 19:07:15 2024 - INFO  - unsupported package manager: apt-get
+(0, None)
+Tue Jan 16 19:07:16 2024 - INFO  - Finish environment cleanup!

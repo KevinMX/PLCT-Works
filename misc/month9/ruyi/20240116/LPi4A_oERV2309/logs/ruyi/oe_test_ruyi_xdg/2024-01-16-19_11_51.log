@@ -1,0 +1,127 @@
+Tue Jan 16 19:11:52 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:11:57 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:11:58 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.2M  100 10.2M    0     0  11.9M      0 --:--:-- --:--:-- --:--:-- 11.9M
+Tue Jan 16 19:11:59 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:11:59 2024 - INFO  - Start to run test.
+List of available packages:
+
+* toolchain/gnu-upstream
+  - 0.20231212.0 (latest) slug: gnu-upstream-20231212
+  - 0.20231118.0 () slug: gnu-upstream-20231118
+* toolchain/llvm-upstream
+  - 17.0.5-ruyi.20231121 (latest, no binary for current host) slug: llvm-upstream-20231121
+* toolchain/gnu-plct
+  - 0.20231212.0 (latest) slug: gnu-plct-20231212
+  - 0.20231118.0 () slug: gnu-plct-20231118
+* toolchain/gnu-plct-xthead
+  - 0.20231212.0 (latest) slug: gnu-plct-xthead-20231212
+  - 0.20231118.0 () slug: gnu-plct-xthead-20231118
+* board-image/uboot-oerv-sipeed-lpi4a-16g
+  - 0.2309.1 (latest)
+* board-image/buildroot-sdk-milkv-duo256m-python
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo256m
+  - 1.0.7 (latest)
+* board-image/uboot-oerv-sipeed-lpi4a-8g
+  - 0.2309.1 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-base
+  - 0.2309.1 (latest)
+* board-image/oerv-sipeed-lpi4a-headless
+  - 0.2309.1 (latest)
+* board-image/buildroot-sdk-milkv-duo-python
+  - 1.0.7 (latest)
+* board-image/revyos-sg2042-milkv-pioneer
+  - 0.20231220.0 (latest)
+* board-image/buildroot-sdk-milkv-duo
+  - 1.0.7 (latest)
+* board-image/revyos-sipeed-lpi4a
+  - 0.20231210.0 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-xfce
+  - 0.2309.1 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-16g
+  - 0.20231210.0 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-8g
+  - 0.20231210.0 (latest)
+* board-image/oerv-sipeed-lpi4a-xfce
+  - 0.2309.1 (latest)
+* emulator/qemu-user-riscv-xthead
+  - 6.1.0-ruyi.20231207+g03813c9fe8 (latest, no binary for current host)
+* emulator/qemu-user-riscv-upstream
+  - 8.1.2-ruyi.20231121 (latest, no binary for current host)
+* source/coremark
+  - 1.0.2-pre.20230125 (prerelease, latest-prerelease)
+  - 1.0.1 (latest)
+* source/ruyisdk-demo
+  - 0.20231114.0 (latest)
+
+There are 2 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+
+You can read them with ruyi news read.
+Package declares 3 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 3 distfile(s):
+Package declares 2 distfile(s):
+Package declares 3 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-Upstream-Sources-HOST-riscv64-linux-gnu-riscv64-unknown-linux-gnu.tar.xz to 
+/root/.cache/test/ruyi/distfiles/RuyiSDK-20231212-Upstream-Sources-HOST-riscv64-linux-gnu-riscv64-unknown-linux-gnu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  4  224M    4 10.5M    0     0  8417k      0  0:00:27  0:00:01  0:00:26 8422k 13  224M   13 30.1M    0     0  14.8M      0  0:00:15  0:00:02  0:00:13 14.9M 26  224M   26 59.6M    0     0  18.4M      0  0:00:12  0:00:03  0:00:09 18.4M 35  224M   35 79.2M    0     0  18.9M      0  0:00:11  0:00:04  0:00:07 18.9M 44  224M   44 98.8M    0     0  19.3M      0  0:00:11  0:00:05  0:00:06 19.3M 52  224M   52  118M    0     0  19.5M      0  0:00:11  0:00:06  0:00:05 22.5M 61  224M   61  138M    0     0  19.6M      0  0:00:11  0:00:07  0:00:04 21.6M 70  224M   70  157M    0     0  19.8M      0  0:00:11  0:00:07  0:00:04 20.7M 79  224M   79  177M    0     0  19.9M      0  0:00:11  0:00:08  0:00:03 20.7M 87  224M   87  196M    0     0  20.0M      0  0:00:11  0:00:09  0:00:02 20.7M100  224M  100  224M    0     0  20.5M      0  0:00:10  0:00:10 --:--:-- 21.7M100  224M  100  224M    0     0  20.5M      0  0:00:10  0:00:10 --:--:-- 21.9M
+info: extracting RuyiSDK-20231212-Upstream-Sources-HOST-riscv64-linux-gnu-riscv64-unknown-linux-gnu.tar.xz for package gnu-upstream-0.20231212.0
+info: package gnu-upstream-0.20231212.0 installed to /root/.local/share/test/ruyi/binaries/riscv64/gnu-upstream-0.20231212.0
+info: skipping already installed package gnu-upstream-0.20231212.0
+info: uninstallation consent given over CLI, proceeding
+info: removing installed packages
+info: removing cached data
+info: removing the ruyi binary
+info: ruyi is uninstalled
+Tue Jan 16 19:13:41 2024 - INFO  - End of the test.
+Tue Jan 16 19:13:41 2024 - INFO  - succeed to execute the case.
+Tue Jan 16 19:13:41 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:13:42 2024 - WARN  - no thing to do.
+Tue Jan 16 19:13:42 2024 - INFO  - Finish environment cleanup!

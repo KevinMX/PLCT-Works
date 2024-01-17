@@ -1,0 +1,176 @@
+Tue Jan 16 19:07:51 2024 - INFO  - Start environmental preparation.
+Tue Jan 16 19:07:56 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:07:57 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 97 10.2M   97 10.0M    0     0  12.0M      0 --:--:-- --:--:-- --:--:-- 12.0M100 10.2M  100 10.2M    0     0  12.1M      0 --:--:-- --:--:-- --:--:-- 12.1M
+Tue Jan 16 19:07:58 2024 - INFO  - End of environmental preparation!
+Tue Jan 16 19:07:58 2024 - INFO  - Start to run test.
+Ruyi 0.3.0-beta.20240116
+usage: ruyi [-h] [-V]
+usage: ruyi [-h] [-V]
+List of available packages:
+
+* source/ruyisdk-demo
+  - 0.20231114.0 (latest)
+* source/coremark
+  - 1.0.2-pre.20230125 (prerelease, latest-prerelease)
+  - 1.0.1 (latest)
+* emulator/qemu-user-riscv-xthead
+  - 6.1.0-ruyi.20231207+g03813c9fe8 (latest, no binary for current host)
+* emulator/qemu-user-riscv-upstream
+  - 8.1.2-ruyi.20231121 (latest, no binary for current host)
+* board-image/oerv-sipeed-lpi4a-headless
+  - 0.2309.1 (latest)
+* board-image/revyos-sipeed-lpi4a
+  - 0.20231210.0 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-16g
+  - 0.20231210.0 (latest)
+* board-image/uboot-oerv-sipeed-lpi4a-8g
+  - 0.2309.1 (latest)
+* board-image/uboot-oerv-sipeed-lpi4a-16g
+  - 0.2309.1 (latest)
+* board-image/oerv-sipeed-lpi4a-xfce
+  - 0.2309.1 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-xfce
+  - 0.2309.1 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-base
+  - 0.2309.1 (latest)
+* board-image/buildroot-sdk-milkv-duo256m
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo-python
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo256m-python
+  - 1.0.7 (latest)
+* board-image/revyos-sg2042-milkv-pioneer
+  - 0.20231220.0 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-8g
+  - 0.20231210.0 (latest)
+* toolchain/gnu-plct
+  - 0.20231212.0 (latest) slug: gnu-plct-20231212
+  - 0.20231118.0 () slug: gnu-plct-20231118
+* toolchain/gnu-upstream
+  - 0.20231212.0 (latest) slug: gnu-upstream-20231212
+  - 0.20231118.0 () slug: gnu-upstream-20231118
+* toolchain/llvm-upstream
+  - 17.0.5-ruyi.20231121 (latest, no binary for current host) slug: llvm-upstream-20231121
+* toolchain/gnu-plct-xthead
+  - 0.20231212.0 (latest) slug: gnu-plct-xthead-20231212
+  - 0.20231118.0 () slug: gnu-plct-xthead-20231118
+
+There are 2 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+
+You can read them with ruyi news read.
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 3 distfile(s):
+Package declares 2 distfile(s):
+Package declares 3 distfile(s):
+Package declares 1 distfile(s):
+Package declares 2 distfile(s):
+Package declares 3 distfile(s):
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Binary artifacts
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+### Toolchain metadata
+generic
+sipeed-lpi4a (needs flavor(s): {'xthead'})
+milkv-duo
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz to 
+/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0curl: (5) Could not resolve proxy: wrong.proxy
+Warning: Problem : timeout. Will retry in 1 seconds. 3 retries left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (5) Could not resolve proxy: wrong.proxy
+Warning: Problem : timeout. Will retry in 2 seconds. 2 retries left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (5) Could not resolve proxy: wrong.proxy
+Warning: Problem : timeout. Will retry in 4 seconds. 1 retries left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (5) Could not resolve proxy: wrong.proxy
+warn: failed to fetch distfile: command 'curl -L --retry 3 --connect-timeout 60 --ftp-pasv -o 
+/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz 
+https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz' returned 5
+Traceback (most recent call last):
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/distfile.py", line 26, in ensure
+FileNotFoundError: [Errno 2] No such file or directory: '/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/__main__.py", line 30, in <module>
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/cli/__init__.py", line 288, in main
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/pkg_cli.py", line 218, in cli_install
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/pkg_cli.py", line 248, in do_install_atoms
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/pkg_cli.py", line 306, in do_install_binary_pkg
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/distfile.py", line 29, in ensure
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/distfile.py", line 65, in fetch_and_ensure_integrity
+  File "/root/.cache/ruyi/progcache/0.3.0-beta.20240116/ruyi/ruyipkg/fetch.py", line 31, in fetch
+RuntimeError: failed to fetch '/root/.cache/ruyi/distfiles/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz': all source URLs have failed
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/RuyiSDK-20231212-PLCT-Sources-HOST-riscv64-linux-gnu-riscv64-plct-linux-gnu.tar.xz to 
+info: skipping already installed package gnu-plct-0.20231212.0
+info: skipping already installed package gnu-plct-0.20231212.0
+info: downloading https://mirror.iscas.ac.cn/ruyisdk/dist/ruyisdk-demo-f3d5f81e9c1ccda7ee3e4390dbe1b17125758b5e.src.tar.zst to 
+/root/.cache/ruyi/distfiles/ruyisdk-demo-f3d5f81e9c1ccda7ee3e4390dbe1b17125758b5e.src.tar.zst
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   671  100   671    0     0   2819      0 --:--:-- --:--:-- --:--:--  2843
+info: extracting ruyisdk-demo-f3d5f81e9c1ccda7ee3e4390dbe1b17125758b5e.src.tar.zst for package ruyisdk-demo-0.20231114.0
+info: package ruyisdk-demo-0.20231114.0 extracted to current working directory
+info: uninstallation consent given over CLI, proceeding
+info: removing the ruyi binary
+info: ruyi is uninstalled
+oe_test_ruyi.sh: line 87: /usr/bin/ruyi: No such file or directory
+Tue Jan 16 19:10:02 2024 - INFO  - pkgs:(git tar bzip2 xz zstd) is already installed
+Tue Jan 16 19:10:03 2024 - INFO  - unsupported package manager: apt-get
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.2M  100 10.2M    0     0  12.4M      0 --:--:-- --:--:-- --:--:-- 12.4M
+ln: failed to create symbolic link '/usr/bin/ruyi': File exists
+info: uninstallation consent given over CLI, proceeding
+info: removing installed packages
+info: removing cached data
+info: removing the ruyi binary
+info: ruyi is uninstalled
+oe_test_ruyi.sh: line 96: /usr/bin/ruyi: No such file or directory
+Tue Jan 16 19:10:09 2024 - INFO  - End of the test.
+Tue Jan 16 19:10:09 2024 - INFO  - succeed to execute the case.
+Tue Jan 16 19:10:09 2024 - INFO  - start environment cleanup.
+Tue Jan 16 19:10:10 2024 - WARN  - no thing to do.
+Tue Jan 16 19:10:10 2024 - INFO  - Finish environment cleanup!
