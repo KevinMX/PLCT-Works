@@ -45,3 +45,5 @@ make
 curl -LO https://huggingface.co/kewin4933/InferLLM-Model/resolve/main/chatglm-q4.bin?download=true
 ./chatglm -m chatglm-q4.bin -t 64 --mmap
 ```
+
+[![asciicast](./inferllm.gif)](https://asciinema.org/a/G08ElLBG1BNBLCdJFSz0Nfp3I)
