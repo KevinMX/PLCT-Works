@@ -32,7 +32,7 @@ git clone --depth=1 https://github.com/MegEngine/InferLLM
 mkdir build
 cd build
 cmake .. -DINFER_ARCH=rvv0p7
-make
+make -j$(nproc)
 ```
 
 #### 获取模型并运行 InferLLM
