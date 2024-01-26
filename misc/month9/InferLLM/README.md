@@ -47,3 +47,21 @@ curl -LO https://huggingface.co/kewin4933/InferLLM-Model/resolve/main/chatglm-q4
 ```
 
 [![asciicast](./inferllm.gif)](https://asciinema.org/a/G08ElLBG1BNBLCdJFSz0Nfp3I)
+
+#### 对比 | 无 Vector 加速
+
+使用 ChatGLM.cpp 项目，rv64gc / GCC 13 构建，模型来自 chatglm-6B-GGML [(HuggingFace)](https://huggingface.co/Xorbits/chatglm-6B-GGML/blob/main/chatglm-ggml-q4_0.bin)
+
+```log
+debian@revyos-pionner: ~/chatgtm.cpp$ ./build/bin/main -v -m ~/chatgtm-ggml-q4_0.bin -p 你好
+system info: | AVX2 = 0 | AVX512 = 0 | AVX512_VNNI = 0 | FMA = 0 | NEON = 0 | ARM_FMA = 0 | F16C = 0 | F16_VA = 0 | WASM_SIND = 0 | BLAS = 0 | SSE = 0 | VSX = 0 |
+inference config: | max_length = 2048 | max_context_length = 512 | top_k = 0 | top_p = 0.7 | temperature = 0.35 | repetition_penalty = 1 | num_threads = 0 |
+loaded ChatGLM model from /home/debian/chatglm-ggml-q4_0.bin within:885.054 ms
+你好👋！我是人工智能助手 ChatGLM-6B，很高兴见到你，欢迎问我任何问题。
+
+prompt time: 3140.82 ms / 4 tokens (785.205 ms/token)
+output time: 36338.2 ms / 26 tokens (1387.62 ms/token)
+total time: 39479 ms
+```
+
+![ChatGLM.cpp No Vector](./chatglm.png)
