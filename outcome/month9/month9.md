@@ -38,6 +38,8 @@ Milk-V Duo
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [RISC-V 开发板系统镜像安装工具，增加 4 款 RISC-V 开发板](https://github.com/ruyisdk/ruyi/issues/41)          | 确定 D1 两款开发板硬件 & DTB 情况：硬件略有不同，系统已兼容两种开发板，建议手动修改 GRUB 启动项 |
 | [Device provision: warn users about adding udev rules for LPi4A](https://github.com/ruyisdk/ruyi/issues/39) | fastboot 需要特权或配置 udev 规则，已修复                |
+|[emulator/qemu-system-riscv-upstream: missing libfdt.so.1 on Ubuntu 20.04.3 LTS](https://github.com/ruyisdk/ruyi/issues/60) |打包问题，已修复|
+|[Device provision: link is dead?](https://github.com/ruyisdk/ruyi/issues/59) | package index 问题，已修复 |
 
 ## openEuler RISC-V
 
