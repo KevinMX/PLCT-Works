@@ -31,6 +31,13 @@ nmcli con modify LPi4A_AP autoconnect yes
 # systemctl restart NetworkManager
 ```
 
+> [!WARNING]
+> 注意，此处默认您的无线网卡支持 AP 模式。有些（非 LPi4A 的 TH1520）开发板板载的是支持 5GHz Client 但不支持 AP 的无线网卡，需要手动更改为 2.4GHz 频段，可使用 `nmtui` 更改，或者：
+
+```bash
+nmcli con modify LPi4A_AP 802-11-wireless.band bg
+```
+
 ## 配置防火墙
 
 需要配置 `firewalld` 规则并写入持久化配置，以使确保连接到 AP 的设备也能连接到互联网。
@@ -52,7 +59,13 @@ iptables -A FORWARD -i end0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACC
 iptables -A FORWARD -i wlan0 -o end0 -j ACCEPT
 ```
 
-然后：`iptables-save >> /etc/sysconfig/iptables && systemctl disable --now firewalld && systemctl enable --now iptables`
+然后：
+
+```bash
+iptables-save >> /etc/sysconfig/iptables && \
+systemctl disable --now firewalld && \
+systemctl enable --now iptables
+```
 
 注意此方法可能无法正常使 `iptables` 规则持久化。仍建议使用 `firewalld`。
 
