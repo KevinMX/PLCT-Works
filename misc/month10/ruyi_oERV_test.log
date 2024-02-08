@@ -1,0 +1,229 @@
+[root@rootfs ~]# cat > /etc/yum.repos.d/ruyi.repo << EOF
+[ruyi]
+name=ruyi
+baseurl=https://gitee.com/weilinfox/ruyi-rpms/raw/master/openEuler-RISC-V/23.09/
+enabled=1
+gpgcheck=0
+EOF
+[root@rootfs ~]# dnf install -y python3-ruyi
+OS                                                                                        3.7 kB/s | 3.0 kB     00:00    
+EPOL                                                                                      5.4 kB/s | 3.0 kB     00:00    
+extra                                                                                     5.5 kB/s | 3.0 kB     00:00    
+update                                                                                    5.5 kB/s | 3.0 kB     00:00    
+everything                                                                                5.7 kB/s | 3.0 kB     00:00    
+debuginfo                                                                                 5.5 kB/s | 3.0 kB     00:00    
+ruyi                                                                                      6.7 kB/s |  11 kB     00:01    
+Dependencies resolved.
+========================================================================================================================== Package                               Architecture        Version                                 Repository        Size
+==========================================================================================================================Installing:
+ python3-ruyi                          noarch              0.4.0-2.oe2309                          ruyi             154 k
+Installing dependencies:
+ python3-GitPython                     noarch              3.1.32-2.oe2309                         EPOL             387 k
+ python3-babel                         noarch              2.12.1-1.oe2309                         OS               7.3 M
+ python3-frontmatter                   noarch              1.1.0-1.oe2309                          ruyi              26 k
+ python3-gitdb                         noarch              4.0.10-1.oe2309                         EPOL             138 k
+ python3-jinja2                        noarch              3.1.2-2.oe2309                          OS               327 k
+ python3-markdown-it-py                noarch              3.0.0-1.oe2309                          ruyi             184 k
+ python3-mdurl                         noarch              0.1.2-1.oe2309                          ruyi              28 k
+ python3-pygments                      noarch              2.15.1-1.oe2309                         OS               2.1 M
+ python3-pyxdg                         noarch              0.28-1.oe2309                           OS               130 k
+ python3-pyyaml                        riscv64             6.0.1-1.oe2309                          OS               205 k
+ python3-rich                          noarch              13.5.2-1.oe2309                         ruyi             586 k
+ python3-semver                        noarch              3.0.2-1.oe2309                          ruyi              43 k
+ python3-smmap                         noarch              5.0.0-1.oe2309                          EPOL              58 k
+ python3-tqdm                          riscv64             4.66.1-1.oe2309                         ruyi             163 k
+ python3-types-pyxdg                   noarch              0.28.0.20240106-1.oe2309                ruyi              23 k
+ python3-typing-extensions             noarch              4.5.0-1.oe2309                          OS                62 k
+
+Transaction Summary
+==========================================================================================================================Install  17 Packages
+
+Total download size: 12 M
+Installed size: 50 M
+Downloading Packages:
+(1/17): python3-jinja2-3.1.2-2.oe2309.noarch.rpm                                          428 kB/s | 327 kB     00:00    
+(2/17): python3-pygments-2.15.1-1.oe2309.noarch.rpm                                       1.5 MB/s | 2.1 MB     00:01    
+(3/17): python3-pyxdg-0.28-1.oe2309.noarch.rpm                                            222 kB/s | 130 kB     00:00    
+(4/17): python3-pyyaml-6.0.1-1.oe2309.riscv64.rpm                                         1.6 MB/s | 205 kB     00:00    
+(5/17): python3-typing-extensions-4.5.0-1.oe2309.noarch.rpm                               371 kB/s |  62 kB     00:00    
+(6/17): python3-babel-2.12.1-1.oe2309.noarch.rpm                                          3.4 MB/s | 7.3 MB     00:02    
+(7/17): python3-GitPython-3.1.32-2.oe2309.noarch.rpm                                      633 kB/s | 387 kB     00:00    
+(8/17): python3-gitdb-4.0.10-1.oe2309.noarch.rpm                                          206 kB/s | 138 kB     00:00    
+(9/17): python3-smmap-5.0.0-1.oe2309.noarch.rpm                                           345 kB/s |  58 kB     00:00    
+(10/17): python3-frontmatter-1.1.0-1.oe2309.noarch.rpm                                     64 kB/s |  26 kB     00:00    
+(11/17): python3-markdown-it-py-3.0.0-1.oe2309.noarch.rpm                                 281 kB/s | 184 kB     00:00    
+(12/17): python3-mdurl-0.1.2-1.oe2309.noarch.rpm                                           52 kB/s |  28 kB     00:00    
+(13/17): python3-semver-3.0.2-1.oe2309.noarch.rpm                                         151 kB/s |  43 kB     00:00    
+(14/17): python3-rich-13.5.2-1.oe2309.noarch.rpm                                          838 kB/s | 586 kB     00:00    
+(15/17): python3-ruyi-0.4.0-2.oe2309.noarch.rpm                                           292 kB/s | 154 kB     00:00    
+(16/17): python3-tqdm-4.66.1-1.oe2309.riscv64.rpm                                         485 kB/s | 163 kB     00:00    
+(17/17): python3-types-pyxdg-0.28.0.20240106-1.oe2309.noarch.rpm                           84 kB/s |  23 kB     00:00    
+--------------------------------------------------------------------------------------------------------------------------Total                                                                                     3.2 MB/s |  12 MB     00:03     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                  1/1 
+  Installing       : python3-types-pyxdg-0.28.0.20240106-1.oe2309.noarch                                             1/17 
+  Installing       : python3-tqdm-4.66.1-1.oe2309.riscv64                                                            2/17 
+  Installing       : python3-semver-3.0.2-1.oe2309.noarch                                                            3/17 
+  Installing       : python3-mdurl-0.1.2-1.oe2309.noarch                                                             4/17 
+  Installing       : python3-markdown-it-py-3.0.0-1.oe2309.noarch                                                    5/17 
+  Installing       : python3-smmap-5.0.0-1.oe2309.noarch                                                             6/17 
+  Installing       : python3-gitdb-4.0.10-1.oe2309.noarch                                                            7/17 
+  Installing       : python3-typing-extensions-4.5.0-1.oe2309.noarch                                                 8/17 
+  Installing       : python3-GitPython-3.1.32-2.oe2309.noarch                                                        9/17 
+  Installing       : python3-pyyaml-6.0.1-1.oe2309.riscv64                                                          10/17 
+  Installing       : python3-frontmatter-1.1.0-1.oe2309.noarch                                                      11/17 
+  Installing       : python3-pyxdg-0.28-1.oe2309.noarch                                                             12/17 
+  Installing       : python3-pygments-2.15.1-1.oe2309.noarch                                                        13/17 
+  Installing       : python3-rich-13.5.2-1.oe2309.noarch                                                            14/17 
+  Installing       : python3-babel-2.12.1-1.oe2309.noarch                                                           15/17 
+  Installing       : python3-jinja2-3.1.2-2.oe2309.noarch                                                           16/17 
+  Installing       : python3-ruyi-0.4.0-2.oe2309.noarch                                                             17/17 
+  Running scriptlet: python3-ruyi-0.4.0-2.oe2309.noarch                                                             17/17 
+'/usr/bin/ruyi' -> '/usr/lib/python3.11/site-packages/ruyi/__main__.py'
+
+  Verifying        : python3-babel-2.12.1-1.oe2309.noarch                                                            1/17 
+  Verifying        : python3-jinja2-3.1.2-2.oe2309.noarch                                                            2/17 
+  Verifying        : python3-pygments-2.15.1-1.oe2309.noarch                                                         3/17 
+  Verifying        : python3-pyxdg-0.28-1.oe2309.noarch                                                              4/17 
+  Verifying        : python3-pyyaml-6.0.1-1.oe2309.riscv64                                                           5/17 
+  Verifying        : python3-typing-extensions-4.5.0-1.oe2309.noarch                                                 6/17 
+  Verifying        : python3-GitPython-3.1.32-2.oe2309.noarch                                                        7/17 
+  Verifying        : python3-gitdb-4.0.10-1.oe2309.noarch                                                            8/17 
+  Verifying        : python3-smmap-5.0.0-1.oe2309.noarch                                                             9/17 
+  Verifying        : python3-frontmatter-1.1.0-1.oe2309.noarch                                                      10/17 
+  Verifying        : python3-markdown-it-py-3.0.0-1.oe2309.noarch                                                   11/17 
+  Verifying        : python3-mdurl-0.1.2-1.oe2309.noarch                                                            12/17 
+  Verifying        : python3-rich-13.5.2-1.oe2309.noarch                                                            13/17 
+  Verifying        : python3-ruyi-0.4.0-2.oe2309.noarch                                                             14/17 
+  Verifying        : python3-semver-3.0.2-1.oe2309.noarch                                                           15/17 
+  Verifying        : python3-tqdm-4.66.1-1.oe2309.riscv64                                                           16/17 
+  Verifying        : python3-types-pyxdg-0.28.0.20240106-1.oe2309.noarch                                            17/17 
+
+Installed:
+  python3-GitPython-3.1.32-2.oe2309.noarch                  python3-babel-2.12.1-1.oe2309.noarch                         
+  python3-frontmatter-1.1.0-1.oe2309.noarch                 python3-gitdb-4.0.10-1.oe2309.noarch                         
+  python3-jinja2-3.1.2-2.oe2309.noarch                      python3-markdown-it-py-3.0.0-1.oe2309.noarch                 
+  python3-mdurl-0.1.2-1.oe2309.noarch                       python3-pygments-2.15.1-1.oe2309.noarch                      
+  python3-pyxdg-0.28-1.oe2309.noarch                        python3-pyyaml-6.0.1-1.oe2309.riscv64                        
+  python3-rich-13.5.2-1.oe2309.noarch                       python3-ruyi-0.4.0-2.oe2309.noarch                           
+  python3-semver-3.0.2-1.oe2309.noarch                      python3-smmap-5.0.0-1.oe2309.noarch                          
+  python3-tqdm-4.66.1-1.oe2309.riscv64                      python3-types-pyxdg-0.28.0.20240106-1.oe2309.noarch          
+  python3-typing-extensions-4.5.0-1.oe2309.noarch          
+
+Complete!
+[root@rootfs ~]# ruyi --version
+Ruyi 0.4.0
+Copyright (C) 2023 Institute of Software, Chinese Academy of Sciences (ISCAS).
+All rights reserved.
+License: Apache-2.0 <https://www.apache.org/licenses/LICENSE-2.0>
+[root@rootfs ~]# ruyi update
+Counting: 100%|██████████████████████████████████████████████████████████████████| 498.0/498.0 [00:00<00:00, 39887.02it/s]Compressing: 100%|███████████████████████████████████████████████████████████████| 218.0/218.0 [00:00<00:00, 18745.68it/s]Receiving: 100%|██████████████████████████████████████████████████████████████████| 498.0/498.0 [00:00<00:00, 4992.47it/s]Resolving: 100%|█████████████████████████████████████████████████████████████████| 211.0/211.0 [00:00<00:00, 17422.25it/s]
+There are 4 new news item(s):
+
+ No.   ID                            Title                     
+───────────────────────────────────────────────────────────────
+ 1     2024-01-14-ruyi-news          RuyiSDK 支持展示新闻了    
+ 2     2024-01-15-new-board-images   新增板卡支持 (2024-01-15) 
+ 3     2024-01-29-new-board-images   新增板卡支持 (2024-01-29) 
+ 4     2024-01-29-ruyi-0.4           RuyiSDK 0.4 版本更新说明  
+
+You can read them with ruyi news read.
+[root@rootfs ~]# ruyi news read 4
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓┃                                                RuyiSDK 0.4 版本更新说明                                                ┃┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+RuyiSDK 0.4 现已发布，对应的包管理器版本也为 0.4.0。您可前往 RuyiSDK 包管理器的 GitHub Releases 页面:                     
+https://github.com/ruyisdk/ruyi/releases 下载。                                                                           
+
+本次更新主要包含了以下内容，祝您使用愉快！                                                                                
+
+
+                                                     RuyiSDK 包管理器                                                     
+
+ • ruyi device provision 会将 fastboot 的调用以 sudo 包装了。                                                             
+ • ruyi self uninstall --purge 不会忘记删除 ~/.local/state/ruyi 目录了。                                                  
+ • 从软件源下载文件失败时，会提供一些有助于用户自助排查问题的提示讯息了。                                                 
+ • 为提供更稳定的服务，RuyiSDK 软件源仓库现已搬迁至 GitHub。                                                              
+   视您所在地区或组织所可能设置的网络访问限制，您可能需要采取一些措施， 以便能继续与 RuyiSDK 软件源同步。                 
+
+原先位置的 RuyiSDK 软件源仓库将在 2024-02-01 前后停止更新。请尽早更新您的 ruyi 版本以自动迁移到最新配置。                 
+
+
+                                                      RuyiSDK 软件源                                                      
+
+ • 为 RISC-V 架构的系统，新增提供了 DynamoRIO 套件 analyzer/dynamorio-riscv。                                             
+ • 为 AMD64 架构的系统，新增提供了 QEMU 系统模拟器 emulator/qemu-system-riscv-upstream。                                  
+ • 上游版的 QEMU 版本现已升级至 8.2.0。                                                                                   
+
+[root@rootfs ~]# ruyi list
+List of available packages:
+
+* analyzer/dynamorio-riscv
+  - 10.0.19748-ruyi.20240128 (latest)
+* board-image/buildroot-sdk-milkv-duo-python
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo256m-python
+  - 1.0.7 (latest)
+* board-image/buildroot-sdk-milkv-duo256m
+  - 1.0.7 (latest)
+* board-image/oerv-awol-d1-base
+  - 0.2303.1 (latest)
+* board-image/oerv-awol-d1-xfce
+  - 0.2303.1 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-base
+  - 0.2309.1 (latest)
+* board-image/oerv-sg2042-milkv-pioneer-xfce
+  - 0.2309.1 (latest)
+* board-image/oerv-sipeed-lpi4a-headless
+  - 0.2309.1 (latest)
+* board-image/oerv-sipeed-lpi4a-xfce
+  - 0.2309.1 (latest)
+* board-image/oerv-starfive-visionfive-base
+  - 0.2309.1 (latest)
+* board-image/oerv-starfive-visionfive-xfce
+  - 0.2309.1 (latest)
+* board-image/oerv-starfive-visionfive2-base
+  - 0.2309.1 (latest)
+* board-image/oerv-starfive-visionfive2-xfce
+  - 0.2309.1 (latest)
+* board-image/revyos-sg2042-milkv-pioneer
+  - 0.20240119.0 (latest)
+  - 0.20231220.0 ()
+* board-image/revyos-sipeed-lpi4a
+  - 0.20231210.0 (latest)
+* board-image/uboot-oerv-sipeed-lpi4a-16g
+  - 0.2309.1 (latest)
+* board-image/uboot-oerv-sipeed-lpi4a-8g
+  - 0.2309.1 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-16g
+  - 0.20231210.0 (latest)
+* board-image/uboot-revyos-sipeed-lpi4a-8g
+  - 0.20231210.0 (latest)
+* emulator/qemu-system-riscv-upstream
+  - 8.2.0-ruyi.20240128 (latest, no binary for current host)
+* emulator/qemu-user-riscv-upstream
+  - 8.2.0-ruyi.20240128 (latest, no binary for current host)
+  - 8.1.2-ruyi.20231121 (no binary for current host)
+* emulator/qemu-user-riscv-xthead
+  - 6.1.0-ruyi.20231207+g03813c9fe8 (latest, no binary for current host)
+* source/coremark
+  - 1.0.2-pre.20230125 (prerelease, latest-prerelease)
+  - 1.0.1 (latest)
+* source/ruyisdk-demo
+  - 0.20231114.0 (latest)
+* toolchain/gnu-plct-xthead
+  - 0.20231212.0 (latest) slug: gnu-plct-xthead-20231212
+  - 0.20231118.0 () slug: gnu-plct-xthead-20231118
+* toolchain/gnu-plct
+  - 0.20231212.0 (latest) slug: gnu-plct-20231212
+  - 0.20231118.0 () slug: gnu-plct-20231118
+* toolchain/gnu-upstream
+  - 0.20231212.0 (latest) slug: gnu-upstream-20231212
+  - 0.20231118.0 () slug: gnu-upstream-20231118
+* toolchain/llvm-upstream
+  - 17.0.5-ruyi.20231121 (latest, no binary for current host) slug: llvm-upstream-20231121
+[root@rootfs ~]#
