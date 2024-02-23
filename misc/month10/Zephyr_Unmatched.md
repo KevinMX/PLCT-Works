@@ -38,7 +38,7 @@ west build -p always -b hifive_unmatched samples/hello_world
 
 ## 运行示例程序
 
-将 microSD 线缆连接至 Host PC，并给 HiFive Unmatched 上电开机。
+将 micro USB 线缆连接至 Host PC，并给 HiFive Unmatched 上电开机。
 
 新启动一个终端，minicom/screen 等工具打开串口：
 
