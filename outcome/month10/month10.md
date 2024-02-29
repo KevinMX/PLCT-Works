@@ -20,7 +20,7 @@
   - 必须插入网线，否则 U-Boot 会无限卡在协商网络上
   - 可正常启动，但默认密码不正确，未能登录
   - 尝试安装了一块 Radeon HD6750，因默认未安装 radeon 固件，出现了 Kernel Tainted 的情况
-
+- FreeBSD: [安装步骤&屏幕截图](https://github.com/ruyisdk/ruyi/issues/65#issuecomment-1970489466)
 ### RuyiSDK 测试
 
 #### v0.4.0
