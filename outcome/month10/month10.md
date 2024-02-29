@@ -21,6 +21,7 @@
   - 可正常启动，但默认密码不正确，未能登录
   - 尝试安装了一块 Radeon HD6750，因默认未安装 radeon 固件，出现了 Kernel Tainted 的情况
 - FreeBSD: [安装步骤&屏幕截图](https://github.com/ruyisdk/ruyi/issues/65#issuecomment-1970489466)
+  - openBSD: 步骤完全一致，使用 [install74.img](https://mirrors.tuna.tsinghua.edu.cn/OpenBSD/7.4/riscv64/install74.img) 镜像
 ### RuyiSDK 测试
 
 #### v0.4.0
