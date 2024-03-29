@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Usage: bash mugen_ruyi.sh $root_password
+
 # Define colors
 readonly RED='\033[1;31;31m'
 readonly GREEN='\033[1;31;32m'
