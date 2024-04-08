@@ -9,8 +9,10 @@ readonly YELLOW='\033[1;31;33m'
 readonly NC='\033[0m'
 
 if [ ! "$1" ]; then
-    printf "${RED}Please enter your root password!${NC}\n"
-    echo "e.g. bash mugen_ruyi.sh root_password"
+    printf "${RED}Please enter the password of your current login user!${NC}\n"
+    printf "e.g. bash mugen_ruyi.sh password\n"
+    printf "Make sure you can use sudo ${YELLOW}without${NC} password, otherwise you will need to enter password during the test!\n"
+    printf "Tip: Use ${GREEN}visudo${NC} to change the settings.\n"
     exit 1
 else
     password=$1
@@ -18,13 +20,13 @@ fi
 
 install_deps() {
     if [[ -f "/etc/openEuler-release" ]]; then
-        dnf install -y git
+        sudo dnf install -y git
     elif [[ -f "/etc/debian_version" ]]; then
-        apt-get update && apt-get install -y git
+        sudo apt-get update && apt-get install -y git
     elif [[ -f "/etc/arch-release" ]]; then
-        pacman --noconfirm -Syu git
+        sudo pacman --noconfirm -Syu git
     else
-        printf "We only support ${YELLOW}dnf, apt and pacman ${NC}right now.\n"
+        printf "We only support ${YELLOW}dnf, apt and pacman${NC}right now.\n"
         printf "So far, nothing is changed on your system. Please check again.\n"
         exit 1
     fi
@@ -52,13 +54,14 @@ prepare_env() {
     retry_git_clone
     cd ruyi-mugen || exit 1
     bash dep_install.sh || exit 1
-    bash mugen.sh -c --ip 127.0.0.1 --user root --password "$password" --port 22
+    bash ruyi_mugen.sh -c --ip 127.0.0.1 --user $(whoami) --password "$password" --port 22
 }
 
 run_tests() {
-    bash mugen.sh -f ruyi
+    bash ruyi_mugen.sh -f ruyi
     echo "Processing logs..."
     find ./logs -name "*:*" -execdir mv {} "${PWD}/{}" \;
+    cd
 }
 
 install_deps
