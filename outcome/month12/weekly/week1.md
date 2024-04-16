@@ -12,8 +12,8 @@
 
 | commit | 内容 |
 |-|-|
-| [9f77b8f](https://github.com/KevinMX/PLCT-Tarsier-Works/commit/9f77b8f4bb6ae9b9511dc2c99b3bc7b87b605c3b) | 使用非特权用户执行测试 |
-| [e776978](https://github.com/KevinMX/PLCT-Tarsier-Works/commit/9f77b8f4bb6ae9b9511dc2c99b3bc7b87b605c3b) | 修复 log 处理 |
+| [9f77b8f](https://github.com/KevinMX/PLCT-Tarsier-Works/commit/9f77b8f) | 使用非特权用户执行测试 |
+| [e776978](https://github.com/KevinMX/PLCT-Tarsier-Works/commit/e776978) | 修复 log 处理 |
 
 #### 缺陷列表
 
