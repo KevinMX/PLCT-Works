@@ -25,6 +25,8 @@ install_deps() {
         sudo apt-get update && apt-get install -y git
     elif [[ -f "/etc/arch-release" ]]; then
         sudo pacman --noconfirm -Syu git
+    elif [[ -f "/etc/os-release" ]] && grep -q openKylin /etc/os-release; then
+        sudo apt-get update && sudo apt-get install -y git
     else
         printf "We only support ${YELLOW}dnf, apt and pacman${NC}right now.\n"
         printf "So far, nothing is changed on your system. Please check again.\n"
