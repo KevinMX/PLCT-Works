@@ -62,7 +62,7 @@ prepare_env() {
 run_tests() {
     bash ruyi_mugen.sh -f ruyi
     echo "Processing logs..."
-    find ./logs -name "*:*" -execdir sh -c 'mv "$1" "${1//:/_}"' sh {} \;
+    for file in $(find ./logs -name "*:*"); do mv "$file" "${file//:/_}"; done
     cd
 }
 
