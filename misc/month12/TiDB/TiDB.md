@@ -501,3 +501,27 @@ tiup bench tpcc -H 127.0.0.1 -P 4000 -D tpcc --warehouses 4 prepare -T 10
 tiup bench tpcc -H localhost -P 4000 -D tpcc --warehouses 4 check
 tiup bench tpcc -H localhost -P 4000 -D tpcc --warehouses 4 --threads 10 --time 10m run 2>&1 | tee tpcc_result.log
 ```
+
+### In case you're not on RevyOS...
+
+e.g. Fedora, openEuler, etc.
+
+gvm / Golang 1.21 setup
+
+```shell
+sudo dnf install -y bison
+curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | sh
+TIDB_GOVERSION=$(curl -s -S -L https://github.com/pingcap/tidb/blob/master/go.mod | grep -Eo "\"go [[:digit:]]+.[[:digit:]]+\"" | grep -Eo "[[:digit:]]+.[[:digit:]]+")
+gvm install go${TIDB_GOVERSION}
+gvm use go${TIDB_GOVERSION} --default
+cd ~/tidb && make server
+cd ~/pd && make pd-server
+```
+
+### 已知问题
+
+时间所限，笔者暂时没有找到合适的测试机，文中所使用的 openEuler x86_64 机器运行在 HDD 上，I/O 性能会有严重瓶颈。这可能会影响 TiDB 的性能表现。
+
+x86_64 机器运行在 PVE 虚拟化环境下。通常来说，KVM 虚拟化会有性能损失，但不会很大。这也可能会影响性能表现。
+
+此外，内存大小不同也可能影响性能。
