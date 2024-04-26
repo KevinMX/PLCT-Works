@@ -43,11 +43,7 @@ make server
 ```shell
 sudo apt install libssl-dev
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-#可选：镜像源
-echo 'export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup' >> ~/.bash_profile
-#可选：镜像源
-echo 'export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup' >> ~/.bash_profile
-source .bashrc_profile && source .bashrc
+source .bash_profile && source .bashrc
 rustup install nightly
 cd tikv
 export CC=gcc-12
