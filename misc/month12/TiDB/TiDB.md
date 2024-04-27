@@ -43,7 +43,7 @@ make server
 ```shell
 sudo apt install libssl-dev
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source .bash_profile && source .bashrc
+. "$HOME/.cargo/env"
 rustup install nightly
 cd tikv
 export CC=gcc-12
@@ -364,6 +364,7 @@ Threads fairness:
 ```shell
 git clone --depth=1 https://github.com/pingcap/go-tpc
 cd go-tpc
+vim Makefile # 替换第一行的 amd64 为 riscv64
 make build
 cd bin
 ./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 4 --threads 10 prepare
@@ -525,3 +526,5 @@ cd ~/pd && make pd-server
 x86_64 机器运行在 PVE 虚拟化环境下。通常来说，KVM 虚拟化会有性能损失，但不会很大。这也可能会影响性能表现。
 
 此外，内存大小不同也可能影响性能。
+
+`tikv`, `pd-server`, `tidb` 的日志输出均为默认的 `INFO` 级别，这可能会影响性能。
