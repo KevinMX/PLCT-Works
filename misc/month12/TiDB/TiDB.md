@@ -372,6 +372,10 @@ cd bin
 ./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 4 --threads 10 --time 10m run
 # 64 Threads
 ./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 4 --threads 64 --time 10m run
+# warehouses=500 注意此参数下生成/导入数据需要花费很长时间，12h 起步
+./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 500 --threads 64 prepare
+./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 500 --threads 64 check
+./go-tpc tpcc -H localhost -P 4000 -D tpcc --warehouses 500 --threads 64 --time 10m run
 ```
 
 #### 测试结果
@@ -426,13 +430,29 @@ RevyOS, SG2042 @ 64T
 | 99.9th (ms) | 3758.1    | 2415.9     | 570.4        | 2550.1     | 285.2       |
 | Max (ms)    | 4160.7    | 2952.8     | 671.1        | 2684.4     | 352.3       |
 
+RevyOS, SG2042 @ 64T, warehouse = 500
+
+| Summary    | DELIVERY  | NEW_ORDER  | ORDER_STATUS | PAYMENT    | STOCK_LEVEL |
+|------------|-----------|------------|--------------|------------|-------------|
+| Takes(s)   | 598.6     | 599.9      | 599.8        | 599.9      | 599.5       |
+| Count      | 3967      | 43974      | 3880         | 41435      | 3868        |
+| TPM        | 397.6     | 4398.2     | 388.1        | 4144.2     | 387.1       |
+| Sum(ms)    | 3733619.4 | 17889180.1 | 1167050.7    | 14710727.0 | 818158.8    |
+| Avg(ms)    | 941.9     | 406.9      | 300.9        | 355.1      | 211.5       |
+| 50th(ms)   | 939.5     | 402.7      | 268.4        | 335.5      | 201.3       |
+| 90th(ms)   | 1140.9    | 520.1      | 570.4        | 453.0      | 285.2       |
+| 95th(ms)   | 1208.0    | 604.0      | 604.0        | 570.4      | 335.5       |
+| 99th(ms)   | 1409.3    | 872.4      | 704.6        | 906.0      | 469.8       |
+| 99.9th(ms) | 1879.0    | 1208.0     | 872.4        | 1275.1     | 637.5       |
+| Max(ms)    | 2281.7    | 1811.9     | 1543.5       | 1946.2     | 838.9       |
+
 对比：
 
-| Metric     | openEuler 23.09 x86_64 10T | RevyOS SG2042 10T | RevyOS SG2042 64T |
-|------------|----------------------------|-------------------|-------------------|
-| tpmC       | 1577.2                     | 2264.6 (+43.61%)  | 3008.5 (+90.83%)  |
-| tpmTotal   | 3507.9                     | 5024.0 (+43.66%)  | 6668.4 (+90.08%)  |
-| Efficiency | 3066.2%                    | 4402.4% (+43.61%) | 5848.6% (+90.83%) |
+| Metric     | openEuler 23.09 x86_64 10T | RevyOS SG2042 10T | RevyOS SG2042 64T | RevyOS SG2042 64T, warehouses=500 |
+|------------|----------------------------|-------------------|-------------------|----------------------------------|
+| tpmC       | 1577.2                     | 2264.6            | 3008.5            | 4398.2                           |
+| tpmTotal   | 3507.9                     | 5024.0            | 6668.4            | 9715.3                           |
+| Efficiency | 3066.2%                    | 4402.4%           | 5848.6%           | 68.4%                            |
 
 Raw data / log
 
@@ -473,6 +493,17 @@ RevyOS SG2042 64T
 [Summary] PAYMENT - Takes(s): 601.7, Count: 28662, TPM: 2858.0, Sum(ms): 20999452.1, Avg(ms): 732.9, 50th(ms): 637.5, 90th(ms): 1476.4, 95th(ms): 1744.8, 99th(ms): 2147.5, 99.9th(ms): 2550.1, Max(ms): 2684.4
 [Summary] STOCK_LEVEL - Takes(s): 601.5, Count: 2646, TPM: 263.9, Sum(ms): 363155.8, Avg(ms): 137.3, 50th(ms): 134.2, 90th(ms): 176.2, 95th(ms): 201.3, 99th(ms): 234.9, 99.9th(ms): 285.2, Max(ms): 352.3
 tpmC: 3008.5, tpmTotal: 6668.4, efficiency: 5848.6%
+```
+
+RevyOS SG2042 64T, warehouses=500
+
+```log
+[Summary] DELIVERY - Takes(s): 598.6, Count: 3967, TPM: 397.6, Sum(ms): 3733619.4, Avg(ms): 941.9, 50th(ms): 939.5, 90th(ms): 1140.9, 95th(ms): 1208.0, 99th(ms): 1409.3, 99.9th(ms): 1879.0, Max(ms): 2281.7
+[Summary] NEW_ORDER - Takes(s): 599.9, Count: 43974, TPM: 4398.2, Sum(ms): 17889180.1, Avg(ms): 406.9, 50th(ms): 402.7, 90th(ms): 520.1, 95th(ms): 604.0, 99th(ms): 872.4, 99.9th(ms): 1208.0, Max(ms): 1811.9
+[Summary] ORDER_STATUS - Takes(s): 599.8, Count: 3880, TPM: 388.1, Sum(ms): 1167050.7, Avg(ms): 300.9, 50th(ms): 268.4, 90th(ms): 570.4, 95th(ms): 604.0, 99th(ms): 704.6, 99.9th(ms): 872.4, Max(ms): 1543.5
+[Summary] PAYMENT - Takes(s): 599.9, Count: 41435, TPM: 4144.2, Sum(ms): 14710727.0, Avg(ms): 355.1, 50th(ms): 335.5, 90th(ms): 453.0, 95th(ms): 570.4, 99th(ms): 906.0, 99.9th(ms): 1275.1, Max(ms): 1946.2
+[Summary] STOCK_LEVEL - Takes(s): 599.5, Count: 3868, TPM: 387.1, Sum(ms): 818158.8, Avg(ms): 211.5, 50th(ms): 201.3, 90th(ms): 285.2, 95th(ms): 335.5, 99th(ms): 469.8, 99.9th(ms): 637.5, Max(ms): 838.9
+tpmC: 4398.2, tpmTotal: 9715.3, efficiency: 68.4%
 ```
 
 </details>
