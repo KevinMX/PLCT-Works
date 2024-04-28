@@ -538,10 +538,14 @@ tiup bench tpcc -H localhost -P 4000 -D tpcc --warehouses 4 --threads 10 --time 
 
 e.g. Fedora, openEuler, etc.
 
-gvm / Golang 1.21 setup
+Fedora riscv64 目前似乎并不提供 tidb 编译所依赖的 GCC 12 版本，可以考虑使用 chroot 等方式换其他提供了 GCC 12 的发行版的 rootfs，比如 Arch RISC-V。以下步骤仅供参考。
+
+此外，在使用 gvm 进行 Go 版本管理前依旧需要安装一个 Go，版本 1.4 以上。通常使用发行版包管理器提供的版本即可。
+
+#### gvm / Golang 1.21 setup
 
 ```shell
-sudo dnf install -y bison
+sudo dnf install -y bison golang
 curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | sh
 TIDB_GOVERSION=$(curl -s -S -L https://github.com/pingcap/tidb/blob/master/go.mod | grep -Eo "\"go [[:digit:]]+.[[:digit:]]+\"" | grep -Eo "[[:digit:]]+.[[:digit:]]+")
 gvm install go${TIDB_GOVERSION}
