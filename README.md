@@ -1,6 +1,6 @@
 # PLCT-Tarsier-Works
 
-My works at PLCT/Tarsier team.
+My works at PLCT Lab. (And also, previously, TARSIER team.)
 
 Arranged by month/week. Might be different in [/misc](./misc).
 
@@ -14,7 +14,9 @@ Outcomes for those intrested.
 
 ### [/misc](./misc)
 
-Other random stuff.
+Other random stuff. Scripts, notes, etc.
+
+Maybe also some other stuff for fun.
 
 ### [/reports](./reports)
 
