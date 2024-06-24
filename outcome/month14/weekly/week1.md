@@ -10,3 +10,4 @@ https://github.com/KevinMX/support-matrix/pull/19
 
 ### 其他内容
 
+主持了本周三 PLCT 技术分享 & 周四 RISC-V 东亚时区双周会。
