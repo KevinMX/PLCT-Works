@@ -71,6 +71,8 @@ CONFIG_ZSMALLOC=y
 EOF
 ```
 
+> 如果需要跑的是 Docker/moby，需要在此配置基础上再增加一行增加 `CONFIG_CGROUP_BPF=y`。
+
 启动&进入容器 Shell：
 
 ```shell
