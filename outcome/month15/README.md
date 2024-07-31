@@ -6,37 +6,45 @@
 
 审核实习生提交的 PR：
 
-https://github.com/KevinMX/support-matrix/pull/29
+https://github.com/KevinMX/support-matrix/pull/29 (oERV 24.03 LTS LPi4A)
 
-https://github.com/KevinMX/support-matrix/pull/30
+https://github.com/KevinMX/support-matrix/pull/30 (D1 Link fix)
 
-https://github.com/KevinMX/support-matrix/pull/32
+https://github.com/KevinMX/support-matrix/pull/32 (Fix typo)
 
-https://github.com/KevinMX/support-matrix/pull/33
+https://github.com/KevinMX/support-matrix/pull/33 (vf, vf2, lpi4a, mars, unmatched: Deepin preveiw; vf2/openKylin: Update version)
 
-https://github.com/KevinMX/support-matrix/pull/34
+https://github.com/KevinMX/support-matrix/pull/34 (Nuttx/DuoS)
 
 提交至 ruyisdk 仓库：
 
 https://github.com/ruyisdk/support-matrix/pull/29
 
+- VisionFive 2
+  - Ubuntu 23.10 -> 24.04 LTS
+  - Fix file name typo
+- Lichee Pi 4A
+  - openEuler RISC-V 23.09 preview -> 24.03 LTS
+- Milk-V Pioneer
+  - openEuler RISC-V 23.09 preview -> 24.03 LTS
+- HiFive Unmatched
+  - Ubuntu 23.10 -> 24.04 LTS
+
 https://github.com/ruyisdk/support-matrix/pull/32
 
-新增：Milk-V Jupiter - Bianbu
+vf, vf2, lpi4a, unmatched: add Deepin RISC-V 
 
-更新：Milk-V Duo S - Debian v1.4.0
+新增：[Milk-V Jupiter - Bianbu](https://github.com/KevinMX/support-matrix/commit/9c54818831741b671da047bad6b3b81468341b1c)
 
-Fix: VisionFive 2 - openSUSE
+更新：[Milk-V Duo S - Debian v1.4.0](https://github.com/KevinMX/support-matrix/commit/0c411e2a77d5658cde61af86742f3eeace52e13c)
 
-StarFive VisionFive 2: 修复错误文件名
+Fix: [VisionFive 2 - openSUSE](https://github.com/KevinMX/support-matrix/commit/2712a108c928578f63bbd76bca897d2f90f8d3d0)
 
-https://github.com/KevinMX/support-matrix/commit/3f097258a7f8bea20bc26a5d41462b41a062fe43
+[visionfive2/ubuntu: fix link](https://github.com/KevinMX/support-matrix/commit/3f097258a7f8bea20bc26a5d41462b41a062fe43)
 
-HiFive Unmatched: 更新测试报告至 Ubuntu 24.04 LTS
+HiFive Unmatched: [更新测试报告至 Ubuntu 24.04 LTS](https://github.com/KevinMX/support-matrix/commit/6977b8e38f43dcbfbf4ac8c4270b45c69da2a4af)
 
-https://github.com/KevinMX/support-matrix/commit/6977b8e38f43dcbfbf4ac8c4270b45c69da2a4af
-
-Milk-V Pioneer: 新增 Deepin 23 preview
+Milk-V Pioneer: [新增 Deepin 23 preview](https://github.com/KevinMX/support-matrix/commit/6a7f56534ae10685846793fcb6ce19b6a5f37cff)
 
 ### 其他内容
 
