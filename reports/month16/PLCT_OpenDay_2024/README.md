@@ -23,6 +23,8 @@ PLCT Lab 测试团队 · 丁丑小队
 - GitHub [@KevinMX](https://github.com/KevinMX)
   - ~~常用 ID 后半截的 MX 其实才是本体~~
 
+<!-- footer: "" -->
+
 ---
 
 # 内容概述
