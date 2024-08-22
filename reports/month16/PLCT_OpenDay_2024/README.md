@@ -8,7 +8,7 @@ size: 16:9
 
 # RISC-V 操作系统支持矩阵
 
-PLCT Lab 测试团队 · 丁丑小队
+PLCT Lab 测试团队 · 丁丑小队 · 郑景坤
 
 <!-- _footer: "" -->
 <!-- _paginate: "skip" -->
@@ -73,7 +73,7 @@ PLCT Lab 测试团队 · 丁丑小队
 
 ### 以 Milk-V Pioneer 为例
 
-![](image/2024-08-19-05-21-16.png)
+![](image/2024-08-23-03-01-44.png)
 
 ---
 
@@ -206,9 +206,33 @@ PLCT Lab 测试团队 · 丁丑小队
 - 全程的 asciicast 录屏（包括刷写与测试机串口输出）
 - 在 dut 启动系统后获取系统信息并截取
 大部分拥有较为固定的格式：获取镜像 -> 刷写 -> 连接测试机 -> 登录 -> 输出信息
-<!--**以下为非常 early 的 POC，篇幅下具体执行命令被省略**-->
 
-![](image/2024-08-19-16-27-18.png)
+<!--**以下为非常 early 的 POC，篇幅下具体执行命令被省略**
+
+```python
+ let ts = Shell::build(Some("/bin/sh")).unwrap();
+// let dut = Serial::build("/dev/ttyUSB0", 115200).unwrap();
+let dut = Shell::build(Some("/bin/sh")).unwrap();
+let mut ts = SimpleRecorder::build(ts);
+ts.begin().unwrap();
+let mut dut = SimpleRecorder::build(dut);
+dut.begin().unwrap();
+let mut rec =  Asciicast::build(ts);
+rec.begin().unwrap();
+
+let mut exec = SudoCliTester::build(rec);
+// exec.script_run("tty").unwrap();
+exec.script_run("ls").unwrap();
+exec.assert_script_run("mkdir /tmp/test1", 5).unwrap();
+exec.assert_script_run("echo \"Test Test\" > /tmp/test1/test.txt", 5).unwrap();
+let mut ts = exec.inner_mut().swap(dut).unwrap(); 
+exec.assert_script_run("sleep 1", 5).unwrap();
+// exec.script_run("tty").unwrap();
+exec.assert_script_sudo("cat /tmp/test1/test.txt", 5).unwrap();
+println!("Done");
+```
+
+-->
 
 ---
 
@@ -467,4 +491,6 @@ pub trait TestRunner {
 
 # 感谢大家！
 
-Any questions?
+#### Any questions?
+
+###### 致谢：[@255doesnotexist](https://github.com/255doesnotexist) [@ArielHeleneto](https://github.com/ArielHeleneto)  [@trdthg](https://github.com/trdthg) [@wychlw](https://github.com/wychlw)
