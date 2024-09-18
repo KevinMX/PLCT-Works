@@ -81,17 +81,25 @@
 
 大部分 demo 环境搭建文档和教学使用方式搜集完毕。
 
+https://github.com/wychlw/plct/tree/main/doc/vf2_demo
+
 ### Sipeed M1s Dock 
 
-开发环境搭建和部分 demo 整理完毕
+开发环境搭建和部分 demo 整理完毕：
+
+https://github.com/wychlw/plct/tree/main/doc/m1s_dock_demo
 
 ### BananaPi BPI-F3 
 
-已搜集了一些 RVV 1.0 相关 Demo：https://github.com/255doesnotexist/bpi-f3_demos
+已搜集了一些 RVV 1.0 相关 Demo。
+
+https://github.com/255doesnotexist/bpi-f3_demos
 
 ### Milk-V Duo 
 
-已搜集并整理了大量 Arduino、pinpong、wiringX 库等 Demo：https://github.com/ArielHeleneto/Work-PLCT/tree/master/duo/Board
+已搜集并整理了大量 Arduino、pinpong、wiringX 库等 Demo。
+
+https://github.com/ArielHeleneto/Work-PLCT/tree/master/duo/Board
 
 有相关视频产出，有部分教程已经有短视频小队制作整理发在 bilibili
 
