@@ -8,7 +8,7 @@ LPi4A / oERV: 基于官方 24.03 LTS 发版重测 [commit](https://github.com/ru
 
 双周报支持矩阵部分内容同步：https://github.com/ruyisdk/wechat-articles/pull/85
 
-PIC64GX Curiosity Kit 文档支持（暂未提交）
+PIC64GX Curiosity Kit 文档支持：https://github.com/ruyisdk/support-matrix/commit/35763decac4def0e31b768239b0eceb568b4acfc
 
 ### 其他内容
 
