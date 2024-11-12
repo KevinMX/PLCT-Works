@@ -10,7 +10,7 @@ WIP/on schedule.
 
 ### [/outcome](./outcome)
 
-Outcomes for those intrested.
+Outcomes for those interested.
 
 ### [/misc](./misc)
 
