@@ -10,19 +10,17 @@ size: 16:9
 
 PLCT Lab 测试团队 · 丁丑小队
 
-<!-- _footer: "" -->
 <!-- _paginate: "skip" -->
 
 ---
 
 # 我是谁 | Who am I
 
-- PLCT Lab 测试团队 · 丁丑小队 / 郑景坤
+- PLCT Lab 测试团队 · 丁丑小队
 - RISC-V 开发板软件生态联合观测 / J129 Mentor
 - Previously: 第三测试小队
 - GitHub [@KevinMX](https://github.com/KevinMX)
   - ~~常用 ID 后半截的 MX 其实才是本体~~
-  - ~~什么？你问我 MX 是什么意思？我不道啊，问就是你说得对~~
 
 <!-- footer: "" -->
 
@@ -30,27 +28,44 @@ PLCT Lab 测试团队 · 丁丑小队
 
 # 内容概述
 
+- 2024 Summary
 - 缘起
 - 当下
     - RISC-V 操作系统支持矩阵
     - 自动化测试工具
         - 软件/自动化测试框架
         - 硬件工具
-- 未来
+- 未来/许愿？
 
 <!-- footer: "" -->
 
 ---
 
+# 2024 Summary
+
+- 支持矩阵项目已经覆盖/跟踪了绝大部分开发者能买得到的开发板×系统组合
+    - 总计调研了约 50 款开发板，涉及到 20 余种操作系统
+- 开发板 x 系统支持情况的表格现在是 CI 自动生成了
+- 与 RuyiSDK packages-index 的自动更新机制已经初步就绪
+- i18n (-en) 和 issue template 安排上了
+- 软件/硬件自动化测试工具已经开始投入使用
+- 应用软件生态观测逐步开始
+    - 操作系统之外，亦对浏览器、数据库等常用软件进行测试
+    - 部分已在 GitHub 公开测试报告
+- 小队成员积极参与社区开源项目贡献
+    - 对测试过程中遇到的各类问题向上游反馈和主动修复
+
+---
+
 # 缘起
 
-![RISC-V Day Tokyo 2024.01](../month16/PLCT_OpenDay_2024/image/2024-08-19-04-20-57.png)
+![RISC-V Day Tokyo 2024.01](../../month16/PLCT_OpenDay_2024/image/2024-08-19-04-20-57.png)
 
 ---
 
 # 当下
 
-![Timeline](../month16/PLCT_OpenDay_2024/image/timeline.png)
+![Timeline](../../month16/PLCT_OpenDay_2024/image/timeline.png)
 
 ---
 
@@ -72,11 +87,11 @@ PLCT Lab 测试团队 · 丁丑小队
 
 ### 以 Milk-V Pioneer 为例
 
-![](../month16/PLCT_OpenDay_2024/image/2024-08-23-03-01-44.png)
+![](../../month16/PLCT_OpenDay_2024/image/2024-08-23-03-01-44.png)
 
 ---
 
-![](../month16/PLCT_OpenDay_2024/image/2024-08-19-05-24-43.png)
+![](../../month16/PLCT_OpenDay_2024/image/2024-08-19-05-24-43.png)
 
 ---
 
@@ -151,8 +166,9 @@ PLCT Lab 测试团队 · 丁丑小队
 
 - 添加对更多设备的观测
 - 把「应用软件生态观测」融合进已有的操作系统支持矩阵
-- Contributor's Guide（天呐我们怎么会忘记了这个）
+- Contribution Guide ~~（天呐我们怎么会忘记了这个）~~
 - 继续改进现有的自动化测试工具，并与 RuyiSDK 其他组件加强协作
+    
 
 ---
 
