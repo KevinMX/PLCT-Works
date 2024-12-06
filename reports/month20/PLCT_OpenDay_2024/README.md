@@ -5,6 +5,11 @@ footer: 'PLCT Lab 测试团队 · 丁丑小队 | [Kevin.MX](https://github.com/K
 paginate: true
 size: 16:9
 ---
+<style>
+section {
+  font-family: 'Noto Sans CJK SC', 'Noto Sans Mono', 'Noto Serif CJK SC'
+}
+</style>
 
 # RISC-V 开发板软件生态观测
 
