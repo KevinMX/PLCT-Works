@@ -13,7 +13,7 @@
 
 （仅包含可公开部分。）
 
-- RISC-V Open Hours [Slide](https://docs.google.com/presentation/d/1RK-SQyoH2kxuuYYkH1KMRhmLgyNMCvdNFDv4l5uTXZQ)新 CI 镜像测试
+- RISC-V Open Hours [Slide](https://docs.google.com/presentation/d/1RK-SQyoH2kxuuYYkH1KMRhmLgyNMCvdNFDv4l5uTXZQ)
 - RISC-V 东亚时区双周会 [Slide](https://docs.google.com/presentation/d/1OxshenCoHIg993UPomizsJ5QghhFRVz1P_i1bf1xiQ8/edit?usp=sharing)
 - Issue 跟进
     - 非常规分辨率问题：https://github.com/revyos/revyos/issues/117
