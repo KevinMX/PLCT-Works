@@ -19,6 +19,10 @@
 
 N/A
 
-### 其他内容
+## 其他内容
 
-N/A
+### Infra
+
+- 机器迁移
+ - SDWireC + Remote BPI-F3 迁移至实体机
+ - VM 销毁
