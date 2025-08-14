@@ -10,6 +10,6 @@ eval $(opam env)
 cd litmus-tests-riscv
 make run-hw-tests CORES=$(nproc)
 make merge-hw-tests
-make compare-hw-flat
-make compare-hw-herd
+make compare-hw-flat | tee flat.log
+make compare-hw-herd | tee herd.log
 ```
