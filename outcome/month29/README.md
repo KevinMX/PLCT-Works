@@ -51,3 +51,4 @@
 ## 其它内容
 
 - 在测试 K230 途中基于 revyos/mkimg-k230 更新到 Debian/RevyOS Trixie base 打了一版镜像：https://github.com/KevinMX/mkimg-k230
+- RuyiSDK GNU/LLVM 工具链测试
