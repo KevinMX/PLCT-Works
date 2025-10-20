@@ -13,3 +13,5 @@ N/A
 ## 其它内容
 
 RuyiSDK 工具链测试工作。
+
+论坛发帖：https://ruyisdk.cn/t/topic/1737
